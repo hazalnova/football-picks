@@ -133,7 +133,7 @@ table.lines .num { font-family: var(--font-data); font-variant-numeric: tabular-
 .lean b { font-weight: 600; }
 .extra { color: var(--muted); font-size: .84rem; border-top: 1px dashed var(--line); padding-top: 8px; }
 .graded { display: flex; flex-wrap: wrap; gap: 6px; }
-.res { font-size: .78rem; font-weight: 600; border-radius: 999px; padding: 2px 9px; border: 1px solid currentColor; }
+.res { font-size: .78rem; font-weight: 600; border-radius: 999px; padding: 2px 9px; border: 1px solid currentColor; white-space: nowrap; line-height: 1.4; }
 .res.win { color: var(--win); }
 .res.loss { color: var(--loss); }
 .res.push, .res.none { color: var(--push); }
@@ -166,6 +166,47 @@ table.data tr:last-child td { border-bottom: 0; }
 .range .span { position: absolute; top: 0; bottom: 0; background: var(--model-soft); border-radius: 999px; }
 .range .mid { position: absolute; top: -3px; bottom: -3px; width: 2px; background: var(--model); }
 .player small { color: var(--muted); }
+
+/* Top picks */
+.callout { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--flag); border-radius: var(--radius); padding: 12px 16px; margin: 4px 0 6px; max-width: 900px; }
+.callout ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; font-size: .9rem; }
+.lists { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 14px; align-items: start; }
+.list-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px 6px; min-width: 0; }
+.list-card h3 { font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; letter-spacing: .05em; text-transform: uppercase; margin: 0 0 4px; text-wrap: balance; }
+.list-card .how { color: var(--muted); font-size: .84rem; margin: 0 0 8px; }
+.list-card .nothing { color: var(--muted); font-size: .88rem; border-top: 1px solid var(--line); padding: 10px 0; margin: 0; }
+.picks-list { list-style: none; margin: 0; padding: 0; }
+.pick { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 3px 12px; padding: 10px 0; border-top: 1px solid var(--line); }
+.pick .what { font-weight: 600; overflow-wrap: anywhere; }
+.pick .when { color: var(--muted); font-size: .8rem; }
+.pick .chance { font-family: var(--font-data); font-weight: 500; font-size: 1.05rem; text-align: right; color: var(--model); font-variant-numeric: tabular-nums; }
+.pick .detail { grid-column: 1 / -1; color: var(--muted); font-size: .8rem; display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; }
+.meter { grid-column: 1 / -1; height: 5px; background: var(--sunken); border-radius: 999px; overflow: hidden; border: 1px solid var(--line); }
+.meter span { display: block; height: 100%; background: var(--model); opacity: .8; }
+.pick .ai-note { grid-column: 1 / -1; font-size: .84rem; background: var(--sunken); border-radius: 6px; padding: 5px 8px; }
+.tag { font-size: .72rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; border-radius: 999px; padding: 1px 8px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; line-height: 1.5; }
+table.data.fit { min-width: 0; }
+table.data.fit td:first-child { white-space: normal; }
+@media (max-width: 480px) { table.data.fit th, table.data.fit td { padding: 8px 8px; } }
+.tag.good { color: var(--win); border-color: currentColor; }
+.tag.news { background: var(--flag); color: var(--flag-ink); border-color: var(--flag); }
+.tag.ai { color: var(--model); border-color: currentColor; }
+.ai-block { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 16px; max-width: 900px; }
+.ai-block > p { margin: 0 0 6px; }
+.news-item { padding: 10px 0; border-top: 1px dashed var(--line); display: grid; gap: 3px; }
+.news-item:first-of-type { border-top: 0; padding-top: 4px; }
+.news-item .head { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: baseline; font-weight: 600; }
+.news-item p { margin: 0; font-size: .9rem; }
+.news-item .src { font-size: .8rem; color: var(--muted); overflow-wrap: anywhere; }
+.news-item .src a, .lesson a { color: var(--model); }
+.lesson { padding: 10px 0; border-top: 1px dashed var(--line); display: grid; gap: 4px; }
+.lesson:first-of-type { border-top: 0; }
+.lesson p { margin: 0; font-size: .9rem; }
+.lesson .ev { color: var(--muted); font-size: .84rem; }
+.past { margin-top: 10px; }
+.past summary { cursor: pointer; color: var(--model); font-weight: 600; }
+.card .news-line { color: var(--ink); font-size: .84rem; display: flex; gap: 6px; align-items: baseline; }
+.card .news-line a { color: var(--model); }
 
 /* Empty and load states */
 .empty { background: var(--surface); border: 1px dashed var(--line); border-radius: var(--radius); padding: 22px; color: var(--muted); max-width: 70ch; }
@@ -203,19 +244,21 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
 <main class="wrap">
   <nav class="tabs" role="tablist" aria-label="Sections">
     <button type="button" role="tab" id="tab-week" data-tab="week" aria-selected="true">This week</button>
+    <button type="button" role="tab" id="tab-top" data-tab="top" aria-selected="false">Top picks</button>
     <button type="button" role="tab" id="tab-record" data-tab="record" aria-selected="false">How we're doing</button>
     <button type="button" role="tab" id="tab-props" data-tab="props" aria-selected="false">Player props</button>
   </nav>
   <div class="meta" id="meta"></div>
 
   <section id="view-week" role="tabpanel" aria-labelledby="tab-week"></section>
+  <section id="view-top" role="tabpanel" aria-labelledby="tab-top" hidden></section>
   <section id="view-record" role="tabpanel" aria-labelledby="tab-record" hidden></section>
   <section id="view-props" role="tabpanel" aria-labelledby="tab-props" hidden></section>
 
   <div class="drop" id="drop" hidden>
     <strong>Load this week's data</strong>
-    <p class="note" style="margin: 6px auto 0">This page reads <code>nfl.json</code> and <code>cfb.json</code> from its own folder. Browsers don't allow that
-      when the page is opened straight from your computer, so drop the two files from your <code>app_data</code> folder here instead.</p>
+    <p class="note" style="margin: 6px auto 0">This page reads <code>nfl.json</code> and <code>cfb.json</code> from its own folder, plus <code>top_picks.json</code> and <code>ai_notes.json</code> when they're there.
+      Browsers don't allow that when the page is opened straight from your computer, so drop the files from your <code>app_data</code> folder here instead.</p>
     <label class="btn" for="file-input">Choose files</label>
     <input type="file" id="file-input" accept=".json,application/json" multiple>
     <p class="note" id="drop-msg" style="margin: 10px auto 0"></p>
@@ -225,6 +268,7 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
 <footer>
   <div class="wrap">
     <p>For fans and research, not betting advice. In testing on past seasons, the model's picks against the spread won about half the time, below the 52.4% needed to profit at standard odds.</p>
+    <p>AI notes are written by Claude from web searches. They can be wrong or out of date, so check the links. The AI adds notes only; it never changes a pick.</p>
     <p>Data: nflverse, sportsdataverse and CollegeFootballData. Current college lines come from ESPN.</p>
   </div>
 </footer>
@@ -233,7 +277,8 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
 (() => {
   const STAT_NAMES = { passing_yards: "Passing yards", rushing_yards: "Rushing yards", receiving_yards: "Receiving yards", receptions: "Receptions" };
   const BIG_GAP = 3;          // points between model and Vegas that earn a flag
-  const state = { data: {}, league: "NFL", tab: "week", search: "", conference: "", linedOnly: true, propStat: "passing_yards", propSearch: "" };
+  const state = { data: {}, top: null, ai: null, league: "NFL", tab: "week", search: "", conference: "", linedOnly: true, propStat: "passing_yards", propSearch: "" };
+  const VIEWS = ["week", "top", "record", "props"];
 
   const store = {
     get(k) { try { return localStorage.getItem("linecheck." + k); } catch (e) { return null; } },
@@ -248,6 +293,10 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
   const plain = (x) => String(Math.round(x * 10) / 10);                      // 2.5 -> "2.5", 7 -> "7"
   const signed = (x) => (x === 0 ? "PK" : (x > 0 ? "+" : "−") + plain(Math.abs(x)));
   const pct = (p) => Math.round(p * 100) + "%";
+  const pct1 = (p) => (p * 100).toFixed(1) + "%";
+  const odds = (a) => (a > 0 ? "+" + a : "−" + Math.abs(a));                    // American odds
+  const payText = (a) => (a > 0 ? `$100 wins $${a}` : `bet $${Math.abs(a)} to win $100`);
+  const breakEven = (a) => 1 / (1 + (a > 0 ? a / 100 : 100 / -a));
   const timeFmt = new Intl.DateTimeFormat(undefined, { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit", timeZoneName: "short" });
   const dayFmt = new Intl.DateTimeFormat(undefined, { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
   const when = (iso) => timeFmt.format(new Date(iso));
@@ -282,8 +331,8 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
 
   // ---------- data loading ----------
   async function loadDefault() {
-    const files = { NFL: "nfl.json", College: "cfb.json" };    // in the same folder as this page
-    await Promise.all(Object.entries(files).map(async ([league, path]) => {
+    const files = ["nfl.json", "cfb.json", "top_picks.json", "ai_notes.json"];    // in the same folder as this page
+    await Promise.all(files.map(async (path) => {
       try {
         const r = await fetch(path, { cache: "no-store" });
         if (r.ok) accept(await r.json());
@@ -291,6 +340,8 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
     }));
   }
   function accept(d) {
+    if (d && d.kind === "top_picks" && d.leagues) { state.top = d; return true; }
+    if (d && d.kind === "ai_notes" && d.leagues) { state.ai = d; return true; }
     if (!d || !Array.isArray(d.games)) return false;
     const league = d.league === "College" ? "College" : "NFL";
     d.games.forEach((g) => (g.league = league));
@@ -320,22 +371,25 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
     const have = Object.keys(state.data);
     document.getElementById("drop").hidden = have.length > 0;
     if (!have.length) {
-      ["week", "record", "props"].forEach((t) => (document.getElementById("view-" + t).innerHTML = ""));
+      VIEWS.forEach((t) => (document.getElementById("view-" + t).innerHTML = ""));
       document.getElementById("meta").innerHTML = "";
       return;
     }
     if (!state.data[state.league]) state.league = have[0];
     const d = state.data[state.league];
     const hasProps = Array.isArray(d.props) && d.props.length > 0;
+    const top = topFor(state.league);
     if (state.tab === "props" && !hasProps) state.tab = "week";
+    if (state.tab === "top" && !top) state.tab = "week";
 
     document.querySelectorAll(".seg button").forEach((b) => {
       b.setAttribute("aria-pressed", String(b.dataset.league === state.league));
       b.disabled = !state.data[b.dataset.league];
     });
     document.getElementById("tab-props").hidden = !hasProps;
+    document.getElementById("tab-top").hidden = !top;
     document.querySelectorAll(".tabs button").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.tab === state.tab)));
-    ["week", "record", "props"].forEach((t) => (document.getElementById("view-" + t).hidden = t !== state.tab));
+    VIEWS.forEach((t) => (document.getElementById("view-" + t).hidden = t !== state.tab));
 
     const updated = d.updated ? dayFmt.format(new Date(d.updated)) : "";
     document.getElementById("meta").innerHTML =
@@ -343,6 +397,7 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
       (updated ? `<span>Updated ${esc(updated)}</span>` : "") + `<span>Times are shown in your time zone</span>`;
 
     if (state.tab === "week") renderWeek(d);
+    if (state.tab === "top") renderTop(top);
     if (state.tab === "record") renderRecord(d);
     if (state.tab === "props") renderProps(d);
   }
@@ -395,6 +450,9 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
     if (conf) conf.addEventListener("change", () => { state.conference = conf.value; renderWeek(d); });
     const only = document.getElementById("lined-only");
     if (only) only.addEventListener("change", () => { state.linedOnly = only.checked; renderWeek(d); });
+    view.querySelectorAll("[data-top-news]").forEach((a) => a.addEventListener("click", (e) => {
+      e.preventDefault(); state.tab = "top"; store.set("tab", state.tab); render(); window.scrollTo(0, 0);
+    }));
     view.querySelectorAll("[data-jump]").forEach((b) => b.addEventListener("click", () => {
       state.search = ""; state.conference = ""; state.linedOnly = true;
       renderWeek(d);
@@ -448,6 +506,9 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
     const qbs = g.quarterbacks && (g.quarterbacks.away || g.quarterbacks.home)
       ? `<div class="extra">QBs: ${esc(g.quarterbacks.away || "?")} (${esc(g.away)}) vs. ${esc(g.quarterbacks.home || "?")} (${esc(g.home)})</div>` : "";
     const noLine = v.home_margin == null && v.total == null;
+    const ai = g.status !== "final" ? aiFor(g.league) : null;
+    const news = ai ? ai.news.filter((n) => String(n.game_id) === String(g.id)) : [];
+    const newsHtml = news.map((n) => `<div class="extra news-line"><span class="tag news">News</span><span>${esc(n.headline)} <a href="#" data-top-news="1">More in Top picks</a></span></div>`).join("");
     return `<article class="card ${noLine ? "dim" : ""}" id="game-${esc(g.id)}">
       <div class="card-top"><span>${esc(when(g.kickoff))}</span>${status}</div>
       <div class="matchup">${team("away")}<div class="at">at</div>${team("home")}</div>
@@ -464,6 +525,7 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
       ${leans.length ? `<div class="leans">${leans.map((l) => `<span class="lean ${l.big ? "big" : ""}">Leans ${l.t}</span>`).join("")}</div>` : ""}
       ${gradedHtml}
       ${qbs}
+      ${newsHtml}
     </article>`;
   }
 
@@ -556,6 +618,172 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
     document.getElementById("prop-stat").addEventListener("change", (e) => { state.propStat = e.target.value; renderProps(d); });
     const s = document.getElementById("prop-search");
     s.addEventListener("input", () => { state.propSearch = s.value; const pos = s.selectionStart; renderProps(d); const n = document.getElementById("prop-search"); n.focus(); n.setSelectionRange(pos, pos); });
+  }
+
+  // ---------- top picks and AI notes ----------
+  const LIST_INFO = {
+    likely: { title: "Most likely winners",
+      how: () => "The teams the model gives the best chance to win. Likely isn't the same as a good bet: big favorites pay little, so each one shows its price." },
+    value: { title: "Best value against the sportsbook",
+      how: (s) => `Spreads and totals where the model's chance is furthest above the ${pct1(breakEven(s.standard_price))} a bet at ${odds(s.standard_price)} needs to break even. These chances come from how the model's past disagreements with the sportsbooks really turned out, so they're small and honest. Moneylines are left out: the sportsbooks' win chances tested more accurate than the model's.` },
+    risky: { title: "Risky but possible: underdogs",
+      how: (s) => `Teams the sportsbooks give ${pct(s.underdog_vegas_max)} or less to win that the model gives at least ${pct(s.underdog_model_min)}. They lose more often than not, but pay more when they win.` },
+    props_likely: { title: "Most likely player milestones",
+      how: (s) => `The biggest milestone each player reaches at least ${pct(s.likely_prop_min)} of the time, ${s.props_per_stat} per stat.` },
+    props_risky: { title: "Risky but possible: big games",
+      how: (s) => `Big games, like 300+ passing yards or 100+ receiving yards, that the model gives a ${pct(s.risky_prop[0])}–${pct(s.risky_prop[1])} chance. Usually they fall short, but they're real possibilities.` },
+  };
+  const LIST_ORDER = ["likely", "value", "risky", "props_likely", "props_risky"];
+
+  function topFor(league) {
+    const L = state.top && state.top.leagues && state.top.leagues[league];
+    return L ? { ...L, settings: state.top.settings, updated: state.top.updated } : null;
+  }
+  // The AI's notes for this league, but only when they're for the week the lists are for
+  function aiFor(league) {
+    const A = state.ai && state.ai.leagues && state.ai.leagues[league];
+    const L = topFor(league);
+    if (!A || !L || A.season !== L.season || A.week !== L.week) return null;
+    return { ...A, news: A.news || [], item_notes: A.item_notes || {} };
+  }
+  const safeUrl = (u) => (/^https?:\/\//i.test(u || "") ? u : null);
+  const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return u; } };
+
+  function resultChip(e) {
+    if (!e.result) return "";
+    const had = e.kind === "prop" && e.actual != null ? ` · had ${plain(e.actual)}` : "";
+    if (e.result === "hit") return `<span class="res win">Hit ✓${had}</span>`;
+    if (e.result === "miss") return `<span class="res loss">Miss ✗${had}</span>`;
+    if (e.result === "push") return `<span class="res push">Push</span>`;
+    return `<span class="res none">Void: didn't play</span>`;
+  }
+
+  function pickItem(e, s, ai) {
+    const value = e.list === "value";
+    const bits = [];
+    if (e.vegas_chance != null) bits.push(esc(`Vegas ${pct(e.vegas_chance)}`));
+    if (e.kind === "winner" && e.price != null) bits.push(esc(`${odds(e.price)}: ${payText(e.price)}`));
+    if (value) {
+      bits.push(esc(`needs ${pct1(e.chance - e.edge)} at ${odds(e.price)}`));
+      bits.push(e.edge >= s.min_edge ? `<span class="tag good">Beats break-even</span>` : `<span class="tag">Short of break-even</span>`);
+    }
+    if (e.kind === "prop") bits.push("Model chance only, no sportsbook price");
+    const news = ai ? ai.news.filter((n) => (n.items || []).includes(e.key)) : [];
+    news.forEach((n) => bits.push(`<span class="tag news" title="${esc(n.headline)}">News: ${esc(n.impact)}</span>`));
+    const r = resultChip(e);
+    const note = ai && ai.item_notes[e.key];
+    return `<li class="pick">
+        <div><div class="what">${esc(e.pick)}</div><div class="when">${esc(e.matchup)} · ${esc(dayFmt.format(new Date(e.kickoff)))}</div></div>
+        <div class="chance" aria-label="Model chance">${value ? pct1(e.chance) : pct(e.chance)}</div>
+        <div class="meter" aria-hidden="true"><span style="width:${(100 * e.chance).toFixed(1)}%"></span></div>
+        ${bits.length || r ? `<div class="detail">${bits.join("<span aria-hidden=\"true\">·</span>")}${r}</div>` : ""}
+        ${note ? `<div class="ai-note"><span class="tag ai">AI note</span> ${esc(note)}</div>` : ""}
+      </li>`;
+  }
+
+  function listCards(lists, s, ai, keys, past) {
+    return keys.map((k) => {
+      const items = lists[k] || [];
+      const info = LIST_INFO[k];
+      let none = past ? "Nothing on this list that week." : "Nothing qualifies this week.";
+      if (k === "risky" && !past) none = "No underdog qualifies this week.";
+      const beats = k === "value" && items.length && !items.some((e) => e.edge >= s.min_edge) && !past
+        ? `<p class="how"><b>None of these beat the break-even this week.</b> They're the closest calls, shown so you can see how slim the edge is.</p>` : "";
+      return `<article class="list-card">
+          <h3>${esc(info.title)}</h3>
+          ${past ? "" : `<p class="how">${esc(info.how(s))}</p>`}${beats}
+          ${items.length ? `<ol class="picks-list">${items.map((e) => pickItem(e, s, ai)).join("")}</ol>` : `<p class="nothing">${esc(none)}</p>`}
+        </article>`;
+    }).join("");
+  }
+
+  function newsBlock(league, L) {
+    const ai = aiFor(league);
+    if (!ai) {
+      const any = state.ai && state.ai.leagues && state.ai.leagues[league];
+      return `<div class="ai-block"><p class="note" style="margin:0">${any
+        ? "No news check for this week's lists yet. It runs with the next scheduled update."
+        : "The AI news check isn't running yet. Once it is, news the models can't see, like injuries and quarterback changes, shows up here with links."}</p></div>`;
+    }
+    const picksByKey = {};
+    LIST_ORDER.forEach((k) => (L.lists[k] || []).forEach((e) => (picksByKey[e.key] = e.pick)));
+    const items = ai.news.map((n) => {
+      const affects = (n.items || []).map((k) => picksByKey[k]).filter(Boolean);
+      const game = (state.data[league] && state.data[league].games || []).find((g) => String(g.id) === String(n.game_id));
+      const links = (n.sources || []).map(safeUrl).filter(Boolean)
+        .map((u) => `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(host(u))}</a>`).join(", ");
+      return `<div class="news-item">
+          <div class="head"><span class="tag news">${esc(n.impact)}</span><span>${esc(n.headline)}</span></div>
+          <p>${esc(n.detail)}</p>
+          <div class="src">${game ? esc(`${game.away} at ${game.home}`) + " · " : ""}${affects.length ? "Affects: " + esc(affects.join(", ")) + " · " : ""}Sources: ${links}</div>
+        </div>`;
+    }).join("");
+    return `<div class="ai-block">
+        <p class="note">Checked ${esc(dayFmt.format(new Date(ai.checked)))} by an AI (Claude) searching the web for news the models can't see. It can be wrong or out of date, so check the links.</p>
+        ${items || `<p style="margin:0">Nothing found that changes the picture for this week's lists.</p>`}
+      </div>`;
+  }
+
+  function recordTable(L) {
+    const rows = LIST_ORDER.filter((k) => L.record[k] && (L.record[k].graded || L.record[k].pushes || L.record[k].voids || (L.lists[k] || []).length))
+      .map((k) => {
+        const r = L.record[k];
+        const units = r.units == null ? "–" : (r.units >= 0 ? "+" : "−") + Math.abs(r.units).toFixed(2);
+        return `<tr><td>${esc(LIST_INFO[k].title)}</td><td class="num">${r.graded}</td><td class="num">${r.hits}</td>
+          <td class="num">${r.graded ? r.expected.toFixed(1) : "–"}</td><td class="num">${units}</td></tr>`;
+      }).join("");
+    const any = LIST_ORDER.some((k) => L.record[k] && L.record[k].graded);
+    return `<h2>How the lists are doing</h2>
+      <p class="note">${any ? "This season, graded after each game." : "Nothing graded yet. Each game's entries lock at kickoff and are graded once it's final."}
+        <b>Expected</b> is what the model's chances add up to: if the chances are honest, hits land near it over a season.
+        <b>Units</b> is the profit or loss from betting 1 unit on each pick at its price, with spreads and totals at the standard −110. Pushes and players who didn't play don't count.</p>
+      <div class="scroll"><table class="data fit"><thead><tr><th>List</th><th class="num">Graded</th><th class="num">Hits</th><th class="num">Expected</th><th class="num">Units</th></tr></thead>
+        <tbody>${rows}</tbody></table></div>`;
+  }
+
+  function lessonsBlock(league) {
+    const A = state.ai && state.ai.leagues && state.ai.leagues[league];
+    if (!A || (!A.recap && !(A.lessons || []).length)) return "";
+    const lessons = (A.lessons || []).filter((x) => x.status !== "retired");
+    const retired = (A.lessons || []).filter((x) => x.status === "retired");
+    const one = (x) => `<div class="lesson">
+        <div><span class="tag ${x.status === "worth testing" ? "good" : ""}">${esc(x.status)}</span></div>
+        <p>${esc(x.lesson)}</p>
+        <p class="ev">Evidence: ${esc(x.evidence)}</p>
+        ${x.test ? `<p class="ev">How to test it: ${esc(x.test)}</p>` : ""}
+      </div>`;
+    return `<h2>What the AI is watching</h2>
+      <p class="note">After each run, the AI looks at what the models got right and wrong and keeps a short list of patterns.
+        They're ideas to test on past seasons, not changes: the models only change when a test on past seasons says a change helps.</p>
+      <div class="ai-block">
+        ${A.recap ? `<p><b>Latest results:</b> ${esc(A.recap)}</p>` : ""}
+        ${lessons.map(one).join("") || `<p class="note" style="margin:0">No patterns worth noting yet.</p>`}
+        ${retired.length ? `<details class="past"><summary>Retired lessons</summary>${retired.map(one).join("")}</details>` : ""}
+      </div>`;
+  }
+
+  function renderTop(L) {
+    const view = document.getElementById("view-top");
+    if (!L) { view.innerHTML = ""; return; }
+    const s = L.settings;
+    const league = state.league;
+    const ai = aiFor(league);
+    const keys = LIST_ORDER.filter((k) => !k.startsWith("props") || league === "NFL");
+    const past = L.last_week && L.last_week.week != null && keys.some((k) => (L.last_week.lists[k] || []).length);
+    view.innerHTML = `<h2>Top picks</h2>
+      <p class="note">Lists picked from the model's own chances for ${esc(L.week_label || "this week")}. Each one is saved before kickoff and graded after the game, so you can see whether "likely" really means likely.</p>
+      <div class="callout"><ul>
+        <li><b>Most likely isn't the same as a good bet.</b> A big favorite pays so little that one loss can wipe out several wins.</li>
+        ${league === "NFL" ? `<li><b>Player milestone chances are the model's alone.</b> Comparing them with sportsbook odds needs a prop odds feed, which isn't connected yet.</li>` : ""}
+        <li><b>Nothing here is betting advice.</b> In testing on past seasons, the model didn't beat the sportsbooks.</li>
+      </ul></div>
+      <h2>News check</h2>
+      ${newsBlock(league, L)}
+      <h2>This week's lists</h2>
+      <div class="lists">${listCards(L.lists, s, ai, keys, false)}</div>
+      ${recordTable(L)}
+      ${past ? `<details class="past"><summary>Week ${esc(L.last_week.week)} lists, graded</summary><div class="lists" style="margin-top:10px">${listCards(L.last_week.lists, s, null, keys, true)}</div></details>` : ""}
+      ${lessonsBlock(league)}`;
   }
 
   // ---------- events ----------

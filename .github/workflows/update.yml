@@ -65,6 +65,10 @@ jobs:
           echo "models=$models" >> "$GITHUB_OUTPUT"
           echo "college=$college" >> "$GITHUB_OUTPUT"
           echo "nfl=$nfl" >> "$GITHUB_OUTPUT"
+          leagues=""
+          [[ "$nfl" == true ]] && leagues="nfl"
+          [[ "$college" == true ]] && leagues="$leagues college"
+          echo "leagues=$leagues" >> "$GITHUB_OUTPUT"
 
       - uses: actions/setup-python@v6
         if: steps.plan.outputs.models == 'true'
@@ -93,6 +97,20 @@ jobs:
         if: steps.plan.outputs.nfl == 'true' && !cancelled()
         working-directory: data
         run: python ../scripts/run_notebook.py ../notebooks/nfl_game_model.ipynb
+
+      - name: Top picks lists
+        if: steps.plan.outputs.models == 'true' && !cancelled()
+        run: python scripts/top_picks.py
+
+      - name: AI news check
+        if: steps.plan.outputs.models == 'true' && !cancelled()
+        continue-on-error: true        # the website still updates if the AI step has a problem
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # without it, this step does nothing
+          LEAGUES: ${{ steps.plan.outputs.leagues }}
+          AI_MODEL: ${{ vars.AI_MODEL }}                        # optional repository variables
+          AI_MAX_SEARCHES: ${{ vars.AI_MAX_SEARCHES }}
+        run: python scripts/ai_notes.py
 
       - name: Save the logs and website data
         if: steps.plan.outputs.models == 'true' && !cancelled()
