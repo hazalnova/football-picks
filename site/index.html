@@ -707,7 +707,10 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
     }
     const picksByKey = {};
     LIST_ORDER.forEach((k) => (L.lists[k] || []).forEach((e) => (picksByKey[e.key] = e.pick)));
-    const items = ai.news.map((n) => {
+    const order = { "hurts the pick": 0, "helps the pick": 1 };
+    const sorted = [...ai.news].sort((x, y) => (order[x.impact] ?? 2) - (order[y.impact] ?? 2));
+    const SHOW = 5;
+    const item = (n) => {
       const affects = (n.items || []).map((k) => picksByKey[k]).filter(Boolean);
       const game = (state.data[league] && state.data[league].games || []).find((g) => String(g.id) === String(n.game_id));
       const links = (n.sources || []).map(safeUrl).filter(Boolean)
@@ -717,7 +720,10 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
           <p>${esc(n.detail)}</p>
           <div class="src">${game ? esc(`${game.away} at ${game.home}`) + " · " : ""}${affects.length ? "Affects: " + esc(affects.join(", ")) + " · " : ""}Sources: ${links}</div>
         </div>`;
-    }).join("");
+    };
+    const rest = sorted.slice(SHOW);
+    const items = sorted.slice(0, SHOW).map(item).join("")
+      + (rest.length ? `<details class="past"><summary>${rest.length} more news note${rest.length > 1 ? "s" : ""}</summary>${rest.map(item).join("")}</details>` : "");
     return `<div class="ai-block">
         <p class="note">Checked ${esc(dayFmt.format(new Date(ai.checked)))} by an AI (Claude) searching the web for news the models can't see. It can be wrong or out of date, so check the links.</p>
         ${items || `<p style="margin:0">Nothing found that changes the picture for this week's lists.</p>`}
