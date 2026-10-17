@@ -1,12 +1,13 @@
 {
  "league": "College",
- "updated": "2026-10-17T18:23-04:00",
+ "updated": "2026-10-17T18:54-04:00",
  "season": 2026,
  "week": 7,
  "week_label": "Week 7",
  "models": {
   "margin": "cfb_margin_v3",
-  "totals": "cfb_totals_v1"
+  "totals": "cfb_totals_v1",
+  "cover": "cover_chance_v1"
  },
  "games": [
   {
@@ -23,7 +24,8 @@
     "home_margin": -5.0,
     "home_win": 0.377,
     "total": 52.9,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -52,7 +54,8 @@
     "home_margin": 4.5,
     "home_win": 0.611,
     "total": 46.1,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -81,7 +84,8 @@
     "home_margin": -0.8,
     "home_win": 0.479,
     "total": 53.1,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -110,7 +114,8 @@
     "home_margin": -3.7,
     "home_win": 0.409,
     "total": 53.0,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -139,7 +144,8 @@
     "home_margin": -5.6,
     "home_win": 0.364,
     "total": 50.4,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -168,7 +174,8 @@
     "home_margin": -0.1,
     "home_win": 0.497,
     "total": 46.5,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -197,7 +204,8 @@
     "home_margin": 19.0,
     "home_win": 0.88,
     "total": 68.9,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -226,7 +234,8 @@
     "home_margin": -6.1,
     "home_win": 0.353,
     "total": 50.5,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -255,7 +264,8 @@
     "home_margin": 0.7,
     "home_win": 0.518,
     "total": 55.5,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -284,7 +294,8 @@
     "home_margin": -2.5,
     "home_win": 0.439,
     "total": 49.9,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -313,7 +324,8 @@
     "home_margin": 15.5,
     "home_win": 0.833,
     "total": 63.3,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -342,7 +354,8 @@
     "home_margin": 16.8,
     "home_win": 0.852,
     "total": 56.2,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -371,7 +384,8 @@
     "home_margin": -1.4,
     "home_win": 0.466,
     "total": 63.0,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -400,7 +414,8 @@
     "home_margin": 7.4,
     "home_win": 0.678,
     "total": 55.8,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -429,7 +444,8 @@
     "home_margin": 39.5,
     "home_win": 0.993,
     "total": 47.5,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -458,7 +474,8 @@
     "home_margin": -12.4,
     "home_win": 0.221,
     "total": 48.7,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -487,7 +504,8 @@
     "home_margin": 8.3,
     "home_win": 0.697,
     "total": 51.3,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -516,7 +534,8 @@
     "home_margin": -2.9,
     "home_win": 0.429,
     "total": 50.4,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -545,7 +564,8 @@
     "home_margin": -6.9,
     "home_win": 0.334,
     "total": 51.2,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -574,7 +594,8 @@
     "home_margin": 9.1,
     "home_win": 0.714,
     "total": 54.7,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -603,7 +624,8 @@
     "home_margin": 8.6,
     "home_win": 0.703,
     "total": 50.5,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -632,7 +654,8 @@
     "home_margin": 15.7,
     "home_win": 0.835,
     "total": 59.3,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -661,7 +684,8 @@
     "home_margin": 4.2,
     "home_win": 0.603,
     "total": 60.6,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -690,7 +714,8 @@
     "home_margin": 37.4,
     "home_win": 0.99,
     "total": 51.1,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -719,7 +744,8 @@
     "home_margin": 22.5,
     "home_win": 0.919,
     "total": 50.8,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -748,7 +774,8 @@
     "home_margin": 11.3,
     "home_win": 0.759,
     "total": 50.1,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -777,7 +804,8 @@
     "home_margin": -8.8,
     "home_win": 0.293,
     "total": 45.3,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -806,7 +834,8 @@
     "home_margin": 23.0,
     "home_win": 0.923,
     "total": 49.2,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -832,7 +861,8 @@
     "home_margin": 6.0,
     "home_win": 0.646,
     "total": 57.1,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -858,7 +888,8 @@
     "home_margin": -9.4,
     "home_win": 0.28,
     "total": 56.6,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -884,7 +915,8 @@
     "home_margin": 17.6,
     "home_win": 0.862,
     "total": 52.7,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -899,7 +931,7 @@
   {
    "id": 401858264,
    "kickoff": "2026-10-17T15:30:00-04:00",
-   "status": "in_progress",
+   "status": "final",
    "away": "Georgia Tech",
    "home": "Virginia Tech",
    "away_conference": "ACC",
@@ -910,7 +942,8 @@
     "home_margin": 7.8,
     "home_win": 0.686,
     "total": 54.3,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -920,7 +953,10 @@
     "home_moneyline": null,
     "away_moneyline": null
    },
-   "final": null
+   "final": {
+    "away": 24,
+    "home": 34
+   }
   },
   {
    "id": 401858266,
@@ -936,7 +972,8 @@
     "home_margin": 9.8,
     "home_win": 0.729,
     "total": 52.4,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -962,7 +999,8 @@
     "home_margin": 9.6,
     "home_win": 0.723,
     "total": 48.7,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -988,7 +1026,8 @@
     "home_margin": 7.5,
     "home_win": 0.678,
     "total": 41.1,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -1003,7 +1042,7 @@
   {
    "id": 401864524,
    "kickoff": "2026-10-17T15:30:00-04:00",
-   "status": "in_progress",
+   "status": "final",
    "away": "UNLV",
    "home": "Air Force",
    "away_conference": "Mountain West",
@@ -1014,7 +1053,8 @@
     "home_margin": 3.8,
     "home_win": 0.594,
     "total": 48.5,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -1024,7 +1064,10 @@
     "home_moneyline": null,
     "away_moneyline": null
    },
-   "final": null
+   "final": {
+    "away": 31,
+    "home": 41
+   }
   },
   {
    "id": 401866444,
@@ -1039,8 +1082,9 @@
    "model": {
     "home_margin": -7.4,
     "home_win": 0.322,
-    "total": 53.4,
-    "over": null
+    "total": 53.5,
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -1055,7 +1099,7 @@
   {
    "id": 401866478,
    "kickoff": "2026-10-17T15:30:00-04:00",
-   "status": "in_progress",
+   "status": "final",
    "away": "Akron",
    "home": "Miami (OH)",
    "away_conference": "Mid-American",
@@ -1065,8 +1109,9 @@
    "model": {
     "home_margin": 11.1,
     "home_win": 0.754,
-    "total": 52.4,
-    "over": null
+    "total": 52.5,
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -1076,7 +1121,10 @@
     "home_moneyline": null,
     "away_moneyline": null
    },
-   "final": null
+   "final": {
+    "away": 14,
+    "home": 34
+   }
   },
   {
    "id": 401862805,
@@ -1091,8 +1139,9 @@
    "model": {
     "home_margin": 0.2,
     "home_win": 0.504,
-    "total": 49.6,
-    "over": null
+    "total": 49.7,
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -1118,7 +1167,8 @@
     "home_margin": 3.1,
     "home_win": 0.577,
     "total": 51.1,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -1144,7 +1194,8 @@
     "home_margin": 16.5,
     "home_win": 0.847,
     "total": 51.6,
-    "over": null
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
     "home_margin": null,
@@ -1170,7 +1221,8 @@
     "home_margin": 5.5,
     "home_win": 0.633,
     "total": 54.0,
-    "over": 0.497
+    "over": 0.497,
+    "home_cover": 0.495
    },
    "vegas": {
     "home_margin": 5.5,
@@ -1196,15 +1248,16 @@
     "home_margin": 6.5,
     "home_win": 0.656,
     "total": 50.3,
-    "over": 0.493
+    "over": 0.493,
+    "home_cover": 0.494
    },
    "vegas": {
     "home_margin": 4.0,
-    "home_win": 0.637,
+    "home_win": 0.622,
     "total": 50.5,
     "over": 0.504,
-    "home_moneyline": -198.0,
-    "away_moneyline": 164.0
+    "home_moneyline": -185.0,
+    "away_moneyline": 154.0
    },
    "final": null
   },
@@ -1222,7 +1275,8 @@
     "home_margin": 20.9,
     "home_win": 0.903,
     "total": 54.8,
-    "over": 0.491
+    "over": 0.492,
+    "home_cover": 0.494
    },
    "vegas": {
     "home_margin": 19.5,
@@ -1248,7 +1302,8 @@
     "home_margin": 20.5,
     "home_win": 0.899,
     "total": 49.7,
-    "over": 0.495
+    "over": 0.495,
+    "home_cover": 0.495
    },
    "vegas": {
     "home_margin": 20.5,
@@ -1273,8 +1328,9 @@
    "model": {
     "home_margin": 9.8,
     "home_win": 0.728,
-    "total": 43.9,
-    "over": 0.494
+    "total": 44.0,
+    "over": 0.494,
+    "home_cover": 0.498
    },
    "vegas": {
     "home_margin": 14.5,
@@ -1300,7 +1356,8 @@
     "home_margin": -0.2,
     "home_win": 0.494,
     "total": 60.7,
-    "over": 0.492
+    "over": 0.492,
+    "home_cover": 0.492
    },
    "vegas": {
     "home_margin": -5.5,
@@ -1326,13 +1383,14 @@
     "home_margin": 8.2,
     "home_win": 0.696,
     "total": 50.8,
-    "over": 0.498
+    "over": 0.498,
+    "home_cover": 0.494
    },
    "vegas": {
     "home_margin": 6.5,
     "home_win": 0.691,
     "total": 43.5,
-    "over": 0.496,
+    "over": 0.511,
     "home_moneyline": -258.0,
     "away_moneyline": 210.0
    },
@@ -1352,15 +1410,16 @@
     "home_margin": -6.6,
     "home_win": 0.342,
     "total": 53.5,
-    "over": 0.498
+    "over": 0.498,
+    "home_cover": 0.493
    },
    "vegas": {
     "home_margin": -10.5,
-    "home_win": 0.234,
+    "home_win": 0.228,
     "total": 46.5,
     "over": 0.511,
-    "home_moneyline": 310.0,
-    "away_moneyline": -395.0
+    "home_moneyline": 320.0,
+    "away_moneyline": -410.0
    },
    "final": null
   },
@@ -1378,15 +1437,16 @@
     "home_margin": 14.2,
     "home_win": 0.811,
     "total": 56.6,
-    "over": 0.488
+    "over": 0.488,
+    "home_cover": 0.489
    },
    "vegas": {
     "home_margin": 4.0,
-    "home_win": 0.631,
+    "home_win": 0.622,
     "total": 62.5,
-    "over": 0.5,
-    "home_moneyline": -192.0,
-    "away_moneyline": 160.0
+    "over": 0.489,
+    "home_moneyline": -185.0,
+    "away_moneyline": 154.0
    },
    "final": null
   },
@@ -1404,7 +1464,8 @@
     "home_margin": 12.3,
     "home_win": 0.778,
     "total": 53.9,
-    "over": 0.492
+    "over": 0.492,
+    "home_cover": 0.507
    },
    "vegas": {
     "home_margin": 34.5,
@@ -1430,7 +1491,8 @@
     "home_margin": -13.1,
     "home_win": 0.208,
     "total": 58.1,
-    "over": 0.495
+    "over": 0.495,
+    "home_cover": 0.494
    },
    "vegas": {
     "home_margin": -14.5,
@@ -1456,7 +1518,8 @@
     "home_margin": 9.9,
     "home_win": 0.73,
     "total": 46.3,
-    "over": 0.496
+    "over": 0.496,
+    "home_cover": 0.49
    },
    "vegas": {
     "home_margin": 1.5,
@@ -1482,7 +1545,8 @@
     "home_margin": 9.3,
     "home_win": 0.718,
     "total": 54.1,
-    "over": 0.492
+    "over": 0.492,
+    "home_cover": 0.494
    },
    "vegas": {
     "home_margin": 6.5,
@@ -1508,7 +1572,8 @@
     "home_margin": -17.8,
     "home_win": 0.134,
     "total": 58.6,
-    "over": 0.494
+    "over": 0.494,
+    "home_cover": 0.497
    },
    "vegas": {
     "home_margin": -13.5,
@@ -1534,10 +1599,11 @@
     "home_margin": -9.3,
     "home_win": 0.281,
     "total": 54.7,
-    "over": 0.5
+    "over": 0.5,
+    "home_cover": 0.497
    },
    "vegas": {
-    "home_margin": -7.0,
+    "home_margin": -6.5,
     "home_win": 0.295,
     "total": 45.5,
     "over": 0.496,
@@ -1560,7 +1626,8 @@
     "home_margin": -13.2,
     "home_win": 0.206,
     "total": 50.0,
-    "over": 0.495
+    "over": 0.495,
+    "home_cover": 0.494
    },
    "vegas": {
     "home_margin": -15.5,
@@ -1586,7 +1653,8 @@
     "home_margin": -23.5,
     "home_win": 0.072,
     "total": 54.0,
-    "over": 0.496
+    "over": 0.496,
+    "home_cover": 0.5
    },
    "vegas": {
     "home_margin": -15.5,
@@ -1612,7 +1680,8 @@
     "home_margin": -11.7,
     "home_win": 0.234,
     "total": 54.8,
-    "over": 0.494
+    "over": 0.494,
+    "home_cover": 0.496
    },
    "vegas": {
     "home_margin": -10.5,
@@ -1638,7 +1707,8 @@
     "home_margin": -11.5,
     "home_win": 0.238,
     "total": 50.4,
-    "over": 0.496
+    "over": 0.496,
+    "home_cover": 0.498
    },
    "vegas": {
     "home_margin": -7.0,
@@ -1664,13 +1734,14 @@
     "home_margin": -14.5,
     "home_win": 0.184,
     "total": 49.8,
-    "over": 0.496
+    "over": 0.496,
+    "home_cover": 0.495
    },
    "vegas": {
     "home_margin": -14.5,
     "home_win": 0.168,
     "total": 45.5,
-    "over": 0.5,
+    "over": 0.504,
     "home_moneyline": 470.0,
     "away_moneyline": -650.0
    },
@@ -1689,8 +1760,9 @@
    "model": {
     "home_margin": 7.3,
     "home_win": 0.676,
-    "total": 57.3,
-    "over": 0.497
+    "total": 57.4,
+    "over": 0.497,
+    "home_cover": 0.495
    },
    "vegas": {
     "home_margin": 7.0,
@@ -1705,64 +1777,139 @@
  ],
  "record": {
   "season": {
-   "games": 25,
+   "games": 28,
    "winners": {
-    "right": 15,
-    "picked": 25
+    "right": 18,
+    "picked": 28
    },
    "ats": {
-    "win": 13,
-    "loss": 9,
+    "win": 15,
+    "loss": 10,
     "push": 2
    },
    "over_under": {
-    "win": 17,
-    "loss": 8,
+    "win": 18,
+    "loss": 9,
     "push": 0
    },
    "spread_miss": {
-    "model": 10.4,
-    "vegas": 10.5,
-    "games": 25
+    "model": 9.9,
+    "vegas": 10.0,
+    "games": 28
    },
    "total_miss": {
-    "model": 12.9,
-    "vegas": 13.6,
-    "games": 25
+    "model": 12.6,
+    "vegas": 13.1,
+    "games": 28
    }
   },
   "weeks": [
    {
     "week": 7,
-    "games": 25,
+    "games": 28,
     "winners": {
-     "right": 15,
-     "picked": 25
+     "right": 18,
+     "picked": 28
     },
     "ats": {
-     "win": 13,
-     "loss": 9,
+     "win": 15,
+     "loss": 10,
      "push": 2
     },
     "over_under": {
-     "win": 17,
-     "loss": 8,
+     "win": 18,
+     "loss": 9,
      "push": 0
     },
     "spread_miss": {
-     "model": 10.4,
-     "vegas": 10.5,
-     "games": 25
+     "model": 9.9,
+     "vegas": 10.0,
+     "games": 28
     },
     "total_miss": {
-     "model": 12.9,
-     "vegas": 13.6,
-     "games": 25
+     "model": 12.6,
+     "vegas": 13.1,
+     "games": 28
     }
    }
   ]
  },
  "results": [
+  {
+   "id": 401866478,
+   "week": 7,
+   "kickoff": "2026-10-17T15:30:00-04:00",
+   "away": "Akron",
+   "home": "Miami (OH)",
+   "final": {
+    "away": 14,
+    "home": 34
+   },
+   "model": {
+    "home_margin": 11.1,
+    "home_win": 0.754,
+    "total": 52.5
+   },
+   "vegas": {
+    "home_margin": 10.0,
+    "total": 46.5
+   },
+   "winner": true,
+   "ats": "win",
+   "over_under": "win",
+   "review": null,
+   "total_review": null
+  },
+  {
+   "id": 401864524,
+   "week": 7,
+   "kickoff": "2026-10-17T15:30:00-04:00",
+   "away": "UNLV",
+   "home": "Air Force",
+   "final": {
+    "away": 31,
+    "home": 41
+   },
+   "model": {
+    "home_margin": 3.8,
+    "home_win": 0.594,
+    "total": 48.5
+   },
+   "vegas": {
+    "home_margin": 1.5,
+    "total": 48.5
+   },
+   "winner": true,
+   "ats": "win",
+   "over_under": "no pick",
+   "review": null,
+   "total_review": null
+  },
+  {
+   "id": 401858264,
+   "week": 7,
+   "kickoff": "2026-10-17T15:30:00-04:00",
+   "away": "Georgia Tech",
+   "home": "Virginia Tech",
+   "final": {
+    "away": 24,
+    "home": 34
+   },
+   "model": {
+    "home_margin": 7.8,
+    "home_win": 0.686,
+    "total": 54.3
+   },
+   "vegas": {
+    "home_margin": 9.5,
+    "total": 57.5
+   },
+   "winner": true,
+   "ats": "loss",
+   "over_under": "loss",
+   "review": null,
+   "total_review": null
+  },
   {
    "id": 401866443,
    "week": 7,

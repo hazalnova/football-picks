@@ -1,13 +1,14 @@
 {
  "league": "NFL",
- "updated": "2026-10-17T18:23-04:00",
+ "updated": "2026-10-17T18:54-04:00",
  "season": 2026,
  "week": 6,
  "week_label": "Week 6",
  "models": {
   "margin": "elo_qb_rest_v1",
   "totals": "totals_v1",
-  "props": "props_v1"
+  "props": "props_v1",
+  "cover": "cover_chance_v1"
  },
  "games": [
   {
@@ -23,7 +24,8 @@
     "home_margin": 1.1,
     "home_win": 0.533,
     "total": 41.7,
-    "over": 0.502
+    "over": 0.502,
+    "home_cover": 0.51
    },
    "vegas": {
     "home_margin": -2.5,
@@ -55,7 +57,8 @@
     "home_margin": 4.0,
     "home_win": 0.617,
     "total": 43.0,
-    "over": 0.497
+    "over": 0.497,
+    "home_cover": 0.497
    },
    "vegas": {
     "home_margin": 2.5,
@@ -84,7 +87,8 @@
     "home_margin": -5.1,
     "home_win": 0.35,
     "total": 45.4,
-    "over": 0.537
+    "over": 0.537,
+    "home_cover": 0.477
    },
    "vegas": {
     "home_margin": -3.0,
@@ -113,15 +117,16 @@
     "home_margin": 2.0,
     "home_win": 0.559,
     "total": 44.1,
-    "over": 0.527
+    "over": 0.527,
+    "home_cover": 0.517
    },
    "vegas": {
     "home_margin": -3.0,
-    "home_win": 0.396,
+    "home_win": 0.391,
     "total": 39.5,
     "over": 0.483,
-    "home_moneyline": 142,
-    "away_moneyline": -170
+    "home_moneyline": 145,
+    "away_moneyline": -175
    },
    "quarterbacks": {
     "away": "Bryce Young",
@@ -142,7 +147,8 @@
     "home_margin": -0.4,
     "home_win": 0.487,
     "total": 46.2,
-    "over": 0.447
+    "over": 0.447,
+    "home_cover": 0.495
    },
    "vegas": {
     "home_margin": -1.5,
@@ -171,7 +177,8 @@
     "home_margin": 5.4,
     "home_win": 0.658,
     "total": 45.1,
-    "over": 0.483
+    "over": 0.483,
+    "home_cover": 0.529
    },
    "vegas": {
     "home_margin": -1.5,
@@ -200,7 +207,8 @@
     "home_margin": 10.5,
     "home_win": 0.785,
     "total": 42.4,
-    "over": 0.485
+    "over": 0.485,
+    "home_cover": 0.506
    },
    "vegas": {
     "home_margin": 7.5,
@@ -229,7 +237,8 @@
     "home_margin": -0.7,
     "home_win": 0.478,
     "total": 42.2,
-    "over": 0.52
+    "over": 0.52,
+    "home_cover": 0.499
    },
    "vegas": {
     "home_margin": -2.5,
@@ -258,7 +267,8 @@
     "home_margin": 9.3,
     "home_win": 0.757,
     "total": 41.6,
-    "over": 0.472
+    "over": 0.472,
+    "home_cover": 0.502
    },
    "vegas": {
     "home_margin": 7.0,
@@ -287,7 +297,8 @@
     "home_margin": 9.8,
     "home_win": 0.768,
     "total": 50.2,
-    "over": 0.483
+    "over": 0.483,
+    "home_cover": 0.474
    },
    "vegas": {
     "home_margin": 12.5,
@@ -316,7 +327,8 @@
     "home_margin": -5.6,
     "home_win": 0.337,
     "total": 52.6,
-    "over": 0.486
+    "over": 0.486,
+    "home_cover": 0.488
    },
    "vegas": {
     "home_margin": -5.5,
@@ -345,15 +357,16 @@
     "home_margin": 10.7,
     "home_win": 0.788,
     "total": 42.8,
-    "over": 0.503
+    "over": 0.51,
+    "home_cover": 0.507
    },
    "vegas": {
     "home_margin": 7.5,
-    "home_win": 0.772,
-    "total": 41.5,
-    "over": 0.483,
-    "home_moneyline": -410,
-    "away_moneyline": 320
+    "home_win": 0.777,
+    "total": 40.5,
+    "over": 0.517,
+    "home_moneyline": -425,
+    "away_moneyline": 330
    },
    "quarterbacks": {
     "away": "Justin Herbert",
@@ -374,7 +387,8 @@
     "home_margin": 4.2,
     "home_win": 0.622,
     "total": 50.6,
-    "over": 0.471
+    "over": 0.471,
+    "home_cover": 0.504
    },
    "vegas": {
     "home_margin": 1.5,
@@ -403,15 +417,16 @@
     "home_margin": 11.2,
     "home_win": 0.799,
     "total": 50.6,
-    "over": 0.479
+    "over": 0.479,
+    "home_cover": 0.51
    },
    "vegas": {
     "home_margin": 7.5,
-    "home_win": 0.787,
+    "home_win": 0.791,
     "total": 52.5,
     "over": 0.478,
-    "home_moneyline": -455,
-    "away_moneyline": 350
+    "home_moneyline": -470,
+    "away_moneyline": 360
    },
    "quarterbacks": {
     "away": "Jayden Daniels",
@@ -423,6 +438,7 @@
  "props": [
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0026498",
    "player": "Matthew Stafford",
    "position": "QB",
    "team": "LA",
@@ -433,10 +449,20 @@
    "low": 254.0,
    "high": 356.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.924,
+    "225": 0.857,
+    "250": 0.765,
+    "275": 0.651,
+    "300": 0.514,
+    "325": 0.403,
+    "350": 0.273
+   }
   },
   {
    "game": "2026_06_DAL_GB",
+   "player_id": "00-0033077",
    "player": "Dak Prescott",
    "position": "QB",
    "team": "DAL",
@@ -447,10 +473,20 @@
    "low": 223.0,
    "high": 323.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.851,
+    "225": 0.737,
+    "250": 0.613,
+    "275": 0.494,
+    "300": 0.367,
+    "325": 0.245,
+    "350": 0.156
+   }
   },
   {
    "game": "2026_06_DAL_GB",
+   "player_id": "00-0036264",
    "player": "Jordan Love",
    "position": "QB",
    "team": "GB",
@@ -461,10 +497,20 @@
    "low": 221.0,
    "high": 320.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.841,
+    "225": 0.72,
+    "250": 0.6,
+    "275": 0.478,
+    "300": 0.35,
+    "325": 0.231,
+    "350": 0.147
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0034857",
    "player": "Josh Allen",
    "position": "QB",
    "team": "BUF",
@@ -475,10 +521,20 @@
    "low": 214.0,
    "high": 310.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.815,
+    "225": 0.684,
+    "250": 0.561,
+    "275": 0.436,
+    "300": 0.292,
+    "325": 0.196,
+    "350": 0.115
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0037834",
    "player": "Brock Purdy",
    "position": "QB",
    "team": "SF",
@@ -489,10 +545,20 @@
    "low": 210.0,
    "high": 309.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.8,
+    "225": 0.687,
+    "250": 0.541,
+    "275": 0.405,
+    "300": 0.291,
+    "325": 0.185,
+    "350": 0.111
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0039918",
    "player": "Caleb Williams",
    "position": "QB",
    "team": "CHI",
@@ -503,10 +569,20 @@
    "low": 204.0,
    "high": 300.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.774,
+    "225": 0.648,
+    "250": 0.5,
+    "275": 0.362,
+    "300": 0.25,
+    "325": 0.153,
+    "350": 0.087
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0029604",
    "player": "Kirk Cousins",
    "position": "QB",
    "team": "LV",
@@ -517,10 +593,20 @@
    "low": 203.0,
    "high": 301.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.765,
+    "225": 0.655,
+    "250": 0.512,
+    "275": 0.375,
+    "300": 0.253,
+    "325": 0.161,
+    "350": 0.089
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0039851",
    "player": "Drake Maye",
    "position": "QB",
    "team": "NE",
@@ -531,10 +617,20 @@
    "low": 199.0,
    "high": 295.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.747,
+    "225": 0.635,
+    "250": 0.484,
+    "275": 0.339,
+    "300": 0.227,
+    "325": 0.14,
+    "350": 0.077
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0040743",
    "player": "Tyler Shough",
    "position": "QB",
    "team": "NO",
@@ -545,10 +641,20 @@
    "low": 188.0,
    "high": 289.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.687,
+    "225": 0.552,
+    "250": 0.426,
+    "275": 0.307,
+    "300": 0.221,
+    "325": 0.148,
+    "350": 0.091
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0039917",
    "player": "Michael Penix Jr.",
    "position": "QB",
    "team": "ATL",
@@ -559,10 +665,20 @@
    "low": 187.0,
    "high": 288.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.683,
+    "225": 0.543,
+    "250": 0.419,
+    "275": 0.303,
+    "300": 0.214,
+    "325": 0.139,
+    "350": 0.087
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0039163",
    "player": "C.J. Stroud",
    "position": "QB",
    "team": "HOU",
@@ -573,10 +689,20 @@
    "low": 186.0,
    "high": 287.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.676,
+    "225": 0.539,
+    "250": 0.414,
+    "275": 0.297,
+    "300": 0.211,
+    "325": 0.136,
+    "350": 0.084
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0039150",
    "player": "Bryce Young",
    "position": "QB",
    "team": "CAR",
@@ -587,24 +713,20 @@
    "low": 186.0,
    "high": 286.0,
    "your_line": null,
-   "over_chance": null
-  },
-  {
-   "game": "2026_06_LAC_KC",
-   "player": "Patrick Mahomes",
-   "position": "QB",
-   "team": "KC",
-   "opp": "LAC",
-   "stat": "passing_yards",
-   "projection": 231.9,
-   "line_50_50": 228.9,
-   "low": 178.0,
-   "high": 283.0,
-   "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.672,
+    "225": 0.538,
+    "250": 0.409,
+    "275": 0.293,
+    "300": 0.209,
+    "325": 0.135,
+    "350": 0.082
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0036971",
    "player": "Trevor Lawrence",
    "position": "QB",
    "team": "JAX",
@@ -615,10 +737,44 @@
    "low": 177.0,
    "high": 281.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.639,
+    "225": 0.509,
+    "250": 0.389,
+    "275": 0.278,
+    "300": 0.178,
+    "325": 0.113,
+    "350": 0.069
+   }
+  },
+  {
+   "game": "2026_06_LAC_KC",
+   "player_id": "00-0033873",
+   "player": "Patrick Mahomes",
+   "position": "QB",
+   "team": "KC",
+   "opp": "LAC",
+   "stat": "passing_yards",
+   "projection": 229.5,
+   "line_50_50": 226.5,
+   "low": 176.0,
+   "high": 280.0,
+   "your_line": null,
+   "over_chance": null,
+   "milestones": {
+    "200": 0.634,
+    "225": 0.508,
+    "250": 0.387,
+    "275": 0.275,
+    "300": 0.175,
+    "325": 0.109,
+    "350": 0.068
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0033119",
    "player": "Jacoby Brissett",
    "position": "QB",
    "team": "ARI",
@@ -629,10 +785,20 @@
    "low": 176.0,
    "high": 280.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.634,
+    "225": 0.507,
+    "250": 0.387,
+    "275": 0.275,
+    "300": 0.175,
+    "325": 0.107,
+    "350": 0.068
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0035710",
    "player": "Daniel Jones",
    "position": "QB",
    "team": "IND",
@@ -643,10 +809,20 @@
    "low": 175.0,
    "high": 278.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.626,
+    "225": 0.497,
+    "250": 0.374,
+    "275": 0.264,
+    "300": 0.163,
+    "325": 0.103,
+    "350": 0.064
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0031503",
    "player": "Jameis Winston",
    "position": "QB",
    "team": "NYG",
@@ -657,10 +833,20 @@
    "low": 173.0,
    "high": 272.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.628,
+    "225": 0.509,
+    "250": 0.375,
+    "275": 0.232,
+    "300": 0.144,
+    "325": 0.077,
+    "350": 0.034
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0023459",
    "player": "Aaron Rodgers",
    "position": "QB",
    "team": "PIT",
@@ -671,10 +857,20 @@
    "low": 169.0,
    "high": 266.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.606,
+    "225": 0.485,
+    "250": 0.341,
+    "275": 0.213,
+    "300": 0.124,
+    "325": 0.065,
+    "350": 0.031
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0039910",
    "player": "Jayden Daniels",
    "position": "QB",
    "team": "WAS",
@@ -685,10 +881,20 @@
    "low": 159.0,
    "high": 253.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.551,
+    "225": 0.407,
+    "250": 0.265,
+    "275": 0.178,
+    "300": 0.115,
+    "325": 0.052,
+    "350": 0.022
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0038400",
    "player": "Tanner McKee",
    "position": "QB",
    "team": "PHI",
@@ -699,10 +905,20 @@
    "low": 152.0,
    "high": 247.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.482,
+    "225": 0.361,
+    "250": 0.235,
+    "275": 0.149,
+    "300": 0.089,
+    "325": 0.053,
+    "350": 0.019
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0040676",
    "player": "Cam Ward",
    "position": "QB",
    "team": "TEN",
@@ -713,10 +929,20 @@
    "low": 148.0,
    "high": 240.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.459,
+    "225": 0.321,
+    "250": 0.205,
+    "275": 0.13,
+    "300": 0.071,
+    "325": 0.042,
+    "350": 0.015
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0030565",
    "player": "Geno Smith",
    "position": "QB",
    "team": "NYJ",
@@ -727,10 +953,20 @@
    "low": 147.0,
    "high": 239.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.452,
+    "225": 0.314,
+    "250": 0.199,
+    "275": 0.124,
+    "300": 0.069,
+    "325": 0.039,
+    "350": 0.013
+   }
   },
   {
    "game": "2026_06_BAL_CLE",
+   "player_id": "00-0033537",
    "player": "Deshaun Watson",
    "position": "QB",
    "team": "CLE",
@@ -741,24 +977,20 @@
    "low": 141.0,
    "high": 244.0,
    "your_line": null,
-   "over_chance": null
-  },
-  {
-   "game": "2026_06_LAC_KC",
-   "player": "Justin Herbert",
-   "position": "QB",
-   "team": "LAC",
-   "opp": "KC",
-   "stat": "passing_yards",
-   "projection": 188.3,
-   "line_50_50": 189.0,
-   "low": 139.0,
-   "high": 241.0,
-   "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.444,
+    "225": 0.337,
+    "250": 0.228,
+    "275": 0.133,
+    "300": 0.084,
+    "325": 0.043,
+    "350": 0.025
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0041251",
    "player": "Jalon Daniels",
    "position": "QB",
    "team": "TB",
@@ -769,10 +1001,44 @@
    "low": 138.0,
    "high": 239.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "200": 0.422,
+    "225": 0.307,
+    "250": 0.21,
+    "275": 0.128,
+    "300": 0.07,
+    "325": 0.033,
+    "350": 0.019
+   }
+  },
+  {
+   "game": "2026_06_LAC_KC",
+   "player_id": "00-0036355",
+   "player": "Justin Herbert",
+   "position": "QB",
+   "team": "LAC",
+   "opp": "KC",
+   "stat": "passing_yards",
+   "projection": 185.9,
+   "line_50_50": 186.5,
+   "low": 137.0,
+   "high": 238.0,
+   "your_line": null,
+   "over_chance": null,
+   "milestones": {
+    "200": 0.42,
+    "225": 0.305,
+    "250": 0.206,
+    "275": 0.124,
+    "300": 0.069,
+    "325": 0.033,
+    "350": 0.019
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0039075",
    "player": "Puka Nacua",
    "position": "WR",
    "team": "LA",
@@ -783,10 +1049,22 @@
    "low": 54.0,
    "high": 125.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.851,
+    "50": 0.782,
+    "60": 0.709,
+    "70": 0.627,
+    "80": 0.543,
+    "90": 0.47,
+    "100": 0.396,
+    "125": 0.248,
+    "150": 0.144
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0037238",
    "player": "Drake London",
    "position": "WR",
    "team": "ATL",
@@ -797,10 +1075,22 @@
    "low": 48.0,
    "high": 110.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.815,
+    "50": 0.733,
+    "60": 0.641,
+    "70": 0.546,
+    "80": 0.463,
+    "90": 0.381,
+    "100": 0.306,
+    "125": 0.172,
+    "150": 0.088
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0037239",
    "player": "Chris Olave",
    "position": "WR",
    "team": "NO",
@@ -811,10 +1101,22 @@
    "low": 47.0,
    "high": 108.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.807,
+    "50": 0.724,
+    "60": 0.63,
+    "70": 0.535,
+    "80": 0.451,
+    "90": 0.369,
+    "100": 0.293,
+    "125": 0.162,
+    "150": 0.079
+   }
   },
   {
    "game": "2026_06_BAL_CLE",
+   "player_id": "00-0039064",
    "player": "Zay Flowers",
    "position": "WR",
    "team": "BAL",
@@ -825,10 +1127,22 @@
    "low": 44.0,
    "high": 101.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.785,
+    "50": 0.693,
+    "60": 0.59,
+    "70": 0.497,
+    "80": 0.407,
+    "90": 0.322,
+    "100": 0.256,
+    "125": 0.133,
+    "150": 0.058
+   }
   },
   {
    "game": "2026_06_DAL_GB",
+   "player_id": "00-0038124",
    "player": "Christian Watson",
    "position": "WR",
    "team": "GB",
@@ -839,10 +1153,22 @@
    "low": 43.0,
    "high": 99.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.779,
+    "50": 0.682,
+    "60": 0.574,
+    "70": 0.482,
+    "80": 0.39,
+    "90": 0.306,
+    "100": 0.243,
+    "125": 0.122,
+    "150": 0.054
+   }
   },
   {
    "game": "2026_06_DAL_GB",
+   "player_id": "00-0036358",
    "player": "CeeDee Lamb",
    "position": "WR",
    "team": "DAL",
@@ -853,10 +1179,22 @@
    "low": 43.0,
    "high": 98.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.777,
+    "50": 0.68,
+    "60": 0.571,
+    "70": 0.478,
+    "80": 0.385,
+    "90": 0.302,
+    "100": 0.241,
+    "125": 0.12,
+    "150": 0.053
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0040124",
    "player": "Tetairoa McMillan",
    "position": "WR",
    "team": "CAR",
@@ -867,10 +1205,22 @@
    "low": 40.0,
    "high": 92.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.75,
+    "50": 0.644,
+    "60": 0.534,
+    "70": 0.44,
+    "80": 0.341,
+    "90": 0.265,
+    "100": 0.203,
+    "125": 0.089,
+    "150": 0.036
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0031381",
    "player": "Davante Adams",
    "position": "WR",
    "team": "LA",
@@ -881,10 +1231,22 @@
    "low": 35.0,
    "high": 92.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.701,
+    "50": 0.599,
+    "60": 0.504,
+    "70": 0.41,
+    "80": 0.321,
+    "90": 0.26,
+    "100": 0.197,
+    "125": 0.095,
+    "150": 0.04
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0039338",
    "player": "Brock Bowers",
    "position": "TE",
    "team": "LV",
@@ -895,10 +1257,22 @@
    "low": 35.0,
    "high": 91.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.7,
+    "50": 0.597,
+    "60": 0.502,
+    "70": 0.409,
+    "80": 0.32,
+    "90": 0.258,
+    "100": 0.196,
+    "125": 0.094,
+    "150": 0.039
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0039337",
    "player": "Malik Nabers",
    "position": "WR",
    "team": "NYG",
@@ -909,10 +1283,22 @@
    "low": 35.0,
    "high": 91.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.699,
+    "50": 0.596,
+    "60": 0.501,
+    "70": 0.408,
+    "80": 0.318,
+    "90": 0.257,
+    "100": 0.195,
+    "125": 0.092,
+    "150": 0.038
+   }
   },
   {
    "game": "2026_06_DAL_GB",
+   "player_id": "00-0037247",
    "player": "George Pickens",
    "position": "WR",
    "team": "DAL",
@@ -923,10 +1309,22 @@
    "low": 35.0,
    "high": 91.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.698,
+    "50": 0.595,
+    "60": 0.5,
+    "70": 0.407,
+    "80": 0.316,
+    "90": 0.256,
+    "100": 0.194,
+    "125": 0.092,
+    "150": 0.038
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0037740",
    "player": "Garrett Wilson",
    "position": "WR",
    "team": "NYJ",
@@ -937,10 +1335,22 @@
    "low": 34.0,
    "high": 90.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.693,
+    "50": 0.59,
+    "60": 0.495,
+    "70": 0.4,
+    "80": 0.309,
+    "90": 0.248,
+    "100": 0.187,
+    "125": 0.087,
+    "150": 0.035
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0037744",
    "player": "Trey McBride",
    "position": "TE",
    "team": "ARI",
@@ -951,10 +1361,22 @@
    "low": 33.0,
    "high": 86.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.674,
+    "50": 0.567,
+    "60": 0.471,
+    "70": 0.374,
+    "80": 0.289,
+    "90": 0.223,
+    "100": 0.166,
+    "125": 0.072,
+    "150": 0.026
+   }
   },
   {
    "game": "2026_06_DAL_GB",
+   "player_id": "00-0040667",
    "player": "Matthew Golden",
    "position": "WR",
    "team": "GB",
@@ -965,10 +1387,22 @@
    "low": 33.0,
    "high": 85.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.672,
+    "50": 0.565,
+    "60": 0.468,
+    "70": 0.371,
+    "80": 0.286,
+    "90": 0.218,
+    "100": 0.164,
+    "125": 0.071,
+    "150": 0.026
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0036912",
    "player": "DeVonta Smith",
    "position": "WR",
    "team": "PHI",
@@ -979,10 +1413,22 @@
    "low": 33.0,
    "high": 85.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.672,
+    "50": 0.564,
+    "60": 0.467,
+    "70": 0.371,
+    "80": 0.284,
+    "90": 0.218,
+    "100": 0.162,
+    "125": 0.07,
+    "150": 0.025
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0036554",
    "player": "Nico Collins",
    "position": "WR",
    "team": "HOU",
@@ -993,10 +1439,22 @@
    "low": 32.0,
    "high": 85.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.669,
+    "50": 0.562,
+    "60": 0.465,
+    "70": 0.367,
+    "80": 0.281,
+    "90": 0.214,
+    "100": 0.159,
+    "125": 0.068,
+    "150": 0.025
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0038559",
    "player": "Michael Wilson",
    "position": "WR",
    "team": "ARI",
@@ -1007,10 +1465,22 @@
    "low": 32.0,
    "high": 84.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.666,
+    "50": 0.56,
+    "60": 0.462,
+    "70": 0.363,
+    "80": 0.279,
+    "90": 0.212,
+    "100": 0.157,
+    "125": 0.066,
+    "150": 0.024
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0031408",
    "player": "Mike Evans",
    "position": "WR",
    "team": "SF",
@@ -1021,10 +1491,22 @@
    "low": 32.0,
    "high": 83.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.66,
+    "50": 0.554,
+    "60": 0.454,
+    "70": 0.352,
+    "80": 0.272,
+    "90": 0.204,
+    "100": 0.151,
+    "125": 0.062,
+    "150": 0.023
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0038606",
    "player": "Parker Washington",
    "position": "WR",
    "team": "JAX",
@@ -1035,10 +1517,22 @@
    "low": 31.0,
    "high": 81.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.643,
+    "50": 0.537,
+    "60": 0.43,
+    "70": 0.327,
+    "80": 0.255,
+    "90": 0.186,
+    "100": 0.135,
+    "125": 0.054,
+    "150": 0.018
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0039491",
    "player": "Jalen Coker",
    "position": "WR",
    "team": "CAR",
@@ -1049,10 +1543,22 @@
    "low": 28.0,
    "high": 75.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.603,
+    "50": 0.483,
+    "60": 0.382,
+    "70": 0.292,
+    "80": 0.217,
+    "90": 0.16,
+    "100": 0.115,
+    "125": 0.043,
+    "150": 0.015
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0040735",
    "player": "Luther Burden III",
    "position": "WR",
    "team": "CHI",
@@ -1063,10 +1569,22 @@
    "low": 28.0,
    "high": 75.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.603,
+    "50": 0.483,
+    "60": 0.381,
+    "70": 0.291,
+    "80": 0.217,
+    "90": 0.16,
+    "100": 0.115,
+    "125": 0.043,
+    "150": 0.015
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0039919",
    "player": "Rome Odunze",
    "position": "WR",
    "team": "CHI",
@@ -1077,24 +1595,22 @@
    "low": 28.0,
    "high": 74.0,
    "your_line": null,
-   "over_chance": null
-  },
-  {
-   "game": "2026_06_LAC_KC",
-   "player": "Travis Kelce",
-   "position": "TE",
-   "team": "KC",
-   "opp": "LAC",
-   "stat": "receiving_yards",
-   "projection": 51.0,
-   "line_50_50": 47.5,
-   "low": 27.0,
-   "high": 74.0,
-   "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.598,
+    "50": 0.479,
+    "60": 0.373,
+    "70": 0.282,
+    "80": 0.213,
+    "90": 0.155,
+    "100": 0.109,
+    "125": 0.04,
+    "150": 0.014
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0035640",
    "player": "DK Metcalf",
    "position": "WR",
    "team": "PIT",
@@ -1105,10 +1621,48 @@
    "low": 27.0,
    "high": 74.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.592,
+    "50": 0.475,
+    "60": 0.366,
+    "70": 0.276,
+    "80": 0.207,
+    "90": 0.15,
+    "100": 0.106,
+    "125": 0.037,
+    "150": 0.013
+   }
+  },
+  {
+   "game": "2026_06_LAC_KC",
+   "player_id": "00-0030506",
+   "player": "Travis Kelce",
+   "position": "TE",
+   "team": "KC",
+   "opp": "LAC",
+   "stat": "receiving_yards",
+   "projection": 50.6,
+   "line_50_50": 47.1,
+   "low": 27.0,
+   "high": 73.0,
+   "your_line": null,
+   "over_chance": null,
+   "milestones": {
+    "40": 0.591,
+    "50": 0.473,
+    "60": 0.363,
+    "70": 0.275,
+    "80": 0.204,
+    "90": 0.148,
+    "100": 0.104,
+    "125": 0.037,
+    "150": 0.013
+   }
   },
   {
    "game": "2026_06_BAL_CLE",
+   "player_id": "00-0041037",
    "player": "Denzel Boston",
    "position": "WR",
    "team": "CLE",
@@ -1119,10 +1673,22 @@
    "low": 27.0,
    "high": 73.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.589,
+    "50": 0.47,
+    "60": 0.361,
+    "70": 0.272,
+    "80": 0.201,
+    "90": 0.146,
+    "100": 0.103,
+    "125": 0.036,
+    "150": 0.012
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0037838",
    "player": "Isaiah Likely",
    "position": "TE",
    "team": "NYG",
@@ -1133,10 +1699,22 @@
    "low": 27.0,
    "high": 72.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.584,
+    "50": 0.466,
+    "60": 0.356,
+    "70": 0.268,
+    "80": 0.196,
+    "90": 0.143,
+    "100": 0.101,
+    "125": 0.034,
+    "150": 0.011
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0041438",
    "player": "Carnell Tate",
    "position": "WR",
    "team": "TEN",
@@ -1147,10 +1725,22 @@
    "low": 27.0,
    "high": 72.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.583,
+    "50": 0.465,
+    "60": 0.355,
+    "70": 0.267,
+    "80": 0.195,
+    "90": 0.142,
+    "100": 0.1,
+    "125": 0.034,
+    "150": 0.011
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0035659",
    "player": "Terry McLaurin",
    "position": "WR",
    "team": "WAS",
@@ -1161,10 +1751,22 @@
    "low": 27.0,
    "high": 71.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.579,
+    "50": 0.458,
+    "60": 0.351,
+    "70": 0.264,
+    "80": 0.192,
+    "90": 0.139,
+    "100": 0.095,
+    "125": 0.032,
+    "150": 0.011
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0033288",
    "player": "George Kittle",
    "position": "TE",
    "team": "SF",
@@ -1175,10 +1777,22 @@
    "low": 26.0,
    "high": 71.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.578,
+    "50": 0.455,
+    "60": 0.348,
+    "70": 0.262,
+    "80": 0.191,
+    "90": 0.137,
+    "100": 0.094,
+    "125": 0.032,
+    "150": 0.011
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0037261",
    "player": "Khalil Shakir",
    "position": "WR",
    "team": "BUF",
@@ -1189,10 +1803,22 @@
    "low": 23.0,
    "high": 70.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.543,
+    "50": 0.425,
+    "60": 0.331,
+    "70": 0.25,
+    "80": 0.182,
+    "90": 0.134,
+    "100": 0.098,
+    "125": 0.036,
+    "150": 0.014
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0038997",
    "player": "Josh Downs",
    "position": "WR",
    "team": "IND",
@@ -1203,10 +1829,22 @@
    "low": 23.0,
    "high": 68.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.532,
+    "50": 0.415,
+    "60": 0.317,
+    "70": 0.239,
+    "80": 0.171,
+    "90": 0.125,
+    "100": 0.089,
+    "125": 0.033,
+    "150": 0.013
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0037816",
    "player": "Romeo Doubs",
    "position": "WR",
    "team": "NE",
@@ -1217,10 +1855,22 @@
    "low": 22.0,
    "high": 68.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.531,
+    "50": 0.414,
+    "60": 0.315,
+    "70": 0.238,
+    "80": 0.171,
+    "90": 0.124,
+    "100": 0.088,
+    "125": 0.032,
+    "150": 0.013
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0040128",
    "player": "Tyler Warren",
    "position": "TE",
    "team": "IND",
@@ -1231,10 +1881,22 @@
    "low": 22.0,
    "high": 66.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.515,
+    "50": 0.4,
+    "60": 0.299,
+    "70": 0.225,
+    "80": 0.159,
+    "90": 0.116,
+    "100": 0.082,
+    "125": 0.028,
+    "150": 0.01
+   }
   },
   {
    "game": "2026_06_DAL_GB",
+   "player_id": "00-0038996",
    "player": "Tucker Kraft",
    "position": "TE",
    "team": "GB",
@@ -1245,10 +1907,22 @@
    "low": 22.0,
    "high": 66.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.509,
+    "50": 0.396,
+    "60": 0.296,
+    "70": 0.22,
+    "80": 0.157,
+    "90": 0.114,
+    "100": 0.079,
+    "125": 0.027,
+    "150": 0.01
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0036040",
    "player": "Juwan Johnson",
    "position": "TE",
    "team": "NO",
@@ -1259,10 +1933,22 @@
    "low": 21.0,
    "high": 65.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.499,
+    "50": 0.386,
+    "60": 0.288,
+    "70": 0.21,
+    "80": 0.148,
+    "90": 0.106,
+    "100": 0.073,
+    "125": 0.024,
+    "150": 0.008
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0038117",
    "player": "Wan'Dale Robinson",
    "position": "WR",
    "team": "TEN",
@@ -1273,10 +1959,22 @@
    "low": 21.0,
    "high": 64.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.494,
+    "50": 0.38,
+    "60": 0.282,
+    "70": 0.203,
+    "80": 0.143,
+    "90": 0.102,
+    "100": 0.07,
+    "125": 0.023,
+    "150": 0.008
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0039424",
    "player": "Devaughn Vele",
    "position": "WR",
    "team": "NO",
@@ -1287,24 +1985,48 @@
    "low": 21.0,
    "high": 64.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.492,
+    "50": 0.38,
+    "60": 0.281,
+    "70": 0.202,
+    "80": 0.143,
+    "90": 0.102,
+    "100": 0.069,
+    "125": 0.022,
+    "150": 0.008
+   }
   },
   {
    "game": "2026_06_LAC_KC",
+   "player_id": "00-0039894",
    "player": "Xavier Worthy",
    "position": "WR",
    "team": "KC",
    "opp": "LAC",
    "stat": "receiving_yards",
-   "projection": 43.6,
-   "line_50_50": 39.0,
+   "projection": 43.2,
+   "line_50_50": 38.6,
    "low": 21.0,
-   "high": 63.0,
+   "high": 62.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.481,
+    "50": 0.369,
+    "60": 0.271,
+    "70": 0.193,
+    "80": 0.136,
+    "90": 0.095,
+    "100": 0.062,
+    "125": 0.02,
+    "150": 0.007
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0030279",
    "player": "Keenan Allen",
    "position": "WR",
    "team": "IND",
@@ -1315,10 +2037,22 @@
    "low": 20.0,
    "high": 62.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.476,
+    "50": 0.362,
+    "60": 0.267,
+    "70": 0.188,
+    "80": 0.131,
+    "90": 0.091,
+    "100": 0.06,
+    "125": 0.018,
+    "150": 0.007
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0038563",
    "player": "Tre Tucker",
    "position": "WR",
    "team": "LV",
@@ -1329,10 +2063,22 @@
    "low": 20.0,
    "high": 62.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.475,
+    "50": 0.362,
+    "60": 0.267,
+    "70": 0.187,
+    "80": 0.131,
+    "90": 0.091,
+    "100": 0.06,
+    "125": 0.018,
+    "150": 0.007
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0035719",
    "player": "Deebo Samuel Sr.",
    "position": "WR",
    "team": "SF",
@@ -1343,10 +2089,22 @@
    "low": 17.0,
    "high": 57.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.425,
+    "50": 0.309,
+    "60": 0.224,
+    "70": 0.157,
+    "80": 0.109,
+    "90": 0.068,
+    "100": 0.045,
+    "125": 0.013,
+    "150": 0.003
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0031588",
    "player": "Stefon Diggs",
    "position": "WR",
    "team": "WAS",
@@ -1357,10 +2115,22 @@
    "low": 16.0,
    "high": 56.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.417,
+    "50": 0.303,
+    "60": 0.216,
+    "70": 0.152,
+    "80": 0.099,
+    "90": 0.064,
+    "100": 0.04,
+    "125": 0.012,
+    "150": 0.003
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0038935",
    "player": "Brenton Strange",
    "position": "TE",
    "team": "JAX",
@@ -1371,10 +2141,22 @@
    "low": 16.0,
    "high": 55.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.415,
+    "50": 0.298,
+    "60": 0.213,
+    "70": 0.149,
+    "80": 0.095,
+    "90": 0.063,
+    "100": 0.039,
+    "125": 0.011,
+    "150": 0.003
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0033110",
    "player": "Tyler Higbee",
    "position": "TE",
    "team": "LA",
@@ -1385,10 +2167,22 @@
    "low": 16.0,
    "high": 55.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.415,
+    "50": 0.297,
+    "60": 0.212,
+    "70": 0.149,
+    "80": 0.095,
+    "90": 0.063,
+    "100": 0.039,
+    "125": 0.011,
+    "150": 0.003
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0040126",
    "player": "Colston Loveland",
    "position": "TE",
    "team": "CHI",
@@ -1399,10 +2193,22 @@
    "low": 16.0,
    "high": 55.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.412,
+    "50": 0.294,
+    "60": 0.209,
+    "70": 0.147,
+    "80": 0.093,
+    "90": 0.061,
+    "100": 0.038,
+    "125": 0.011,
+    "150": 0.003
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0038393",
    "player": "Dontayvion Wicks",
    "position": "WR",
    "team": "PHI",
@@ -1413,10 +2219,22 @@
    "low": 16.0,
    "high": 55.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.411,
+    "50": 0.292,
+    "60": 0.208,
+    "70": 0.145,
+    "80": 0.092,
+    "90": 0.06,
+    "100": 0.037,
+    "125": 0.011,
+    "150": 0.003
+   }
   },
   {
    "game": "2026_06_DAL_GB",
+   "player_id": "00-0039410",
    "player": "Ryan Flournoy",
    "position": "WR",
    "team": "DAL",
@@ -1427,10 +2245,22 @@
    "low": 16.0,
    "high": 54.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.405,
+    "50": 0.286,
+    "60": 0.204,
+    "70": 0.142,
+    "80": 0.089,
+    "90": 0.058,
+    "100": 0.036,
+    "125": 0.01,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0041489",
    "player": "Germie Bernard",
    "position": "WR",
    "team": "PIT",
@@ -1441,10 +2271,22 @@
    "low": 16.0,
    "high": 54.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.4,
+    "50": 0.282,
+    "60": 0.198,
+    "70": 0.14,
+    "80": 0.088,
+    "90": 0.055,
+    "100": 0.035,
+    "125": 0.009,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0040129",
    "player": "Emeka Egbuka",
    "position": "WR",
    "team": "TB",
@@ -1455,10 +2297,22 @@
    "low": 16.0,
    "high": 54.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.399,
+    "50": 0.281,
+    "60": 0.197,
+    "70": 0.139,
+    "80": 0.087,
+    "90": 0.055,
+    "100": 0.035,
+    "125": 0.009,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0038618",
    "player": "Xavier Hutchinson",
    "position": "WR",
    "team": "HOU",
@@ -1469,10 +2323,22 @@
    "low": 15.0,
    "high": 55.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.402,
+    "50": 0.29,
+    "60": 0.204,
+    "70": 0.14,
+    "80": 0.097,
+    "90": 0.065,
+    "100": 0.045,
+    "125": 0.016,
+    "150": 0.005
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0038933",
    "player": "Dalton Kincaid",
    "position": "TE",
    "team": "BUF",
@@ -1483,10 +2349,22 @@
    "low": 15.0,
    "high": 54.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.402,
+    "50": 0.289,
+    "60": 0.203,
+    "70": 0.14,
+    "80": 0.097,
+    "90": 0.065,
+    "100": 0.045,
+    "125": 0.016,
+    "150": 0.005
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0034827",
    "player": "DJ Moore",
    "position": "WR",
    "team": "BUF",
@@ -1497,10 +2375,22 @@
    "low": 15.0,
    "high": 54.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.401,
+    "50": 0.289,
+    "60": 0.203,
+    "70": 0.139,
+    "80": 0.096,
+    "90": 0.065,
+    "100": 0.045,
+    "125": 0.015,
+    "150": 0.005
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0033090",
    "player": "Hunter Henry",
    "position": "TE",
    "team": "NE",
@@ -1511,10 +2401,22 @@
    "low": 15.0,
    "high": 54.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.398,
+    "50": 0.288,
+    "60": 0.199,
+    "70": 0.138,
+    "80": 0.095,
+    "90": 0.064,
+    "100": 0.045,
+    "125": 0.015,
+    "150": 0.005
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0032464",
    "player": "Kalif Raymond",
    "position": "WR",
    "team": "CHI",
@@ -1525,10 +2427,22 @@
    "low": 15.0,
    "high": 54.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.394,
+    "50": 0.285,
+    "60": 0.198,
+    "70": 0.135,
+    "80": 0.094,
+    "90": 0.063,
+    "100": 0.043,
+    "125": 0.014,
+    "150": 0.004
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0034960",
    "player": "Jakobi Meyers",
    "position": "WR",
    "team": "JAX",
@@ -1539,10 +2453,22 @@
    "low": 14.0,
    "high": 52.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.38,
+    "50": 0.27,
+    "60": 0.185,
+    "70": 0.125,
+    "80": 0.083,
+    "90": 0.058,
+    "100": 0.038,
+    "125": 0.012,
+    "150": 0.003
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0034351",
    "player": "Dallas Goedert",
    "position": "TE",
    "team": "PHI",
@@ -1553,10 +2479,22 @@
    "low": 14.0,
    "high": 52.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.377,
+    "50": 0.266,
+    "60": 0.181,
+    "70": 0.123,
+    "80": 0.082,
+    "90": 0.056,
+    "100": 0.037,
+    "125": 0.012,
+    "150": 0.003
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0037228",
    "player": "Jaylen Warren",
    "position": "RB",
    "team": "PIT",
@@ -1567,10 +2505,22 @@
    "low": 14.0,
    "high": 52.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.376,
+    "50": 0.266,
+    "60": 0.181,
+    "70": 0.122,
+    "80": 0.081,
+    "90": 0.055,
+    "100": 0.036,
+    "125": 0.012,
+    "150": 0.003
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0039901",
    "player": "Keon Coleman",
    "position": "WR",
    "team": "BUF",
@@ -1581,24 +2531,22 @@
    "low": 14.0,
    "high": 51.0,
    "your_line": null,
-   "over_chance": null
-  },
-  {
-   "game": "2026_06_LAC_KC",
-   "player": "Ladd McConkey",
-   "position": "WR",
-   "team": "LAC",
-   "opp": "KC",
-   "stat": "receiving_yards",
-   "projection": 35.3,
-   "line_50_50": 30.0,
-   "low": 14.0,
-   "high": 51.0,
-   "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.371,
+    "50": 0.261,
+    "60": 0.177,
+    "70": 0.119,
+    "80": 0.08,
+    "90": 0.053,
+    "100": 0.036,
+    "125": 0.011,
+    "150": 0.003
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0033921",
    "player": "Chris Godwin Jr.",
    "position": "WR",
    "team": "TB",
@@ -1609,10 +2557,22 @@
    "low": 14.0,
    "high": 51.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.37,
+    "50": 0.259,
+    "60": 0.175,
+    "70": 0.118,
+    "80": 0.079,
+    "90": 0.052,
+    "100": 0.035,
+    "125": 0.01,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0036894",
    "player": "Pat Freiermuth",
    "position": "TE",
    "team": "PIT",
@@ -1623,10 +2583,22 @@
    "low": 14.0,
    "high": 51.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.37,
+    "50": 0.259,
+    "60": 0.175,
+    "70": 0.118,
+    "80": 0.079,
+    "90": 0.052,
+    "100": 0.035,
+    "125": 0.01,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0033307",
    "player": "Kendrick Bourne",
    "position": "WR",
    "team": "ARI",
@@ -1637,10 +2609,48 @@
    "low": 14.0,
    "high": 51.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.369,
+    "50": 0.257,
+    "60": 0.173,
+    "70": 0.116,
+    "80": 0.078,
+    "90": 0.051,
+    "100": 0.033,
+    "125": 0.01,
+    "150": 0.002
+   }
+  },
+  {
+   "game": "2026_06_LAC_KC",
+   "player_id": "00-0039915",
+   "player": "Ladd McConkey",
+   "position": "WR",
+   "team": "LAC",
+   "opp": "KC",
+   "stat": "receiving_yards",
+   "projection": 35.0,
+   "line_50_50": 29.7,
+   "low": 14.0,
+   "high": 51.0,
+   "your_line": null,
+   "over_chance": null,
+   "milestones": {
+    "40": 0.368,
+    "50": 0.256,
+    "60": 0.173,
+    "70": 0.116,
+    "80": 0.077,
+    "90": 0.051,
+    "100": 0.033,
+    "125": 0.01,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0034383",
    "player": "Dalton Schultz",
    "position": "TE",
    "team": "HOU",
@@ -1651,10 +2661,22 @@
    "low": 14.0,
    "high": 50.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.365,
+    "50": 0.254,
+    "60": 0.172,
+    "70": 0.115,
+    "80": 0.076,
+    "90": 0.05,
+    "100": 0.033,
+    "125": 0.009,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0038129",
    "player": "Cade Otton",
    "position": "TE",
    "team": "TB",
@@ -1665,10 +2687,22 @@
    "low": 14.0,
    "high": 50.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.363,
+    "50": 0.253,
+    "60": 0.172,
+    "70": 0.114,
+    "80": 0.076,
+    "90": 0.05,
+    "100": 0.032,
+    "125": 0.009,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0036970",
    "player": "Kyle Pitts",
    "position": "TE",
    "team": "ATL",
@@ -1679,10 +2713,22 @@
    "low": 13.0,
    "high": 50.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.357,
+    "50": 0.246,
+    "60": 0.165,
+    "70": 0.11,
+    "80": 0.072,
+    "90": 0.047,
+    "100": 0.029,
+    "125": 0.009,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_BAL_CLE",
+   "player_id": "00-0036550",
    "player": "Rashod Bateman",
    "position": "WR",
    "team": "BAL",
@@ -1693,10 +2739,22 @@
    "low": 13.0,
    "high": 49.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.353,
+    "50": 0.243,
+    "60": 0.162,
+    "70": 0.108,
+    "80": 0.071,
+    "90": 0.046,
+    "100": 0.029,
+    "125": 0.009,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_BAL_CLE",
+   "player_id": "00-0040663",
    "player": "Harold Fannin Jr.",
    "position": "TE",
    "team": "CLE",
@@ -1707,10 +2765,22 @@
    "low": 13.0,
    "high": 49.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.347,
+    "50": 0.237,
+    "60": 0.158,
+    "70": 0.104,
+    "80": 0.067,
+    "90": 0.045,
+    "100": 0.026,
+    "125": 0.009,
+    "150": 0.001
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0040122",
    "player": "Ashton Jeanty",
    "position": "RB",
    "team": "LV",
@@ -1721,24 +2791,48 @@
    "low": 13.0,
    "high": 49.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.344,
+    "50": 0.236,
+    "60": 0.157,
+    "70": 0.102,
+    "80": 0.066,
+    "90": 0.044,
+    "100": 0.026,
+    "125": 0.009,
+    "150": 0.001
+   }
   },
   {
    "game": "2026_06_LAC_KC",
+   "player_id": "00-0038544",
    "player": "Quentin Johnston",
    "position": "WR",
    "team": "LAC",
    "opp": "KC",
    "stat": "receiving_yards",
-   "projection": 33.5,
-   "line_50_50": 26.5,
-   "low": 12.0,
-   "high": 49.0,
+   "projection": 33.2,
+   "line_50_50": 26.2,
+   "low": 11.0,
+   "high": 48.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.328,
+    "50": 0.233,
+    "60": 0.155,
+    "70": 0.101,
+    "80": 0.063,
+    "90": 0.041,
+    "100": 0.027,
+    "125": 0.008,
+    "150": 0.003
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0038621",
    "player": "DeMario Douglas",
    "position": "WR",
    "team": "NE",
@@ -1749,10 +2843,22 @@
    "low": 11.0,
    "high": 48.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.325,
+    "50": 0.231,
+    "60": 0.153,
+    "70": 0.099,
+    "80": 0.062,
+    "90": 0.04,
+    "100": 0.026,
+    "125": 0.007,
+    "150": 0.003
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0031610",
    "player": "Darren Waller",
    "position": "TE",
    "team": "CAR",
@@ -1763,10 +2869,22 @@
    "low": 11.0,
    "high": 47.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.318,
+    "50": 0.223,
+    "60": 0.147,
+    "70": 0.093,
+    "80": 0.059,
+    "90": 0.038,
+    "100": 0.025,
+    "125": 0.007,
+    "150": 0.003
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0032951",
    "player": "Laquon Treadwell",
    "position": "WR",
    "team": "IND",
@@ -1777,10 +2895,22 @@
    "low": 11.0,
    "high": 47.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.318,
+    "50": 0.223,
+    "60": 0.147,
+    "70": 0.093,
+    "80": 0.059,
+    "90": 0.038,
+    "100": 0.025,
+    "125": 0.007,
+    "150": 0.003
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0038542",
    "player": "Bijan Robinson",
    "position": "RB",
    "team": "ATL",
@@ -1791,10 +2921,22 @@
    "low": 11.0,
    "high": 47.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.317,
+    "50": 0.222,
+    "60": 0.145,
+    "70": 0.092,
+    "80": 0.058,
+    "90": 0.037,
+    "100": 0.024,
+    "125": 0.007,
+    "150": 0.003
+   }
   },
   {
    "game": "2026_06_BAL_CLE",
+   "player_id": "00-0034753",
    "player": "Mark Andrews",
    "position": "TE",
    "team": "BAL",
@@ -1805,10 +2947,22 @@
    "low": 11.0,
    "high": 47.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.316,
+    "50": 0.22,
+    "60": 0.144,
+    "70": 0.09,
+    "80": 0.057,
+    "90": 0.036,
+    "100": 0.023,
+    "125": 0.007,
+    "150": 0.003
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0033280",
    "player": "Christian McCaffrey",
    "position": "RB",
    "team": "SF",
@@ -1819,10 +2973,22 @@
    "low": 11.0,
    "high": 46.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.307,
+    "50": 0.209,
+    "60": 0.135,
+    "70": 0.085,
+    "80": 0.05,
+    "90": 0.032,
+    "100": 0.021,
+    "125": 0.006,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0039066",
    "player": "Michael Mayer",
    "position": "TE",
    "team": "LV",
@@ -1833,10 +2999,22 @@
    "low": 11.0,
    "high": 45.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.301,
+    "50": 0.205,
+    "60": 0.131,
+    "70": 0.08,
+    "80": 0.047,
+    "90": 0.031,
+    "100": 0.019,
+    "125": 0.006,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_BAL_CLE",
+   "player_id": "00-0041547",
    "player": "KC Concepcion",
    "position": "WR",
    "team": "CLE",
@@ -1847,10 +3025,22 @@
    "low": 10.0,
    "high": 44.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.295,
+    "50": 0.198,
+    "60": 0.126,
+    "70": 0.075,
+    "80": 0.044,
+    "90": 0.03,
+    "100": 0.018,
+    "125": 0.005,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0040024",
    "player": "Darius Cooper",
    "position": "WR",
    "team": "PHI",
@@ -1861,10 +3051,22 @@
    "low": 10.0,
    "high": 44.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.294,
+    "50": 0.196,
+    "60": 0.125,
+    "70": 0.074,
+    "80": 0.044,
+    "90": 0.029,
+    "100": 0.018,
+    "125": 0.005,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0038608",
    "player": "Kayshon Boutte",
    "position": "WR",
    "team": "HOU",
@@ -1875,10 +3077,22 @@
    "low": 10.0,
    "high": 44.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.291,
+    "50": 0.193,
+    "60": 0.124,
+    "70": 0.073,
+    "80": 0.043,
+    "90": 0.029,
+    "100": 0.017,
+    "125": 0.005,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0037840",
    "player": "Kyren Williams",
    "position": "RB",
    "team": "LA",
@@ -1889,10 +3103,22 @@
    "low": 10.0,
    "high": 43.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.287,
+    "50": 0.187,
+    "60": 0.12,
+    "70": 0.069,
+    "80": 0.041,
+    "90": 0.027,
+    "100": 0.016,
+    "125": 0.005,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_BAL_CLE",
+   "player_id": "00-0036407",
    "player": "Jerry Jeudy",
    "position": "WR",
    "team": "CLE",
@@ -1903,10 +3129,22 @@
    "low": 9.0,
    "high": 41.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.257,
+    "50": 0.177,
+    "60": 0.125,
+    "70": 0.085,
+    "80": 0.056,
+    "90": 0.036,
+    "100": 0.021,
+    "125": 0.006,
+    "150": 0.001
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0040563",
    "player": "Efton Chism III",
    "position": "WR",
    "team": "NE",
@@ -1917,10 +3155,22 @@
    "low": 9.0,
    "high": 41.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.255,
+    "50": 0.176,
+    "60": 0.124,
+    "70": 0.083,
+    "80": 0.054,
+    "90": 0.034,
+    "100": 0.02,
+    "125": 0.006,
+    "150": 0.001
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0039451",
    "player": "Isaiah Williams",
    "position": "WR",
    "team": "NYJ",
@@ -1931,10 +3181,22 @@
    "low": 9.0,
    "high": 41.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.255,
+    "50": 0.175,
+    "60": 0.124,
+    "70": 0.082,
+    "80": 0.054,
+    "90": 0.034,
+    "100": 0.02,
+    "125": 0.006,
+    "150": 0.001
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0040138",
    "player": "Jaylin Noel",
    "position": "WR",
    "team": "HOU",
@@ -1945,10 +3207,22 @@
    "low": 9.0,
    "high": 40.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.253,
+    "50": 0.173,
+    "60": 0.123,
+    "70": 0.081,
+    "80": 0.053,
+    "90": 0.032,
+    "100": 0.02,
+    "125": 0.006,
+    "150": 0.001
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0037809",
    "player": "Chig Okonkwo",
    "position": "TE",
    "team": "WAS",
@@ -1959,10 +3233,22 @@
    "low": 9.0,
    "high": 40.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.252,
+    "50": 0.172,
+    "60": 0.121,
+    "70": 0.08,
+    "80": 0.051,
+    "90": 0.032,
+    "100": 0.019,
+    "125": 0.005,
+    "150": 0.001
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0037741",
    "player": "Jahan Dotson",
    "position": "WR",
    "team": "ATL",
@@ -1973,10 +3259,22 @@
    "low": 9.0,
    "high": 40.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.248,
+    "50": 0.17,
+    "60": 0.12,
+    "70": 0.078,
+    "80": 0.05,
+    "90": 0.031,
+    "100": 0.018,
+    "125": 0.005,
+    "150": 0.001
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0040867",
    "player": "Makai Lemon",
    "position": "WR",
    "team": "PHI",
@@ -1987,10 +3285,22 @@
    "low": 8.0,
    "high": 39.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.239,
+    "50": 0.164,
+    "60": 0.112,
+    "70": 0.074,
+    "80": 0.047,
+    "90": 0.029,
+    "100": 0.016,
+    "125": 0.004,
+    "150": 0.001
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0041042",
    "player": "Malachi Fields",
    "position": "WR",
    "team": "NYG",
@@ -2001,10 +3311,22 @@
    "low": 8.0,
    "high": 39.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.238,
+    "50": 0.163,
+    "60": 0.112,
+    "70": 0.074,
+    "80": 0.047,
+    "90": 0.029,
+    "100": 0.015,
+    "125": 0.004,
+    "150": 0.001
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0037614",
    "player": "John Metchie III",
    "position": "WR",
    "team": "CAR",
@@ -2015,10 +3337,22 @@
    "low": 8.0,
    "high": 39.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.237,
+    "50": 0.162,
+    "60": 0.111,
+    "70": 0.073,
+    "80": 0.046,
+    "90": 0.028,
+    "100": 0.015,
+    "125": 0.004,
+    "150": 0.001
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0041032",
    "player": "Kenyon Sadiq",
    "position": "TE",
    "team": "NYJ",
@@ -2029,10 +3363,22 @@
    "low": 8.0,
    "high": 39.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.235,
+    "50": 0.161,
+    "60": 0.11,
+    "70": 0.072,
+    "80": 0.046,
+    "90": 0.027,
+    "100": 0.015,
+    "125": 0.004,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0038558",
    "player": "Darnell Washington",
    "position": "TE",
    "team": "PIT",
@@ -2043,10 +3389,22 @@
    "low": 8.0,
    "high": 38.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.23,
+    "50": 0.158,
+    "60": 0.105,
+    "70": 0.07,
+    "80": 0.045,
+    "90": 0.026,
+    "100": 0.014,
+    "125": 0.004,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0041048",
    "player": "Ted Hurst III",
    "position": "WR",
    "team": "TB",
@@ -2057,10 +3415,22 @@
    "low": 8.0,
    "high": 38.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.227,
+    "50": 0.157,
+    "60": 0.103,
+    "70": 0.068,
+    "80": 0.044,
+    "90": 0.026,
+    "100": 0.014,
+    "125": 0.004,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0041040",
    "player": "Antonio Williams",
    "position": "WR",
    "team": "WAS",
@@ -2071,10 +3441,22 @@
    "low": 8.0,
    "high": 38.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.223,
+    "50": 0.155,
+    "60": 0.103,
+    "70": 0.067,
+    "80": 0.043,
+    "90": 0.025,
+    "100": 0.014,
+    "125": 0.004,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0034837",
    "player": "Calvin Ridley",
    "position": "WR",
    "team": "TEN",
@@ -2085,10 +3467,22 @@
    "low": 8.0,
    "high": 38.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.223,
+    "50": 0.154,
+    "60": 0.103,
+    "70": 0.067,
+    "80": 0.042,
+    "90": 0.024,
+    "100": 0.014,
+    "125": 0.004,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0040170",
    "player": "Elic Ayomanor",
    "position": "WR",
    "team": "TEN",
@@ -2099,10 +3493,22 @@
    "low": 8.0,
    "high": 37.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.217,
+    "50": 0.148,
+    "60": 0.099,
+    "70": 0.063,
+    "80": 0.039,
+    "90": 0.021,
+    "100": 0.012,
+    "125": 0.004,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0036309",
    "player": "Darnell Mooney",
    "position": "WR",
    "team": "NYG",
@@ -2113,10 +3519,22 @@
    "low": 8.0,
    "high": 37.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.216,
+    "50": 0.146,
+    "60": 0.098,
+    "70": 0.062,
+    "80": 0.038,
+    "90": 0.021,
+    "100": 0.012,
+    "125": 0.003,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0039849",
    "player": "Marvin Harrison Jr.",
    "position": "WR",
    "team": "HOU",
@@ -2127,10 +3545,22 @@
    "low": 8.0,
    "high": 37.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.213,
+    "50": 0.145,
+    "60": 0.097,
+    "70": 0.062,
+    "80": 0.038,
+    "90": 0.02,
+    "100": 0.012,
+    "125": 0.003,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0039893",
    "player": "Brian Thomas Jr.",
    "position": "WR",
    "team": "JAX",
@@ -2141,24 +3571,48 @@
    "low": 7.0,
    "high": 36.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.215,
+    "50": 0.145,
+    "60": 0.088,
+    "70": 0.056,
+    "80": 0.036,
+    "90": 0.021,
+    "100": 0.014,
+    "125": 0.004,
+    "150": 0.001
+   }
   },
   {
    "game": "2026_06_LAC_KC",
+   "player_id": "00-0038134",
    "player": "Kenneth Walker III",
    "position": "RB",
    "team": "KC",
    "opp": "LAC",
    "stat": "receiving_yards",
-   "projection": 25.5,
-   "line_50_50": 18.5,
+   "projection": 25.2,
+   "line_50_50": 18.3,
    "low": 7.0,
    "high": 36.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.208,
+    "50": 0.141,
+    "60": 0.086,
+    "70": 0.055,
+    "80": 0.034,
+    "90": 0.02,
+    "100": 0.013,
+    "125": 0.003,
+    "150": 0.001
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0036875",
    "player": "Rhamondre Stevenson",
    "position": "RB",
    "team": "NE",
@@ -2169,10 +3623,22 @@
    "low": 7.0,
    "high": 35.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.205,
+    "50": 0.138,
+    "60": 0.082,
+    "70": 0.053,
+    "80": 0.032,
+    "90": 0.019,
+    "100": 0.013,
+    "125": 0.003,
+    "150": 0.001
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0041100",
    "player": "Josh Cameron",
    "position": "WR",
    "team": "JAX",
@@ -2183,10 +3649,22 @@
    "low": 7.0,
    "high": 35.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.202,
+    "50": 0.136,
+    "60": 0.081,
+    "70": 0.052,
+    "80": 0.031,
+    "90": 0.019,
+    "100": 0.013,
+    "125": 0.003,
+    "150": 0.001
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0040736",
    "player": "Mason Taylor",
    "position": "TE",
    "team": "NYJ",
@@ -2197,10 +3675,22 @@
    "low": 7.0,
    "high": 34.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.198,
+    "50": 0.131,
+    "60": 0.079,
+    "70": 0.049,
+    "80": 0.03,
+    "90": 0.017,
+    "100": 0.011,
+    "125": 0.003,
+    "150": 0.001
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0037291",
    "player": "Jalen Nailor",
    "position": "WR",
    "team": "LV",
@@ -2211,10 +3701,22 @@
    "low": 7.0,
    "high": 34.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.195,
+    "50": 0.129,
+    "60": 0.077,
+    "70": 0.047,
+    "80": 0.028,
+    "90": 0.017,
+    "100": 0.011,
+    "125": 0.003,
+    "150": 0.001
+   }
   },
   {
    "game": "2026_06_DAL_GB",
+   "player_id": "00-0038041",
    "player": "Jake Ferguson",
    "position": "TE",
    "team": "DAL",
@@ -2225,10 +3727,22 @@
    "low": 7.0,
    "high": 33.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.188,
+    "50": 0.118,
+    "60": 0.071,
+    "70": 0.043,
+    "80": 0.025,
+    "90": 0.015,
+    "100": 0.008,
+    "125": 0.002,
+    "150": 0.001
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0036223",
    "player": "Jonathan Taylor",
    "position": "RB",
    "team": "IND",
@@ -2239,10 +3753,22 @@
    "low": 6.0,
    "high": 32.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.179,
+    "50": 0.109,
+    "60": 0.063,
+    "70": 0.037,
+    "80": 0.021,
+    "90": 0.013,
+    "100": 0.007,
+    "125": 0.002,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0040590",
    "player": "Konata Mumpfield",
    "position": "WR",
    "team": "LA",
@@ -2253,10 +3779,22 @@
    "low": 6.0,
    "high": 32.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.177,
+    "50": 0.108,
+    "60": 0.063,
+    "70": 0.037,
+    "80": 0.021,
+    "90": 0.013,
+    "100": 0.007,
+    "125": 0.002,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0036988",
    "player": "Josh Palmer",
    "position": "WR",
    "team": "BUF",
@@ -2267,10 +3805,22 @@
    "low": 6.0,
    "high": 32.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.177,
+    "50": 0.108,
+    "60": 0.063,
+    "70": 0.037,
+    "80": 0.021,
+    "90": 0.013,
+    "100": 0.007,
+    "125": 0.002,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0040705",
    "player": "Chimere Dike",
    "position": "WR",
    "team": "TEN",
@@ -2281,24 +3831,48 @@
    "low": 4.0,
    "high": 30.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.153,
+    "50": 0.094,
+    "60": 0.053,
+    "70": 0.029,
+    "80": 0.017,
+    "90": 0.01,
+    "100": 0.005,
+    "125": 0.001,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_LAC_KC",
+   "player_id": "00-0040189",
    "player": "Oronde Gadsden II",
    "position": "TE",
    "team": "LAC",
    "opp": "KC",
    "stat": "receiving_yards",
-   "projection": 21.0,
-   "line_50_50": 14.4,
+   "projection": 20.8,
+   "line_50_50": 14.3,
    "low": 4.0,
-   "high": 30.0,
+   "high": 29.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.148,
+    "50": 0.087,
+    "60": 0.05,
+    "70": 0.027,
+    "80": 0.016,
+    "90": 0.009,
+    "100": 0.004,
+    "125": 0.001,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0035644",
    "player": "Noah Fant",
    "position": "TE",
    "team": "NO",
@@ -2309,10 +3883,22 @@
    "low": 4.0,
    "high": 29.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.143,
+    "50": 0.081,
+    "60": 0.047,
+    "70": 0.025,
+    "80": 0.015,
+    "90": 0.007,
+    "100": 0.004,
+    "125": 0.0,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0037005",
    "player": "Tommy Tremble",
    "position": "TE",
    "team": "CAR",
@@ -2323,10 +3909,22 @@
    "low": 4.0,
    "high": 28.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.136,
+    "50": 0.077,
+    "60": 0.043,
+    "70": 0.023,
+    "80": 0.013,
+    "90": 0.007,
+    "100": 0.004,
+    "125": 0.0,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0036919",
    "player": "Kenny Gainwell",
    "position": "RB",
    "team": "TB",
@@ -2337,10 +3935,22 @@
    "low": 4.0,
    "high": 28.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.131,
+    "50": 0.073,
+    "60": 0.04,
+    "70": 0.021,
+    "80": 0.012,
+    "90": 0.006,
+    "100": 0.003,
+    "125": 0.0,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0036139",
    "player": "Rico Dowdle",
    "position": "RB",
    "team": "PIT",
@@ -2351,10 +3961,22 @@
    "low": 4.0,
    "high": 28.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.131,
+    "50": 0.073,
+    "60": 0.04,
+    "70": 0.021,
+    "80": 0.012,
+    "90": 0.006,
+    "100": 0.003,
+    "125": 0.0,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_BAL_CLE",
+   "player_id": "00-0040784",
    "player": "Quinshon Judkins",
    "position": "RB",
    "team": "CLE",
@@ -2365,10 +3987,22 @@
    "low": 4.0,
    "high": 27.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.128,
+    "50": 0.072,
+    "60": 0.038,
+    "70": 0.02,
+    "80": 0.011,
+    "90": 0.006,
+    "100": 0.003,
+    "125": 0.0,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0038640",
    "player": "Jalen Brooks",
    "position": "WR",
    "team": "ARI",
@@ -2379,10 +4013,22 @@
    "low": 4.0,
    "high": 26.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.116,
+    "50": 0.061,
+    "60": 0.031,
+    "70": 0.017,
+    "80": 0.009,
+    "90": 0.004,
+    "100": 0.002,
+    "125": 0.0,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0039032",
    "player": "Tyjae Spears",
    "position": "RB",
    "team": "TEN",
@@ -2393,10 +4039,22 @@
    "low": 3.0,
    "high": 25.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.102,
+    "50": 0.05,
+    "60": 0.025,
+    "70": 0.013,
+    "80": 0.006,
+    "90": 0.003,
+    "100": 0.001,
+    "125": 0.0,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0033906",
    "player": "Alvin Kamara",
    "position": "RB",
    "team": "NO",
@@ -2407,10 +4065,22 @@
    "low": 3.0,
    "high": 24.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.101,
+    "50": 0.05,
+    "60": 0.025,
+    "70": 0.013,
+    "80": 0.006,
+    "90": 0.003,
+    "100": 0.001,
+    "125": 0.0,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_DAL_GB",
+   "player_id": "00-0036997",
    "player": "Javonte Williams",
    "position": "RB",
    "team": "DAL",
@@ -2421,10 +4091,22 @@
    "low": 3.0,
    "high": 23.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.087,
+    "50": 0.042,
+    "60": 0.019,
+    "70": 0.01,
+    "80": 0.004,
+    "90": 0.002,
+    "100": 0.0,
+    "125": 0.0,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0041067",
    "player": "Bryce Lance",
    "position": "WR",
    "team": "NO",
@@ -2435,10 +4117,22 @@
    "low": 3.0,
    "high": 23.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.081,
+    "50": 0.038,
+    "60": 0.018,
+    "70": 0.01,
+    "80": 0.004,
+    "90": 0.002,
+    "100": 0.0,
+    "125": 0.0,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0039361",
    "player": "Bucky Irving",
    "position": "RB",
    "team": "TB",
@@ -2449,10 +4143,22 @@
    "low": 3.0,
    "high": 23.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.081,
+    "50": 0.038,
+    "60": 0.018,
+    "70": 0.01,
+    "80": 0.004,
+    "90": 0.002,
+    "100": 0.0,
+    "125": 0.0,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0039075",
    "player": "Puka Nacua",
    "position": "WR",
    "team": "LA",
@@ -2463,10 +4169,21 @@
    "low": 5.0,
    "high": 10.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.904,
+    "4": 0.866,
+    "5": 0.773,
+    "6": 0.641,
+    "7": 0.549,
+    "8": 0.434,
+    "9": 0.325,
+    "10": 0.248
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0037744",
    "player": "Trey McBride",
    "position": "TE",
    "team": "ARI",
@@ -2477,10 +4194,21 @@
    "low": 5.0,
    "high": 9.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.901,
+    "4": 0.839,
+    "5": 0.743,
+    "6": 0.611,
+    "7": 0.486,
+    "8": 0.385,
+    "9": 0.283,
+    "10": 0.193
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0037239",
    "player": "Chris Olave",
    "position": "WR",
    "team": "NO",
@@ -2491,10 +4219,21 @@
    "low": 4.0,
    "high": 8.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.879,
+    "4": 0.768,
+    "5": 0.613,
+    "6": 0.463,
+    "7": 0.344,
+    "8": 0.238,
+    "9": 0.154,
+    "10": 0.091
+   }
   },
   {
    "game": "2026_06_DAL_GB",
+   "player_id": "00-0036358",
    "player": "CeeDee Lamb",
    "position": "WR",
    "team": "DAL",
@@ -2505,10 +4244,21 @@
    "low": 4.0,
    "high": 8.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.87,
+    "4": 0.747,
+    "5": 0.597,
+    "6": 0.445,
+    "7": 0.31,
+    "8": 0.201,
+    "9": 0.129,
+    "10": 0.075
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0039338",
    "player": "Brock Bowers",
    "position": "TE",
    "team": "LV",
@@ -2519,10 +4269,21 @@
    "low": 4.0,
    "high": 7.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.859,
+    "4": 0.733,
+    "5": 0.578,
+    "6": 0.423,
+    "7": 0.29,
+    "8": 0.182,
+    "9": 0.111,
+    "10": 0.06
+   }
   },
   {
    "game": "2026_06_BAL_CLE",
+   "player_id": "00-0039064",
    "player": "Zay Flowers",
    "position": "WR",
    "team": "BAL",
@@ -2533,10 +4294,21 @@
    "low": 4.0,
    "high": 7.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.839,
+    "4": 0.705,
+    "5": 0.54,
+    "6": 0.387,
+    "7": 0.255,
+    "8": 0.16,
+    "9": 0.089,
+    "10": 0.049
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0037740",
    "player": "Garrett Wilson",
    "position": "WR",
    "team": "NYJ",
@@ -2547,10 +4319,21 @@
    "low": 4.0,
    "high": 7.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.82,
+    "4": 0.675,
+    "5": 0.505,
+    "6": 0.361,
+    "7": 0.231,
+    "8": 0.14,
+    "9": 0.075,
+    "10": 0.042
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0039337",
    "player": "Malik Nabers",
    "position": "WR",
    "team": "NYG",
@@ -2561,10 +4344,21 @@
    "low": 4.0,
    "high": 7.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.811,
+    "4": 0.662,
+    "5": 0.495,
+    "6": 0.348,
+    "7": 0.219,
+    "8": 0.133,
+    "9": 0.071,
+    "10": 0.038
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0038559",
    "player": "Michael Wilson",
    "position": "WR",
    "team": "ARI",
@@ -2575,10 +4369,21 @@
    "low": 3.0,
    "high": 7.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.797,
+    "4": 0.636,
+    "5": 0.471,
+    "6": 0.322,
+    "7": 0.198,
+    "8": 0.116,
+    "9": 0.06,
+    "10": 0.032
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0037838",
    "player": "Isaiah Likely",
    "position": "TE",
    "team": "NYG",
@@ -2589,10 +4394,21 @@
    "low": 3.0,
    "high": 7.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.819,
+    "4": 0.674,
+    "5": 0.514,
+    "6": 0.35,
+    "7": 0.223,
+    "8": 0.146,
+    "9": 0.089,
+    "10": 0.051
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0040124",
    "player": "Tetairoa McMillan",
    "position": "WR",
    "team": "CAR",
@@ -2603,10 +4419,21 @@
    "low": 3.0,
    "high": 7.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.809,
+    "4": 0.666,
+    "5": 0.506,
+    "6": 0.341,
+    "7": 0.217,
+    "8": 0.135,
+    "9": 0.082,
+    "10": 0.046
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0040128",
    "player": "Tyler Warren",
    "position": "TE",
    "team": "IND",
@@ -2617,10 +4444,21 @@
    "low": 3.0,
    "high": 7.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.799,
+    "4": 0.658,
+    "5": 0.493,
+    "6": 0.329,
+    "7": 0.209,
+    "8": 0.128,
+    "9": 0.073,
+    "10": 0.041
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0036912",
    "player": "DeVonta Smith",
    "position": "WR",
    "team": "PHI",
@@ -2631,10 +4469,21 @@
    "low": 3.0,
    "high": 7.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.798,
+    "4": 0.656,
+    "5": 0.492,
+    "6": 0.327,
+    "7": 0.207,
+    "8": 0.127,
+    "9": 0.071,
+    "10": 0.04
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0037238",
    "player": "Drake London",
    "position": "WR",
    "team": "ATL",
@@ -2645,10 +4494,21 @@
    "low": 3.0,
    "high": 7.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.794,
+    "4": 0.652,
+    "5": 0.488,
+    "6": 0.323,
+    "7": 0.204,
+    "8": 0.123,
+    "9": 0.07,
+    "10": 0.039
+   }
   },
   {
    "game": "2026_06_DAL_GB",
+   "player_id": "00-0037247",
    "player": "George Pickens",
    "position": "WR",
    "team": "DAL",
@@ -2659,10 +4519,21 @@
    "low": 3.0,
    "high": 6.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.746,
+    "4": 0.588,
+    "5": 0.429,
+    "6": 0.277,
+    "7": 0.174,
+    "8": 0.104,
+    "9": 0.058,
+    "10": 0.03
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0036554",
    "player": "Nico Collins",
    "position": "WR",
    "team": "HOU",
@@ -2673,10 +4544,21 @@
    "low": 3.0,
    "high": 6.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.706,
+    "4": 0.55,
+    "5": 0.392,
+    "6": 0.252,
+    "7": 0.156,
+    "8": 0.09,
+    "9": 0.047,
+    "10": 0.025
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0038117",
    "player": "Wan'Dale Robinson",
    "position": "WR",
    "team": "TEN",
@@ -2687,10 +4569,21 @@
    "low": 3.0,
    "high": 6.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.747,
+    "4": 0.586,
+    "5": 0.417,
+    "6": 0.276,
+    "7": 0.169,
+    "8": 0.098,
+    "9": 0.051,
+    "10": 0.026
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0039491",
    "player": "Jalen Coker",
    "position": "WR",
    "team": "CAR",
@@ -2701,10 +4594,21 @@
    "low": 3.0,
    "high": 6.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.735,
+    "4": 0.576,
+    "5": 0.411,
+    "6": 0.271,
+    "7": 0.166,
+    "8": 0.096,
+    "9": 0.049,
+    "10": 0.023
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0031381",
    "player": "Davante Adams",
    "position": "WR",
    "team": "LA",
@@ -2715,10 +4619,21 @@
    "low": 3.0,
    "high": 6.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.732,
+    "4": 0.57,
+    "5": 0.406,
+    "6": 0.269,
+    "7": 0.163,
+    "8": 0.094,
+    "9": 0.049,
+    "10": 0.023
+   }
   },
   {
    "game": "2026_06_DAL_GB",
+   "player_id": "00-0038124",
    "player": "Christian Watson",
    "position": "WR",
    "team": "GB",
@@ -2729,10 +4644,21 @@
    "low": 3.0,
    "high": 6.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.724,
+    "4": 0.559,
+    "5": 0.397,
+    "6": 0.26,
+    "7": 0.156,
+    "8": 0.091,
+    "9": 0.047,
+    "10": 0.022
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0036040",
    "player": "Juwan Johnson",
    "position": "TE",
    "team": "NO",
@@ -2743,10 +4669,21 @@
    "low": 3.0,
    "high": 6.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.722,
+    "4": 0.557,
+    "5": 0.394,
+    "6": 0.258,
+    "7": 0.155,
+    "8": 0.09,
+    "9": 0.045,
+    "10": 0.022
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0031408",
    "player": "Mike Evans",
    "position": "WR",
    "team": "SF",
@@ -2757,10 +4694,21 @@
    "low": 3.0,
    "high": 6.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.695,
+    "4": 0.532,
+    "5": 0.374,
+    "6": 0.24,
+    "7": 0.145,
+    "8": 0.083,
+    "9": 0.039,
+    "10": 0.019
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0033288",
    "player": "George Kittle",
    "position": "TE",
    "team": "SF",
@@ -2771,10 +4719,21 @@
    "low": 3.0,
    "high": 6.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.658,
+    "4": 0.491,
+    "5": 0.341,
+    "6": 0.219,
+    "7": 0.126,
+    "8": 0.069,
+    "9": 0.035,
+    "10": 0.016
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0030279",
    "player": "Keenan Allen",
    "position": "WR",
    "team": "IND",
@@ -2785,10 +4744,21 @@
    "low": 3.0,
    "high": 6.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.629,
+    "4": 0.462,
+    "5": 0.317,
+    "6": 0.2,
+    "7": 0.11,
+    "8": 0.06,
+    "9": 0.031,
+    "10": 0.013
+   }
   },
   {
    "game": "2026_06_LAC_KC",
+   "player_id": "00-0030506",
    "player": "Travis Kelce",
    "position": "TE",
    "team": "KC",
@@ -2799,10 +4769,21 @@
    "low": 3.0,
    "high": 6.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.621,
+    "4": 0.454,
+    "5": 0.309,
+    "6": 0.195,
+    "7": 0.108,
+    "8": 0.058,
+    "9": 0.03,
+    "10": 0.013
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0040735",
    "player": "Luther Burden III",
    "position": "WR",
    "team": "CHI",
@@ -2813,10 +4794,21 @@
    "low": 3.0,
    "high": 6.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.618,
+    "4": 0.452,
+    "5": 0.306,
+    "6": 0.192,
+    "7": 0.107,
+    "8": 0.057,
+    "9": 0.029,
+    "10": 0.013
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0041438",
    "player": "Carnell Tate",
    "position": "WR",
    "team": "TEN",
@@ -2827,10 +4819,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.695,
+    "4": 0.519,
+    "5": 0.345,
+    "6": 0.214,
+    "7": 0.125,
+    "8": 0.068,
+    "9": 0.033,
+    "10": 0.014
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0037840",
    "player": "Kyren Williams",
    "position": "RB",
    "team": "LA",
@@ -2841,10 +4844,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.681,
+    "4": 0.504,
+    "5": 0.336,
+    "6": 0.205,
+    "7": 0.119,
+    "8": 0.065,
+    "9": 0.031,
+    "10": 0.014
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0039424",
    "player": "Devaughn Vele",
    "position": "WR",
    "team": "NO",
@@ -2855,10 +4869,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.679,
+    "4": 0.502,
+    "5": 0.335,
+    "6": 0.205,
+    "7": 0.119,
+    "8": 0.064,
+    "9": 0.031,
+    "10": 0.014
+   }
   },
   {
    "game": "2026_06_DAL_GB",
+   "player_id": "00-0038996",
    "player": "Tucker Kraft",
    "position": "TE",
    "team": "GB",
@@ -2869,10 +4894,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.671,
+    "4": 0.495,
+    "5": 0.33,
+    "6": 0.201,
+    "7": 0.118,
+    "8": 0.063,
+    "9": 0.03,
+    "10": 0.014
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0038606",
    "player": "Parker Washington",
    "position": "WR",
    "team": "JAX",
@@ -2883,10 +4919,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.668,
+    "4": 0.493,
+    "5": 0.328,
+    "6": 0.2,
+    "7": 0.117,
+    "8": 0.062,
+    "9": 0.029,
+    "10": 0.014
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0033280",
    "player": "Christian McCaffrey",
    "position": "RB",
    "team": "SF",
@@ -2897,10 +4944,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.649,
+    "4": 0.475,
+    "5": 0.312,
+    "6": 0.188,
+    "7": 0.11,
+    "8": 0.058,
+    "9": 0.027,
+    "10": 0.012
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0035640",
    "player": "DK Metcalf",
    "position": "WR",
    "team": "PIT",
@@ -2911,10 +4969,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.636,
+    "4": 0.462,
+    "5": 0.298,
+    "6": 0.183,
+    "7": 0.105,
+    "8": 0.057,
+    "9": 0.027,
+    "10": 0.012
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0037261",
    "player": "Khalil Shakir",
    "position": "WR",
    "team": "BUF",
@@ -2925,10 +4994,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.63,
+    "4": 0.456,
+    "5": 0.291,
+    "6": 0.181,
+    "7": 0.102,
+    "8": 0.056,
+    "9": 0.027,
+    "10": 0.011
+   }
   },
   {
    "game": "2026_06_DAL_GB",
+   "player_id": "00-0040667",
    "player": "Matthew Golden",
    "position": "WR",
    "team": "GB",
@@ -2939,10 +5019,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.614,
+    "4": 0.442,
+    "5": 0.282,
+    "6": 0.174,
+    "7": 0.098,
+    "8": 0.052,
+    "9": 0.024,
+    "10": 0.01
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0038935",
    "player": "Brenton Strange",
    "position": "TE",
    "team": "JAX",
@@ -2953,10 +5044,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.609,
+    "4": 0.437,
+    "5": 0.277,
+    "6": 0.171,
+    "7": 0.097,
+    "8": 0.051,
+    "9": 0.022,
+    "10": 0.009
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0031588",
    "player": "Stefon Diggs",
    "position": "WR",
    "team": "WAS",
@@ -2967,10 +5069,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.6,
+    "4": 0.429,
+    "5": 0.273,
+    "6": 0.167,
+    "7": 0.095,
+    "8": 0.05,
+    "9": 0.022,
+    "10": 0.008
+   }
   },
   {
    "game": "2026_06_BAL_CLE",
+   "player_id": "00-0034753",
    "player": "Mark Andrews",
    "position": "TE",
    "team": "BAL",
@@ -2981,10 +5094,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.586,
+    "4": 0.415,
+    "5": 0.26,
+    "6": 0.161,
+    "7": 0.09,
+    "8": 0.045,
+    "9": 0.02,
+    "10": 0.008
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0040122",
    "player": "Ashton Jeanty",
    "position": "RB",
    "team": "LV",
@@ -2995,10 +5119,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.552,
+    "4": 0.382,
+    "5": 0.24,
+    "6": 0.148,
+    "7": 0.078,
+    "8": 0.039,
+    "9": 0.018,
+    "10": 0.006
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0034383",
    "player": "Dalton Schultz",
    "position": "TE",
    "team": "HOU",
@@ -3009,10 +5144,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.548,
+    "4": 0.378,
+    "5": 0.238,
+    "6": 0.145,
+    "7": 0.078,
+    "8": 0.038,
+    "9": 0.017,
+    "10": 0.006
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0038542",
    "player": "Bijan Robinson",
    "position": "RB",
    "team": "ATL",
@@ -3023,10 +5169,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.536,
+    "4": 0.365,
+    "5": 0.229,
+    "6": 0.137,
+    "7": 0.072,
+    "8": 0.035,
+    "9": 0.016,
+    "10": 0.005
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0034351",
    "player": "Dallas Goedert",
    "position": "TE",
    "team": "PHI",
@@ -3037,10 +5194,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.527,
+    "4": 0.353,
+    "5": 0.22,
+    "6": 0.131,
+    "7": 0.07,
+    "8": 0.033,
+    "9": 0.015,
+    "10": 0.005
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0038997",
    "player": "Josh Downs",
    "position": "WR",
    "team": "IND",
@@ -3051,10 +5219,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.617,
+    "4": 0.426,
+    "5": 0.265,
+    "6": 0.154,
+    "7": 0.089,
+    "8": 0.042,
+    "9": 0.019,
+    "10": 0.008
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0040129",
    "player": "Emeka Egbuka",
    "position": "WR",
    "team": "TB",
@@ -3065,10 +5244,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.616,
+    "4": 0.425,
+    "5": 0.264,
+    "6": 0.154,
+    "7": 0.089,
+    "8": 0.041,
+    "9": 0.019,
+    "10": 0.008
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0040126",
    "player": "Colston Loveland",
    "position": "TE",
    "team": "CHI",
@@ -3079,10 +5269,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.588,
+    "4": 0.402,
+    "5": 0.244,
+    "6": 0.142,
+    "7": 0.081,
+    "8": 0.036,
+    "9": 0.018,
+    "10": 0.007
+   }
   },
   {
    "game": "2026_06_BAL_CLE",
+   "player_id": "00-0040663",
    "player": "Harold Fannin Jr.",
    "position": "TE",
    "team": "CLE",
@@ -3093,10 +5294,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.579,
+    "4": 0.397,
+    "5": 0.24,
+    "6": 0.14,
+    "7": 0.079,
+    "8": 0.036,
+    "9": 0.017,
+    "10": 0.007
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0038129",
    "player": "Cade Otton",
    "position": "TE",
    "team": "TB",
@@ -3107,10 +5319,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.558,
+    "4": 0.37,
+    "5": 0.226,
+    "6": 0.132,
+    "7": 0.074,
+    "8": 0.033,
+    "9": 0.017,
+    "10": 0.006
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0036894",
    "player": "Pat Freiermuth",
    "position": "TE",
    "team": "PIT",
@@ -3121,10 +5344,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.553,
+    "4": 0.367,
+    "5": 0.224,
+    "6": 0.131,
+    "7": 0.073,
+    "8": 0.032,
+    "9": 0.016,
+    "10": 0.005
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0037228",
    "player": "Jaylen Warren",
    "position": "RB",
    "team": "PIT",
@@ -3135,10 +5369,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.535,
+    "4": 0.353,
+    "5": 0.216,
+    "6": 0.125,
+    "7": 0.067,
+    "8": 0.032,
+    "9": 0.015,
+    "10": 0.005
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0035659",
    "player": "Terry McLaurin",
    "position": "WR",
    "team": "WAS",
@@ -3149,10 +5394,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.532,
+    "4": 0.349,
+    "5": 0.213,
+    "6": 0.124,
+    "7": 0.066,
+    "8": 0.032,
+    "9": 0.015,
+    "10": 0.005
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0033921",
    "player": "Chris Godwin Jr.",
    "position": "WR",
    "team": "TB",
@@ -3163,10 +5419,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.518,
+    "4": 0.337,
+    "5": 0.204,
+    "6": 0.118,
+    "7": 0.061,
+    "8": 0.029,
+    "9": 0.014,
+    "10": 0.005
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0033110",
    "player": "Tyler Higbee",
    "position": "TE",
    "team": "LA",
@@ -3177,10 +5444,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.511,
+    "4": 0.33,
+    "5": 0.2,
+    "6": 0.116,
+    "7": 0.059,
+    "8": 0.028,
+    "9": 0.013,
+    "10": 0.005
+   }
   },
   {
    "game": "2026_06_LAC_KC",
+   "player_id": "00-0039894",
    "player": "Xavier Worthy",
    "position": "WR",
    "team": "KC",
@@ -3191,10 +5469,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.499,
+    "4": 0.319,
+    "5": 0.194,
+    "6": 0.112,
+    "7": 0.057,
+    "8": 0.027,
+    "9": 0.012,
+    "10": 0.005
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0032464",
    "player": "Kalif Raymond",
    "position": "WR",
    "team": "CHI",
@@ -3205,10 +5494,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.493,
+    "4": 0.314,
+    "5": 0.19,
+    "6": 0.109,
+    "7": 0.056,
+    "8": 0.026,
+    "9": 0.012,
+    "10": 0.005
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0039066",
    "player": "Michael Mayer",
    "position": "TE",
    "team": "LV",
@@ -3219,10 +5519,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.472,
+    "4": 0.295,
+    "5": 0.177,
+    "6": 0.099,
+    "7": 0.05,
+    "8": 0.024,
+    "9": 0.01,
+    "10": 0.005
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0039919",
    "player": "Rome Odunze",
    "position": "WR",
    "team": "CHI",
@@ -3233,10 +5544,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.454,
+    "4": 0.281,
+    "5": 0.167,
+    "6": 0.094,
+    "7": 0.047,
+    "8": 0.022,
+    "9": 0.009,
+    "10": 0.005
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0038563",
    "player": "Tre Tucker",
    "position": "WR",
    "team": "LV",
@@ -3247,10 +5569,21 @@
    "low": 2.0,
    "high": 5.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.439,
+    "4": 0.268,
+    "5": 0.16,
+    "6": 0.091,
+    "7": 0.044,
+    "8": 0.02,
+    "9": 0.008,
+    "10": 0.005
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0041489",
    "player": "Germie Bernard",
    "position": "WR",
    "team": "PIT",
@@ -3261,10 +5594,21 @@
    "low": 2.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.555,
+    "4": 0.362,
+    "5": 0.223,
+    "6": 0.127,
+    "7": 0.059,
+    "8": 0.032,
+    "9": 0.014,
+    "10": 0.007
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0037816",
    "player": "Romeo Doubs",
    "position": "WR",
    "team": "NE",
@@ -3275,10 +5619,21 @@
    "low": 2.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.527,
+    "4": 0.337,
+    "5": 0.209,
+    "6": 0.114,
+    "7": 0.056,
+    "8": 0.029,
+    "9": 0.012,
+    "10": 0.007
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0033090",
    "player": "Hunter Henry",
    "position": "TE",
    "team": "NE",
@@ -3289,10 +5644,21 @@
    "low": 2.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.52,
+    "4": 0.33,
+    "5": 0.204,
+    "6": 0.112,
+    "7": 0.056,
+    "8": 0.028,
+    "9": 0.012,
+    "10": 0.007
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0036970",
    "player": "Kyle Pitts",
    "position": "TE",
    "team": "ATL",
@@ -3303,10 +5669,21 @@
    "low": 2.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.448,
+    "4": 0.282,
+    "5": 0.169,
+    "6": 0.087,
+    "7": 0.046,
+    "8": 0.023,
+    "9": 0.01,
+    "10": 0.005
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0035719",
    "player": "Deebo Samuel Sr.",
    "position": "WR",
    "team": "SF",
@@ -3317,10 +5694,21 @@
    "low": 2.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.433,
+    "4": 0.273,
+    "5": 0.166,
+    "6": 0.081,
+    "7": 0.044,
+    "8": 0.022,
+    "9": 0.009,
+    "10": 0.005
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0031610",
    "player": "Darren Waller",
    "position": "TE",
    "team": "CAR",
@@ -3331,10 +5719,21 @@
    "low": 2.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.423,
+    "4": 0.267,
+    "5": 0.158,
+    "6": 0.078,
+    "7": 0.043,
+    "8": 0.021,
+    "9": 0.009,
+    "10": 0.005
+   }
   },
   {
    "game": "2026_06_BAL_CLE",
+   "player_id": "00-0041547",
    "player": "KC Concepcion",
    "position": "WR",
    "team": "CLE",
@@ -3345,10 +5744,21 @@
    "low": 2.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.415,
+    "4": 0.261,
+    "5": 0.155,
+    "6": 0.077,
+    "7": 0.042,
+    "8": 0.02,
+    "9": 0.009,
+    "10": 0.004
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0034960",
    "player": "Jakobi Meyers",
    "position": "WR",
    "team": "JAX",
@@ -3359,10 +5769,21 @@
    "low": 2.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.396,
+    "4": 0.247,
+    "5": 0.144,
+    "6": 0.071,
+    "7": 0.038,
+    "8": 0.018,
+    "9": 0.008,
+    "10": 0.004
+   }
   },
   {
    "game": "2026_06_DAL_GB",
+   "player_id": "00-0039410",
    "player": "Ryan Flournoy",
    "position": "WR",
    "team": "DAL",
@@ -3373,10 +5794,21 @@
    "low": 2.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.382,
+    "4": 0.236,
+    "5": 0.137,
+    "6": 0.067,
+    "7": 0.035,
+    "8": 0.015,
+    "9": 0.007,
+    "10": 0.004
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0036875",
    "player": "Rhamondre Stevenson",
    "position": "RB",
    "team": "NE",
@@ -3387,10 +5819,21 @@
    "low": 2.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.381,
+    "4": 0.235,
+    "5": 0.135,
+    "6": 0.066,
+    "7": 0.034,
+    "8": 0.015,
+    "9": 0.007,
+    "10": 0.004
+   }
   },
   {
    "game": "2026_06_BAL_CLE",
+   "player_id": "00-0041037",
    "player": "Denzel Boston",
    "position": "WR",
    "team": "CLE",
@@ -3401,10 +5844,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.5,
+    "4": 0.312,
+    "5": 0.177,
+    "6": 0.094,
+    "7": 0.046,
+    "8": 0.022,
+    "9": 0.01,
+    "10": 0.004
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0039032",
    "player": "Tyjae Spears",
    "position": "RB",
    "team": "TEN",
@@ -3415,10 +5869,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.5,
+    "4": 0.311,
+    "5": 0.176,
+    "6": 0.094,
+    "7": 0.046,
+    "8": 0.022,
+    "9": 0.01,
+    "10": 0.004
+   }
   },
   {
    "game": "2026_06_BAL_CLE",
+   "player_id": "00-0040784",
    "player": "Quinshon Judkins",
    "position": "RB",
    "team": "CLE",
@@ -3429,10 +5894,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.49,
+    "4": 0.306,
+    "5": 0.17,
+    "6": 0.091,
+    "7": 0.044,
+    "8": 0.021,
+    "9": 0.01,
+    "10": 0.004
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0038393",
    "player": "Dontayvion Wicks",
    "position": "WR",
    "team": "PHI",
@@ -3443,10 +5919,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.488,
+    "4": 0.303,
+    "5": 0.168,
+    "6": 0.088,
+    "7": 0.044,
+    "8": 0.021,
+    "9": 0.01,
+    "10": 0.004
+   }
   },
   {
    "game": "2026_06_LAC_KC",
+   "player_id": "00-0038134",
    "player": "Kenneth Walker III",
    "position": "RB",
    "team": "KC",
@@ -3457,10 +5944,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.478,
+    "4": 0.298,
+    "5": 0.163,
+    "6": 0.085,
+    "7": 0.043,
+    "8": 0.02,
+    "9": 0.01,
+    "10": 0.003
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0040736",
    "player": "Mason Taylor",
    "position": "TE",
    "team": "NYJ",
@@ -3471,10 +5969,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.459,
+    "4": 0.279,
+    "5": 0.154,
+    "6": 0.08,
+    "7": 0.038,
+    "8": 0.019,
+    "9": 0.009,
+    "10": 0.003
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0033307",
    "player": "Kendrick Bourne",
    "position": "WR",
    "team": "ARI",
@@ -3485,10 +5994,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.454,
+    "4": 0.276,
+    "5": 0.153,
+    "6": 0.079,
+    "7": 0.038,
+    "8": 0.019,
+    "9": 0.009,
+    "10": 0.003
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0033906",
    "player": "Alvin Kamara",
    "position": "RB",
    "team": "NO",
@@ -3499,10 +6019,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.45,
+    "4": 0.275,
+    "5": 0.152,
+    "6": 0.078,
+    "7": 0.038,
+    "8": 0.018,
+    "9": 0.009,
+    "10": 0.003
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0040867",
    "player": "Makai Lemon",
    "position": "WR",
    "team": "PHI",
@@ -3513,10 +6044,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.443,
+    "4": 0.271,
+    "5": 0.15,
+    "6": 0.077,
+    "7": 0.037,
+    "8": 0.018,
+    "9": 0.009,
+    "10": 0.002
+   }
   },
   {
    "game": "2026_06_DAL_GB",
+   "player_id": "00-0038041",
    "player": "Jake Ferguson",
    "position": "TE",
    "team": "DAL",
@@ -3527,10 +6069,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.419,
+    "4": 0.252,
+    "5": 0.143,
+    "6": 0.07,
+    "7": 0.036,
+    "8": 0.017,
+    "9": 0.008,
+    "10": 0.001
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0036919",
    "player": "Kenny Gainwell",
    "position": "RB",
    "team": "TB",
@@ -3541,10 +6094,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.406,
+    "4": 0.245,
+    "5": 0.138,
+    "6": 0.067,
+    "7": 0.035,
+    "8": 0.016,
+    "9": 0.008,
+    "10": 0.001
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0038618",
    "player": "Xavier Hutchinson",
    "position": "WR",
    "team": "HOU",
@@ -3555,10 +6119,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.386,
+    "4": 0.232,
+    "5": 0.131,
+    "6": 0.063,
+    "7": 0.032,
+    "8": 0.015,
+    "9": 0.007,
+    "10": 0.001
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0034827",
    "player": "DJ Moore",
    "position": "WR",
    "team": "BUF",
@@ -3569,10 +6144,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.373,
+    "4": 0.223,
+    "5": 0.125,
+    "6": 0.061,
+    "7": 0.031,
+    "8": 0.014,
+    "9": 0.007,
+    "10": 0.001
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0037809",
    "player": "Chig Okonkwo",
    "position": "TE",
    "team": "WAS",
@@ -3583,10 +6169,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.353,
+    "4": 0.209,
+    "5": 0.114,
+    "6": 0.057,
+    "7": 0.03,
+    "8": 0.012,
+    "9": 0.006,
+    "10": 0.0
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0038933",
    "player": "Dalton Kincaid",
    "position": "TE",
    "team": "BUF",
@@ -3597,10 +6194,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.327,
+    "4": 0.187,
+    "5": 0.1,
+    "6": 0.05,
+    "7": 0.024,
+    "8": 0.01,
+    "9": 0.005,
+    "10": 0.0
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0041032",
    "player": "Kenyon Sadiq",
    "position": "TE",
    "team": "NYJ",
@@ -3611,10 +6219,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.439,
+    "4": 0.258,
+    "5": 0.141,
+    "6": 0.07,
+    "7": 0.03,
+    "8": 0.013,
+    "9": 0.005,
+    "10": 0.002
+   }
   },
   {
    "game": "2026_06_LAC_KC",
+   "player_id": "00-0039915",
    "player": "Ladd McConkey",
    "position": "WR",
    "team": "LAC",
@@ -3625,10 +6244,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.434,
+    "4": 0.253,
+    "5": 0.139,
+    "6": 0.068,
+    "7": 0.029,
+    "8": 0.013,
+    "9": 0.005,
+    "10": 0.002
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0037614",
    "player": "John Metchie III",
    "position": "WR",
    "team": "CAR",
@@ -3639,10 +6269,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.389,
+    "4": 0.225,
+    "5": 0.121,
+    "6": 0.056,
+    "7": 0.023,
+    "8": 0.01,
+    "9": 0.004,
+    "10": 0.002
+   }
   },
   {
    "game": "2026_06_DAL_GB",
+   "player_id": "00-0036997",
    "player": "Javonte Williams",
    "position": "RB",
    "team": "DAL",
@@ -3653,10 +6294,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.358,
+    "4": 0.204,
+    "5": 0.104,
+    "6": 0.049,
+    "7": 0.02,
+    "8": 0.008,
+    "9": 0.003,
+    "10": 0.001
+   }
   },
   {
    "game": "2026_06_BAL_CLE",
+   "player_id": "00-0036550",
    "player": "Rashod Bateman",
    "position": "WR",
    "team": "BAL",
@@ -3667,10 +6319,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.355,
+    "4": 0.203,
+    "5": 0.104,
+    "6": 0.047,
+    "7": 0.02,
+    "8": 0.008,
+    "9": 0.003,
+    "10": 0.001
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0036223",
    "player": "Jonathan Taylor",
    "position": "RB",
    "team": "IND",
@@ -3681,10 +6344,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.345,
+    "4": 0.197,
+    "5": 0.101,
+    "6": 0.045,
+    "7": 0.019,
+    "8": 0.008,
+    "9": 0.003,
+    "10": 0.001
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0038621",
    "player": "DeMario Douglas",
    "position": "WR",
    "team": "NE",
@@ -3695,10 +6369,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.329,
+    "4": 0.188,
+    "5": 0.096,
+    "6": 0.042,
+    "7": 0.017,
+    "8": 0.008,
+    "9": 0.003,
+    "10": 0.001
+   }
   },
   {
    "game": "2026_06_BAL_CLE",
+   "player_id": "00-0036407",
    "player": "Jerry Jeudy",
    "position": "WR",
    "team": "CLE",
@@ -3709,10 +6394,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.307,
+    "4": 0.174,
+    "5": 0.086,
+    "6": 0.038,
+    "7": 0.015,
+    "8": 0.007,
+    "9": 0.003,
+    "10": 0.001
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0041040",
    "player": "Antonio Williams",
    "position": "WR",
    "team": "WAS",
@@ -3723,10 +6419,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.299,
+    "4": 0.168,
+    "5": 0.085,
+    "6": 0.036,
+    "7": 0.015,
+    "8": 0.006,
+    "9": 0.002,
+    "10": 0.001
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0036139",
    "player": "Rico Dowdle",
    "position": "RB",
    "team": "PIT",
@@ -3737,10 +6444,21 @@
    "low": 1.0,
    "high": 4.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.29,
+    "4": 0.162,
+    "5": 0.082,
+    "6": 0.036,
+    "7": 0.014,
+    "8": 0.006,
+    "9": 0.002,
+    "10": 0.001
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0039901",
    "player": "Keon Coleman",
    "position": "WR",
    "team": "BUF",
@@ -3751,10 +6469,21 @@
    "low": 1.0,
    "high": 3.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.384,
+    "4": 0.218,
+    "5": 0.119,
+    "6": 0.06,
+    "7": 0.03,
+    "8": 0.013,
+    "9": 0.005,
+    "10": 0.002
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0038558",
    "player": "Darnell Washington",
    "position": "TE",
    "team": "PIT",
@@ -3765,10 +6494,21 @@
    "low": 1.0,
    "high": 3.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.357,
+    "4": 0.198,
+    "5": 0.109,
+    "6": 0.054,
+    "7": 0.027,
+    "8": 0.012,
+    "9": 0.005,
+    "10": 0.001
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0039361",
    "player": "Bucky Irving",
    "position": "RB",
    "team": "TB",
@@ -3779,10 +6519,21 @@
    "low": 1.0,
    "high": 3.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.353,
+    "4": 0.195,
+    "5": 0.107,
+    "6": 0.051,
+    "7": 0.026,
+    "8": 0.011,
+    "9": 0.005,
+    "10": 0.001
+   }
   },
   {
    "game": "2026_06_LAC_KC",
+   "player_id": "00-0038544",
    "player": "Quentin Johnston",
    "position": "WR",
    "team": "LAC",
@@ -3793,10 +6544,21 @@
    "low": 1.0,
    "high": 3.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.327,
+    "4": 0.176,
+    "5": 0.097,
+    "6": 0.046,
+    "7": 0.023,
+    "8": 0.009,
+    "9": 0.004,
+    "10": 0.001
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0039451",
    "player": "Isaiah Williams",
    "position": "WR",
    "team": "NYJ",
@@ -3807,10 +6569,21 @@
    "low": 1.0,
    "high": 3.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.311,
+    "4": 0.17,
+    "5": 0.093,
+    "6": 0.043,
+    "7": 0.02,
+    "8": 0.009,
+    "9": 0.003,
+    "10": 0.001
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0037005",
    "player": "Tommy Tremble",
    "position": "TE",
    "team": "CAR",
@@ -3821,10 +6594,21 @@
    "low": 1.0,
    "high": 3.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.291,
+    "4": 0.162,
+    "5": 0.085,
+    "6": 0.042,
+    "7": 0.019,
+    "8": 0.008,
+    "9": 0.003,
+    "10": 0.001
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0038608",
    "player": "Kayshon Boutte",
    "position": "WR",
    "team": "HOU",
@@ -3835,10 +6619,21 @@
    "low": 1.0,
    "high": 3.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.288,
+    "4": 0.16,
+    "5": 0.084,
+    "6": 0.041,
+    "7": 0.019,
+    "8": 0.008,
+    "9": 0.003,
+    "10": 0.001
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0032951",
    "player": "Laquon Treadwell",
    "position": "WR",
    "team": "IND",
@@ -3849,10 +6644,21 @@
    "low": 1.0,
    "high": 3.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.279,
+    "4": 0.153,
+    "5": 0.081,
+    "6": 0.04,
+    "7": 0.018,
+    "8": 0.008,
+    "9": 0.003,
+    "10": 0.001
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0040563",
    "player": "Efton Chism III",
    "position": "WR",
    "team": "NE",
@@ -3863,10 +6669,21 @@
    "low": 1.0,
    "high": 3.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.253,
+    "4": 0.138,
+    "5": 0.072,
+    "6": 0.035,
+    "7": 0.015,
+    "8": 0.006,
+    "9": 0.003,
+    "10": 0.0
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0035644",
    "player": "Noah Fant",
    "position": "TE",
    "team": "NO",
@@ -3877,10 +6694,21 @@
    "low": 1.0,
    "high": 3.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.232,
+    "4": 0.128,
+    "5": 0.066,
+    "6": 0.033,
+    "7": 0.015,
+    "8": 0.005,
+    "9": 0.002,
+    "10": 0.0
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0040138",
    "player": "Jaylin Noel",
    "position": "WR",
    "team": "HOU",
@@ -3891,24 +6719,21 @@
    "low": 1.0,
    "high": 3.0,
    "your_line": null,
-   "over_chance": null
-  },
-  {
-   "game": "2026_06_LAC_KC",
-   "player": "Oronde Gadsden II",
-   "position": "TE",
-   "team": "LAC",
-   "opp": "KC",
-   "stat": "receptions",
-   "projection": 2.1,
-   "line_50_50": 1.9,
-   "low": 1.0,
-   "high": 3.0,
-   "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.262,
+    "4": 0.139,
+    "5": 0.066,
+    "6": 0.03,
+    "7": 0.014,
+    "8": 0.006,
+    "9": 0.003,
+    "10": 0.002
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0039893",
    "player": "Brian Thomas Jr.",
    "position": "WR",
    "team": "JAX",
@@ -3919,10 +6744,46 @@
    "low": 1.0,
    "high": 3.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.231,
+    "4": 0.12,
+    "5": 0.055,
+    "6": 0.026,
+    "7": 0.011,
+    "8": 0.005,
+    "9": 0.003,
+    "10": 0.001
+   }
+  },
+  {
+   "game": "2026_06_LAC_KC",
+   "player_id": "00-0040189",
+   "player": "Oronde Gadsden II",
+   "position": "TE",
+   "team": "LAC",
+   "opp": "KC",
+   "stat": "receptions",
+   "projection": 2.1,
+   "line_50_50": 1.9,
+   "low": 1.0,
+   "high": 3.0,
+   "your_line": null,
+   "over_chance": null,
+   "milestones": {
+    "3": 0.23,
+    "4": 0.12,
+    "5": 0.054,
+    "6": 0.026,
+    "7": 0.011,
+    "8": 0.005,
+    "9": 0.003,
+    "10": 0.001
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0040024",
    "player": "Darius Cooper",
    "position": "WR",
    "team": "PHI",
@@ -3933,10 +6794,21 @@
    "low": 1.0,
    "high": 3.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.227,
+    "4": 0.117,
+    "5": 0.053,
+    "6": 0.025,
+    "7": 0.011,
+    "8": 0.005,
+    "9": 0.003,
+    "10": 0.001
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0040705",
    "player": "Chimere Dike",
    "position": "WR",
    "team": "TEN",
@@ -3947,10 +6819,21 @@
    "low": 1.0,
    "high": 3.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.216,
+    "4": 0.112,
+    "5": 0.05,
+    "6": 0.022,
+    "7": 0.01,
+    "8": 0.005,
+    "9": 0.003,
+    "10": 0.001
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0041042",
    "player": "Malachi Fields",
    "position": "WR",
    "team": "NYG",
@@ -3961,10 +6844,21 @@
    "low": 1.0,
    "high": 3.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.209,
+    "4": 0.105,
+    "5": 0.045,
+    "6": 0.02,
+    "7": 0.009,
+    "8": 0.004,
+    "9": 0.003,
+    "10": 0.0
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0039849",
    "player": "Marvin Harrison Jr.",
    "position": "WR",
    "team": "HOU",
@@ -3975,10 +6869,21 @@
    "low": 1.0,
    "high": 3.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.203,
+    "4": 0.1,
+    "5": 0.043,
+    "6": 0.019,
+    "7": 0.009,
+    "8": 0.004,
+    "9": 0.002,
+    "10": 0.0
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0036309",
    "player": "Darnell Mooney",
    "position": "WR",
    "team": "NYG",
@@ -3989,10 +6894,21 @@
    "low": 1.0,
    "high": 3.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.201,
+    "4": 0.099,
+    "5": 0.042,
+    "6": 0.019,
+    "7": 0.009,
+    "8": 0.003,
+    "9": 0.002,
+    "10": 0.0
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0041048",
    "player": "Ted Hurst III",
    "position": "WR",
    "team": "TB",
@@ -4003,10 +6919,21 @@
    "low": 1.0,
    "high": 3.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.192,
+    "4": 0.093,
+    "5": 0.039,
+    "6": 0.017,
+    "7": 0.008,
+    "8": 0.003,
+    "9": 0.001,
+    "10": 0.0
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0041100",
    "player": "Josh Cameron",
    "position": "WR",
    "team": "JAX",
@@ -4017,10 +6944,21 @@
    "low": 1.0,
    "high": 3.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.188,
+    "4": 0.09,
+    "5": 0.038,
+    "6": 0.017,
+    "7": 0.007,
+    "8": 0.003,
+    "9": 0.001,
+    "10": 0.0
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0037291",
    "player": "Jalen Nailor",
    "position": "WR",
    "team": "LV",
@@ -4031,10 +6969,21 @@
    "low": 1.0,
    "high": 3.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.17,
+    "4": 0.08,
+    "5": 0.03,
+    "6": 0.013,
+    "7": 0.005,
+    "8": 0.003,
+    "9": 0.0,
+    "10": 0.0
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0034837",
    "player": "Calvin Ridley",
    "position": "WR",
    "team": "TEN",
@@ -4045,10 +6994,21 @@
    "low": 1.0,
    "high": 3.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.167,
+    "4": 0.077,
+    "5": 0.029,
+    "6": 0.011,
+    "7": 0.005,
+    "8": 0.003,
+    "9": 0.0,
+    "10": 0.0
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0037741",
    "player": "Jahan Dotson",
    "position": "WR",
    "team": "ATL",
@@ -4059,10 +7019,21 @@
    "low": 1.0,
    "high": 2.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.163,
+    "4": 0.069,
+    "5": 0.026,
+    "6": 0.01,
+    "7": 0.004,
+    "8": 0.002,
+    "9": 0.0,
+    "10": 0.0
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0040170",
    "player": "Elic Ayomanor",
    "position": "WR",
    "team": "TEN",
@@ -4073,10 +7044,21 @@
    "low": 1.0,
    "high": 2.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.162,
+    "4": 0.063,
+    "5": 0.024,
+    "6": 0.009,
+    "7": 0.003,
+    "8": 0.001,
+    "9": 0.0,
+    "10": 0.0
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0040590",
    "player": "Konata Mumpfield",
    "position": "WR",
    "team": "LA",
@@ -4087,10 +7069,21 @@
    "low": 1.0,
    "high": 2.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.115,
+    "4": 0.039,
+    "5": 0.014,
+    "6": 0.005,
+    "7": 0.002,
+    "8": 0.0,
+    "9": 0.0,
+    "10": 0.0
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0036988",
    "player": "Josh Palmer",
    "position": "WR",
    "team": "BUF",
@@ -4101,10 +7094,21 @@
    "low": 1.0,
    "high": 2.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.097,
+    "4": 0.034,
+    "5": 0.01,
+    "6": 0.003,
+    "7": 0.001,
+    "8": 0.0,
+    "9": 0.0,
+    "10": 0.0
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0038640",
    "player": "Jalen Brooks",
    "position": "WR",
    "team": "ARI",
@@ -4115,10 +7119,21 @@
    "low": 1.0,
    "high": 2.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.09,
+    "4": 0.029,
+    "5": 0.009,
+    "6": 0.003,
+    "7": 0.001,
+    "8": 0.0,
+    "9": 0.0,
+    "10": 0.0
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0041067",
    "player": "Bryce Lance",
    "position": "WR",
    "team": "NO",
@@ -4129,10 +7144,21 @@
    "low": 1.0,
    "high": 2.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "3": 0.05,
+    "4": 0.014,
+    "5": 0.003,
+    "6": 0.001,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "10": 0.0
+   }
   },
   {
    "game": "2026_06_BAL_CLE",
+   "player_id": "00-0032764",
    "player": "Derrick Henry",
    "position": "RB",
    "team": "BAL",
@@ -4143,24 +7169,48 @@
    "low": 64.0,
    "high": 129.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.898,
+    "50": 0.848,
+    "60": 0.77,
+    "70": 0.699,
+    "80": 0.614,
+    "90": 0.526,
+    "100": 0.449,
+    "125": 0.275,
+    "150": 0.147
+   }
   },
   {
    "game": "2026_06_LAC_KC",
+   "player_id": "00-0038134",
    "player": "Kenneth Walker III",
    "position": "RB",
    "team": "KC",
    "opp": "LAC",
    "stat": "rushing_yards",
-   "projection": 95.4,
-   "line_50_50": 86.9,
+   "projection": 95.5,
+   "line_50_50": 87.0,
    "low": 59.0,
    "high": 120.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.885,
+    "50": 0.821,
+    "60": 0.741,
+    "70": 0.659,
+    "80": 0.56,
+    "90": 0.473,
+    "100": 0.392,
+    "125": 0.218,
+    "150": 0.103
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0038542",
    "player": "Bijan Robinson",
    "position": "RB",
    "team": "ATL",
@@ -4171,10 +7221,22 @@
    "low": 56.0,
    "high": 114.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.872,
+    "50": 0.803,
+    "60": 0.715,
+    "70": 0.623,
+    "80": 0.521,
+    "90": 0.433,
+    "100": 0.352,
+    "125": 0.184,
+    "150": 0.082
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0037248",
    "player": "James Cook",
    "position": "RB",
    "team": "BUF",
@@ -4185,10 +7247,22 @@
    "low": 52.0,
    "high": 106.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.853,
+    "50": 0.765,
+    "60": 0.678,
+    "70": 0.57,
+    "80": 0.472,
+    "90": 0.383,
+    "100": 0.299,
+    "125": 0.141,
+    "150": 0.058
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0036555",
    "player": "Chuba Hubbard",
    "position": "RB",
    "team": "CAR",
@@ -4199,10 +7273,22 @@
    "low": 52.0,
    "high": 105.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.851,
+    "50": 0.762,
+    "60": 0.674,
+    "70": 0.562,
+    "80": 0.466,
+    "90": 0.373,
+    "100": 0.289,
+    "125": 0.134,
+    "150": 0.055
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0036223",
    "player": "Jonathan Taylor",
    "position": "RB",
    "team": "IND",
@@ -4213,10 +7299,22 @@
    "low": 49.0,
    "high": 99.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.83,
+    "50": 0.733,
+    "60": 0.629,
+    "70": 0.515,
+    "80": 0.413,
+    "90": 0.319,
+    "100": 0.241,
+    "125": 0.096,
+    "150": 0.036
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0037840",
    "player": "Kyren Williams",
    "position": "RB",
    "team": "LA",
@@ -4227,10 +7325,22 @@
    "low": 43.0,
    "high": 96.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.785,
+    "50": 0.674,
+    "60": 0.576,
+    "70": 0.458,
+    "80": 0.362,
+    "90": 0.285,
+    "100": 0.219,
+    "125": 0.097,
+    "150": 0.04
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0039361",
    "player": "Bucky Irving",
    "position": "RB",
    "team": "TB",
@@ -4241,10 +7351,22 @@
    "low": 39.0,
    "high": 92.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.743,
+    "50": 0.634,
+    "60": 0.531,
+    "70": 0.421,
+    "80": 0.336,
+    "90": 0.266,
+    "100": 0.21,
+    "125": 0.098,
+    "150": 0.038
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0036275",
    "player": "D'Andre Swift",
    "position": "RB",
    "team": "CHI",
@@ -4255,10 +7377,22 @@
    "low": 39.0,
    "high": 91.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.741,
+    "50": 0.632,
+    "60": 0.527,
+    "70": 0.416,
+    "80": 0.333,
+    "90": 0.26,
+    "100": 0.205,
+    "125": 0.095,
+    "150": 0.037
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0037228",
    "player": "Jaylen Warren",
    "position": "RB",
    "team": "PIT",
@@ -4269,10 +7403,22 @@
    "low": 36.0,
    "high": 85.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.71,
+    "50": 0.596,
+    "60": 0.48,
+    "70": 0.371,
+    "80": 0.293,
+    "90": 0.223,
+    "100": 0.168,
+    "125": 0.066,
+    "150": 0.026
+   }
   },
   {
    "game": "2026_06_CAR_PHI",
+   "player_id": "00-0037258",
    "player": "Dameon Pierce",
    "position": "RB",
    "team": "PHI",
@@ -4283,10 +7429,22 @@
    "low": 36.0,
    "high": 85.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.705,
+    "50": 0.593,
+    "60": 0.473,
+    "70": 0.368,
+    "80": 0.287,
+    "90": 0.219,
+    "100": 0.164,
+    "125": 0.061,
+    "150": 0.026
+   }
   },
   {
    "game": "2026_06_DAL_GB",
+   "player_id": "00-0036997",
    "player": "Javonte Williams",
    "position": "RB",
    "team": "DAL",
@@ -4297,10 +7455,22 @@
    "low": 36.0,
    "high": 84.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.7,
+    "50": 0.589,
+    "60": 0.471,
+    "70": 0.366,
+    "80": 0.285,
+    "90": 0.217,
+    "100": 0.162,
+    "125": 0.059,
+    "150": 0.025
+   }
   },
   {
    "game": "2026_06_TEN_IND",
+   "player_id": "00-0035261",
    "player": "Tony Pollard",
    "position": "RB",
    "team": "TEN",
@@ -4311,10 +7481,22 @@
    "low": 36.0,
    "high": 84.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.697,
+    "50": 0.586,
+    "60": 0.469,
+    "70": 0.361,
+    "80": 0.281,
+    "90": 0.214,
+    "100": 0.161,
+    "125": 0.058,
+    "150": 0.022
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0039794",
    "player": "Braelon Allen",
    "position": "RB",
    "team": "NYJ",
@@ -4325,10 +7507,22 @@
    "low": 33.0,
    "high": 80.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.662,
+    "50": 0.543,
+    "60": 0.437,
+    "70": 0.328,
+    "80": 0.25,
+    "90": 0.183,
+    "100": 0.137,
+    "125": 0.057,
+    "150": 0.02
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0033280",
    "player": "Christian McCaffrey",
    "position": "RB",
    "team": "SF",
@@ -4339,10 +7533,22 @@
    "low": 32.0,
    "high": 78.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.651,
+    "50": 0.531,
+    "60": 0.422,
+    "70": 0.312,
+    "80": 0.238,
+    "90": 0.173,
+    "100": 0.126,
+    "125": 0.05,
+    "150": 0.019
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0040122",
    "player": "Ashton Jeanty",
    "position": "RB",
    "team": "LV",
@@ -4353,10 +7559,22 @@
    "low": 32.0,
    "high": 78.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.65,
+    "50": 0.529,
+    "60": 0.42,
+    "70": 0.311,
+    "80": 0.236,
+    "90": 0.173,
+    "100": 0.123,
+    "125": 0.049,
+    "150": 0.019
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0040719",
    "player": "Bhayshul Tuten",
    "position": "RB",
    "team": "JAX",
@@ -4367,10 +7585,22 @@
    "low": 26.0,
    "high": 71.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.572,
+    "50": 0.452,
+    "60": 0.343,
+    "70": 0.258,
+    "80": 0.187,
+    "90": 0.142,
+    "100": 0.095,
+    "125": 0.041,
+    "150": 0.016
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0040583",
    "player": "Woody Marks",
    "position": "RB",
    "team": "HOU",
@@ -4381,10 +7611,22 @@
    "low": 25.0,
    "high": 70.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.567,
+    "50": 0.444,
+    "60": 0.336,
+    "70": 0.249,
+    "80": 0.183,
+    "90": 0.137,
+    "100": 0.091,
+    "125": 0.039,
+    "150": 0.015
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0040715",
    "player": "Cam Skattebo",
    "position": "RB",
    "team": "NYG",
@@ -4395,10 +7637,22 @@
    "low": 25.0,
    "high": 69.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.558,
+    "50": 0.437,
+    "60": 0.329,
+    "70": 0.242,
+    "80": 0.179,
+    "90": 0.132,
+    "100": 0.089,
+    "125": 0.036,
+    "150": 0.014
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0036875",
    "player": "Rhamondre Stevenson",
    "position": "RB",
    "team": "NE",
@@ -4409,24 +7663,48 @@
    "low": 23.0,
    "high": 64.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.522,
+    "50": 0.392,
+    "60": 0.29,
+    "70": 0.209,
+    "80": 0.148,
+    "90": 0.097,
+    "100": 0.071,
+    "125": 0.026,
+    "150": 0.01
+   }
   },
   {
    "game": "2026_06_LAC_KC",
+   "player_id": "00-0040666",
    "player": "Omarion Hampton",
    "position": "RB",
    "team": "LAC",
    "opp": "KC",
    "stat": "rushing_yards",
-   "projection": 41.5,
-   "line_50_50": 34.5,
+   "projection": 41.6,
+   "line_50_50": 34.6,
    "low": 18.0,
    "high": 57.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.43,
+    "50": 0.331,
+    "60": 0.226,
+    "70": 0.163,
+    "80": 0.114,
+    "90": 0.082,
+    "100": 0.057,
+    "125": 0.026,
+    "150": 0.011
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0040242",
    "player": "Jacory Croskey-Merritt",
    "position": "RB",
    "team": "WAS",
@@ -4437,10 +7715,22 @@
    "low": 18.0,
    "high": 56.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.42,
+    "50": 0.321,
+    "60": 0.217,
+    "70": 0.154,
+    "80": 0.11,
+    "90": 0.075,
+    "100": 0.051,
+    "125": 0.022,
+    "150": 0.009
+   }
   },
   {
    "game": "2026_06_BAL_CLE",
+   "player_id": "00-0040784",
    "player": "Quinshon Judkins",
    "position": "RB",
    "team": "CLE",
@@ -4451,10 +7741,22 @@
    "low": 17.0,
    "high": 56.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.419,
+    "50": 0.317,
+    "60": 0.215,
+    "70": 0.152,
+    "80": 0.108,
+    "90": 0.075,
+    "100": 0.049,
+    "125": 0.021,
+    "150": 0.009
+   }
   },
   {
    "game": "2026_06_BUF_LV",
+   "player_id": "00-0034857",
    "player": "Josh Allen",
    "position": "QB",
    "team": "BUF",
@@ -4465,10 +7767,22 @@
    "low": 17.0,
    "high": 56.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.416,
+    "50": 0.313,
+    "60": 0.213,
+    "70": 0.148,
+    "80": 0.105,
+    "90": 0.074,
+    "100": 0.049,
+    "125": 0.02,
+    "150": 0.009
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0040734",
    "player": "TreVeyon Henderson",
    "position": "RB",
    "team": "NE",
@@ -4479,10 +7793,22 @@
    "low": 14.0,
    "high": 53.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.383,
+    "50": 0.277,
+    "60": 0.197,
+    "70": 0.129,
+    "80": 0.089,
+    "90": 0.059,
+    "100": 0.04,
+    "125": 0.013,
+    "150": 0.005
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0039910",
    "player": "Jayden Daniels",
    "position": "QB",
    "team": "WAS",
@@ -4493,10 +7819,22 @@
    "low": 14.0,
    "high": 52.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.375,
+    "50": 0.27,
+    "60": 0.192,
+    "70": 0.122,
+    "80": 0.087,
+    "90": 0.057,
+    "100": 0.036,
+    "125": 0.012,
+    "150": 0.005
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0039738",
    "player": "Blake Corum",
    "position": "RB",
    "team": "LA",
@@ -4507,10 +7845,22 @@
    "low": 14.0,
    "high": 51.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.365,
+    "50": 0.263,
+    "60": 0.181,
+    "70": 0.118,
+    "80": 0.081,
+    "90": 0.053,
+    "100": 0.035,
+    "125": 0.011,
+    "150": 0.004
+   }
   },
   {
    "game": "2026_06_DAL_GB",
+   "player_id": "00-0039811",
    "player": "MarShawn Lloyd",
    "position": "RB",
    "team": "GB",
@@ -4521,10 +7871,22 @@
    "low": 14.0,
    "high": 51.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.365,
+    "50": 0.262,
+    "60": 0.179,
+    "70": 0.115,
+    "80": 0.08,
+    "90": 0.052,
+    "100": 0.035,
+    "125": 0.011,
+    "150": 0.004
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0033906",
    "player": "Alvin Kamara",
    "position": "RB",
    "team": "NO",
@@ -4535,10 +7897,22 @@
    "low": 13.0,
    "high": 49.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.352,
+    "50": 0.24,
+    "60": 0.161,
+    "70": 0.104,
+    "80": 0.069,
+    "90": 0.048,
+    "100": 0.03,
+    "125": 0.009,
+    "150": 0.004
+   }
   },
   {
    "game": "2026_06_ARI_LA",
+   "player_id": "00-0037263",
    "player": "Tyler Allgeier",
    "position": "RB",
    "team": "ARI",
@@ -4549,10 +7923,22 @@
    "low": 10.0,
    "high": 46.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.311,
+    "50": 0.212,
+    "60": 0.149,
+    "70": 0.1,
+    "80": 0.07,
+    "90": 0.045,
+    "100": 0.035,
+    "125": 0.012,
+    "150": 0.004
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0038551",
    "player": "Kendre Miller",
    "position": "RB",
    "team": "NO",
@@ -4563,10 +7949,22 @@
    "low": 10.0,
    "high": 44.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.297,
+    "50": 0.202,
+    "60": 0.14,
+    "70": 0.093,
+    "80": 0.065,
+    "90": 0.043,
+    "100": 0.032,
+    "125": 0.01,
+    "150": 0.003
+   }
   },
   {
    "game": "2026_06_DAL_GB",
+   "player_id": "00-0040142",
    "player": "Kaleb Johnson",
    "position": "RB",
    "team": "GB",
@@ -4577,10 +7975,22 @@
    "low": 10.0,
    "high": 44.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.291,
+    "50": 0.193,
+    "60": 0.137,
+    "70": 0.088,
+    "80": 0.062,
+    "90": 0.041,
+    "100": 0.03,
+    "125": 0.009,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0037746",
    "player": "Brian Robinson",
    "position": "RB",
    "team": "ATL",
@@ -4591,10 +8001,22 @@
    "low": 10.0,
    "high": 44.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.29,
+    "50": 0.192,
+    "60": 0.136,
+    "70": 0.086,
+    "80": 0.062,
+    "90": 0.041,
+    "100": 0.03,
+    "125": 0.009,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_CHI_ATL",
+   "player_id": "00-0039918",
    "player": "Caleb Williams",
    "position": "QB",
    "team": "CHI",
@@ -4605,10 +8027,22 @@
    "low": 9.0,
    "high": 42.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.268,
+    "50": 0.175,
+    "60": 0.119,
+    "70": 0.077,
+    "80": 0.051,
+    "90": 0.036,
+    "100": 0.027,
+    "125": 0.005,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0036139",
    "player": "Rico Dowdle",
    "position": "RB",
    "team": "PIT",
@@ -4619,10 +8053,22 @@
    "low": 9.0,
    "high": 41.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.268,
+    "50": 0.173,
+    "60": 0.118,
+    "70": 0.076,
+    "80": 0.05,
+    "90": 0.035,
+    "100": 0.026,
+    "125": 0.005,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_NYJ_NE",
+   "player_id": "00-0039851",
    "player": "Drake Maye",
    "position": "QB",
    "team": "NE",
@@ -4633,10 +8079,22 @@
    "low": 9.0,
    "high": 41.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.264,
+    "50": 0.171,
+    "60": 0.116,
+    "70": 0.075,
+    "80": 0.048,
+    "90": 0.034,
+    "100": 0.025,
+    "125": 0.005,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_BAL_CLE",
+   "player_id": "00-0039373",
    "player": "Audric Estim\u00e9",
    "position": "RB",
    "team": "CLE",
@@ -4647,24 +8105,48 @@
    "low": 7.0,
    "high": 39.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.238,
+    "50": 0.163,
+    "60": 0.118,
+    "70": 0.074,
+    "80": 0.049,
+    "90": 0.034,
+    "100": 0.026,
+    "125": 0.009,
+    "150": 0.003
+   }
   },
   {
    "game": "2026_06_LAC_KC",
+   "player_id": "00-0039391",
    "player": "Kimani Vidal",
    "position": "RB",
    "team": "LAC",
    "opp": "KC",
    "stat": "rushing_yards",
-   "projection": 26.6,
+   "projection": 26.7,
    "line_50_50": 18.6,
    "low": 7.0,
    "high": 36.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.212,
+    "50": 0.144,
+    "60": 0.097,
+    "70": 0.062,
+    "80": 0.041,
+    "90": 0.029,
+    "100": 0.02,
+    "125": 0.005,
+    "150": 0.003
+   }
   },
   {
    "game": "2026_06_HOU_JAX",
+   "player_id": "00-0038611",
    "player": "Chris Rodriguez Jr.",
    "position": "RB",
    "team": "JAX",
@@ -4675,10 +8157,22 @@
    "low": 7.0,
    "high": 35.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.2,
+    "50": 0.135,
+    "60": 0.089,
+    "70": 0.055,
+    "80": 0.036,
+    "90": 0.026,
+    "100": 0.015,
+    "125": 0.005,
+    "150": 0.003
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0036893",
    "player": "Najee Harris",
    "position": "RB",
    "team": "NYG",
@@ -4689,10 +8183,22 @@
    "low": 7.0,
    "high": 35.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.198,
+    "50": 0.134,
+    "60": 0.088,
+    "70": 0.055,
+    "80": 0.036,
+    "90": 0.026,
+    "100": 0.015,
+    "125": 0.005,
+    "150": 0.003
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0037256",
    "player": "Rachaad White",
    "position": "RB",
    "team": "WAS",
@@ -4703,10 +8209,22 @@
    "low": 5.0,
    "high": 31.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.18,
+    "50": 0.124,
+    "60": 0.084,
+    "70": 0.053,
+    "80": 0.038,
+    "90": 0.027,
+    "100": 0.019,
+    "125": 0.007,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_LAC_KC",
+   "player_id": "00-0036355",
    "player": "Justin Herbert",
    "position": "QB",
    "team": "LAC",
@@ -4717,10 +8235,22 @@
    "low": 5.0,
    "high": 31.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.179,
+    "50": 0.121,
+    "60": 0.081,
+    "70": 0.052,
+    "80": 0.036,
+    "90": 0.026,
+    "100": 0.018,
+    "125": 0.007,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_BAL_CLE",
+   "player_id": "00-0033537",
    "player": "Deshaun Watson",
    "position": "QB",
    "team": "CLE",
@@ -4731,10 +8261,22 @@
    "low": 5.0,
    "high": 31.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.178,
+    "50": 0.119,
+    "60": 0.081,
+    "70": 0.051,
+    "80": 0.036,
+    "90": 0.026,
+    "100": 0.018,
+    "125": 0.007,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0039384",
    "player": "Tyrone Tracy Jr.",
    "position": "RB",
    "team": "NYG",
@@ -4745,10 +8287,22 @@
    "low": 4.0,
    "high": 30.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.172,
+    "50": 0.116,
+    "60": 0.076,
+    "70": 0.049,
+    "80": 0.034,
+    "90": 0.024,
+    "100": 0.016,
+    "125": 0.005,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0041052",
    "player": "Kaelon Black",
    "position": "RB",
    "team": "SF",
@@ -4759,10 +8313,22 @@
    "low": 4.0,
    "high": 30.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.171,
+    "50": 0.115,
+    "60": 0.076,
+    "70": 0.049,
+    "80": 0.034,
+    "90": 0.024,
+    "100": 0.016,
+    "125": 0.005,
+    "150": 0.002
+   }
   },
   {
    "game": "2026_06_NO_NYG",
+   "player_id": "00-0035250",
    "player": "Devin Singletary",
    "position": "RB",
    "team": "NYG",
@@ -4773,10 +8339,22 @@
    "low": 4.0,
    "high": 29.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.16,
+    "50": 0.105,
+    "60": 0.068,
+    "70": 0.044,
+    "80": 0.03,
+    "90": 0.023,
+    "100": 0.015,
+    "125": 0.004,
+    "150": 0.001
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0037834",
    "player": "Brock Purdy",
    "position": "QB",
    "team": "SF",
@@ -4787,10 +8365,22 @@
    "low": 4.0,
    "high": 28.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.151,
+    "50": 0.098,
+    "60": 0.062,
+    "70": 0.039,
+    "80": 0.027,
+    "90": 0.018,
+    "100": 0.013,
+    "125": 0.003,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_LAC_KC",
+   "player_id": "00-0038454",
    "player": "Keaton Mitchell",
    "position": "RB",
    "team": "LAC",
@@ -4801,10 +8391,22 @@
    "low": 4.0,
    "high": 28.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.15,
+    "50": 0.094,
+    "60": 0.06,
+    "70": 0.038,
+    "80": 0.027,
+    "90": 0.018,
+    "100": 0.012,
+    "125": 0.002,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_PIT_TB",
+   "player_id": "00-0041251",
    "player": "Jalon Daniels",
    "position": "QB",
    "team": "TB",
@@ -4815,10 +8417,22 @@
    "low": 4.0,
    "high": 25.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.124,
+    "50": 0.076,
+    "60": 0.044,
+    "70": 0.03,
+    "80": 0.019,
+    "90": 0.012,
+    "100": 0.007,
+    "125": 0.002,
+    "150": 0.0
+   }
   },
   {
    "game": "2026_06_WAS_SF",
+   "player_id": "00-0033699",
    "player": "Austin Ekeler",
    "position": "RB",
    "team": "WAS",
@@ -4829,7 +8443,18 @@
    "low": 4.0,
    "high": 24.0,
    "your_line": null,
-   "over_chance": null
+   "over_chance": null,
+   "milestones": {
+    "40": 0.116,
+    "50": 0.069,
+    "60": 0.04,
+    "70": 0.026,
+    "80": 0.016,
+    "90": 0.009,
+    "100": 0.005,
+    "125": 0.001,
+    "150": 0.0
+   }
   }
  ],
  "record": {
