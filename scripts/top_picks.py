@@ -4,7 +4,8 @@ The workflow runs this from the repository's top folder, after the notebooks:
 
     python scripts/top_picks.py
 
-It reads data/app_data/nfl.json and cfb.json, which the notebooks write, and saves:
+It reads data/app_data/nfl.json and cfb.json, which the notebooks write. With the ODDS_API_KEY secret, it also gets
+the sportsbooks' prices for the player milestones on the lists from The Odds API (see odds_api.py). It saves:
 - data/top_picks_log.csv: every list entry. Each game's entries lock at kickoff. Until then, every run replaces them
   with the current lists, the same way the props log works.
 - data/app_data/top_picks.json: this week's lists, last week's graded lists and each list's record, for the website.
@@ -15,9 +16,11 @@ Grading uses the final scores in the pick logs and the player stats in the props
 import csv
 import json
 import os
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
+
+import odds_api
 
 DATA = Path(__file__).resolve().parent.parent / "data"
 LOG_PATH = DATA / "top_picks_log.csv"
@@ -47,10 +50,10 @@ LISTS = ["likely", "value", "risky", "props_likely", "props_risky"]
 STAT_WORDS = {"passing_yards": "passing yards", "rushing_yards": "rushing yards",
               "receiving_yards": "receiving yards", "receptions": "receptions"}
 COLUMNS = ["logged_at_et", "league", "list", "season", "week", "game_id", "kickoff", "matchup", "kind", "pick",
-           "side", "team", "opp", "player_id", "player", "stat", "line", "chance", "vegas_chance", "price", "edge",
-           "result", "actual"]
+           "side", "team", "opp", "player_id", "player", "stat", "line", "chance", "vegas_chance", "price", "books",
+           "edge", "result", "actual"]
 NUMBERS = {"season": int, "week": int, "line": float, "chance": float, "vegas_chance": float, "price": int,
-           "edge": float, "actual": float}
+           "books": int, "edge": float, "actual": float}
 
 
 # ---------- prices ----------
@@ -86,7 +89,7 @@ def entry(league, lst, d, g, **fields):
     e = {"league": league, "list": lst, "season": d["season"], "week": d["week"], "game_id": str(g["id"]),
          "kickoff": g["kickoff"], "matchup": f"{g['away']} at {g['home']}", "side": None, "team": None, "opp": None,
          "player_id": None, "player": None, "stat": None, "line": None, "vegas_chance": None, "price": None,
-         "edge": None, "result": None, "actual": None}
+         "books": None, "edge": None, "result": None, "actual": None}
     e.update(fields)
     if e["price"] is not None:
         e["price"] = int(round(e["price"]))
@@ -167,6 +170,44 @@ def prop_lists(league, d, now):
     for stat in STAT_WORDS:
         out += sorted(risky.get(stat, []), key=lambda e: (-e["chance"], -e["line"]))[:n]
     return out
+
+
+def attach_prices(league, d, entries, now):
+    """The sportsbooks' prices for the player milestones on the lists, from The Odds API's alternate ("at least")
+    lines. To save credits it only asks for the props on the lists, in games within 3 days of kickoff, and reuses
+    anything fetched in the last 12 hours. Without a key, it still uses prices saved by earlier runs."""
+    props = [e for e in entries if e["kind"] == "prop"]
+    if league != "NFL" or not props:
+        return
+    saved = odds_api.load()
+    games = {str(g["id"]): g for g in d["games"]}
+    due = {}
+    for e in props:
+        k = kickoff(games[e["game_id"]])
+        fetched = ((saved["games"].get(e["game_id"]) or {}).get("alternate") or {}).get("fetched") or {}
+        if k - now < timedelta(hours=odds_api.WINDOW_HOURS) and not odds_api.fresh(fetched.get(e["stat"]), now):
+            due.setdefault(e["game_id"], set()).add(e["stat"])
+    if odds_api.key() and due:
+        client = odds_api.Client(saved)
+        try:
+            for gid, stats in due.items():
+                g = games[gid]
+                event = client.event_id(gid, g["home_name"], g["away_name"], kickoff(g))
+                if event:
+                    client.alternates(gid, event, kickoff(g), sorted(stats))
+                else:
+                    print(f"No sportsbook game found for {g['away']} at {g['home']}.")
+        except odds_api.OddsStop:
+            pass
+        odds_api.save(saved)
+        left = (saved.get("credits") or {}).get("remaining")
+        print(f"Milestone prices: asked for {sum(len(s) for s in due.values())} prop ladders in {len(due)} games, "
+              f"{client.credits} credits" + (f", {left} left this month" if left is not None else ""))
+    for e in props:
+        price, books = odds_api.milestone_price(saved, e["game_id"], e["player"], e["stat"], e["line"])
+        if price is not None:
+            e["price"], e["books"] = price, books
+            e["edge"] = round(e["chance"] - break_even(price), 3)
 
 
 # ---------- the log ----------
@@ -276,7 +317,7 @@ def record(rows):
 
 def public(r):
     keep = ["list", "kind", "pick", "matchup", "kickoff", "game_id", "side", "team", "opp", "player", "stat", "line",
-            "chance", "vegas_chance", "price", "edge", "result", "actual"]
+            "chance", "vegas_chance", "price", "books", "edge", "result", "actual"]
     out = {k: r.get(k) for k in keep}
     out["key"] = item_key(r)
     return out
@@ -298,6 +339,7 @@ def main():
         d = data[league] = json.loads(path.read_text())
         open_games = {str(g["id"]) for g in d["games"] if kickoff(g) > now}
         fresh = game_lists(league, d, now) + prop_lists(league, d, now)
+        attach_prices(league, d, fresh, now)
         for e in fresh:
             e["logged_at_et"] = stamp
         # Games that haven't kicked off get this run's lists; games that have started stay locked

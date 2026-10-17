@@ -96,10 +96,14 @@ jobs:
       - name: NFL picks
         if: steps.plan.outputs.nfl == 'true' && !cancelled()
         working-directory: data
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}           # sportsbook prop lines; without it, props are model-only
         run: python ../scripts/run_notebook.py ../notebooks/nfl_game_model.ipynb
 
       - name: Top picks lists
         if: steps.plan.outputs.models == 'true' && !cancelled()
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}           # prices for the player milestones on the lists
         run: python scripts/top_picks.py
 
       - name: AI news check

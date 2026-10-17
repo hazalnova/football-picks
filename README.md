@@ -20,7 +20,7 @@ From Nov 1 to mid-March, when Central time falls back an hour, each run starts a
 Every run saves the updated logs to the `data` folder and republishes the website. The first logged pick for each game still counts, the same as in Colab, so a later run never changes a logged pick.
 
 After the notebooks, every run also does two more things:
-1. **Top picks lists** (`scripts/top_picks.py`). Builds the lists on the website's **Top picks** tab from the models' own chances: the most likely winners, the best value against the sportsbook, risky underdogs, and, for the NFL, the most likely and the risky player milestones. Each game's entries lock at kickoff and are graded after the game in `data/top_picks_log.csv`, so the site can show whether "likely" really meant likely.
+1. **Top picks lists** (`scripts/top_picks.py`). Builds the lists on the website's **Top picks** tab from the models' own chances: the most likely winners, the best value against the sportsbook, risky underdogs, and, for the NFL, the most likely and the risky player milestones. With the `ODDS_API_KEY` secret, the milestones get the sportsbooks' prices too. Each game's entries lock at kickoff and are graded after the game in `data/top_picks_log.csv`, so the site can show whether "likely" really meant likely.
 2. **AI news check** (`scripts/ai_notes.py`). Claude reads the lists, the latest results and the post-game reviews, searches the web for news the models can't see, like injuries and quarterback changes, and writes short notes with links. It also keeps a list of patterns it notices in `data/ai/lessons.json` and reads it again next run. That file is its memory. The AI only adds notes: it never changes a pick, a list or a model. Its lessons are ideas to test on past seasons first. This step needs the `ANTHROPIC_API_KEY` secret (see **Secrets**), and without it, it's skipped.
 
 **To run it now:** open **Actions → Update picks → Run workflow**, choose what to run, and click the green button. It takes about 10–15 minutes.
@@ -34,9 +34,9 @@ If a run fails, GitHub emails you. The picks keep running even if the post-game 
 | Folder | What's in it |
 |---|---|
 | `notebooks/` | The three notebooks the workflow runs: `game_review`, `ncaa_game_model` and `nfl_game_model` |
-| `data/` | The pick logs, props log, Top picks log, review files, saved preseason and efficiency data, `ai/lessons.json` with the AI's lessons, and `app_data/` with the website's data |
+| `data/` | The pick logs, props log, Top picks log, review files, saved preseason and efficiency data, `odds/` with the saved sportsbook prop odds, `ai/lessons.json` with the AI's lessons, and `app_data/` with the website's data |
 | `site/` | The website, `index.html`. It reads `nfl.json`, `cfb.json`, `top_picks.json` and `ai_notes.json` from `data/app_data/` when the workflow publishes it |
-| `scripts/` | `run_notebook.py`, which runs a notebook from top to bottom the way Colab's **Run all** does; `top_picks.py`, which builds and grades the Top picks lists; and `ai_notes.py`, the AI news check |
+| `scripts/` | `run_notebook.py`, which runs a notebook from top to bottom the way Colab's **Run all** does; `top_picks.py`, which builds and grades the Top picks lists; and `odds_api.py`, which gets sportsbook prop prices for the lists; and `ai_notes.py`, the AI news check |
 | `.github/workflows/` | `update.yml`, the schedule and steps |
 
 ## Changing things
@@ -51,11 +51,12 @@ The copies of the notebooks in Google Drive are now just for trying things out. 
 
 ## Secrets
 
-Both keys live under **Settings → Secrets and variables → Actions**. They never appear in the code, the logs or the website.
+All the keys live under **Settings → Secrets and variables → Actions**. They never appear in the code, the logs or the website.
 
 - **`CFBD_API_KEY`**: the college notebook refreshes its preseason data from CollegeFootballData with it. Without it, the notebook uses the saved preseason file in `data/cfbd/`, which covers the current season.
+- **`ODDS_API_KEY`**: sportsbook player prop lines from The Odds API (free key at the-odds-api.com). The NFL notebook uses it for each prop's main line and prices (Step 10), and the Top picks script for the prices of the milestones on the lists. Each request costs a credit per prop type with data, so to stay inside the free plan's 500 credits a month, each game is fetched only once it's within 3 days of kickoff and at most every 12 hours: about 4 credits per game for the main lines, plus a few for the milestones, or roughly 350 a month. The run summary shows how many credits are left. If they run out, props show model chances only until the month resets. The saved odds are in `data/odds/nfl_prop_odds.json`.
 - **`ANTHROPIC_API_KEY`**: turns on the AI news check. Create it in the Claude Console at platform.claude.com, under **Settings → API keys**. API use is billed in the Console, separately from a Claude chat subscription. With the default model, Claude Sonnet 5.5 ($2 per million tokens read, $10 per million written, plus $10 per 1,000 web searches), a run usually costs $0.50 to $1, or roughly $10 to $15 a month during the season. Each run's summary page shows its estimated cost. To cap spending, create the key in a Console workspace with a monthly spend limit.
 
 ## Data sources
 
-nflverse (NFL games, players and lines), sportsdataverse and CollegeFootballData (college games and play-by-play), and ESPN's public scoreboard for this week's college lines. The AI's news comes from Claude's web search, with links to each source. For fans and research, not betting advice.
+nflverse (NFL games, players and lines), The Odds API (sportsbook player prop lines), sportsdataverse and CollegeFootballData (college games and play-by-play), and ESPN's public scoreboard for this week's college lines. The AI's news comes from Claude's web search, with links to each source. For fans and research, not betting advice.

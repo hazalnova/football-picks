@@ -180,7 +180,7 @@ table.data tr:last-child td { border-bottom: 0; }
 .pick .what { font-weight: 600; overflow-wrap: anywhere; }
 .pick .when { color: var(--muted); font-size: .8rem; }
 .pick .chance { font-family: var(--font-data); font-weight: 500; font-size: 1.05rem; text-align: right; color: var(--model); font-variant-numeric: tabular-nums; }
-.pick .detail { grid-column: 1 / -1; color: var(--muted); font-size: .8rem; display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; }
+.pick .detail { grid-column: 1 / -1; color: var(--muted); font-size: .8rem; display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: center; }
 .meter { grid-column: 1 / -1; height: 5px; background: var(--sunken); border-radius: 999px; overflow: hidden; border: 1px solid var(--line); }
 .meter span { display: block; height: 100%; background: var(--model); opacity: .8; }
 .pick .ai-note { grid-column: 1 / -1; font-size: .84rem; background: var(--sunken); border-radius: 6px; padding: 5px 8px; }
@@ -269,7 +269,7 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
   <div class="wrap">
     <p>For fans and research, not betting advice. In testing on past seasons, the model's picks against the spread won about half the time, below the 52.4% needed to profit at standard odds.</p>
     <p>AI notes are written by Claude from web searches. They can be wrong or out of date, so check the links. The AI adds notes only; it never changes a pick.</p>
-    <p>Data: nflverse, sportsdataverse and CollegeFootballData. Current college lines come from ESPN.</p>
+    <p>Data: nflverse, sportsdataverse and CollegeFootballData. Current college lines come from ESPN, and player prop odds from The Odds API.</p>
   </div>
 </footer>
 
@@ -297,6 +297,7 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
   const odds = (a) => (a > 0 ? "+" + a : "−" + Math.abs(a));                    // American odds
   const payText = (a) => (a > 0 ? `$100 wins $${a}` : `bet $${Math.abs(a)} to win $100`);
   const breakEven = (a) => 1 / (1 + (a > 0 ? a / 100 : 100 / -a));
+  const noVigOver = (o, u) => (o == null || u == null ? null : breakEven(o) / (breakEven(o) + breakEven(u)));   // the books' over chance, cut removed
   const timeFmt = new Intl.DateTimeFormat(undefined, { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit", timeZoneName: "short" });
   const dayFmt = new Intl.DateTimeFormat(undefined, { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
   const when = (iso) => timeFmt.format(new Date(iso));
@@ -597,24 +598,31 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
       rows = rows.filter((p) => [p.player, p.team, p.opp].some((s) => s && s.toLowerCase().includes(q)));
     }
     const max = Math.max(1, ...all.filter((p) => p.stat === state.propStat).map((p) => p.high || 0));
-    const anyLines = rows.some((p) => p.your_line != null);
+    const lineOf = (p) => p.line ?? p.your_line;
+    const anyLines = rows.some((p) => lineOf(p) != null);
+    const anyPrices = rows.some((p) => p.over_price != null);
     const body = rows.map((p) => `<tr>
         <td class="player">${esc(p.player)} <small>${esc(p.position || "")}</small></td><td>${esc(p.team)}</td><td>${esc(p.opp)}</td>
         <td class="num">${p.projection ?? "–"}</td><td class="num">${p.line_50_50 ?? "–"}</td>
         <td class="num">${p.low}–${p.high}</td>
         <td><span class="range" aria-hidden="true"><span class="span" style="left:${(100 * p.low / max).toFixed(1)}%;width:${(100 * (p.high - p.low) / max).toFixed(1)}%"></span><span class="mid" style="left:${(100 * p.line_50_50 / max).toFixed(1)}%"></span></span></td>
-        ${anyLines ? `<td class="num">${p.your_line ?? ""}</td><td class="num">${p.over_chance == null ? "" : pct(p.over_chance)}</td>` : ""}
+        ${anyLines ? `<td class="num">${lineOf(p) ?? ""}${p.line_source === "you" ? " <small>yours</small>" : ""}</td>` : ""}
+        ${anyPrices ? `<td class="num">${p.over_price == null ? "" : odds(p.over_price)}</td><td class="num">${noVigOver(p.over_price, p.under_price) == null ? "" : pct(noVigOver(p.over_price, p.under_price))}</td>` : ""}
+        ${anyLines ? `<td class="num">${p.over_chance == null ? "" : pct(p.over_chance)}</td>` : ""}
       </tr>`).join("");
     view.innerHTML = `<h2>Player props</h2>
       <p class="note"><b>Projection</b> is his average outcome. He finishes above the <b>50/50 line</b> half the time, so that's the number to compare with a sportsbook's line.
         <b>Likely range</b> is the middle half of his outcomes. The bar shows the range, with the 50/50 line marked.</p>
+      ${anyPrices ? `<p class="note"><b>Line</b> is the line most sportsbooks offer, from The Odds API, and <b>Over price</b> is the middle of their prices for the over.
+        <b>Books' over</b> is the chance those prices imply, with the bookmaker's cut removed. <b>Model over</b> is the model's chance of going over the same line.
+        The props model hasn't been tested against sportsbook lines yet, so treat gaps between the two as something to watch, not a bet.</p>` : ""}
       <div class="filters">
         <select id="prop-stat" aria-label="Prop">${Object.entries(STAT_NAMES).map(([k, n]) => `<option value="${k}" ${k === state.propStat ? "selected" : ""}>${n}</option>`).join("")}</select>
         <input type="search" id="prop-search" placeholder="Find a player or team" aria-label="Find a player or team" value="${esc(state.propSearch)}">
         <span class="count">${rows.length} players</span>
       </div>
       <div class="scroll"><table class="data"><thead><tr><th>Player</th><th>Team</th><th>Opp</th><th class="num">Projection</th><th class="num">50/50 line</th><th class="num">Likely range</th><th></th>
-        ${anyLines ? `<th class="num">Your line</th><th class="num">Over chance</th>` : ""}</tr></thead><tbody>${body}</tbody></table></div>`;
+        ${anyLines ? `<th class="num">Line</th>` : ""}${anyPrices ? `<th class="num">Over price</th><th class="num">Books' over</th>` : ""}${anyLines ? `<th class="num">Model over</th>` : ""}</tr></thead><tbody>${body}</tbody></table></div>`;
     document.getElementById("prop-stat").addEventListener("change", (e) => { state.propStat = e.target.value; renderProps(d); });
     const s = document.getElementById("prop-search");
     s.addEventListener("input", () => { state.propSearch = s.value; const pos = s.selectionStart; renderProps(d); const n = document.getElementById("prop-search"); n.focus(); n.setSelectionRange(pos, pos); });
@@ -629,9 +637,9 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
     risky: { title: "Risky but possible: underdogs",
       how: (s) => `Teams the sportsbooks give ${pct(s.underdog_vegas_max)} or less to win that the model gives at least ${pct(s.underdog_model_min)}. They lose more often than not, but pay more when they win.` },
     props_likely: { title: "Most likely player milestones",
-      how: (s) => `The biggest milestone each player reaches at least ${pct(s.likely_prop_min)} of the time, ${s.props_per_stat} per stat.` },
+      how: (s) => `The biggest milestone each player reaches at least ${pct(s.likely_prop_min)} of the time, ${s.props_per_stat} per stat. Prices, when shown, are the middle of the sportsbooks' prices for that milestone.` },
     props_risky: { title: "Risky but possible: big games",
-      how: (s) => `Big games, like 300+ passing yards or 100+ receiving yards, that the model gives a ${pct(s.risky_prop[0])}–${pct(s.risky_prop[1])} chance. Usually they fall short, but they're real possibilities.` },
+      how: (s) => `Big games, like 300+ passing yards or 100+ receiving yards, that the model gives a ${pct(s.risky_prop[0])}–${pct(s.risky_prop[1])} chance. Usually they fall short, but they're real possibilities. Prices, when shown, are the middle of the sportsbooks' prices.` },
   };
   const LIST_ORDER = ["likely", "value", "risky", "props_likely", "props_risky"];
 
@@ -667,7 +675,13 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
       bits.push(esc(`needs ${pct1(e.chance - e.edge)} at ${odds(e.price)}`));
       bits.push(e.edge >= s.min_edge ? `<span class="tag good">Beats break-even</span>` : `<span class="tag">Short of break-even</span>`);
     }
-    if (e.kind === "prop") bits.push("Model chance only, no sportsbook price");
+    if (e.kind === "prop" && e.price == null) bits.push("Model chance only, no sportsbook price yet");
+    if (e.kind === "prop" && e.price != null) {
+      bits.push(esc(`${odds(e.price)} at ${e.books || "the"} sportsbook${e.books === 1 ? "" : "s"}: ${payText(e.price)}`));
+      bits.push(esc(`needs ${pct(e.chance - e.edge)}`));
+      if (e.edge >= s.min_edge) bits.push(`<span class="tag good">Model beats the price</span>`);
+      else if (e.edge <= -s.min_edge) bits.push(`<span class="tag">Price is steeper than the model</span>`);
+    }
     const news = ai ? ai.news.filter((n) => (n.items || []).includes(e.key)) : [];
     news.forEach((n) => bits.push(`<span class="tag news" title="${esc(n.headline)}">News: ${esc(n.impact)}</span>`));
     const r = resultChip(e);
@@ -676,7 +690,7 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
         <div><div class="what">${esc(e.pick)}</div><div class="when">${esc(e.matchup)} · ${esc(dayFmt.format(new Date(e.kickoff)))}</div></div>
         <div class="chance" aria-label="Model chance">${value ? pct1(e.chance) : pct(e.chance)}</div>
         <div class="meter" aria-hidden="true"><span style="width:${(100 * e.chance).toFixed(1)}%"></span></div>
-        ${bits.length || r ? `<div class="detail">${bits.join("<span aria-hidden=\"true\">·</span>")}${r}</div>` : ""}
+        ${bits.length || r ? `<div class="detail">${bits.map((b) => (b.startsWith("<span") ? b : `<span>${b}</span>`)).join("")}${r}</div>` : ""}
         ${note ? `<div class="ai-note"><span class="tag ai">AI note</span> ${esc(note)}</div>` : ""}
       </li>`;
   }
@@ -776,11 +790,14 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
     const ai = aiFor(league);
     const keys = LIST_ORDER.filter((k) => !k.startsWith("props") || league === "NFL");
     const past = L.last_week && L.last_week.week != null && keys.some((k) => (L.last_week.lists[k] || []).length);
+    const priced = ["props_likely", "props_risky"].some((k) => (L.lists[k] || []).some((e) => e.price != null));
     view.innerHTML = `<h2>Top picks</h2>
       <p class="note">Lists picked from the model's own chances for ${esc(L.week_label || "this week")}. Each one is saved before kickoff and graded after the game, so you can see whether "likely" really means likely.</p>
       <div class="callout"><ul>
         <li><b>Most likely isn't the same as a good bet.</b> A big favorite pays so little that one loss can wipe out several wins.</li>
-        ${league === "NFL" ? `<li><b>Player milestone chances are the model's alone.</b> Comparing them with sportsbook odds needs a prop odds feed, which isn't connected yet.</li>` : ""}
+        ${league !== "NFL" ? "" : priced
+          ? `<li><b>Milestone prices come from the sportsbooks, through The Odds API.</b> The props model hasn't been tested against sportsbook prices yet, so "beats the price" is a claim the record below will check, not a finding.</li>`
+          : `<li><b>No sportsbook prices for the milestones yet.</b> They're fetched once a game is within about 3 days of kickoff.</li>`}
         <li><b>Nothing here is betting advice.</b> In testing on past seasons, the model didn't beat the sportsbooks.</li>
       </ul></div>
       <h2>News check</h2>
