@@ -1,6 +1,6 @@
 {
  "league": "College",
- "updated": "2026-10-17T18:54-04:00",
+ "updated": "2026-10-17T18:57-04:00",
  "season": 2026,
  "week": 7,
  "week_label": "Week 7",
@@ -850,7 +850,7 @@
   {
    "id": 401856721,
    "kickoff": "2026-10-17T15:30:00-04:00",
-   "status": "in_progress",
+   "status": "final",
    "away": "Missouri",
    "home": "Ole Miss",
    "away_conference": "SEC",
@@ -872,7 +872,10 @@
     "home_moneyline": null,
     "away_moneyline": null
    },
-   "final": null
+   "final": {
+    "away": 3,
+    "home": 31
+   }
   },
   {
    "id": 401856723,
@@ -971,7 +974,7 @@
    "model": {
     "home_margin": 9.8,
     "home_win": 0.729,
-    "total": 52.4,
+    "total": 52.3,
     "over": null,
     "home_cover": null
    },
@@ -998,7 +1001,7 @@
    "model": {
     "home_margin": 9.6,
     "home_win": 0.723,
-    "total": 48.7,
+    "total": 48.6,
     "over": null,
     "home_cover": null
    },
@@ -1082,7 +1085,7 @@
    "model": {
     "home_margin": -7.4,
     "home_win": 0.322,
-    "total": 53.5,
+    "total": 53.4,
     "over": null,
     "home_cover": null
    },
@@ -1139,7 +1142,7 @@
    "model": {
     "home_margin": 0.2,
     "home_win": 0.504,
-    "total": 49.7,
+    "total": 49.6,
     "over": null,
     "home_cover": null
    },
@@ -1275,7 +1278,7 @@
     "home_margin": 20.9,
     "home_win": 0.903,
     "total": 54.8,
-    "over": 0.492,
+    "over": 0.491,
     "home_cover": 0.494
    },
    "vegas": {
@@ -1328,7 +1331,7 @@
    "model": {
     "home_margin": 9.8,
     "home_win": 0.728,
-    "total": 44.0,
+    "total": 43.9,
     "over": 0.494,
     "home_cover": 0.498
    },
@@ -1491,14 +1494,14 @@
     "home_margin": -13.1,
     "home_win": 0.208,
     "total": 58.1,
-    "over": 0.495,
+    "over": 0.494,
     "home_cover": 0.494
    },
    "vegas": {
     "home_margin": -14.5,
     "home_win": 0.173,
-    "total": 55.5,
-    "over": 0.504,
+    "total": 56.5,
+    "over": 0.496,
     "home_moneyline": 455.0,
     "away_moneyline": -625.0
    },
@@ -1760,7 +1763,7 @@
    "model": {
     "home_margin": 7.3,
     "home_win": 0.676,
-    "total": 57.4,
+    "total": 57.3,
     "over": 0.497,
     "home_cover": 0.495
    },
@@ -1777,59 +1780,59 @@
  ],
  "record": {
   "season": {
-   "games": 28,
+   "games": 29,
    "winners": {
-    "right": 18,
-    "picked": 28
+    "right": 19,
+    "picked": 29
    },
    "ats": {
-    "win": 15,
+    "win": 16,
     "loss": 10,
     "push": 2
    },
    "over_under": {
-    "win": 18,
+    "win": 19,
     "loss": 9,
     "push": 0
    },
    "spread_miss": {
-    "model": 9.9,
-    "vegas": 10.0,
-    "games": 28
+    "model": 10.3,
+    "vegas": 10.5,
+    "games": 29
    },
    "total_miss": {
-    "model": 12.6,
-    "vegas": 13.1,
-    "games": 28
+    "model": 13.0,
+    "vegas": 13.5,
+    "games": 29
    }
   },
   "weeks": [
    {
     "week": 7,
-    "games": 28,
+    "games": 29,
     "winners": {
-     "right": 18,
-     "picked": 28
+     "right": 19,
+     "picked": 29
     },
     "ats": {
-     "win": 15,
+     "win": 16,
      "loss": 10,
      "push": 2
     },
     "over_under": {
-     "win": 18,
+     "win": 19,
      "loss": 9,
      "push": 0
     },
     "spread_miss": {
-     "model": 9.9,
-     "vegas": 10.0,
-     "games": 28
+     "model": 10.3,
+     "vegas": 10.5,
+     "games": 29
     },
     "total_miss": {
-     "model": 12.6,
-     "vegas": 13.1,
-     "games": 28
+     "model": 13.0,
+     "vegas": 13.5,
+     "games": 29
     }
    }
   ]
@@ -1907,6 +1910,31 @@
    "winner": true,
    "ats": "loss",
    "over_under": "loss",
+   "review": null,
+   "total_review": null
+  },
+  {
+   "id": 401856721,
+   "week": 7,
+   "kickoff": "2026-10-17T15:30:00-04:00",
+   "away": "Missouri",
+   "home": "Ole Miss",
+   "final": {
+    "away": 3,
+    "home": 31
+   },
+   "model": {
+    "home_margin": 6.0,
+    "home_win": 0.646,
+    "total": 57.1
+   },
+   "vegas": {
+    "home_margin": 5.5,
+    "total": 58.5
+   },
+   "winner": true,
+   "ats": "win",
+   "over_under": "win",
    "review": null,
    "total_review": null
   },

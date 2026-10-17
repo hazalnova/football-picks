@@ -1,0 +1,29 @@
+{
+ "leagues": {
+  "NFL": [],
+  "College": [
+   {
+    "lesson": "When the model's total is 3+ points above Vegas's, the over has tended to hit.",
+    "evidence": "9 graded games had a model total 3+ above Vegas. The over won in 7 (Akron, Buffalo, Charlotte, Rutgers, Ball State, Pitt, Washington) and lost in 2 (Florida, LSU).",
+    "status": "watching",
+    "test": "On past seasons, group games by model total minus Vegas total (0-3, 3-6, 6+) and check how often the over hits in each group. Need 20+ games per group.",
+    "first_noted": "2026-10-17"
+   },
+   {
+    "lesson": "Big misses often come from turnovers and finishing drives, which are hard to predict.",
+    "evidence": "6 reviewed games missed by 8+ points. 3 of them (Memphis, Texas State, East Carolina) had turnovers or drive finishing as a top reason.",
+    "status": "watching",
+    "test": "On past seasons, compare model error with turnover margin and points per trip inside the 40. Check whether the misses are random or lean one way.",
+    "first_noted": "2026-10-17"
+   },
+   {
+    "lesson": "When the model picks a different favorite than Vegas, it has not done well yet.",
+    "evidence": "3 recent games had a different favorite. The model was right in 1 (Missouri State) and wrong in 2 (Cincinnati, Old Dominion). Sample is tiny.",
+    "status": "watching",
+    "test": "On past seasons, list games where the model and Vegas disagree on the winner, then compare the model's win rate with Vegas's. Need 20+ games.",
+    "first_noted": "2026-10-17"
+   }
+  ]
+ },
+ "updated": "2026-10-17T18:57-04:00"
+}

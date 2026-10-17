@@ -1,6 +1,6 @@
 {
  "kind": "top_picks",
- "updated": "2026-10-17T18:54-04:00",
+ "updated": "2026-10-17T18:57-04:00",
  "settings": {
   "list_size": 5,
   "props_per_stat": 2,
@@ -878,10 +878,10 @@
       "player": null,
       "stat": null,
       "line": 56.5,
-      "chance": 0.508,
+      "chance": 0.509,
       "vegas_chance": null,
       "price": -110,
-      "edge": -0.016,
+      "edge": -0.015,
       "result": null,
       "actual": null,
       "key": "College|value|401858263|total|under|||56.5"
