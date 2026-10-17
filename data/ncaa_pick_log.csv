@@ -107,11 +107,11 @@ logged_at_et,model,season,week,season_type,game_id,kickoff_et,away_team,home_tea
 2026-10-16 13:02,cfb_totals_v1,2026,7,regular,401856725,2026-10-17 13:00,The Citadel,Texas A&M,,,,45.5,51.1,55.5,0.489,,,0,41,41,41
 2026-10-14 16:22,cfb_totals_v1,2026,7,regular,401862803,2026-10-17 13:00,Charlotte,Temple,,0.912,,20.5,50.8,46.5,0.496,-1800,1000,38,31,-7,69
 2026-10-14 16:22,cfb_totals_v1,2026,7,regular,401866442,2026-10-17 13:00,Massachusetts,Buffalo,,0.685,,6.5,50.1,41.5,0.499,-250,205,18,25,7,43
-2026-10-14 16:22,"cfb_elo_v1 (k=40, home_field=60, regress=0.5)",2026,7,regular,401866443,2026-10-17 13:30,Western Michigan,Central Michigan,0.347,0.309,-6.1,-6.5,,43.5,,210,-258,,,,
-2026-10-14 16:22,cfb_margin_v1,2026,7,regular,401866443,2026-10-17 13:30,Western Michigan,Central Michigan,0.311,0.309,-8.0,-6.5,,43.5,,210,-258,,,,
-2026-10-16 13:02,cfb_margin_v2,2026,7,regular,401866443,2026-10-17 13:30,Western Michigan,Central Michigan,0.282,0.309,-9.4,-7.0,,42.5,,210,-258,,,,
-2026-10-16 13:52,cfb_margin_v3,2026,7,regular,401866443,2026-10-17 13:30,Western Michigan,Central Michigan,0.293,0.309,-8.8,-7.0,,42.5,,210,-258,,,,
-2026-10-14 16:22,cfb_totals_v1,2026,7,regular,401866443,2026-10-17 13:30,Western Michigan,Central Michigan,,0.309,,-6.5,45.3,43.5,0.494,210,-258,,,,
+2026-10-14 16:22,"cfb_elo_v1 (k=40, home_field=60, regress=0.5)",2026,7,regular,401866443,2026-10-17 13:30,Western Michigan,Central Michigan,0.347,0.309,-6.1,-6.5,,43.5,,210,-258,21,14,-7,35
+2026-10-14 16:22,cfb_margin_v1,2026,7,regular,401866443,2026-10-17 13:30,Western Michigan,Central Michigan,0.311,0.309,-8.0,-6.5,,43.5,,210,-258,21,14,-7,35
+2026-10-16 13:02,cfb_margin_v2,2026,7,regular,401866443,2026-10-17 13:30,Western Michigan,Central Michigan,0.282,0.309,-9.4,-7.0,,42.5,,210,-258,21,14,-7,35
+2026-10-16 13:52,cfb_margin_v3,2026,7,regular,401866443,2026-10-17 13:30,Western Michigan,Central Michigan,0.293,0.309,-8.8,-7.0,,42.5,,210,-258,21,14,-7,35
+2026-10-14 16:22,cfb_totals_v1,2026,7,regular,401866443,2026-10-17 13:30,Western Michigan,Central Michigan,,0.309,,-6.5,45.3,43.5,0.494,210,-258,21,14,-7,35
 2026-10-14 16:22,"cfb_elo_v1 (k=40, home_field=60, regress=0.5)",2026,7,regular,401856719,2026-10-17 15:30,Auburn,Georgia,0.945,0.904,27.4,20.5,,49.5,,-1600,900,,,,
 2026-10-14 16:22,"cfb_elo_v1 (k=40, home_field=60, regress=0.5)",2026,7,regular,401856721,2026-10-17 15:30,Missouri,Ole Miss,0.638,0.664,5.4,6.0,,58.5,,-225,185,,,,
 2026-10-14 16:22,"cfb_elo_v1 (k=40, home_field=60, regress=0.5)",2026,7,regular,401856723,2026-10-17 15:30,Alabama,Tennessee,0.317,0.259,-7.4,-8.5,,51.5,,270,-340,,,,
