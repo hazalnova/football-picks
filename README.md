@@ -45,7 +45,7 @@ If a run fails, GitHub emails you. The picks keep running even if the post-game 
 - **The website:** edit `site/index.html`. Saving a change to it republishes the site within a couple of minutes, without running the models.
 - **The schedule:** edit the `cron` lines at the top of `.github/workflows/update.yml`.
 - **The Top picks lists:** the thresholds, like the 70% for "most likely" milestones, are in `SETTINGS` at the top of `scripts/top_picks.py`. The website's descriptions follow them.
-- **The AI:** the instructions it follows are `SYSTEM` near the top of `scripts/ai_notes.py`. To use a different Claude model or allow more searches per run, add a repository variable under **Settings → Secrets and variables → Actions → Variables**: `AI_MODEL` (for example `claude-haiku-5-5`, which costs much less) or `AI_MAX_SEARCHES` (12 unless set).
+- **The AI:** the instructions it follows are `SYSTEM` near the top of `scripts/ai_notes.py`. To use a different Claude model or allow more searches per run, add a repository variable under **Settings → Secrets and variables → Actions → Variables**: `AI_MODEL` (for example `claude-haiku-5-5`, which costs much less) or `AI_MAX_SEARCHES`, the most web searches per league in a run (8 unless set).
 
 The copies of the notebooks in Google Drive are now just for trying things out. If you run them in Colab, they write to the old logs in Drive, not to this repository.
 
@@ -54,7 +54,7 @@ The copies of the notebooks in Google Drive are now just for trying things out. 
 Both keys live under **Settings → Secrets and variables → Actions**. They never appear in the code, the logs or the website.
 
 - **`CFBD_API_KEY`**: the college notebook refreshes its preseason data from CollegeFootballData with it. Without it, the notebook uses the saved preseason file in `data/cfbd/`, which covers the current season.
-- **`ANTHROPIC_API_KEY`**: turns on the AI news check. Create it in the Claude Console at platform.claude.com, under **Settings → API keys**. API use is billed in the Console, separately from a Claude chat subscription. With the default model, Claude Sonnet 5.5 ($2 per million tokens read, $10 per million written, plus $10 per 1,000 web searches), a run usually costs well under $1. Each run's summary page shows its estimated cost. To cap spending, create the key in a Console workspace with a monthly spend limit.
+- **`ANTHROPIC_API_KEY`**: turns on the AI news check. Create it in the Claude Console at platform.claude.com, under **Settings → API keys**. API use is billed in the Console, separately from a Claude chat subscription. With the default model, Claude Sonnet 5.5 ($2 per million tokens read, $10 per million written, plus $10 per 1,000 web searches), a run usually costs $0.50 to $1, or roughly $10 to $15 a month during the season. Each run's summary page shows its estimated cost. To cap spending, create the key in a Console workspace with a monthly spend limit.
 
 ## Data sources
 

@@ -12,7 +12,7 @@ The workflow runs this after scripts/top_picks.py, from the repository's top fol
 It needs the ANTHROPIC_API_KEY secret. Without it, it does nothing. Settings, all optional:
     LEAGUES          which leagues ran this time, like "nfl college" (the workflow sets this)
     AI_MODEL         the Claude model to use, claude-sonnet-5-5 unless set
-    AI_MAX_SEARCHES  the most web searches per run, 12 unless set
+    AI_MAX_SEARCHES  the most web searches per league in a run, 8 unless set
 """
 import json
 import os
@@ -32,7 +32,7 @@ LEAGUE_FILES = {"NFL": "nfl.json", "College": "cfb.json"}
 LEAGUE_WORDS = {"nfl": "NFL", "college": "College"}
 
 MODEL = os.environ.get("AI_MODEL") or "claude-sonnet-5-5"
-MAX_SEARCHES = int(os.environ.get("AI_MAX_SEARCHES") or 12)
+SEARCHES_PER_LEAGUE = int(os.environ.get("AI_MAX_SEARCHES") or 8)
 MAX_REQUESTS = 8                  # a safety cap on round trips in one run
 MAX_LESSONS = 8
 # Dollars per million tokens (input, output), for the cost estimate. Web search is $10 per 1,000 searches.
@@ -48,7 +48,7 @@ STATUSES = ["watching", "worth testing", "retired"]
 SYSTEM = """You are the analyst for Line Check, a fan website that shows football models' predictions next to the sportsbooks' lines. Each run you get the website's Top picks lists, the games on them, recent results with post-game reviews, the records so far, and the lessons you kept from earlier runs.
 
 Your jobs:
-1. News check. For games that haven't kicked off, search the web for news the models can't see: injuries and game status, a change at starting quarterback, suspensions, a coaching change, or severe weather for an outdoor game. Focus on the teams and players on the lists; for a player milestone, check that player's status. You have up to {max_searches} searches, so plan them: one search per team or game usually covers several items. Report only news you found in this run's search results, and only if it's recent and could matter for a pick. Give the links you found it at. If nothing matters for an item, say nothing about it.
+1. News check. For games that haven't kicked off, search the web for news the models can't see: injuries and game status, a change at starting quarterback, suspensions, a coaching change, or severe weather for an outdoor game. Focus on the teams and players on the lists; for a player milestone, check that player's status. You have up to {max_searches} searches, so plan them: one search per team or game usually covers several items. When you have more than one league, give each league about the same number of searches. Report only news you found in this run's search results, and only if it's recent and could matter for a pick. Give the links you found it at. If nothing matters for an item, say nothing about it.
 2. Item notes. For list items where you have something real to add, from the news or from the numbers you were given, write one plain sentence. Skip the rest. At most 10 per league.
 3. Recap. Two to four sentences per league on how the recent results went and why, from the results and reviews you were given. Don't search for this.
 4. Lessons. You keep up to {max_lessons} lessons per league: patterns in what the models get right and wrong. Keep, revise, add or retire them. Every lesson needs evidence: counts from the data you were given, like "4 of the 5 graded games where...". Small samples are mostly luck, so a lesson stays "watching" until it rests on 20 or more games; then it can be "worth testing", with a concrete test the owner could run on past seasons before changing anything. Retire a lesson when newer results contradict it. Never say a model was changed or should be changed without that test.
@@ -258,11 +258,11 @@ def search_urls(content):
     return urls
 
 
-def ask_claude(client, brief):
+def ask_claude(client, brief, max_searches):
     """Run the conversation until Claude calls save_notes. Returns its notes, the URLs its searches found, and the usage."""
-    tools = [{"type": "web_search_20250305", "name": "web_search", "max_uses": MAX_SEARCHES,
+    tools = [{"type": "web_search_20250305", "name": "web_search", "max_uses": max_searches,
               "user_location": {"type": "approximate", "country": "US", "timezone": "America/New_York"}}, SAVE_TOOL]
-    system = SYSTEM.format(max_searches=MAX_SEARCHES, max_lessons=MAX_LESSONS)
+    system = SYSTEM.format(max_searches=max_searches, max_lessons=MAX_LESSONS)
     messages = [{"role": "user", "content": brief}]
     usage = {"input_tokens": 0, "output_tokens": 0, "searches": 0, "requests": 0}
     urls, choice = {}, {"type": "auto"}
@@ -366,7 +366,7 @@ def main(client=None):
     if client is None:
         import anthropic
         client = anthropic.Anthropic(api_key=key, max_retries=3)
-    notes, urls, usage = ask_claude(client, brief)
+    notes, urls, usage = ask_claude(client, brief, SEARCHES_PER_LEAGUE * len(briefs))
     result = checked(notes, ids, urls, [l for l, _ in briefs])
 
     saved = read_json(NOTES_PATH, {"kind": "ai_notes", "leagues": {}})
