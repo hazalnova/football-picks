@@ -340,7 +340,9 @@ def report(lines):
 
 def main(client=None):
     leagues = [LEAGUE_WORDS[w] for w in os.environ.get("LEAGUES", "nfl college").lower().split() if w in LEAGUE_WORDS]
-    if client is None and not os.environ.get("ANTHROPIC_API_KEY"):
+    # A key pasted with a space or line break around it can't be sent, so tidy it up first
+    key = (os.environ.get("ANTHROPIC_API_KEY") or "").strip().strip("\"'“”‘’").strip()
+    if client is None and not key:
         report(["AI news check skipped: add the ANTHROPIC_API_KEY secret to turn it on."])
         return
     top = read_json(TOP_PICKS, None)
@@ -363,7 +365,7 @@ def main(client=None):
     brief = f"Now: {now.strftime('%A, %B %-d, %Y, %-I:%M %p ET')}.\n\n" + "\n\n".join(b for _, b in briefs)
     if client is None:
         import anthropic
-        client = anthropic.Anthropic(max_retries=3)
+        client = anthropic.Anthropic(api_key=key, max_retries=3)
     notes, urls, usage = ask_claude(client, brief)
     result = checked(notes, ids, urls, [l for l, _ in briefs])
 
@@ -395,5 +397,17 @@ if __name__ == "__main__":
     try:
         main()
     except Exception as e:                 # the website still updates; the run summary says what went wrong
-        report([f"AI news check stopped: {type(e).__name__}: {e}"])
+        # Only the error's type and message: the underlying cause can include the key itself
+        lines = [f"AI news check stopped: {type(e).__name__}: {e}"]
+        status = getattr(e, "status_code", None)
+        text = str(e).lower()
+        if status == 401:
+            lines.append("The key was rejected. Check that the ANTHROPIC_API_KEY secret holds the whole key, starting with sk-ant-.")
+        elif "credit balance" in text:
+            lines.append("The Claude Console account is out of credits. Add some under Settings > Billing at platform.claude.com.")
+        elif status == 404:
+            lines.append(f"The model {MODEL} wasn't found. Check the AI_MODEL repository variable.")
+        elif type(e).__name__ == "APIConnectionError":
+            lines.append("Couldn't reach the Claude API. If this happens on every run, re-paste the ANTHROPIC_API_KEY secret.")
+        report(lines)
         sys.exit(1)
