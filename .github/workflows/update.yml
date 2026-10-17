@@ -1,0 +1,138 @@
+name: Update picks
+
+on:
+  schedule:
+    # GitHub schedules use UTC. Central time is UTC-5 until Nov 1 and UTC-6 after, so in winter these run an hour earlier.
+    # GitHub can start scheduled runs a few minutes late.
+    - cron: "17 14 * * 2"   # Tuesday 9:17 AM CDT: post-game review, then this week's college picks
+    - cron: "17 14 * * 4"   # Thursday 9:17 AM CDT: review, NFL picks before Thursday night, fresh college lines
+    - cron: "17 13 * * 6"   # Saturday 8:17 AM CDT: fresh college lines before the Saturday games
+    - cron: "17 11 * * 0"   # Sunday 6:17 AM CDT: NFL props with the final injury reports
+  workflow_dispatch:
+    inputs:
+      league:
+        description: What to run
+        type: choice
+        options: [both, nfl, college, review only]
+        default: both
+  push:
+    branches: [main]
+    paths: ["site/**"]       # a change to the website alone just republishes it
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-picks
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Decide what to run
+        id: plan
+        env:
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+          CHOICE: ${{ inputs.league }}
+        run: |
+          case "$EVENT" in
+            workflow_dispatch) league="$CHOICE" ;;
+            push) league="website only" ;;
+            *)
+              case "$SCHEDULE" in
+                "17 14 * * 2") league="college" ;;
+                "17 14 * * 4") league="both" ;;
+                "17 13 * * 6") league="college" ;;
+                "17 11 * * 0") league="nfl" ;;
+                *) league="both" ;;
+              esac ;;
+          esac
+          echo "Running: $league"
+          echo "### Running: $league" >> "$GITHUB_STEP_SUMMARY"
+          [[ "$league" != "website only" ]] && models=true || models=false
+          [[ "$league" == "both" || "$league" == "college" ]] && college=true || college=false
+          [[ "$league" == "both" || "$league" == "nfl" ]] && nfl=true || nfl=false
+          echo "models=$models" >> "$GITHUB_OUTPUT"
+          echo "college=$college" >> "$GITHUB_OUTPUT"
+          echo "nfl=$nfl" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/setup-python@v6
+        if: steps.plan.outputs.models == 'true'
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install packages
+        if: steps.plan.outputs.models == 'true'
+        run: pip install -r requirements.txt
+
+      - name: Post-game review
+        if: steps.plan.outputs.models == 'true'
+        continue-on-error: true        # the picks still run if the review can't get this week's play-by-play
+        working-directory: data
+        run: python ../scripts/run_notebook.py ../notebooks/game_review.ipynb
+
+      - name: College picks
+        if: steps.plan.outputs.college == 'true' && !cancelled()
+        working-directory: data
+        env:
+          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+        run: python ../scripts/run_notebook.py ../notebooks/ncaa_game_model.ipynb
+
+      - name: NFL picks
+        if: steps.plan.outputs.nfl == 'true' && !cancelled()
+        working-directory: data
+        run: python ../scripts/run_notebook.py ../notebooks/nfl_game_model.ipynb
+
+      - name: Save the logs and website data
+        if: steps.plan.outputs.models == 'true' && !cancelled()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "Update picks and results, $(TZ=America/Chicago date '+%a %b %-d, %-I:%M %p %Z')"
+            for attempt in 1 2 3; do
+              git pull --rebase && git push && break
+              sleep 10
+            done
+          fi
+
+      - name: Keep the notebooks with their output
+        if: steps.plan.outputs.models == 'true' && !cancelled()
+        uses: actions/upload-artifact@v4
+        with:
+          name: notebooks-with-output
+          path: runs/
+          retention-days: 14
+          if-no-files-found: ignore
+
+      - name: Build the website
+        if: ${{ !cancelled() }}
+        run: |
+          mkdir -p _site
+          cp site/* _site/
+          cp data/app_data/*.json _site/ 2>/dev/null || echo "No website data yet."
+          ls -l _site
+
+      - uses: actions/upload-pages-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          path: _site
+
+      - name: Publish the website
+        id: deploy
+        if: ${{ !cancelled() }}
+        uses: actions/deploy-pages@v4
