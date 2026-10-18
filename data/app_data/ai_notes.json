@@ -2,7 +2,7 @@
  "kind": "ai_notes",
  "leagues": {
   "NFL": {
-   "checked": "2026-10-18T10:36-04:00",
+   "checked": "2026-10-18T12:30-04:00",
    "season": 2026,
    "week": 6,
    "news": [
@@ -13,38 +13,72 @@
       "NFL|risky|2026_06_BAL_CLE|winner|home|||",
       "NFL|props_likely|2026_06_BAL_CLE|prop|at least|00-0032764|rushing_yards|60.0"
      ],
-     "headline": "Lamar Jackson ruled out for Ravens at Browns; Huntley starts",
-     "detail": "Ravens coach Jesse Minter ruled Jackson out on Oct 16 with an ankle injury, so Tyler Huntley starts again. Center Cam Jurgens is also out. The brief lists Jackson as BAL's QB.",
+     "headline": "Lamar Jackson ruled out; Tyler Huntley starts for Baltimore",
+     "detail": "Ravens coach Jesse Minter ruled Jackson out with an ankle injury, and he is on the Sunday inactive list (Oct 18). Tyler Huntley starts. The Browns will also be without RB Quinshon Judkins. The brief lists Jackson as BAL's QB.",
      "impact": "hurts the pick",
      "sources": [
-      "https://www.baltimoreravens.com/news/lamar-jackson-injury-report-ravens-browns-sidelined-matt-hibner-broderick-washington",
-      "https://sports.yahoo.com/nfl/breaking-news/article/ravens-qb-lamar-jackson-ankle-ruled-out-for-week-6-vs-browns-172807223.html"
+      "https://sports.yahoo.com/nfl/live/ravens-browns-score-live-updates-inactives-highlights-stats-where-to-watch-week-6-lamar-jackson-152531174.html",
+      "https://www.nbcsports.com/fantasy/football/player-news/2026-10-18/ravens-announce-week-6-inactives-vs-browns"
      ]
     },
     {
      "game_id": "2026_06_CAR_PHI",
      "items": [
-      "NFL|risky|2026_06_CAR_PHI|winner|home|||"
+      "NFL|value|2026_06_CAR_PHI|total|over|||39.5"
      ],
-     "headline": "Eagles without Hurts and Barkley; McKee makes first start of 2026",
-     "detail": "Philadelphia ruled Jalen Hurts out on Oct 15 because of a blood clot in his calf, and he was then placed on injured reserve. Saquon Barkley is also out. Tanner McKee starts against Carolina.",
-     "impact": "hurts the pick",
-     "sources": [
-      "https://www.cbssports.com/nfl/news/eagles-rule-out-jalen-hurts-for-week-6-vs-panthers/",
-      "https://www.philadelphiaeagles.com/news/panthers-vs-eagles-injury-report-2026-nfl-week-6-saquon-barkley-devonta-smith"
-     ]
-    },
-    {
-     "game_id": "2026_06_CAR_PHI",
-     "items": [
-      "NFL|risky|2026_06_CAR_PHI|winner|home|||"
-     ],
-     "headline": "Eagles also get DeVonta Smith back for Panthers game",
-     "detail": "DeVonta Smith and Dontayvion Wicks were listed as good to go for Sunday, per the team's injury report update from Oct 16-17. Philadelphia has lost three straight and ranks near the bottom in yards and points.",
+     "headline": "Eagles start Tanner McKee; Hurts placed on IR",
+     "detail": "Jalen Hurts went on injured reserve with a calf blood clot and will miss at least four games. Tanner McKee makes his third career start against Carolina. Half the Eagles' starting lineup is out, per Heavy (Oct 16-18).",
      "impact": "worth watching",
      "sources": [
-      "https://www.philadelphiaeagles.com/news/panthers-vs-eagles-injury-report-2026-nfl-week-6-saquon-barkley-devonta-smith",
-      "https://www.nbcnews.com/sports/nfl/philadelphia-eagles-quarterback-jalen-hurts-will-miss-game-vs-panthers-rcna603729"
+      "https://sports.yahoo.com/articles/eagles-vs-panthers-live-updates-131915994.html",
+      "https://heavy.com/sports/nfl/philadelphia-eagles/tanner-mckee-sends-inadvertent-warning-panthers/"
+     ]
+    },
+    {
+     "game_id": "2026_06_ARI_LA",
+     "items": [
+      "NFL|props_likely|2026_06_ARI_LA|prop|at least|00-0026498|passing_yards|250.0",
+      "NFL|props_likely|2026_06_ARI_LA|prop|at least|00-0039075|receiving_yards|60.0",
+      "NFL|props_likely|2026_06_ARI_LA|prop|at least|00-0039075|receptions|5.0",
+      "NFL|props_risky|2026_06_ARI_LA|prop|at least|00-0039075|receiving_yards|100.0",
+      "NFL|props_risky|2026_06_ARI_LA|prop|at least|00-0039075|receptions|9.0"
+     ],
+     "headline": "Nacua healthy after 17-catch, 24-target Monday night",
+     "detail": "Puka Nacua caught 17 passes for 138 yards on a Monday-night record 24 targets last week and is listed healthy. Matthew Stafford has four straight 300-yard games. Arizona's Budda Baker is questionable with a groin injury, and RB Jeremiyah Love is out (Oct 17-18).",
+     "impact": "helps the pick",
+     "sources": [
+      "https://sports.yahoo.com/articles/puka-nacua-just-caught-17-200000039.html",
+      "https://www.archyde.com/rams-seek-statement-win-against-cardinals-at-sofi-stadium/",
+      "https://www.therams.com/news/rams-injury-report-week-6-2026-vs-cardinals-trent-mcduffie-and-kam-curl-questionable"
+     ]
+    },
+    {
+     "game_id": "2026_06_ARI_LA",
+     "items": [
+      "NFL|likely|2026_06_ARI_LA|winner|home|||"
+     ],
+     "headline": "Rams CB Trent McDuffie questionable vs. Arizona",
+     "detail": "The Rams' final injury report lists McDuffie (groin) and Kam Curl as questionable (Oct 17).",
+     "impact": "worth watching",
+     "sources": [
+      "https://www.therams.com/news/rams-injury-report-week-6-2026-vs-cardinals-trent-mcduffie-and-kam-curl-questionable"
+     ]
+    },
+    {
+     "game_id": "2026_06_CHI_ATL",
+     "items": [
+      "NFL|value|2026_06_CHI_ATL|total|under|||51.5",
+      "NFL|props_likely|2026_06_CHI_ATL|prop|at least|00-0037238|receiving_yards|50.0",
+      "NFL|props_risky|2026_06_CHI_ATL|prop|at least|00-0038542|rushing_yards|100.0",
+      "NFL|props_risky|2026_06_CHI_ATL|prop|at least|00-0037238|receiving_yards|100.0"
+     ],
+     "headline": "Caleb Williams and Penix both active; Bears missing defenders",
+     "detail": "Both QBs are playing on Sunday. Bears LB T.J. Edwards, CB Tyrique Stevenson and RB Kyle Monangai are inactive, and Montez Sweat is suspended. Bijan Robinson leads the NFL with 580 rushing yards. Drake London has 488 receiving yards.",
+     "impact": "worth watching",
+     "sources": [
+      "https://sports.yahoo.com/articles/falcons-vs-bears-inactives-list-153017497.html",
+      "https://bearstalk.com/2026/10/18/chicago-bears-inactives-week-6-falcons-2026",
+      "https://www.chicagobears.com/news/game-preview-bears-at-falcons-2026-week-6"
      ]
     },
     {
@@ -54,91 +88,85 @@
       "NFL|props_likely|2026_06_LAC_KC|prop|at least|00-0038134|rushing_yards|60.0",
       "NFL|props_risky|2026_06_LAC_KC|prop|at least|00-0038134|rushing_yards|100.0"
      ],
-     "headline": "Chargers missing Alt, Awosika, James, Jackson; Chiefs' Rice out",
-     "detail": "Per the final reports on Oct 16, Chargers tackle Joe Alt, guard Kayode Awosika, safety Derwin James Jr. and corner Donte Jackson are out. Chiefs receiver Rashee Rice and tackle Josh Simmons are also out. Kenneth Walker III has no injury designation.",
+     "headline": "Chargers short-handed against Chiefs; Mahomes full practice",
+     "detail": "Chargers tackles Joe Alt and Rashawn Slater, guard Kayode Awosika, safety Derwin James and CB Donte Jackson are out. Patrick Mahomes practiced fully with no game designation. Chiefs WR Rashee Rice and T Josh Simmons are out (Oct 16-17).",
      "impact": "helps the pick",
      "sources": [
-      "https://www.footballnationusa.com/post/chargers-at-chiefs-week-6-guide-2026",
-      "https://www.arrowheadpride.com/kansas-city-chiefs-news/213298/chiefs-news-chiefs-dont-seem-rush-tyreek-reunion"
+      "https://sports.yahoo.com/articles/kansas-city-chiefs-final-injury-194932108.html",
+      "https://www.footballnationusa.com/post/chargers-at-chiefs-week-6-guide-2026"
      ]
     },
     {
-     "game_id": "2026_06_ARI_LA",
+     "game_id": "2026_06_WAS_SF",
      "items": [
-      "NFL|likely|2026_06_ARI_LA|winner|home|||",
-      "NFL|props_likely|2026_06_ARI_LA|prop|at least|00-0026498|passing_yards|250.0",
-      "NFL|props_likely|2026_06_ARI_LA|prop|at least|00-0039075|receiving_yards|60.0",
-      "NFL|props_likely|2026_06_ARI_LA|prop|at least|00-0039075|receptions|5.0",
-      "NFL|props_likely|2026_06_ARI_LA|prop|at least|00-0037744|receptions|5.0"
+      "NFL|likely|2026_06_WAS_SF|winner|home|||"
      ],
-     "headline": "Rams list nobody out vs. Cardinals; McDuffie, Curl questionable",
-     "detail": "The Rams' final Week 6 report has no one ruled out. Corner Trent McDuffie (groin) and safety Kam Curl (ankle) are questionable. Arizona traded Marvin Harrison Jr. and is missing offensive linemen, which leaves Trey McBride as the main target.",
-     "impact": "helps the pick",
+     "headline": "Daniels plays for Washington; RB Croskey-Merritt out, Bosa out for SF",
+     "detail": "Jayden Daniels practiced fully on his elbow and is expected to play. Commanders RB Croskey-Merritt is out with a groin injury. A 49ers injury-report headline says Nick Bosa is ruled out (Oct 17-18).",
+     "impact": "worth watching",
      "sources": [
-      "https://sports.yahoo.com/articles/rams-injury-report-nobody-ruled-002922474.html",
-      "https://athlonsports.com/nfl/arizona-cardinals/arizona-cardinals-trey-mcbride-offensive-answer-los-angeles-rams-week-6"
+      "https://www.commanders.com/news/commanders-vs-49ers-week-6-injury-report-2026",
+      "https://sports.yahoo.com/articles/commanders-lose-running-back-48-173350424.html",
+      "https://49erswebzone.com/articles/204279-commanders-injury-report-juszczyk-return"
      ]
     },
     {
      "game_id": "2026_06_DAL_GB",
      "items": [
-      "NFL|value|2026_06_DAL_GB|total|under|||53.5",
       "NFL|props_likely|2026_06_DAL_GB|prop|at least|00-0033077|passing_yards|225.0",
       "NFL|props_risky|2026_06_DAL_GB|prop|at least|00-0033077|passing_yards|300.0",
-      "NFL|props_risky|2026_06_DAL_GB|prop|at least|00-0036264|passing_yards|300.0"
+      "NFL|props_risky|2026_06_DAL_GB|prop|at least|00-0036264|passing_yards|300.0",
+      "NFL|value|2026_06_DAL_GB|total|under|||53.5"
      ],
-     "headline": "Packers without Josh Jacobs; Cowboys short at LB and CB",
-     "detail": "Green Bay's Josh Jacobs is unavailable. Dallas ruled out Cobie Durant and Drew Shelton, and DeMarvion Overshown is out. Joey Porter Jr. was questionable. CeeDee Lamb has no final designation. Jordan Love threw for 367 yards last week.",
+     "headline": "Cowboys CB Porter expected to play; Packers D-line thin",
+     "detail": "Joey Porter Jr. (ankle) is expected to play, per ESPN's Jeremy Fowler. CB Cobie Durant is out and Ameer Speed is questionable. The Packers are without DTs Javon Hargrave and Jonathan Ford. Love threw for 367 yards last week.",
      "impact": "worth watching",
      "sources": [
-      "https://www.footballnationusa.com/post/cowboys-at-packers-week-6-guide-dak-faces-green-bay-pressure-without-josh-jacobs",
-      "https://bloggingtheboys.com/dallas-cowboys-news/222941/demarvion-overshown-out-packers-dak-prescott-mike-pettine-jordan-love"
+      "https://www.si.com/nfl/cowboys/onsi/joey-porter-jr-nfl-week-6-injury-update-dallas-cowboys-cb-packers",
+      "https://www.si.com/nfl/cowboys/onsi/cowboys-injury-report-rules-out-starting-cornerback-for-packers-game",
+      "https://clutchpoints.com/nfl/dallas-cowboys/packers-cowboys-week-6-injury-report-dallas-getting-joey-porter-jr-back-desperately-needed-vs-jordan-love-christian-watson"
      ]
     },
     {
-     "game_id": "2026_06_CHI_ATL",
+     "game_id": "2026_06_NO_NYG",
      "items": [
-      "NFL|value|2026_06_CHI_ATL|total|under|||52.5",
-      "NFL|props_likely|2026_06_CHI_ATL|prop|at least|00-0037238|receiving_yards|50.0",
-      "NFL|props_risky|2026_06_CHI_ATL|prop|at least|00-0038542|rushing_yards|100.0",
-      "NFL|props_risky|2026_06_CHI_ATL|prop|at least|00-0037238|receiving_yards|100.0"
+      "NFL|value|2026_06_NO_NYG|spread|home|||-1.5"
      ],
-     "headline": "Penix and Caleb Williams both set to play; London has hip note",
-     "detail": "Michael Penix Jr. (ribs) was a full participant and will start. ESPN's inactives watch says Caleb Williams will play. Bears RB Kyle Monangai is out. Drake London was added to the report with a hip issue on Friday (limited, no game designation).",
+     "headline": "Giants lose RT Eluemunor; Winston starts against old team",
+     "detail": "Giants RT Jermaine Eluemunor is inactive. Andrew Thomas and Abdul Carter were questionable. Jameis Winston is 2-0-1 as starter. Saints WR Chris Olave was listed questionable with an illness. Alvin Kamara is active.",
      "impact": "worth watching",
      "sources": [
-      "https://www.espn.com/fantasy/football/story/_/page/FFSundayInactives-50188691/fantasy-football-injuries-nfl-week-6-inactive-active",
-      "https://heavy.com/sports/nfl/atlanta-falcons/falcons-drake-london-injury-update-suddenly-raises-week-6-concern/"
+      "https://www.giants.com/news/nfl-week-6-inactives-who-s-in-who-s-out-for-giants-vs-saints",
+      "https://www.si.com/nfl/saints/onsi/saints-inactives-vs-giants-expectations-for-the-meadowlands-01m57taht5f3",
+      "https://www.espn.com/fantasy/football/story/_/page/FFSundayInactives-50188691/fantasy-football-injuries-nfl-week-6-inactive-active"
      ]
     },
     {
      "game_id": "2026_06_TEN_IND",
      "items": [
-      "NFL|likely|2026_06_TEN_IND|winner|home|||",
-      "NFL|value|2026_06_TEN_IND|total|under|||44.5"
+      "NFL|likely|2026_06_TEN_IND|winner|home|||"
      ],
-     "headline": "Colts QB Daniel Jones practiced in full, no designation",
-     "detail": "Jones had an ankle note but practiced fully and carries no game designation. Tight end Tyler Warren is questionable. Receiver Ashton Dulin and linebacker Jaylon Carlies are out. One report says the line moved toward Tennessee.",
-     "impact": "worth watching",
+     "headline": "Colts TE Tyler Warren reported inactive",
+     "detail": "A Yahoo Week 6 live-blog headline lists Tyler Warren as inactive. That could hurt Daniel Jones's offense. I did not confirm this with a second source.",
+     "impact": "hurts the pick",
      "sources": [
-      "https://www.thespread.com/nfl-articles/titans-vs-colts-prediction-oct-18-does-tennessee-drop-to-0-6/",
-      "https://sports.yahoo.com/articles/colts-vs-titans-week-6-211431201.html"
+      "https://sports.yahoo.com/nfl/live/nfl-week-6-scores-news-live-updates-schedule-highlights-stats-where-to-watch-130000137.html"
      ]
     }
    ],
    "item_notes": {
-    "NFL|value|2026_06_BAL_CLE|total|over|||39.5": "The model's total of 45.4 lists Lamar Jackson, who is out, so the Over 39.5 may be built on the wrong Ravens quarterback.",
-    "NFL|risky|2026_06_BAL_CLE|winner|home|||": "With Lamar Jackson out, the Browns face Tyler Huntley, and the model's 35% was built with Jackson listed as the Ravens' QB.",
-    "NFL|props_likely|2026_06_BAL_CLE|prop|at least|00-0032764|rushing_yards|60.0": "Derrick Henry could get more carries with Huntley under center, but the Ravens are down their starting center, Cam Jurgens.",
-    "NFL|risky|2026_06_CAR_PHI|winner|home|||": "The model is 16 points above the market here; Hurts and Barkley are both out, so check whether the model priced in both.",
-    "NFL|likely|2026_06_LAC_KC|winner|home|||": "Chargers are missing two offensive linemen and two defensive backs, which fits the model's big Chiefs margin.",
-    "NFL|props_likely|2026_06_LAC_KC|prop|at least|00-0038134|rushing_yards|60.0": "Rashee Rice is out, so Kenneth Walker III may get even more volume; the Chargers allow only 3.8 yards per carry.",
-    "NFL|likely|2026_06_ARI_LA|winner|home|||": "The model has the Rams by 9.8 while Vegas has them by 12.5, so the market is more confident than the model.",
-    "NFL|props_likely|2026_06_ARI_LA|prop|at least|00-0037744|receptions|5.0": "Marvin Harrison Jr. is gone and Arizona's line is thin, which points more targets to Trey McBride.",
-    "NFL|props_likely|2026_06_CHI_ATL|prop|at least|00-0037238|receiving_yards|50.0": "Drake London was added to the report with a hip issue on Friday; he was limited with no game designation.",
-    "NFL|props_risky|2026_06_DAL_GB|prop|at least|00-0036264|passing_yards|300.0": "Love threw for 367 yards last week and Dallas gives up a lot through the air, but Josh Jacobs is out for Green Bay, which could mean more passing."
+    "NFL|value|2026_06_BAL_CLE|total|over|||39.5": "The brief shows Lamar Jackson at QB, but he is out and Tyler Huntley starts, so the model's 45.4 total may be too high next to the 39.5 line.",
+    "NFL|risky|2026_06_BAL_CLE|winner|home|||": "Jackson being out helps Cleveland, though the 40% Vegas price already likely reflects that, and Browns RB Quinshon Judkins is also out.",
+    "NFL|props_likely|2026_06_BAL_CLE|prop|at least|00-0032764|rushing_yards|60.0": "With Jackson out, Derrick Henry is expected to carry a bigger share of the Ravens offense.",
+    "NFL|value|2026_06_CAR_PHI|total|over|||39.5": "Tanner McKee starts for the Eagles with Hurts on IR and many starters out, so the Over rests on a thin Philadelphia offense.",
+    "NFL|props_likely|2026_06_ARI_LA|prop|at least|00-0026498|passing_yards|250.0": "Matthew Stafford has four straight 300-yard games and faces a Cardinals pass defense that ranks near the bottom of the league.",
+    "NFL|props_likely|2026_06_ARI_LA|prop|at least|00-0039075|receptions|5.0": "Puka Nacua had 24 targets and 17 catches last week and is listed healthy; that volume may not repeat.",
+    "NFL|props_risky|2026_06_CHI_ATL|prop|at least|00-0038542|rushing_yards|100.0": "Bijan Robinson leads the NFL with 580 rushing yards at 5.7 per carry, and Bears LB T.J. Edwards is inactive.",
+    "NFL|props_likely|2026_06_LAC_KC|prop|at least|00-0038134|rushing_yards|60.0": "The Chargers are missing both starting tackles and key defenders, which favors a heavy Chiefs run game, though a lead can also reduce late-game volume.",
+    "NFL|likely|2026_06_WAS_SF|winner|home|||": "Daniels is healthy and Washington's RB Croskey-Merritt is out; a 49ers injury report headline says Bosa is out too, which is a mixed picture.",
+    "NFL|props_risky|2026_06_DAL_GB|prop|at least|00-0036264|passing_yards|300.0": "Jordan Love threw for 367 yards last week against Chicago, and Dallas is thin at cornerback, though Joey Porter Jr. is expected to play."
    },
-   "recap": "No graded results or post-game reviews were included in this run, so there is nothing to recap for the NFL. The news check found the biggest lineup changes at quarterback: Lamar Jackson is out for Baltimore and Jalen Hurts is out for Philadelphia. The brief still lists Jackson as the Ravens' QB, so the BAL at CLE numbers may not reflect that.",
+   "recap": "No graded results or post-game reviews were included in this run, so there is nothing to recap yet. The record so far was not provided either. The news check found one major change. Lamar Jackson is out for Baltimore, while the brief still lists him as the Ravens' QB.",
    "lessons": []
   },
   "College": {
@@ -173,6 +201,6 @@
    ]
   }
  },
- "updated": "2026-10-18T10:36-04:00",
+ "updated": "2026-10-18T12:30-04:00",
  "model": "claude-sonnet-5-5"
 }
