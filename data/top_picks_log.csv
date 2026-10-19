@@ -41,7 +41,7 @@ logged_at_et,league,list,season,week,game_id,kickoff,matchup,kind,pick,side,team
 2026-10-18 12:30,NFL,props_likely,2026,6,2026_06_DAL_GB,2026-10-18T20:20:00-04:00,DAL at GB,prop,Dak Prescott 225+ passing yards,at least,DAL,GB,00-0033077,Dak Prescott,passing_yards,225.0,0.737,,-478,2,-0.09,hit,258.0
 2026-10-18 12:30,NFL,props_risky,2026,6,2026_06_DAL_GB,2026-10-18T20:20:00-04:00,DAL at GB,prop,Dak Prescott 300+ passing yards,at least,DAL,GB,00-0033077,Dak Prescott,passing_yards,300.0,0.367,,155,4,-0.025,miss,258.0
 2026-10-18 12:30,NFL,props_risky,2026,6,2026_06_DAL_GB,2026-10-18T20:20:00-04:00,DAL at GB,prop,Jordan Love 300+ passing yards,at least,GB,DAL,00-0036264,Jordan Love,passing_yards,300.0,0.35,,156,4,-0.041,miss,276.0
-2026-10-19 12:36,NFL,likely,2026,6,2026_06_WAS_SF,2026-10-19T20:15:00-04:00,WAS at SF,winner,SF to win,home,SF,WAS,,,,,0.799,0.766,-395,,0.001,,
-2026-10-19 12:36,NFL,value,2026,6,2026_06_WAS_SF,2026-10-19T20:15:00-04:00,WAS at SF,total,Under 51.5,under,,,,,,51.5,0.514,,-110,,-0.01,,
-2026-10-19 12:36,NFL,props_likely,2026,6,2026_06_WAS_SF,2026-10-19T20:15:00-04:00,WAS at SF,prop,Brock Purdy 200+ passing yards,at least,SF,WAS,00-0037834,Brock Purdy,passing_yards,200.0,0.795,,-506,4,-0.04,,
-2026-10-19 12:36,NFL,props_risky,2026,6,2026_06_WAS_SF,2026-10-19T20:15:00-04:00,WAS at SF,prop,Brock Purdy 300+ passing yards,at least,SF,WAS,00-0037834,Brock Purdy,passing_yards,300.0,0.279,,282,4,0.017,,
+2026-10-19 13:17,NFL,likely,2026,6,2026_06_WAS_SF,2026-10-19T20:15:00-04:00,WAS at SF,winner,SF to win,home,SF,WAS,,,,,0.799,0.766,-395,,0.001,,
+2026-10-19 13:17,NFL,value,2026,6,2026_06_WAS_SF,2026-10-19T20:15:00-04:00,WAS at SF,total,Under 51.5,under,,,,,,51.5,0.514,,-110,,-0.01,,
+2026-10-19 13:17,NFL,props_likely,2026,6,2026_06_WAS_SF,2026-10-19T20:15:00-04:00,WAS at SF,prop,Brock Purdy 200+ passing yards,at least,SF,WAS,00-0037834,Brock Purdy,passing_yards,200.0,0.795,,-506,4,-0.04,,
+2026-10-19 13:17,NFL,props_risky,2026,6,2026_06_WAS_SF,2026-10-19T20:15:00-04:00,WAS at SF,prop,Brock Purdy 300+ passing yards,at least,SF,WAS,00-0037834,Brock Purdy,passing_yards,300.0,0.279,,282,4,0.017,,
