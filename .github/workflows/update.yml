@@ -8,6 +8,7 @@ on:
     - cron: "17 14 * * 4"   # Thursday 9:17 AM CDT: review, NFL picks before Thursday night, fresh college lines
     - cron: "17 13 * * 6"   # Saturday 8:17 AM CDT: fresh college lines before the Saturday games
     - cron: "17 11 * * 0"   # Sunday 6:17 AM CDT: NFL props with the final injury reports
+    - cron: "17 14 * * 1"   # Monday 9:17 AM CDT: grade Sunday's NFL games, refresh Monday night's game
   workflow_dispatch:
     inputs:
       league:
@@ -54,6 +55,7 @@ jobs:
                 "17 14 * * 4") league="both" ;;
                 "17 13 * * 6") league="college" ;;
                 "17 11 * * 0") league="nfl" ;;
+                "17 14 * * 1") league="nfl" ;;
                 *) league="both" ;;
               esac ;;
           esac

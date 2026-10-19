@@ -147,6 +147,18 @@ table.lines .num { font-family: var(--font-data); font-variant-numeric: tabular-
 .tile .sub { color: var(--muted); font-size: .86rem; }
 .tile .sub b { color: var(--ink); font-weight: 600; }
 .scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.chart-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px 8px; margin-top: 12px; position: relative; }
+.chart-card h3 { font-size: .95rem; font-weight: 600; margin: 0 0 2px; }
+.chart-card .note { margin: 0 0 6px; }
+.chart-card svg { display: block; overflow: visible; }
+.chart-card svg text { font-family: var(--font-data); font-size: 11px; fill: var(--muted); }
+.chart-card .grid { stroke: var(--line); stroke-width: 1; }
+.chart-card .bar { fill: var(--model); opacity: .85; pointer-events: none; }
+.chart-card .hit { fill: transparent; cursor: default; outline: none; }
+.chart-card .hit:hover + .bar, .chart-card .hit:focus + .bar { opacity: 1; }
+.chart-card .bench { stroke: var(--muted); stroke-width: 1.5; }
+.tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--surface); border-radius: 6px; padding: 6px 9px; font-size: .8rem; line-height: 1.35; white-space: nowrap; transform: translate(-50%, -100%); }
+.tip b { font-family: var(--font-data); font-weight: 500; }
 table.data { width: 100%; border-collapse: collapse; font-size: .9rem; min-width: 640px; }
 table.data th, table.data td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; }
 table.data th { color: var(--muted); font-size: .76rem; letter-spacing: .06em; text-transform: uppercase; font-weight: 600; background: var(--sunken); position: sticky; top: 0; }
@@ -187,7 +199,7 @@ table.data tr:last-child td { border-bottom: 0; }
 .tag { font-size: .72rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; border-radius: 999px; padding: 1px 8px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; line-height: 1.5; }
 table.data.fit { min-width: 0; }
 table.data.fit td:first-child { white-space: normal; }
-@media (max-width: 480px) { table.data.fit th, table.data.fit td { padding: 8px 8px; } }
+@media (max-width: 480px) { table.data.fit th, table.data.fit td { padding: 8px 8px; } table.data.fit th { white-space: normal; } }
 .tag.good { color: var(--win); border-color: currentColor; }
 .tag.news { background: var(--flag); color: var(--flag-ink); border-color: var(--flag); }
 .tag.ai { color: var(--model); border-color: currentColor; }
@@ -544,12 +556,107 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
   function wlp(x) { return `${x.win}–${x.loss}–${x.push}`; }
   function rate(x) { const n = x.win + x.loss; return n ? (100 * x.win / n).toFixed(1) + "%" : "–"; }
 
+  // ---------- report card: the model's own accuracy, with its 2020–2025 tests as the yardstick ----------
+  function versus(cur, base, lowerIsBetter, fmt) {
+    if (cur == null || base == null) return "";
+    if (fmt(cur) === fmt(base)) return "about the same as usual";
+    return (lowerIsBetter ? cur < base : cur > base) ? "better than usual" : "worse than usual";
+  }
+
+  function reportCard(d, view) {
+    const R = d.report;
+    if (!R || !R.benchmark) return "";
+    const b = R.benchmark, s = R.season || {};
+    const has = s.games > 0;
+    const one = (x) => (x == null ? "–" : x.toFixed(1));
+    const three = (x) => (x == null ? "–" : x.toFixed(3));
+    const pc = (x) => (x == null ? "–" : pct(x));
+    const tile = (label, value, base, note) => `<div class="tile"><div class="label">${label}</div><div class="big">${has ? value : "–"}</div>
+        <div class="sub">${esc(b.seasons)} tests: <b>${base}</b>${note ? " · " + esc(note) : ""}</div></div>`;
+    const tiles = `<div class="tiles">
+      ${tile("Picked the winner", pc(s.winners), pc(b.winners), has ? versus(s.winners, b.winners, false, pc) : "")}
+      ${tile("Average margin miss", one(s.margin_miss), one(b.margin_miss), has ? versus(s.margin_miss, b.margin_miss, true, one) : "points")}
+      ${tile("Average total miss", one(s.total_miss), one(b.total_miss), has ? versus(s.total_miss, b.total_miss, true, one) : "points")}
+      ${tile("Win-chance score", three(s.brier), three(b.brier), has ? versus(s.brier, b.brier, true, (x) => x.toFixed(2)) : "lower is better")}
+    </div>`;
+    const cal = (b.calibration || []).map((c, i) => {
+      const live = (s.calibration || [])[i] || {};
+      return `<tr><td>${esc(c.label)}</td><td class="num">${live.games || 0}</td><td class="num">${pc(live.predicted)}</td><td class="num">${live.games ? pc(live.actual) : "–"}</td>
+        <td class="num">${pc(c.actual)} <small>of ${c.games}</small></td></tr>`;
+    }).join("");
+    const vegas = has && s.vegas_margin_miss != null
+      ? `For reference only: on the same games, the sportsbooks' spreads missed by ${one(s.vegas_margin_miss)} points on average and their totals by ${one(s.vegas_total_miss)}.` : "";
+    return `<h2>Report card</h2>
+      <p class="note">How accurate the picks have been on the model's own terms, next to the same numbers from its ${esc(b.seasons)} test seasons, which it never trained on.
+        <b>Margin miss</b> is how far the predicted margin was from the real one. The <b>win-chance score</b> grades the win percentages: 0 is perfect and 0.250 is a coin flip. ${esc(vegas)}</p>
+      ${tiles}
+      ${missChart(R.weeks || [], b.margin_miss, b.seasons, view)}
+      <h2>Do the chances come true?</h2>
+      <p class="note">Games grouped by how sure the model was of its pick. If the chances are honest, "actually won" lands close to "model said". A handful of games per row is mostly luck.</p>
+      <div class="scroll"><table class="data fit"><thead><tr><th>Model's chance</th><th class="num">Games</th><th class="num">Model said</th><th class="num">Actually won</th><th class="num">${esc(b.seasons)} tests</th></tr></thead>
+        <tbody>${cal}</tbody></table></div>`;
+  }
+
+  // Average margin miss by week: one bar per week, with the test seasons' average as a reference line
+  function missChart(weeks, bench, seasons, view) {
+    const data = weeks.filter((w) => w.margin_miss != null);
+    if (!data.length) return "";
+    const W = Math.max(300, Math.min(760, (view.clientWidth || 700) - 30)), H = 190;
+    const padL = 30, padR = 84, padT = 12, padB = 24;
+    const top = Math.max(5, Math.ceil((Math.max(bench || 0, ...data.map((w) => w.margin_miss)) * 1.15) / 5) * 5);
+    const y = (v) => padT + (H - padT - padB) * (1 - v / top);
+    const base = y(0), band = (W - padL - padR) / data.length, bw = Math.min(24, band * 0.6);
+    let svg = "";
+    for (let v = 0; v <= top; v += 5) {
+      svg += `<line class="grid" x1="${padL}" x2="${W - padR}" y1="${y(v)}" y2="${y(v)}"/><text x="${padL - 6}" y="${y(v) + 4}" text-anchor="end">${v}</text>`;
+    }
+    data.forEach((w, i) => {
+      const x0 = padL + band * i + (band - bw) / 2, y0 = y(w.margin_miss), r = Math.min(4, base - y0);
+      const tip = `Week ${w.week}|${w.margin_miss.toFixed(1)}|${w.games} game${w.games === 1 ? "" : "s"}${w.winners != null ? `, winner right ${pct(w.winners)}` : ""}`;
+      svg += `<rect class="hit" x="${padL + band * i}" y="${padT}" width="${band}" height="${base - padT}" tabindex="0" data-tip="${esc(tip)}" aria-label="${esc(`Week ${w.week}: average margin miss ${w.margin_miss.toFixed(1)} points in ${w.games} games`)}"/>`
+        + `<path class="bar" d="M${x0},${base} V${y0 + r} Q${x0},${y0} ${x0 + r},${y0} H${x0 + bw - r} Q${x0 + bw},${y0} ${x0 + bw},${y0 + r} V${base} Z"/>`;
+      if (data.length <= 12 || i % 2 === 0) svg += `<text x="${x0 + bw / 2}" y="${H - 6}" text-anchor="middle">Wk ${w.week}</text>`;
+    });
+    const last = data[data.length - 1], lx = padL + band * (data.length - 1) + band / 2;
+    svg += `<text x="${lx}" y="${y(last.margin_miss) - 6}" text-anchor="middle" style="fill:var(--ink)">${last.margin_miss.toFixed(1)}</text>`;
+    if (bench != null) {
+      svg += `<line class="bench" x1="${padL}" x2="${W - padR}" y1="${y(bench)}" y2="${y(bench)}"/>`
+        + `<text x="${W - padR + 6}" y="${y(bench) + 4}">${esc(seasons)}</text><text x="${W - padR + 6}" y="${y(bench) + 17}">avg ${bench.toFixed(1)}</text>`;
+    }
+    return `<div class="chart-card"><h3>Average margin miss by week</h3>
+      <p class="note">Points; lower is better. The line is the ${esc(seasons)} test average. The weekly table below has the numbers.</p>
+      <svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Average margin miss by week">${svg}</svg><div class="tip" hidden></div></div>`;
+  }
+
+  function wireChart(view) {
+    const card = view.querySelector(".chart-card");
+    if (!card) return;
+    const tip = card.querySelector(".tip");
+    const show = (el) => {
+      const [title, value, rest] = el.dataset.tip.split("|");
+      tip.replaceChildren();
+      const v = document.createElement("b"); v.textContent = value + " points";
+      tip.append(v, document.createElement("br"), document.createTextNode(`${title} · ${rest}`));
+      const box = el.getBoundingClientRect(), cb = card.getBoundingClientRect();
+      tip.style.left = `${Math.min(Math.max(box.left - cb.left + box.width / 2, 70), cb.width - 70)}px`;
+      tip.style.top = `${el.nextElementSibling.getBoundingClientRect().top - cb.top - 6}px`;
+      tip.hidden = false;
+    };
+    card.querySelectorAll(".hit").forEach((el) => {
+      el.addEventListener("pointerenter", () => show(el));
+      el.addEventListener("focus", () => show(el));
+      el.addEventListener("pointerleave", () => (tip.hidden = true));
+      el.addEventListener("blur", () => (tip.hidden = true));
+    });
+  }
+
   function renderRecord(d) {
     const view = document.getElementById("view-record");
     const rec = d.record && d.record.season;
     if (!rec || !rec.games) {
-      view.innerHTML = `<h2>How we're doing</h2><div class="empty"><strong>No graded games yet this season.</strong>
+      view.innerHTML = reportCard(d, view) + `<h2>This season</h2><div class="empty"><strong>No graded games yet this season.</strong>
         Results show up here once games the model picked are final and the ${state.league === "NFL" ? "NFL" : "college"} notebook runs again.</div>`;
+      wireChart(view);
       return;
     }
     const w = rec.winners;
@@ -566,13 +673,14 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
     const byWeek = {};
     (d.results || []).forEach((r) => (byWeek[r.week] = byWeek[r.week] || []).push(r));
     const results = Object.keys(byWeek).sort((a, b) => b - a).map((wk) => `<h2>Week ${esc(wk)} results</h2><div class="results">${byWeek[wk].map(resultRow).join("")}</div>`).join("");
-    view.innerHTML = `<h2>This season</h2>
+    view.innerHTML = reportCard(d, view) + `<h2>Against the sportsbooks</h2>
       <p class="note">Graded from the pick log: each game uses the model's pick from before kickoff and the sportsbook line at that moment.</p>
       ${tiles}
       <h2>By week</h2>
       <div class="scroll"><table class="data"><thead><tr><th>Week</th><th class="num">Games</th><th class="num">Winners</th><th class="num">Spread W–L–P</th><th class="num">O/U W–L–P</th>
         <th class="num">Spread miss</th><th class="num">Vegas miss</th><th class="num">Total miss</th><th class="num">Vegas miss</th></tr></thead><tbody>${weeks}</tbody></table></div>
       ${results}`;
+    wireChart(view);
   }
 
   function resultRow(r) {

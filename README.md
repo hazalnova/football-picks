@@ -14,8 +14,9 @@ The **Update picks** workflow (in the **Actions** tab) runs on this schedule. Ti
 | Thursday, about 9:15 AM | Review, NFL picks before Thursday night, and fresh college lines |
 | Saturday, about 8:15 AM | Fresh college lines before the Saturday games |
 | Sunday, about 6:15 AM | NFL props with the final injury reports |
+| Monday, about 9:15 AM | Grades Sunday's NFL games and refreshes Monday night's game |
 
-From Nov 1 to mid-March, when Central time falls back an hour, each run starts an hour earlier.
+From Nov 1 to mid-March, when Central time falls back an hour, each run starts an hour earlier. GitHub sometimes starts scheduled runs late, occasionally by a few hours, so for a game that's about to start, run it yourself.
 
 Every run saves the updated logs to the `data` folder and republishes the website. The first logged pick for each game still counts, the same as in Colab, so a later run never changes a logged pick.
 
@@ -23,7 +24,16 @@ After the notebooks, every run also does two more things:
 1. **Top picks lists** (`scripts/top_picks.py`). Builds the lists on the website's **Top picks** tab from the models' own chances: the most likely winners, the best value against the sportsbook, risky underdogs, and, for the NFL, the most likely and the risky player milestones. With the `ODDS_API_KEY` secret, the milestones get the sportsbooks' prices too. Each game's entries lock at kickoff and are graded after the game in `data/top_picks_log.csv`, so the site can show whether "likely" really meant likely.
 2. **AI news check** (`scripts/ai_notes.py`). Claude reads the lists, the latest results and the post-game reviews, searches the web for news the models can't see, like injuries and quarterback changes, and writes short notes with links. It also keeps a list of patterns it notices in `data/ai/lessons.json` and reads it again next run. That file is its memory. The AI only adds notes: it never changes a pick, a list or a model. Its lessons are ideas to test on past seasons first. This step needs the `ANTHROPIC_API_KEY` secret (see **Secrets**), and without it, it's skipped.
 
-**To run it now:** open **Actions → Update picks → Run workflow**, choose what to run, and click the green button. It takes about 10–15 minutes.
+**To run it now:** open **Actions → Update picks → Run workflow** (bookmark https://github.com/hazalnova/football-picks/actions/workflows/update.yml to jump straight there), choose what to run, and click the green button. On your phone, the GitHub app does the same thing: open the repository, then **Actions → Workflows → Update picks → Run workflow**. A run takes about 10–15 minutes. The choices:
+
+| Choice | What it does | Good for |
+|---|---|---|
+| **both** | Everything for both leagues | Any time |
+| **nfl** | Review, NFL picks, props and odds, Top picks, AI news | After Sunday's games (grades them), and before Monday or Thursday night |
+| **college** | Review, college picks, Top picks, AI news | Before weekday college games (Tuesday to Friday) or Saturday |
+| **review only** | The post-game review and the Top picks grading, no new picks | Rarely needed: the other choices do this too |
+
+Every choice also republishes the website. A pick that's already logged never changes, so running extra times is safe; the only cost is a little of the AI and odds budgets.
 
 **To see what a run did:** open the run in the **Actions** tab. The summary page shows what each notebook printed: this week's game cards, the scorecard and what was saved. The full notebooks, tables included, are under **Artifacts → notebooks-with-output**.
 
