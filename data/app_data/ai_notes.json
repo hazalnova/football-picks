@@ -2,98 +2,24 @@
  "kind": "ai_notes",
  "leagues": {
   "NFL": {
-   "checked": "2026-10-18T12:30-04:00",
+   "checked": "2026-10-19T12:36-04:00",
    "season": 2026,
    "week": 6,
    "news": [
     {
-     "game_id": "2026_06_BAL_CLE",
+     "game_id": "2026_06_WAS_SF",
      "items": [
-      "NFL|value|2026_06_BAL_CLE|total|over|||39.5",
-      "NFL|risky|2026_06_BAL_CLE|winner|home|||",
-      "NFL|props_likely|2026_06_BAL_CLE|prop|at least|00-0032764|rushing_yards|60.0"
+      "NFL|likely|2026_06_WAS_SF|winner|home|||",
+      "NFL|value|2026_06_WAS_SF|total|under|||51.5",
+      "NFL|props_likely|2026_06_WAS_SF|prop|at least|00-0037834|passing_yards|200.0",
+      "NFL|props_risky|2026_06_WAS_SF|prop|at least|00-0037834|passing_yards|300.0"
      ],
-     "headline": "Lamar Jackson ruled out; Tyler Huntley starts for Baltimore",
-     "detail": "Ravens coach Jesse Minter ruled Jackson out with an ankle injury, and he is on the Sunday inactive list (Oct 18). Tyler Huntley starts. The Browns will also be without RB Quinshon Judkins. The brief lists Jackson as BAL's QB.",
-     "impact": "hurts the pick",
-     "sources": [
-      "https://sports.yahoo.com/nfl/live/ravens-browns-score-live-updates-inactives-highlights-stats-where-to-watch-week-6-lamar-jackson-152531174.html",
-      "https://www.nbcsports.com/fantasy/football/player-news/2026-10-18/ravens-announce-week-6-inactives-vs-browns"
-     ]
-    },
-    {
-     "game_id": "2026_06_CAR_PHI",
-     "items": [
-      "NFL|value|2026_06_CAR_PHI|total|over|||39.5"
-     ],
-     "headline": "Eagles start Tanner McKee; Hurts placed on IR",
-     "detail": "Jalen Hurts went on injured reserve with a calf blood clot and will miss at least four games. Tanner McKee makes his third career start against Carolina. Half the Eagles' starting lineup is out, per Heavy (Oct 16-18).",
+     "headline": "49ers without Bosa and Deebo Samuel; Mike Evans questionable",
+     "detail": "As of Oct 19, San Francisco has Nick Bosa (knee/calf) and Deebo Samuel (hamstring) out. WR Mike Evans (ribs) is questionable. Inactives come about 6:45 p.m. ET.",
      "impact": "worth watching",
      "sources": [
-      "https://sports.yahoo.com/articles/eagles-vs-panthers-live-updates-131915994.html",
-      "https://heavy.com/sports/nfl/philadelphia-eagles/tanner-mckee-sends-inadvertent-warning-panthers/"
-     ]
-    },
-    {
-     "game_id": "2026_06_ARI_LA",
-     "items": [
-      "NFL|props_likely|2026_06_ARI_LA|prop|at least|00-0026498|passing_yards|250.0",
-      "NFL|props_likely|2026_06_ARI_LA|prop|at least|00-0039075|receiving_yards|60.0",
-      "NFL|props_likely|2026_06_ARI_LA|prop|at least|00-0039075|receptions|5.0",
-      "NFL|props_risky|2026_06_ARI_LA|prop|at least|00-0039075|receiving_yards|100.0",
-      "NFL|props_risky|2026_06_ARI_LA|prop|at least|00-0039075|receptions|9.0"
-     ],
-     "headline": "Nacua healthy after 17-catch, 24-target Monday night",
-     "detail": "Puka Nacua caught 17 passes for 138 yards on a Monday-night record 24 targets last week and is listed healthy. Matthew Stafford has four straight 300-yard games. Arizona's Budda Baker is questionable with a groin injury, and RB Jeremiyah Love is out (Oct 17-18).",
-     "impact": "helps the pick",
-     "sources": [
-      "https://sports.yahoo.com/articles/puka-nacua-just-caught-17-200000039.html",
-      "https://www.archyde.com/rams-seek-statement-win-against-cardinals-at-sofi-stadium/",
-      "https://www.therams.com/news/rams-injury-report-week-6-2026-vs-cardinals-trent-mcduffie-and-kam-curl-questionable"
-     ]
-    },
-    {
-     "game_id": "2026_06_ARI_LA",
-     "items": [
-      "NFL|likely|2026_06_ARI_LA|winner|home|||"
-     ],
-     "headline": "Rams CB Trent McDuffie questionable vs. Arizona",
-     "detail": "The Rams' final injury report lists McDuffie (groin) and Kam Curl as questionable (Oct 17).",
-     "impact": "worth watching",
-     "sources": [
-      "https://www.therams.com/news/rams-injury-report-week-6-2026-vs-cardinals-trent-mcduffie-and-kam-curl-questionable"
-     ]
-    },
-    {
-     "game_id": "2026_06_CHI_ATL",
-     "items": [
-      "NFL|value|2026_06_CHI_ATL|total|under|||51.5",
-      "NFL|props_likely|2026_06_CHI_ATL|prop|at least|00-0037238|receiving_yards|50.0",
-      "NFL|props_risky|2026_06_CHI_ATL|prop|at least|00-0038542|rushing_yards|100.0",
-      "NFL|props_risky|2026_06_CHI_ATL|prop|at least|00-0037238|receiving_yards|100.0"
-     ],
-     "headline": "Caleb Williams and Penix both active; Bears missing defenders",
-     "detail": "Both QBs are playing on Sunday. Bears LB T.J. Edwards, CB Tyrique Stevenson and RB Kyle Monangai are inactive, and Montez Sweat is suspended. Bijan Robinson leads the NFL with 580 rushing yards. Drake London has 488 receiving yards.",
-     "impact": "worth watching",
-     "sources": [
-      "https://sports.yahoo.com/articles/falcons-vs-bears-inactives-list-153017497.html",
-      "https://bearstalk.com/2026/10/18/chicago-bears-inactives-week-6-falcons-2026",
-      "https://www.chicagobears.com/news/game-preview-bears-at-falcons-2026-week-6"
-     ]
-    },
-    {
-     "game_id": "2026_06_LAC_KC",
-     "items": [
-      "NFL|likely|2026_06_LAC_KC|winner|home|||",
-      "NFL|props_likely|2026_06_LAC_KC|prop|at least|00-0038134|rushing_yards|60.0",
-      "NFL|props_risky|2026_06_LAC_KC|prop|at least|00-0038134|rushing_yards|100.0"
-     ],
-     "headline": "Chargers short-handed against Chiefs; Mahomes full practice",
-     "detail": "Chargers tackles Joe Alt and Rashawn Slater, guard Kayode Awosika, safety Derwin James and CB Donte Jackson are out. Patrick Mahomes practiced fully with no game designation. Chiefs WR Rashee Rice and T Josh Simmons are out (Oct 16-17).",
-     "impact": "helps the pick",
-     "sources": [
-      "https://sports.yahoo.com/articles/kansas-city-chiefs-final-injury-194932108.html",
-      "https://www.footballnationusa.com/post/chargers-at-chiefs-week-6-guide-2026"
+      "https://www.nbcsports.com/betting/nfl/news/49ers-vs-commanders-odds-expert-picks-team-and-player-news-betting-trends-and-stats",
+      "https://www.si.com/nfl/commanders/onsi/commanders-49ers-how-to-watch-tv-channel-start-time-stream-radio"
      ]
     },
     {
@@ -101,73 +27,85 @@
      "items": [
       "NFL|likely|2026_06_WAS_SF|winner|home|||"
      ],
-     "headline": "Daniels plays for Washington; RB Croskey-Merritt out, Bosa out for SF",
-     "detail": "Jayden Daniels practiced fully on his elbow and is expected to play. Commanders RB Croskey-Merritt is out with a groin injury. A 49ers injury-report headline says Nick Bosa is ruled out (Oct 17-18).",
-     "impact": "worth watching",
+     "headline": "Commanders lose RB Croskey-Merritt; Diggs questionable",
+     "detail": "Washington ruled out its leading rusher Jacory Croskey-Merritt (groin) on Oct 17, plus backup QB Marcus Mariota. Stefon Diggs (hamstring) is questionable. Jayden Daniels has no game designation.",
+     "impact": "helps the pick",
      "sources": [
-      "https://www.commanders.com/news/commanders-vs-49ers-week-6-injury-report-2026",
-      "https://sports.yahoo.com/articles/commanders-lose-running-back-48-173350424.html",
-      "https://49erswebzone.com/articles/204279-commanders-injury-report-juszczyk-return"
+      "https://www.commanders.com/news/game-status-commanders-49ers-week-6",
+      "https://www.hogshaven.com/washington-commanders-injuries/449648/commanders-vs-49ers-saturday-injury-report-bill-croskey-merritt-stefon-diggs-terry-mclaurin"
      ]
     },
     {
-     "game_id": "2026_06_DAL_GB",
+     "game_id": "2026_06_WAS_SF",
      "items": [
-      "NFL|props_likely|2026_06_DAL_GB|prop|at least|00-0033077|passing_yards|225.0",
-      "NFL|props_risky|2026_06_DAL_GB|prop|at least|00-0033077|passing_yards|300.0",
-      "NFL|props_risky|2026_06_DAL_GB|prop|at least|00-0036264|passing_yards|300.0",
-      "NFL|value|2026_06_DAL_GB|total|under|||53.5"
+      "NFL|value|2026_06_WAS_SF|total|under|||51.5"
      ],
-     "headline": "Cowboys CB Porter expected to play; Packers D-line thin",
-     "detail": "Joey Porter Jr. (ankle) is expected to play, per ESPN's Jeremy Fowler. CB Cobie Durant is out and Ameer Speed is questionable. The Packers are without DTs Javon Hargrave and Jonathan Ford. Love threw for 367 yards last week.",
+     "headline": "Injuries on both sides; one outlet sees value on the Under",
+     "detail": "Covers (Oct 19) says mounting injuries and a total of 52.5 could favor the Under. The list shows 51.5, so lines differ by book.",
      "impact": "worth watching",
      "sources": [
-      "https://www.si.com/nfl/cowboys/onsi/joey-porter-jr-nfl-week-6-injury-update-dallas-cowboys-cb-packers",
-      "https://www.si.com/nfl/cowboys/onsi/cowboys-injury-report-rules-out-starting-cornerback-for-packers-game",
-      "https://clutchpoints.com/nfl/dallas-cowboys/packers-cowboys-week-6-injury-report-dallas-getting-joey-porter-jr-back-desperately-needed-vs-jordan-love-christian-watson"
+      "https://www.covers.com/nfl/commanders-vs-49ers-prediction-picks-oct-19-2026"
      ]
     },
     {
-     "game_id": "2026_06_NO_NYG",
+     "game_id": "2026_06_WAS_SF",
      "items": [
-      "NFL|value|2026_06_NO_NYG|spread|home|||-1.5"
+      "NFL|props_likely|2026_06_WAS_SF|prop|at least|00-0037834|passing_yards|200.0",
+      "NFL|props_risky|2026_06_WAS_SF|prop|at least|00-0037834|passing_yards|300.0"
      ],
-     "headline": "Giants lose RT Eluemunor; Winston starts against old team",
-     "detail": "Giants RT Jermaine Eluemunor is inactive. Andrew Thomas and Abdul Carter were questionable. Jameis Winston is 2-0-1 as starter. Saints WR Chris Olave was listed questionable with an illness. Alvin Kamara is active.",
+     "headline": "Purdy's targets thinner with Samuel out, Evans doubtful-ish",
+     "detail": "With Samuel out and Evans questionable, Kittle and Evans are expected to be Purdy's main targets. One outlet projects Purdy near 249 passing yards.",
      "impact": "worth watching",
      "sources": [
-      "https://www.giants.com/news/nfl-week-6-inactives-who-s-in-who-s-out-for-giants-vs-saints",
-      "https://www.si.com/nfl/saints/onsi/saints-inactives-vs-giants-expectations-for-the-meadowlands-01m57taht5f3",
-      "https://www.espn.com/fantasy/football/story/_/page/FFSundayInactives-50188691/fantasy-football-injuries-nfl-week-6-inactive-active"
-     ]
-    },
-    {
-     "game_id": "2026_06_TEN_IND",
-     "items": [
-      "NFL|likely|2026_06_TEN_IND|winner|home|||"
-     ],
-     "headline": "Colts TE Tyler Warren reported inactive",
-     "detail": "A Yahoo Week 6 live-blog headline lists Tyler Warren as inactive. That could hurt Daniel Jones's offense. I did not confirm this with a second source.",
-     "impact": "hurts the pick",
-     "sources": [
-      "https://sports.yahoo.com/nfl/live/nfl-week-6-scores-news-live-updates-schedule-highlights-stats-where-to-watch-130000137.html"
+      "https://sports.yahoo.com/articles/49ers-week-6-injury-report-163744423.html",
+      "https://suaragarut.id/en/49ers-commanders-injury-matchup"
      ]
     }
    ],
    "item_notes": {
-    "NFL|value|2026_06_BAL_CLE|total|over|||39.5": "The brief shows Lamar Jackson at QB, but he is out and Tyler Huntley starts, so the model's 45.4 total may be too high next to the 39.5 line.",
-    "NFL|risky|2026_06_BAL_CLE|winner|home|||": "Jackson being out helps Cleveland, though the 40% Vegas price already likely reflects that, and Browns RB Quinshon Judkins is also out.",
-    "NFL|props_likely|2026_06_BAL_CLE|prop|at least|00-0032764|rushing_yards|60.0": "With Jackson out, Derrick Henry is expected to carry a bigger share of the Ravens offense.",
-    "NFL|value|2026_06_CAR_PHI|total|over|||39.5": "Tanner McKee starts for the Eagles with Hurts on IR and many starters out, so the Over rests on a thin Philadelphia offense.",
-    "NFL|props_likely|2026_06_ARI_LA|prop|at least|00-0026498|passing_yards|250.0": "Matthew Stafford has four straight 300-yard games and faces a Cardinals pass defense that ranks near the bottom of the league.",
-    "NFL|props_likely|2026_06_ARI_LA|prop|at least|00-0039075|receptions|5.0": "Puka Nacua had 24 targets and 17 catches last week and is listed healthy; that volume may not repeat.",
-    "NFL|props_risky|2026_06_CHI_ATL|prop|at least|00-0038542|rushing_yards|100.0": "Bijan Robinson leads the NFL with 580 rushing yards at 5.7 per carry, and Bears LB T.J. Edwards is inactive.",
-    "NFL|props_likely|2026_06_LAC_KC|prop|at least|00-0038134|rushing_yards|60.0": "The Chargers are missing both starting tackles and key defenders, which favors a heavy Chiefs run game, though a lead can also reduce late-game volume.",
-    "NFL|likely|2026_06_WAS_SF|winner|home|||": "Daniels is healthy and Washington's RB Croskey-Merritt is out; a 49ers injury report headline says Bosa is out too, which is a mixed picture.",
-    "NFL|props_risky|2026_06_DAL_GB|prop|at least|00-0036264|passing_yards|300.0": "Jordan Love threw for 367 yards last week against Chicago, and Dallas is thin at cornerback, though Joey Porter Jr. is expected to play."
+    "NFL|likely|2026_06_WAS_SF|winner|home|||": "The model is 3.7 points higher on SF than the line, even though SF is missing Bosa and Samuel and Washington is missing its top rusher.",
+    "NFL|value|2026_06_WAS_SF|total|under|||51.5": "The model's edge here is thin: 51.4% against 52.4% needed, so it is below break-even by the numbers given.",
+    "NFL|props_likely|2026_06_WAS_SF|prop|at least|00-0037834|passing_yards|200.0": "Evans is questionable and Samuel is out, so Purdy's 200-yard pick depends on who is active at 6:45 p.m. ET.",
+    "NFL|props_risky|2026_06_WAS_SF|prop|at least|00-0037834|passing_yards|300.0": "Big-game picks are 1 of 8 this season against 2.8 expected, and Purdy's receiver group is thinner tonight."
    },
-   "recap": "No graded results or post-game reviews were included in this run, so there is nothing to recap yet. The record so far was not provided either. The news check found one major change. Lamar Jackson is out for Baltimore, while the brief still lists him as the Ravens' QB.",
-   "lessons": []
+   "recap": "The model's picks struggled in Week 6: it picked the winner in 5 of 12 games, was 3-9 against the spread and 4-8 on totals. Seven of its wrong winners came from games decided by efficiency or turnovers (ARI over LA, NO over NYG, CHI over ATL, CAR over PHI, CLE over BAL). It was wrong in all three games where it picked a different side than Vegas (NYG, ATL, PHI). Its average spread miss is 8.5 points against 6.9 for Vegas.",
+   "lessons": [
+    {
+     "lesson": "When the model picks a different winner than the Vegas favorite, it has lost so far.",
+     "evidence": "0 of 3 graded games (NYG over NO, ATL over CHI, PHI over CAR) where the model's side was not the Vegas favorite.",
+     "status": "watching",
+     "test": "On past seasons, take every game where the model's pick differs from the moneyline favorite. Compare its win rate and spread record with Vegas. Wait for 20+ games.",
+     "first_noted": "2026-10-19"
+    },
+    {
+     "lesson": "Large gaps between the model's total and Vegas's total have not paid off.",
+     "evidence": "0 of 3 graded games with a gap of 4.9 points or more (CHI 6.6, CAR 5.2, BAL 4.9) won the over/under pick. Overall over/under is 4-8.",
+     "status": "watching",
+     "test": "On past seasons, group games by size of the total gap (under 2, 2-4, over 4). Check hit rate per group. Needs 20+ games in the large-gap group.",
+     "first_noted": "2026-10-19"
+    },
+    {
+     "lesson": "Many big misses come from efficiency swings, which the model can't see before kickoff.",
+     "evidence": "In 5 of the 7 games where the winner was wrong, the review names efficiency as a main reason.",
+     "status": "watching",
+     "test": "On past seasons, measure how often big spread misses (over 8 points) are driven by efficiency versus turnovers. Check whether the model's misses are larger than Vegas's overall.",
+     "first_noted": "2026-10-19"
+    },
+    {
+     "lesson": "Big-game player picks hit less often than the model's chances say.",
+     "evidence": "1 of 8 big-game picks hit, against 2.8 expected. The milestone picks went 6 of 8, against 6.0 expected.",
+     "status": "watching",
+     "test": "On past seasons, compare predicted chance with actual hit rate for 300+ yard and similar long-shot props, in buckets of model chance. Needs 20+ picks.",
+     "first_noted": "2026-10-19"
+    },
+    {
+     "lesson": "Best-value picks against the sportsbook are underperforming.",
+     "evidence": "1 of 5 best-value picks hit this season, against 2.7 expected, at -3.09 units.",
+     "status": "watching",
+     "test": "On past seasons, check hit rate of the model's top value picks by size of edge. Needs 20+ picks.",
+     "first_noted": "2026-10-19"
+    }
+   ]
   },
   "College": {
    "checked": "2026-10-17T18:57-04:00",
@@ -201,6 +139,6 @@
    ]
   }
  },
- "updated": "2026-10-18T12:30-04:00",
+ "updated": "2026-10-19T12:36-04:00",
  "model": "claude-sonnet-5-5"
 }

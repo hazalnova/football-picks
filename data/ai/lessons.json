@@ -1,6 +1,42 @@
 {
  "leagues": {
-  "NFL": [],
+  "NFL": [
+   {
+    "lesson": "When the model picks a different winner than the Vegas favorite, it has lost so far.",
+    "evidence": "0 of 3 graded games (NYG over NO, ATL over CHI, PHI over CAR) where the model's side was not the Vegas favorite.",
+    "status": "watching",
+    "test": "On past seasons, take every game where the model's pick differs from the moneyline favorite. Compare its win rate and spread record with Vegas. Wait for 20+ games.",
+    "first_noted": "2026-10-19"
+   },
+   {
+    "lesson": "Large gaps between the model's total and Vegas's total have not paid off.",
+    "evidence": "0 of 3 graded games with a gap of 4.9 points or more (CHI 6.6, CAR 5.2, BAL 4.9) won the over/under pick. Overall over/under is 4-8.",
+    "status": "watching",
+    "test": "On past seasons, group games by size of the total gap (under 2, 2-4, over 4). Check hit rate per group. Needs 20+ games in the large-gap group.",
+    "first_noted": "2026-10-19"
+   },
+   {
+    "lesson": "Many big misses come from efficiency swings, which the model can't see before kickoff.",
+    "evidence": "In 5 of the 7 games where the winner was wrong, the review names efficiency as a main reason.",
+    "status": "watching",
+    "test": "On past seasons, measure how often big spread misses (over 8 points) are driven by efficiency versus turnovers. Check whether the model's misses are larger than Vegas's overall.",
+    "first_noted": "2026-10-19"
+   },
+   {
+    "lesson": "Big-game player picks hit less often than the model's chances say.",
+    "evidence": "1 of 8 big-game picks hit, against 2.8 expected. The milestone picks went 6 of 8, against 6.0 expected.",
+    "status": "watching",
+    "test": "On past seasons, compare predicted chance with actual hit rate for 300+ yard and similar long-shot props, in buckets of model chance. Needs 20+ picks.",
+    "first_noted": "2026-10-19"
+   },
+   {
+    "lesson": "Best-value picks against the sportsbook are underperforming.",
+    "evidence": "1 of 5 best-value picks hit this season, against 2.7 expected, at -3.09 units.",
+    "status": "watching",
+    "test": "On past seasons, check hit rate of the model's top value picks by size of edge. Needs 20+ picks.",
+    "first_noted": "2026-10-19"
+   }
+  ],
   "College": [
    {
     "lesson": "When the model's total is 3+ points above Vegas's, the over has tended to hit.",
@@ -25,5 +61,5 @@
    }
   ]
  },
- "updated": "2026-10-18T12:30-04:00"
+ "updated": "2026-10-19T12:36-04:00"
 }
