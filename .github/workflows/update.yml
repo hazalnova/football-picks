@@ -38,6 +38,8 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v5
+        with:
+          ref: main                    # the latest data, even when this run waited behind another one
 
       - name: Decide what to run
         id: plan
@@ -128,10 +130,17 @@ jobs:
             echo "Nothing changed."
           else
             git commit -m "Update picks and results, $(TZ=America/Chicago date '+%a %b %-d, %-I:%M %p %Z')"
+            saved=false
             for attempt in 1 2 3; do
-              git pull --rebase && git push && break
+              # if the data changed on GitHub meanwhile, this run's newer files win; a failed merge is undone, never published
+              if git pull --rebase -X theirs; then
+                git push && { saved=true; break; }
+              else
+                git rebase --abort || true
+              fi
               sleep 10
             done
+            $saved || { echo "::error::Couldn't save this run's data to the repository."; exit 1; }
           fi
 
       - name: Keep the notebooks with their output
@@ -148,7 +157,23 @@ jobs:
         run: |
           mkdir -p _site
           cp site/* _site/
-          cp data/app_data/*.json _site/ 2>/dev/null || echo "No website data yet."
+          # Publish only data files that are valid JSON; otherwise fall back to the last saved version
+          python3 - <<'PY'
+          import glob, json, os, shutil, subprocess
+          for path in glob.glob("data/app_data/*.json"):
+              out = os.path.join("_site", os.path.basename(path))
+              try:
+                  json.load(open(path))
+                  shutil.copy(path, out)
+              except ValueError:
+                  print(f"::warning::{path} isn't valid JSON, so the last saved version is published instead.")
+                  saved = subprocess.run(["git", "show", f"HEAD:{path}"], capture_output=True, text=True).stdout
+                  try:
+                      json.loads(saved)
+                      open(out, "w").write(saved)
+                  except ValueError:
+                      print(f"::warning::No valid saved version of {path} either; leaving it out.")
+          PY
           ls -l _site
 
       - uses: actions/upload-pages-artifact@v4
