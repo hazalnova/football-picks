@@ -1,19 +1,19 @@
 logged_at_et,league,list,season,week,game_id,kickoff,matchup,kind,pick,side,team,opp,player_id,player,stat,line,chance,vegas_chance,price,books,edge,result,actual
-2026-10-17 18:57,College,likely,2026,7,401858263,2026-10-17T19:00:00-04:00,Florida State at Miami,winner,Miami to win,home,Miami,Florida State,,,,,0.903,0.904,-1600,,-0.038,,
-2026-10-17 18:57,College,likely,2026,7,401862806,2026-10-17T19:00:00-04:00,Kent State at South Florida,winner,South Florida to win,home,South Florida,Kent State,,,,,0.899,0.899,-1450,,-0.036,,
-2026-10-17 18:57,College,value,2026,7,401858263,2026-10-17T19:00:00-04:00,Florida State at Miami,total,Under 56.5,under,,,,,,56.5,0.509,,-110,,-0.015,,
-2026-10-17 18:57,College,value,2026,7,401869934,2026-10-17T19:00:00-04:00,Arkansas State at Southern Miss,spread,Arkansas State −5.5,away,Arkansas State,Southern Miss,,,,-5.5,0.508,,-110,,-0.016,,
-2026-10-17 18:57,College,risky,2026,7,401856726,2026-10-17T19:00:00-04:00,Arkansas at Vanderbilt,winner,Arkansas to win,away,Arkansas,Vanderbilt,,,,,0.367,0.336,185,,0.016,,
-2026-10-17 18:57,College,risky,2026,7,401856832,2026-10-17T19:00:00-04:00,TCU at Baylor,winner,TCU to win,away,TCU,Baylor,,,,,0.344,0.378,154,,-0.05,,
-2026-10-17 18:57,College,risky,2026,7,401869934,2026-10-17T19:00:00-04:00,Arkansas State at Southern Miss,winner,Southern Miss to win,home,Southern Miss,Arkansas State,,,,,0.494,0.343,180,,0.137,,
-2026-10-17 18:57,College,value,2026,7,401856831,2026-10-17T19:30:00-04:00,Oklahoma State at Houston,total,Under 62.5,under,,,,,,62.5,0.512,,-110,,-0.012,,
-2026-10-17 18:57,College,value,2026,7,401858494,2026-10-17T19:30:00-04:00,Wisconsin at UCLA,spread,Wisconsin +1.5,away,Wisconsin,UCLA,,,,1.5,0.51,,-110,,-0.014,,
-2026-10-17 18:57,College,risky,2026,7,401856809,2026-10-17T19:30:00-04:00,Notre Dame at BYU,winner,BYU to win,home,BYU,Notre Dame,,,,,0.342,0.228,320,,0.104,,
-2026-10-17 18:57,College,likely,2026,7,401871091,2026-10-17T20:00:00-04:00,Louisiana Tech at UL Monroe,winner,Louisiana Tech to win,away,Louisiana Tech,UL Monroe,,,,,0.866,0.822,-600,,0.009,,
-2026-10-17 18:57,College,value,2026,7,401862804,2026-10-17T20:00:00-04:00,Navy at UTSA,total,Under 54.5,under,,,,,,54.5,0.508,,-110,,-0.016,,
-2026-10-17 18:57,College,likely,2026,7,401856833,2026-10-17T22:15:00-04:00,Utah at Colorado,winner,Utah to win,away,Utah,Colorado,,,,,0.928,0.852,-800,,0.039,,
-2026-10-17 18:57,College,likely,2026,7,401864521,2026-10-17T22:30:00-04:00,New Mexico at Hawai'i,winner,New Mexico to win,away,New Mexico,Hawai'i,,,,,0.816,0.832,-650,,-0.051,,
-2026-10-17 18:57,College,risky,2026,7,401858492,2026-10-17T23:00:00-04:00,Nebraska at Oregon,winner,Nebraska to win,away,Nebraska,Oregon,,,,,0.324,0.309,210,,0.001,,
+2026-10-17 18:57,College,likely,2026,7,401858263,2026-10-17T19:00:00-04:00,Florida State at Miami,winner,Miami to win,home,Miami,Florida State,,,,,0.903,0.904,-1600,,-0.038,hit,8.0
+2026-10-17 18:57,College,likely,2026,7,401862806,2026-10-17T19:00:00-04:00,Kent State at South Florida,winner,South Florida to win,home,South Florida,Kent State,,,,,0.899,0.899,-1450,,-0.036,hit,27.0
+2026-10-17 18:57,College,value,2026,7,401858263,2026-10-17T19:00:00-04:00,Florida State at Miami,total,Under 56.5,under,,,,,,56.5,0.509,,-110,,-0.015,miss,78.0
+2026-10-17 18:57,College,value,2026,7,401869934,2026-10-17T19:00:00-04:00,Arkansas State at Southern Miss,spread,Arkansas State −5.5,away,Arkansas State,Southern Miss,,,,-5.5,0.508,,-110,,-0.016,hit,-10.0
+2026-10-17 18:57,College,risky,2026,7,401856726,2026-10-17T19:00:00-04:00,Arkansas at Vanderbilt,winner,Arkansas to win,away,Arkansas,Vanderbilt,,,,,0.367,0.336,185,,0.016,hit,10.0
+2026-10-17 18:57,College,risky,2026,7,401856832,2026-10-17T19:00:00-04:00,TCU at Baylor,winner,TCU to win,away,TCU,Baylor,,,,,0.344,0.378,154,,-0.05,hit,11.0
+2026-10-17 18:57,College,risky,2026,7,401869934,2026-10-17T19:00:00-04:00,Arkansas State at Southern Miss,winner,Southern Miss to win,home,Southern Miss,Arkansas State,,,,,0.494,0.343,180,,0.137,miss,-10.0
+2026-10-17 18:57,College,value,2026,7,401856831,2026-10-17T19:30:00-04:00,Oklahoma State at Houston,total,Under 62.5,under,,,,,,62.5,0.512,,-110,,-0.012,miss,67.0
+2026-10-17 18:57,College,value,2026,7,401858494,2026-10-17T19:30:00-04:00,Wisconsin at UCLA,spread,Wisconsin +1.5,away,Wisconsin,UCLA,,,,1.5,0.51,,-110,,-0.014,miss,10.0
+2026-10-17 18:57,College,risky,2026,7,401856809,2026-10-17T19:30:00-04:00,Notre Dame at BYU,winner,BYU to win,home,BYU,Notre Dame,,,,,0.342,0.228,320,,0.104,hit,4.0
+2026-10-17 18:57,College,likely,2026,7,401871091,2026-10-17T20:00:00-04:00,Louisiana Tech at UL Monroe,winner,Louisiana Tech to win,away,Louisiana Tech,UL Monroe,,,,,0.866,0.822,-600,,0.009,hit,24.0
+2026-10-17 18:57,College,value,2026,7,401862804,2026-10-17T20:00:00-04:00,Navy at UTSA,total,Under 54.5,under,,,,,,54.5,0.508,,-110,,-0.016,miss,72.0
+2026-10-17 18:57,College,likely,2026,7,401856833,2026-10-17T22:15:00-04:00,Utah at Colorado,winner,Utah to win,away,Utah,Colorado,,,,,0.928,0.852,-800,,0.039,hit,3.0
+2026-10-17 18:57,College,likely,2026,7,401864521,2026-10-17T22:30:00-04:00,New Mexico at Hawai'i,winner,New Mexico to win,away,New Mexico,Hawai'i,,,,,0.816,0.832,-650,,-0.051,hit,11.0
+2026-10-17 18:57,College,risky,2026,7,401858492,2026-10-17T23:00:00-04:00,Nebraska at Oregon,winner,Nebraska to win,away,Nebraska,Oregon,,,,,0.324,0.309,210,,0.001,miss,-3.0
 2026-10-18 12:30,NFL,likely,2026,6,2026_06_NYJ_NE,2026-10-18T13:00:00-04:00,NYJ at NE,winner,NE to win,home,NE,NYJ,,,,,0.785,0.744,-345,,0.01,hit,7.0
 2026-10-18 12:30,NFL,likely,2026,6,2026_06_TEN_IND,2026-10-18T13:00:00-04:00,TEN at IND,winner,IND to win,home,IND,TEN,,,,,0.757,0.714,-290,,0.013,miss,-6.0
 2026-10-18 12:30,NFL,value,2026,6,2026_06_BAL_CLE,2026-10-18T13:00:00-04:00,BAL at CLE,total,Over 39.5,over,,,,,,39.5,0.537,,-110,,0.013,miss,23.0
@@ -45,3 +45,18 @@ logged_at_et,league,list,season,week,game_id,kickoff,matchup,kind,pick,side,team
 2026-10-19 13:17,NFL,value,2026,6,2026_06_WAS_SF,2026-10-19T20:15:00-04:00,WAS at SF,total,Under 51.5,under,,,,,,51.5,0.514,,-110,,-0.01,,
 2026-10-19 13:17,NFL,props_likely,2026,6,2026_06_WAS_SF,2026-10-19T20:15:00-04:00,WAS at SF,prop,Brock Purdy 200+ passing yards,at least,SF,WAS,00-0037834,Brock Purdy,passing_yards,200.0,0.795,,-506,4,-0.04,,
 2026-10-19 13:17,NFL,props_risky,2026,6,2026_06_WAS_SF,2026-10-19T20:15:00-04:00,WAS at SF,prop,Brock Purdy 300+ passing yards,at least,SF,WAS,00-0037834,Brock Purdy,passing_yards,300.0,0.279,,282,4,0.017,,
+2026-10-20 14:28,College,value,2026,8,401871092,2026-10-20T19:30:00-04:00,South Alabama at Marshall,spread,South Alabama −2.5,away,South Alabama,Marshall,,,,-2.5,0.509,,-110,,-0.015,,
+2026-10-20 14:28,College,value,2026,8,401871056,2026-10-22T19:00:00-04:00,Liberty at Kennesaw State,total,Under 50.5,under,,,,,,50.5,0.509,,-110,,-0.015,,
+2026-10-20 14:28,College,likely,2026,8,401861965,2026-10-23T19:00:00-04:00,Massachusetts at UConn,winner,UConn to win,home,UConn,Massachusetts,,,,,0.874,0.84,-700,,-0.001,,
+2026-10-20 14:28,College,likely,2026,8,401858274,2026-10-24T12:00:00-04:00,Pittsburgh at Miami,winner,Miami to win,home,Miami,Pittsburgh,,,,,0.893,0.908,-1650,,-0.05,,
+2026-10-20 14:28,College,value,2026,8,401856728,2026-10-24T12:00:00-04:00,LSU at Auburn,total,Under 51.5,under,,,,,,51.5,0.51,,-110,,-0.014,,
+2026-10-20 14:28,College,risky,2026,8,401858496,2026-10-24T12:00:00-04:00,Indiana at Michigan,winner,Michigan to win,home,Michigan,Indiana,,,,,0.344,0.295,225,,0.036,,
+2026-10-20 14:28,College,likely,2026,8,401858499,2026-10-24T15:30:00-04:00,Michigan State at UCLA,winner,UCLA to win,home,UCLA,Michigan State,,,,,0.869,0.827,-625,,0.007,,
+2026-10-20 14:28,College,risky,2026,8,401856730,2026-10-24T15:30:00-04:00,Oklahoma at Mississippi State,winner,Mississippi State to win,home,Mississippi State,Oklahoma,,,,,0.409,0.369,160,,0.024,,
+2026-10-20 14:28,College,risky,2026,8,401858273,2026-10-24T15:30:00-04:00,Boston College at Georgia Tech,winner,Boston College to win,away,Boston College,Georgia Tech,,,,,0.316,0.378,154,,-0.078,,
+2026-10-20 14:28,College,risky,2026,8,401864526,2026-10-24T15:30:00-04:00,Hawai'i at Northern Illinois,winner,Northern Illinois to win,home,Northern Illinois,Hawai'i,,,,,0.35,0.363,164,,-0.029,,
+2026-10-20 14:28,College,likely,2026,8,401866449,2026-10-24T16:00:00-04:00,Eastern Michigan at Ohio,winner,Ohio to win,home,Ohio,Eastern Michigan,,,,,0.875,0.791,-470,,0.05,,
+2026-10-20 14:28,College,likely,2026,8,401871094,2026-10-24T16:00:00-04:00,UL Monroe at Troy,winner,Troy to win,home,Troy,UL Monroe,,,,,0.885,0.84,-700,,0.01,,
+2026-10-20 14:28,College,risky,2026,8,401864528,2026-10-24T17:00:00-04:00,San José State at Nevada,winner,San José State to win,away,San José State,Nevada,,,,,0.357,0.355,170,,-0.013,,
+2026-10-20 14:28,College,value,2026,8,401856836,2026-10-24T19:00:00-04:00,Colorado at Oklahoma State,total,Under 55.5,under,,,,,,55.5,0.51,,-110,,-0.014,,
+2026-10-20 14:28,College,value,2026,8,401860906,2026-10-24T19:30:00-04:00,Utah State at Texas State,total,Under 60.5,under,,,,,,60.5,0.51,,-110,,-0.014,,

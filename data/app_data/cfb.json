@@ -1,9 +1,9 @@
 {
  "league": "College",
- "updated": "2026-10-17T18:57-04:00",
+ "updated": "2026-10-20T14:28-04:00",
  "season": 2026,
- "week": 7,
- "week_label": "Week 7",
+ "week": 8,
+ "week_label": "Week 8",
  "models": {
   "margin": "cfb_margin_v3",
   "totals": "cfb_totals_v1",
@@ -11,1833 +11,2178 @@
  },
  "games": [
   {
-   "id": 401871067,
-   "kickoff": "2026-10-13T19:00:00-04:00",
-   "status": "final",
-   "away": "Delaware",
-   "home": "Middle Tennessee",
+   "id": 401871055,
+   "kickoff": "2026-10-20T19:00:00-04:00",
+   "status": "upcoming",
+   "away": "Middle Tennessee",
+   "home": "Florida International",
    "away_conference": "Conference USA",
    "home_conference": "Conference USA",
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -5.0,
-    "home_win": 0.377,
-    "total": 52.9,
-    "over": null,
-    "home_cover": null
+    "home_margin": 14.5,
+    "home_win": 0.816,
+    "total": 48.5,
+    "over": 0.494,
+    "home_cover": 0.493
    },
    "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
+    "home_margin": 10.0,
+    "home_win": 0.772,
+    "total": 46.5,
+    "over": 0.504,
+    "home_moneyline": -410.0,
+    "away_moneyline": 320.0
    },
-   "final": {
-    "away": 30,
-    "home": 33
-   }
+   "final": null
   },
   {
-   "id": 401871053,
-   "kickoff": "2026-10-13T20:00:00-04:00",
-   "status": "final",
-   "away": "Florida International",
-   "home": "Jacksonville State",
+   "id": 401871069,
+   "kickoff": "2026-10-20T19:00:00-04:00",
+   "status": "upcoming",
+   "away": "Missouri State",
+   "home": "Delaware",
    "away_conference": "Conference USA",
    "home_conference": "Conference USA",
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
     "home_margin": 4.5,
-    "home_win": 0.611,
-    "total": 46.1,
-    "over": null,
-    "home_cover": null
+    "home_win": 0.609,
+    "total": 55.0,
+    "over": 0.494,
+    "home_cover": 0.494
    },
    "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
+    "home_margin": 3.0,
+    "home_win": 0.563,
+    "total": 53.5,
+    "over": 0.5,
+    "home_moneyline": -142.0,
+    "away_moneyline": 120.0
    },
-   "final": {
-    "away": 24,
-    "home": 27
-   }
+   "final": null
   },
   {
-   "id": 401871054,
-   "kickoff": "2026-10-14T19:30:00-04:00",
-   "status": "final",
-   "away": "Kennesaw State",
-   "home": "Missouri State",
-   "away_conference": "Conference USA",
-   "home_conference": "Conference USA",
+   "id": 401871092,
+   "kickoff": "2026-10-20T19:30:00-04:00",
+   "status": "upcoming",
+   "away": "South Alabama",
+   "home": "Marshall",
+   "away_conference": "Sun Belt",
+   "home_conference": "Sun Belt",
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -0.8,
-    "home_win": 0.479,
-    "total": 53.1,
-    "over": null,
-    "home_cover": null
+    "home_margin": 4.1,
+    "home_win": 0.6,
+    "total": 65.5,
+    "over": 0.492,
+    "home_cover": 0.491
    },
    "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
+    "home_margin": -2.5,
+    "home_win": 0.437,
+    "total": 66.5,
+    "over": 0.5,
+    "home_moneyline": 120.0,
+    "away_moneyline": -142.0
    },
-   "final": {
-    "away": 21,
-    "home": 24
-   }
+   "final": null
   },
   {
-   "id": 401871068,
-   "kickoff": "2026-10-14T20:00:00-04:00",
-   "status": "final",
-   "away": "Western Kentucky",
+   "id": 401871070,
+   "kickoff": "2026-10-21T20:00:00-04:00",
+   "status": "upcoming",
+   "away": "New Mexico State",
    "home": "Sam Houston",
    "away_conference": "Conference USA",
    "home_conference": "Conference USA",
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -3.7,
-    "home_win": 0.409,
-    "total": 53.0,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 16,
-    "home": 3
-   }
-  },
-  {
-   "id": 401862800,
-   "kickoff": "2026-10-15T19:30:00-04:00",
-   "status": "final",
-   "away": "East Carolina",
-   "home": "UAB",
-   "away_conference": "American Athletic",
-   "home_conference": "American Athletic",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": -5.6,
-    "home_win": 0.364,
-    "total": 50.4,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 17,
-    "home": 30
-   }
-  },
-  {
-   "id": 401869950,
-   "kickoff": "2026-10-15T19:30:00-04:00",
-   "status": "final",
-   "away": "Georgia Southern",
-   "home": "Old Dominion",
-   "away_conference": "Sun Belt",
-   "home_conference": "Sun Belt",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": -0.1,
-    "home_win": 0.497,
-    "total": 46.5,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 23,
-    "home": 15
-   }
-  },
-  {
-   "id": 401860923,
-   "kickoff": "2026-10-15T20:00:00-04:00",
-   "status": "final",
-   "away": "Colorado State",
-   "home": "Texas State",
-   "away_conference": "Pac-12",
-   "home_conference": "Pac-12",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 19.0,
-    "home_win": 0.88,
-    "total": 68.9,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 27,
-    "home": 66
-   }
-  },
-  {
-   "id": 401862801,
-   "kickoff": "2026-10-16T19:30:00-04:00",
-   "status": "final",
-   "away": "Memphis",
-   "home": "Tulane",
-   "away_conference": "American Athletic",
-   "home_conference": "American Athletic",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": -6.1,
-    "home_win": 0.353,
-    "total": 50.5,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 17,
-    "home": 31
-   }
-  },
-  {
-   "id": 401858493,
-   "kickoff": "2026-10-16T20:00:00-04:00",
-   "status": "final",
-   "away": "Washington",
-   "home": "Purdue",
-   "away_conference": "Big Ten",
-   "home_conference": "Big Ten",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 0.7,
-    "home_win": 0.518,
-    "total": 55.5,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 38,
-    "home": 26
-   }
-  },
-  {
-   "id": 401869844,
-   "kickoff": "2026-10-16T20:00:00-04:00",
-   "status": "final",
-   "away": "App State",
-   "home": "Coastal Carolina",
-   "away_conference": "Sun Belt",
-   "home_conference": "Sun Belt",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": -2.5,
-    "home_win": 0.439,
-    "total": 49.9,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 35,
-    "home": 32
-   }
-  },
-  {
-   "id": 401856720,
-   "kickoff": "2026-10-17T12:00:00-04:00",
-   "status": "final",
-   "away": "Mississippi State",
-   "home": "LSU",
-   "away_conference": "SEC",
-   "home_conference": "SEC",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 15.5,
-    "home_win": 0.833,
-    "total": 63.3,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 0,
-    "home": 31
-   }
-  },
-  {
-   "id": 401856724,
-   "kickoff": "2026-10-17T12:00:00-04:00",
-   "status": "final",
-   "away": "Florida",
-   "home": "Texas",
-   "away_conference": "SEC",
-   "home_conference": "SEC",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 16.8,
-    "home_win": 0.852,
-    "total": 56.2,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 27,
-    "home": 24
-   }
-  },
-  {
-   "id": 401856829,
-   "kickoff": "2026-10-17T12:00:00-04:00",
-   "status": "final",
-   "away": "Cincinnati",
-   "home": "West Virginia",
-   "away_conference": "Big 12",
-   "home_conference": "Big 12",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": -1.4,
-    "home_win": 0.466,
-    "total": 63.0,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 42,
-    "home": 45
-   }
-  },
-  {
-   "id": 401856830,
-   "kickoff": "2026-10-17T12:00:00-04:00",
-   "status": "final",
-   "away": "Kansas",
-   "home": "Kansas State",
-   "away_conference": "Big 12",
-   "home_conference": "Big 12",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 7.4,
-    "home_win": 0.678,
-    "total": 55.8,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 24,
-    "home": 35
-   }
-  },
-  {
-   "id": 401858261,
-   "kickoff": "2026-10-17T12:00:00-04:00",
-   "status": "final",
-   "away": "Charleston Southern",
-   "home": "Clemson",
-   "away_conference": "OVC",
-   "home_conference": "ACC",
-   "neutral": false,
-   "fbs_vs_fbs": false,
-   "model": {
-    "home_margin": 39.5,
-    "home_win": 0.993,
-    "total": 47.5,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 0,
-    "home": 37
-   }
-  },
-  {
-   "id": 401858267,
-   "kickoff": "2026-10-17T12:00:00-04:00",
-   "status": "final",
-   "away": "Pittsburgh",
-   "home": "Boston College",
-   "away_conference": "ACC",
-   "home_conference": "ACC",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": -12.4,
-    "home_win": 0.221,
-    "total": 48.7,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 21,
-    "home": 27
-   }
-  },
-  {
-   "id": 401858268,
-   "kickoff": "2026-10-17T12:00:00-04:00",
-   "status": "final",
-   "away": "Virginia",
-   "home": "SMU",
-   "away_conference": "ACC",
-   "home_conference": "ACC",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 8.3,
-    "home_win": 0.697,
-    "total": 51.3,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 13,
-    "home": 23
-   }
-  },
-  {
-   "id": 401858488,
-   "kickoff": "2026-10-17T12:00:00-04:00",
-   "status": "final",
-   "away": "Ohio State",
-   "home": "Indiana",
-   "away_conference": "Big Ten",
-   "home_conference": "Big Ten",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": -2.9,
-    "home_win": 0.429,
-    "total": 50.4,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 19,
-    "home": 15
-   }
-  },
-  {
-   "id": 401858491,
-   "kickoff": "2026-10-17T12:00:00-04:00",
-   "status": "final",
-   "away": "Northwestern",
-   "home": "Michigan State",
-   "away_conference": "Big Ten",
-   "home_conference": "Big Ten",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": -6.9,
-    "home_win": 0.334,
-    "total": 51.2,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 24,
-    "home": 21
-   }
-  },
-  {
-   "id": 401862802,
-   "kickoff": "2026-10-17T12:00:00-04:00",
-   "status": "final",
-   "away": "Florida Atlantic",
-   "home": "Army",
-   "away_conference": "American Athletic",
-   "home_conference": "American Athletic",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 9.1,
-    "home_win": 0.714,
-    "total": 54.7,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 24,
-    "home": 56
-   }
-  },
-  {
-   "id": 401866441,
-   "kickoff": "2026-10-17T12:00:00-04:00",
-   "status": "final",
-   "away": "Ball State",
-   "home": "Bowling Green",
-   "away_conference": "Mid-American",
-   "home_conference": "Mid-American",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 8.6,
-    "home_win": 0.703,
-    "total": 50.5,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 32,
-    "home": 31
-   }
-  },
-  {
-   "id": 401869957,
-   "kickoff": "2026-10-17T12:00:00-04:00",
-   "status": "final",
-   "away": "Georgia State",
-   "home": "James Madison",
-   "away_conference": "Sun Belt",
-   "home_conference": "Sun Belt",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 15.7,
-    "home_win": 0.835,
-    "total": 59.3,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 22,
-    "home": 49
-   }
-  },
-  {
-   "id": 401858489,
-   "kickoff": "2026-10-17T12:30:00-04:00",
-   "status": "final",
-   "away": "Rutgers",
-   "home": "Maryland",
-   "away_conference": "Big Ten",
-   "home_conference": "Big Ten",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 4.2,
-    "home_win": 0.603,
-    "total": 60.6,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 37,
-    "home": 30
-   }
-  },
-  {
-   "id": 401856725,
-   "kickoff": "2026-10-17T13:00:00-04:00",
-   "status": "final",
-   "away": "The Citadel",
-   "home": "Texas A&M",
-   "away_conference": "Southern",
-   "home_conference": "SEC",
-   "neutral": false,
-   "fbs_vs_fbs": false,
-   "model": {
-    "home_margin": 37.4,
-    "home_win": 0.99,
-    "total": 51.1,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 0,
-    "home": 41
-   }
-  },
-  {
-   "id": 401862803,
-   "kickoff": "2026-10-17T13:00:00-04:00",
-   "status": "final",
-   "away": "Charlotte",
-   "home": "Temple",
-   "away_conference": "American Athletic",
-   "home_conference": "American Athletic",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 22.5,
-    "home_win": 0.919,
-    "total": 50.8,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 38,
-    "home": 31
-   }
-  },
-  {
-   "id": 401866442,
-   "kickoff": "2026-10-17T13:00:00-04:00",
-   "status": "final",
-   "away": "Massachusetts",
-   "home": "Buffalo",
-   "away_conference": "Mid-American",
-   "home_conference": "Mid-American",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 11.3,
-    "home_win": 0.759,
-    "total": 50.1,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 18,
-    "home": 25
-   }
-  },
-  {
-   "id": 401866443,
-   "kickoff": "2026-10-17T13:30:00-04:00",
-   "status": "final",
-   "away": "Western Michigan",
-   "home": "Central Michigan",
-   "away_conference": "Mid-American",
-   "home_conference": "Mid-American",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": -8.8,
-    "home_win": 0.293,
-    "total": 45.3,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 21,
-    "home": 14
-   }
-  },
-  {
-   "id": 401856719,
-   "kickoff": "2026-10-17T15:30:00-04:00",
-   "status": "in_progress",
-   "away": "Auburn",
-   "home": "Georgia",
-   "away_conference": "SEC",
-   "home_conference": "SEC",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 23.0,
-    "home_win": 0.923,
-    "total": 49.2,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": null
-  },
-  {
-   "id": 401856721,
-   "kickoff": "2026-10-17T15:30:00-04:00",
-   "status": "final",
-   "away": "Missouri",
-   "home": "Ole Miss",
-   "away_conference": "SEC",
-   "home_conference": "SEC",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 6.0,
-    "home_win": 0.646,
-    "total": 57.1,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 3,
-    "home": 31
-   }
-  },
-  {
-   "id": 401856723,
-   "kickoff": "2026-10-17T15:30:00-04:00",
-   "status": "in_progress",
-   "away": "Alabama",
-   "home": "Tennessee",
-   "away_conference": "SEC",
-   "home_conference": "SEC",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": -9.4,
-    "home_win": 0.28,
-    "total": 56.6,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": null
-  },
-  {
-   "id": 401856828,
-   "kickoff": "2026-10-17T15:30:00-04:00",
-   "status": "in_progress",
-   "away": "Arizona State",
-   "home": "Texas Tech",
-   "away_conference": "Big 12",
-   "home_conference": "Big 12",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 17.6,
-    "home_win": 0.862,
-    "total": 52.7,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": null
-  },
-  {
-   "id": 401858264,
-   "kickoff": "2026-10-17T15:30:00-04:00",
-   "status": "final",
-   "away": "Georgia Tech",
-   "home": "Virginia Tech",
-   "away_conference": "ACC",
-   "home_conference": "ACC",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 7.8,
-    "home_win": 0.686,
-    "total": 54.3,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 24,
-    "home": 34
-   }
-  },
-  {
-   "id": 401858266,
-   "kickoff": "2026-10-17T15:30:00-04:00",
-   "status": "in_progress",
-   "away": "North Carolina",
-   "home": "Duke",
-   "away_conference": "ACC",
-   "home_conference": "ACC",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 9.8,
-    "home_win": 0.729,
-    "total": 52.3,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": null
-  },
-  {
-   "id": 401858490,
-   "kickoff": "2026-10-17T15:30:00-04:00",
-   "status": "in_progress",
-   "away": "Penn State",
-   "home": "Michigan",
-   "away_conference": "Big Ten",
-   "home_conference": "Big Ten",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 9.6,
-    "home_win": 0.723,
-    "total": 48.6,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": null
-  },
-  {
-   "id": 401864522,
-   "kickoff": "2026-10-17T15:30:00-04:00",
-   "status": "in_progress",
-   "away": "Northern Illinois",
-   "home": "Wyoming",
-   "away_conference": "Mountain West",
-   "home_conference": "Mountain West",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 7.5,
-    "home_win": 0.678,
-    "total": 41.1,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": null
-  },
-  {
-   "id": 401864524,
-   "kickoff": "2026-10-17T15:30:00-04:00",
-   "status": "final",
-   "away": "UNLV",
-   "home": "Air Force",
-   "away_conference": "Mountain West",
-   "home_conference": "Mountain West",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 3.8,
-    "home_win": 0.594,
+    "home_margin": -0.6,
+    "home_win": 0.484,
     "total": 48.5,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 31,
-    "home": 41
-   }
-  },
-  {
-   "id": 401866444,
-   "kickoff": "2026-10-17T15:30:00-04:00",
-   "status": "in_progress",
-   "away": "Toledo",
-   "home": "Eastern Michigan",
-   "away_conference": "Mid-American",
-   "home_conference": "Mid-American",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": -7.4,
-    "home_win": 0.322,
-    "total": 53.4,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": null
-  },
-  {
-   "id": 401866478,
-   "kickoff": "2026-10-17T15:30:00-04:00",
-   "status": "final",
-   "away": "Akron",
-   "home": "Miami (OH)",
-   "away_conference": "Mid-American",
-   "home_conference": "Mid-American",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 11.1,
-    "home_win": 0.754,
-    "total": 52.5,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": {
-    "away": 14,
-    "home": 34
-   }
-  },
-  {
-   "id": 401862805,
-   "kickoff": "2026-10-17T16:30:00-04:00",
-   "status": "in_progress",
-   "away": "Tulsa",
-   "home": "Rice",
-   "away_conference": "American Athletic",
-   "home_conference": "American Athletic",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 0.2,
-    "home_win": 0.504,
-    "total": 49.6,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": null
-  },
-  {
-   "id": 401869966,
-   "kickoff": "2026-10-17T17:00:00-04:00",
-   "status": "in_progress",
-   "away": "Troy",
-   "home": "Louisiana",
-   "away_conference": "Sun Belt",
-   "home_conference": "Sun Belt",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 3.1,
-    "home_win": 0.577,
-    "total": 51.1,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": null
-  },
-  {
-   "id": 401860903,
-   "kickoff": "2026-10-17T18:00:00-04:00",
-   "status": "in_progress",
-   "away": "Washington State",
-   "home": "Oregon State",
-   "away_conference": "Pac-12",
-   "home_conference": "Pac-12",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 16.5,
-    "home_win": 0.847,
-    "total": 51.6,
-    "over": null,
-    "home_cover": null
-   },
-   "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": null
-  },
-  {
-   "id": 401856726,
-   "kickoff": "2026-10-17T19:00:00-04:00",
-   "status": "upcoming",
-   "away": "Arkansas",
-   "home": "Vanderbilt",
-   "away_conference": "SEC",
-   "home_conference": "SEC",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 5.5,
-    "home_win": 0.633,
-    "total": 54.0,
-    "over": 0.497,
-    "home_cover": 0.495
-   },
-   "vegas": {
-    "home_margin": 5.5,
-    "home_win": 0.664,
-    "total": 48.5,
-    "over": 0.5,
-    "home_moneyline": -225.0,
-    "away_moneyline": 185.0
-   },
-   "final": null
-  },
-  {
-   "id": 401856832,
-   "kickoff": "2026-10-17T19:00:00-04:00",
-   "status": "upcoming",
-   "away": "TCU",
-   "home": "Baylor",
-   "away_conference": "Big 12",
-   "home_conference": "Big 12",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 6.5,
-    "home_win": 0.656,
-    "total": 50.3,
-    "over": 0.493,
-    "home_cover": 0.494
-   },
-   "vegas": {
-    "home_margin": 4.0,
-    "home_win": 0.622,
-    "total": 50.5,
-    "over": 0.504,
-    "home_moneyline": -185.0,
-    "away_moneyline": 154.0
-   },
-   "final": null
-  },
-  {
-   "id": 401858263,
-   "kickoff": "2026-10-17T19:00:00-04:00",
-   "status": "upcoming",
-   "away": "Florida State",
-   "home": "Miami",
-   "away_conference": "ACC",
-   "home_conference": "ACC",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 20.9,
-    "home_win": 0.903,
-    "total": 54.8,
-    "over": 0.491,
-    "home_cover": 0.494
-   },
-   "vegas": {
-    "home_margin": 19.5,
-    "home_win": 0.904,
-    "total": 56.5,
-    "over": 0.511,
-    "home_moneyline": -1600.0,
-    "away_moneyline": 900.0
-   },
-   "final": null
-  },
-  {
-   "id": 401862806,
-   "kickoff": "2026-10-17T19:00:00-04:00",
-   "status": "upcoming",
-   "away": "Kent State",
-   "home": "South Florida",
-   "away_conference": "Mid-American",
-   "home_conference": "American Athletic",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 20.5,
-    "home_win": 0.899,
-    "total": 49.7,
-    "over": 0.495,
-    "home_cover": 0.495
-   },
-   "vegas": {
-    "home_margin": 20.5,
-    "home_win": 0.899,
-    "total": 46.5,
     "over": 0.496,
-    "home_moneyline": -1450.0,
-    "away_moneyline": 850.0
+    "home_cover": 0.494
+   },
+   "vegas": {
+    "home_margin": -3.0,
+    "home_win": 0.428,
+    "total": 44.5,
+    "over": 0.511,
+    "home_moneyline": 124.0,
+    "away_moneyline": -148.0
    },
    "final": null
   },
   {
-   "id": 401864520,
-   "kickoff": "2026-10-17T19:00:00-04:00",
+   "id": 401869845,
+   "kickoff": "2026-10-22T19:00:00-04:00",
    "status": "upcoming",
-   "away": "Nevada",
-   "home": "North Dakota State",
-   "away_conference": "Mountain West",
-   "home_conference": "Mountain West",
+   "away": "James Madison",
+   "home": "App State",
+   "away_conference": "Sun Belt",
+   "home_conference": "Sun Belt",
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 9.8,
-    "home_win": 0.728,
-    "total": 43.9,
-    "over": 0.494,
+    "home_margin": -15.9,
+    "home_win": 0.162,
+    "total": 57.0,
+    "over": 0.493,
     "home_cover": 0.498
    },
    "vegas": {
-    "home_margin": 14.5,
-    "home_win": 0.84,
-    "total": 42.5,
-    "over": 0.504,
-    "home_moneyline": -700.0,
-    "away_moneyline": 500.0
-   },
-   "final": null
-  },
-  {
-   "id": 401869934,
-   "kickoff": "2026-10-17T19:00:00-04:00",
-   "status": "upcoming",
-   "away": "Arkansas State",
-   "home": "Southern Miss",
-   "away_conference": "Sun Belt",
-   "home_conference": "Sun Belt",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": -0.2,
-    "home_win": 0.494,
-    "total": 60.7,
-    "over": 0.492,
-    "home_cover": 0.492
-   },
-   "vegas": {
-    "home_margin": -5.5,
-    "home_win": 0.343,
-    "total": 61.5,
-    "over": 0.511,
-    "home_moneyline": 180.0,
-    "away_moneyline": -218.0
-   },
-   "final": null
-  },
-  {
-   "id": 401856722,
-   "kickoff": "2026-10-17T19:30:00-04:00",
-   "status": "upcoming",
-   "away": "Kentucky",
-   "home": "Oklahoma",
-   "away_conference": "SEC",
-   "home_conference": "SEC",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 8.2,
-    "home_win": 0.696,
-    "total": 50.8,
-    "over": 0.498,
-    "home_cover": 0.494
-   },
-   "vegas": {
-    "home_margin": 6.5,
-    "home_win": 0.691,
-    "total": 43.5,
-    "over": 0.511,
-    "home_moneyline": -258.0,
-    "away_moneyline": 210.0
-   },
-   "final": null
-  },
-  {
-   "id": 401856809,
-   "kickoff": "2026-10-17T19:30:00-04:00",
-   "status": "upcoming",
-   "away": "Notre Dame",
-   "home": "BYU",
-   "away_conference": "FBS Independents",
-   "home_conference": "Big 12",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": -6.6,
-    "home_win": 0.342,
-    "total": 53.5,
-    "over": 0.498,
-    "home_cover": 0.493
-   },
-   "vegas": {
     "home_margin": -10.5,
-    "home_win": 0.228,
-    "total": 46.5,
-    "over": 0.511,
-    "home_moneyline": 320.0,
-    "away_moneyline": -410.0
-   },
-   "final": null
-  },
-  {
-   "id": 401856831,
-   "kickoff": "2026-10-17T19:30:00-04:00",
-   "status": "upcoming",
-   "away": "Oklahoma State",
-   "home": "Houston",
-   "away_conference": "Big 12",
-   "home_conference": "Big 12",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 14.2,
-    "home_win": 0.811,
-    "total": 56.6,
-    "over": 0.488,
-    "home_cover": 0.489
-   },
-   "vegas": {
-    "home_margin": 4.0,
-    "home_win": 0.622,
-    "total": 62.5,
-    "over": 0.489,
-    "home_moneyline": -185.0,
-    "away_moneyline": 154.0
-   },
-   "final": null
-  },
-  {
-   "id": 401858262,
-   "kickoff": "2026-10-17T19:30:00-04:00",
-   "status": "upcoming",
-   "away": "Elon",
-   "home": "Stanford",
-   "away_conference": "Coastal Athletic",
-   "home_conference": "ACC",
-   "neutral": false,
-   "fbs_vs_fbs": false,
-   "model": {
-    "home_margin": 12.3,
-    "home_win": 0.778,
-    "total": 53.9,
-    "over": 0.492,
-    "home_cover": 0.507
-   },
-   "vegas": {
-    "home_margin": 34.5,
-    "home_win": null,
-    "total": 55.5,
-    "over": 0.504,
-    "home_moneyline": null,
-    "away_moneyline": null
-   },
-   "final": null
-  },
-  {
-   "id": 401858265,
-   "kickoff": "2026-10-17T19:30:00-04:00",
-   "status": "upcoming",
-   "away": "Louisville",
-   "home": "Syracuse",
-   "away_conference": "ACC",
-   "home_conference": "ACC",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": -13.1,
-    "home_win": 0.208,
-    "total": 58.1,
-    "over": 0.494,
-    "home_cover": 0.494
-   },
-   "vegas": {
-    "home_margin": -14.5,
-    "home_win": 0.173,
+    "home_win": 0.223,
     "total": 56.5,
-    "over": 0.496,
-    "home_moneyline": 455.0,
-    "away_moneyline": -625.0
-   },
-   "final": null
-  },
-  {
-   "id": 401858494,
-   "kickoff": "2026-10-17T19:30:00-04:00",
-   "status": "upcoming",
-   "away": "Wisconsin",
-   "home": "UCLA",
-   "away_conference": "Big Ten",
-   "home_conference": "Big Ten",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 9.9,
-    "home_win": 0.73,
-    "total": 46.3,
-    "over": 0.496,
-    "home_cover": 0.49
-   },
-   "vegas": {
-    "home_margin": 1.5,
-    "home_win": 0.526,
-    "total": 42.5,
-    "over": 0.511,
-    "home_moneyline": -122.0,
-    "away_moneyline": 102.0
-   },
-   "final": null
-  },
-  {
-   "id": 401862804,
-   "kickoff": "2026-10-17T20:00:00-04:00",
-   "status": "upcoming",
-   "away": "Navy",
-   "home": "UTSA",
-   "away_conference": "American Athletic",
-   "home_conference": "American Athletic",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 9.3,
-    "home_win": 0.718,
-    "total": 54.1,
-    "over": 0.492,
-    "home_cover": 0.494
-   },
-   "vegas": {
-    "home_margin": 6.5,
-    "home_win": 0.681,
-    "total": 54.5,
     "over": 0.5,
-    "home_moneyline": -245.0,
-    "away_moneyline": 200.0
+    "home_moneyline": 330.0,
+    "away_moneyline": -425.0
    },
    "final": null
   },
   {
-   "id": 401871091,
-   "kickoff": "2026-10-17T20:00:00-04:00",
+   "id": 401871056,
+   "kickoff": "2026-10-22T19:00:00-04:00",
    "status": "upcoming",
-   "away": "Louisiana Tech",
-   "home": "UL Monroe",
-   "away_conference": "Sun Belt",
-   "home_conference": "Sun Belt",
+   "away": "Liberty",
+   "home": "Kennesaw State",
+   "away_conference": "Conference USA",
+   "home_conference": "Conference USA",
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -17.8,
-    "home_win": 0.134,
-    "total": 58.6,
-    "over": 0.494,
+    "home_margin": -12.7,
+    "home_win": 0.215,
+    "total": 48.5,
+    "over": 0.491,
     "home_cover": 0.497
    },
    "vegas": {
-    "home_margin": -13.5,
-    "home_win": 0.178,
-    "total": 56.5,
-    "over": 0.496,
-    "home_moneyline": 440.0,
-    "away_moneyline": -600.0
-   },
-   "final": null
-  },
-  {
-   "id": 401864523,
-   "kickoff": "2026-10-17T21:00:00-04:00",
-   "status": "upcoming",
-   "away": "San Jos\u00e9 State",
-   "home": "UTEP",
-   "away_conference": "Mountain West",
-   "home_conference": "Mountain West",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": -9.3,
-    "home_win": 0.281,
-    "total": 54.7,
-    "over": 0.5,
-    "home_cover": 0.497
-   },
-   "vegas": {
-    "home_margin": -6.5,
-    "home_win": 0.295,
-    "total": 45.5,
-    "over": 0.496,
-    "home_moneyline": 225.0,
-    "away_moneyline": -278.0
-   },
-   "final": null
-  },
-  {
-   "id": 401866445,
-   "kickoff": "2026-10-17T22:00:00-04:00",
-   "status": "upcoming",
-   "away": "Ohio",
-   "home": "Sacramento State",
-   "away_conference": "Mid-American",
-   "home_conference": "Mid-American",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": -13.2,
-    "home_win": 0.206,
-    "total": 50.0,
-    "over": 0.495,
-    "home_cover": 0.494
-   },
-   "vegas": {
-    "home_margin": -15.5,
-    "home_win": 0.16,
-    "total": 46.5,
-    "over": 0.5,
-    "home_moneyline": 500.0,
-    "away_moneyline": -700.0
-   },
-   "final": null
-  },
-  {
-   "id": 401856833,
-   "kickoff": "2026-10-17T22:15:00-04:00",
-   "status": "upcoming",
-   "away": "Utah",
-   "home": "Colorado",
-   "away_conference": "Big 12",
-   "home_conference": "Big 12",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": -23.5,
-    "home_win": 0.072,
-    "total": 54.0,
-    "over": 0.496,
-    "home_cover": 0.5
-   },
-   "vegas": {
-    "home_margin": -15.5,
-    "home_win": 0.148,
-    "total": 49.5,
-    "over": 0.5,
-    "home_moneyline": 550.0,
-    "away_moneyline": -800.0
-   },
-   "final": null
-  },
-  {
-   "id": 401858269,
-   "kickoff": "2026-10-17T22:30:00-04:00",
-   "status": "upcoming",
-   "away": "Wake Forest",
-   "home": "California",
-   "away_conference": "ACC",
-   "home_conference": "ACC",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": -11.7,
+    "home_margin": -10.0,
     "home_win": 0.234,
-    "total": 54.8,
-    "over": 0.494,
-    "home_cover": 0.496
-   },
-   "vegas": {
-    "home_margin": -10.5,
-    "home_win": 0.234,
-    "total": 53.5,
-    "over": 0.5,
+    "total": 50.5,
+    "over": 0.496,
     "home_moneyline": 310.0,
     "away_moneyline": -395.0
    },
    "final": null
   },
   {
-   "id": 401860904,
-   "kickoff": "2026-10-17T22:30:00-04:00",
+   "id": 401862807,
+   "kickoff": "2026-10-22T19:30:00-04:00",
    "status": "upcoming",
-   "away": "Fresno State",
-   "home": "San Diego State",
-   "away_conference": "Pac-12",
-   "home_conference": "Pac-12",
+   "away": "East Carolina",
+   "home": "Memphis",
+   "away_conference": "American Athletic",
+   "home_conference": "American Athletic",
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -11.5,
-    "home_win": 0.238,
-    "total": 50.4,
-    "over": 0.496,
-    "home_cover": 0.498
+    "home_margin": 10.8,
+    "home_win": 0.749,
+    "total": 54.2,
+    "over": 0.493,
+    "home_cover": 0.495
    },
    "vegas": {
-    "home_margin": -7.0,
-    "home_win": 0.286,
-    "total": 45.5,
-    "over": 0.496,
-    "home_moneyline": 235.0,
-    "away_moneyline": -290.0
+    "home_margin": 10.0,
+    "home_win": 0.772,
+    "total": 54.5,
+    "over": 0.504,
+    "home_moneyline": -410.0,
+    "away_moneyline": 320.0
    },
    "final": null
   },
   {
-   "id": 401864521,
-   "kickoff": "2026-10-17T22:30:00-04:00",
+   "id": 401858271,
+   "kickoff": "2026-10-23T19:00:00-04:00",
    "status": "upcoming",
-   "away": "New Mexico",
-   "home": "Hawai'i",
+   "away": "Duke",
+   "home": "Virginia",
+   "away_conference": "ACC",
+   "home_conference": "ACC",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 0.7,
+    "home_win": 0.517,
+    "total": 51.6,
+    "over": 0.496,
+    "home_cover": 0.496
+   },
+   "vegas": {
+    "home_margin": 1.5,
+    "home_win": 0.526,
+    "total": 47.5,
+    "over": 0.489,
+    "home_moneyline": -122.0,
+    "away_moneyline": 102.0
+   },
+   "final": null
+  },
+  {
+   "id": 401861965,
+   "kickoff": "2026-10-23T19:00:00-04:00",
+   "status": "upcoming",
+   "away": "Massachusetts",
+   "home": "UConn",
+   "away_conference": "Mid-American",
+   "home_conference": "FBS Independents",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 18.4,
+    "home_win": 0.874,
+    "total": 56.8,
+    "over": 0.498,
+    "home_cover": 0.493
+   },
+   "vegas": {
+    "home_margin": 14.5,
+    "home_win": 0.84,
+    "total": 49.5,
+    "over": 0.489,
+    "home_moneyline": -700.0,
+    "away_moneyline": 500.0
+   },
+   "final": null
+  },
+  {
+   "id": 401862808,
+   "kickoff": "2026-10-23T20:30:00-04:00",
+   "status": "upcoming",
+   "away": "Army",
+   "home": "Tulsa",
+   "away_conference": "American Athletic",
+   "home_conference": "American Athletic",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": -8.3,
+    "home_win": 0.303,
+    "total": 52.8,
+    "over": 0.492,
+    "home_cover": 0.501
+   },
+   "vegas": {
+    "home_margin": 1.5,
+    "home_win": 0.522,
+    "total": 54.5,
+    "over": 0.5,
+    "home_moneyline": -120.0,
+    "away_moneyline": 100.0
+   },
+   "final": null
+  },
+  {
+   "id": 401864525,
+   "kickoff": "2026-10-23T21:00:00-04:00",
+   "status": "upcoming",
+   "away": "Air Force",
+   "home": "Wyoming",
    "away_conference": "Mountain West",
    "home_conference": "Mountain West",
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -14.5,
-    "home_win": 0.184,
-    "total": 49.8,
-    "over": 0.496,
-    "home_cover": 0.495
+    "home_margin": -8.4,
+    "home_win": 0.302,
+    "total": 47.4,
+    "over": 0.494,
+    "home_cover": 0.497
    },
    "vegas": {
-    "home_margin": -14.5,
-    "home_win": 0.168,
+    "home_margin": -4.5,
+    "home_win": 0.355,
     "total": 45.5,
-    "over": 0.504,
-    "home_moneyline": 470.0,
-    "away_moneyline": -650.0
+    "over": 0.478,
+    "home_moneyline": 170.0,
+    "away_moneyline": -205.0
    },
    "final": null
   },
   {
-   "id": 401858492,
-   "kickoff": "2026-10-17T23:00:00-04:00",
+   "id": 401858272,
+   "kickoff": "2026-10-23T22:30:00-04:00",
    "status": "upcoming",
-   "away": "Nebraska",
-   "home": "Oregon",
+   "away": "NC State",
+   "home": "Stanford",
+   "away_conference": "ACC",
+   "home_conference": "ACC",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": -12.2,
+    "home_win": 0.225,
+    "total": 56.0,
+    "over": 0.493,
+    "home_cover": 0.498
+   },
+   "vegas": {
+    "home_margin": -6.5,
+    "home_win": 0.304,
+    "total": 55.5,
+    "over": 0.489,
+    "home_moneyline": 215.0,
+    "away_moneyline": -265.0
+   },
+   "final": null
+  },
+  {
+   "id": 401856728,
+   "kickoff": "2026-10-24T12:00:00-04:00",
+   "status": "upcoming",
+   "away": "LSU",
+   "home": "Auburn",
+   "away_conference": "SEC",
+   "home_conference": "SEC",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": -9.2,
+    "home_win": 0.284,
+    "total": 48.1,
+    "over": 0.49,
+    "home_cover": 0.496
+   },
+   "vegas": {
+    "home_margin": -7.5,
+    "home_win": 0.282,
+    "total": 51.5,
+    "over": 0.478,
+    "home_moneyline": 240.0,
+    "away_moneyline": -298.0
+   },
+   "final": null
+  },
+  {
+   "id": 401856840,
+   "kickoff": "2026-10-24T12:00:00-04:00",
+   "status": "upcoming",
+   "away": "Texas Tech",
+   "home": "Cincinnati",
+   "away_conference": "Big 12",
+   "home_conference": "Big 12",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": -11.6,
+    "home_win": 0.236,
+    "total": 55.9,
+    "over": 0.492,
+    "home_cover": 0.496
+   },
+   "vegas": {
+    "home_margin": -10.5,
+    "home_win": 0.218,
+    "total": 56.5,
+    "over": 0.5,
+    "home_moneyline": 340.0,
+    "away_moneyline": -440.0
+   },
+   "final": null
+  },
+  {
+   "id": 401856841,
+   "kickoff": "2026-10-24T12:00:00-04:00",
+   "status": "upcoming",
+   "away": "West Virginia",
+   "home": "TCU",
+   "away_conference": "Big 12",
+   "home_conference": "Big 12",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 14.1,
+    "home_win": 0.809,
+    "total": 56.7,
+    "over": 0.493,
+    "home_cover": 0.493
+   },
+   "vegas": {
+    "home_margin": 9.5,
+    "home_win": 0.741,
+    "total": 56.5,
+    "over": 0.5,
+    "home_moneyline": -340.0,
+    "away_moneyline": 270.0
+   },
+   "final": null
+  },
+  {
+   "id": 401858270,
+   "kickoff": "2026-10-24T12:00:00-04:00",
+   "status": "upcoming",
+   "away": "California",
+   "home": "SMU",
+   "away_conference": "ACC",
+   "home_conference": "ACC",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 17.5,
+    "home_win": 0.861,
+    "total": 52.9,
+    "over": 0.492,
+    "home_cover": 0.496
+   },
+   "vegas": {
+    "home_margin": 19.5,
+    "home_win": 0.887,
+    "total": 54.5,
+    "over": 0.496,
+    "home_moneyline": -1200.0,
+    "away_moneyline": 750.0
+   },
+   "final": null
+  },
+  {
+   "id": 401858274,
+   "kickoff": "2026-10-24T12:00:00-04:00",
+   "status": "upcoming",
+   "away": "Pittsburgh",
+   "home": "Miami",
+   "away_conference": "ACC",
+   "home_conference": "ACC",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 20.0,
+    "home_win": 0.893,
+    "total": 56.2,
+    "over": 0.497,
+    "home_cover": 0.495
+   },
+   "vegas": {
+    "home_margin": 20.5,
+    "home_win": 0.908,
+    "total": 50.5,
+    "over": 0.504,
+    "home_moneyline": -1650.0,
+    "away_moneyline": 950.0
+   },
+   "final": null
+  },
+  {
+   "id": 401858496,
+   "kickoff": "2026-10-24T12:00:00-04:00",
+   "status": "upcoming",
+   "away": "Indiana",
+   "home": "Michigan",
    "away_conference": "Big Ten",
    "home_conference": "Big Ten",
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 7.3,
-    "home_win": 0.676,
-    "total": 57.3,
-    "over": 0.497,
+    "home_margin": -6.5,
+    "home_win": 0.344,
+    "total": 45.4,
+    "over": 0.496,
     "home_cover": 0.495
    },
    "vegas": {
-    "home_margin": 7.0,
-    "home_win": 0.691,
+    "home_margin": -7.0,
+    "home_win": 0.295,
+    "total": 41.5,
+    "over": 0.5,
+    "home_moneyline": 225.0,
+    "away_moneyline": -278.0
+   },
+   "final": null
+  },
+  {
+   "id": 401858498,
+   "kickoff": "2026-10-24T12:00:00-04:00",
+   "status": "upcoming",
+   "away": "Rutgers",
+   "home": "Northwestern",
+   "away_conference": "Big Ten",
+   "home_conference": "Big Ten",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 16.2,
+    "home_win": 0.843,
+    "total": 56.3,
+    "over": 0.492,
+    "home_cover": 0.495
+   },
+   "vegas": {
+    "home_margin": 16.5,
+    "home_win": 0.852,
+    "total": 57.5,
+    "over": 0.511,
+    "home_moneyline": -800.0,
+    "away_moneyline": 550.0
+   },
+   "final": null
+  },
+  {
+   "id": 401862809,
+   "kickoff": "2026-10-24T12:00:00-04:00",
+   "status": "upcoming",
+   "away": "Rice",
+   "home": "Florida Atlantic",
+   "away_conference": "American Athletic",
+   "home_conference": "American Athletic",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 12.0,
+    "home_win": 0.773,
+    "total": 57.4,
+    "over": 0.496,
+    "home_cover": 0.493
+   },
+   "vegas": {
+    "home_margin": 7.5,
+    "home_win": 0.734,
+    "total": 53.5,
+    "over": 0.489,
+    "home_moneyline": -325.0,
+    "away_moneyline": 260.0
+   },
+   "final": null
+  },
+  {
+   "id": 401866450,
+   "kickoff": "2026-10-24T12:00:00-04:00",
+   "status": "upcoming",
+   "away": "Western Michigan",
+   "home": "Toledo",
+   "away_conference": "Mid-American",
+   "home_conference": "Mid-American",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 6.5,
+    "home_win": 0.657,
+    "total": 48.5,
+    "over": 0.495,
+    "home_cover": 0.493
+   },
+   "vegas": {
+    "home_margin": 3.0,
+    "home_win": 0.583,
+    "total": 45.5,
+    "over": 0.496,
+    "home_moneyline": -155.0,
+    "away_moneyline": 130.0
+   },
+   "final": null
+  },
+  {
+   "id": 401856834,
+   "kickoff": "2026-10-24T13:00:00-04:00",
+   "status": "upcoming",
+   "away": "Baylor",
+   "home": "Kansas",
+   "away_conference": "Big 12",
+   "home_conference": "Big 12",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 2.4,
+    "home_win": 0.558,
+    "total": 53.8,
+    "over": 0.493,
+    "home_cover": 0.492
+   },
+   "vegas": {
+    "home_margin": -3.0,
+    "home_win": 0.437,
+    "total": 53.5,
+    "over": 0.489,
+    "home_moneyline": 120.0,
+    "away_moneyline": -142.0
+   },
+   "final": null
+  },
+  {
+   "id": 401866446,
+   "kickoff": "2026-10-24T13:00:00-04:00",
+   "status": "upcoming",
+   "away": "Akron",
+   "home": "Kent State",
+   "away_conference": "Mid-American",
+   "home_conference": "Mid-American",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 3.4,
+    "home_win": 0.583,
+    "total": 51.5,
+    "over": 0.496,
+    "home_cover": 0.495
+   },
+   "vegas": {
+    "home_margin": 3.0,
+    "home_win": 0.572,
+    "total": 46.5,
+    "over": 0.496,
+    "home_moneyline": -148.0,
+    "away_moneyline": 124.0
+   },
+   "final": null
+  },
+  {
+   "id": 401866476,
+   "kickoff": "2026-10-24T13:00:00-04:00",
+   "status": "upcoming",
+   "away": "Miami (OH)",
+   "home": "Central Michigan",
+   "away_conference": "Mid-American",
+   "home_conference": "Mid-American",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 0.1,
+    "home_win": 0.503,
+    "total": 47.6,
+    "over": 0.498,
+    "home_cover": 0.494
+   },
+   "vegas": {
+    "home_margin": -2.5,
+    "home_win": 0.449,
+    "total": 40.5,
+    "over": 0.489,
+    "home_moneyline": 114.0,
+    "away_moneyline": -135.0
+   },
+   "final": null
+  },
+  {
+   "id": 401858495,
+   "kickoff": "2026-10-24T15:00:00-04:00",
+   "status": "upcoming",
+   "away": "Oregon",
+   "home": "Illinois",
+   "away_conference": "Big Ten",
+   "home_conference": "Big Ten",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": -12.4,
+    "home_win": 0.221,
+    "total": 55.2,
+    "over": 0.496,
+    "home_cover": 0.497
+   },
+   "vegas": {
+    "home_margin": -9.5,
+    "home_win": 0.249,
+    "total": 50.5,
+    "over": 0.504,
+    "home_moneyline": 285.0,
+    "away_moneyline": -360.0
+   },
+   "final": null
+  },
+  {
+   "id": 401856727,
+   "kickoff": "2026-10-24T15:30:00-04:00",
+   "status": "upcoming",
+   "away": "Texas A&M",
+   "home": "Alabama",
+   "away_conference": "SEC",
+   "home_conference": "SEC",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 12.7,
+    "home_win": 0.784,
+    "total": 50.1,
+    "over": 0.492,
+    "home_cover": 0.496
+   },
+   "vegas": {
+    "home_margin": 14.0,
+    "home_win": 0.832,
+    "total": 50.5,
+    "over": 0.496,
+    "home_moneyline": -650.0,
+    "away_moneyline": 470.0
+   },
+   "final": null
+  },
+  {
+   "id": 401856730,
+   "kickoff": "2026-10-24T15:30:00-04:00",
+   "status": "upcoming",
+   "away": "Oklahoma",
+   "home": "Mississippi State",
+   "away_conference": "SEC",
+   "home_conference": "SEC",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": -3.7,
+    "home_win": 0.409,
+    "total": 51.0,
+    "over": 0.498,
+    "home_cover": 0.495
+   },
+   "vegas": {
+    "home_margin": -4.5,
+    "home_win": 0.369,
+    "total": 44.5,
+    "over": 0.504,
+    "home_moneyline": 160.0,
+    "away_moneyline": -192.0
+   },
+   "final": null
+  },
+  {
+   "id": 401856731,
+   "kickoff": "2026-10-24T15:30:00-04:00",
+   "status": "upcoming",
+   "away": "Tennessee",
+   "home": "South Carolina",
+   "away_conference": "SEC",
+   "home_conference": "SEC",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": -5.4,
+    "home_win": 0.368,
+    "total": 52.2,
+    "over": 0.494,
+    "home_cover": 0.499
+   },
+   "vegas": {
+    "home_margin": 2.5,
+    "home_win": 0.551,
+    "total": 50.5,
+    "over": 0.511,
+    "home_moneyline": -135.0,
+    "away_moneyline": 114.0
+   },
+   "final": null
+  },
+  {
+   "id": 401856835,
+   "kickoff": "2026-10-24T15:30:00-04:00",
+   "status": "upcoming",
+   "away": "BYU",
+   "home": "UCF",
+   "away_conference": "Big 12",
+   "home_conference": "Big 12",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": -15.4,
+    "home_win": 0.17,
+    "total": 48.6,
+    "over": 0.497,
+    "home_cover": 0.5
+   },
+   "vegas": {
+    "home_margin": -6.5,
+    "home_win": 0.309,
+    "total": 43.5,
+    "over": 0.5,
+    "home_moneyline": 210.0,
+    "away_moneyline": -258.0
+   },
+   "final": null
+  },
+  {
+   "id": 401858273,
+   "kickoff": "2026-10-24T15:30:00-04:00",
+   "status": "upcoming",
+   "away": "Boston College",
+   "home": "Georgia Tech",
+   "away_conference": "ACC",
+   "home_conference": "ACC",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 7.7,
+    "home_win": 0.684,
+    "total": 49.2,
+    "over": 0.493,
+    "home_cover": 0.493
+   },
+   "vegas": {
+    "home_margin": 4.0,
+    "home_win": 0.622,
+    "total": 49.5,
+    "over": 0.5,
+    "home_moneyline": -185.0,
+    "away_moneyline": 154.0
+   },
+   "final": null
+  },
+  {
+   "id": 401858497,
+   "kickoff": "2026-10-24T15:30:00-04:00",
+   "status": "upcoming",
+   "away": "Iowa",
+   "home": "Minnesota",
+   "away_conference": "Big Ten",
+   "home_conference": "Big Ten",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": -10.7,
+    "home_win": 0.253,
+    "total": 48.6,
+    "over": 0.499,
+    "home_cover": 0.497
+   },
+   "vegas": {
+    "home_margin": -7.0,
+    "home_win": 0.295,
+    "total": 40.5,
+    "over": 0.522,
+    "home_moneyline": 225.0,
+    "away_moneyline": -278.0
+   },
+   "final": null
+  },
+  {
+   "id": 401858499,
+   "kickoff": "2026-10-24T15:30:00-04:00",
+   "status": "upcoming",
+   "away": "Michigan State",
+   "home": "UCLA",
+   "away_conference": "Big Ten",
+   "home_conference": "Big Ten",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 18.1,
+    "home_win": 0.869,
+    "total": 49.7,
+    "over": 0.497,
+    "home_cover": 0.493
+   },
+   "vegas": {
+    "home_margin": 14.0,
+    "home_win": 0.827,
+    "total": 44.5,
+    "over": 0.511,
+    "home_moneyline": -625.0,
+    "away_moneyline": 455.0
+   },
+   "final": null
+  },
+  {
+   "id": 401862810,
+   "kickoff": "2026-10-24T15:30:00-04:00",
+   "status": "upcoming",
+   "away": "North Texas",
+   "home": "Navy",
+   "away_conference": "American Athletic",
+   "home_conference": "American Athletic",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": -2.6,
+    "home_win": 0.436,
+    "total": 64.1,
+    "over": 0.495,
+    "home_cover": 0.495
+   },
+   "vegas": {
+    "home_margin": -2.5,
+    "home_win": 0.457,
+    "total": 61.5,
+    "over": 0.511,
+    "home_moneyline": 110.0,
+    "away_moneyline": -130.0
+   },
+   "final": null
+  },
+  {
+   "id": 401864526,
+   "kickoff": "2026-10-24T15:30:00-04:00",
+   "status": "upcoming",
+   "away": "Hawai'i",
+   "home": "Northern Illinois",
+   "away_conference": "Mountain West",
+   "home_conference": "Mountain West",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": -6.2,
+    "home_win": 0.35,
+    "total": 48.2,
+    "over": 0.493,
+    "home_cover": 0.496
+   },
+   "vegas": {
+    "home_margin": -4.5,
+    "home_win": 0.363,
+    "total": 47.5,
+    "over": 0.5,
+    "home_moneyline": 164.0,
+    "away_moneyline": -198.0
+   },
+   "final": null
+  },
+  {
+   "id": 401866447,
+   "kickoff": "2026-10-24T15:30:00-04:00",
+   "status": "upcoming",
+   "away": "Sacramento State",
+   "home": "Ball State",
+   "away_conference": "Mid-American",
+   "home_conference": "Mid-American",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 8.4,
+    "home_win": 0.698,
+    "total": 56.2,
+    "over": 0.496,
+    "home_cover": 0.498
+   },
+   "vegas": {
+    "home_margin": 14.5,
+    "home_win": 0.822,
+    "total": 51.5,
+    "over": 0.483,
+    "home_moneyline": -600.0,
+    "away_moneyline": 440.0
+   },
+   "final": null
+  },
+  {
+   "id": 401866448,
+   "kickoff": "2026-10-24T15:30:00-04:00",
+   "status": "upcoming",
+   "away": "Bowling Green",
+   "home": "Buffalo",
+   "away_conference": "Mid-American",
+   "home_conference": "Mid-American",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 8.5,
+    "home_win": 0.701,
+    "total": 47.5,
+    "over": 0.495,
+    "home_cover": 0.492
+   },
+   "vegas": {
+    "home_margin": 3.5,
+    "home_win": 0.622,
+    "total": 44.5,
+    "over": 0.5,
+    "home_moneyline": -185.0,
+    "away_moneyline": 154.0
+   },
+   "final": null
+  },
+  {
+   "id": 401856839,
+   "kickoff": "2026-10-24T15:45:00-04:00",
+   "status": "upcoming",
+   "away": "Kansas State",
+   "home": "Arizona State",
+   "away_conference": "Big 12",
+   "home_conference": "Big 12",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": -8.8,
+    "home_win": 0.293,
+    "total": 58.9,
+    "over": 0.495,
+    "home_cover": 0.498
+   },
+   "vegas": {
+    "home_margin": -3.5,
+    "home_win": 0.4,
+    "total": 56.5,
+    "over": 0.511,
+    "home_moneyline": 140.0,
+    "away_moneyline": -166.0
+   },
+   "final": null
+  },
+  {
+   "id": 401866449,
+   "kickoff": "2026-10-24T16:00:00-04:00",
+   "status": "upcoming",
+   "away": "Eastern Michigan",
+   "home": "Ohio",
+   "away_conference": "Mid-American",
+   "home_conference": "Mid-American",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 18.5,
+    "home_win": 0.875,
+    "total": 49.8,
+    "over": 0.494,
+    "home_cover": 0.492
+   },
+   "vegas": {
+    "home_margin": 12.5,
+    "home_win": 0.791,
+    "total": 48.5,
+    "over": 0.5,
+    "home_moneyline": -470.0,
+    "away_moneyline": 360.0
+   },
+   "final": null
+  },
+  {
+   "id": 401871094,
+   "kickoff": "2026-10-24T16:00:00-04:00",
+   "status": "upcoming",
+   "away": "UL Monroe",
+   "home": "Troy",
+   "away_conference": "Sun Belt",
+   "home_conference": "Sun Belt",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 19.3,
+    "home_win": 0.885,
+    "total": 49.7,
+    "over": 0.491,
+    "home_cover": 0.492
+   },
+   "vegas": {
+    "home_margin": 14.5,
+    "home_win": 0.84,
+    "total": 51.5,
+    "over": 0.496,
+    "home_moneyline": -700.0,
+    "away_moneyline": 500.0
+   },
+   "final": null
+  },
+  {
+   "id": 401864528,
+   "kickoff": "2026-10-24T17:00:00-04:00",
+   "status": "upcoming",
+   "away": "San Jos\u00e9 State",
+   "home": "Nevada",
+   "away_conference": "Mountain West",
+   "home_conference": "Mountain West",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 5.9,
+    "home_win": 0.643,
+    "total": 47.3,
+    "over": 0.493,
+    "home_cover": 0.495
+   },
+   "vegas": {
+    "home_margin": 5.5,
+    "home_win": 0.645,
+    "total": 46.5,
+    "over": 0.496,
+    "home_moneyline": -205.0,
+    "away_moneyline": 170.0
+   },
+   "final": null
+  },
+  {
+   "id": 401869967,
+   "kickoff": "2026-10-24T17:00:00-04:00",
+   "status": "upcoming",
+   "away": "Louisiana",
+   "home": "Southern Miss",
+   "away_conference": "Sun Belt",
+   "home_conference": "Sun Belt",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": -10.8,
+    "home_win": 0.252,
+    "total": 54.4,
+    "over": 0.494,
+    "home_cover": 0.496
+   },
+   "vegas": {
+    "home_margin": -10.0,
+    "home_win": 0.24,
+    "total": 52.5,
+    "over": 0.504,
+    "home_moneyline": 300.0,
+    "away_moneyline": -380.0
+   },
+   "final": null
+  },
+  {
+   "id": 401871093,
+   "kickoff": "2026-10-24T17:00:00-04:00",
+   "status": "upcoming",
+   "away": "Old Dominion",
+   "home": "Louisiana Tech",
+   "away_conference": "Sun Belt",
+   "home_conference": "Sun Belt",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 11.3,
+    "home_win": 0.758,
+    "total": 46.4,
+    "over": 0.493,
+    "home_cover": 0.496
+   },
+   "vegas": {
+    "home_margin": 12.5,
+    "home_win": 0.791,
+    "total": 46.5,
+    "over": 0.496,
+    "home_moneyline": -470.0,
+    "away_moneyline": 360.0
+   },
+   "final": null
+  },
+  {
+   "id": 401860907,
+   "kickoff": "2026-10-24T18:00:00-04:00",
+   "status": "upcoming",
+   "away": "Boise State",
+   "home": "Washington State",
+   "away_conference": "Pac-12",
+   "home_conference": "Pac-12",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": -12.9,
+    "home_win": 0.211,
+    "total": 53.6,
+    "over": 0.494,
+    "home_cover": 0.495
+   },
+   "vegas": {
+    "home_margin": -13.5,
+    "home_win": 0.196,
+    "total": 51.5,
+    "over": 0.496,
+    "home_moneyline": 390.0,
+    "away_moneyline": -520.0
+   },
+   "final": null
+  },
+  {
+   "id": 401860905,
+   "kickoff": "2026-10-24T18:30:00-04:00",
+   "status": "upcoming",
+   "away": "San Diego State",
+   "home": "Colorado State",
+   "away_conference": "Pac-12",
+   "home_conference": "Pac-12",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": -2.7,
+    "home_win": 0.434,
+    "total": 63.6,
+    "over": 0.493,
+    "home_cover": 0.496
+   },
+   "vegas": {
+    "home_margin": -1.5,
+    "home_win": 0.489,
+    "total": 63.5,
+    "over": 0.496,
+    "home_moneyline": -105.0,
+    "away_moneyline": -115.0
+   },
+   "final": null
+  },
+  {
+   "id": 401856836,
+   "kickoff": "2026-10-24T19:00:00-04:00",
+   "status": "upcoming",
+   "away": "Colorado",
+   "home": "Oklahoma State",
+   "away_conference": "Big 12",
+   "home_conference": "Big 12",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 9.9,
+    "home_win": 0.73,
+    "total": 52.0,
+    "over": 0.49,
+    "home_cover": 0.497
+   },
+   "vegas": {
+    "home_margin": 12.5,
+    "home_win": 0.812,
+    "total": 55.5,
+    "over": 0.511,
+    "home_moneyline": -550.0,
+    "away_moneyline": 410.0
+   },
+   "final": null
+  },
+  {
+   "id": 401858276,
+   "kickoff": "2026-10-24T19:00:00-04:00",
+   "status": "upcoming",
+   "away": "Virginia Tech",
+   "home": "Clemson",
+   "away_conference": "ACC",
+   "home_conference": "ACC",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 2.2,
+    "home_win": 0.554,
+    "total": 51.1,
+    "over": 0.494,
+    "home_cover": 0.495
+   },
+   "vegas": {
+    "home_margin": 2.5,
+    "home_win": 0.572,
+    "total": 49.5,
+    "over": 0.5,
+    "home_moneyline": -148.0,
+    "away_moneyline": 124.0
+   },
+   "final": null
+  },
+  {
+   "id": 401869935,
+   "kickoff": "2026-10-24T19:00:00-04:00",
+   "status": "upcoming",
+   "away": "Georgia State",
+   "home": "Arkansas State",
+   "away_conference": "Sun Belt",
+   "home_conference": "Sun Belt",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": -1.9,
+    "home_win": 0.453,
+    "total": 55.7,
+    "over": 0.491,
+    "home_cover": 0.495
+   },
+   "vegas": {
+    "home_margin": -2.5,
+    "home_win": 0.457,
+    "total": 58.5,
+    "over": 0.517,
+    "home_moneyline": 110.0,
+    "away_moneyline": -130.0
+   },
+   "final": null
+  },
+  {
+   "id": 401856729,
+   "kickoff": "2026-10-24T19:30:00-04:00",
+   "status": "upcoming",
+   "away": "Vanderbilt",
+   "home": "Kentucky",
+   "away_conference": "SEC",
+   "home_conference": "SEC",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 14.9,
+    "home_win": 0.822,
+    "total": 56.1,
+    "over": 0.496,
+    "home_cover": 0.493
+   },
+   "vegas": {
+    "home_margin": 10.5,
+    "home_win": 0.782,
+    "total": 51.5,
+    "over": 0.511,
+    "home_moneyline": -440.0,
+    "away_moneyline": 340.0
+   },
+   "final": null
+  },
+  {
+   "id": 401856732,
+   "kickoff": "2026-10-24T19:30:00-04:00",
+   "status": "upcoming",
+   "away": "Ole Miss",
+   "home": "Texas",
+   "away_conference": "SEC",
+   "home_conference": "SEC",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 0.2,
+    "home_win": 0.506,
+    "total": 55.6,
+    "over": 0.494,
+    "home_cover": 0.497
+   },
+   "vegas": {
+    "home_margin": 3.0,
+    "home_win": 0.593,
+    "total": 53.5,
+    "over": 0.504,
+    "home_moneyline": -162.0,
+    "away_moneyline": 136.0
+   },
+   "final": null
+  },
+  {
+   "id": 401856838,
+   "kickoff": "2026-10-24T19:30:00-04:00",
+   "status": "upcoming",
+   "away": "Iowa State",
+   "home": "Arizona",
+   "away_conference": "Big 12",
+   "home_conference": "Big 12",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 13.6,
+    "home_win": 0.801,
+    "total": 53.2,
+    "over": 0.495,
+    "home_cover": 0.493
+   },
+   "vegas": {
+    "home_margin": 10.0,
+    "home_win": 0.734,
+    "total": 50.5,
+    "over": 0.504,
+    "home_moneyline": -325.0,
+    "away_moneyline": 260.0
+   },
+   "final": null
+  },
+  {
+   "id": 401858275,
+   "kickoff": "2026-10-24T19:30:00-04:00",
+   "status": "upcoming",
+   "away": "Syracuse",
+   "home": "North Carolina",
+   "away_conference": "ACC",
+   "home_conference": "ACC",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 9.0,
+    "home_win": 0.712,
+    "total": 49.7,
+    "over": 0.495,
+    "home_cover": 0.494
+   },
+   "vegas": {
+    "home_margin": 7.5,
+    "home_win": 0.744,
+    "total": 46.5,
+    "over": 0.504,
+    "home_moneyline": -345.0,
+    "away_moneyline": 275.0
+   },
+   "final": null
+  },
+  {
+   "id": 401858500,
+   "kickoff": "2026-10-24T19:30:00-04:00",
+   "status": "upcoming",
+   "away": "USC",
+   "home": "Wisconsin",
+   "away_conference": "Big Ten",
+   "home_conference": "Big Ten",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": -3.1,
+    "home_win": 0.425,
+    "total": 49.4,
+    "over": 0.493,
+    "home_cover": 0.495
+   },
+   "vegas": {
+    "home_margin": -3.0,
+    "home_win": 0.417,
+    "total": 49.5,
+    "over": 0.504,
+    "home_moneyline": 130.0,
+    "away_moneyline": -155.0
+   },
+   "final": null
+  },
+  {
+   "id": 401860906,
+   "kickoff": "2026-10-24T19:30:00-04:00",
+   "status": "upcoming",
+   "away": "Utah State",
+   "home": "Texas State",
+   "away_conference": "Pac-12",
+   "home_conference": "Pac-12",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 13.7,
+    "home_win": 0.802,
+    "total": 57.3,
+    "over": 0.49,
+    "home_cover": 0.495
+   },
+   "vegas": {
+    "home_margin": 13.5,
+    "home_win": 0.804,
+    "total": 60.5,
+    "over": 0.511,
+    "home_moneyline": -520.0,
+    "away_moneyline": 390.0
+   },
+   "final": null
+  },
+  {
+   "id": 401862811,
+   "kickoff": "2026-10-24T20:00:00-04:00",
+   "status": "upcoming",
+   "away": "UTSA",
+   "home": "Tulane",
+   "away_conference": "American Athletic",
+   "home_conference": "American Athletic",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": -0.9,
+    "home_win": 0.479,
+    "total": 52.6,
+    "over": 0.494,
+    "home_cover": 0.494
+   },
+   "vegas": {
+    "home_margin": -2.5,
+    "home_win": 0.437,
     "total": 51.5,
     "over": 0.5,
-    "home_moneyline": -258.0,
-    "away_moneyline": 210.0
+    "home_moneyline": 120.0,
+    "away_moneyline": -142.0
+   },
+   "final": null
+  },
+  {
+   "id": 401864527,
+   "kickoff": "2026-10-24T22:00:00-04:00",
+   "status": "upcoming",
+   "away": "North Dakota State",
+   "home": "New Mexico",
+   "away_conference": "Mountain West",
+   "home_conference": "Mountain West",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 7.9,
+    "home_win": 0.688,
+    "total": 47.0,
+    "over": 0.497,
+    "home_cover": 0.493
+   },
+   "vegas": {
+    "home_margin": 4.5,
+    "home_win": 0.645,
+    "total": 41.5,
+    "over": 0.496,
+    "home_moneyline": -205.0,
+    "away_moneyline": 170.0
+   },
+   "final": null
+  },
+  {
+   "id": 401856837,
+   "kickoff": "2026-10-24T22:15:00-04:00",
+   "status": "upcoming",
+   "away": "Houston",
+   "home": "Utah",
+   "away_conference": "Big 12",
+   "home_conference": "Big 12",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 10.1,
+    "home_win": 0.734,
+    "total": 59.5,
+    "over": 0.495,
+    "home_cover": 0.493
+   },
+   "vegas": {
+    "home_margin": 6.5,
+    "home_win": 0.675,
+    "total": 56.5,
+    "over": 0.511,
+    "home_moneyline": -238.0,
+    "away_moneyline": 195.0
    },
    "final": null
   }
  ],
  "record": {
   "season": {
-   "games": 29,
+   "games": 60,
    "winners": {
-    "right": 19,
-    "picked": 29
+    "right": 41,
+    "picked": 60
    },
    "ats": {
-    "win": 16,
-    "loss": 10,
+    "win": 31,
+    "loss": 25,
     "push": 2
    },
    "over_under": {
-    "win": 19,
-    "loss": 9,
+    "win": 31,
+    "loss": 27,
     "push": 0
    },
    "spread_miss": {
-    "model": 10.3,
-    "vegas": 10.5,
-    "games": 29
+    "model": 11.4,
+    "vegas": 10.7,
+    "games": 60
    },
    "total_miss": {
-    "model": 13.0,
-    "vegas": 13.5,
-    "games": 29
+    "model": 13.6,
+    "vegas": 13.1,
+    "games": 60
    }
   },
   "weeks": [
    {
     "week": 7,
-    "games": 29,
+    "games": 60,
     "winners": {
-     "right": 19,
-     "picked": 29
+     "right": 41,
+     "picked": 60
     },
     "ats": {
-     "win": 16,
-     "loss": 10,
+     "win": 31,
+     "loss": 25,
      "push": 2
     },
     "over_under": {
-     "win": 19,
-     "loss": 9,
+     "win": 31,
+     "loss": 27,
      "push": 0
     },
     "spread_miss": {
-     "model": 10.3,
-     "vegas": 10.5,
-     "games": 29
+     "model": 11.4,
+     "vegas": 10.7,
+     "games": 60
     },
     "total_miss": {
-     "model": 13.0,
-     "vegas": 13.5,
-     "games": 29
+     "model": 13.6,
+     "vegas": 13.1,
+     "games": 60
     }
    }
   ]
  },
  "results": [
+  {
+   "id": 401858492,
+   "week": 7,
+   "kickoff": "2026-10-17T23:00:00-04:00",
+   "away": "Nebraska",
+   "home": "Oregon",
+   "final": {
+    "away": 14,
+    "home": 17
+   },
+   "model": {
+    "home_margin": 7.3,
+    "home_win": 0.676,
+    "total": 57.4
+   },
+   "vegas": {
+    "home_margin": 7.0,
+    "total": 52.5
+   },
+   "winner": true,
+   "ats": "loss",
+   "over_under": "loss",
+   "review": "Oregon beat Nebraska 17\u201314. The model had Oregon by 7.3, so it was 4.3 points off. Close: within a touchdown.",
+   "total_review": "Total points: 31, against the model's 57.4 and the market's 52.5, so 26.4 fewer than the model expected. Main reason: efficiency, worth about 25 points. The offenses succeeded on 37% and 27% of their plays, which usually means about 33 points. Another 12 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
+  },
+  {
+   "id": 401864521,
+   "week": 7,
+   "kickoff": "2026-10-17T22:30:00-04:00",
+   "away": "New Mexico",
+   "home": "Hawai'i",
+   "final": {
+    "away": 21,
+    "home": 10
+   },
+   "model": {
+    "home_margin": -14.5,
+    "home_win": 0.184,
+    "total": 49.8
+   },
+   "vegas": {
+    "home_margin": -14.5,
+    "total": 44.5
+   },
+   "winner": true,
+   "ats": "no pick",
+   "over_under": "loss",
+   "review": "New Mexico beat Hawai'i 21\u201310. The model had New Mexico by 14.5, so it was 3.5 points off. Close: within a touchdown.",
+   "total_review": "Total points: 31, against the model's 49.8 and the market's 44.5, so 18.8 fewer than the model expected. Main reason: efficiency, worth about 10 points. The offenses succeeded on 38% and 34% of their plays, which usually means about 40 points. Another 20 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
+  },
+  {
+   "id": 401860904,
+   "week": 7,
+   "kickoff": "2026-10-17T22:30:00-04:00",
+   "away": "Fresno State",
+   "home": "San Diego State",
+   "final": {
+    "away": 23,
+    "home": 26
+   },
+   "model": {
+    "home_margin": -11.5,
+    "home_win": 0.238,
+    "total": 50.4
+   },
+   "vegas": {
+    "home_margin": -7.5,
+    "total": 46.5
+   },
+   "winner": false,
+   "ats": "loss",
+   "over_under": "win",
+   "review": "San Diego State beat Fresno State 26\u201323. The model had Fresno State by 11.5, so it was 14.5 points off. San Diego State did 14 points better than expected. Main reason: efficiency, worth about 10 points. San Diego State succeeded on 43% of its plays and Fresno State on 45%, which usually means Fresno State by 2.",
+   "total_review": "Total points: 49, against the model's 50.4 and the market's 46.5, so 1.4 fewer than the model expected. Close: within a touchdown."
+  },
+  {
+   "id": 401858269,
+   "week": 7,
+   "kickoff": "2026-10-17T22:30:00-04:00",
+   "away": "Wake Forest",
+   "home": "California",
+   "final": {
+    "away": 41,
+    "home": 7
+   },
+   "model": {
+    "home_margin": -11.7,
+    "home_win": 0.234,
+    "total": 54.8
+   },
+   "vegas": {
+    "home_margin": -10.0,
+    "total": 53.5
+   },
+   "winner": true,
+   "ats": "win",
+   "over_under": "loss",
+   "review": "Wake Forest beat California 41\u20137. The model had Wake Forest by 11.7, so it was 22.3 points off. Wake Forest did 22 points better than expected. Biggest reasons: finishing drives, worth about 12 points. Wake Forest scored 42 points on 6 trips inside the 40, and California 7 on 4; and big plays, worth about 6 points. Wake Forest had 8 plays of 20+ yards and California 1.",
+   "total_review": "Total points: 48, against the model's 54.8 and the market's 53.5, so 6.8 fewer than the model expected. Close: within a touchdown."
+  },
+  {
+   "id": 401856833,
+   "week": 7,
+   "kickoff": "2026-10-17T22:15:00-04:00",
+   "away": "Utah",
+   "home": "Colorado",
+   "final": {
+    "away": 27,
+    "home": 24
+   },
+   "model": {
+    "home_margin": -23.5,
+    "home_win": 0.072,
+    "total": 54.0
+   },
+   "vegas": {
+    "home_margin": -14.5,
+    "total": 49.5
+   },
+   "winner": true,
+   "ats": "loss",
+   "over_under": "win",
+   "review": "Utah beat Colorado 27\u201324. The model had Utah by 23.5, so it was 20.5 points off. Colorado did 20 points better than expected. Main reason: efficiency, worth about 18 points. Colorado succeeded on 39% of its plays and Utah on 42%, which usually means Utah by 6.",
+   "total_review": "Total points: 51, against the model's 54.0 and the market's 49.5, so 3.0 fewer than the model expected. Close: within a touchdown."
+  },
+  {
+   "id": 401866445,
+   "week": 7,
+   "kickoff": "2026-10-17T22:00:00-04:00",
+   "away": "Ohio",
+   "home": "Sacramento State",
+   "final": {
+    "away": 48,
+    "home": 7
+   },
+   "model": {
+    "home_margin": -13.2,
+    "home_win": 0.206,
+    "total": 50.0
+   },
+   "vegas": {
+    "home_margin": -15.5,
+    "total": 48.5
+   },
+   "winner": true,
+   "ats": "loss",
+   "over_under": "win",
+   "review": "Ohio beat Sacramento State 48\u20137. The model had Ohio by 13.2, so it was 27.8 points off. Ohio did 28 points better than expected. Biggest reasons: efficiency, worth about 8 points. Ohio succeeded on 53% of its plays and Sacramento State on 33%, which usually means Ohio by 22; and finishing drives, worth about 8 points. Ohio scored 41 points on 7 trips inside the 40, and Sacramento State 7 on 3. Another 9 points don't show up in these stats: things like field position, kicking, penalties or late-game situations.",
+   "total_review": "Total points: 55, against the model's 50.0 and the market's 48.5, so 5.0 more than the model expected. Close: within a touchdown."
+  },
+  {
+   "id": 401864523,
+   "week": 7,
+   "kickoff": "2026-10-17T21:00:00-04:00",
+   "away": "San Jos\u00e9 State",
+   "home": "UTEP",
+   "final": {
+    "away": 24,
+    "home": 11
+   },
+   "model": {
+    "home_margin": -9.3,
+    "home_win": 0.281,
+    "total": 54.7
+   },
+   "vegas": {
+    "home_margin": -7.0,
+    "total": 46.5
+   },
+   "winner": true,
+   "ats": "win",
+   "over_under": "loss",
+   "review": "San Jos\u00e9 State beat UTEP 24\u201311. The model had San Jos\u00e9 State by 9.3, so it was 3.7 points off. Close: within a touchdown.",
+   "total_review": "Total points: 35, against the model's 54.7 and the market's 46.5, so 19.7 fewer than the model expected. Main reason: finishing drives, worth about 7 points. The teams scored 27 points on 10 trips inside the 40. Another 22 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
+  },
+  {
+   "id": 401871091,
+   "week": 7,
+   "kickoff": "2026-10-17T20:00:00-04:00",
+   "away": "Louisiana Tech",
+   "home": "UL Monroe",
+   "final": {
+    "away": 24,
+    "home": 0
+   },
+   "model": {
+    "home_margin": -17.8,
+    "home_win": 0.134,
+    "total": 58.6
+   },
+   "vegas": {
+    "home_margin": -15.5,
+    "total": 57.5
+   },
+   "winner": true,
+   "ats": "win",
+   "over_under": "loss",
+   "review": "Louisiana Tech beat UL Monroe 24\u20130. The model had Louisiana Tech by 17.8, so it was 6.2 points off. Close: within a touchdown.",
+   "total_review": "Total points: 24, against the model's 58.6 and the market's 57.5, so 34.6 fewer than the model expected. Biggest reasons: efficiency, worth about 13 points. The offenses succeeded on 39% and 39% of their plays, which usually means about 45 points; and finishing drives, worth about 6 points. The teams scored 24 points on 9 trips inside the 40. Another 25 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
+  },
+  {
+   "id": 401862804,
+   "week": 7,
+   "kickoff": "2026-10-17T20:00:00-04:00",
+   "away": "Navy",
+   "home": "UTSA",
+   "final": {
+    "away": 34,
+    "home": 38
+   },
+   "model": {
+    "home_margin": 9.3,
+    "home_win": 0.718,
+    "total": 54.1
+   },
+   "vegas": {
+    "home_margin": 6.5,
+    "total": 55.5
+   },
+   "winner": true,
+   "ats": "loss",
+   "over_under": "loss",
+   "review": "UTSA beat Navy 38\u201334. The model had UTSA by 9.3, so it was 5.3 points off. Close: within a touchdown.",
+   "total_review": "Total points: 72, against the model's 54.1 and the market's 55.5, so 17.9 more than the model expected. Biggest reasons: big plays, worth about 14 points. The teams had 12 plays of 20+ yards; and efficiency, worth about 10 points. The offenses succeeded on 44% and 52% of their plays, which usually means about 64 points."
+  },
+  {
+   "id": 401858494,
+   "week": 7,
+   "kickoff": "2026-10-17T19:30:00-04:00",
+   "away": "Wisconsin",
+   "home": "UCLA",
+   "final": {
+    "away": 7,
+    "home": 17
+   },
+   "model": {
+    "home_margin": 9.9,
+    "home_win": 0.73,
+    "total": 46.3
+   },
+   "vegas": {
+    "home_margin": 2.5,
+    "total": 43.5
+   },
+   "winner": true,
+   "ats": "win",
+   "over_under": "loss",
+   "review": "UCLA beat Wisconsin 17\u20137. The model had UCLA by 9.9, so it was 0.1 points off. Close: within a touchdown.",
+   "total_review": "Total points: 24, against the model's 46.3 and the market's 43.5, so 22.3 fewer than the model expected. Main reason: finishing drives, worth about 4 points. The teams scored 24 points on 8 trips inside the 40. Another 30 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
+  },
+  {
+   "id": 401858265,
+   "week": 7,
+   "kickoff": "2026-10-17T19:30:00-04:00",
+   "away": "Louisville",
+   "home": "Syracuse",
+   "final": {
+    "away": 34,
+    "home": 26
+   },
+   "model": {
+    "home_margin": -13.1,
+    "home_win": 0.208,
+    "total": 58.1
+   },
+   "vegas": {
+    "home_margin": -14.5,
+    "total": 55.5
+   },
+   "winner": true,
+   "ats": "win",
+   "over_under": "win",
+   "review": "Louisville beat Syracuse 34\u201326. The model had Louisville by 13.1, so it was 5.1 points off. Close: within a touchdown.",
+   "total_review": "Total points: 60, against the model's 58.1 and the market's 55.5, so 1.9 more than the model expected. Close: within a touchdown."
+  },
+  {
+   "id": 401858262,
+   "week": 7,
+   "kickoff": "2026-10-17T19:30:00-04:00",
+   "away": "Elon",
+   "home": "Stanford",
+   "final": {
+    "away": 7,
+    "home": 34
+   },
+   "model": {
+    "home_margin": 12.3,
+    "home_win": 0.778,
+    "total": 53.9
+   },
+   "vegas": {
+    "home_margin": 35.5,
+    "total": 56.5
+   },
+   "winner": true,
+   "ats": "win",
+   "over_under": "win",
+   "review": "Stanford beat Elon 34\u20137. The model had Stanford by 12.3, so it was 14.7 points off. Stanford did 15 points better than expected. Biggest reasons: efficiency, worth about 10 points. Stanford succeeded on 51% of its plays and Elon on 31%, which usually means Stanford by 22; and finishing drives, worth about 6 points. Stanford scored 28 points on 6 trips inside the 40, and Elon 7 on 4.",
+   "total_review": "Total points: 41, against the model's 53.9 and the market's 56.5, so 12.9 fewer than the model expected. Main reason: nothing in these stats stands out, so it came down to things like field position, kicking, penalties or late-game situations."
+  },
+  {
+   "id": 401856831,
+   "week": 7,
+   "kickoff": "2026-10-17T19:30:00-04:00",
+   "away": "Oklahoma State",
+   "home": "Houston",
+   "final": {
+    "away": 32,
+    "home": 35
+   },
+   "model": {
+    "home_margin": 14.2,
+    "home_win": 0.812,
+    "total": 56.6
+   },
+   "vegas": {
+    "home_margin": 4.5,
+    "total": 62.5
+   },
+   "winner": true,
+   "ats": "loss",
+   "over_under": "loss",
+   "review": "Houston beat Oklahoma State 35\u201332. The model had Houston by 14.2, so it was 11.2 points off. Oklahoma State did 11 points better than expected. Main reason: efficiency, worth about 11 points. Oklahoma State succeeded on 55% of its plays and Houston on 56%, which usually means Houston by 3.",
+   "total_review": "Total points: 67, against the model's 56.6 and the market's 62.5, so 10.4 more than the model expected. Biggest reasons: efficiency, worth about 24 points. The offenses succeeded on 56% and 55% of their plays, which usually means about 80 points; and big plays, worth about 13 points. The teams had 11 plays of 20+ yards."
+  },
+  {
+   "id": 401856809,
+   "week": 7,
+   "kickoff": "2026-10-17T19:30:00-04:00",
+   "away": "Notre Dame",
+   "home": "BYU",
+   "final": {
+    "away": 24,
+    "home": 28
+   },
+   "model": {
+    "home_margin": -6.6,
+    "home_win": 0.342,
+    "total": 53.5
+   },
+   "vegas": {
+    "home_margin": -10.5,
+    "total": 46.5
+   },
+   "winner": false,
+   "ats": "win",
+   "over_under": "win",
+   "review": "BYU beat Notre Dame 28\u201324. The model had Notre Dame by 6.6, so it was 10.6 points off. BYU did 11 points better than expected. Biggest reasons: efficiency, worth about 15 points. BYU succeeded on 48% of its plays and Notre Dame on 38%, which usually means BYU by 9; and finishing drives, worth about 8 points. BYU scored 28 points on 4 trips inside the 40, and Notre Dame 23 on 7.",
+   "total_review": "Total points: 52, against the model's 53.5 and the market's 46.5, so 1.5 fewer than the model expected. Close: within a touchdown."
+  },
+  {
+   "id": 401856722,
+   "week": 7,
+   "kickoff": "2026-10-17T19:30:00-04:00",
+   "away": "Kentucky",
+   "home": "Oklahoma",
+   "final": {
+    "away": 21,
+    "home": 13
+   },
+   "model": {
+    "home_margin": 8.2,
+    "home_win": 0.696,
+    "total": 50.8
+   },
+   "vegas": {
+    "home_margin": 6.5,
+    "total": 43.5
+   },
+   "winner": false,
+   "ats": "loss",
+   "over_under": "loss",
+   "review": "Kentucky beat Oklahoma 21\u201313. The model had Oklahoma by 8.2, so it was 16.2 points off. Kentucky did 16 points better than expected. Biggest reasons: turnovers, worth about 13 points. Oklahoma had 4 turnovers and Kentucky 0; and defensive and return touchdowns, worth about 5 points. Kentucky scored 1 on defense or special teams.",
+   "total_review": "Total points: 34, against the model's 50.8 and the market's 43.5, so 16.8 fewer than the model expected. Main reason: nothing in these stats stands out, so it came down to things like field position, kicking, penalties or late-game situations."
+  },
+  {
+   "id": 401869934,
+   "week": 7,
+   "kickoff": "2026-10-17T19:00:00-04:00",
+   "away": "Arkansas State",
+   "home": "Southern Miss",
+   "final": {
+    "away": 23,
+    "home": 13
+   },
+   "model": {
+    "home_margin": -0.2,
+    "home_win": 0.494,
+    "total": 60.7
+   },
+   "vegas": {
+    "home_margin": -6.5,
+    "total": 62.5
+   },
+   "winner": true,
+   "ats": "loss",
+   "over_under": "win",
+   "review": "Arkansas State beat Southern Miss 23\u201313. The model had Arkansas State by 0.2, so it was 9.8 points off. Arkansas State did 10 points better than expected. Biggest reasons: turnovers, worth about 7 points. Southern Miss had 2 turnovers and Arkansas State 0; and efficiency, worth about 6 points. Arkansas State succeeded on 37% of its plays and Southern Miss on 32%, which usually means Arkansas State by 6.",
+   "total_review": "Total points: 36, against the model's 60.7 and the market's 62.5, so 24.7 fewer than the model expected. Biggest reasons: efficiency, worth about 23 points. The offenses succeeded on 32% and 37% of their plays, which usually means about 38 points; and finishing drives, worth about 6 points. The teams scored 37 points on 12 trips inside the 40."
+  },
+  {
+   "id": 401864520,
+   "week": 7,
+   "kickoff": "2026-10-17T19:00:00-04:00",
+   "away": "Nevada",
+   "home": "North Dakota State",
+   "final": {
+    "away": 17,
+    "home": 31
+   },
+   "model": {
+    "home_margin": 9.8,
+    "home_win": 0.728,
+    "total": 43.9
+   },
+   "vegas": {
+    "home_margin": 14.5,
+    "total": 42.5
+   },
+   "winner": true,
+   "ats": "win",
+   "over_under": "win",
+   "review": "North Dakota State beat Nevada 31\u201317. The model had North Dakota State by 9.8, so it was 4.2 points off. Close: within a touchdown.",
+   "total_review": "Total points: 48, against the model's 43.9 and the market's 42.5, so 4.1 more than the model expected. Close: within a touchdown."
+  },
+  {
+   "id": 401862806,
+   "week": 7,
+   "kickoff": "2026-10-17T19:00:00-04:00",
+   "away": "Kent State",
+   "home": "South Florida",
+   "final": {
+    "away": 2,
+    "home": 29
+   },
+   "model": {
+    "home_margin": 20.6,
+    "home_win": 0.899,
+    "total": 49.7
+   },
+   "vegas": {
+    "home_margin": 20.5,
+    "total": 45.5
+   },
+   "winner": true,
+   "ats": "win",
+   "over_under": "loss",
+   "review": "South Florida beat Kent State 29\u20132. The model had South Florida by 20.6, so it was 6.4 points off. Close: within a touchdown.",
+   "total_review": "Total points: 31, against the model's 49.7 and the market's 45.5, so 18.7 fewer than the model expected. Biggest reasons: finishing drives, worth about 10 points. The teams scored 20 points on 10 trips inside the 40; and efficiency, worth about 4 points. The offenses succeeded on 46% and 32% of their plays, which usually means about 45 points. Another 9 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
+  },
+  {
+   "id": 401858263,
+   "week": 7,
+   "kickoff": "2026-10-17T19:00:00-04:00",
+   "away": "Florida State",
+   "home": "Miami",
+   "final": {
+    "away": 35,
+    "home": 43
+   },
+   "model": {
+    "home_margin": 20.9,
+    "home_win": 0.903,
+    "total": 54.8
+   },
+   "vegas": {
+    "home_margin": 21.0,
+    "total": 56.5
+   },
+   "winner": true,
+   "ats": "win",
+   "over_under": "loss",
+   "review": "Miami beat Florida State 43\u201335. The model had Miami by 20.9, so it was 12.9 points off. Florida State did 13 points better than expected. Main reason: efficiency, worth about 10 points. Florida State succeeded on 34% of its plays and Miami on 43%, which usually means Miami by 11.",
+   "total_review": "Total points: 78, against the model's 54.8 and the market's 56.5, so 23.2 more than the model expected. Main reason: big plays, worth about 15 points. The teams had 13 plays of 20+ yards. Another 16 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
+  },
+  {
+   "id": 401856832,
+   "week": 7,
+   "kickoff": "2026-10-17T19:00:00-04:00",
+   "away": "TCU",
+   "home": "Baylor",
+   "final": {
+    "away": 17,
+    "home": 6
+   },
+   "model": {
+    "home_margin": 6.5,
+    "home_win": 0.656,
+    "total": 50.3
+   },
+   "vegas": {
+    "home_margin": 5.5,
+    "total": 48.5
+   },
+   "winner": false,
+   "ats": "loss",
+   "over_under": "loss",
+   "review": "TCU beat Baylor 17\u20136. The model had Baylor by 6.5, so it was 17.5 points off. TCU did 18 points better than expected. Biggest reasons: efficiency, worth about 18 points. TCU succeeded on 37% of its plays and Baylor on 25%, which usually means TCU by 12; and finishing drives, worth about 7 points. TCU scored 17 points on 4 trips inside the 40, and Baylor 6 on 5.",
+   "total_review": "Total points: 23, against the model's 50.3 and the market's 48.5, so 27.3 fewer than the model expected. Biggest reasons: efficiency, worth about 20 points. The offenses succeeded on 25% and 37% of their plays, which usually means about 30 points; and finishing drives, worth about 7 points. The teams scored 23 points on 9 trips inside the 40. Another 10 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
+  },
+  {
+   "id": 401856726,
+   "week": 7,
+   "kickoff": "2026-10-17T19:00:00-04:00",
+   "away": "Arkansas",
+   "home": "Vanderbilt",
+   "final": {
+    "away": 31,
+    "home": 21
+   },
+   "model": {
+    "home_margin": 5.5,
+    "home_win": 0.633,
+    "total": 54.0
+   },
+   "vegas": {
+    "home_margin": 6.0,
+    "total": 50.5
+   },
+   "winner": false,
+   "ats": "win",
+   "over_under": "win",
+   "review": "Arkansas beat Vanderbilt 31\u201321. The model had Vanderbilt by 5.5, so it was 15.5 points off. Arkansas did 16 points better than expected. Biggest reasons: efficiency, worth about 9 points. Arkansas succeeded on 49% of its plays and Vanderbilt on 47%, which usually means Arkansas by 3; and turnovers, worth about 7 points. Vanderbilt had 2 turnovers and Arkansas 0.",
+   "total_review": "Total points: 52, against the model's 54.0 and the market's 50.5, so 2.0 fewer than the model expected. Close: within a touchdown."
+  },
+  {
+   "id": 401860903,
+   "week": 7,
+   "kickoff": "2026-10-17T18:00:00-04:00",
+   "away": "Washington State",
+   "home": "Oregon State",
+   "final": {
+    "away": 30,
+    "home": 48
+   },
+   "model": {
+    "home_margin": 16.5,
+    "home_win": 0.847,
+    "total": 51.6
+   },
+   "vegas": {
+    "home_margin": 18.5,
+    "total": 52.5
+   },
+   "winner": true,
+   "ats": "win",
+   "over_under": "loss",
+   "review": "Oregon State beat Washington State 48\u201330. The model had Oregon State by 16.5, so it was 1.5 points off. Close: within a touchdown.",
+   "total_review": "Total points: 78, against the model's 51.6 and the market's 52.5, so 26.4 more than the model expected. Biggest reasons: big plays, worth about 15 points. The teams had 13 plays of 20+ yards; and finishing drives, worth about 11 points. The teams scored 65 points on 11 trips inside the 40."
+  },
+  {
+   "id": 401869966,
+   "week": 7,
+   "kickoff": "2026-10-17T17:00:00-04:00",
+   "away": "Troy",
+   "home": "Louisiana",
+   "final": {
+    "away": 6,
+    "home": 33
+   },
+   "model": {
+    "home_margin": 3.1,
+    "home_win": 0.577,
+    "total": 51.1
+   },
+   "vegas": {
+    "home_margin": 3.0,
+    "total": 49.5
+   },
+   "winner": true,
+   "ats": "win",
+   "over_under": "loss",
+   "review": "Louisiana beat Troy 33\u20136. The model had Louisiana by 3.1, so it was 23.9 points off. Louisiana did 24 points better than expected. Biggest reasons: efficiency, worth about 10 points. Louisiana succeeded on 45% of its plays and Troy on 34%, which usually means Louisiana by 13; and finishing drives, worth about 7 points. Louisiana scored 34 points on 7 trips inside the 40, and Troy 7 on 4.",
+   "total_review": "Total points: 39, against the model's 51.1 and the market's 49.5, so 12.1 fewer than the model expected. Main reason: efficiency, worth about 4 points. The offenses succeeded on 45% and 34% of their plays, which usually means about 47 points. Another 13 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
+  },
+  {
+   "id": 401862805,
+   "week": 7,
+   "kickoff": "2026-10-17T16:30:00-04:00",
+   "away": "Tulsa",
+   "home": "Rice",
+   "final": {
+    "away": 38,
+    "home": 17
+   },
+   "model": {
+    "home_margin": 0.2,
+    "home_win": 0.504,
+    "total": 49.7
+   },
+   "vegas": {
+    "home_margin": -4.5,
+    "total": 46.5
+   },
+   "winner": false,
+   "ats": "loss",
+   "over_under": "win",
+   "review": "Tulsa beat Rice 38\u201317. The model had Rice by 0.2, so it was 21.2 points off. Tulsa did 21 points better than expected. Biggest reasons: finishing drives, worth about 7 points. Tulsa scored 31 points on 6 trips inside the 40, and Rice 3 on 3; and efficiency, worth about 5 points. Tulsa succeeded on 49% of its plays and Rice on 44%, which usually means Tulsa by 5.",
+   "total_review": "Total points: 55, against the model's 49.7 and the market's 46.5, so 5.3 more than the model expected. Close: within a touchdown."
+  },
   {
    "id": 401866478,
    "week": 7,
@@ -1860,8 +2205,33 @@
    "winner": true,
    "ats": "win",
    "over_under": "win",
-   "review": null,
-   "total_review": null
+   "review": "Miami (OH) beat Akron 34\u201314. The model had Miami (OH) by 11.1, so it was 8.9 points off. Miami (OH) did 9 points better than expected. Main reason: turnovers, worth about 10 points. Akron had 4 turnovers and Miami (OH) 1. Another 10 points don't show up in these stats: things like field position, kicking, penalties or late-game situations.",
+   "total_review": "Total points: 48, against the model's 52.5 and the market's 46.5, so 4.5 fewer than the model expected. Close: within a touchdown."
+  },
+  {
+   "id": 401866444,
+   "week": 7,
+   "kickoff": "2026-10-17T15:30:00-04:00",
+   "away": "Toledo",
+   "home": "Eastern Michigan",
+   "final": {
+    "away": 34,
+    "home": 14
+   },
+   "model": {
+    "home_margin": -7.5,
+    "home_win": 0.322,
+    "total": 53.5
+   },
+   "vegas": {
+    "home_margin": -6.5,
+    "total": 53.5
+   },
+   "winner": true,
+   "ats": "win",
+   "over_under": "no pick",
+   "review": "Toledo beat Eastern Michigan 34\u201314. The model had Toledo by 7.5, so it was 12.5 points off. Toledo did 12 points better than expected. Main reason: efficiency, worth about 16 points. Toledo succeeded on 50% of its plays and Eastern Michigan on 27%, which usually means Toledo by 24.",
+   "total_review": "Total points: 48, against the model's 53.5 and the market's 53.5, so 5.5 fewer than the model expected. Close: within a touchdown."
   },
   {
    "id": 401864524,
@@ -1885,8 +2255,83 @@
    "winner": true,
    "ats": "win",
    "over_under": "no pick",
-   "review": null,
-   "total_review": null
+   "review": "Air Force beat UNLV 41\u201331. The model had Air Force by 3.8, so it was 6.2 points off. Close: within a touchdown.",
+   "total_review": "Total points: 72, against the model's 48.5 and the market's 48.5, so 23.5 more than the model expected. Biggest reasons: efficiency, worth about 20 points. The offenses succeeded on 52% and 48% of their plays, which usually means about 69 points; and big plays, worth about 10 points. The teams had 9 plays of 20+ yards."
+  },
+  {
+   "id": 401864522,
+   "week": 7,
+   "kickoff": "2026-10-17T15:30:00-04:00",
+   "away": "Northern Illinois",
+   "home": "Wyoming",
+   "final": {
+    "away": 23,
+    "home": 41
+   },
+   "model": {
+    "home_margin": 7.5,
+    "home_win": 0.678,
+    "total": 41.1
+   },
+   "vegas": {
+    "home_margin": 8.5,
+    "total": 40.5
+   },
+   "winner": true,
+   "ats": "loss",
+   "over_under": "win",
+   "review": "Wyoming beat Northern Illinois 41\u201323. The model had Wyoming by 7.5, so it was 10.5 points off. Wyoming did 10 points better than expected. Main reason: efficiency, worth about 14 points. Wyoming succeeded on 58% of its plays and Northern Illinois on 36%, which usually means Wyoming by 22.",
+   "total_review": "Total points: 64, against the model's 41.1 and the market's 40.5, so 22.9 more than the model expected. Biggest reasons: efficiency, worth about 22 points. The offenses succeeded on 58% and 36% of their plays, which usually means about 63 points; and big plays, worth about 13 points. The teams had 11 plays of 20+ yards."
+  },
+  {
+   "id": 401858490,
+   "week": 7,
+   "kickoff": "2026-10-17T15:30:00-04:00",
+   "away": "Penn State",
+   "home": "Michigan",
+   "final": {
+    "away": 18,
+    "home": 21
+   },
+   "model": {
+    "home_margin": 9.6,
+    "home_win": 0.724,
+    "total": 48.7
+   },
+   "vegas": {
+    "home_margin": 6.5,
+    "total": 42.5
+   },
+   "winner": true,
+   "ats": "loss",
+   "over_under": "loss",
+   "review": "Michigan beat Penn State 21\u201318. The model had Michigan by 9.6, so it was 6.6 points off. Close: within a touchdown.",
+   "total_review": "Total points: 39, against the model's 48.7 and the market's 42.5, so 9.7 fewer than the model expected. Main reason: finishing drives, worth about 5 points. The teams scored 31 points on 10 trips inside the 40. Another 15 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
+  },
+  {
+   "id": 401858266,
+   "week": 7,
+   "kickoff": "2026-10-17T15:30:00-04:00",
+   "away": "North Carolina",
+   "home": "Duke",
+   "final": {
+    "away": 24,
+    "home": 20
+   },
+   "model": {
+    "home_margin": 9.8,
+    "home_win": 0.729,
+    "total": 52.4
+   },
+   "vegas": {
+    "home_margin": 3.0,
+    "total": 47.5
+   },
+   "winner": false,
+   "ats": "loss",
+   "over_under": "loss",
+   "review": "North Carolina beat Duke 24\u201320. The model had Duke by 9.8, so it was 13.8 points off. North Carolina did 14 points better than expected. Biggest reasons: efficiency, worth about 19 points. North Carolina succeeded on 49% of its plays and Duke on 39%, which usually means North Carolina by 9; and finishing drives, worth about 5 points. North Carolina scored 24 points on 5 trips inside the 40, and Duke 13 on 5.",
+   "total_review": "Total points: 44, against the model's 52.4 and the market's 47.5, so 8.4 fewer than the model expected. Main reason: nothing in these stats stands out, so it came down to things like field position, kicking, penalties or late-game situations."
   },
   {
    "id": 401858264,
@@ -1910,8 +2355,58 @@
    "winner": true,
    "ats": "loss",
    "over_under": "loss",
-   "review": null,
-   "total_review": null
+   "review": "Virginia Tech beat Georgia Tech 34\u201324. The model had Virginia Tech by 7.8, so it was 2.2 points off. Close: within a touchdown.",
+   "total_review": "Total points: 58, against the model's 54.3 and the market's 57.5, so 3.7 more than the model expected. Close: within a touchdown."
+  },
+  {
+   "id": 401856828,
+   "week": 7,
+   "kickoff": "2026-10-17T15:30:00-04:00",
+   "away": "Arizona State",
+   "home": "Texas Tech",
+   "final": {
+    "away": 25,
+    "home": 53
+   },
+   "model": {
+    "home_margin": 17.6,
+    "home_win": 0.862,
+    "total": 52.7
+   },
+   "vegas": {
+    "home_margin": 15.5,
+    "total": 48.5
+   },
+   "winner": true,
+   "ats": "win",
+   "over_under": "win",
+   "review": "Texas Tech beat Arizona State 53\u201325. The model had Texas Tech by 17.6, so it was 10.4 points off. Texas Tech did 10 points better than expected. Main reason: defensive and return touchdowns, worth about 5 points. Texas Tech scored 1 on defense or special teams. Another 12 points don't show up in these stats: things like field position, kicking, penalties or late-game situations.",
+   "total_review": "Total points: 78, against the model's 52.7 and the market's 48.5, so 25.3 more than the model expected. Biggest reasons: efficiency, worth about 19 points. The offenses succeeded on 56% and 46% of their plays, which usually means about 71 points; and big plays, worth about 13 points. The teams had 11 plays of 20+ yards."
+  },
+  {
+   "id": 401856723,
+   "week": 7,
+   "kickoff": "2026-10-17T15:30:00-04:00",
+   "away": "Alabama",
+   "home": "Tennessee",
+   "final": {
+    "away": 10,
+    "home": 26
+   },
+   "model": {
+    "home_margin": -9.4,
+    "home_win": 0.28,
+    "total": 56.6
+   },
+   "vegas": {
+    "home_margin": -7.5,
+    "total": 51.5
+   },
+   "winner": false,
+   "ats": "loss",
+   "over_under": "loss",
+   "review": "Tennessee beat Alabama 26\u201310. The model had Alabama by 9.4, so it was 25.4 points off. Tennessee did 25 points better than expected. Biggest reasons: efficiency, worth about 26 points. Tennessee succeeded on 48% of its plays and Alabama on 33%, which usually means Tennessee by 17; and turnovers, worth about 13 points. Alabama had 5 turnovers and Tennessee 1.",
+   "total_review": "Total points: 36, against the model's 56.6 and the market's 51.5, so 20.6 fewer than the model expected. Main reason: efficiency, worth about 8 points. The offenses succeeded on 48% and 33% of their plays, which usually means about 49 points. Another 18 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
   },
   {
    "id": 401856721,
@@ -1935,8 +2430,33 @@
    "winner": true,
    "ats": "win",
    "over_under": "win",
-   "review": null,
-   "total_review": null
+   "review": "Ole Miss beat Missouri 31\u20133. The model had Ole Miss by 6.0, so it was 22.0 points off. Ole Miss did 22 points better than expected. Biggest reasons: efficiency, worth about 16 points. Ole Miss succeeded on 51% of its plays and Missouri on 30%, which usually means Ole Miss by 22; and finishing drives, worth about 11 points. Ole Miss scored 31 points on 5 trips inside the 40, and Missouri 3 on 4.",
+   "total_review": "Total points: 34, against the model's 57.1 and the market's 58.5, so 23.1 fewer than the model expected. Main reason: efficiency, worth about 6 points. The offenses succeeded on 51% and 30% of their plays, which usually means about 51 points. Another 30 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
+  },
+  {
+   "id": 401856719,
+   "week": 7,
+   "kickoff": "2026-10-17T15:30:00-04:00",
+   "away": "Auburn",
+   "home": "Georgia",
+   "final": {
+    "away": 27,
+    "home": 24
+   },
+   "model": {
+    "home_margin": 23.0,
+    "home_win": 0.923,
+    "total": 49.2
+   },
+   "vegas": {
+    "home_margin": 19.5,
+    "total": 49.5
+   },
+   "winner": false,
+   "ats": "loss",
+   "over_under": "loss",
+   "review": "Auburn beat Georgia 27\u201324. The model had Georgia by 23.0, so it was 26.0 points off. Auburn did 26 points better than expected. Biggest reasons: turnovers, worth about 10 points. Georgia had 3 turnovers and Auburn 0; and efficiency, worth about 7 points. Auburn succeeded on 38% of its plays and Georgia on 55%, which usually means Georgia by 16. Another 10 points don't show up in these stats: things like field position, kicking, penalties or late-game situations.",
+   "total_review": "Total points: 51, against the model's 49.2 and the market's 49.5, so 1.8 more than the model expected. Close: within a touchdown."
   },
   {
    "id": 401866443,
@@ -1960,8 +2480,8 @@
    "winner": true,
    "ats": "push",
    "over_under": "loss",
-   "review": null,
-   "total_review": null
+   "review": "Western Michigan beat Central Michigan 21\u201314. The model had Western Michigan by 8.8, so it was 1.8 points off. Close: within a touchdown.",
+   "total_review": "Total points: 35, against the model's 45.3 and the market's 43.5, so 10.3 fewer than the model expected. Main reason: nothing in these stats stands out, so it came down to things like field position, kicking, penalties or late-game situations."
   },
   {
    "id": 401866442,
@@ -1985,8 +2505,8 @@
    "winner": true,
    "ats": "push",
    "over_under": "win",
-   "review": null,
-   "total_review": null
+   "review": "Buffalo beat Massachusetts 25\u201318. The model had Buffalo by 11.3, so it was 4.3 points off. Close: within a touchdown.",
+   "total_review": "Total points: 43, against the model's 50.1 and the market's 41.5, so 7.1 fewer than the model expected. Main reason: finishing drives, worth about 6 points. The teams scored 33 points on 11 trips inside the 40. Another 9 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
   },
   {
    "id": 401862803,
@@ -2010,8 +2530,8 @@
    "winner": false,
    "ats": "loss",
    "over_under": "win",
-   "review": null,
-   "total_review": null
+   "review": "Charlotte beat Temple 38\u201331. The model had Temple by 22.5, so it was 29.5 points off. Charlotte did 30 points better than expected. Main reason: efficiency, worth about 26 points. Charlotte succeeded on 48% of its plays and Temple on 45%, which usually means Charlotte by 4. Another 9 points don't show up in these stats: things like field position, kicking, penalties or late-game situations.",
+   "total_review": "Total points: 69, against the model's 50.8 and the market's 46.5, so 18.2 more than the model expected. Biggest reasons: big plays, worth about 16 points. The teams had 14 plays of 20+ yards; and efficiency, worth about 10 points. The offenses succeeded on 45% and 48% of their plays, which usually means about 61 points."
   },
   {
    "id": 401856725,
@@ -2035,8 +2555,8 @@
    "winner": true,
    "ats": "win",
    "over_under": "win",
-   "review": null,
-   "total_review": null
+   "review": "Texas A&M beat The Citadel 41\u20130. The model had Texas A&M by 37.4, so it was 3.6 points off. Close: within a touchdown.",
+   "total_review": "Total points: 41, against the model's 51.1 and the market's 55.5, so 10.1 fewer than the model expected. Main reason: nothing in these stats stands out, so it came down to things like field position, kicking, penalties or late-game situations."
   },
   {
    "id": 401858489,
@@ -2060,8 +2580,8 @@
    "winner": false,
    "ats": "win",
    "over_under": "win",
-   "review": null,
-   "total_review": null
+   "review": "Rutgers beat Maryland 37\u201330. The model had Maryland by 4.2, so it was 11.2 points off. Rutgers did 11 points better than expected. Main reason: efficiency, worth about 10 points. Rutgers succeeded on 49% of its plays and Maryland on 44%, which usually means Rutgers by 6.",
+   "total_review": "Total points: 67, against the model's 60.6 and the market's 57.5, so 6.4 more than the model expected. Close: within a touchdown."
   },
   {
    "id": 401869957,
@@ -2085,8 +2605,8 @@
    "winner": true,
    "ats": "win",
    "over_under": "win",
-   "review": null,
-   "total_review": null
+   "review": "James Madison beat Georgia State 49\u201322. The model had James Madison by 15.7, so it was 11.3 points off. James Madison did 11 points better than expected. Main reason: finishing drives, worth about 4 points. James Madison scored 49 points on 10 trips inside the 40, and Georgia State 24 on 6. Another 18 points don't show up in these stats: things like field position, kicking, penalties or late-game situations.",
+   "total_review": "Total points: 71, against the model's 59.3 and the market's 58.5, so 11.7 more than the model expected. Biggest reasons: big plays, worth about 9 points. The teams had 8 plays of 20+ yards; and finishing drives, worth about 5 points. The teams scored 73 points on 16 trips inside the 40."
   },
   {
    "id": 401866441,
@@ -2110,8 +2630,8 @@
    "winner": false,
    "ats": "loss",
    "over_under": "win",
-   "review": null,
-   "total_review": null
+   "review": "Ball State beat Bowling Green 32\u201331. The model had Bowling Green by 8.6, so it was 9.6 points off. Ball State did 10 points better than expected. Biggest reasons: efficiency, worth about 21 points. Ball State succeeded on 55% of its plays and Bowling Green on 43%, which usually means Ball State by 12; and finishing drives, worth about 6 points. Ball State scored 24 points on 4 trips inside the 40, and Bowling Green 10 on 4.",
+   "total_review": "Total points: 63, against the model's 50.5 and the market's 47.5, so 12.5 more than the model expected. Biggest reasons: efficiency, worth about 15 points. The offenses succeeded on 43% and 55% of their plays, which usually means about 65 points; and big plays, worth about 8 points. The teams had 7 plays of 20+ yards."
   },
   {
    "id": 401862802,
@@ -2135,8 +2655,8 @@
    "winner": true,
    "ats": "win",
    "over_under": "win",
-   "review": null,
-   "total_review": null
+   "review": "Army beat Florida Atlantic 56\u201324. The model had Army by 9.1, so it was 22.9 points off. Army did 23 points better than expected. Main reason: finishing drives, worth about 5 points. Army scored 35 points on 6 trips inside the 40, and Florida Atlantic 28 on 7. Another 14 points don't show up in these stats: things like field position, kicking, penalties or late-game situations.",
+   "total_review": "Total points: 80, against the model's 54.7 and the market's 54.5, so 25.3 more than the model expected. Biggest reasons: efficiency, worth about 21 points. The offenses succeeded on 58% and 48% of their plays, which usually means about 76 points; and big plays, worth about 9 points. The teams had 8 plays of 20+ yards."
   },
   {
    "id": 401858491,
@@ -2160,8 +2680,8 @@
    "winner": true,
    "ats": "win",
    "over_under": "loss",
-   "review": null,
-   "total_review": null
+   "review": "Northwestern beat Michigan State 24\u201321. The model had Northwestern by 6.9, so it was 3.9 points off. Close: within a touchdown.",
+   "total_review": "Total points: 45, against the model's 51.3 and the market's 48.5, so 6.3 fewer than the model expected. Close: within a touchdown."
   },
   {
    "id": 401858488,
@@ -2185,8 +2705,8 @@
    "winner": true,
    "ats": "loss",
    "over_under": "win",
-   "review": null,
-   "total_review": null
+   "review": "Ohio State beat Indiana 19\u201315. The model had Ohio State by 2.9, so it was 1.1 points off. Close: within a touchdown.",
+   "total_review": "Total points: 34, against the model's 50.5 and the market's 51.5, so 16.5 fewer than the model expected. Biggest reasons: efficiency, worth about 7 points. The offenses succeeded on 36% and 38% of their plays, which usually means about 43 points; and finishing drives, worth about 7 points. The teams scored 34 points on 12 trips inside the 40. Another 14 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
   },
   {
    "id": 401858268,
@@ -2210,8 +2730,8 @@
    "winner": true,
    "ats": "loss",
    "over_under": "win",
-   "review": null,
-   "total_review": null
+   "review": "SMU beat Virginia 23\u201313. The model had SMU by 8.3, so it was 1.7 points off. Close: within a touchdown.",
+   "total_review": "Total points: 36, against the model's 51.3 and the market's 51.5, so 15.3 fewer than the model expected. Main reason: finishing drives, worth about 6 points. The teams scored 33 points on 11 trips inside the 40. Another 29 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
   },
   {
    "id": 401858267,
@@ -2235,8 +2755,8 @@
    "winner": false,
    "ats": "loss",
    "over_under": "win",
-   "review": null,
-   "total_review": null
+   "review": "Boston College beat Pittsburgh 27\u201321. The model had Pittsburgh by 12.4, so it was 18.4 points off. Boston College did 18 points better than expected. Main reason: nothing in these stats stands out, so it came down to things like field position, kicking, penalties or late-game situations.",
+   "total_review": "Total points: 48, against the model's 48.7 and the market's 42.5, so 0.7 fewer than the model expected. Close: within a touchdown."
   },
   {
    "id": 401858261,
@@ -2260,8 +2780,8 @@
    "winner": true,
    "ats": "win",
    "over_under": "win",
-   "review": null,
-   "total_review": null
+   "review": "Clemson beat Charleston Southern 37\u20130. The model had Clemson by 39.6, so it was 2.6 points off. Close: within a touchdown.",
+   "total_review": "Total points: 37, against the model's 47.4 and the market's 58.5, so 10.4 fewer than the model expected. Biggest reasons: efficiency, worth about 11 points. The offenses succeeded on 47% and 20% of their plays, which usually means about 37 points; and finishing drives, worth about 7 points. The teams scored 34 points on 12 trips inside the 40."
   },
   {
    "id": 401856830,
@@ -2285,8 +2805,8 @@
    "winner": true,
    "ats": "win",
    "over_under": "win",
-   "review": null,
-   "total_review": null
+   "review": "Kansas State beat Kansas 35\u201324. The model had Kansas State by 7.4, so it was 3.6 points off. Close: within a touchdown.",
+   "total_review": "Total points: 59, against the model's 55.8 and the market's 55.5, so 3.2 more than the model expected. Close: within a touchdown."
   },
   {
    "id": 401856829,
@@ -2310,8 +2830,8 @@
    "winner": false,
    "ats": "loss",
    "over_under": "loss",
-   "review": null,
-   "total_review": null
+   "review": "West Virginia beat Cincinnati 45\u201342. The model had Cincinnati by 1.4, so it was 4.4 points off. Close: within a touchdown.",
+   "total_review": "Total points: 87, against the model's 63.0 and the market's 63.5, so 24.0 more than the model expected. Biggest reasons: big plays, worth about 19 points. The teams had 16 plays of 20+ yards; and finishing drives, worth about 12 points. The teams scored 80 points on 14 trips inside the 40."
   },
   {
    "id": 401856724,
@@ -2335,8 +2855,8 @@
    "winner": false,
    "ats": "loss",
    "over_under": "loss",
-   "review": null,
-   "total_review": null
+   "review": "Florida beat Texas 27\u201324. The model had Texas by 16.8, so it was 19.8 points off. Florida did 20 points better than expected. Main reason: efficiency, worth about 12 points. Florida succeeded on 35% of its plays and Texas on 42%, which usually means Texas by 5. Another 15 points don't show up in these stats: things like field position, kicking, penalties or late-game situations.",
+   "total_review": "Total points: 51, against the model's 56.2 and the market's 51.5, so 5.2 fewer than the model expected. Close: within a touchdown."
   },
   {
    "id": 401856720,
@@ -2360,8 +2880,8 @@
    "winner": true,
    "ats": "no pick",
    "over_under": "loss",
-   "review": null,
-   "total_review": null
+   "review": "LSU beat Mississippi State 31\u20130. The model had LSU by 15.5, so it was 15.5 points off. LSU did 16 points better than expected. Main reason: finishing drives, worth about 16 points. LSU scored 31 points on 5 trips inside the 40, and Mississippi State 0 on 6.",
+   "total_review": "Total points: 31, against the model's 63.3 and the market's 57.5, so 32.3 fewer than the model expected. Main reason: finishing drives, worth about 7 points. The teams scored 31 points on 11 trips inside the 40. Another 52 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
   },
   {
    "id": 401869844,
@@ -2460,8 +2980,8 @@
    "winner": true,
    "ats": "win",
    "over_under": "loss",
-   "review": "Texas State beat Colorado State 66\u201327. The model had Texas State by 17.4, so it was 21.6 points off. Texas State did 22 points better than expected. Main reason: finishing drives, worth about 5 points. Texas State scored 56 points on 9 trips inside the 40, and Colorado State 28 on 5.",
-   "total_review": "Total points: 93, against the model's 69.0 and the market's 69.5, so 24.0 more than the model expected. Biggest reasons: big plays, worth about 17 points. The teams had 15 plays of 20+ yards; and finishing drives, worth about 14 points. The teams scored 84 points on 14 trips inside the 40."
+   "review": "Texas State beat Colorado State 66\u201327. The model had Texas State by 17.4, so it was 21.6 points off. Texas State did 22 points better than expected. Biggest reasons: finishing drives, worth about 5 points. Texas State scored 56 points on 9 trips inside the 40, and Colorado State 28 on 5; and efficiency, worth about 4 points. Texas State succeeded on 61% of its plays and Colorado State on 41%, which usually means Texas State by 22.",
+   "total_review": "Total points: 93, against the model's 69.0 and the market's 69.5, so 24.0 more than the model expected. Biggest reasons: big plays, worth about 16 points. The teams had 14 plays of 20+ yards; and finishing drives, worth about 14 points. The teams scored 84 points on 14 trips inside the 40."
   },
   {
    "id": 401869950,
@@ -2510,7 +3030,7 @@
    "winner": false,
    "ats": "loss",
    "over_under": "loss",
-   "review": "UAB beat East Carolina 30\u201317. The model had East Carolina by 7.1, so it was 20.1 points off. UAB did 20 points better than expected. Biggest reasons: turnovers, worth about 7 points. East Carolina had 2 turnovers and UAB 0; and defensive and return touchdowns, worth about 5 points. UAB scored 1 on defense or special teams.",
+   "review": "UAB beat East Carolina 30\u201317. The model had East Carolina by 7.1, so it was 20.1 points off. UAB did 20 points better than expected. Biggest reasons: turnovers, worth about 7 points. East Carolina had 2 turnovers and UAB 0; and efficiency, worth about 6 points. UAB succeeded on 37% of its plays and East Carolina on 37%, which usually means East Carolina by 1.",
    "total_review": "Total points: 47, against the model's 50.4 and the market's 47.5, so 3.4 fewer than the model expected. Close: within a touchdown."
   },
   {
@@ -2535,8 +3055,8 @@
    "winner": true,
    "ats": "win",
    "over_under": "win",
-   "review": "Western Kentucky beat Sam Houston 16\u20133. The model had Western Kentucky by 4.8, so it was 8.2 points off. Western Kentucky did 8 points better than expected. Main reason: nothing in these stats stands out, so it came down to things like field position, kicking, penalties or late-game situations.",
-   "total_review": "Total points: 19, against the model's 53.1 and the market's 53.5, so 34.1 fewer than the model expected. Biggest reasons: efficiency, worth about 33 points. The offenses succeeded on 25% and 27% of their plays, which usually means about 20 points; and finishing drives, worth about 7 points. The teams scored 19 points on 8 trips inside the 40."
+   "review": "Western Kentucky beat Sam Houston 16\u20133. The model had Western Kentucky by 4.8, so it was 8.2 points off. Western Kentucky did 8 points better than expected. Main reason: finishing drives, worth about 4 points. Western Kentucky scored 16 points on 5 trips inside the 40, and Sam Houston 3 on 4.",
+   "total_review": "Total points: 19, against the model's 53.1 and the market's 53.5, so 34.1 fewer than the model expected. Biggest reasons: efficiency, worth about 33 points. The offenses succeeded on 25% and 27% of their plays, which usually means about 20 points; and finishing drives, worth about 9 points. The teams scored 19 points on 9 trips inside the 40."
   },
   {
    "id": 401871054,
@@ -2563,5 +3083,102 @@
    "review": "Missouri State beat Kennesaw State 24\u201321. The model had Missouri State by 0.5, so it was 2.5 points off. Close: within a touchdown.",
    "total_review": "Total points: 45, against the model's 53.1 and the market's 52.5, so 8.1 fewer than the model expected. Main reason: nothing in these stats stands out, so it came down to things like field position, kicking, penalties or late-game situations."
   }
- ]
+ ],
+ "report": {
+  "benchmark": {
+   "seasons": "2020\u20132025",
+   "games": 4985,
+   "winners": 0.746,
+   "brier": 0.167,
+   "margin_miss": 12.9,
+   "total_miss": 13.0,
+   "vegas_margin_miss": 12.2,
+   "vegas_total_miss": 12.6,
+   "calibration": [
+    {
+     "label": "50\u201360%",
+     "games": 1054,
+     "predicted": 0.55,
+     "actual": 0.555
+    },
+    {
+     "label": "60\u201370%",
+     "games": 1016,
+     "predicted": 0.648,
+     "actual": 0.634
+    },
+    {
+     "label": "70\u201380%",
+     "games": 997,
+     "predicted": 0.748,
+     "actual": 0.747
+    },
+    {
+     "label": "80\u201390%",
+     "games": 878,
+     "predicted": 0.849,
+     "actual": 0.855
+    },
+    {
+     "label": "90%+",
+     "games": 1040,
+     "predicted": 0.955,
+     "actual": 0.957
+    }
+   ]
+  },
+  "season": {
+   "games": 60,
+   "winners": 0.683,
+   "brier": 0.209,
+   "margin_miss": 11.4,
+   "total_miss": 13.6,
+   "vegas_margin_miss": 10.7,
+   "vegas_total_miss": 13.1,
+   "calibration": [
+    {
+     "label": "50\u201360%",
+     "games": 10,
+     "predicted": 0.542,
+     "actual": 0.6
+    },
+    {
+     "label": "60\u201370%",
+     "games": 16,
+     "predicted": 0.661,
+     "actual": 0.562
+    },
+    {
+     "label": "70\u201380%",
+     "games": 18,
+     "predicted": 0.743,
+     "actual": 0.722
+    },
+    {
+     "label": "80\u201390%",
+     "games": 10,
+     "predicted": 0.848,
+     "actual": 0.9
+    },
+    {
+     "label": "90%+",
+     "games": 6,
+     "predicted": 0.943,
+     "actual": 0.667
+    }
+   ]
+  },
+  "weeks": [
+   {
+    "week": 7,
+    "games": 60,
+    "winners": 0.683,
+    "brier": 0.209,
+    "margin_miss": 11.4,
+    "total_miss": 13.6,
+    "vegas_margin_miss": 10.7,
+    "vegas_total_miss": 13.1
+   }
+  ]
+ }
 }
