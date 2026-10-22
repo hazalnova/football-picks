@@ -295,9 +295,9 @@ logged_at_et,model,season,week,season_type,game_id,kickoff_et,away_team,home_tea
 2026-10-20 14:28,"cfb_elo_v1 (k=40, home_field=60, regress=0.5)",2026,8,regular,401871092,2026-10-20 19:30,South Alabama,Marshall,0.491,0.437,-0.3,-2.5,,66.5,,120,-142,13,20,7,33
 2026-10-20 14:28,cfb_margin_v3,2026,8,regular,401871092,2026-10-20 19:30,South Alabama,Marshall,0.6,0.437,4.1,-2.5,,66.5,,120,-142,13,20,7,33
 2026-10-20 14:28,cfb_totals_v1,2026,8,regular,401871092,2026-10-20 19:30,South Alabama,Marshall,,0.437,,-2.5,65.5,66.5,0.492,120,-142,13,20,7,33
-2026-10-20 14:28,"cfb_elo_v1 (k=40, home_field=60, regress=0.5)",2026,8,regular,401871070,2026-10-21 20:00,New Mexico State,Sam Houston,0.433,0.428,-2.6,-3.0,,44.5,,124,-148,,,,
-2026-10-20 14:28,cfb_margin_v3,2026,8,regular,401871070,2026-10-21 20:00,New Mexico State,Sam Houston,0.484,0.428,-0.6,-3.0,,44.5,,124,-148,,,,
-2026-10-20 14:28,cfb_totals_v1,2026,8,regular,401871070,2026-10-21 20:00,New Mexico State,Sam Houston,,0.428,,-3.0,48.5,44.5,0.496,124,-148,,,,
+2026-10-20 14:28,"cfb_elo_v1 (k=40, home_field=60, regress=0.5)",2026,8,regular,401871070,2026-10-21 20:00,New Mexico State,Sam Houston,0.433,0.428,-2.6,-3.0,,44.5,,124,-148,30,24,-6,54
+2026-10-20 14:28,cfb_margin_v3,2026,8,regular,401871070,2026-10-21 20:00,New Mexico State,Sam Houston,0.484,0.428,-0.6,-3.0,,44.5,,124,-148,30,24,-6,54
+2026-10-20 14:28,cfb_totals_v1,2026,8,regular,401871070,2026-10-21 20:00,New Mexico State,Sam Houston,,0.428,,-3.0,48.5,44.5,0.496,124,-148,30,24,-6,54
 2026-10-20 14:28,"cfb_elo_v1 (k=40, home_field=60, regress=0.5)",2026,8,regular,401869845,2026-10-22 19:00,James Madison,App State,0.192,0.223,-13.9,-10.5,,56.5,,330,-425,,,,
 2026-10-20 14:28,"cfb_elo_v1 (k=40, home_field=60, regress=0.5)",2026,8,regular,401871056,2026-10-22 19:00,Liberty,Kennesaw State,0.202,0.234,-13.3,-10.0,,50.5,,310,-395,,,,
 2026-10-20 14:28,cfb_margin_v3,2026,8,regular,401869845,2026-10-22 19:00,James Madison,App State,0.162,0.223,-15.9,-10.5,,56.5,,330,-425,,,,
