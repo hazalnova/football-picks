@@ -2,113 +2,186 @@
  "kind": "ai_notes",
  "leagues": {
   "NFL": {
-   "checked": "2026-10-19T12:36-04:00",
+   "checked": "2026-10-24T13:23-04:00",
    "season": 2026,
-   "week": 6,
+   "week": 7,
    "news": [
     {
-     "game_id": "2026_06_WAS_SF",
+     "game_id": "2026_07_SF_ATL",
      "items": [
-      "NFL|likely|2026_06_WAS_SF|winner|home|||",
-      "NFL|value|2026_06_WAS_SF|total|under|||51.5",
-      "NFL|props_likely|2026_06_WAS_SF|prop|at least|00-0037834|passing_yards|200.0",
-      "NFL|props_risky|2026_06_WAS_SF|prop|at least|00-0037834|passing_yards|300.0"
+      "NFL|likely|2026_07_SF_ATL|winner|away|||",
+      "NFL|value|2026_07_SF_ATL|spread|away|||-2.5"
      ],
-     "headline": "49ers without Bosa and Deebo Samuel; Mike Evans questionable",
-     "detail": "As of Oct 19, San Francisco has Nick Bosa (knee/calf) and Deebo Samuel (hamstring) out. WR Mike Evans (ribs) is questionable. Inactives come about 6:45 p.m. ET.",
-     "impact": "worth watching",
+     "headline": "49ers lose Bosa, Evans and Samuel for Atlanta",
+     "detail": "San Francisco ruled out DE Nick Bosa, WR Mike Evans and WR Deebo Samuel on the Oct 23 final report. Atlanta is also thin, with RB Brian Robinson and three defenders out and ten players questionable.",
+     "impact": "hurts the pick",
      "sources": [
-      "https://www.nbcsports.com/betting/nfl/news/49ers-vs-commanders-odds-expert-picks-team-and-player-news-betting-trends-and-stats",
-      "https://www.si.com/nfl/commanders/onsi/commanders-49ers-how-to-watch-tv-channel-start-time-stream-radio"
+      "https://www.yardbarker.com/nfl/articles/49ers_vs_falcons_final_injury_report_nick_bosa_mike_evans_among_6_ruled_out_for_week_7/s1_17111_44465546",
+      "https://www.nfl.com/news/nfl-week-7-injury-report-2026-season"
      ]
     },
     {
-     "game_id": "2026_06_WAS_SF",
+     "game_id": "2026_07_LA_LV",
      "items": [
-      "NFL|likely|2026_06_WAS_SF|winner|home|||"
+      "NFL|props_likely|2026_07_LA_LV|prop|at least|00-0039075|receiving_yards|60.0",
+      "NFL|props_likely|2026_07_LA_LV|prop|at least|00-0039075|receptions|5.0",
+      "NFL|props_likely|2026_07_LA_LV|prop|at least|00-0026498|passing_yards|225.0"
      ],
-     "headline": "Commanders lose RB Croskey-Merritt; Diggs questionable",
-     "detail": "Washington ruled out its leading rusher Jacory Croskey-Merritt (groin) on Oct 17, plus backup QB Marcus Mariota. Stefon Diggs (hamstring) is questionable. Jayden Daniels has no game designation.",
+     "headline": "Puka Nacua questionable with a calf injury",
+     "detail": "Nacua did not practice Friday and is questionable. The Rams plan a pregame workout. Davante Adams is on injured reserve, so Stafford's receiver group is thin if Nacua sits. Cornerback Trent McDuffie is also questionable.",
+     "impact": "hurts the pick",
+     "sources": [
+      "https://www.therams.com/news/rams-injury-report-week-7-2026-at-raiders-puka-nacua-trent-mcduffie-questionable-nate-landman-out",
+      "https://athlonsports.com/nfl/las-vegas-raiders/rams-injuries-raiders-upset-week-7-puka-nacua"
+     ]
+    },
+    {
+     "game_id": "2026_07_DAL_PHI",
+     "items": [
+      "NFL|value|2026_07_DAL_PHI|spread|home|||-4.5",
+      "NFL|risky|2026_07_DAL_PHI|winner|home|||"
+     ],
+     "headline": "Eagles short at receiver for Monday night",
+     "detail": "DeVonta Smith and Dontayvion Wicks are tracking to miss, per Friday reports, and Jonathan Greenard is down. Saquon Barkley is expected to play. Dallas is likely without Kavontae Turpin and Dee Winters.",
+     "impact": "worth watching",
+     "sources": [
+      "https://www.bleedinggreennation.com/philadelphia-eagles-injuries/188019/eagles-injury-report-devonta-smith-dallas-goedert-and-tay-wicks-miss-practice-again",
+      "https://www.dallasnews.com/sports/cowboys/article/cowboys-injury-report-turpin-overshown-durant-22491090.php"
+     ]
+    },
+    {
+     "game_id": "2026_07_TB_CAR",
+     "items": [
+      "NFL|likely|2026_07_TB_CAR|winner|home|||"
+     ],
+     "headline": "Jalon Daniels the planned Bucs starter",
+     "detail": "As of Oct 19-20, Tampa Bay planned to start Daniels, with Baker Mayfield's thumb being checked that week. The latest reporting found does not confirm Mayfield's status.",
+     "impact": "worth watching",
+     "sources": [
+      "https://www.nbcsports.com/fantasy/football/player-news/2026-10-19/bucs-preparing-for-jalon-daniels-to-start-week-7",
+      "https://sports.yahoo.com/articles/jalon-daniels-planned-starter-165815435.html"
+     ]
+    },
+    {
+     "game_id": "2026_07_GB_DET",
+     "items": [
+      "NFL|risky|2026_07_GB_DET|winner|away|||",
+      "NFL|props_risky|2026_07_GB_DET|prop|at least|00-0036264|passing_yards|300.0",
+      "NFL|props_likely|2026_07_GB_DET|prop|at least|00-0033106|passing_yards|225.0",
+      "NFL|props_risky|2026_07_GB_DET|prop|at least|00-0033106|passing_yards|325.0",
+      "NFL|props_risky|2026_07_GB_DET|prop|at least|00-0039139|rushing_yards|100.0"
+     ],
+     "headline": "Love cleared; Packers lose LB Zaire Franklin",
+     "detail": "Jordan Love is off the final report with his back issue. Linebacker Zaire Franklin is out with a shin injury, and Edgerrin Cooper is on IR. Josh Jacobs is set to make his Packers debut. Detroit's report was nearly clean.",
+     "impact": "worth watching",
+     "sources": [
+      "https://www.si.com/nfl/packers/onsi/packers-lions-final-injury-report-backup-backers-thrown-into-fire",
+      "https://sports.yahoo.com/articles/packers-hit-brutal-injury-news-215602020.html"
+     ]
+    },
+    {
+     "game_id": "2026_07_KC_SEA",
+     "items": [
+      "NFL|props_likely|2026_07_KC_SEA|prop|at least|00-0038543|receiving_yards|50.0",
+      "NFL|props_risky|2026_07_KC_SEA|prop|at least|00-0038543|receiving_yards|100.0",
+      "NFL|props_risky|2026_07_KC_SEA|prop|at least|00-0038543|receptions|8.0"
+     ],
+     "headline": "Smith-Njigba healthy; Chiefs missing Rice and a tackle",
+     "detail": "Jaxon Smith-Njigba is off the injury report this week. He caught 12 passes for 134 yards on Thursday night. Kansas City has WR Rashee Rice and right tackle Jaylon Moore out.",
      "impact": "helps the pick",
      "sources": [
-      "https://www.commanders.com/news/game-status-commanders-49ers-week-6",
-      "https://www.hogshaven.com/washington-commanders-injuries/449648/commanders-vs-49ers-saturday-injury-report-bill-croskey-merritt-stefon-diggs-terry-mclaurin"
+      "https://www.seahawks.com/news/2026-week-7-injury-report-chiefs-at-seahawks"
      ]
     },
     {
-     "game_id": "2026_06_WAS_SF",
+     "game_id": "2026_07_IND_MIN",
      "items": [
-      "NFL|value|2026_06_WAS_SF|total|under|||51.5"
+      "NFL|likely|2026_07_IND_MIN|winner|home|||"
      ],
-     "headline": "Injuries on both sides; one outlet sees value on the Under",
-     "detail": "Covers (Oct 19) says mounting injuries and a total of 52.5 could favor the Under. The list shows 51.5, so lines differ by book.",
-     "impact": "worth watching",
+     "headline": "Colts without Tyler Warren and Sauce Gardner",
+     "detail": "Indianapolis ruled out TE Tyler Warren, CB Sauce Gardner and WR Anthony Gould. Minnesota is coming off its bye with only RB Jordan Mason questionable.",
+     "impact": "helps the pick",
      "sources": [
-      "https://www.covers.com/nfl/commanders-vs-49ers-prediction-picks-oct-19-2026"
+      "https://www.vikings.com/news/colts-injury-report-week-7-2026-nfl-season",
+      "https://www.nfl.com/news/nfl-week-7-injury-report-2026-season"
      ]
     },
     {
-     "game_id": "2026_06_WAS_SF",
+     "game_id": "2026_07_NYG_HOU",
      "items": [
-      "NFL|props_likely|2026_06_WAS_SF|prop|at least|00-0037834|passing_yards|200.0",
-      "NFL|props_risky|2026_06_WAS_SF|prop|at least|00-0037834|passing_yards|300.0"
+      "NFL|likely|2026_07_NYG_HOU|winner|home|||",
+      "NFL|value|2026_07_NYG_HOU|spread|away|||10.5"
      ],
-     "headline": "Purdy's targets thinner with Samuel out, Evans doubtful-ish",
-     "detail": "With Samuel out and Evans questionable, Kittle and Evans are expected to be Purdy's main targets. One outlet projects Purdy near 249 passing yards.",
+     "headline": "McCarthy starts for Giants; both secondaries thin",
+     "detail": "J.J. McCarthy is confirmed as the Giants starter. The Giants are without LB Tremaine Edmunds and CB Greg Newsome II. Houston has safeties Jalen Pitre and Reed Blankenship out. WR Tank Dell is questionable.",
      "impact": "worth watching",
      "sources": [
-      "https://sports.yahoo.com/articles/49ers-week-6-injury-report-163744423.html",
-      "https://suaragarut.id/en/49ers-commanders-injury-matchup"
+      "https://www.nysportsday.com/2026/10/24/giants-injury-report-edmunds-newsome-out-texans/",
+      "https://yournews.com/2026/10/23/7237263/giants-hand-keys-to-j-j-mccarthy-hit-road-to-face/"
      ]
     }
    ],
    "item_notes": {
-    "NFL|likely|2026_06_WAS_SF|winner|home|||": "The model is 3.7 points higher on SF than the line, even though SF is missing Bosa and Samuel and Washington is missing its top rusher.",
-    "NFL|value|2026_06_WAS_SF|total|under|||51.5": "The model's edge here is thin: 51.4% against 52.4% needed, so it is below break-even by the numbers given.",
-    "NFL|props_likely|2026_06_WAS_SF|prop|at least|00-0037834|passing_yards|200.0": "Evans is questionable and Samuel is out, so Purdy's 200-yard pick depends on who is active at 6:45 p.m. ET.",
-    "NFL|props_risky|2026_06_WAS_SF|prop|at least|00-0037834|passing_yards|300.0": "Big-game picks are 1 of 8 this season against 2.8 expected, and Purdy's receiver group is thinner tonight."
+    "NFL|likely|2026_07_IND_MIN|winner|home|||": "Colts are missing Tyler Warren and Sauce Gardner, while Minnesota is nearly healthy; the model's MIN margin (10.9) is well above Vegas (6.5).",
+    "NFL|likely|2026_07_SF_ATL|winner|away|||": "The model is 13 points of win chance above Vegas here, and San Francisco is missing Bosa, Evans and Samuel, so that gap is worth a second look.",
+    "NFL|value|2026_07_SF_ATL|spread|away|||-2.5": "SF -2.5 needs the 49ers to win by 3 or more without three key players.",
+    "NFL|likely|2026_07_TB_CAR|winner|home|||": "Tampa Bay planned to start rookie Jalon Daniels, who has thrown 5 interceptions in 3 starts, but Mayfield's thumb status was not confirmed in what I found.",
+    "NFL|risky|2026_07_DAL_PHI|winner|home|||": "The model likes Philadelphia (61%) while Vegas has Dallas favored, and the Eagles are likely without DeVonta Smith and Dontayvion Wicks.",
+    "NFL|risky|2026_07_LA_LV|winner|home|||": "The Rams are banged up (Adams on IR, Nacua questionable, McDuffie questionable), which is a reason the Raiders may be closer than the line.",
+    "NFL|props_likely|2026_07_LA_LV|prop|at least|00-0039075|receiving_yards|60.0": "Nacua is questionable and missed Friday practice, so this 60-yard pick depends on a pregame workout.",
+    "NFL|props_likely|2026_07_LA_LV|prop|at least|00-0039075|receptions|5.0": "Same Nacua calf concern as the yards pick; if he sits, the 5-catch pick has no chance.",
+    "NFL|props_likely|2026_07_KC_SEA|prop|at least|00-0038543|receiving_yards|50.0": "Smith-Njigba is healthy and had 12 catches last game, which fits the model's 77%.",
+    "NFL|props_likely|2026_07_GB_DET|prop|at least|00-0033106|passing_yards|225.0": "Green Bay is down linebacker Zaire Franklin, which fits a pass-heavy Detroit day, though the Lions have a strong run game with Gibbs.",
+    "NFL|props_risky|2026_07_GB_DET|prop|at least|00-0036264|passing_yards|300.0": "Love's back issue is cleared; the 300-yard mark is still a long shot at 35%."
    },
-   "recap": "The model's picks struggled in Week 6: it picked the winner in 5 of 12 games, was 3-9 against the spread and 4-8 on totals. Seven of its wrong winners came from games decided by efficiency or turnovers (ARI over LA, NO over NYG, CHI over ATL, CAR over PHI, CLE over BAL). It was wrong in all three games where it picked a different side than Vegas (NYG, ATL, PHI). Its average spread miss is 8.5 points against 6.9 for Vegas.",
+   "recap": "The model went 6 of 14 on winners and 3-11 against the spread in the graded games, with an average miss of 8.2 points against Vegas's 6.2. Five games were missed by 10 points or more, all with the wrong winner, and the reviews mostly point to efficiency swings, plus turnovers for NYG-NO. Most likely winners are 3 of 5 and best value is 2 of 7, so fan-facing lists have run below the model's own chances. The latest result, CHI over NE, was another game where the model's pick differed from the Vegas favorite.",
    "lessons": [
     {
      "lesson": "When the model picks a different winner than the Vegas favorite, it has lost so far.",
-     "evidence": "0 of 3 graded games (NYG over NO, ATL over CHI, PHI over CAR) where the model's side was not the Vegas favorite.",
+     "evidence": "0 of 4 graded games (NYG over NO, ATL over CHI, PHI over CAR, NE over CHI) where the model's side was not the Vegas favorite. PHI over DAL on Monday would be a fifth.",
      "status": "watching",
      "test": "On past seasons, take every game where the model's pick differs from the moneyline favorite. Compare its win rate and spread record with Vegas. Wait for 20+ games.",
      "first_noted": "2026-10-19"
     },
     {
      "lesson": "Large gaps between the model's total and Vegas's total have not paid off.",
-     "evidence": "0 of 3 graded games with a gap of 4.9 points or more (CHI 6.6, CAR 5.2, BAL 4.9) won the over/under pick. Overall over/under is 4-8.",
+     "evidence": "0 of 4 graded games with a gap of 4.9 points or more (CHI 6.6, CAR 5.2, NE-CHI 5.0, BAL 4.9) won the over/under pick. Overall over/under is 5-9.",
      "status": "watching",
      "test": "On past seasons, group games by size of the total gap (under 2, 2-4, over 4). Check hit rate per group. Needs 20+ games in the large-gap group.",
      "first_noted": "2026-10-19"
     },
     {
      "lesson": "Many big misses come from efficiency swings, which the model can't see before kickoff.",
-     "evidence": "In 5 of the 7 games where the winner was wrong, the review names efficiency as a main reason.",
+     "evidence": "In 5 of the 8 games where the winner was wrong, the review names efficiency as a main reason. NO-NYG was turnovers, HOU-JAX had no clear reason, and NE-CHI was a close miss.",
      "status": "watching",
      "test": "On past seasons, measure how often big spread misses (over 8 points) are driven by efficiency versus turnovers. Check whether the model's misses are larger than Vegas's overall.",
      "first_noted": "2026-10-19"
     },
     {
      "lesson": "Big-game player picks hit less often than the model's chances say.",
-     "evidence": "1 of 8 big-game picks hit, against 2.8 expected. The milestone picks went 6 of 8, against 6.0 expected.",
+     "evidence": "1 of 9 big-game picks hit, against 3.0 expected. The milestone picks went 7 of 9, against 6.8 expected.",
      "status": "watching",
      "test": "On past seasons, compare predicted chance with actual hit rate for 300+ yard and similar long-shot props, in buckets of model chance. Needs 20+ picks.",
      "first_noted": "2026-10-19"
     },
     {
      "lesson": "Best-value picks against the sportsbook are underperforming.",
-     "evidence": "1 of 5 best-value picks hit this season, against 2.7 expected, at -3.09 units.",
+     "evidence": "2 of 7 best-value picks hit this season, against 3.7 expected, at -3.18 units.",
      "status": "watching",
      "test": "On past seasons, check hit rate of the model's top value picks by size of edge. Needs 20+ picks.",
      "first_noted": "2026-10-19"
+    },
+    {
+     "lesson": "The model's margin errors are larger than Vegas's.",
+     "evidence": "Average spread miss is 8.2 for the model against 6.2 for Vegas over 14 graded games, and the model is 3-11 against the spread.",
+     "status": "watching",
+     "test": "On past seasons, compare the model's average absolute margin error with Vegas's, by week. Needs 20+ games, ideally a full season.",
+     "first_noted": "2026-10-24"
     }
    ]
   },
   "College": {
-   "checked": "2026-10-24T12:36-04:00",
+   "checked": "2026-10-24T13:23-04:00",
    "season": 2026,
    "week": 8,
    "news": [
@@ -117,24 +190,13 @@
      "items": [
       "College|likely|401858499|winner|home|||"
      ],
-     "headline": "Michigan State QB Milivojevic out at UCLA; freshman set to start",
-     "detail": "ESPN's Pete Thamel reported Saturday that Alessio Milivojevic will miss the game. Backup Cam Fancher is also out, so true freshman Kayd Coffman, who has not thrown a college pass, is set to start. At least 11 Spartans are out, including the top four cornerbacks.",
+     "headline": "Michigan State QB Milivojevic out at UCLA",
+     "detail": "ESPN's Pete Thamel reported Saturday that Michigan State's starting quarterback will miss the game, and backup Cam Fancher is also out. Freshman Kayd Coffman is in line for his first start. The Spartans are missing their top four cornerbacks. UCLA is playing backup Ty Dieffenbach because Nico Iamaleava is out for the season.",
      "impact": "helps the pick",
      "sources": [
-      "https://sports.yahoo.com/articles/michigan-state-qb-alessio-milivojevic-142857624.html",
-      "https://sports.yahoo.com/articles/msu-injury-report-qb-alessio-003400940.html"
-     ]
-    },
-    {
-     "game_id": "401858499",
-     "items": [
-      "College|likely|401858499|winner|home|||"
-     ],
-     "headline": "UCLA is also on its backup QB",
-     "detail": "UCLA's Nico Iamaleava is out for the season after knee surgery (reported Oct 19-20). Backup Ty Dieffenbach already has a 17-7 win over Wisconsin this year. Both teams are thin at quarterback, and Vegas has a low total of 42.5.",
-     "impact": "worth watching",
-     "sources": [
-      "https://sports.yahoo.com/articles/michigan-state-gets-stunning-quarterback-121648163.html"
+      "https://www.rotowire.com/cfootball/headlines/alessio-milivojevic-injury-not-expected-to-play-in-week-8-236491",
+      "https://sports.yahoo.com/articles/msu-injury-report-qb-alessio-003400940.html",
+      "https://detroitsportsnation.com/michigan-state-ucla-quarterback-nico-iamaleava-injury/richardknight/college-sports/msu-news/10/20/2026/501441/"
      ]
     },
     {
@@ -142,12 +204,11 @@
      "items": [
       "College|likely|401856835|winner|away|||"
      ],
-     "headline": "UCF expected to start backup QB Jenkins against BYU",
-     "detail": "ESPN reported on Oct 20 that Alonza Barnett III (hamstring) is not expected to start. He is listed questionable, and UCF's offensive coordinator said there is a fair chance he plays. Keyone Jenkins is set for a fifth straight start. UCF has 16 players on its injury report, and starting linebacker Lewis Carter is out.",
+     "headline": "UCF QB Barnett reportedly not starting vs BYU",
+     "detail": "ESPN reported on Oct 20 that UCF will start Keyone Jenkins again. Barnett is listed questionable, and UCF's coordinator said he has a fair chance, so it is not settled.",
      "impact": "helps the pick",
      "sources": [
-      "https://sports.yahoo.com/articles/injured-ucf-quarterback-alonza-barnett-190100616.html",
-      "https://sports.yahoo.com/articles/16-knights-listed-ucfs-injury-190536396.html",
+      "https://sports.yahoo.com/articles/report-emerges-status-ucf-qb-212846974.html",
       "https://www.si.com/college/byu/football/byu-rb-sione-moa-removed-from-injury-report-clearing-path-to-potential-return-against-ucf"
      ]
     },
@@ -157,40 +218,25 @@
       "College|likely|401866449|winner|home|||",
       "College|value|401866449|spread|away|||9.5"
      ],
-     "headline": "Eastern Michigan banged up, QB Noah Kim questionable",
-     "detail": "Kim is questionable for the second straight week. A preview from Saturday also lists the offensive line and secondary as thin, plus receiver Nick Devereaux out. Ohio's QB Nick Poulos is back from a concussion and Ohio has won its MAC games so far.",
-     "impact": "helps the pick",
-     "sources": [
-      "https://www.mittenfootball.com/week-8-picks-preview-eastern-michigan-michigan-state-face-uphill-climbs-with-injuries/",
-      "https://sports.yahoo.com/articles/eastern-michigan-vs-ohio-prediction-100023669.html"
-     ]
-    },
-    {
-     "game_id": "401871094",
-     "items": [
-      "College|likely|401871094|winner|home|||",
-      "College|value|401871094|spread|away|||12.5"
-     ],
-     "headline": "Troy QB Crowder questionable; WR TK Keyes out vs UL Monroe",
-     "detail": "Troy QB Goose Crowder left last week's game twice with a shoulder injury and was called day-to-day. He was listed questionable this week. Receiver TK Keyes (13 catches, 282 yards) is out per the Sun Belt availability report. Troy lost 33-6 to Louisiana last week.",
-     "impact": "hurts the pick",
-     "sources": [
-      "https://www.troymessenger.com/sports/troy-vs-ulm-injury-report-tk-keyes-doubtful-goose-crowder-questionable-51d7e275",
-      "https://www.rotowire.com/cfootball/headlines/tk-keyes-injury-unavailable-week-8-236523"
-     ]
-    },
-    {
-     "game_id": "401866476",
-     "items": [
-      "College|risky|401866476|winner|home|||"
-     ],
-     "headline": "Central Michigan QB Flores in concussion protocol",
-     "detail": "Angel Flores, the run-heavy starter, was in concussion protocol as of Tuesday. An article from Saturday morning says his status was not likely to be known until near kickoff. Backup Jadyn Glasser would likely start. Miami (OH) is also on a backup QB, since starter David McComb and backup Thomas Gotkowski are out for the season. Caleb Heavner starts.",
+     "headline": "Eastern Michigan QB Noah Kim questionable at Ohio",
+     "detail": "Kim, who has 1,678 yards and 11 touchdowns, is listed questionable, and WR Nick Devereaux is out. Several Ohio defenders are also questionable.",
      "impact": "worth watching",
      "sources": [
-      "https://www.mittenfootball.com/cmu-qb-angel-flores-in-concussion-protocol-status-vs-miami-oh-up-in-air/",
-      "https://www.pickswise.com/college-football/games/central-michigan-miami-oh-college-football-2026-10-24-0000/picks/",
-      "https://doublecsports.substack.com/p/cmu-football-preview-chippewas-aim"
+      "https://sports.yahoo.com/articles/eastern-michigan-vs-ohio-prediction-100023669.html",
+      "https://woub.org/2026/10/23/preview-ohio-football-puts-nation-best-home-win-streak-on-the-line-against-eastern-michigan/"
+     ]
+    },
+    {
+     "game_id": "401864527",
+     "items": [
+      "College|risky|401864527|winner|away|||"
+     ],
+     "headline": "New Mexico on its third quarterback",
+     "detail": "Backup James Laubstein tore a knee tendon and Jack Layne is out for the year, so freshman Toa Fa'avae starts. He went 5 of 10 for 59 yards with two interceptions last week. North Dakota State has injuries too, including safety Darius Givance.",
+     "impact": "helps the pick",
+     "sources": [
+      "https://sports.yahoo.com/articles/north-dakota-state-vs-mexico-102804805.html",
+      "https://www.inforum.com/sports/bison-media-zone/mens-sports/bison-video-blog-a-date-with-the-lobos-awaits"
      ]
     },
     {
@@ -198,12 +244,12 @@
      "items": [
       "College|value|401856836|total|under|||54.5"
      ],
-     "headline": "Colorado thin at skill spots; Oklahoma State has a top offense",
-     "detail": "Nine Buffaloes are on the injury report, including running back Micah Welch (possible fracture, no practice Tuesday). Two of QB Isaac Wilson's targets are out. Oklahoma State is described as the nation's fifth-best offense, led by QB Drew Mestemaker. Weak Colorado offense helps the under. A strong Oklahoma State offense pushes the other way.",
+     "headline": "Colorado thin on offense at Oklahoma State",
+     "detail": "Colorado has RB Micah Welch and receivers Perry and Scudero out. QB Isaac Wilson has been turnover-prone. Oklahoma State's Drew Mestemaker has thrown 300+ yards in five straight games.",
      "impact": "worth watching",
      "sources": [
-      "https://sports.yahoo.com/articles/colorado-football-faces-growing-injury-214242662.html",
-      "https://sports.yahoo.com/articles/colorado-football-face-four-top-004331961.html"
+      "https://sports.yahoo.com/articles/colorado-injury-report-reveals-long-125854465.html",
+      "https://roundtable.io/sports/ncaa/oklahoma-state/news/oklahoma-state-vs-colorado-game-preview-notes-odds-and-broadcast-info"
      ]
     },
     {
@@ -211,54 +257,65 @@
      "items": [
       "College|risky|401858273|winner|away|||"
      ],
-     "headline": "Boston College loses RB Dickens; Georgia Tech defense very thin",
-     "detail": "Boston College running back Evan Dickens is out for the season, so QB Mason McKenzie, the team's top rusher, carries more of the load. Georgia Tech lists several defensive starters out (Noah Carter, Daiquan White, Savion Riley), and tackle Tawfiq Thomas is doubtful. Boston College is 2-10 on the road under its current coach.",
+     "headline": "BC loses RB Dickens; Georgia Tech defense banged up",
+     "detail": "Evan Dickens is out for the season. Georgia Tech is missing several defenders, including Noah Carter, Daiquan White and Savion Riley, and DT Tawfiq Thomas is doubtful.",
      "impact": "worth watching",
      "sources": [
-      "https://www.boston.com/sports/college-sports/2026/10/22/boston-college-football-georgia-tech-preview-defense-kp-price-bill-obrien/",
-      "https://www.si.com/college/georgiatech/football/three-bold-predictions-for-georgia-tech-boston-college-01m5n66kn2hr",
-      "https://theleaguewinners.com/georgia-tech-vs-boston-college-2026-preview-out-of-the-cellar/"
+      "https://www.espn.com/college-football/story/_/id/50252679/sources-boston-college-rb-evan-dickens-season",
+      "https://www.si.com/college/georgiatech/football/three-bold-predictions-for-georgia-tech-boston-college-01m5n66kn2hr"
+     ]
+    },
+    {
+     "game_id": "401856729",
+     "items": [
+      "College|likely|401856729|winner|home|||"
+     ],
+     "headline": "Kentucky down WR Nic Anderson and LB Sam Greene",
+     "detail": "Both were ruled out for Vanderbilt. Vanderbilt is missing backup QB Blaze Berlowitz and several defenders, and is winless in the SEC.",
+     "impact": "worth watching",
+     "sources": [
+      "https://www.aseaofblue.com/kentucky-wildcats-football/185269/vanderbilt-injury-report-friday",
+      "https://sports.yahoo.com/articles/vanderbilt-football-injury-report-vs-003737562.html"
      ]
     }
    ],
    "item_notes": {
-    "College|likely|401858499|winner|home|||": "Michigan State is down to a true freshman QB with no college passes and 11 players out, which fits the model's big lean to UCLA.",
-    "College|likely|401856835|winner|away|||": "UCF will most likely start backup QB Keyone Jenkins and has 16 players on its injury report; the model's BYU margin (15.4) is more than double Vegas's.",
-    "College|likely|401866449|winner|home|||": "Eastern Michigan's QB is questionable and the team is badly banged up, which supports the model's Ohio lean.",
-    "College|value|401866449|spread|away|||9.5": "The Eastern Michigan +9.5 lean runs into the Eagles' injuries and a questionable QB. The model's edge here is also very small, at 51.0%.",
-    "College|likely|401871094|winner|home|||": "Troy QB Goose Crowder is questionable and WR TK Keyes is out, and Troy lost 33-6 at Louisiana last week; a Crowder absence would be a risk.",
-    "College|value|401871094|spread|away|||12.5": "The UL Monroe +12.5 lean is a thin edge (50.9%); Troy's QB and receiver questions could make the game closer, but UL Monroe lost 24-0 last week.",
-    "College|risky|401866476|winner|home|||": "The model's 50% for Central Michigan depends on QB Angel Flores clearing concussion protocol, and Miami (OH) is also on backup QBs.",
-    "College|value|401856836|total|under|||54.5": "Colorado is thin at receiver and running back, but Oklahoma State's offense is one of the nation's best, so the under is far from clear.",
-    "College|risky|401858273|winner|away|||": "Boston College lost its top running back for the year, and Georgia Tech's defense is missing several starters, so the news pulls both ways.",
-    "College|likely|401856729|winner|home|||": "The model has Kentucky by 14.9 against Vegas at 10.5; Kentucky has already beaten Oklahoma this year while Vanderbilt just lost to Arkansas."
+    "College|likely|401858499|winner|home|||": "Both quarterbacks changed: UCLA is on its backup and Michigan State is starting a freshman, and the model's total (49.7) is 7 points above Vegas's (42.5).",
+    "College|likely|401856835|winner|away|||": "BYU's win chance is 12 points above Vegas, and UCF is expected to stay with backup Keyone Jenkins, but Barnett is not ruled out.",
+    "College|likely|401866449|winner|home|||": "Ohio won 48-7 last week; Eastern Michigan's QB Noah Kim is questionable.",
+    "College|value|401866449|spread|away|||9.5": "The model's edge on Eastern Michigan +9.5 is thin (51.0%), and QB Noah Kim is questionable.",
+    "College|risky|401864527|winner|away|||": "New Mexico is on a freshman third-string quarterback, which fits the model's slim 31% for North Dakota State, but the model still has New Mexico by 7.9.",
+    "College|value|401856836|total|under|||54.5": "Colorado's offense is short of weapons, but Oklahoma State's quarterback has topped 300 yards five games running, so the under is not clear-cut.",
+    "College|likely|401856729|winner|home|||": "Kentucky is without two starters, but Vanderbilt is 0-4 in the SEC and also banged up.",
+    "College|likely|401871094|winner|home|||": "Troy lost 33-6 to Louisiana last week; the model has Troy by 19.3 against Vegas's 12.5.",
+    "College|value|401871094|spread|away|||12.5": "UL Monroe was shut out 24-0 by Louisiana Tech last week, and the edge on +12.5 is only 50.9%."
    },
-   "recap": "Week 8 results were mixed. The model picked the winner in 7 of 12 games, was 6-6 against the spread and 8-4 on over/under. Four of the five misses on winners were the model favoring a team more than Vegas did (NC State, Air Force, James Madison, Florida International); Duke over Virginia was the fifth. Those four favorites all lost outright and failed to cover. The three picks that ran against the market's favorite (Army, Marshall, Delaware's spread) did fine.",
+   "recap": "Week 8 games listed so far went 7 of 12 on winners, 6-6 against the spread and 8-4 on over/under. Season totals are 48 of 72 on winners, 37-31-2 against the spread and 39-31 on over/under, with an average miss of 11.3 against Vegas's 10.6. Of the 17 Week 7 games missed by 8+ points, the reviews name efficiency first in 12, turnovers in 3 and finishing drives in 2. Most likely winners are 6 of 6 and underdogs 3 of 5, while best-value is 2 of 7.",
    "lessons": [
     {
      "lesson": "The 'model total 3+ above Vegas means the over hits' pattern may not hold up.",
-     "evidence": "By my count in the Week 7-8 results listed, the over hit in 8 of 13 games where the model total was 3+ above Vegas (Week 7: 6 of 10; Week 8: 2 of 3). That is only slightly better than a coin flip, and the sample is under 20.",
+     "evidence": "By my count in the Week 7-8 results listed, the over hit in 8 of 13 games where the model total was 3+ above Vegas (Week 7: 6 of 10; Week 8: 2 of 3). That is only slightly better than a coin flip, and the sample is under 20. No new games this run.",
      "status": "watching",
      "test": "On past seasons, group games by model total minus Vegas total (0-3, 3-6, 6+) and check how often the over hits in each group. Need 20+ games per group.",
      "first_noted": "2026-10-17"
     },
     {
      "lesson": "Big misses mostly show up as efficiency gaps; turnovers and finishing drives come second.",
-     "evidence": "In the 24 games missed by 8+ points in the earlier set, the top listed reason was efficiency in 17, turnovers in 4, finishing drives in 2 and defensive touchdowns in 1. Efficiency is measured after the game, so it partly restates the miss. Week 8 results had no reviews, so no new data.",
+     "evidence": "Earlier set: efficiency was the top reason in 17 of 24 games missed by 8+. In the Week 7 list, 12 of 17 such games name efficiency first, 3 turnovers, 2 finishing drives. Efficiency is measured after the game, so it partly restates the miss. Week 8 results have no reviews.",
      "status": "worth testing",
      "test": "On past seasons, check whether a team's success rate in prior games predicts the model's error next game. Also compare turnover margin and points per trip inside the 40 with the long-run average, to see if misses lean one way or are random.",
      "first_noted": "2026-10-17"
     },
     {
      "lesson": "When the model picks a different favorite than Vegas, early results are mixed, not bad.",
-     "evidence": "Now 6 games with a different favorite: the model was right in 3 (Missouri State, Army, Marshall) and wrong in 3 (Cincinnati, Old Dominion, Rice over Tulsa). The earlier 1-for-4 has evened out. Sample is tiny.",
+     "evidence": "6 games with a different favorite: the model was right in 3 (Missouri State, Army, Marshall) and wrong in 3 (Cincinnati, Old Dominion, Rice over Tulsa). No new games this run. Sample is tiny.",
      "status": "watching",
      "test": "On past seasons, list games where the model and Vegas disagree on the winner, then compare the model's win rate with Vegas's. Need 20+ games.",
      "first_noted": "2026-10-17"
     },
     {
      "lesson": "When the model has the favorite winning by 3+ more points than Vegas, the favorite has mostly not covered.",
-     "evidence": "In the Week 7-8 results listed, by my count 9 games fit (Utah, Fresno State, Houston, UCLA, NC State, Air Force, UConn, James Madison, Florida International). The favorite covered in 2 (UCLA over Wisconsin, UConn) and failed in 7. The earlier 6-for-6 count included games not in this list, and UCLA over Wisconsin contradicts a perfect record. Today's BYU (gap 8.4) and Troy (6.8) and Ohio (9.0) fit.",
+     "evidence": "In the Week 7-8 results listed, 9 games fit (Utah, Fresno State, Houston, UCLA, NC State, Air Force, UConn, James Madison, Florida International). The favorite covered in 2 (UCLA over Wisconsin, UConn) and failed in 7. Today's BYU (gap 8.4), Troy (6.8), Ohio (9.0) and Kentucky (4.4) fit.",
      "status": "watching",
      "test": "On past seasons, take games where the model's favorite margin is 3+ points above Vegas's and check the cover rate by size of gap (3-6, 6+). Need 20+ games per group.",
      "first_noted": "2026-10-20"
@@ -269,10 +326,17 @@
      "status": "watching",
      "test": "On past seasons, bucket the model's spread and total picks by edge size and compare hit rates with the 52.4% break-even. Need 20+ games per bucket.",
      "first_noted": "2026-10-24"
+    },
+    {
+     "lesson": "Underdog picks have beaten the model's own chances so far.",
+     "evidence": "3 of 5 underdog picks hit, against 1.9 expected, at +4.59 units. Five picks is far too few to read.",
+     "status": "watching",
+     "test": "On past seasons, compare predicted chance with actual win rate for the model's underdog picks, in buckets of model chance (under 35%, 35-45%). Needs 20+ picks.",
+     "first_noted": "2026-10-24"
     }
    ]
   }
  },
- "updated": "2026-10-24T12:36-04:00",
+ "updated": "2026-10-24T13:23-04:00",
  "model": "claude-sonnet-5-5"
 }
