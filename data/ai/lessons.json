@@ -40,33 +40,40 @@
   "College": [
    {
     "lesson": "The 'model total 3+ above Vegas means the over hits' pattern may not hold up.",
-    "evidence": "Earlier note said the over hit in 7 of 9 such games, but several of those games are also in this week's list, so they overlap. In this week's 40 graded games alone, by my count, the over hit in 10 of 18 games where the model total was 3+ above Vegas. That is near a coin flip.",
+    "evidence": "By my count in the Week 7-8 results listed, the over hit in 8 of 13 games where the model total was 3+ above Vegas (Week 7: 6 of 10; Week 8: 2 of 3). That is only slightly better than a coin flip, and the sample is under 20.",
     "status": "watching",
     "test": "On past seasons, group games by model total minus Vegas total (0-3, 3-6, 6+) and check how often the over hits in each group. Need 20+ games per group.",
     "first_noted": "2026-10-17"
    },
    {
     "lesson": "Big misses mostly show up as efficiency gaps; turnovers and finishing drives come second.",
-    "evidence": "In this week's 24 games missed by 8+ points, the top listed reason was efficiency in 17, turnovers in 4 (Kentucky, Arkansas State, Miami (OH), Auburn), finishing drives in 2 (Wake Forest, Tulsa) and defensive touchdowns in 1. Efficiency is measured after the game, so it partly restates the miss.",
+    "evidence": "In the 24 games missed by 8+ points in the earlier set, the top listed reason was efficiency in 17, turnovers in 4, finishing drives in 2 and defensive touchdowns in 1. Efficiency is measured after the game, so it partly restates the miss. Week 8 results had no reviews, so no new data.",
     "status": "worth testing",
     "test": "On past seasons, check whether a team's success rate in prior games predicts the model's error next game. Also compare turnover margin and points per trip inside the 40 with the long-run average, to see if misses lean one way or are random.",
     "first_noted": "2026-10-17"
    },
    {
-    "lesson": "When the model picks a different favorite than Vegas, it has not done well yet.",
-    "evidence": "Now 4 games with a different favorite. The model was right in 1 (Missouri State) and wrong in 3 (Cincinnati, Old Dominion, and Rice over Tulsa this week). Sample is tiny.",
+    "lesson": "When the model picks a different favorite than Vegas, early results are mixed, not bad.",
+    "evidence": "Now 6 games with a different favorite: the model was right in 3 (Missouri State, Army, Marshall) and wrong in 3 (Cincinnati, Old Dominion, Rice over Tulsa). The earlier 1-for-4 has evened out. Sample is tiny.",
     "status": "watching",
     "test": "On past seasons, list games where the model and Vegas disagree on the winner, then compare the model's win rate with Vegas's. Need 20+ games.",
     "first_noted": "2026-10-17"
    },
    {
-    "lesson": "When the model has the favorite winning by 3+ more points than Vegas, the favorite has not covered.",
-    "evidence": "By my count in Week 7, 6 games fit (Utah, Fresno State, Houston, Duke, Michigan, Georgia) and the model's spread pick lost in all 6. Several upcoming Most likely winners fit the same pattern (Troy, Ohio, UConn, UCLA).",
+    "lesson": "When the model has the favorite winning by 3+ more points than Vegas, the favorite has mostly not covered.",
+    "evidence": "In the Week 7-8 results listed, by my count 9 games fit (Utah, Fresno State, Houston, UCLA, NC State, Air Force, UConn, James Madison, Florida International). The favorite covered in 2 (UCLA over Wisconsin, UConn) and failed in 7. The earlier 6-for-6 count included games not in this list, and UCLA over Wisconsin contradicts a perfect record. Today's BYU (gap 8.4) and Troy (6.8) and Ohio (9.0) fit.",
     "status": "watching",
     "test": "On past seasons, take games where the model's favorite margin is 3+ points above Vegas's and check the cover rate by size of gap (3-6, 6+). Need 20+ games per group.",
     "first_noted": "2026-10-20"
+   },
+   {
+    "lesson": "The 'Best value against the sportsbook' list has been weak so far.",
+    "evidence": "This season the list is 2 of 7 against 3.6 expected, at -3.18 units. Seven games is far too few to read, and the edges are thin (about 51% against 52.4% needed).",
+    "status": "watching",
+    "test": "On past seasons, bucket the model's spread and total picks by edge size and compare hit rates with the 52.4% break-even. Need 20+ games per bucket.",
+    "first_noted": "2026-10-24"
    }
   ]
  },
- "updated": "2026-10-20T14:28-04:00"
+ "updated": "2026-10-24T12:36-04:00"
 }
