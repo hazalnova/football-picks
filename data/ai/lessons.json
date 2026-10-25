@@ -3,7 +3,7 @@
   "NFL": [
    {
     "lesson": "When the model picks a different winner than the Vegas favorite, it has lost so far.",
-    "evidence": "0 of 4 graded games (NYG over NO, ATL over CHI, PHI over CAR, NE over CHI) where the model's side was not the Vegas favorite. PHI over DAL on Monday would be a fifth.",
+    "evidence": "0 of 4 graded games (NYG over NO, ATL over CHI, PHI over CAR, NE over CHI) where the model's side was not the Vegas favorite. PHI over DAL on Monday would be a fifth, but that pick appears to use Hurts, who is out for the season.",
     "status": "watching",
     "test": "On past seasons, take every game where the model's pick differs from the moneyline favorite. Compare its win rate and spread record with Vegas. Wait for 20+ games.",
     "first_noted": "2026-10-19"
@@ -42,6 +42,13 @@
     "status": "watching",
     "test": "On past seasons, compare the model's average absolute margin error with Vegas's, by week. Needs 20+ games, ideally a full season.",
     "first_noted": "2026-10-24"
+   },
+   {
+    "lesson": "Big gaps between the model and Vegas may come from lineup changes the model hasn't picked up.",
+    "evidence": "1 clear case so far: DAL at PHI lists Hurts, who is out for the season, and the model is PHI by 3.9 against Vegas DAL -4.5, an 8.4-point gap. Possible second case: TB lists Daniels, but Mayfield's status was open. Far under 20 games.",
+    "status": "watching",
+    "test": "On past seasons, flag games where a starting QB differed from the one in the model's inputs. Compare the model's margin error in those games with all others. Needs 20+ such games.",
+    "first_noted": "2026-10-25"
    }
   ],
   "College": [
@@ -89,5 +96,5 @@
    }
   ]
  },
- "updated": "2026-10-24T13:23-04:00"
+ "updated": "2026-10-25T10:58-04:00"
 }
