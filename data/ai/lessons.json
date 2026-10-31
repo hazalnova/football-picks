@@ -53,43 +53,43 @@
   ],
   "College": [
    {
-    "lesson": "The 'model total 3+ above Vegas means the over hits' pattern does not hold up so far.",
-    "evidence": "In the Week 8 results listed this run, 17 games had a model total 3+ above Vegas and the over hit in 8 (47%). Earlier I counted 8 of 13 for Week 7-8, and those samples may overlap, so I am not adding them together. It looks like a coin flip.",
-    "status": "watching",
+    "lesson": "The 'model total 3+ above Vegas means the over hits' pattern does not hold up; if anything the over hit less often.",
+    "evidence": "Week 8: over hit in 8 of 17 such games. Week 9 so far: 1 of 5 (only Baylor-UCF went over). Combined that is 9 of 22 (41%). I treat the earlier Week 7-8 count of 8 of 13 as overlapping, so I'm not adding it.",
+    "status": "worth testing",
     "test": "On past seasons, group games by model total minus Vegas total (0-3, 3-6, 6+) and check how often the over hits in each group. Need 20+ games per group.",
     "first_noted": "2026-10-17"
    },
    {
     "lesson": "Big misses mostly show up as efficiency gaps; turnovers and finishing drives come second.",
-    "evidence": "Week 8 results: of 25 games missed by 8+ points, efficiency was named first in 15, turnovers in 4, finishing drives in 4, and nothing stood out in 2. Earlier sets showed the same (17 of 24; 12 of 17). Efficiency is measured after the game, so it partly restates the miss.",
+    "evidence": "Week 8 results: of 25 games missed by 8+ points, efficiency was named first in 15, turnovers in 4, finishing drives in 4, and nothing stood out in 2. Earlier sets showed the same (17 of 24; 12 of 17). Week 9 results had no reviews. Efficiency is measured after the game, so it partly restates the miss.",
     "status": "worth testing",
     "test": "On past seasons, check whether a team's success rate in prior games predicts the model's error next game. Also compare turnover margin and points per trip inside the 40 with the long-run average, to see if misses lean one way or are random.",
     "first_noted": "2026-10-17"
    },
    {
     "lesson": "When the model picks a different favorite than Vegas, results are mixed.",
-    "evidence": "Earlier: 3 right and 3 wrong in 6 games. Week 8 adds 3 games (Tennessee, Central Michigan, Kansas): the model was right only in Kansas over Baylor. That makes about 4 of 9 overall. Sample is still tiny.",
+    "evidence": "About 4 of 9 right overall as of last run. None of the 9 Week 9 games listed had the model on a different side than Vegas, so there is no new data. Sample is tiny.",
     "status": "watching",
     "test": "On past seasons, list games where the model and Vegas disagree on the winner, then compare the model's win rate with Vegas's. Need 20+ games.",
     "first_noted": "2026-10-17"
    },
    {
-    "lesson": "The earlier lean that the favorite fails to cover when the model likes it 3+ points more than Vegas weakened in Week 8.",
-    "evidence": "In the Week 8 results, 14 games fit. The favorite covered in 7 (Utah, New Mexico, Arizona, Kentucky, Buffalo, UCLA, Toledo) and failed in 7 (Ohio, Kansas State, Florida Atlantic, BYU, Georgia Tech, Iowa, Troy). Earlier I had 2 covers in 9 games. Together that is about 9 of 23 if the sets don't overlap, but I can't confirm that.",
+    "lesson": "The earlier lean that the favorite fails to cover when the model likes it 3+ points more than Vegas is not settled.",
+    "evidence": "Week 8: favorite covered in 7 of 14 such games. Earlier: 2 of 9. Week 9 so far: 0 of 2 (Tulane, Western Kentucky lost the cover). Overlap between sets can't be confirmed, so I won't total them.",
     "status": "watching",
     "test": "On past seasons, take games where the model's favorite margin is 3+ points above Vegas's and check the cover rate by size of gap (3-6, 6+). Need 20+ games per group.",
     "first_noted": "2026-10-20"
    },
    {
     "lesson": "The 'Best value against the sportsbook' list has been weak so far.",
-    "evidence": "Season: 5 of 14 hit against 7.1 expected, at -4.45 units. The edges are thin (about 51% against 52.4% needed). Fewer than 20 picks.",
+    "evidence": "Season: 6 of 15 hit against 7.6 expected, at -3.55 units. The edges are thin (about 51% against 52.4% needed). Fewer than 20 picks. Also, the Coastal Carolina and Temple picks sit oddly against the model's own large margins for the favorites.",
     "status": "watching",
-    "test": "On past seasons, bucket the model's spread and total picks by edge size and compare hit rates with the 52.4% break-even. Need 20+ games per bucket.",
+    "test": "On past seasons, bucket the model's spread and total picks by edge size and compare hit rates with the 52.4% break-even. Check that each pick's cover chance matches the model's own margin. Need 20+ games per bucket.",
     "first_noted": "2026-10-24"
    },
    {
-    "lesson": "Underdog picks have fallen back to roughly what the model expected.",
-    "evidence": "Season: 4 of 13 hit against 4.7 expected, at -0.46 units. Earlier 3 of 5 beat the 1.9 expected, so the early edge is gone. Under 20 picks.",
+    "lesson": "Underdog picks are close to what the model expected, and slightly ahead on units.",
+    "evidence": "Season: 5 of 15 hit against 5.5 expected, at +0.99 units. The early edge came and went. Under 20 picks.",
     "status": "watching",
     "test": "On past seasons, compare predicted chance with actual win rate for the model's underdog picks, in buckets of model chance (under 35%, 35-45%). Needs 20+ picks.",
     "first_noted": "2026-10-24"
@@ -102,13 +102,13 @@
     "first_noted": "2026-10-27"
    },
    {
-    "lesson": "The model's spread misses are slightly larger than Vegas's over the season.",
-    "evidence": "Season (116 games): average spread miss 11.6 points for the model against 10.7 for Vegas. The model has 76 winners right of 116 (66%) and a 54-57-3 spread record.",
+    "lesson": "The model's spread misses are larger than Vegas's over the season.",
+    "evidence": "Season (125 games): average spread miss 12.1 points for the model against 11.2 for Vegas. The gap was 0.9 last run too. Winners right in 80 of 125 (64%) and a 56-64-3 spread record. Week 9 so far: 4 of 9 winners right, 2-7 against the spread.",
     "status": "worth testing",
     "test": "On past seasons, compare the model's and Vegas's average spread error. Then test whether averaging the model's margin and Vegas's margin beats either alone, and whether the gap changes by week of season.",
     "first_noted": "2026-10-27"
    }
   ]
  },
- "updated": "2026-10-27T15:27-04:00"
+ "updated": "2026-10-31T13:45-04:00"
 }
