@@ -2,116 +2,223 @@
  "kind": "ai_notes",
  "leagues": {
   "NFL": {
-   "checked": "2026-10-26T15:59-04:00",
+   "checked": "2026-11-01T12:08-05:00",
    "season": 2026,
-   "week": 7,
+   "week": 8,
    "news": [
     {
-     "game_id": "2026_07_DAL_PHI",
+     "game_id": "2026_08_PHI_WAS",
      "items": [
-      "NFL|likely|2026_07_DAL_PHI|winner|home|||",
-      "NFL|value|2026_07_DAL_PHI|spread|home|||-4.5",
-      "NFL|risky|2026_07_DAL_PHI|winner|home|||"
+      "NFL|value|2026_08_PHI_WAS|total|over|||40.5",
+      "NFL|risky|2026_08_PHI_WAS|winner|away|||"
      ],
-     "headline": "Hurts is on IR; Tanner McKee starts at QB for PHI",
-     "detail": "Jalen Hurts was placed on injured reserve and is expected to miss the rest of 2026 with blood clots (reported Oct 19). Tanner McKee starts Monday. The matchup lists Hurts as PHI's QB, so the PHI picks may rest on a lineup that won't play.",
+     "headline": "Hurts is out for the season; McKee starts for PHI",
+     "detail": "Reports from Oct. 30-Nov. 1 say Jalen Hurts is out with blood clots and Tanner McKee will start. The model's QB list for this game still shows Hurts.",
      "impact": "hurts the pick",
      "sources": [
-      "https://www.nfl.com/news/eagles-qb-jalen-hurts-out-2026-season-blood-clots",
-      "https://www.sportsbettingdime.com/news/nfl/final-injury-reports-cowboys-vs-eagles-mnf-week-7/",
-      "https://sports.yahoo.com/nfl/article/nfl-monday-night-football-preview-cowboys-cant-afford-to-lose-to-this-version-of-the-eagles-133246856.html"
+      "https://www.phillyvoice.com/eagles-commanders-week-8-injury-report-analysis-2026/",
+      "https://sports.yahoo.com/articles/eagles-given-strong-chance-down-130005186.html"
      ]
     },
     {
-     "game_id": "2026_07_DAL_PHI",
+     "game_id": "2026_08_PHI_WAS",
      "items": [
-      "NFL|likely|2026_07_DAL_PHI|winner|home|||",
-      "NFL|value|2026_07_DAL_PHI|spread|home|||-4.5",
-      "NFL|risky|2026_07_DAL_PHI|winner|home|||"
+      "NFL|value|2026_08_PHI_WAS|total|over|||40.5",
+      "NFL|risky|2026_08_PHI_WAS|winner|away|||"
      ],
-     "headline": "PHI without DeVonta Smith and Dontayvion Wicks; Barkley questionable",
-     "detail": "The Eagles' final injury report (Oct 25) ruled out their top two receivers. Saquon Barkley was a full participant Saturday but is listed questionable and expected to play. McKee was 26-of-45 for 215 yards last week.",
-     "impact": "hurts the pick",
+     "headline": "Both offenses thin: Smith out, Barkley set to play, McLaurin out",
+     "detail": "As of Oct. 31 and Nov. 1, DeVonta Smith and Dontayvion Wicks are out for PHI, and Saquon Barkley has no game status after practicing Friday. Terry McLaurin is also out for WAS.",
+     "impact": "worth watching",
      "sources": [
-      "https://www.bleedinggreennation.com/philadelphia-eagles-injuries/188098/eagles-cowboys-final-injury-report-devonta-smith-and-dontayvion-wicks-out",
-      "https://news.bet365.com/en-us/article/cowboys-vs-eagles-preview-and-injury-reports/2026102616035794793",
-      "https://bleacherreport.com/articles/25511845-jalen-hurts-out-eagles-season-new-nfl-rumors-reveal-after-agents-statement-blood-clots"
+      "https://www.bleedinggreennation.com/philadelphia-eagles-injuries/188756/eagles-commanders-final-injury-report-saquon-barkley-will-play",
+      "https://www.si.com/onsi/fantasy/news/week-8-sunday-night-football-dfs-showdown-strategies-how-to-navigate-the-injury-filled-eagles-commanders-game"
      ]
     },
     {
-     "game_id": "2026_07_DAL_PHI",
+     "game_id": "2026_08_KC_DEN",
      "items": [
-      "NFL|props_likely|2026_07_DAL_PHI|prop|at least|00-0033077|passing_yards|200.0",
-      "NFL|props_likely|2026_07_DAL_PHI|prop|at least|00-0036358|receptions|4.0",
-      "NFL|props_risky|2026_07_DAL_PHI|prop|at least|00-0033077|passing_yards|300.0"
+      "NFL|props_likely|2026_08_KC_DEN|prop|at least|00-0038134|rushing_yards|60.0",
+      "NFL|props_risky|2026_08_KC_DEN|prop|at least|00-0038134|rushing_yards|100.0"
      ],
-     "headline": "DAL WR Turpin out; Prescott threw 54 times last week",
-     "detail": "KaVontae Turpin (ribs) is ruled out, which leaves targets for Lamb, Pickens and Jake Ferguson. Prescott threw 54 passes against Green Bay, and Lamb had 18 targets and 9 catches. ESPN lists Prescott's passing-yards prop line at 268.5. No injury news was found for Prescott or Lamb.",
+     "headline": "Mahomes added with flu; snow and cold in Denver",
+     "detail": "On Sunday morning the Chiefs added Patrick Mahomes with an illness but no game designation. NFL Network reported no doubt he plays. Snow had already moved into the Denver area.",
+     "impact": "worth watching",
+     "sources": [
+      "https://www.si.com/nfl/chiefs/news/kc-chiefs-add-patrick-mahomes-to-week-8-injury-report-as-star-qb-battles-flu"
+     ]
+    },
+    {
+     "game_id": "2026_08_KC_DEN",
+     "items": [
+      "NFL|props_likely|2026_08_KC_DEN|prop|at least|00-0038134|rushing_yards|60.0",
+      "NFL|props_risky|2026_08_KC_DEN|prop|at least|00-0038134|rushing_yards|100.0"
+     ],
+     "headline": "Walker not on injury report; had 36 yards last week",
+     "detail": "Kenneth Walker III averages 20 carries a game and ran for 173 yards against Denver in Week 1. He had only 36 yards in the Week 7 loss to Seattle.",
+     "impact": "worth watching",
+     "sources": [
+      "https://heavy.com/sports/nfl/kansas-city-chiefs/rb-kenneth-walker-danger-zone-warning/",
+      "https://sports.yahoo.com/articles/3-keys-broncos-revenge-win-130008622.html"
+     ]
+    },
+    {
+     "game_id": "2026_08_LAC_LA",
+     "items": [
+      "NFL|props_likely|2026_08_LAC_LA|prop|at least|00-0039075|receiving_yards|50.0",
+      "NFL|props_likely|2026_08_LAC_LA|prop|at least|00-0039075|receptions|5.0",
+      "NFL|props_risky|2026_08_LAC_LA|prop|at least|00-0039075|receiving_yards|100.0",
+      "NFL|props_risky|2026_08_LAC_LA|prop|at least|00-0039075|receptions|9.0"
+     ],
+     "headline": "Nacua off the injury report; Adams still out",
+     "detail": "Puka Nacua had a Friday rest day and has no game status. Davante Adams is out after hamstring surgery, so the Rams offense runs through Nacua, who averages nine catches a game. He played through a calf issue last week.",
      "impact": "helps the pick",
      "sources": [
-      "https://www.sportsbettingdime.com/news/nfl/final-injury-reports-cowboys-vs-eagles-mnf-week-7/",
-      "https://www.espn.com/espn/betting/story/_/id/50284388/nfl-week-7-odds-betting-tips-cowboys-eagles-preview"
+      "https://www.si.com/betting/puka-nacua-injury-update-betting-impact-for-chargers-vs-rams-in-nfl-week-8-2026",
+      "https://sports.yahoo.com/articles/puka-nacua-off-week-8-223158622.html"
+     ]
+    },
+    {
+     "game_id": "2026_08_LAC_LA",
+     "items": [
+      "NFL|likely|2026_08_LAC_LA|winner|home|||"
+     ],
+     "headline": "Chargers missing safety Derwin James and a starting guard",
+     "detail": "The Chargers ruled out Derwin James (hamstring) and left guard Kayode Awosika (fibula), among four out. Justin Herbert has been sacked 21 times this year.",
+     "impact": "helps the pick",
+     "sources": [
+      "https://therams.com/news/rams-injury-report-week-8-vs-chargers-joe-cardona-doubtful-trent-mcduffie-colby-parkinson-and-coleman-shelton-questionable"
+     ]
+    },
+    {
+     "game_id": "2026_08_MIN_DET",
+     "items": [
+      "NFL|props_likely|2026_08_MIN_DET|prop|at least|00-0039139|rushing_yards|60.0",
+      "NFL|props_risky|2026_08_MIN_DET|prop|at least|00-0039139|rushing_yards|100.0"
+     ],
+     "headline": "Gibbs practiced fully, no game designation",
+     "detail": "Jahmyr Gibbs missed Wednesday with a shoulder issue, then was a full participant Thursday and Friday. Safety Kerby Joseph is out for the Lions.",
+     "impact": "helps the pick",
+     "sources": [
+      "https://detroitlions.com/news/lions-vs-vikings-injury-report-oct-30-joseph-gibbs-stbrown-mccreary",
+      "https://www.si.com/nfl/lions/onsi/detroit-lions-week-eight-updated-depth-chart-against-vikings"
+     ]
+    },
+    {
+     "game_id": "2026_08_CHI_SEA",
+     "items": [
+      "NFL|value|2026_08_CHI_SEA|total|under|||46.5",
+      "NFL|risky|2026_08_CHI_SEA|winner|away|||",
+      "NFL|props_likely|2026_08_CHI_SEA|prop|at least|00-0038543|receiving_yards|60.0",
+      "NFL|props_risky|2026_08_CHI_SEA|prop|at least|00-0038543|receiving_yards|125.0"
+     ],
+     "headline": "Seahawks without LT Cross and WR Shaheed for Monday",
+     "detail": "Seattle ruled out Charles Cross (ankle), Rashid Shaheed (knee) and Velus Jones Jr., and Uchenna Nwosu is doubtful. Jaxon Smith-Njigba sat a Thursday practice as a rest day. I found no injury designation for him.",
+     "impact": "worth watching",
+     "sources": [
+      "https://www.seahawks.com/news/week-8-injury-report-bears-at-seahawks",
+      "https://beargoggleson.com/bears-vs-seahawks-week-8-injury-updates-predictions-storylines-and-more"
+     ]
+    },
+    {
+     "game_id": "2026_08_NE_MIA",
+     "items": [
+      "NFL|likely|2026_08_NE_MIA|winner|away|||",
+      "NFL|value|2026_08_NE_MIA|total|over|||41.5",
+      "NFL|risky|2026_08_NE_MIA|winner|home|||"
+     ],
+     "headline": "Patriots without A.J. Brown and TreVeyon Henderson",
+     "detail": "New England ruled out A.J. Brown, TreVeyon Henderson and Marcus Bryant. Drake Maye (shoulder) and Miami's Malik Willis (groin) both practiced fully with no game designation.",
+     "impact": "worth watching",
+     "sources": [
+      "https://sports.yahoo.com/articles/england-patriots-rule-j-brown-215054913.html",
+      "https://www.patriots.com/news/week-8-injury-report-patriots-at-dolphins-x9227"
+     ]
+    },
+    {
+     "game_id": "2026_08_ARI_DAL",
+     "items": [
+      "NFL|props_likely|2026_08_ARI_DAL|prop|at least|00-0037744|receptions|5.0",
+      "NFL|props_risky|2026_08_ARI_DAL|prop|at least|00-0037744|receptions|9.0",
+      "NFL|value|2026_08_ARI_DAL|total|under|||54.5"
+     ],
+     "headline": "Brissett stays Arizona's starter; McBride leads the league in catches",
+     "detail": "Coach Mike LaFleur said this week that Jacoby Brissett remains the starter. Trey McBride has 59 catches, the most in the NFL. Backup center Hjalte Froholdt is questionable. Arizona has scored touchdowns on just 1 of its last 10 red-zone trips.",
+     "impact": "helps the pick",
+     "sources": [
+      "https://athlonsports.com/nfl/arizona-cardinals/cardinals-fan-questions-jacoby-brissett-cowboys-week-8",
+      "https://www.footballnationusa.com/post/hjalte-froholdt-questionable-cowboys-cardinals-line-fantasy-impact"
      ]
     }
    ],
    "item_notes": {
-    "NFL|likely|2026_07_DAL_PHI|winner|home|||": "The model's 61% for PHI looks built on Hurts, who is on IR; McKee starts and both top receivers are out.",
-    "NFL|value|2026_07_DAL_PHI|spread|home|||-4.5": "PHI +4.5 has the same Hurts problem: the 53.7% chance comes from a lineup that won't play.",
-    "NFL|risky|2026_07_DAL_PHI|winner|home|||": "This underdog pick is the same PHI-to-win call as L1, so it carries the same QB problem.",
-    "NFL|props_likely|2026_07_DAL_PHI|prop|at least|00-0033077|passing_yards|200.0": "Prescott averages about 273 passing yards a game (1,639 in 6 games) and threw 54 times last week, so 200+ fits his recent volume.",
-    "NFL|props_likely|2026_07_DAL_PHI|prop|at least|00-0036358|receptions|4.0": "Lamb has 48 catches in 6 games and Turpin is out, which points more targets his way.",
-    "NFL|props_risky|2026_07_DAL_PHI|prop|at least|00-0033077|passing_yards|300.0": "The 300+ yards chance of 29% sits above the 268.5 prop line; a big Dallas lead could cut his pass attempts."
+    "NFL|risky|2026_08_PHI_WAS|winner|away|||": "The model's inputs list Hurts, who is out for the season, so PHI's 40% likely overstates the team with McKee and without DeVonta Smith.",
+    "NFL|value|2026_08_PHI_WAS|total|over|||40.5": "This over rests on a 46.7 model total built with Hurts, and the model total is 6.2 points above Vegas's. That is the biggest gap on the list.",
+    "NFL|props_likely|2026_08_KC_DEN|prop|at least|00-0038134|rushing_yards|60.0": "Walker had 36 yards last week but 173 against Denver in Week 1; Mahomes has the flu and snow is in Denver.",
+    "NFL|props_likely|2026_08_LAC_LA|prop|at least|00-0039075|receptions|5.0": "Nacua is the Rams' main target with Adams out and averages nine catches, which fits the model's high chance.",
+    "NFL|props_risky|2026_08_LAC_LA|prop|at least|00-0039075|receiving_yards|100.0": "One preview notes Nacua hasn't topped 100 yards since Adams went down, so 37% looks fair rather than low.",
+    "NFL|props_likely|2026_08_MIN_DET|prop|at least|00-0039139|rushing_yards|60.0": "Gibbs was a full participant Thursday and Friday with no game status, so his shoulder is not a worry in the news.",
+    "NFL|props_likely|2026_08_ARI_DAL|prop|at least|00-0037744|receptions|5.0": "McBride leads the league in catches and Arizona's offense runs through him, which supports the 75% model chance.",
+    "NFL|value|2026_08_CHI_SEA|total|under|||46.5": "Seattle is missing its left tackle and Shaheed, which could slow the offense. The edge is 0.6 points over break-even.",
+    "NFL|value|2026_08_NE_MIA|total|over|||41.5": "The model's 52.2% is below the 52.4% needed, so this is not an edge by the model's own numbers. A.J. Brown and Henderson are also out for NE.",
+    "NFL|props_likely|2026_08_CHI_SEA|prop|at least|00-0038543|receiving_yards|60.0": "Smith-Njigba had 150 yards against Kansas City and leads the league in receiving yards, with no injury designation I could find."
    },
-   "recap": "Week 7 went about even on the line: winners right in 8 of 13, spread 6-6-1, totals 8-5. The big misses were TB 43, CAR 13 (36 points off), CIN 35, BAL 13, and SEA 20, KC 3, and efficiency swings were the main reason in most of them. The model also missed on turnovers: SF had 4 giveaways in a loss to ATL. Season spread record is 9-16-1, and the model's average miss (9.7) is bigger than Vegas's (8.4).",
+   "recap": "The model went 9 of 15 on winners in the listed Week 7-8 games, 7-7-1 against the spread, and 10-5 on totals. Its worst misses were DAL 38-21 over PHI (20.9 points off) and TB 43-13 over CAR (36.1 off). In most big misses the winner's success rate was far above the loser's: DAL 49% to 40%, SEA 48% to 32%, LA 65% to 36%. Turnovers drove the SF-ATL miss. The season spread record is 10-17-1, and the model's average miss is 9.8 against Vegas's 8.4.",
    "lessons": [
     {
      "lesson": "When the model picks a different winner than the Vegas favorite, it has mostly lost so far.",
-     "evidence": "1 of 5 graded games where the model's side was not the Vegas favorite won (CIN over BAL won; NYG over NO, ATL over CHI, PHI over CAR, NE over CHI lost). PHI over DAL on Monday would be a sixth, but it appears to use Hurts, who is on IR.",
+     "evidence": "1 of 6 graded games where the model's side was not the Vegas favorite won (CIN over BAL won; PHI over DAL, NYG over NO, ATL over CHI, PHI over CAR, NE over CHI lost). KC at DEN, where the model has DEN and Vegas has KC, would be a seventh.",
      "status": "watching",
      "test": "On past seasons, take every game where the model's pick differs from the moneyline favorite. Compare its win rate and spread record with Vegas. Wait for 20+ games.",
      "first_noted": "2026-10-19"
     },
     {
      "lesson": "Large gaps between the model's total and Vegas's total have not paid off, but smaller gaps have.",
-     "evidence": "0 of 4 graded games with a gap of 4.9 points or more (CHI 6.6, CAR 5.2, NE-CHI 5.0, BAL 4.9) won the over/under pick. Overall over/under is now 13-13, so the other 22 games went 13-9.",
+     "evidence": "0 of 4 graded games with a gap of 4.9 or more won the over/under pick. Of the 15 games in this run's results, 10 won the over/under, and only NE-CHI (gap 5.0) was above a 4-point gap. Overall the over/under is 15-13. PHI at WAS (gap 6.2) is the next big-gap test.",
      "status": "watching",
      "test": "On past seasons, group games by size of the total gap (under 2, 2-4, over 4). Check hit rate per group. Needs 20+ games in the large-gap group.",
      "first_noted": "2026-10-19"
     },
     {
      "lesson": "Many big misses come from efficiency swings, which the model can't see before kickoff.",
-     "evidence": "In 6 of the 12 games where the winner was wrong, the review names efficiency as the main reason (TB-CAR, NYG-HOU, ARI-LA, CHI-ATL, CAR-PHI, BAL-CLE). Turnovers led in NO-NYG and SF-ATL, HOU-JAX had no clear reason, and MIA-NYJ and NE-CHI were close.",
+     "evidence": "In 7 of the 13 games where the winner was wrong, the review names efficiency as the main reason (DAL-PHI, TB-CAR, NYG-HOU, ARI-LA, CHI-ATL, CAR-PHI, BAL-CLE). Turnovers led in NO-NYG and SF-ATL. MIA-NYJ and NE-CHI were close. HOU-JAX had no clear reason.",
      "status": "watching",
      "test": "On past seasons, measure how often big spread misses (over 8 points) are driven by efficiency versus turnovers. Check whether the model's misses are larger than Vegas's overall.",
      "first_noted": "2026-10-19"
     },
     {
-     "lesson": "Big-game player picks hit less often than the model's chances say, but the gap has narrowed.",
-     "evidence": "5 of 17 big-game picks hit, against 5.6 expected, at -6.63 units. Earlier it was 1 of 9 against 3.0. Milestone picks are 12 of 17 against 12.7 expected.",
+     "lesson": "Big-game player picks hit less often than the model's chances say.",
+     "evidence": "5 of 18 big-game picks hit, against 5.9 expected, at -7.63 units. Milestone picks are 14 of 19 against 14.2 expected, which is close.",
      "status": "watching",
      "test": "On past seasons, compare predicted chance with actual hit rate for 300+ yard and similar long-shot props, in buckets of model chance. Needs 20+ picks.",
      "first_noted": "2026-10-19"
     },
     {
-     "lesson": "Best-value picks against the sportsbook were underperforming, but have recovered somewhat.",
-     "evidence": "5 of 11 best-value picks hit this season, against 5.8 expected, at -1.45 units. It was 2 of 7 last week.",
+     "lesson": "Best-value picks against the sportsbook are running below the model's chances.",
+     "evidence": "5 of 12 best-value picks hit this season, against 6.4 expected, at -2.45 units. Several this week sit only 0.4 to 1.5 points over break-even.",
      "status": "watching",
      "test": "On past seasons, check hit rate of the model's top value picks by size of edge. Needs 20+ picks.",
      "first_noted": "2026-10-19"
     },
     {
      "lesson": "The model's margin errors are larger than Vegas's, and it is below .500 against the spread.",
-     "evidence": "Average spread miss is 9.7 for the model against 8.4 for Vegas over 26 graded games. The model is 9-16-1 against the spread. Week 7 alone was 6-6-1.",
+     "evidence": "Average spread miss is 9.8 for the model against 8.4 for Vegas over 28 graded games. The model is 10-17-1 against the spread. Winners are 15 of 28.",
      "status": "worth testing",
      "test": "On past seasons, compare the model's average absolute margin error with Vegas's, by week, over a full season. Also check ATS record by season. Do this before changing anything.",
      "first_noted": "2026-10-24"
     },
     {
      "lesson": "Big gaps between the model and Vegas may come from lineup changes the model hasn't picked up.",
-     "evidence": "1 clear case so far: DAL at PHI lists Hurts, who is on IR with McKee starting, and the model is PHI by 3.9 against Vegas DAL -4.5, an 8.4-point gap. Possible second case: TB lists Daniels, but Mayfield's status was open; TB won 43-13 against the model's CAR pick. Far under 20 games.",
+     "evidence": "2 clear cases now: DAL at PHI listed Hurts, who was on IR; DAL won 38-21 against the model's PHI by 3.9. PHI at WAS again lists Hurts, who is out for the season, and the model has WAS by 3.3 against Vegas -6. Possible case: TB-CAR. Far under 20 games.",
      "status": "watching",
      "test": "On past seasons, flag games where a starting QB differed from the one in the model's inputs. Compare the model's margin error in those games with all others. Needs 20+ such games.",
      "first_noted": "2026-10-25"
+    },
+    {
+     "lesson": "Most-likely-winner picks have fallen short of the model's own chances.",
+     "evidence": "5 of 11 most-likely-winner picks hit this season, against 8.1 expected, at -4.49 units. Several favorites this week have a model chance at or just below Vegas's.",
+     "status": "watching",
+     "test": "On past seasons, bucket the model's top win chances (70-79%, 80%+) and compare hit rate with the moneyline-implied chance. Needs 20+ picks per bucket.",
+     "first_noted": "2026-11-01"
     }
    ]
   },
@@ -275,6 +382,6 @@
    ]
   }
  },
- "updated": "2026-10-31T13:45-04:00",
+ "updated": "2026-11-01T12:08-05:00",
  "model": "claude-sonnet-5-5"
 }
