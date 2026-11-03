@@ -1,6 +1,6 @@
 {
  "league": "College",
- "updated": "2026-11-01T11:35-05:00",
+ "updated": "2026-11-03T15:31-05:00",
  "season": 2026,
  "week": 10,
  "week_label": "Week 10",
@@ -21,19 +21,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -16.6,
-    "home_win": 0.152,
+    "home_margin": -16.7,
+    "home_win": 0.151,
     "total": 52.5,
-    "over": 0.495,
-    "home_cover": 0.497
+    "over": 0.493,
+    "home_cover": 0.494
    },
    "vegas": {
-    "home_margin": -12.5,
-    "home_win": 0.209,
-    "total": 49.5,
-    "over": 0.5,
-    "home_moneyline": 360.0,
-    "away_moneyline": -470.0
+    "home_margin": -13.5,
+    "home_win": 0.188,
+    "total": 51.5,
+    "over": 0.496,
+    "home_moneyline": 410.0,
+    "away_moneyline": -550.0
    },
    "final": null
   },
@@ -48,19 +48,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 5.8,
-    "home_win": 0.639,
+    "home_margin": 5.6,
+    "home_win": 0.635,
     "total": 50.5,
-    "over": 0.496,
-    "home_cover": 0.495
+    "over": 0.494,
+    "home_cover": 0.496
    },
    "vegas": {
-    "home_margin": 6.5,
-    "home_win": 0.669,
+    "home_margin": 6.0,
+    "home_win": 0.681,
     "total": 45.5,
-    "over": 0.5,
-    "home_moneyline": -230.0,
-    "away_moneyline": 190.0
+    "over": 0.489,
+    "home_moneyline": -245.0,
+    "away_moneyline": 200.0
    },
    "final": null
   },
@@ -75,19 +75,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -0.2,
-    "home_win": 0.494,
-    "total": 53.5,
-    "over": 0.497,
-    "home_cover": 0.498
+    "home_margin": -0.4,
+    "home_win": 0.489,
+    "total": 53.4,
+    "over": 0.493,
+    "home_cover": 0.494
    },
    "vegas": {
-    "home_margin": 4.5,
-    "home_win": 0.616,
-    "total": 48.5,
-    "over": 0.5,
-    "home_moneyline": -180.0,
-    "away_moneyline": 150.0
+    "home_margin": 3.0,
+    "home_win": 0.583,
+    "total": 49.5,
+    "over": 0.504,
+    "home_moneyline": -155.0,
+    "away_moneyline": 130.0
    },
    "final": null
   },
@@ -102,19 +102,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -21.4,
-    "home_win": 0.092,
+    "home_margin": -21.8,
+    "home_win": 0.088,
     "total": 56.3,
-    "over": 0.496,
-    "home_cover": 0.492
+    "over": 0.493,
+    "home_cover": 0.5
    },
    "vegas": {
-    "home_margin": -27.5,
-    "home_win": 0.054,
-    "total": 51.5,
-    "over": 0.5,
-    "home_moneyline": 1700.0,
-    "away_moneyline": -4500.0
+    "home_margin": -25.5,
+    "home_win": 0.069,
+    "total": 52.5,
+    "over": 0.511,
+    "home_moneyline": 1300.0,
+    "away_moneyline": -2800.0
    },
    "final": null
   },
@@ -129,17 +129,17 @@
    "neutral": true,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 0.3,
-    "home_win": 0.507,
+    "home_margin": 0.6,
+    "home_win": 0.515,
     "total": 49.1,
-    "over": 0.495,
+    "over": 0.493,
     "home_cover": 0.496
    },
    "vegas": {
     "home_margin": 1.5,
     "home_win": 0.517,
-    "total": 46.5,
-    "over": 0.5,
+    "total": 44.5,
+    "over": 0.496,
     "home_moneyline": -118.0,
     "away_moneyline": -102.0
    },
@@ -156,19 +156,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -9.6,
-    "home_win": 0.275,
-    "total": 70.2,
+    "home_margin": -9.5,
+    "home_win": 0.279,
+    "total": 69.8,
     "over": 0.492,
-    "home_cover": 0.497
+    "home_cover": 0.495
    },
    "vegas": {
-    "home_margin": -6.5,
-    "home_win": 0.319,
-    "total": 71.5,
-    "over": 0.5,
-    "home_moneyline": 200.0,
-    "away_moneyline": -245.0
+    "home_margin": -7.0,
+    "home_win": 0.304,
+    "total": 73.5,
+    "over": 0.489,
+    "home_moneyline": 215.0,
+    "away_moneyline": -265.0
    },
    "final": null
   },
@@ -183,19 +183,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -13.7,
-    "home_win": 0.197,
-    "total": 61.2,
-    "over": 0.497,
-    "home_cover": 0.495
+    "home_margin": -14.0,
+    "home_win": 0.193,
+    "total": 61.1,
+    "over": 0.493,
+    "home_cover": 0.497
    },
    "vegas": {
     "home_margin": -14.5,
-    "home_win": 0.178,
-    "total": 55.5,
-    "over": 0.5,
-    "home_moneyline": 440.0,
-    "away_moneyline": -600.0
+    "home_win": 0.168,
+    "total": 58.5,
+    "over": 0.489,
+    "home_moneyline": 470.0,
+    "away_moneyline": -650.0
    },
    "final": null
   },
@@ -210,19 +210,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 7.7,
-    "home_win": 0.685,
-    "total": 55.7,
+    "home_margin": 7.6,
+    "home_win": 0.681,
+    "total": 55.6,
     "over": 0.492,
-    "home_cover": 0.494
+    "home_cover": 0.498
    },
    "vegas": {
-    "home_margin": 6.5,
-    "home_win": 0.645,
+    "home_margin": 6.0,
+    "home_win": 0.664,
     "total": 56.5,
-    "over": 0.5,
-    "home_moneyline": -205.0,
-    "away_moneyline": 170.0
+    "over": 0.496,
+    "home_moneyline": -225.0,
+    "away_moneyline": 185.0
    },
    "final": null
   },
@@ -237,19 +237,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -1.5,
-    "home_win": 0.464,
-    "total": 46.5,
+    "home_margin": -1.4,
+    "home_win": 0.466,
+    "total": 46.8,
     "over": 0.494,
-    "home_cover": 0.495
+    "home_cover": 0.494
    },
    "vegas": {
-    "home_margin": -1.5,
-    "home_win": 0.496,
-    "total": 45.5,
-    "over": 0.5,
-    "home_moneyline": -108.0,
-    "away_moneyline": -112.0
+    "home_margin": 1.5,
+    "home_win": 0.532,
+    "total": 39.5,
+    "over": 0.496,
+    "home_moneyline": -125.0,
+    "away_moneyline": 105.0
    },
    "final": null
   },
@@ -264,17 +264,17 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -2.2,
-    "home_win": 0.446,
-    "total": 47.5,
+    "home_margin": -3.2,
+    "home_win": 0.422,
+    "total": 47.4,
     "over": 0.492,
-    "home_cover": 0.493
+    "home_cover": 0.498
    },
    "vegas": {
-    "home_margin": -5.5,
+    "home_margin": -4.5,
     "home_win": 0.363,
-    "total": 48.5,
-    "over": 0.5,
+    "total": 50.5,
+    "over": 0.489,
     "home_moneyline": 164.0,
     "away_moneyline": -198.0
    },
@@ -291,19 +291,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -8.2,
-    "home_win": 0.305,
-    "total": 46.8,
-    "over": 0.495,
-    "home_cover": 0.493
+    "home_margin": -7.3,
+    "home_win": 0.325,
+    "total": 46.7,
+    "over": 0.494,
+    "home_cover": 0.498
    },
    "vegas": {
-    "home_margin": -12.5,
-    "home_win": 0.213,
-    "total": 43.5,
-    "over": 0.5,
-    "home_moneyline": 350.0,
-    "away_moneyline": -455.0
+    "home_margin": -9.5,
+    "home_win": 0.243,
+    "total": 37.5,
+    "over": 0.483,
+    "home_moneyline": 295.0,
+    "away_moneyline": -375.0
    },
    "final": null
   },
@@ -318,181 +318,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 10.7,
-    "home_win": 0.747,
-    "total": 45.2,
+    "home_margin": 9.8,
+    "home_win": 0.729,
+    "total": 45.3,
     "over": 0.493,
-    "home_cover": 0.494
-   },
-   "vegas": {
-    "home_margin": 8.5,
-    "home_win": 0.734,
-    "total": 44.5,
-    "over": 0.5,
-    "home_moneyline": -325.0,
-    "away_moneyline": 260.0
-   },
-   "final": null
-  },
-  {
-   "id": 401856851,
-   "kickoff": "2026-11-07T00:00:00-05:00",
-   "status": "upcoming",
-   "away": "Cincinnati",
-   "home": "Houston",
-   "away_conference": "Big 12",
-   "home_conference": "Big 12",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 12.9,
-    "home_win": 0.788,
-    "total": 58.2,
-    "over": 0.49,
-    "home_cover": 0.494
-   },
-   "vegas": {
-    "home_margin": 10.5,
-    "home_win": 0.772,
-    "total": 61.5,
-    "over": 0.5,
-    "home_moneyline": -410.0,
-    "away_moneyline": 320.0
-   },
-   "final": null
-  },
-  {
-   "id": 401856853,
-   "kickoff": "2026-11-07T00:00:00-05:00",
-   "status": "upcoming",
-   "away": "Iowa State",
-   "home": "Baylor",
-   "away_conference": "Big 12",
-   "home_conference": "Big 12",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 12.9,
-    "home_win": 0.788,
-    "total": 54.3,
-    "over": 0.495,
-    "home_cover": 0.493
+    "home_cover": 0.497
    },
    "vegas": {
     "home_margin": 9.5,
-    "home_win": 0.741,
-    "total": 51.5,
-    "over": 0.5,
-    "home_moneyline": -340.0,
-    "away_moneyline": 270.0
-   },
-   "final": null
-  },
-  {
-   "id": 401858511,
-   "kickoff": "2026-11-07T00:00:00-05:00",
-   "status": "upcoming",
-   "away": "Michigan State",
-   "home": "Michigan",
-   "away_conference": "Big Ten",
-   "home_conference": "Big Ten",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 18.3,
-    "home_win": 0.873,
-    "total": 45.2,
-    "over": 0.496,
-    "home_cover": 0.492
-   },
-   "vegas": {
-    "home_margin": 13.5,
-    "home_win": 0.837,
-    "total": 40.5,
-    "over": 0.489,
-    "home_moneyline": -675.0,
-    "away_moneyline": 490.0
-   },
-   "final": null
-  },
-  {
-   "id": 401858512,
-   "kickoff": "2026-11-07T00:00:00-05:00",
-   "status": "upcoming",
-   "away": "UCLA",
-   "home": "Minnesota",
-   "away_conference": "Big Ten",
-   "home_conference": "Big Ten",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": -8.6,
-    "home_win": 0.297,
-    "total": 44.2,
-    "over": 0.496,
-    "home_cover": 0.496
-   },
-   "vegas": {
-    "home_margin": -6.5,
-    "home_win": 0.331,
-    "total": 40.5,
-    "over": 0.483,
-    "home_moneyline": 190.0,
-    "away_moneyline": -230.0
-   },
-   "final": null
-  },
-  {
-   "id": 401858513,
-   "kickoff": "2026-11-07T00:00:00-05:00",
-   "status": "upcoming",
-   "away": "Iowa",
-   "home": "Northwestern",
-   "away_conference": "Big Ten",
-   "home_conference": "Big Ten",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": -3.2,
-    "home_win": 0.422,
-    "total": 48.6,
-    "over": 0.497,
-    "home_cover": 0.498
-   },
-   "vegas": {
-    "home_margin": 1.5,
-    "home_win": 0.532,
-    "total": 42.5,
-    "over": 0.5,
-    "home_moneyline": -125.0,
-    "away_moneyline": 105.0
-   },
-   "final": null
-  },
-  {
-   "id": 401858516,
-   "kickoff": "2026-11-07T00:00:00-05:00",
-   "status": "upcoming",
-   "away": "Penn State",
-   "home": "Washington",
-   "away_conference": "Big Ten",
-   "home_conference": "Big Ten",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 4.7,
-    "home_win": 0.615,
-    "total": 48.5,
-    "over": 0.496,
-    "home_cover": 0.494
-   },
-   "vegas": {
-    "home_margin": 2.5,
-    "home_win": 0.526,
-    "total": 44.5,
-    "over": 0.5,
-    "home_moneyline": -122.0,
-    "away_moneyline": 102.0
+    "home_win": 0.744,
+    "total": 43.5,
+    "over": 0.511,
+    "home_moneyline": -345.0,
+    "away_moneyline": 275.0
    },
    "final": null
   },
@@ -507,19 +345,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -5.5,
-    "home_win": 0.367,
-    "total": 44.3,
-    "over": 0.491,
-    "home_cover": 0.496
+    "home_margin": -6.0,
+    "home_win": 0.354,
+    "total": 44.4,
+    "over": 0.493,
+    "home_cover": 0.494
    },
    "vegas": {
-    "home_margin": -3.0,
-    "home_win": 0.417,
-    "total": 46.5,
-    "over": 0.504,
-    "home_moneyline": 130.0,
-    "away_moneyline": -155.0
+    "home_margin": -2.5,
+    "home_win": 0.437,
+    "total": 42.5,
+    "over": 0.511,
+    "home_moneyline": 120.0,
+    "away_moneyline": -142.0
    },
    "final": null
   },
@@ -534,46 +372,46 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 13.9,
-    "home_win": 0.806,
-    "total": 53.3,
-    "over": 0.498,
-    "home_cover": 0.49
+    "home_margin": 14.1,
+    "home_win": 0.808,
+    "total": 53.2,
+    "over": 0.493,
+    "home_cover": 0.503
    },
    "vegas": {
     "home_margin": 5.5,
-    "home_win": 0.604,
-    "total": 46.5,
+    "home_win": 0.645,
+    "total": 48.5,
     "over": 0.5,
-    "home_moneyline": -170.0,
-    "away_moneyline": 142.0
+    "home_moneyline": -205.0,
+    "away_moneyline": 170.0
    },
    "final": null
   },
   {
-   "id": 401856854,
+   "id": 401856853,
    "kickoff": "2026-11-07T12:00:00-05:00",
    "status": "upcoming",
-   "away": "Oklahoma State",
-   "home": "Kansas State",
+   "away": "Iowa State",
+   "home": "Baylor",
    "away_conference": "Big 12",
    "home_conference": "Big 12",
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 3.2,
-    "home_win": 0.579,
-    "total": 61.8,
-    "over": 0.494,
-    "home_cover": 0.49
+    "home_margin": 13.9,
+    "home_win": 0.806,
+    "total": 54.4,
+    "over": 0.493,
+    "home_cover": 0.5
    },
    "vegas": {
-    "home_margin": -6.5,
-    "home_win": 0.369,
-    "total": 60.5,
-    "over": 0.5,
-    "home_moneyline": 160.0,
-    "away_moneyline": -192.0
+    "home_margin": 10.0,
+    "home_win": 0.757,
+    "total": 50.5,
+    "over": 0.504,
+    "home_moneyline": -375.0,
+    "away_moneyline": 295.0
    },
    "final": null
   },
@@ -588,19 +426,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -1.6,
-    "home_win": 0.46,
-    "total": 51.8,
-    "over": 0.495,
-    "home_cover": 0.495
+    "home_margin": -1.9,
+    "home_win": 0.454,
+    "total": 52.1,
+    "over": 0.493,
+    "home_cover": 0.497
    },
    "vegas": {
-    "home_margin": -1.5,
-    "home_win": 0.489,
-    "total": 49.5,
-    "over": 0.5,
-    "home_moneyline": -105.0,
-    "away_moneyline": -115.0
+    "home_margin": -2.5,
+    "home_win": 0.437,
+    "total": 50.5,
+    "over": 0.489,
+    "home_moneyline": 120.0,
+    "away_moneyline": -142.0
    },
    "final": null
   },
@@ -615,19 +453,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -4.9,
-    "home_win": 0.379,
-    "total": 55.3,
-    "over": 0.496,
-    "home_cover": 0.494
+    "home_margin": -4.3,
+    "home_win": 0.396,
+    "total": 55.1,
+    "over": 0.493,
+    "home_cover": 0.498
    },
    "vegas": {
     "home_margin": -6.5,
-    "home_win": 0.325,
-    "total": 51.5,
-    "over": 0.5,
-    "home_moneyline": 195.0,
-    "away_moneyline": -238.0
+    "home_win": 0.309,
+    "total": 50.5,
+    "over": 0.517,
+    "home_moneyline": 210.0,
+    "away_moneyline": -258.0
    },
    "final": null
   },
@@ -642,19 +480,46 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -6.9,
-    "home_win": 0.334,
+    "home_margin": -8.3,
+    "home_win": 0.303,
     "total": 55.8,
-    "over": 0.496,
+    "over": 0.493,
+    "home_cover": 0.496
+   },
+   "vegas": {
+    "home_margin": -7.0,
+    "home_win": 0.3,
+    "total": 54.5,
+    "over": 0.511,
+    "home_moneyline": 220.0,
+    "away_moneyline": -270.0
+   },
+   "final": null
+  },
+  {
+   "id": 401858512,
+   "kickoff": "2026-11-07T12:00:00-05:00",
+   "status": "upcoming",
+   "away": "UCLA",
+   "home": "Minnesota",
+   "away_conference": "Big Ten",
+   "home_conference": "Big Ten",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": -9.4,
+    "home_win": 0.281,
+    "total": 44.2,
+    "over": 0.493,
     "home_cover": 0.494
    },
    "vegas": {
-    "home_margin": -8.5,
-    "home_win": 0.266,
-    "total": 51.5,
+    "home_margin": -5.5,
+    "home_win": 0.343,
+    "total": 39.5,
     "over": 0.5,
-    "home_moneyline": 260.0,
-    "away_moneyline": -325.0
+    "home_moneyline": 180.0,
+    "away_moneyline": -218.0
    },
    "final": null
   },
@@ -669,19 +534,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 3.0,
-    "home_win": 0.573,
-    "total": 53.9,
-    "over": 0.497,
-    "home_cover": 0.492
+    "home_margin": 2.7,
+    "home_win": 0.567,
+    "total": 53.8,
+    "over": 0.493,
+    "home_cover": 0.5
    },
    "vegas": {
-    "home_margin": -3.0,
-    "home_win": 0.437,
-    "total": 48.5,
-    "over": 0.5,
-    "home_moneyline": 120.0,
-    "away_moneyline": -142.0
+    "home_margin": -1.5,
+    "home_win": 0.474,
+    "total": 49.5,
+    "over": 0.504,
+    "home_moneyline": 102.0,
+    "away_moneyline": -122.0
    },
    "final": null
   },
@@ -696,19 +561,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -1.6,
-    "home_win": 0.461,
+    "home_margin": -1.3,
+    "home_win": 0.468,
     "total": 55.7,
-    "over": 0.497,
-    "home_cover": 0.492
+    "over": 0.493,
+    "home_cover": 0.499
    },
    "vegas": {
-    "home_margin": -6.5,
-    "home_win": 0.325,
-    "total": 49.5,
-    "over": 0.5,
-    "home_moneyline": 195.0,
-    "away_moneyline": -238.0
+    "home_margin": -4.5,
+    "home_win": 0.363,
+    "total": 51.5,
+    "over": 0.496,
+    "home_moneyline": 164.0,
+    "away_moneyline": -198.0
    },
    "final": null
   },
@@ -723,46 +588,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 7.5,
-    "home_win": 0.679,
+    "home_margin": 8.5,
+    "home_win": 0.701,
     "total": 57.6,
-    "over": 0.493,
-    "home_cover": 0.495
+    "over": 0.492,
+    "home_cover": 0.498
    },
    "vegas": {
-    "home_margin": 7.0,
+    "home_margin": 6.5,
     "home_win": 0.681,
     "total": 57.5,
     "over": 0.5,
     "home_moneyline": -245.0,
     "away_moneyline": 200.0
-   },
-   "final": null
-  },
-  {
-   "id": 401858517,
-   "kickoff": "2026-11-07T12:30:00-05:00",
-   "status": "upcoming",
-   "away": "Rutgers",
-   "home": "Wisconsin",
-   "away_conference": "Big Ten",
-   "home_conference": "Big Ten",
-   "neutral": false,
-   "fbs_vs_fbs": true,
-   "model": {
-    "home_margin": 15.8,
-    "home_win": 0.837,
-    "total": 48.8,
-    "over": 0.495,
-    "home_cover": 0.495
-   },
-   "vegas": {
-    "home_margin": 16.5,
-    "home_win": 0.847,
-    "total": 46.5,
-    "over": 0.5,
-    "home_moneyline": -750.0,
-    "away_moneyline": 525.0
    },
    "final": null
   },
@@ -777,19 +615,46 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 8.1,
-    "home_win": 0.691,
-    "total": 50.3,
-    "over": 0.493,
-    "home_cover": 0.496
+    "home_margin": 8.6,
+    "home_win": 0.703,
+    "total": 50.4,
+    "over": 0.492,
+    "home_cover": 0.495
    },
    "vegas": {
     "home_margin": 10.5,
-    "home_win": 0.76,
-    "total": 50.5,
-    "over": 0.5,
-    "home_moneyline": -380.0,
-    "away_moneyline": 300.0
+    "home_win": 0.772,
+    "total": 52.5,
+    "over": 0.489,
+    "home_moneyline": -410.0,
+    "away_moneyline": 320.0
+   },
+   "final": null
+  },
+  {
+   "id": 401856854,
+   "kickoff": "2026-11-07T13:00:00-05:00",
+   "status": "upcoming",
+   "away": "Oklahoma State",
+   "home": "Kansas State",
+   "away_conference": "Big 12",
+   "home_conference": "Big 12",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 2.0,
+    "home_win": 0.55,
+    "total": 61.6,
+    "over": 0.492,
+    "home_cover": 0.502
+   },
+   "vegas": {
+    "home_margin": -4.5,
+    "home_win": 0.343,
+    "total": 61.5,
+    "over": 0.511,
+    "home_moneyline": 180.0,
+    "away_moneyline": -218.0
    },
    "final": null
   },
@@ -804,19 +669,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 6.9,
-    "home_win": 0.666,
-    "total": 47.4,
-    "over": 0.494,
-    "home_cover": 0.495
+    "home_margin": 7.3,
+    "home_win": 0.674,
+    "total": 47.5,
+    "over": 0.493,
+    "home_cover": 0.497
    },
    "vegas": {
-    "home_margin": 6.5,
-    "home_win": 0.657,
-    "total": 45.5,
-    "over": 0.5,
-    "home_moneyline": -218.0,
-    "away_moneyline": 180.0
+    "home_margin": 7.0,
+    "home_win": 0.705,
+    "total": 43.5,
+    "over": 0.504,
+    "home_moneyline": -278.0,
+    "away_moneyline": 225.0
    },
    "final": null
   },
@@ -831,19 +696,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 3.8,
-    "home_win": 0.594,
-    "total": 54.5,
-    "over": 0.491,
-    "home_cover": 0.495
+    "home_margin": 4.1,
+    "home_win": 0.601,
+    "total": 54.4,
+    "over": 0.492,
+    "home_cover": 0.496
    },
    "vegas": {
-    "home_margin": 3.5,
-    "home_win": 0.593,
-    "total": 57.5,
-    "over": 0.5,
-    "home_moneyline": -162.0,
-    "away_moneyline": 136.0
+    "home_margin": 5.5,
+    "home_win": 0.645,
+    "total": 55.5,
+    "over": 0.496,
+    "home_moneyline": -205.0,
+    "away_moneyline": 170.0
    },
    "final": null
   },
@@ -858,19 +723,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 5.6,
-    "home_win": 0.636,
-    "total": 52.6,
-    "over": 0.494,
+    "home_margin": 5.9,
+    "home_win": 0.643,
+    "total": 52.5,
+    "over": 0.493,
     "home_cover": 0.496
    },
    "vegas": {
     "home_margin": 7.0,
-    "home_win": 0.691,
+    "home_win": 0.714,
     "total": 51.5,
-    "over": 0.5,
-    "home_moneyline": -258.0,
-    "away_moneyline": 210.0
+    "over": 0.489,
+    "home_moneyline": -290.0,
+    "away_moneyline": 235.0
    },
    "final": null
   },
@@ -885,19 +750,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 16.5,
-    "home_win": 0.847,
-    "total": 51.5,
-    "over": 0.493,
-    "home_cover": 0.494
+    "home_margin": 16.1,
+    "home_win": 0.841,
+    "total": 51.6,
+    "over": 0.492,
+    "home_cover": 0.498
    },
    "vegas": {
     "home_margin": 14.5,
-    "home_win": 0.837,
-    "total": 51.5,
-    "over": 0.5,
-    "home_moneyline": -675.0,
-    "away_moneyline": 490.0
+    "home_win": 0.84,
+    "total": 53.5,
+    "over": 0.496,
+    "home_moneyline": -700.0,
+    "away_moneyline": 500.0
    },
    "final": null
   },
@@ -912,19 +777,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 0.0,
-    "home_win": 0.5,
-    "total": 56.8,
-    "over": 0.497,
-    "home_cover": 0.493
+    "home_margin": -0.7,
+    "home_win": 0.484,
+    "total": 56.6,
+    "over": 0.492,
+    "home_cover": 0.497
    },
    "vegas": {
-    "home_margin": -3.0,
-    "home_win": 0.428,
-    "total": 51.5,
+    "home_margin": -1.5,
+    "home_win": 0.468,
+    "total": 56.5,
     "over": 0.5,
-    "home_moneyline": 124.0,
-    "away_moneyline": -148.0
+    "home_moneyline": 105.0,
+    "away_moneyline": -125.0
    },
    "final": null
   },
@@ -939,19 +804,46 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 6.6,
-    "home_win": 0.659,
-    "total": 53.9,
-    "over": 0.494,
-    "home_cover": 0.494
+    "home_margin": 7.5,
+    "home_win": 0.678,
+    "total": 53.8,
+    "over": 0.493,
+    "home_cover": 0.498
    },
    "vegas": {
-    "home_margin": 4.5,
-    "home_win": 0.609,
+    "home_margin": 5.5,
+    "home_win": 0.664,
     "total": 52.5,
     "over": 0.5,
-    "home_moneyline": -175.0,
-    "away_moneyline": 145.0
+    "home_moneyline": -225.0,
+    "away_moneyline": 185.0
+   },
+   "final": null
+  },
+  {
+   "id": 401856851,
+   "kickoff": "2026-11-07T15:30:00-05:00",
+   "status": "upcoming",
+   "away": "Cincinnati",
+   "home": "Houston",
+   "away_conference": "Big 12",
+   "home_conference": "Big 12",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 13.1,
+    "home_win": 0.791,
+    "total": 58.3,
+    "over": 0.492,
+    "home_cover": 0.498
+   },
+   "vegas": {
+    "home_margin": 11.5,
+    "home_win": 0.782,
+    "total": 62.5,
+    "over": 0.5,
+    "home_moneyline": -440.0,
+    "away_moneyline": 340.0
    },
    "final": null
   },
@@ -966,9 +858,9 @@
    "neutral": false,
    "fbs_vs_fbs": false,
    "model": {
-    "home_margin": 55.5,
+    "home_margin": 57.9,
     "home_win": 1.0,
-    "total": 53.2,
+    "total": 53.4,
     "over": null,
     "home_cover": null
    },
@@ -993,19 +885,46 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 12.8,
-    "home_win": 0.786,
+    "home_margin": 13.1,
+    "home_win": 0.792,
     "total": 50.3,
-    "over": 0.496,
-    "home_cover": 0.493
+    "over": 0.493,
+    "home_cover": 0.501
    },
    "vegas": {
-    "home_margin": 9.5,
-    "home_win": 0.718,
+    "home_margin": 7.5,
+    "home_win": 0.722,
     "total": 46.5,
     "over": 0.5,
-    "home_moneyline": -298.0,
-    "away_moneyline": 240.0
+    "home_moneyline": -305.0,
+    "away_moneyline": 245.0
+   },
+   "final": null
+  },
+  {
+   "id": 401858516,
+   "kickoff": "2026-11-07T15:30:00-05:00",
+   "status": "upcoming",
+   "away": "Penn State",
+   "home": "Washington",
+   "away_conference": "Big Ten",
+   "home_conference": "Big Ten",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 2.0,
+    "home_win": 0.549,
+    "total": 48.4,
+    "over": 0.493,
+    "home_cover": 0.496
+   },
+   "vegas": {
+    "home_margin": 2.5,
+    "home_win": 0.526,
+    "total": 44.5,
+    "over": 0.496,
+    "home_moneyline": -122.0,
+    "away_moneyline": 102.0
    },
    "final": null
   },
@@ -1020,19 +939,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 17.8,
-    "home_win": 0.866,
-    "total": 53.9,
-    "over": 0.495,
-    "home_cover": 0.491
+    "home_margin": 18.2,
+    "home_win": 0.871,
+    "total": 53.8,
+    "over": 0.494,
+    "home_cover": 0.504
    },
    "vegas": {
-    "home_margin": 10.5,
-    "home_win": 0.772,
-    "total": 51.5,
+    "home_margin": 8.5,
+    "home_win": 0.751,
+    "total": 47.5,
     "over": 0.5,
-    "home_moneyline": -410.0,
-    "away_moneyline": 320.0
+    "home_moneyline": -360.0,
+    "away_moneyline": 285.0
    },
    "final": null
   },
@@ -1047,19 +966,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 13.8,
-    "home_win": 0.804,
-    "total": 51.5,
+    "home_margin": 14.4,
+    "home_win": 0.814,
+    "total": 51.4,
     "over": 0.492,
-    "home_cover": 0.492
+    "home_cover": 0.502
    },
    "vegas": {
     "home_margin": 7.5,
-    "home_win": 0.726,
-    "total": 52.5,
-    "over": 0.5,
-    "home_moneyline": -310.0,
-    "away_moneyline": 250.0
+    "home_win": 0.714,
+    "total": 54.5,
+    "over": 0.504,
+    "home_moneyline": -290.0,
+    "away_moneyline": 235.0
    },
    "final": null
   },
@@ -1075,18 +994,18 @@
    "fbs_vs_fbs": true,
    "model": {
     "home_margin": 8.9,
-    "home_win": 0.71,
+    "home_win": 0.709,
     "total": 49.0,
-    "over": 0.489,
+    "over": 0.491,
     "home_cover": 0.495
    },
    "vegas": {
-    "home_margin": 8.5,
-    "home_win": 0.726,
-    "total": 53.5,
-    "over": 0.5,
-    "home_moneyline": -310.0,
-    "away_moneyline": 250.0
+    "home_margin": 10.5,
+    "home_win": 0.766,
+    "total": 54.5,
+    "over": 0.511,
+    "home_moneyline": -395.0,
+    "away_moneyline": 310.0
    },
    "final": null
   },
@@ -1101,19 +1020,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -4.7,
-    "home_win": 0.385,
+    "home_margin": -4.8,
+    "home_win": 0.384,
     "total": 53.6,
-    "over": 0.494,
-    "home_cover": 0.499
+    "over": 0.492,
+    "home_cover": 0.492
    },
    "vegas": {
     "home_margin": 1.5,
-    "home_win": 0.517,
-    "total": 52.5,
-    "over": 0.5,
-    "home_moneyline": -118.0,
-    "away_moneyline": -102.0
+    "home_win": 0.504,
+    "total": 53.5,
+    "over": 0.496,
+    "home_moneyline": -112.0,
+    "away_moneyline": -108.0
    },
    "final": null
   },
@@ -1128,19 +1047,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 7.6,
-    "home_win": 0.682,
-    "total": 54.7,
-    "over": 0.497,
-    "home_cover": 0.493
+    "home_margin": 6.6,
+    "home_win": 0.659,
+    "total": 54.6,
+    "over": 0.494,
+    "home_cover": 0.5
    },
    "vegas": {
-    "home_margin": 3.0,
-    "home_win": 0.551,
+    "home_margin": 2.5,
+    "home_win": 0.563,
     "total": 48.5,
-    "over": 0.5,
-    "home_moneyline": -135.0,
-    "away_moneyline": 114.0
+    "over": 0.496,
+    "home_moneyline": -142.0,
+    "away_moneyline": 120.0
    },
    "final": null
   },
@@ -1157,17 +1076,17 @@
    "model": {
     "home_margin": 22.8,
     "home_win": 0.921,
-    "total": 66.6,
-    "over": 0.494,
-    "home_cover": 0.492
+    "total": 66.7,
+    "over": 0.493,
+    "home_cover": 0.502
    },
    "vegas": {
     "home_margin": 16.5,
-    "home_win": 0.868,
+    "home_win": 0.863,
     "total": 64.5,
-    "over": 0.517,
-    "home_moneyline": -950.0,
-    "away_moneyline": 625.0
+    "over": 0.5,
+    "home_moneyline": -900.0,
+    "away_moneyline": 600.0
    },
    "final": null
   },
@@ -1182,19 +1101,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 10.2,
-    "home_win": 0.736,
+    "home_margin": 10.4,
+    "home_win": 0.74,
     "total": 52.1,
-    "over": null,
-    "home_cover": null
+    "over": 0.493,
+    "home_cover": 0.497
    },
    "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
+    "home_margin": 10.0,
+    "home_win": 0.766,
+    "total": 51.5,
+    "over": 0.511,
+    "home_moneyline": -395.0,
+    "away_moneyline": 310.0
    },
    "final": null
   },
@@ -1209,19 +1128,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 4.6,
-    "home_win": 0.612,
-    "total": 52.3,
-    "over": 0.495,
+    "home_margin": 3.9,
+    "home_win": 0.595,
+    "total": 52.2,
+    "over": 0.493,
     "home_cover": 0.496
    },
    "vegas": {
-    "home_margin": 5.5,
-    "home_win": 0.637,
+    "home_margin": 4.5,
+    "home_win": 0.645,
     "total": 49.5,
-    "over": 0.5,
-    "home_moneyline": -198.0,
-    "away_moneyline": 164.0
+    "over": 0.511,
+    "home_moneyline": -205.0,
+    "away_moneyline": 170.0
    },
    "final": null
   },
@@ -1236,19 +1155,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -5.6,
-    "home_win": 0.365,
+    "home_margin": -6.1,
+    "home_win": 0.352,
     "total": 46.5,
-    "over": 0.494,
+    "over": 0.492,
     "home_cover": 0.495
    },
    "vegas": {
-    "home_margin": -6.5,
-    "home_win": 0.343,
-    "total": 45.5,
+    "home_margin": -4.5,
+    "home_win": 0.363,
+    "total": 47.5,
     "over": 0.483,
-    "home_moneyline": 180.0,
-    "away_moneyline": -218.0
+    "home_moneyline": 164.0,
+    "away_moneyline": -198.0
    },
    "final": null
   },
@@ -1263,19 +1182,46 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 9.6,
-    "home_win": 0.723,
-    "total": 55.6,
-    "over": 0.498,
-    "home_cover": 0.491
+    "home_margin": 10.5,
+    "home_win": 0.742,
+    "total": 55.5,
+    "over": 0.494,
+    "home_cover": 0.503
    },
    "vegas": {
     "home_margin": 3.0,
-    "home_win": 0.551,
+    "home_win": 0.583,
     "total": 48.5,
-    "over": 0.5,
-    "home_moneyline": -135.0,
-    "away_moneyline": 114.0
+    "over": 0.483,
+    "home_moneyline": -155.0,
+    "away_moneyline": 130.0
+   },
+   "final": null
+  },
+  {
+   "id": 401858517,
+   "kickoff": "2026-11-07T16:15:00-05:00",
+   "status": "upcoming",
+   "away": "Rutgers",
+   "home": "Wisconsin",
+   "away_conference": "Big Ten",
+   "home_conference": "Big Ten",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 17.7,
+    "home_win": 0.863,
+    "total": 48.8,
+    "over": 0.493,
+    "home_cover": 0.497
+   },
+   "vegas": {
+    "home_margin": 17.5,
+    "home_win": 0.863,
+    "total": 45.5,
+    "over": 0.496,
+    "home_moneyline": -900.0,
+    "away_moneyline": 600.0
    },
    "final": null
   },
@@ -1290,19 +1236,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 10.8,
-    "home_win": 0.749,
-    "total": 59.8,
-    "over": 0.495,
-    "home_cover": 0.492
+    "home_margin": 10.6,
+    "home_win": 0.744,
+    "total": 59.6,
+    "over": 0.493,
+    "home_cover": 0.498
    },
    "vegas": {
-    "home_margin": 5.5,
-    "home_win": 0.609,
+    "home_margin": 8.5,
+    "home_win": 0.734,
     "total": 57.5,
-    "over": 0.517,
-    "home_moneyline": -175.0,
-    "away_moneyline": 145.0
+    "over": 0.5,
+    "home_moneyline": -325.0,
+    "away_moneyline": 260.0
    },
    "final": null
   },
@@ -1317,19 +1263,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -24.5,
-    "home_win": 0.064,
-    "total": 69.6,
-    "over": 0.494,
-    "home_cover": 0.498
+    "home_margin": -25.1,
+    "home_win": 0.06,
+    "total": 69.4,
+    "over": 0.493,
+    "home_cover": 0.491
    },
    "vegas": {
-    "home_margin": -19.5,
-    "home_win": 0.113,
+    "home_margin": -17.5,
+    "home_win": 0.132,
     "total": 68.5,
-    "over": 0.5,
-    "home_moneyline": 750.0,
-    "away_moneyline": -1200.0
+    "over": 0.511,
+    "home_moneyline": 625.0,
+    "away_moneyline": -950.0
    },
    "final": null
   },
@@ -1345,18 +1291,18 @@
    "fbs_vs_fbs": true,
    "model": {
     "home_margin": 7.4,
-    "home_win": 0.677,
+    "home_win": 0.676,
     "total": 52.7,
-    "over": 0.494,
-    "home_cover": 0.494
+    "over": 0.493,
+    "home_cover": 0.497
    },
    "vegas": {
-    "home_margin": 6.0,
-    "home_win": 0.637,
+    "home_margin": 6.5,
+    "home_win": 0.675,
     "total": 50.5,
     "over": 0.5,
-    "home_moneyline": -198.0,
-    "away_moneyline": 164.0
+    "home_moneyline": -238.0,
+    "away_moneyline": 195.0
    },
    "final": null
   },
@@ -1371,19 +1317,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 21.6,
-    "home_win": 0.91,
+    "home_margin": 21.4,
+    "home_win": 0.907,
     "total": 45.9,
     "over": 0.492,
-    "home_cover": 0.491
+    "home_cover": 0.5
    },
    "vegas": {
-    "home_margin": 14.0,
-    "home_win": 0.812,
-    "total": 47.5,
-    "over": 0.5,
-    "home_moneyline": -550.0,
-    "away_moneyline": 410.0
+    "home_margin": 16.5,
+    "home_win": 0.858,
+    "total": 48.5,
+    "over": 0.483,
+    "home_moneyline": -850.0,
+    "away_moneyline": 575.0
    },
    "final": null
   },
@@ -1398,19 +1344,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -0.1,
-    "home_win": 0.498,
-    "total": 56.8,
+    "home_margin": 0.3,
+    "home_win": 0.507,
+    "total": 56.7,
     "over": 0.493,
-    "home_cover": 0.493
+    "home_cover": 0.5
    },
    "vegas": {
-    "home_margin": -3.0,
-    "home_win": 0.437,
+    "home_margin": -3.5,
+    "home_win": 0.391,
     "total": 56.5,
     "over": 0.5,
-    "home_moneyline": 120.0,
-    "away_moneyline": -142.0
+    "home_moneyline": 145.0,
+    "away_moneyline": -175.0
    },
    "final": null
   },
@@ -1425,19 +1371,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 10.0,
-    "home_win": 0.733,
-    "total": 54.8,
-    "over": 0.497,
-    "home_cover": 0.492
+    "home_margin": 9.8,
+    "home_win": 0.728,
+    "total": 54.7,
+    "over": 0.494,
+    "home_cover": 0.502
    },
    "vegas": {
-    "home_margin": 4.0,
-    "home_win": 0.604,
-    "total": 49.5,
-    "over": 0.5,
-    "home_moneyline": -170.0,
-    "away_moneyline": 142.0
+    "home_margin": 3.0,
+    "home_win": 0.593,
+    "total": 48.5,
+    "over": 0.504,
+    "home_moneyline": -162.0,
+    "away_moneyline": 136.0
    },
    "final": null
   },
@@ -1452,19 +1398,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -16.7,
-    "home_win": 0.15,
+    "home_margin": -17.4,
+    "home_win": 0.141,
     "total": 59.6,
-    "over": 0.493,
-    "home_cover": 0.497
+    "over": 0.492,
+    "home_cover": 0.494
    },
    "vegas": {
-    "home_margin": -13.5,
-    "home_win": 0.178,
-    "total": 59.5,
-    "over": 0.5,
-    "home_moneyline": 440.0,
-    "away_moneyline": -600.0
+    "home_margin": -14.5,
+    "home_win": 0.163,
+    "total": 61.5,
+    "over": 0.489,
+    "home_moneyline": 490.0,
+    "away_moneyline": -675.0
    },
    "final": null
   },
@@ -1479,19 +1425,73 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 4.0,
-    "home_win": 0.598,
-    "total": 62.2,
-    "over": 0.496,
+    "home_margin": 4.2,
+    "home_win": 0.604,
+    "total": 62.0,
+    "over": 0.493,
     "home_cover": 0.495
    },
    "vegas": {
-    "home_margin": 4.5,
-    "home_win": 0.616,
+    "home_margin": 6.0,
+    "home_win": 0.645,
     "total": 57.5,
-    "over": 0.511,
-    "home_moneyline": -180.0,
-    "away_moneyline": 150.0
+    "over": 0.5,
+    "home_moneyline": -205.0,
+    "away_moneyline": 170.0
+   },
+   "final": null
+  },
+  {
+   "id": 401858511,
+   "kickoff": "2026-11-07T19:30:00-05:00",
+   "status": "upcoming",
+   "away": "Michigan State",
+   "home": "Michigan",
+   "away_conference": "Big Ten",
+   "home_conference": "Big Ten",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": 17.9,
+    "home_win": 0.866,
+    "total": 45.3,
+    "over": 0.494,
+    "home_cover": 0.5
+   },
+   "vegas": {
+    "home_margin": 13.5,
+    "home_win": 0.812,
+    "total": 39.5,
+    "over": 0.504,
+    "home_moneyline": -550.0,
+    "away_moneyline": 410.0
+   },
+   "final": null
+  },
+  {
+   "id": 401858513,
+   "kickoff": "2026-11-07T19:30:00-05:00",
+   "status": "upcoming",
+   "away": "Iowa",
+   "home": "Northwestern",
+   "away_conference": "Big Ten",
+   "home_conference": "Big Ten",
+   "neutral": false,
+   "fbs_vs_fbs": true,
+   "model": {
+    "home_margin": -3.8,
+    "home_win": 0.408,
+    "total": 48.6,
+    "over": 0.493,
+    "home_cover": 0.492
+   },
+   "vegas": {
+    "home_margin": 2.5,
+    "home_win": 0.551,
+    "total": 45.5,
+    "over": 0.5,
+    "home_moneyline": -135.0,
+    "away_moneyline": 114.0
    },
    "final": null
   },
@@ -1506,19 +1506,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 4.0,
-    "home_win": 0.598,
+    "home_margin": 4.1,
+    "home_win": 0.601,
     "total": 55.3,
-    "over": 0.496,
-    "home_cover": 0.496
+    "over": 0.495,
+    "home_cover": 0.498
    },
    "vegas": {
-    "home_margin": 5.5,
-    "home_win": 0.622,
-    "total": 51.5,
+    "home_margin": 3.0,
+    "home_win": 0.6,
+    "total": 45.5,
     "over": 0.5,
-    "home_moneyline": -185.0,
-    "away_moneyline": 154.0
+    "home_moneyline": -166.0,
+    "away_moneyline": 140.0
    },
    "final": null
   },
@@ -1533,19 +1533,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 2.3,
-    "home_win": 0.556,
-    "total": 49.6,
+    "home_margin": 2.6,
+    "home_win": 0.564,
+    "total": 49.5,
     "over": 0.494,
-    "home_cover": 0.497
+    "home_cover": 0.494
    },
    "vegas": {
-    "home_margin": 5.5,
-    "home_win": 0.637,
-    "total": 47.5,
-    "over": 0.5,
-    "home_moneyline": -198.0,
-    "away_moneyline": 164.0
+    "home_margin": 6.0,
+    "home_win": 0.675,
+    "total": 44.5,
+    "over": 0.511,
+    "home_moneyline": -238.0,
+    "away_moneyline": 195.0
    },
    "final": null
   },
@@ -1560,19 +1560,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -19.2,
-    "home_win": 0.116,
+    "home_margin": -20.1,
+    "home_win": 0.106,
     "total": 49.5,
-    "over": 0.494,
-    "home_cover": 0.499
+    "over": 0.493,
+    "home_cover": 0.494
    },
    "vegas": {
-    "home_margin": -12.5,
-    "home_win": 0.204,
-    "total": 47.5,
-    "over": 0.5,
-    "home_moneyline": 370.0,
-    "away_moneyline": -485.0
+    "home_margin": -16.5,
+    "home_win": 0.142,
+    "total": 46.5,
+    "over": 0.496,
+    "home_moneyline": 575.0,
+    "away_moneyline": -850.0
    },
    "final": null
   },
@@ -1587,19 +1587,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 18.6,
-    "home_win": 0.875,
-    "total": 63.8,
-    "over": 0.493,
-    "home_cover": 0.494
+    "home_margin": 18.0,
+    "home_win": 0.868,
+    "total": 63.7,
+    "over": 0.492,
+    "home_cover": 0.497
    },
    "vegas": {
     "home_margin": 17.5,
-    "home_win": 0.84,
-    "total": 63.5,
+    "home_win": 0.863,
+    "total": 64.5,
     "over": 0.511,
-    "home_moneyline": -700.0,
-    "away_moneyline": 500.0
+    "home_moneyline": -900.0,
+    "away_moneyline": 600.0
    },
    "final": null
   },
@@ -1614,19 +1614,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -2.7,
-    "home_win": 0.432,
-    "total": 43.4,
-    "over": 0.494,
-    "home_cover": 0.495
+    "home_margin": -3.4,
+    "home_win": 0.417,
+    "total": 43.5,
+    "over": 0.493,
+    "home_cover": 0.496
    },
    "vegas": {
     "home_margin": -2.5,
-    "home_win": 0.468,
-    "total": 41.5,
-    "over": 0.5,
-    "home_moneyline": 105.0,
-    "away_moneyline": -125.0
+    "home_win": 0.457,
+    "total": 42.5,
+    "over": 0.496,
+    "home_moneyline": 110.0,
+    "away_moneyline": -130.0
    },
    "final": null
   },
@@ -1641,19 +1641,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -13.5,
-    "home_win": 0.201,
+    "home_margin": -13.2,
+    "home_win": 0.207,
     "total": 51.6,
-    "over": 0.494,
-    "home_cover": 0.497
+    "over": 0.493,
+    "home_cover": 0.494
    },
    "vegas": {
-    "home_margin": -10.5,
-    "home_win": 0.234,
+    "home_margin": -9.5,
+    "home_win": 0.256,
     "total": 49.5,
     "over": 0.5,
-    "home_moneyline": 310.0,
-    "away_moneyline": -395.0
+    "home_moneyline": 275.0,
+    "away_moneyline": -345.0
    },
    "final": null
   },
@@ -1668,19 +1668,19 @@
    "neutral": false,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": 6.0,
-    "home_win": 0.645,
-    "total": 67.6,
-    "over": null,
-    "home_cover": null
+    "home_margin": 6.6,
+    "home_win": 0.658,
+    "total": 67.2,
+    "over": 0.491,
+    "home_cover": 0.497
    },
    "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
+    "home_margin": 6.5,
+    "home_win": 0.685,
+    "total": 72.5,
+    "over": 0.496,
+    "home_moneyline": -250.0,
+    "away_moneyline": 205.0
    },
    "final": null
   },
@@ -1697,17 +1697,17 @@
    "model": {
     "home_margin": 7.8,
     "home_win": 0.685,
-    "total": 45.8,
-    "over": null,
-    "home_cover": null
+    "total": 45.9,
+    "over": 0.492,
+    "home_cover": 0.498
    },
    "vegas": {
-    "home_margin": null,
-    "home_win": null,
-    "total": null,
-    "over": null,
-    "home_moneyline": null,
-    "away_moneyline": null
+    "home_margin": 6.0,
+    "home_win": 0.669,
+    "total": 48.5,
+    "over": 0.489,
+    "home_moneyline": -230.0,
+    "away_moneyline": 190.0
    },
    "final": null
   }
@@ -1850,7 +1850,7 @@
    "winner": false,
    "ats": "loss",
    "over_under": "loss",
-   "review": "Fresno State beat Oregon State 38\u201322. The model had Oregon State by 5.9, so it was 21.9 points off. Fresno State did 22 points better than expected. Main reason: finishing drives, worth about 5 points. Fresno State scored 31 points on 7 trips inside the 40, and Oregon State 23 on 8. Another 12 points don't show up in these stats: things like field position, kicking, penalties or late-game situations.",
+   "review": "Fresno State beat Oregon State 38\u201322. The model had Oregon State by 5.9, so it was 21.9 points off. Fresno State did 22 points better than expected. Main reason: nothing in these stats stands out, so it came down to things like field position, kicking, penalties or late-game situations.",
    "total_review": "Total points: 60, against the model's 56.9 and the market's 57.5, so 3.1 more than the model expected. Close: within a touchdown."
   },
   {
@@ -1875,7 +1875,7 @@
    "winner": true,
    "ats": "loss",
    "over_under": "win",
-   "review": "UNLV beat Northern Illinois 31\u201324. The model had UNLV by 24.7, so it was 17.7 points off. Northern Illinois did 18 points better than expected. Main reason: efficiency, worth about 19 points. Northern Illinois succeeded on 45% of its plays and UNLV on 52%, which usually means UNLV by 5.",
+   "review": "UNLV beat Northern Illinois 31\u201324. The model had UNLV by 24.7, so it was 17.7 points off. Northern Illinois did 18 points better than expected. Main reason: efficiency, worth about 20 points. Northern Illinois succeeded on 46% of its plays and UNLV on 52%, which usually means UNLV by 5.",
    "total_review": "Total points: 55, against the model's 55.8 and the market's 53.5, so 0.8 fewer than the model expected. Close: within a touchdown."
   },
   {
@@ -1925,8 +1925,8 @@
    "winner": true,
    "ats": "loss",
    "over_under": "loss",
-   "review": "Memphis beat Army 49\u201322. The model had Memphis by 5.4, so it was 21.6 points off. Memphis did 22 points better than expected. Biggest reasons: efficiency, worth about 13 points. Memphis succeeded on 61% of its plays and Army on 45%, which usually means Memphis by 18; and finishing drives, worth about 4 points. Memphis scored 42 points on 7 trips inside the 40, and Army 21 on 4.",
-   "total_review": "Total points: 71, against the model's 58.4 and the market's 59.5, so 12.6 more than the model expected. Biggest reasons: efficiency, worth about 17 points. The offenses succeeded on 61% and 45% of their plays, which usually means about 75 points; and big plays, worth about 10 points. The teams had 9 plays of 20+ yards."
+   "review": "Memphis beat Army 49\u201322. The model had Memphis by 5.4, so it was 21.6 points off. Memphis did 22 points better than expected. Biggest reasons: efficiency, worth about 12 points. Memphis succeeded on 61% of its plays and Army on 47%, which usually means Memphis by 17; and finishing drives, worth about 7 points. Memphis scored 49 points on 7 trips inside the 40, and Army 21 on 4.",
+   "total_review": "Total points: 71, against the model's 58.4 and the market's 59.5, so 12.6 more than the model expected. Biggest reasons: efficiency, worth about 19 points. The offenses succeeded on 61% and 47% of their plays, which usually means about 78 points; and finishing drives, worth about 13 points. The teams scored 70 points on 11 trips inside the 40."
   },
   {
    "id": 401858504,
@@ -1950,8 +1950,8 @@
    "winner": false,
    "ats": "loss",
    "over_under": "loss",
-   "review": null,
-   "total_review": null
+   "review": "Washington beat Nebraska 17\u201310. The model had Nebraska by 8.3, so it was 15.3 points off. Washington did 15 points better than expected. Biggest reasons: turnovers, worth about 10 points. Nebraska had 3 turnovers and Washington 0; and defensive and return touchdowns, worth about 5 points. Washington scored 1 on defense or special teams.",
+   "total_review": "Total points: 27, against the model's 51.4 and the market's 49.5, so 24.4 fewer than the model expected. Main reason: efficiency, worth about 7 points. The offenses succeeded on 44% and 32% of their plays, which usually means about 45 points. Another 35 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
   },
   {
    "id": 401856733,
@@ -2025,8 +2025,8 @@
    "winner": true,
    "ats": "loss",
    "over_under": "win",
-   "review": "Miami beat North Carolina 38\u201335. The model had Miami by 18.2, so it was 15.2 points off. North Carolina did 15 points better than expected. Main reason: efficiency, worth about 21 points. North Carolina succeeded on 61% of its plays and Miami on 58%, which usually means North Carolina by 3.",
-   "total_review": "Total points: 73, against the model's 54.3 and the market's 52.5, so 18.7 more than the model expected. Biggest reasons: efficiency, worth about 33 points. The offenses succeeded on 61% and 58% of their plays, which usually means about 87 points; and finishing drives, worth about 13 points. The teams scored 73 points on 12 trips inside the 40."
+   "review": "Miami beat North Carolina 38\u201335. The model had Miami by 18.2, so it was 15.2 points off. North Carolina did 15 points better than expected. Main reason: efficiency, worth about 23 points. North Carolina succeeded on 61% of its plays and Miami on 56%, which usually means North Carolina by 5.",
+   "total_review": "Total points: 73, against the model's 54.3 and the market's 52.5, so 18.7 more than the model expected. Biggest reasons: efficiency, worth about 32 points. The offenses succeeded on 61% and 56% of their plays, which usually means about 86 points; and finishing drives, worth about 13 points. The teams scored 73 points on 12 trips inside the 40."
   },
   {
    "id": 401858281,
@@ -2076,7 +2076,7 @@
    "ats": "loss",
    "over_under": "loss",
    "review": "Texas beat Mississippi State 31\u20133. The model had Texas by 17.4, so it was 10.6 points off. Texas did 11 points better than expected. Biggest reasons: defensive and return touchdowns, worth about 9 points. Texas scored 2 on defense or special teams; and finishing drives, worth about 8 points. Texas scored 17 points on 3 trips inside the 40, and Mississippi State 3 on 4.",
-   "total_review": "Total points: 34, against the model's 55.1 and the market's 50.5, so 21.1 fewer than the model expected. Biggest reasons: efficiency, worth about 26 points. The offenses succeeded on 36% and 26% of their plays, which usually means about 29 points; and finishing drives, worth about 4 points. The teams scored 20 points on 7 trips inside the 40. Another 13 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
+   "total_review": "Total points: 34, against the model's 55.1 and the market's 50.5, so 21.1 fewer than the model expected. Biggest reasons: efficiency, worth about 25 points. The offenses succeeded on 37% and 26% of their plays, which usually means about 30 points; and finishing drives, worth about 4 points. The teams scored 20 points on 7 trips inside the 40. Another 14 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
   },
   {
    "id": 401860909,
@@ -2176,7 +2176,7 @@
    "ats": "win",
    "over_under": "win",
    "review": "Georgia Southern beat App State 19\u20133. The model had Georgia Southern by 5.7, so it was 10.3 points off. Georgia Southern did 10 points better than expected. Biggest reasons: turnovers, worth about 10 points. App State had 3 turnovers and Georgia Southern 0; and efficiency, worth about 6 points. Georgia Southern succeeded on 43% of its plays and App State on 34%, which usually means Georgia Southern by 12.",
-   "total_review": "Total points: 22, against the model's 52.6 and the market's 56.5, so 30.6 fewer than the model expected. Biggest reasons: finishing drives, worth about 11 points. The teams scored 22 points on 11 trips inside the 40; and efficiency, worth about 7 points. The offenses succeeded on 43% and 34% of their plays, which usually means about 45 points. Another 24 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
+   "total_review": "Total points: 22, against the model's 52.6 and the market's 56.5, so 30.6 fewer than the model expected. Biggest reasons: finishing drives, worth about 11 points. The teams scored 22 points on 11 trips inside the 40; and efficiency, worth about 7 points. The offenses succeeded on 43% and 34% of their plays, which usually means about 45 points. Another 23 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
   },
   {
    "id": 401858508,
@@ -2250,7 +2250,7 @@
    "winner": false,
    "ats": "loss",
    "over_under": "win",
-   "review": "South Carolina beat Oklahoma 42\u201325. The model had Oklahoma by 6.1, so it was 23.1 points off. South Carolina did 23 points better than expected. Main reason: efficiency, worth about 12 points. South Carolina succeeded on 43% of its plays and Oklahoma on 36%, which usually means South Carolina by 6. Another 21 points don't show up in these stats: things like field position, kicking, penalties or late-game situations.",
+   "review": "South Carolina beat Oklahoma 42\u201325. The model had Oklahoma by 6.1, so it was 23.1 points off. South Carolina did 23 points better than expected. Main reason: efficiency, worth about 13 points. South Carolina succeeded on 43% of its plays and Oklahoma on 36%, which usually means South Carolina by 7. Another 20 points don't show up in these stats: things like field position, kicking, penalties or late-game situations.",
    "total_review": "Total points: 67, against the model's 46.2 and the market's 44.5, so 20.8 more than the model expected. Biggest reasons: big plays, worth about 8 points. The teams had 7 plays of 20+ yards; and defensive and return touchdowns, worth about 7 points. There was 1."
   },
   {
@@ -2300,7 +2300,7 @@
    "winner": true,
    "ats": "win",
    "over_under": "loss",
-   "review": "Wake Forest beat Virginia 51\u20137. The model had Wake Forest by 16.0, so it was 28.0 points off. Wake Forest did 28 points better than expected. Biggest reasons: finishing drives, worth about 14 points. Wake Forest scored 51 points on 9 trips inside the 40, and Virginia 0 on 4; and turnovers, worth about 7 points. Virginia had 2 turnovers and Wake Forest 0.",
+   "review": "Wake Forest beat Virginia 51\u20137. The model had Wake Forest by 16.0, so it was 28.0 points off. Wake Forest did 28 points better than expected. Biggest reasons: finishing drives, worth about 14 points. Wake Forest scored 51 points on 9 trips inside the 40, and Virginia 0 on 4; and big plays, worth about 5 points. Wake Forest had 8 plays of 20+ yards and Virginia 2.",
    "total_review": "Total points: 58, against the model's 48.1 and the market's 49.5, so 9.9 more than the model expected. Biggest reasons: big plays, worth about 12 points. The teams had 10 plays of 20+ yards; and efficiency, worth about 11 points. The offenses succeeded on 54% and 36% of their plays, which usually means about 59 points."
   },
   {
@@ -2325,8 +2325,8 @@
    "winner": true,
    "ats": "win",
    "over_under": "win",
-   "review": "Utah beat Cincinnati 49\u201325. The model had Utah by 13.1, so it was 10.9 points off. Utah did 11 points better than expected. Main reason: defensive and return touchdowns, worth about 5 points. Utah scored 1 on defense or special teams.",
-   "total_review": "Total points: 74, against the model's 56.6 and the market's 56.5, so 17.4 more than the model expected. Biggest reasons: big plays, worth about 17 points. The teams had 15 plays of 20+ yards; and efficiency, worth about 9 points. The offenses succeeded on 41% and 56% of their plays, which usually means about 66 points."
+   "review": "Utah beat Cincinnati 49\u201325. The model had Utah by 13.1, so it was 10.9 points off. Utah did 11 points better than expected. Biggest reasons: defensive and return touchdowns, worth about 5 points. Utah scored 2 on defense or special teams and Cincinnati 1; and efficiency, worth about 4 points. Utah succeeded on 57% of its plays and Cincinnati on 41%, which usually means Utah by 18.",
+   "total_review": "Total points: 74, against the model's 56.6 and the market's 56.5, so 17.4 more than the model expected. Biggest reasons: defensive and return touchdowns, worth about 20 points. There were 3; and big plays, worth about 17 points. The teams had 15 plays of 20+ yards."
   },
   {
    "id": 401871095,
@@ -2350,7 +2350,7 @@
    "winner": true,
    "ats": "win",
    "over_under": "loss",
-   "review": "Southern Miss beat UL Monroe 35\u201321. The model had Southern Miss by 3.6, so it was 10.4 points off. Southern Miss did 10 points better than expected. Main reason: defensive and return touchdowns, worth about 5 points. Southern Miss scored 1 on defense or special teams. Another 13 points don't show up in these stats: things like field position, kicking, penalties or late-game situations.",
+   "review": "Southern Miss beat UL Monroe 35\u201321. The model had Southern Miss by 3.6, so it was 10.4 points off. Southern Miss did 10 points better than expected. Main reason: defensive and return touchdowns, worth about 5 points. Southern Miss scored 1 on defense or special teams. Another 12 points don't show up in these stats: things like field position, kicking, penalties or late-game situations.",
    "total_review": "Total points: 56, against the model's 55.1 and the market's 55.5, so 0.9 more than the model expected. Close: within a touchdown."
   },
   {
@@ -2401,7 +2401,7 @@
    "ats": "loss",
    "over_under": "loss",
    "review": "North Dakota State beat UTEP 31\u20137. The model had North Dakota State by 27.2, so it was 3.2 points off. Close: within a touchdown.",
-   "total_review": "Total points: 38, against the model's 49.1 and the market's 42.5, so 11.1 fewer than the model expected. Main reason: efficiency, worth about 6 points. The offenses succeeded on 43% and 32% of their plays, which usually means about 43 points. Another 25 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
+   "total_review": "Total points: 38, against the model's 49.1 and the market's 42.5, so 11.1 fewer than the model expected. Main reason: efficiency, worth about 5 points. The offenses succeeded on 43% and 33% of their plays, which usually means about 44 points. Another 25 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
   },
   {
    "id": 401860910,
@@ -2525,8 +2525,8 @@
    "winner": true,
    "ats": "win",
    "over_under": "loss",
-   "review": "BYU beat Arizona State 27\u201320. The model had BYU by 14.0, so it was 7.0 points off. Arizona State did 7 points better than expected. Main reason: efficiency, worth about 18 points. Arizona State succeeded on 39% of its plays and BYU on 37%, which usually means Arizona State by 4.",
-   "total_review": "Total points: 47, against the model's 54.5 and the market's 48.5, so 7.5 fewer than the model expected. Main reason: efficiency, worth about 9 points. The offenses succeeded on 37% and 39% of their plays, which usually means about 45 points."
+   "review": "BYU beat Arizona State 27\u201320. The model had BYU by 14.0, so it was 7.0 points off. Arizona State did 7 points better than expected. Biggest reasons: efficiency, worth about 18 points. Arizona State succeeded on 39% of its plays and BYU on 37%, which usually means Arizona State by 4; and turnovers, worth about 7 points. BYU had 3 turnovers and Arizona State 1.",
+   "total_review": "Total points: 47, against the model's 54.5 and the market's 48.5, so 7.5 fewer than the model expected. Main reason: efficiency, worth about 9 points. The offenses succeeded on 37% and 39% of their plays, which usually means about 45 points. Another 8 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
   },
   {
    "id": 401856734,
@@ -2600,7 +2600,7 @@
    "winner": true,
    "ats": "win",
    "over_under": "loss",
-   "review": "Louisiana Tech beat South Alabama 35\u201320. The model had Louisiana Tech by 7.5, so it was 7.5 points off. Louisiana Tech did 8 points better than expected. Biggest reasons: finishing drives, worth about 12 points. Louisiana Tech scored 35 points on 6 trips inside the 40, and South Alabama 21 on 9; and turnovers, worth about 7 points. South Alabama had 2 turnovers and Louisiana Tech 0.",
+   "review": "Louisiana Tech beat South Alabama 35\u201320. The model had Louisiana Tech by 7.5, so it was 7.5 points off. Louisiana Tech did 8 points better than expected. Biggest reasons: finishing drives, worth about 10 points. Louisiana Tech scored 35 points on 7 trips inside the 40, and South Alabama 21 on 9; and turnovers, worth about 7 points. South Alabama had 2 turnovers and Louisiana Tech 0.",
    "total_review": "Total points: 55, against the model's 59.5 and the market's 57.5, so 4.5 fewer than the model expected. Close: within a touchdown."
   },
   {
@@ -2626,7 +2626,7 @@
    "ats": "win",
    "over_under": "loss",
    "review": "East Carolina beat Temple 17\u20139. The model had East Carolina by 12.0, so it was 4.0 points off. Close: within a touchdown.",
-   "total_review": "Total points: 26, against the model's 54.6 and the market's 49.5, so 28.6 fewer than the model expected. Main reason: finishing drives, worth about 5 points. The teams scored 26 points on 9 trips inside the 40. Another 27 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
+   "total_review": "Total points: 26, against the model's 54.6 and the market's 49.5, so 28.6 fewer than the model expected. Main reason: finishing drives, worth about 7 points. The teams scored 26 points on 10 trips inside the 40. Another 25 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
   },
   {
    "id": 401861966,
@@ -2726,7 +2726,7 @@
    "ats": "win",
    "over_under": "loss",
    "review": "Marshall beat Old Dominion 36\u201323. The model had Marshall by 3.9, so it was 9.1 points off. Marshall did 9 points better than expected. Biggest reasons: turnovers, worth about 10 points. Old Dominion had 4 turnovers and Marshall 1; and finishing drives, worth about 4 points. Marshall scored 22 points on 7 trips inside the 40, and Old Dominion 17 on 8. Another 9 points don't show up in these stats: things like field position, kicking, penalties or late-game situations.",
-   "total_review": "Total points: 59, against the model's 42.7 and the market's 45.5, so 16.3 more than the model expected. Biggest reasons: big plays, worth about 16 points. The teams had 14 plays of 20+ yards; and defensive and return touchdowns, worth about 7 points. There was 1."
+   "total_review": "Total points: 59, against the model's 42.7 and the market's 45.5, so 16.3 more than the model expected. Biggest reasons: big plays, worth about 17 points. The teams had 15 plays of 20+ yards; and defensive and return touchdowns, worth about 13 points. There were 2."
   },
   {
    "id": 401856735,
@@ -2750,7 +2750,7 @@
    "winner": true,
    "ats": "win",
    "over_under": "loss",
-   "review": "Ole Miss beat Auburn 45\u201315. The model had Ole Miss by 14.8, so it was 15.2 points off. Ole Miss did 15 points better than expected. Biggest reasons: finishing drives, worth about 9 points. Ole Miss scored 45 points on 7 trips inside the 40, and Auburn 17 on 5; and efficiency, worth about 9 points. Ole Miss succeeded on 55% of its plays and Auburn on 34%, which usually means Ole Miss by 24.",
+   "review": "Ole Miss beat Auburn 45\u201315. The model had Ole Miss by 14.8, so it was 15.2 points off. Ole Miss did 15 points better than expected. Biggest reasons: finishing drives, worth about 11 points. Ole Miss scored 45 points on 7 trips inside the 40, and Auburn 17 on 6; and efficiency, worth about 9 points. Ole Miss succeeded on 55% of its plays and Auburn on 33%, which usually means Ole Miss by 24.",
    "total_review": "Total points: 60, against the model's 55.8 and the market's 57.5, so 4.2 more than the model expected. Close: within a touchdown."
   },
   {
@@ -2826,7 +2826,7 @@
    "ats": "win",
    "over_under": "loss",
    "review": "South Florida beat UAB 30\u201310. The model had South Florida by 9.8, so it was 10.2 points off. South Florida did 10 points better than expected. Biggest reasons: defensive and return touchdowns, worth about 9 points. South Florida scored 2 on defense or special teams; and turnovers, worth about 7 points. UAB had 2 turnovers and South Florida 0.",
-   "total_review": "Total points: 40, against the model's 48.1 and the market's 42.5, so 8.1 fewer than the model expected. Main reason: efficiency, worth about 20 points. The offenses succeeded on 35% and 27% of their plays, which usually means about 28 points."
+   "total_review": "Total points: 40, against the model's 48.1 and the market's 42.5, so 8.1 fewer than the model expected. Main reason: efficiency, worth about 20 points. The offenses succeeded on 35% and 26% of their plays, which usually means about 28 points."
   },
   {
    "id": 401859185,
@@ -2900,8 +2900,8 @@
    "winner": true,
    "ats": "win",
    "over_under": "loss",
-   "review": "Iowa beat Wisconsin 30\u20130. The model had Iowa by 8.8, so it was 21.2 points off. Iowa did 21 points better than expected. Biggest reasons: efficiency, worth about 13 points. Iowa succeeded on 48% of its plays and Wisconsin on 27%, which usually means Iowa by 22; and finishing drives, worth about 5 points. Iowa scored 30 points on 7 trips inside the 40, and Wisconsin 0 on 2.",
-   "total_review": "Total points: 30, against the model's 40.4 and the market's 36.5, so 10.4 fewer than the model expected. Main reason: nothing in these stats stands out, so it came down to things like field position, kicking, penalties or late-game situations."
+   "review": "Iowa beat Wisconsin 30\u20130. The model had Iowa by 8.8, so it was 21.2 points off. Iowa did 21 points better than expected. Biggest reasons: efficiency, worth about 14 points. Iowa succeeded on 48% of its plays and Wisconsin on 26%, which usually means Iowa by 22; and turnovers, worth about 7 points. Wisconsin had 3 turnovers and Iowa 1.",
+   "total_review": "Total points: 30, against the model's 40.4 and the market's 36.5, so 10.4 fewer than the model expected. Main reason: finishing drives, worth about 5 points. The teams scored 30 points on 10 trips inside the 40. Another 13 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
   },
   {
    "id": 401858279,
@@ -2925,7 +2925,7 @@
    "winner": true,
    "ats": "win",
    "over_under": "win",
-   "review": "Duke beat Boston College 47\u20132. The model had Duke by 8.3, so it was 36.7 points off. Duke did 37 points better than expected. Main reason: finishing drives, worth about 11 points. Duke scored 41 points on 8 trips inside the 40, and Boston College 0 on 4. Another 26 points don't show up in these stats: things like field position, kicking, penalties or late-game situations.",
+   "review": "Duke beat Boston College 47\u20132. The model had Duke by 8.3, so it was 36.7 points off. Duke did 37 points better than expected. Main reason: finishing drives, worth about 13 points. Duke scored 41 points on 8 trips inside the 40, and Boston College 0 on 5. Another 27 points don't show up in these stats: things like field position, kicking, penalties or late-game situations.",
    "total_review": "Total points: 49, against the model's 53.4 and the market's 47.5, so 4.4 fewer than the model expected. Close: within a touchdown."
   },
   {
@@ -2950,7 +2950,7 @@
    "winner": false,
    "ats": "win",
    "over_under": "no pick",
-   "review": "Syracuse beat SMU 30\u201327. The model had SMU by 9.8, so it was 12.8 points off. Syracuse did 13 points better than expected. Main reason: nothing in these stats stands out, so it came down to things like field position, kicking, penalties or late-game situations.",
+   "review": "Syracuse beat SMU 30\u201327. The model had SMU by 9.8, so it was 12.8 points off. Syracuse did 13 points better than expected. Main reason: turnovers, worth about 7 points. SMU had 2 turnovers and Syracuse 0.",
    "total_review": "Total points: 57, against the model's 58.5 and the market's 58.5, so 1.5 fewer than the model expected. Close: within a touchdown."
   },
   {
@@ -2976,7 +2976,7 @@
    "ats": "win",
    "over_under": "loss",
    "review": "NC State beat California 31\u201310. The model had NC State by 13.6, so it was 7.4 points off. NC State did 7 points better than expected. Main reason: nothing in these stats stands out, so it came down to things like field position, kicking, penalties or late-game situations.",
-   "total_review": "Total points: 41, against the model's 58.9 and the market's 56.5, so 17.9 fewer than the model expected. Main reason: efficiency, worth about 14 points. The offenses succeeded on 44% and 32% of their plays, which usually means about 45 points. Another 11 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
+   "total_review": "Total points: 41, against the model's 58.9 and the market's 56.5, so 17.9 fewer than the model expected. Main reason: efficiency, worth about 13 points. The offenses succeeded on 45% and 32% of their plays, which usually means about 46 points. Another 10 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
   },
   {
    "id": 401856842,
@@ -3050,7 +3050,7 @@
    "winner": false,
    "ats": "loss",
    "over_under": "win",
-   "review": "Baylor beat UCF 41\u20139. The model had UCF by 2.6, so it was 34.6 points off. Baylor did 35 points better than expected. Biggest reasons: efficiency, worth about 18 points. Baylor succeeded on 47% of its plays and UCF on 32%, which usually means Baylor by 16; and big plays, worth about 4 points. Baylor had 8 plays of 20+ yards and UCF 3.",
+   "review": "Baylor beat UCF 41\u20139. The model had UCF by 2.6, so it was 34.6 points off. Baylor did 35 points better than expected. Biggest reasons: efficiency, worth about 18 points. Baylor succeeded on 47% of its plays and UCF on 32%, which usually means Baylor by 16; and turnovers, worth about 7 points. UCF had 2 turnovers and Baylor 0.",
    "total_review": "Total points: 50, against the model's 53.7 and the market's 47.5, so 3.7 fewer than the model expected. Close: within a touchdown."
   },
   {
@@ -3201,7 +3201,7 @@
    "ats": "loss",
    "over_under": "loss",
    "review": "Missouri State beat Sam Houston 24\u20133. The model had Missouri State by 4.6, so it was 16.4 points off. Missouri State did 16 points better than expected. Main reason: finishing drives, worth about 8 points. Missouri State scored 24 points on 5 trips inside the 40, and Sam Houston 3 on 4. Another 11 points don't show up in these stats: things like field position, kicking, penalties or late-game situations.",
-   "total_review": "Total points: 27, against the model's 56.3 and the market's 52.5, so 29.3 fewer than the model expected. Biggest reasons: efficiency, worth about 21 points. The offenses succeeded on 36% and 32% of their plays, which usually means about 35 points; and finishing drives, worth about 5 points. The teams scored 27 points on 9 trips inside the 40. Another 13 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
+   "total_review": "Total points: 27, against the model's 56.3 and the market's 52.5, so 29.3 fewer than the model expected. Biggest reasons: efficiency, worth about 22 points. The offenses succeeded on 36% and 32% of their plays, which usually means about 34 points; and finishing drives, worth about 5 points. The teams scored 27 points on 9 trips inside the 40. Another 13 points don't show up in these stats: things like field position, kicking, penalties or late-game situations."
   },
   {
    "id": 401871071,
@@ -3225,7 +3225,7 @@
    "winner": false,
    "ats": "loss",
    "over_under": "win",
-   "review": "Delaware beat Western Kentucky 35\u201321. The model had Western Kentucky by 7.2, so it was 21.2 points off. Delaware did 21 points better than expected. Biggest reasons: finishing drives, worth about 10 points. Delaware scored 35 points on 6 trips inside the 40, and Western Kentucky 21 on 8; and efficiency, worth about 6 points. Delaware succeeded on 48% of its plays and Western Kentucky on 49%, which usually means Western Kentucky by 1.",
+   "review": "Delaware beat Western Kentucky 35\u201321. The model had Western Kentucky by 7.2, so it was 21.2 points off. Delaware did 21 points better than expected. Biggest reasons: finishing drives, worth about 10 points. Delaware scored 35 points on 6 trips inside the 40, and Western Kentucky 21 on 8; and efficiency, worth about 7 points. Delaware succeeded on 49% of its plays and Western Kentucky on 49%, which usually means Western Kentucky by 1.",
    "total_review": "Total points: 56, against the model's 54.7 and the market's 56.5, so 1.3 more than the model expected. Close: within a touchdown."
   },
   {
@@ -6132,9 +6132,9 @@
  "report": {
   "benchmark": {
    "seasons": "2020\u20132025",
-   "games": 4985,
-   "winners": 0.746,
-   "brier": 0.167,
+   "games": 4078,
+   "winners": 0.74,
+   "brier": 0.168,
    "margin_miss": 12.9,
    "total_miss": 13.0,
    "vegas_margin_miss": 12.2,
@@ -6142,33 +6142,33 @@
    "calibration": [
     {
      "label": "50\u201360%",
-     "games": 1054,
-     "predicted": 0.55,
-     "actual": 0.555
+     "games": 871,
+     "predicted": 0.551,
+     "actual": 0.546
     },
     {
      "label": "60\u201370%",
-     "games": 1016,
-     "predicted": 0.648,
-     "actual": 0.634
+     "games": 836,
+     "predicted": 0.649,
+     "actual": 0.612
     },
     {
      "label": "70\u201380%",
-     "games": 997,
-     "predicted": 0.748,
-     "actual": 0.747
+     "games": 806,
+     "predicted": 0.749,
+     "actual": 0.754
     },
     {
      "label": "80\u201390%",
-     "games": 878,
-     "predicted": 0.849,
-     "actual": 0.855
+     "games": 718,
+     "predicted": 0.848,
+     "actual": 0.852
     },
     {
      "label": "90%+",
-     "games": 1040,
+     "games": 847,
      "predicted": 0.955,
-     "actual": 0.957
+     "actual": 0.954
     }
    ]
   },

@@ -60,62 +60,62 @@
   ],
   "College": [
    {
-    "lesson": "The 'model total 3+ above Vegas means the over hits' pattern does not hold up; if anything the over hit less often.",
-    "evidence": "Week 8: over hit in 8 of 17 such games. Week 9 so far: 1 of 5 (only Baylor-UCF went over). Combined that is 9 of 22 (41%). I treat the earlier Week 7-8 count of 8 of 13 as overlapping, so I'm not adding it.",
+    "lesson": "The 'model total 3+ above Vegas means the over hits' pattern does not hold up; the over hit less often than not.",
+    "evidence": "Week 8: over hit in 8 of 17 such games. Week 9 (full list): 3 of 12 (only UConn-Air Force, Kansas State-Colorado and Michigan-Rutgers went over). Combined 11 of 29 (38%).",
     "status": "worth testing",
     "test": "On past seasons, group games by model total minus Vegas total (0-3, 3-6, 6+) and check how often the over hits in each group. Need 20+ games per group.",
     "first_noted": "2026-10-17"
    },
    {
-    "lesson": "Big misses mostly show up as efficiency gaps; turnovers and finishing drives come second.",
-    "evidence": "Week 8 results: of 25 games missed by 8+ points, efficiency was named first in 15, turnovers in 4, finishing drives in 4, and nothing stood out in 2. Earlier sets showed the same (17 of 24; 12 of 17). Week 9 results had no reviews. Efficiency is measured after the game, so it partly restates the miss.",
+    "lesson": "Big misses are spread across several causes; efficiency leads less clearly than before.",
+    "evidence": "Week 9 reviews, 26 games missed by 8+ points: efficiency first in 7, defensive/return touchdowns 6, turnovers 5, finishing drives 5, nothing stood out 3. Week 8 had efficiency first in 15 of 25. Efficiency is measured after the game, so it partly restates the miss.",
     "status": "worth testing",
-    "test": "On past seasons, check whether a team's success rate in prior games predicts the model's error next game. Also compare turnover margin and points per trip inside the 40 with the long-run average, to see if misses lean one way or are random.",
+    "test": "On past seasons, check whether a team's success rate in prior games predicts the model's error next game. Also compare turnover margin, defensive/return touchdowns and points per trip inside the 40 with long-run averages, to see if misses lean one way or are random.",
     "first_noted": "2026-10-17"
    },
    {
-    "lesson": "When the model picks a different favorite than Vegas, results are mixed.",
-    "evidence": "About 4 of 9 right overall as of last run. None of the 9 Week 9 games listed had the model on a different side than Vegas, so there is no new data. Sample is tiny.",
+    "lesson": "When the model picks a different winner than Vegas, results are mixed to poor.",
+    "evidence": "About 4 of 10 right overall. The one new case in Week 9 was Washington State (model) vs San Diego State (Vegas); San Diego State won. Three Week 10 games on the lists (Kansas State, Ole Miss and one more underdog pick) have the model on the other side. Sample is small.",
     "status": "watching",
     "test": "On past seasons, list games where the model and Vegas disagree on the winner, then compare the model's win rate with Vegas's. Need 20+ games.",
     "first_noted": "2026-10-17"
    },
    {
-    "lesson": "The earlier lean that the favorite fails to cover when the model likes it 3+ points more than Vegas is not settled.",
-    "evidence": "Week 8: favorite covered in 7 of 14 such games. Earlier: 2 of 9. Week 9 so far: 0 of 2 (Tulane, Western Kentucky lost the cover). Overlap between sets can't be confirmed, so I won't total them.",
-    "status": "watching",
-    "test": "On past seasons, take games where the model's favorite margin is 3+ points above Vegas's and check the cover rate by size of gap (3-6, 6+). Need 20+ games per group.",
-    "first_noted": "2026-10-20"
-   },
-   {
-    "lesson": "The 'Best value against the sportsbook' list has been weak so far.",
-    "evidence": "Season: 6 of 15 hit against 7.6 expected, at -3.55 units. The edges are thin (about 51% against 52.4% needed). Fewer than 20 picks. Also, the Coastal Carolina and Temple picks sit oddly against the model's own large margins for the favorites.",
-    "status": "watching",
+    "lesson": "The 'Best value against the sportsbook' list has been weak.",
+    "evidence": "Season: 8 of 22 hit against 11.2 expected, at -6.73 units. The edges are thin (about 51% against 52.4% needed), so the model's own chance is below break-even on all five Week 10 picks.",
+    "status": "worth testing",
     "test": "On past seasons, bucket the model's spread and total picks by edge size and compare hit rates with the 52.4% break-even. Check that each pick's cover chance matches the model's own margin. Need 20+ games per bucket.",
     "first_noted": "2026-10-24"
    },
    {
-    "lesson": "Underdog picks are close to what the model expected, and slightly ahead on units.",
-    "evidence": "Season: 5 of 15 hit against 5.5 expected, at +0.99 units. The early edge came and went. Under 20 picks.",
-    "status": "watching",
-    "test": "On past seasons, compare predicted chance with actual win rate for the model's underdog picks, in buckets of model chance (under 35%, 35-45%). Needs 20+ picks.",
+    "lesson": "Underdog picks have run a bit behind what the model expected.",
+    "evidence": "Season: 6 of 21 hit against 7.9 expected, at -1.16 units. Last run it was 5 of 15 against 5.5 expected, at +0.99 units, so the early edge is gone.",
+    "status": "worth testing",
+    "test": "On past seasons, compare predicted chance with actual win rate for the model's underdog picks, in buckets of model chance (under 35%, 35-45%, 45%+). Need 20+ picks per bucket.",
     "first_noted": "2026-10-24"
    },
    {
     "lesson": "The 'Most likely winners' list has landed close to the model's own chances.",
-    "evidence": "Season: 10 of 12 hit against 10.5 expected, at -0.61 units. The prices are very short, so one miss costs a lot. Only 12 picks.",
+    "evidence": "Season: 16 of 18 hit against 16.1 expected, at -0.34 units. Prices are very short, so one miss costs a lot. Only 18 picks.",
     "status": "watching",
     "test": "On past seasons, bucket the model's top win chances (90%+, 85-90%) and compare with actual win rate and with Vegas's no-vig chance. Need 20+ games per bucket.",
     "first_noted": "2026-10-27"
    },
    {
-    "lesson": "The model's spread misses are larger than Vegas's over the season.",
-    "evidence": "Season (125 games): average spread miss 12.1 points for the model against 11.2 for Vegas. The gap was 0.9 last run too. Winners right in 80 of 125 (64%) and a 56-64-3 spread record. Week 9 so far: 4 of 9 winners right, 2-7 against the spread.",
+    "lesson": "The model's spread misses are slightly larger than Vegas's over the season.",
+    "evidence": "Season (172 games): average spread miss 12.1 points for the model against 11.5 for Vegas; the gap was 0.9 two runs ago and is now 0.6. Winners right in 116 of 172 (67%), spread record 82-84-4. Week 9: 30 of 40 winners, 19-20-1 against the spread.",
     "status": "worth testing",
     "test": "On past seasons, compare the model's and Vegas's average spread error. Then test whether averaging the model's margin and Vegas's margin beats either alone, and whether the gap changes by week of season.",
     "first_noted": "2026-10-27"
+   },
+   {
+    "lesson": "The model does not see starting-quarterback injuries; when a QB is out, its margin runs well above Vegas's.",
+    "evidence": "Week 9: Kansas State (starter Avery Johnson and backup both hurt) was model +9.1 vs Vegas +2.5 and lost 27-24 at Colorado. This run, Kansas State (Johnson out) is again the model's pick over Vegas's Oklahoma State. One confirmed game so far.",
+    "status": "watching",
+    "test": "On past seasons, flag games where a team's starting QB was out and compare the model's margin error and the Vegas error in those games with all other games. Need 20+ such games.",
+    "first_noted": "2026-11-03"
    }
   ]
  },
- "updated": "2026-11-02T17:49-05:00"
+ "updated": "2026-11-03T15:31-05:00"
 }
