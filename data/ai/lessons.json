@@ -3,57 +3,57 @@
   "NFL": [
    {
     "lesson": "When the model picks a different winner than the Vegas favorite, it has mostly lost so far.",
-    "evidence": "2 of 7 graded games where the model's side was not the Vegas favorite won (CIN over BAL and DEN over KC won; PHI over DAL, NYG over NO, ATL over CHI, PHI over CAR, NE over CHI lost). LV-NYJ had the model even, so it isn't counted.",
+    "evidence": "2 of 7 graded games where the model's side was not the Vegas favorite won (CIN over BAL and DEN over KC won; PHI over DAL, NYG over NO, ATL over CHI, PHI over CAR, NE over CHI lost). Week 8 added no new cases. LV-NYJ had the model even, so it isn't counted.",
     "status": "watching",
     "test": "On past seasons, take every game where the model's pick differs from the moneyline favorite. Compare its win rate and spread record with Vegas. Wait for 20+ games.",
     "first_noted": "2026-10-19"
    },
    {
     "lesson": "Large gaps between the model's total and Vegas's total have not paid off.",
-    "evidence": "0 of 5 graded games with a gap of 4.9 or more won the over/under pick (NE-CHI at 5.0 and PHI-WAS at 6.2 are the latest). Smaller gaps are mixed: DAL-ARI at 4.2 lost, BAL-BUF at 3.9 won. Overall the over/under is 20-19.",
+    "evidence": "0 of 5 graded games with a gap of 4.9 or more won the over/under pick. Smaller gaps are mixed: ARI-DAL at 4.2 lost, BUF-BAL at 3.9 won, CHI-SEA at 3.2 lost, TEN-CIN at 2.5 lost. Overall the over/under is 20-20. Two Under picks this week (TB-CHI at 5.0, CIN-ATL at 4.9) will add to the large-gap sample.",
     "status": "watching",
     "test": "On past seasons, group games by size of the total gap (under 2, 2-4, over 4). Check hit rate per group. Needs 20+ games in the large-gap group.",
     "first_noted": "2026-10-19"
    },
    {
     "lesson": "Many big misses come from efficiency swings, which the model can't see before kickoff.",
-    "evidence": "In 8 of the 14 games where the winner was wrong, the review names efficiency as the main reason (DAL-PHI, TB-CAR, NYG-HOU, ARI-LA, CHI-ATL, CAR-PHI, BAL-CLE, ARI-DAL). Turnovers led in NO-NYG and SF-ATL. MIA-NYJ and NE-CHI were close. HOU-JAX had no clear reason.",
+    "evidence": "In 9 of the 15 games where the winner was wrong, the review names efficiency as the main reason (DAL-PHI, TB-CAR, NYG-HOU, ARI-LA, CHI-ATL, CAR-PHI, BAL-CLE, ARI-DAL, CHI-SEA). Turnovers led in NO-NYG and SF-ATL. MIA-NYJ and NE-CHI were close. HOU-JAX had no clear reason.",
     "status": "watching",
     "test": "On past seasons, measure how often big spread misses (over 8 points) are driven by efficiency versus turnovers. Check whether the model's misses are larger than Vegas's overall.",
     "first_noted": "2026-10-19"
    },
    {
     "lesson": "Big-game player picks are close to the model's chances on hit rate, but still lose units.",
-    "evidence": "8 of 25 big-game picks hit, against 8.3 expected, at -7.46 units. The earlier shortfall (5 of 18 against 5.9) has mostly closed. Milestone picks are 20 of 26 against 19.5 expected.",
+    "evidence": "8 of 27 big-game picks hit, against 8.9 expected, at -9.46 units. The earlier hit-rate shortfall has mostly closed. Milestone picks are 22 of 29 against 21.7 expected, at -3.28 units.",
     "status": "worth testing",
     "test": "On past seasons, compare predicted chance with actual hit rate for long-shot props in buckets of model chance. Also check whether the prices paid are shorter than fair odds. Needs 20+ picks per bucket.",
     "first_noted": "2026-10-19"
    },
    {
     "lesson": "Best-value picks against the sportsbook are running below the model's chances.",
-    "evidence": "7 of 16 best-value picks hit this season, against 8.5 expected, at -2.64 units. Several sit only 0.4 to 1.5 points over break-even.",
+    "evidence": "7 of 17 best-value picks hit this season, against 9.0 expected, at -3.64 units. Several sit only 0.1 to 2 points over break-even this week.",
     "status": "watching",
     "test": "On past seasons, check hit rate of the model's top value picks by size of edge. Needs 20+ picks.",
     "first_noted": "2026-10-19"
    },
    {
     "lesson": "The model's margin errors are larger than Vegas's, and it is below .500 against the spread.",
-    "evidence": "Average spread miss is 9.8 for the model against 9.1 for Vegas over 39 graded games. The model is 18-21-1 against the spread (9-4 in week 8). Winners are 25 of 39.",
+    "evidence": "Average spread miss is 10.1 for the model against 9.3 for Vegas over 41 graded games. The model is 18-22-1 against the spread (9-5 in week 8). Winners are 25 of 40.",
     "status": "worth testing",
     "test": "On past seasons, compare the model's average absolute margin error with Vegas's, by week, over a full season. Also check ATS record by season. Do this before changing anything.",
     "first_noted": "2026-10-24"
    },
    {
     "lesson": "Big gaps between the model and Vegas may come from lineup changes the model hasn't picked up.",
-    "evidence": "DAL at PHI listed Hurts, who was on IR, and DAL won 38-21 against the model's PHI by 3.9. PHI at WAS listed him again, the model had WAS by 3.3 against Vegas -6, and WAS won 27-10: the model's side won, but the spread was lost. Possible case: TB-CAR. Far under 20 games.",
+    "evidence": "DAL at PHI listed Hurts, who was on IR, and DAL won 38-21 against the model's PHI by 3.9. PHI at WAS listed him again, and WAS won 27-10 against the model's WAS by 3.3 (Vegas -6). This week the brief's QBs for SEA (Lock) and ARI (Minshew) match the news, so no mismatch found there. Possible case: TB-CAR. Far under 20 games.",
     "status": "watching",
     "test": "On past seasons, flag games where a starting QB differed from the one in the model's inputs. Compare the model's margin error in those games with all others. Needs 20+ such games.",
     "first_noted": "2026-10-25"
    },
    {
     "lesson": "Most-likely-winner picks have fallen short of the model's own chances.",
-    "evidence": "9 of 16 most-likely-winner picks hit this season, against 11.8 expected, at -4.51 units. Overall winners are 25 of 39 (64%).",
-    "status": "watching",
+    "evidence": "9 of 17 most-likely-winner picks hit this season, against 12.4 expected, at -5.51 units. Overall winners are 25 of 40 (63%).",
+    "status": "worth testing",
     "test": "On past seasons, bucket the model's top win chances (70-79%, 80%+) and compare hit rate with the moneyline-implied chance. Needs 20+ picks per bucket.",
     "first_noted": "2026-11-01"
    }
@@ -117,5 +117,5 @@
    }
   ]
  },
- "updated": "2026-11-03T15:31-05:00"
+ "updated": "2026-11-04T14:01-05:00"
 }
