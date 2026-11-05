@@ -31,7 +31,7 @@ concurrency:
 
 jobs:
   update:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04           # pinned so a runner image change mid-season can't surprise us
     timeout-minutes: 90
     environment:
       name: github-pages
