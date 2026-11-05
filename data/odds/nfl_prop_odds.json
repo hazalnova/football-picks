@@ -1,8 +1,8 @@
 {
  "credits": {
-  "checked": "2026-11-05T15:28+00:00",
-  "remaining": "419",
-  "used": "81"
+  "checked": "2026-11-05T21:05+00:00",
+  "remaining": "376",
+  "used": "124"
  },
  "games": {
   "2026_07_DAL_PHI": {
@@ -30488,6 +30488,5455 @@
     }
    }
   },
+  "2026_09_CLE_NO": {
+   "event_id": "e571bab6736f9338130a78a4f75c3231",
+   "kickoff": "2026-11-08T13:00:00-05:00",
+   "standard": {
+    "fetched": "2026-11-05T16:05-05:00",
+    "lines": {
+     "alvin kamara|receiving_yards": [
+      [
+       "draftkings",
+       17.5,
+       -114,
+       -110
+      ],
+      [
+       "fanduel",
+       16.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       17.5,
+       -122,
+       -118
+      ]
+     ],
+     "alvin kamara|receptions": [
+      [
+       "draftkings",
+       3.5,
+       100,
+       -127
+      ],
+      [
+       "fanduel",
+       3.5,
+       -102,
+       -130
+      ],
+      [
+       "betonlineag",
+       3.5,
+       100,
+       -130
+      ]
+     ],
+     "alvin kamara|rushing_yards": [
+      [
+       "draftkings",
+       25.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       25.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       25.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       24.5,
+       -125,
+       -115
+      ]
+     ],
+     "chris olave|receiving_yards": [
+      [
+       "draftkings",
+       72.5,
+       -114,
+       -110
+      ],
+      [
+       "fanduel",
+       71.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       72.5,
+       -115,
+       -112
+      ],
+      [
+       "betrivers",
+       73.5,
+       -120,
+       -121
+      ],
+      [
+       "betmgm",
+       73.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       72.5,
+       -115,
+       -115
+      ]
+     ],
+     "chris olave|receptions": [
+      [
+       "draftkings",
+       5.5,
+       -126,
+       -101
+      ],
+      [
+       "fanduel",
+       5.5,
+       -138,
+       104
+      ],
+      [
+       "betonlineag",
+       5.5,
+       -135,
+       104
+      ],
+      [
+       "betmgm",
+       5.5,
+       -150,
+       110
+      ],
+      [
+       "bovada",
+       5.5,
+       -130,
+       100
+      ]
+     ],
+     "denzel boston|receiving_yards": [
+      [
+       "draftkings",
+       43.5,
+       -114,
+       -110
+      ],
+      [
+       "fanduel",
+       43.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       43.5,
+       -115,
+       -112
+      ],
+      [
+       "betrivers",
+       41.5,
+       -118,
+       -124
+      ],
+      [
+       "bovada",
+       43.5,
+       -120,
+       -110
+      ]
+     ],
+     "denzel boston|receptions": [
+      [
+       "draftkings",
+       3.5,
+       135,
+       -173
+      ],
+      [
+       "fanduel",
+       3.5,
+       140,
+       -188
+      ],
+      [
+       "betonlineag",
+       3.5,
+       141,
+       -185
+      ],
+      [
+       "bovada",
+       3.5,
+       130,
+       -170
+      ]
+     ],
+     "harold fannin|receiving_yards": [
+      [
+       "draftkings",
+       45.5,
+       -113,
+       -111
+      ],
+      [
+       "fanduel",
+       43.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       43.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       41.5,
+       -122,
+       -118
+      ],
+      [
+       "betmgm",
+       41.5,
+       -125,
+       -105
+      ],
+      [
+       "bovada",
+       45.5,
+       -115,
+       -115
+      ]
+     ],
+     "harold fannin|receptions": [
+      [
+       "draftkings",
+       4.5,
+       100,
+       -128
+      ],
+      [
+       "fanduel",
+       4.5,
+       -102,
+       -130
+      ],
+      [
+       "betonlineag",
+       4.5,
+       102,
+       -132
+      ],
+      [
+       "betmgm",
+       4.5,
+       -105,
+       -125
+      ],
+      [
+       "bovada",
+       4.5,
+       100,
+       -130
+      ]
+     ],
+     "kc concepcion|receiving_yards": [
+      [
+       "draftkings",
+       41.5,
+       -111,
+       -113
+      ],
+      [
+       "fanduel",
+       43.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       43.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       42.5,
+       -118,
+       -124
+      ],
+      [
+       "betmgm",
+       44.5,
+       -111,
+       -118
+      ],
+      [
+       "bovada",
+       41.5,
+       -115,
+       -115
+      ]
+     ],
+     "kc concepcion|receptions": [
+      [
+       "draftkings",
+       4.5,
+       -101,
+       -126
+      ],
+      [
+       "fanduel",
+       4.5,
+       -106,
+       -125
+      ],
+      [
+       "betonlineag",
+       4.5,
+       -101,
+       -128
+      ],
+      [
+       "betmgm",
+       4.5,
+       -105,
+       -125
+      ],
+      [
+       "bovada",
+       4.5,
+       100,
+       -130
+      ]
+     ],
+     "kendre miller|rushing_yards": [
+      [
+       "draftkings",
+       38.5,
+       -114,
+       -110
+      ],
+      [
+       "fanduel",
+       38.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       38.5,
+       -116,
+       -111
+      ],
+      [
+       "betrivers",
+       39.5,
+       -120,
+       -121
+      ]
+     ],
+     "quinshon judkins|rushing_yards": [
+      [
+       "draftkings",
+       65.5,
+       -113,
+       -111
+      ],
+      [
+       "fanduel",
+       66.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       66.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       67.5,
+       -121,
+       -120
+      ],
+      [
+       "betmgm",
+       67.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       65.5,
+       -115,
+       -115
+      ]
+     ],
+     "tyler shough|passing_yards": [
+      [
+       "draftkings",
+       222.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       226.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       229.5,
+       -118,
+       -122
+      ],
+      [
+       "betmgm",
+       227.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       222.5,
+       -115,
+       -115
+      ]
+     ],
+     "tyler shough|rushing_yards": [
+      [
+       "draftkings",
+       15.5,
+       -114,
+       -110
+      ],
+      [
+       "fanduel",
+       14.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       14.5,
+       -118,
+       -122
+      ]
+     ]
+    }
+   }
+  },
+  "2026_09_DAL_IND": {
+   "event_id": "415fc42e72888c63e82f7bce24c65391",
+   "kickoff": "2026-11-08T13:00:00-05:00",
+   "standard": {
+    "fetched": "2026-11-05T16:05-05:00",
+    "lines": {
+     "ceedee lamb|receiving_yards": [
+      [
+       "draftkings",
+       80.5,
+       -114,
+       -110
+      ],
+      [
+       "fanduel",
+       81.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       81.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       80.5,
+       -120,
+       -121
+      ],
+      [
+       "betmgm",
+       81.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       80.5,
+       -115,
+       -115
+      ]
+     ],
+     "ceedee lamb|receptions": [
+      [
+       "draftkings",
+       6.5,
+       104,
+       -133
+      ],
+      [
+       "fanduel",
+       6.5,
+       -102,
+       -130
+      ],
+      [
+       "betonlineag",
+       6.5,
+       -103,
+       -125
+      ],
+      [
+       "betmgm",
+       6.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       6.5,
+       105,
+       -135
+      ]
+     ],
+     "dak prescott|passing_yards": [
+      [
+       "draftkings",
+       265.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       263.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       263.5,
+       -116,
+       -111
+      ],
+      [
+       "betrivers",
+       258.5,
+       -122,
+       -118
+      ],
+      [
+       "betmgm",
+       256.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       265.5,
+       -115,
+       -115
+      ]
+     ],
+     "dak prescott|rushing_yards": [
+      [
+       "draftkings",
+       5.5,
+       -119,
+       -106
+      ],
+      [
+       "fanduel",
+       5.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       5.5,
+       -119,
+       -109
+      ],
+      [
+       "betrivers",
+       6.5,
+       -118,
+       -121
+      ],
+      [
+       "bovada",
+       5.5,
+       -120,
+       -110
+      ]
+     ],
+     "daniel jones|passing_yards": [
+      [
+       "draftkings",
+       208.5,
+       -111,
+       -113
+      ],
+      [
+       "fanduel",
+       201.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       204.5,
+       -118,
+       -110
+      ],
+      [
+       "betrivers",
+       202.5,
+       -121,
+       -121
+      ],
+      [
+       "bovada",
+       208.5,
+       -115,
+       -115
+      ]
+     ],
+     "daniel jones|rushing_yards": [
+      [
+       "draftkings",
+       8.5,
+       -111,
+       -113
+      ],
+      [
+       "fanduel",
+       7.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       8.5,
+       -116,
+       -111
+      ],
+      [
+       "betrivers",
+       8.5,
+       -114,
+       -125
+      ],
+      [
+       "bovada",
+       8.5,
+       -115,
+       -115
+      ]
+     ],
+     "george pickens|receiving_yards": [
+      [
+       "draftkings",
+       61.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       62.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       62.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       60.5,
+       -122,
+       -118
+      ],
+      [
+       "betmgm",
+       63.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       61.5,
+       -115,
+       -115
+      ]
+     ],
+     "george pickens|receptions": [
+      [
+       "draftkings",
+       4.5,
+       -113,
+       -113
+      ],
+      [
+       "fanduel",
+       4.5,
+       -122,
+       -108
+      ],
+      [
+       "betonlineag",
+       4.5,
+       -118,
+       -110
+      ],
+      [
+       "betmgm",
+       4.5,
+       -150,
+       110
+      ],
+      [
+       "bovada",
+       4.5,
+       -115,
+       -115
+      ]
+     ],
+     "javonte williams|receiving_yards": [
+      [
+       "draftkings",
+       9.5,
+       -111,
+       -113
+      ],
+      [
+       "fanduel",
+       7.5,
+       -128,
+       -102
+      ],
+      [
+       "betonlineag",
+       7.5,
+       -110,
+       -118
+      ],
+      [
+       "betrivers",
+       7.5,
+       -129,
+       -112
+      ],
+      [
+       "betmgm",
+       9.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       9.5,
+       -115,
+       -115
+      ]
+     ],
+     "javonte williams|receptions": [
+      [
+       "draftkings",
+       1.5,
+       -133,
+       104
+      ],
+      [
+       "fanduel",
+       1.5,
+       -138,
+       104
+      ],
+      [
+       "betonlineag",
+       1.5,
+       -125,
+       -103
+      ],
+      [
+       "betmgm",
+       1.5,
+       -150,
+       110
+      ],
+      [
+       "bovada",
+       1.5,
+       -135,
+       105
+      ]
+     ],
+     "javonte williams|rushing_yards": [
+      [
+       "draftkings",
+       71.5,
+       -114,
+       -110
+      ],
+      [
+       "fanduel",
+       70.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       72.5,
+       -116,
+       -111
+      ],
+      [
+       "betrivers",
+       71.5,
+       -118,
+       -122
+      ],
+      [
+       "betmgm",
+       74.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       71.5,
+       -115,
+       -115
+      ]
+     ],
+     "jonathan taylor|receiving_yards": [
+      [
+       "draftkings",
+       18.5,
+       -108,
+       -116
+      ],
+      [
+       "fanduel",
+       18.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       18.5,
+       -112,
+       -115
+      ],
+      [
+       "betrivers",
+       18.5,
+       -120,
+       -121
+      ]
+     ],
+     "jonathan taylor|receptions": [
+      [
+       "draftkings",
+       2.5,
+       108,
+       -138
+      ],
+      [
+       "fanduel",
+       2.5,
+       -106,
+       -125
+      ],
+      [
+       "betonlineag",
+       2.5,
+       -102,
+       -127
+      ]
+     ],
+     "jonathan taylor|rushing_yards": [
+      [
+       "draftkings",
+       60.5,
+       -110,
+       -114
+      ],
+      [
+       "fanduel",
+       62.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       62.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       59.5,
+       -122,
+       -118
+      ]
+     ],
+     "josh downs|receiving_yards": [
+      [
+       "betrivers",
+       35.5,
+       -121,
+       -121
+      ]
+     ],
+     "keenan allen|receiving_yards": [
+      [
+       "betrivers",
+       49.5,
+       -121,
+       -120
+      ]
+     ],
+     "ryan flournoy|receiving_yards": [
+      [
+       "draftkings",
+       34.5,
+       -115,
+       -109
+      ],
+      [
+       "fanduel",
+       35.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       38.5,
+       -105,
+       -123
+      ],
+      [
+       "betrivers",
+       34.5,
+       -120,
+       -121
+      ],
+      [
+       "betmgm",
+       33.5,
+       -120,
+       -111
+      ],
+      [
+       "bovada",
+       34.5,
+       -120,
+       -110
+      ]
+     ],
+     "ryan flournoy|receptions": [
+      [
+       "draftkings",
+       3.5,
+       120,
+       -153
+      ],
+      [
+       "fanduel",
+       3.5,
+       -102,
+       -130
+      ],
+      [
+       "betonlineag",
+       3.5,
+       115,
+       -149
+      ],
+      [
+       "bovada",
+       3.5,
+       120,
+       -160
+      ]
+     ],
+     "seth mcgowan|rushing_yards": [
+      [
+       "fanduel",
+       27.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       27.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       29.5,
+       -118,
+       -122
+      ]
+     ],
+     "tyler goodson|receiving_yards": [
+      [
+       "draftkings",
+       5.5,
+       -107,
+       -117
+      ],
+      [
+       "fanduel",
+       5.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       5.5,
+       -112,
+       -115
+      ]
+     ],
+     "tyler goodson|rushing_yards": [
+      [
+       "draftkings",
+       19.5,
+       -110,
+       -114
+      ],
+      [
+       "fanduel",
+       19.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       19.5,
+       -114,
+       -114
+      ],
+      [
+       "betmgm",
+       20.5,
+       -111,
+       -118
+      ]
+     ],
+     "tyler warren|receiving_yards": [
+      [
+       "draftkings",
+       43.5,
+       -113,
+       -111
+      ],
+      [
+       "fanduel",
+       42.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       42.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       41.5,
+       -117,
+       -124
+      ],
+      [
+       "betmgm",
+       42.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       43.5,
+       -115,
+       -115
+      ]
+     ],
+     "tyler warren|receptions": [
+      [
+       "draftkings",
+       5.5,
+       -110,
+       -115
+      ],
+      [
+       "fanduel",
+       5.5,
+       -102,
+       -130
+      ],
+      [
+       "betonlineag",
+       5.5,
+       -102,
+       -127
+      ],
+      [
+       "bovada",
+       5.5,
+       -110,
+       -120
+      ]
+     ]
+    }
+   }
+  },
+  "2026_09_DEN_CAR": {
+   "event_id": "014282b888c741b7d70c857c09f40aa7",
+   "kickoff": "2026-11-08T13:00:00-05:00",
+   "standard": {
+    "fetched": "2026-11-05T16:05-05:00",
+    "lines": {
+     "bo nix|passing_yards": [
+      [
+       "draftkings",
+       210.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       210.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       210.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       209.5,
+       -115,
+       -115
+      ],
+      [
+       "betmgm",
+       211.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       210.5,
+       -115,
+       -115
+      ]
+     ],
+     "bo nix|rushing_yards": [
+      [
+       "draftkings",
+       14.5,
+       -110,
+       -115
+      ],
+      [
+       "fanduel",
+       12.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       14.5,
+       -106,
+       -122
+      ],
+      [
+       "betrivers",
+       13.5,
+       -118,
+       -113
+      ],
+      [
+       "bovada",
+       14.5,
+       -110,
+       -120
+      ]
+     ],
+     "bryce young|passing_yards": [
+      [
+       "draftkings",
+       228.5,
+       -111,
+       -113
+      ],
+      [
+       "fanduel",
+       225.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       227.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       228.5,
+       -114,
+       -117
+      ],
+      [
+       "betmgm",
+       227.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       228.5,
+       -115,
+       -115
+      ]
+     ],
+     "bryce young|rushing_yards": [
+      [
+       "draftkings",
+       5.5,
+       -114,
+       -110
+      ],
+      [
+       "fanduel",
+       5.5,
+       -108,
+       -120
+      ],
+      [
+       "betonlineag",
+       5.5,
+       -115,
+       -112
+      ],
+      [
+       "betrivers",
+       6.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       5.5,
+       -115,
+       -115
+      ]
+     ],
+     "chuba hubbard|receiving_yards": [
+      [
+       "draftkings",
+       17.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       16.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       17.5,
+       -112,
+       -115
+      ],
+      [
+       "betrivers",
+       15.5,
+       -115,
+       -115
+      ],
+      [
+       "betmgm",
+       17.5,
+       -120,
+       -110
+      ],
+      [
+       "bovada",
+       17.5,
+       -115,
+       -115
+      ]
+     ],
+     "chuba hubbard|receptions": [
+      [
+       "draftkings",
+       2.5,
+       -137,
+       107
+      ],
+      [
+       "fanduel",
+       2.5,
+       -148,
+       112
+      ],
+      [
+       "betonlineag",
+       2.5,
+       -135,
+       105
+      ],
+      [
+       "betmgm",
+       2.5,
+       -160,
+       120
+      ],
+      [
+       "bovada",
+       2.5,
+       -135,
+       105
+      ]
+     ],
+     "chuba hubbard|rushing_yards": [
+      [
+       "draftkings",
+       71.5,
+       -110,
+       -114
+      ],
+      [
+       "fanduel",
+       69.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       71.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       70.5,
+       -118,
+       -113
+      ],
+      [
+       "betmgm",
+       70.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       71.5,
+       -115,
+       -115
+      ]
+     ],
+     "courtland sutton|receiving_yards": [
+      [
+       "draftkings",
+       37.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       35.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       35.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       34.5,
+       -114,
+       -117
+      ],
+      [
+       "betmgm",
+       35.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       37.5,
+       -115,
+       -115
+      ]
+     ],
+     "courtland sutton|receptions": [
+      [
+       "draftkings",
+       3.5,
+       116,
+       -148
+      ],
+      [
+       "fanduel",
+       3.5,
+       108,
+       -144
+      ],
+      [
+       "betonlineag",
+       3.5,
+       115,
+       -149
+      ],
+      [
+       "betmgm",
+       3.5,
+       110,
+       -150
+      ],
+      [
+       "bovada",
+       3.5,
+       115,
+       -150
+      ]
+     ],
+     "darren waller|receiving_yards": [
+      [
+       "draftkings",
+       18.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       18.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       18.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       16.5,
+       -114,
+       -117
+      ],
+      [
+       "betmgm",
+       17.5,
+       -120,
+       -110
+      ],
+      [
+       "bovada",
+       18.5,
+       -115,
+       -115
+      ]
+     ],
+     "darren waller|receptions": [
+      [
+       "draftkings",
+       1.5,
+       -157,
+       123
+      ],
+      [
+       "fanduel",
+       1.5,
+       -152,
+       114
+      ],
+      [
+       "betonlineag",
+       1.5,
+       -161,
+       124
+      ],
+      [
+       "betmgm",
+       1.5,
+       -160,
+       120
+      ],
+      [
+       "bovada",
+       1.5,
+       -160,
+       120
+      ]
+     ],
+     "evan engram|receiving_yards": [
+      [
+       "draftkings",
+       20.5,
+       -110,
+       -114
+      ],
+      [
+       "fanduel",
+       18.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       19.5,
+       -111,
+       -116
+      ],
+      [
+       "betrivers",
+       19.5,
+       -112,
+       -120
+      ],
+      [
+       "betmgm",
+       19.5,
+       -111,
+       -118
+      ],
+      [
+       "bovada",
+       20.5,
+       -115,
+       -115
+      ]
+     ],
+     "evan engram|receptions": [
+      [
+       "draftkings",
+       2.5,
+       141,
+       -181
+      ],
+      [
+       "fanduel",
+       2.5,
+       148,
+       -200
+      ],
+      [
+       "betonlineag",
+       2.5,
+       141,
+       -185
+      ],
+      [
+       "bovada",
+       2.5,
+       140,
+       -185
+      ]
+     ],
+     "jalen coker|receiving_yards": [
+      [
+       "draftkings",
+       53.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       50.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       53.5,
+       -116,
+       -111
+      ],
+      [
+       "betrivers",
+       52.5,
+       -114,
+       -117
+      ],
+      [
+       "betmgm",
+       53.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       53.5,
+       -115,
+       -115
+      ]
+     ],
+     "jalen coker|receptions": [
+      [
+       "draftkings",
+       4.5,
+       -116,
+       -109
+      ],
+      [
+       "fanduel",
+       4.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       4.5,
+       -116,
+       -111
+      ],
+      [
+       "betmgm",
+       4.5,
+       -120,
+       -110
+      ],
+      [
+       "bovada",
+       4.5,
+       -120,
+       -110
+      ]
+     ],
+     "jaylen waddle|receiving_yards": [
+      [
+       "draftkings",
+       46.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       47.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       47.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       45.5,
+       -114,
+       -117
+      ],
+      [
+       "betmgm",
+       47.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       46.5,
+       -115,
+       -115
+      ]
+     ],
+     "jaylen waddle|receptions": [
+      [
+       "draftkings",
+       4.5,
+       -101,
+       -126
+      ],
+      [
+       "fanduel",
+       4.5,
+       100,
+       -132
+      ],
+      [
+       "betonlineag",
+       4.5,
+       103,
+       -133
+      ],
+      [
+       "betmgm",
+       4.5,
+       105,
+       -140
+      ],
+      [
+       "bovada",
+       4.5,
+       100,
+       -130
+      ]
+     ],
+     "jk dobbins|rushing_yards": [
+      [
+       "draftkings",
+       25.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       25.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       25.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       27.5,
+       -121,
+       -110
+      ],
+      [
+       "betmgm",
+       27.5,
+       -111,
+       -120
+      ]
+     ],
+     "john metchie|receiving_yards": [
+      [
+       "draftkings",
+       15.5,
+       -113,
+       -111
+      ],
+      [
+       "fanduel",
+       15.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       15.5,
+       -115,
+       -112
+      ],
+      [
+       "betrivers",
+       15.5,
+       -118,
+       -112
+      ],
+      [
+       "betmgm",
+       16.5,
+       -115,
+       -115
+      ]
+     ],
+     "john metchie|receptions": [
+      [
+       "draftkings",
+       1.5,
+       -130,
+       102
+      ],
+      [
+       "fanduel",
+       1.5,
+       -158,
+       118
+      ],
+      [
+       "betonlineag",
+       1.5,
+       -147,
+       113
+      ],
+      [
+       "betmgm",
+       1.5,
+       -155,
+       115
+      ]
+     ],
+     "jonah coleman|receiving_yards": [
+      [
+       "draftkings",
+       24.5,
+       -115,
+       -109
+      ],
+      [
+       "fanduel",
+       23.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       24.5,
+       -116,
+       -111
+      ],
+      [
+       "betrivers",
+       23.5,
+       -115,
+       -115
+      ],
+      [
+       "betmgm",
+       24.5,
+       -115,
+       -115
+      ]
+     ],
+     "jonah coleman|receptions": [
+      [
+       "draftkings",
+       3.5,
+       -106,
+       -121
+      ],
+      [
+       "fanduel",
+       3.5,
+       -108,
+       -122
+      ],
+      [
+       "betonlineag",
+       3.5,
+       -114,
+       -114
+      ],
+      [
+       "betmgm",
+       3.5,
+       100,
+       -135
+      ]
+     ],
+     "jonah coleman|rushing_yards": [
+      [
+       "draftkings",
+       53.5,
+       -114,
+       -110
+      ],
+      [
+       "fanduel",
+       52.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       53.5,
+       -116,
+       -111
+      ],
+      [
+       "betrivers",
+       54.5,
+       -114,
+       -117
+      ],
+      [
+       "betmgm",
+       55.5,
+       -115,
+       -115
+      ]
+     ],
+     "marvin mims|receiving_yards": [
+      [
+       "draftkings",
+       9.5,
+       -107,
+       -117
+      ],
+      [
+       "fanduel",
+       9.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       9.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       11.5,
+       -110,
+       -120
+      ],
+      [
+       "bovada",
+       9.5,
+       -110,
+       -120
+      ]
+     ],
+     "marvin mims|receptions": [
+      [
+       "draftkings",
+       1.5,
+       130,
+       -166
+      ],
+      [
+       "fanduel",
+       1.5,
+       134,
+       -180
+      ],
+      [
+       "betonlineag",
+       1.5,
+       135,
+       -175
+      ],
+      [
+       "bovada",
+       1.5,
+       130,
+       -170
+      ]
+     ],
+     "mitchell evans|receiving_yards": [
+      [
+       "draftkings",
+       7.5,
+       -116,
+       -108
+      ],
+      [
+       "fanduel",
+       8.5,
+       -108,
+       -120
+      ],
+      [
+       "betmgm",
+       7.5,
+       -115,
+       -115
+      ]
+     ],
+     "mitchell evans|receptions": [
+      [
+       "draftkings",
+       1.5,
+       181,
+       -234
+      ],
+      [
+       "fanduel",
+       1.5,
+       182,
+       -250
+      ],
+      [
+       "betonlineag",
+       1.5,
+       178,
+       -238
+      ],
+      [
+       "betmgm",
+       1.5,
+       165,
+       -225
+      ]
+     ],
+     "tetairoa mcmillan|receiving_yards": [
+      [
+       "draftkings",
+       63.5,
+       -110,
+       -114
+      ],
+      [
+       "fanduel",
+       62.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       63.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       63.5,
+       -117,
+       -114
+      ],
+      [
+       "betmgm",
+       62.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       63.5,
+       -115,
+       -115
+      ]
+     ],
+     "tetairoa mcmillan|receptions": [
+      [
+       "draftkings",
+       5.5,
+       124,
+       -158
+      ],
+      [
+       "fanduel",
+       5.5,
+       116,
+       -154
+      ],
+      [
+       "betonlineag",
+       5.5,
+       122,
+       -159
+      ],
+      [
+       "betmgm",
+       5.5,
+       120,
+       -160
+      ],
+      [
+       "bovada",
+       5.5,
+       120,
+       -160
+      ]
+     ],
+     "tommy tremble|receiving_yards": [
+      [
+       "draftkings",
+       17.5,
+       -113,
+       -111
+      ],
+      [
+       "fanduel",
+       16.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       16.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       15.5,
+       -117,
+       -114
+      ],
+      [
+       "betmgm",
+       15.5,
+       -120,
+       -110
+      ],
+      [
+       "bovada",
+       17.5,
+       -115,
+       -115
+      ]
+     ],
+     "tommy tremble|receptions": [
+      [
+       "draftkings",
+       2.5,
+       133,
+       -170
+      ],
+      [
+       "fanduel",
+       2.5,
+       154,
+       -210
+      ],
+      [
+       "betonlineag",
+       2.5,
+       144,
+       -189
+      ],
+      [
+       "betmgm",
+       2.5,
+       140,
+       -190
+      ],
+      [
+       "bovada",
+       2.5,
+       130,
+       -170
+      ]
+     ],
+     "trevor etienne|rushing_yards": [
+      [
+       "draftkings",
+       5.5,
+       -111,
+       -113
+      ],
+      [
+       "fanduel",
+       6.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       6.5,
+       -114,
+       -114
+      ]
+     ],
+     "troy franklin|receiving_yards": [
+      [
+       "draftkings",
+       7.5,
+       -116,
+       -108
+      ],
+      [
+       "fanduel",
+       6.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       9.5,
+       -102,
+       -127
+      ],
+      [
+       "betrivers",
+       9.5,
+       -114,
+       -117
+      ],
+      [
+       "bovada",
+       7.5,
+       -120,
+       -110
+      ]
+     ],
+     "troy franklin|receptions": [
+      [
+       "draftkings",
+       1.5,
+       155,
+       -200
+      ],
+      [
+       "fanduel",
+       0.5,
+       -205,
+       152
+      ],
+      [
+       "betonlineag",
+       1.5,
+       152,
+       -200
+      ],
+      [
+       "bovada",
+       1.5,
+       150,
+       -200
+      ]
+     ]
+    }
+   }
+  },
+  "2026_09_DET_MIA": {
+   "alternate": {
+    "fetched": {
+     "passing_yards": "2026-11-05T21:05+00:00",
+     "receptions": "2026-11-05T21:05+00:00",
+     "rushing_yards": "2026-11-05T21:05+00:00"
+    },
+    "lines": {
+     "amon ra st brown|receptions": {
+      "10.5": {
+       "betonlineag": 450,
+       "betrivers": 1000,
+       "draftkings": 840,
+       "fanduel": 750
+      },
+      "11.5": {
+       "betonlineag": 700,
+       "draftkings": 1340,
+       "fanduel": 1200
+      },
+      "12.5": {
+       "draftkings": 2000,
+       "fanduel": 1700
+      },
+      "13.5": {
+       "draftkings": 2900
+      },
+      "2.5": {
+       "betrivers": -10000
+      },
+      "3.5": {
+       "betrivers": -1115,
+       "draftkings": -1180,
+       "fanduel": -1200
+      },
+      "4.5": {
+       "betrivers": -385,
+       "draftkings": -452,
+       "fanduel": -420
+      },
+      "5.5": {
+       "betonlineag": -208,
+       "betrivers": -182,
+       "draftkings": -212,
+       "fanduel": -205
+      },
+      "6.5": {
+       "betonlineag": -108,
+       "betrivers": 106,
+       "draftkings": -110,
+       "fanduel": -104
+      },
+      "7.5": {
+       "betonlineag": 137,
+       "betrivers": 185,
+       "draftkings": 165,
+       "fanduel": 174
+      },
+      "8.5": {
+       "betonlineag": 200,
+       "betrivers": 325,
+       "draftkings": 286,
+       "fanduel": 290
+      },
+      "9.5": {
+       "betonlineag": 310,
+       "betrivers": 575,
+       "draftkings": 490,
+       "fanduel": 470
+      }
+     },
+     "caleb douglas|receptions": {
+      "0.5": {
+       "betrivers": -10000
+      },
+      "1.5": {
+       "betrivers": -560,
+       "draftkings": -650,
+       "fanduel": -580
+      },
+      "2.5": {
+       "betonlineag": -250,
+       "betrivers": -177,
+       "draftkings": -203,
+       "fanduel": -188
+      },
+      "3.5": {
+       "betonlineag": 115,
+       "betrivers": 143,
+       "draftkings": 121,
+       "fanduel": 140
+      },
+      "4.5": {
+       "betonlineag": 210,
+       "betrivers": 300,
+       "draftkings": 266,
+       "fanduel": 290
+      },
+      "5.5": {
+       "betonlineag": 425,
+       "betrivers": 650,
+       "draftkings": 563,
+       "fanduel": 580
+      },
+      "6.5": {
+       "betonlineag": 825,
+       "draftkings": 1100,
+       "fanduel": 1100
+      },
+      "7.5": {
+       "betonlineag": 1700,
+       "draftkings": 2000
+      },
+      "8.5": {
+       "betonlineag": 3700
+      }
+     },
+     "chris bell|receptions": {
+      "0.5": {
+       "betrivers": -1430,
+       "fanduel": -1200
+      },
+      "1.5": {
+       "betonlineag": -238,
+       "betrivers": -230,
+       "draftkings": -217,
+       "fanduel": -230
+      },
+      "2.5": {
+       "betonlineag": 134,
+       "betrivers": 135,
+       "draftkings": 139,
+       "fanduel": 134
+      },
+      "3.5": {
+       "betonlineag": 250,
+       "betrivers": 330,
+       "draftkings": 345,
+       "fanduel": 320
+      },
+      "4.5": {
+       "betonlineag": 500,
+       "betrivers": 800,
+       "draftkings": 840,
+       "fanduel": 700
+      },
+      "5.5": {
+       "betonlineag": 1050,
+       "draftkings": 1820,
+       "fanduel": 1400
+      },
+      "6.5": {
+       "betonlineag": 2300
+      }
+     },
+     "greg dulcich|receptions": {
+      "1.5": {
+       "betrivers": -1430,
+       "draftkings": -1180,
+       "fanduel": -1200
+      },
+      "2.5": {
+       "betonlineag": -500,
+       "betrivers": -335,
+       "draftkings": -336,
+       "fanduel": -320
+      },
+      "3.5": {
+       "betonlineag": -135,
+       "betrivers": -125,
+       "draftkings": -133,
+       "fanduel": -132
+      },
+      "4.5": {
+       "betonlineag": 151,
+       "betrivers": 180,
+       "draftkings": 162,
+       "fanduel": 168
+      },
+      "5.5": {
+       "betonlineag": 290,
+       "betrivers": 375,
+       "draftkings": 326,
+       "fanduel": 320
+      },
+      "6.5": {
+       "betonlineag": 575,
+       "betrivers": 800,
+       "draftkings": 640,
+       "fanduel": 630
+      },
+      "7.5": {
+       "betonlineag": 1200,
+       "draftkings": 1180,
+       "fanduel": 1000
+      },
+      "8.5": {
+       "betonlineag": 2500,
+       "draftkings": 2100,
+       "fanduel": 1700
+      }
+     },
+     "isaac teslaa|receptions": {
+      "0.5": {
+       "betrivers": -455,
+       "fanduel": -470
+      },
+      "1.5": {
+       "betonlineag": 106,
+       "betrivers": 110,
+       "draftkings": 111,
+       "fanduel": 104
+      },
+      "2.5": {
+       "betonlineag": 230,
+       "betrivers": 340,
+       "draftkings": 347,
+       "fanduel": 320
+      },
+      "3.5": {
+       "betonlineag": 525,
+       "betrivers": 1000,
+       "draftkings": 970,
+       "fanduel": 850
+      },
+      "4.5": {
+       "betonlineag": 1200,
+       "draftkings": 2200,
+       "fanduel": 1700
+      },
+      "5.5": {
+       "betonlineag": 2800
+      }
+     },
+     "jahmyr gibbs|receptions": {
+      "1.5": {
+       "betrivers": -2000,
+       "draftkings": -1420,
+       "fanduel": -1800
+      },
+      "2.5": {
+       "betonlineag": -500,
+       "betrivers": -420,
+       "draftkings": -378,
+       "fanduel": -440
+      },
+      "3.5": {
+       "betonlineag": -154,
+       "betrivers": -159,
+       "draftkings": -149,
+       "fanduel": -180
+      },
+      "4.5": {
+       "betonlineag": 118,
+       "betrivers": 138,
+       "draftkings": 147,
+       "fanduel": 118
+      },
+      "5.5": {
+       "betonlineag": 198,
+       "betrivers": 265,
+       "draftkings": 306,
+       "fanduel": 220
+      },
+      "6.5": {
+       "betonlineag": 330,
+       "betrivers": 510,
+       "draftkings": 600,
+       "fanduel": 390
+      },
+      "7.5": {
+       "betonlineag": 575,
+       "betrivers": 1000,
+       "draftkings": 1160,
+       "fanduel": 640
+      },
+      "8.5": {
+       "betonlineag": 1000,
+       "draftkings": 2000,
+       "fanduel": 1100
+      },
+      "9.5": {
+       "fanduel": 1500
+      }
+     },
+     "jahmyr gibbs|rushing_yards": {
+      "108.5": {
+       "betonlineag": 110
+      },
+      "109.5": {
+       "betrivers": 128,
+       "draftkings": 132,
+       "fanduel": 132
+      },
+      "118.5": {
+       "betonlineag": 138
+      },
+      "119.5": {
+       "betrivers": 188,
+       "draftkings": 184
+      },
+      "124.5": {
+       "betmgm": 188,
+       "fanduel": 225
+      },
+      "128.5": {
+       "betonlineag": 173
+      },
+      "129.5": {
+       "betrivers": 275,
+       "draftkings": 256
+      },
+      "138.5": {
+       "betonlineag": 220
+      },
+      "139.5": {
+       "betrivers": 400,
+       "draftkings": 354
+      },
+      "148.5": {
+       "betonlineag": 270
+      },
+      "149.5": {
+       "betmgm": 400,
+       "draftkings": 498,
+       "fanduel": 490
+      },
+      "158.5": {
+       "betonlineag": 350
+      },
+      "159.5": {
+       "draftkings": 680
+      },
+      "168.5": {
+       "betonlineag": 450
+      },
+      "169.5": {
+       "draftkings": 920
+      },
+      "174.5": {
+       "fanduel": 920
+      },
+      "178.5": {
+       "betonlineag": 550
+      },
+      "179.5": {
+       "draftkings": 1260
+      },
+      "189.5": {
+       "draftkings": 1700
+      },
+      "199.5": {
+       "draftkings": 2200
+      },
+      "39.5": {
+       "draftkings": -2800
+      },
+      "49.5": {
+       "betmgm": -5000,
+       "draftkings": -1200,
+       "fanduel": -1800
+      },
+      "59.5": {
+       "draftkings": -630,
+       "fanduel": -750
+      },
+      "69.5": {
+       "betrivers": -590,
+       "draftkings": -366,
+       "fanduel": -420
+      },
+      "74.5": {
+       "betmgm": -450
+      },
+      "78.5": {
+       "betonlineag": -238
+      },
+      "79.5": {
+       "betrivers": -315,
+       "draftkings": -234,
+       "fanduel": -260
+      },
+      "88.5": {
+       "betonlineag": -164
+      },
+      "89.5": {
+       "betrivers": -190,
+       "draftkings": -155,
+       "fanduel": -166
+      },
+      "98.5": {
+       "betonlineag": -114,
+       "draftkings": -111
+      },
+      "99.5": {
+       "betmgm": -135,
+       "betrivers": -120,
+       "draftkings": -107,
+       "fanduel": -110
+      }
+     },
+     "jameson williams|receptions": {
+      "1.5": {
+       "betrivers": -1430,
+       "draftkings": -1000,
+       "fanduel": -1100
+      },
+      "2.5": {
+       "betonlineag": -357,
+       "betrivers": -305,
+       "draftkings": -286,
+       "fanduel": -280
+      },
+      "3.5": {
+       "betonlineag": -111,
+       "betrivers": -114,
+       "draftkings": -115,
+       "fanduel": -110
+      },
+      "4.5": {
+       "betonlineag": 166,
+       "betrivers": 205,
+       "draftkings": 192,
+       "fanduel": 198
+      },
+      "5.5": {
+       "betonlineag": 310,
+       "betrivers": 450,
+       "draftkings": 414,
+       "fanduel": 400
+      },
+      "6.5": {
+       "betonlineag": 575,
+       "betrivers": 1000,
+       "draftkings": 850,
+       "fanduel": 750
+      },
+      "7.5": {
+       "betonlineag": 1100,
+       "draftkings": 1640,
+       "fanduel": 1280
+      },
+      "8.5": {
+       "betonlineag": 2200,
+       "draftkings": 2700
+      }
+     },
+     "jared goff|passing_yards": {
+      "174.5": {
+       "fanduel": -1400
+      },
+      "179.5": {
+       "draftkings": -1180
+      },
+      "189.5": {
+       "draftkings": -800
+      },
+      "199.5": {
+       "betmgm": -1000,
+       "betrivers": -770,
+       "draftkings": -572,
+       "fanduel": -580
+      },
+      "209.5": {
+       "draftkings": -427
+      },
+      "219.5": {
+       "draftkings": -317
+      },
+      "224.5": {
+       "betrivers": -295,
+       "fanduel": -280
+      },
+      "229.5": {
+       "draftkings": -244
+      },
+      "239.5": {
+       "draftkings": -190
+      },
+      "240.5": {
+       "betonlineag": -189
+      },
+      "249.5": {
+       "betmgm": -175,
+       "betrivers": -139,
+       "draftkings": -148,
+       "fanduel": -154
+      },
+      "250.5": {
+       "betonlineag": -147
+      },
+      "259.5": {
+       "draftkings": -115
+      },
+      "260.5": {
+       "betonlineag": -114,
+       "draftkings": -113
+      },
+      "269.5": {
+       "draftkings": 110
+      },
+      "270.5": {
+       "betonlineag": 107
+      },
+      "274.5": {
+       "betrivers": 138,
+       "fanduel": 118
+      },
+      "279.5": {
+       "draftkings": 138
+      },
+      "280.5": {
+       "betonlineag": 130
+      },
+      "289.5": {
+       "draftkings": 173
+      },
+      "290.5": {
+       "betonlineag": 158
+      },
+      "299.5": {
+       "betmgm": 200,
+       "betrivers": 260,
+       "draftkings": 217,
+       "fanduel": 205
+      },
+      "300.5": {
+       "betonlineag": 192
+      },
+      "309.5": {
+       "draftkings": 272
+      },
+      "310.5": {
+       "betonlineag": 230
+      },
+      "319.5": {
+       "draftkings": 340
+      },
+      "320.5": {
+       "betonlineag": 290
+      },
+      "324.5": {
+       "fanduel": 360
+      },
+      "329.5": {
+       "draftkings": 419
+      },
+      "330.5": {
+       "betonlineag": 350
+      },
+      "339.5": {
+       "draftkings": 521
+      },
+      "340.5": {
+       "betonlineag": 425
+      },
+      "349.5": {
+       "betmgm": 625,
+       "draftkings": 640,
+       "fanduel": 580
+      },
+      "350.5": {
+       "betonlineag": 525
+      },
+      "359.5": {
+       "draftkings": 780
+      },
+      "360.5": {
+       "betonlineag": 650
+      },
+      "369.5": {
+       "draftkings": 960
+      },
+      "370.5": {
+       "betonlineag": 825
+      },
+      "374.5": {
+       "fanduel": 920
+      },
+      "379.5": {
+       "draftkings": 1160
+      },
+      "380.5": {
+       "betonlineag": 1050
+      },
+      "389.5": {
+       "draftkings": 1400
+      },
+      "390.5": {
+       "betonlineag": 1300
+      },
+      "399.5": {
+       "draftkings": 1660,
+       "fanduel": 1500
+      },
+      "400.5": {
+       "betonlineag": 1700
+      },
+      "409.5": {
+       "draftkings": 2000
+      },
+      "419.5": {
+       "draftkings": 2300
+      },
+      "429.5": {
+       "draftkings": 2700
+      }
+     },
+     "jaylen wright|rushing_yards": {
+      "124.5": {
+       "betmgm": 2000
+      },
+      "14.5": {
+       "draftkings": 166,
+       "fanduel": 162
+      },
+      "19.5": {
+       "betonlineag": 189,
+       "betrivers": 290,
+       "draftkings": 290,
+       "fanduel": 265
+      },
+      "24.5": {
+       "betmgm": 450,
+       "draftkings": 468,
+       "fanduel": 400
+      },
+      "29.5": {
+       "betonlineag": 425,
+       "draftkings": 720,
+       "fanduel": 580
+      },
+      "39.5": {
+       "betonlineag": 1000,
+       "draftkings": 1400,
+       "fanduel": 920
+      },
+      "4.5": {
+       "fanduel": -280
+      },
+      "49.5": {
+       "betmgm": 1450,
+       "betonlineag": 2700,
+       "draftkings": 2300
+      },
+      "59.5": {
+       "draftkings": 3200
+      },
+      "74.5": {
+       "betmgm": 2000
+      },
+      "9.5": {
+       "betonlineag": -116,
+       "betrivers": -121,
+       "draftkings": -117,
+       "fanduel": -114
+      },
+      "99.5": {
+       "betmgm": 2000
+      }
+     },
+     "malik washington|receptions": {
+      "1.5": {
+       "betrivers": -3335,
+       "draftkings": -1680
+      },
+      "2.5": {
+       "betrivers": -530,
+       "draftkings": -456,
+       "fanduel": -490
+      },
+      "3.5": {
+       "betonlineag": -244,
+       "betrivers": -195,
+       "draftkings": -185,
+       "fanduel": -198
+      },
+      "4.5": {
+       "betonlineag": 117,
+       "betrivers": 120,
+       "draftkings": 118,
+       "fanduel": 110
+      },
+      "5.5": {
+       "betonlineag": 220,
+       "betrivers": 240,
+       "draftkings": 238,
+       "fanduel": 220
+      },
+      "6.5": {
+       "betonlineag": 425,
+       "betrivers": 480,
+       "draftkings": 462,
+       "fanduel": 390
+      },
+      "7.5": {
+       "betonlineag": 850,
+       "betrivers": 950,
+       "draftkings": 860,
+       "fanduel": 700
+      },
+      "8.5": {
+       "betonlineag": 1750,
+       "draftkings": 1540,
+       "fanduel": 1200
+      },
+      "9.5": {
+       "betonlineag": 3800,
+       "draftkings": 2400
+      }
+     },
+     "malik willis|passing_yards": {
+      "124.5": {
+       "fanduel": -1450
+      },
+      "149.5": {
+       "betmgm": -650,
+       "betrivers": -715,
+       "draftkings": -555,
+       "fanduel": -580
+      },
+      "159.5": {
+       "draftkings": -400
+      },
+      "169.5": {
+       "draftkings": -299
+      },
+      "174.5": {
+       "betrivers": -286,
+       "fanduel": -275
+      },
+      "179.5": {
+       "betrivers": -240,
+       "draftkings": -225
+      },
+      "187.5": {
+       "betonlineag": -200
+      },
+      "189.5": {
+       "draftkings": -175
+      },
+      "197.5": {
+       "betonlineag": -149
+      },
+      "199.5": {
+       "betmgm": -135,
+       "betrivers": -132,
+       "draftkings": -136,
+       "fanduel": -146
+      },
+      "207.5": {
+       "betonlineag": -114,
+       "draftkings": -112
+      },
+      "209.5": {
+       "draftkings": -107
+      },
+      "217.5": {
+       "betonlineag": 109
+      },
+      "219.5": {
+       "draftkings": 119
+      },
+      "224.5": {
+       "betrivers": 150,
+       "fanduel": 128
+      },
+      "227.5": {
+       "betonlineag": 134
+      },
+      "229.5": {
+       "draftkings": 149
+      },
+      "237.5": {
+       "betonlineag": 165
+      },
+      "239.5": {
+       "draftkings": 185
+      },
+      "247.5": {
+       "betonlineag": 200
+      },
+      "249.5": {
+       "betmgm": 250,
+       "betrivers": 280,
+       "draftkings": 229,
+       "fanduel": 225
+      },
+      "257.5": {
+       "betonlineag": 250
+      },
+      "259.5": {
+       "draftkings": 285
+      },
+      "267.5": {
+       "betonlineag": 310
+      },
+      "269.5": {
+       "draftkings": 360
+      },
+      "274.5": {
+       "fanduel": 390
+      },
+      "277.5": {
+       "betonlineag": 390
+      },
+      "279.5": {
+       "draftkings": 446
+      },
+      "287.5": {
+       "betonlineag": 475
+      },
+      "289.5": {
+       "draftkings": 554
+      },
+      "297.5": {
+       "betonlineag": 600
+      },
+      "299.5": {
+       "betmgm": 700,
+       "draftkings": 690,
+       "fanduel": 680
+      },
+      "307.5": {
+       "betonlineag": 775
+      },
+      "309.5": {
+       "draftkings": 860
+      },
+      "317.5": {
+       "betonlineag": 1000
+      },
+      "319.5": {
+       "draftkings": 1060
+      },
+      "324.5": {
+       "fanduel": 1100
+      },
+      "327.5": {
+       "betonlineag": 1250
+      },
+      "329.5": {
+       "draftkings": 1280
+      },
+      "337.5": {
+       "betonlineag": 1650
+      },
+      "339.5": {
+       "draftkings": 1540
+      },
+      "347.5": {
+       "betonlineag": 2200
+      },
+      "349.5": {
+       "betmgm": 1550,
+       "draftkings": 1860
+      },
+      "359.5": {
+       "draftkings": 2200
+      },
+      "369.5": {
+       "draftkings": 2500
+      },
+      "379.5": {
+       "draftkings": 2800
+      }
+     },
+     "malik willis|rushing_yards": {
+      "109.5": {
+       "betonlineag": 4100
+      },
+      "124.5": {
+       "betmgm": 2000
+      },
+      "14.5": {
+       "draftkings": -406,
+       "fanduel": -550
+      },
+      "19.5": {
+       "betonlineag": -244,
+       "betrivers": -286,
+       "draftkings": -244,
+       "fanduel": -290
+      },
+      "24.5": {
+       "betmgm": -200,
+       "draftkings": -163,
+       "fanduel": -178
+      },
+      "29.5": {
+       "betonlineag": -114,
+       "betrivers": -117,
+       "draftkings": -112,
+       "fanduel": -114
+      },
+      "39.5": {
+       "betonlineag": 135,
+       "betrivers": 165,
+       "draftkings": 174,
+       "fanduel": 182
+      },
+      "49.5": {
+       "betmgm": 280,
+       "betonlineag": 210,
+       "betrivers": 290,
+       "draftkings": 318,
+       "fanduel": 350
+      },
+      "59.5": {
+       "betonlineag": 320,
+       "draftkings": 543,
+       "fanduel": 580
+      },
+      "69.5": {
+       "betonlineag": 500,
+       "draftkings": 910,
+       "fanduel": 880
+      },
+      "74.5": {
+       "betmgm": 825
+      },
+      "79.5": {
+       "betonlineag": 800,
+       "draftkings": 1480,
+       "fanduel": 1280
+      },
+      "89.5": {
+       "betonlineag": 1350,
+       "draftkings": 2300
+      },
+      "9.5": {
+       "betonlineag": -588,
+       "draftkings": -790,
+       "fanduel": -1400
+      },
+      "99.5": {
+       "betmgm": 1500,
+       "betonlineag": 2300,
+       "draftkings": 3500
+      }
+     },
+     "ollie gordon|receptions": {
+      "0.5": {
+       "betrivers": -590,
+       "fanduel": -580
+      },
+      "1.5": {
+       "betonlineag": -127,
+       "betrivers": -121,
+       "draftkings": -125,
+       "fanduel": -122
+      },
+      "2.5": {
+       "betonlineag": 166,
+       "betrivers": 245,
+       "draftkings": 239,
+       "fanduel": 230
+      },
+      "3.5": {
+       "betonlineag": 340,
+       "betrivers": 650,
+       "draftkings": 630,
+       "fanduel": 580
+      },
+      "4.5": {
+       "betonlineag": 700,
+       "draftkings": 1520
+      },
+      "5.5": {
+       "betonlineag": 1500,
+       "draftkings": 2700
+      },
+      "6.5": {
+       "betonlineag": 3200
+      }
+     },
+     "ollie gordon|rushing_yards": {
+      "100.5": {
+       "betonlineag": 250
+      },
+      "109.5": {
+       "draftkings": 362,
+       "fanduel": 390
+      },
+      "110.5": {
+       "betonlineag": 360
+      },
+      "119.5": {
+       "draftkings": 509
+      },
+      "120.5": {
+       "betonlineag": 525
+      },
+      "124.5": {
+       "betmgm": 550,
+       "fanduel": 640
+      },
+      "129.5": {
+       "draftkings": 720
+      },
+      "130.5": {
+       "betonlineag": 775
+      },
+      "139.5": {
+       "draftkings": 1000
+      },
+      "140.5": {
+       "betonlineag": 1150
+      },
+      "149.5": {
+       "draftkings": 1400,
+       "fanduel": 1280
+      },
+      "150.5": {
+       "betonlineag": 1750
+      },
+      "159.5": {
+       "draftkings": 1920
+      },
+      "169.5": {
+       "draftkings": 2600
+      },
+      "179.5": {
+       "draftkings": 3400
+      },
+      "24.5": {
+       "draftkings": -2600
+      },
+      "29.5": {
+       "draftkings": -1560
+      },
+      "39.5": {
+       "draftkings": -620,
+       "fanduel": -700
+      },
+      "49.5": {
+       "betmgm": -450,
+       "betrivers": -385,
+       "draftkings": -329,
+       "fanduel": -350
+      },
+      "50.5": {
+       "betonlineag": -357
+      },
+      "59.5": {
+       "betrivers": -195,
+       "draftkings": -197,
+       "fanduel": -200
+      },
+      "60.5": {
+       "betonlineag": -196
+      },
+      "69.5": {
+       "betrivers": -112,
+       "draftkings": -124,
+       "fanduel": -120
+      },
+      "70.5": {
+       "betonlineag": -111
+      },
+      "72.5": {
+       "draftkings": -110
+      },
+      "74.5": {
+       "betmgm": -111
+      },
+      "79.5": {
+       "betrivers": 145,
+       "draftkings": 121,
+       "fanduel": 130
+      },
+      "80.5": {
+       "betonlineag": 127
+      },
+      "89.5": {
+       "betrivers": 230,
+       "draftkings": 177,
+       "fanduel": 194
+      },
+      "90.5": {
+       "betonlineag": 179
+      },
+      "99.5": {
+       "betmgm": 250,
+       "betrivers": 350,
+       "draftkings": 253,
+       "fanduel": 280
+      }
+     },
+     "sam laporta|receptions": {
+      "1.5": {
+       "betrivers": -1667,
+       "draftkings": -1340,
+       "fanduel": -1200
+      },
+      "2.5": {
+       "betonlineag": -588,
+       "betrivers": -360,
+       "draftkings": -359,
+       "fanduel": -330
+      },
+      "3.5": {
+       "betonlineag": -141,
+       "betrivers": -132,
+       "draftkings": -141,
+       "fanduel": -136
+      },
+      "4.5": {
+       "betonlineag": 144,
+       "betrivers": 175,
+       "draftkings": 153,
+       "fanduel": 168
+      },
+      "5.5": {
+       "betonlineag": 280,
+       "betrivers": 370,
+       "draftkings": 318,
+       "fanduel": 320
+      },
+      "6.5": {
+       "betonlineag": 525,
+       "betrivers": 800,
+       "draftkings": 630,
+       "fanduel": 630
+      },
+      "7.5": {
+       "betonlineag": 1050,
+       "draftkings": 1220,
+       "fanduel": 1100
+      },
+      "8.5": {
+       "betonlineag": 2200,
+       "draftkings": 2100,
+       "fanduel": 1700
+      }
+     },
+     "sione vaki|rushing_yards": {
+      "10.5": {
+       "betonlineag": -286
+      },
+      "124.5": {
+       "betmgm": 2000
+      },
+      "14.5": {
+       "draftkings": -186,
+       "fanduel": -192
+      },
+      "19.5": {
+       "betrivers": -120,
+       "draftkings": -118,
+       "fanduel": -114
+      },
+      "20.5": {
+       "betonlineag": -112,
+       "draftkings": -108
+      },
+      "24.5": {
+       "betmgm": 130,
+       "draftkings": 125,
+       "fanduel": 130
+      },
+      "29.5": {
+       "betrivers": 210,
+       "draftkings": 180,
+       "fanduel": 182
+      },
+      "30.5": {
+       "betonlineag": 147
+      },
+      "39.5": {
+       "draftkings": 339,
+       "fanduel": 320
+      },
+      "4.5": {
+       "fanduel": -850
+      },
+      "40.5": {
+       "betonlineag": 240
+      },
+      "49.5": {
+       "betmgm": 550,
+       "draftkings": 584,
+       "fanduel": 550
+      },
+      "50.5": {
+       "betonlineag": 400
+      },
+      "59.5": {
+       "draftkings": 920,
+       "fanduel": 800
+      },
+      "60.5": {
+       "betonlineag": 725
+      },
+      "69.5": {
+       "draftkings": 1420
+      },
+      "70.5": {
+       "betonlineag": 1300
+      },
+      "74.5": {
+       "betmgm": 1250
+      },
+      "79.5": {
+       "draftkings": 2100
+      },
+      "80.5": {
+       "betonlineag": 2500
+      },
+      "89.5": {
+       "draftkings": 3000
+      },
+      "9.5": {
+       "betrivers": -500,
+       "draftkings": -336,
+       "fanduel": -340
+      },
+      "99.5": {
+       "betmgm": 1900
+      }
+     }
+    }
+   },
+   "event_id": "44d8c37868b700e90f816db7c5df5cdd",
+   "kickoff": "2026-11-08T13:00:00-05:00",
+   "standard": {
+    "fetched": "2026-11-05T16:05-05:00",
+    "lines": {
+     "amon ra st brown|receiving_yards": [
+      [
+       "draftkings",
+       74.5,
+       -114,
+       -110
+      ],
+      [
+       "fanduel",
+       76.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       76.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       75.5,
+       -118,
+       -113
+      ],
+      [
+       "betmgm",
+       78.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       74.5,
+       -115,
+       -115
+      ]
+     ],
+     "amon ra st brown|receptions": [
+      [
+       "draftkings",
+       6.5,
+       -107,
+       -119
+      ],
+      [
+       "fanduel",
+       6.5,
+       -102,
+       -130
+      ],
+      [
+       "betonlineag",
+       6.5,
+       -108,
+       -120
+      ],
+      [
+       "betmgm",
+       6.5,
+       -120,
+       -110
+      ],
+      [
+       "bovada",
+       6.5,
+       -110,
+       -120
+      ]
+     ],
+     "caleb douglas|receiving_yards": [
+      [
+       "draftkings",
+       38.5,
+       -111,
+       -113
+      ],
+      [
+       "fanduel",
+       39.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       38.5,
+       -115,
+       -112
+      ],
+      [
+       "betrivers",
+       39.5,
+       -113,
+       -118
+      ],
+      [
+       "betmgm",
+       38.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       38.5,
+       -115,
+       -115
+      ]
+     ],
+     "caleb douglas|receptions": [
+      [
+       "draftkings",
+       3.5,
+       122,
+       -156
+      ],
+      [
+       "fanduel",
+       2.5,
+       -188,
+       140
+      ],
+      [
+       "betonlineag",
+       3.5,
+       115,
+       -149
+      ],
+      [
+       "betmgm",
+       3.5,
+       120,
+       -160
+      ],
+      [
+       "bovada",
+       3.5,
+       120,
+       -160
+      ]
+     ],
+     "chris bell|receiving_yards": [
+      [
+       "draftkings",
+       23.5,
+       -110,
+       -114
+      ],
+      [
+       "fanduel",
+       22.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       22.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       23.5,
+       -118,
+       -113
+      ],
+      [
+       "betmgm",
+       23.5,
+       -111,
+       -118
+      ],
+      [
+       "bovada",
+       23.5,
+       -115,
+       -115
+      ]
+     ],
+     "chris bell|receptions": [
+      [
+       "draftkings",
+       2.5,
+       142,
+       -182
+      ],
+      [
+       "fanduel",
+       2.5,
+       134,
+       -180
+      ],
+      [
+       "betonlineag",
+       2.5,
+       134,
+       -175
+      ],
+      [
+       "bovada",
+       2.5,
+       140,
+       -185
+      ]
+     ],
+     "greg dulcich|receiving_yards": [
+      [
+       "draftkings",
+       38.5,
+       -114,
+       -110
+      ],
+      [
+       "fanduel",
+       37.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       37.5,
+       -115,
+       -112
+      ],
+      [
+       "betrivers",
+       37.5,
+       -117,
+       -114
+      ],
+      [
+       "betmgm",
+       37.5,
+       -120,
+       -111
+      ],
+      [
+       "bovada",
+       38.5,
+       -115,
+       -115
+      ]
+     ],
+     "greg dulcich|receptions": [
+      [
+       "draftkings",
+       3.5,
+       -131,
+       103
+      ],
+      [
+       "fanduel",
+       3.5,
+       -130,
+       -102
+      ],
+      [
+       "betonlineag",
+       3.5,
+       -135,
+       105
+      ],
+      [
+       "betmgm",
+       3.5,
+       -120,
+       -110
+      ],
+      [
+       "bovada",
+       3.5,
+       -135,
+       105
+      ]
+     ],
+     "isaac teslaa|receiving_yards": [
+      [
+       "draftkings",
+       15.5,
+       -108,
+       -116
+      ],
+      [
+       "fanduel",
+       16.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       16.5,
+       -115,
+       -112
+      ],
+      [
+       "betrivers",
+       15.5,
+       -114,
+       -117
+      ],
+      [
+       "betmgm",
+       16.5,
+       -120,
+       -110
+      ],
+      [
+       "bovada",
+       15.5,
+       -110,
+       -120
+      ]
+     ],
+     "isaac teslaa|receptions": [
+      [
+       "draftkings",
+       1.5,
+       111,
+       -142
+      ],
+      [
+       "fanduel",
+       1.5,
+       106,
+       -140
+      ],
+      [
+       "betonlineag",
+       1.5,
+       106,
+       -137
+      ],
+      [
+       "betmgm",
+       1.5,
+       100,
+       -135
+      ],
+      [
+       "bovada",
+       1.5,
+       110,
+       -145
+      ]
+     ],
+     "jahmyr gibbs|receiving_yards": [
+      [
+       "draftkings",
+       33.5,
+       -110,
+       -114
+      ],
+      [
+       "fanduel",
+       30.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       31.5,
+       -115,
+       -112
+      ],
+      [
+       "betrivers",
+       31.5,
+       -117,
+       -114
+      ],
+      [
+       "bovada",
+       33.5,
+       -115,
+       -115
+      ]
+     ],
+     "jahmyr gibbs|receptions": [
+      [
+       "draftkings",
+       3.5,
+       -144,
+       113
+      ],
+      [
+       "fanduel",
+       3.5,
+       -180,
+       134
+      ],
+      [
+       "betonlineag",
+       3.5,
+       -154,
+       118
+      ],
+      [
+       "betmgm",
+       3.5,
+       -150,
+       110
+      ],
+      [
+       "bovada",
+       3.5,
+       -145,
+       110
+      ]
+     ],
+     "jahmyr gibbs|rushing_yards": [
+      [
+       "draftkings",
+       98.5,
+       -112,
+       -111
+      ],
+      [
+       "fanduel",
+       98.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       98.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       100.5,
+       -117,
+       -114
+      ],
+      [
+       "betmgm",
+       100.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       98.5,
+       -115,
+       -115
+      ]
+     ],
+     "jameson williams|receiving_yards": [
+      [
+       "draftkings",
+       51.5,
+       -114,
+       -110
+      ],
+      [
+       "fanduel",
+       52.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       52.5,
+       -112,
+       -115
+      ],
+      [
+       "betrivers",
+       52.5,
+       -115,
+       -115
+      ],
+      [
+       "betmgm",
+       53.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       51.5,
+       -115,
+       -115
+      ]
+     ],
+     "jameson williams|receptions": [
+      [
+       "draftkings",
+       3.5,
+       -112,
+       -114
+      ],
+      [
+       "fanduel",
+       3.5,
+       -108,
+       -122
+      ],
+      [
+       "betonlineag",
+       3.5,
+       -111,
+       -116
+      ],
+      [
+       "betmgm",
+       3.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       3.5,
+       -115,
+       -115
+      ]
+     ],
+     "jared goff|passing_yards": [
+      [
+       "draftkings",
+       260.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       261.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       260.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       256.5,
+       -117,
+       -114
+      ],
+      [
+       "betmgm",
+       260.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       260.5,
+       -115,
+       -115
+      ]
+     ],
+     "jaylen wright|rushing_yards": [
+      [
+       "draftkings",
+       9.5,
+       -118,
+       -107
+      ],
+      [
+       "fanduel",
+       9.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       9.5,
+       -116,
+       -111
+      ],
+      [
+       "betrivers",
+       9.5,
+       -122,
+       -109
+      ],
+      [
+       "bovada",
+       9.5,
+       -120,
+       -110
+      ]
+     ],
+     "malik washington|receiving_yards": [
+      [
+       "draftkings",
+       42.5,
+       -114,
+       -110
+      ],
+      [
+       "fanduel",
+       41.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       41.5,
+       -112,
+       -115
+      ],
+      [
+       "betrivers",
+       40.5,
+       -118,
+       -113
+      ],
+      [
+       "betmgm",
+       42.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       42.5,
+       -115,
+       -115
+      ]
+     ],
+     "malik washington|receptions": [
+      [
+       "draftkings",
+       4.5,
+       119,
+       -152
+      ],
+      [
+       "fanduel",
+       4.5,
+       112,
+       -148
+      ],
+      [
+       "betonlineag",
+       4.5,
+       117,
+       -152
+      ],
+      [
+       "bovada",
+       4.5,
+       120,
+       -160
+      ]
+     ],
+     "malik willis|passing_yards": [
+      [
+       "draftkings",
+       207.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       208.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       207.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       204.5,
+       -115,
+       -115
+      ],
+      [
+       "betmgm",
+       201.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       207.5,
+       -115,
+       -115
+      ]
+     ],
+     "malik willis|rushing_yards": [
+      [
+       "draftkings",
+       29.5,
+       -115,
+       -109
+      ],
+      [
+       "fanduel",
+       29.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       29.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       29.5,
+       -118,
+       -113
+      ],
+      [
+       "betmgm",
+       29.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       29.5,
+       -120,
+       -110
+      ]
+     ],
+     "ollie gordon|receiving_yards": [
+      [
+       "draftkings",
+       8.5,
+       -105,
+       -119
+      ],
+      [
+       "fanduel",
+       7.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       8.5,
+       -112,
+       -115
+      ],
+      [
+       "betrivers",
+       9.5,
+       -109,
+       -122
+      ],
+      [
+       "bovada",
+       8.5,
+       -110,
+       -120
+      ]
+     ],
+     "ollie gordon|receptions": [
+      [
+       "draftkings",
+       1.5,
+       -121,
+       -105
+      ],
+      [
+       "fanduel",
+       1.5,
+       -122,
+       -108
+      ],
+      [
+       "betonlineag",
+       1.5,
+       -127,
+       -102
+      ],
+      [
+       "bovada",
+       1.5,
+       -125,
+       -105
+      ]
+     ],
+     "ollie gordon|rushing_yards": [
+      [
+       "draftkings",
+       72.5,
+       -110,
+       -114
+      ],
+      [
+       "fanduel",
+       70.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       70.5,
+       -111,
+       -116
+      ],
+      [
+       "betrivers",
+       68.5,
+       -118,
+       -113
+      ],
+      [
+       "bovada",
+       72.5,
+       -115,
+       -115
+      ]
+     ],
+     "sam laporta|receiving_yards": [
+      [
+       "draftkings",
+       42.5,
+       -114,
+       -110
+      ],
+      [
+       "fanduel",
+       43.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       43.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       41.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       42.5,
+       -115,
+       -115
+      ]
+     ],
+     "sam laporta|receptions": [
+      [
+       "draftkings",
+       3.5,
+       -138,
+       108
+      ],
+      [
+       "fanduel",
+       3.5,
+       -132,
+       100
+      ],
+      [
+       "betonlineag",
+       3.5,
+       -141,
+       108
+      ],
+      [
+       "bovada",
+       3.5,
+       -145,
+       110
+      ]
+     ],
+     "sione vaki|rushing_yards": [
+      [
+       "draftkings",
+       20.5,
+       -108,
+       -116
+      ],
+      [
+       "fanduel",
+       19.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       20.5,
+       -112,
+       -115
+      ],
+      [
+       "betrivers",
+       19.5,
+       -121,
+       -110
+      ],
+      [
+       "betmgm",
+       18.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       20.5,
+       -110,
+       -120
+      ]
+     ]
+    }
+   }
+  },
+  "2026_09_HOU_LAC": {
+   "event_id": "39aeac43cea7b12558b91cdab1255a10",
+   "kickoff": "2026-11-08T16:05:00-05:00",
+   "standard": {
+    "fetched": "2026-11-05T16:05-05:00",
+    "lines": {
+     "charlie kolar|receiving_yards": [
+      [
+       "draftkings",
+       15.5,
+       -113,
+       -111
+      ],
+      [
+       "fanduel",
+       14.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       14.5,
+       -116,
+       -111
+      ],
+      [
+       "betrivers",
+       15.5,
+       -114,
+       -127
+      ]
+     ],
+     "charlie kolar|receptions": [
+      [
+       "draftkings",
+       1.5,
+       -136,
+       106
+      ],
+      [
+       "fanduel",
+       1.5,
+       -136,
+       102
+      ],
+      [
+       "betonlineag",
+       1.5,
+       -130,
+       101
+      ]
+     ],
+     "cj stroud|passing_yards": [
+      [
+       "draftkings",
+       245.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       251.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       245.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       248.5,
+       -120,
+       -121
+      ],
+      [
+       "betmgm",
+       250.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       245.5,
+       -115,
+       -115
+      ]
+     ],
+     "cj stroud|rushing_yards": [
+      [
+       "draftkings",
+       7.5,
+       -115,
+       -109
+      ],
+      [
+       "fanduel",
+       7.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       7.5,
+       -115,
+       -112
+      ],
+      [
+       "betrivers",
+       7.5,
+       -121,
+       -120
+      ],
+      [
+       "betmgm",
+       7.5,
+       -120,
+       -110
+      ],
+      [
+       "bovada",
+       7.5,
+       -120,
+       -110
+      ]
+     ],
+     "dalton schultz|receiving_yards": [
+      [
+       "draftkings",
+       34.5,
+       -110,
+       -114
+      ],
+      [
+       "fanduel",
+       33.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       34.5,
+       -115,
+       -112
+      ],
+      [
+       "betrivers",
+       32.5,
+       -125,
+       -115
+      ],
+      [
+       "betmgm",
+       35.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       34.5,
+       -115,
+       -115
+      ]
+     ],
+     "dalton schultz|receptions": [
+      [
+       "draftkings",
+       3.5,
+       -158,
+       124
+      ],
+      [
+       "fanduel",
+       3.5,
+       -132,
+       100
+      ],
+      [
+       "betonlineag",
+       3.5,
+       -135,
+       105
+      ],
+      [
+       "betmgm",
+       3.5,
+       -140,
+       105
+      ],
+      [
+       "bovada",
+       3.5,
+       -160,
+       120
+      ]
+     ],
+     "foster moreau|receiving_yards": [
+      [
+       "draftkings",
+       9.5,
+       -106,
+       -118
+      ],
+      [
+       "fanduel",
+       8.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       8.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       7.5,
+       -215,
+       140
+      ]
+     ],
+     "foster moreau|receptions": [
+      [
+       "draftkings",
+       1.5,
+       137,
+       -176
+      ],
+      [
+       "fanduel",
+       1.5,
+       144,
+       -194
+      ],
+      [
+       "betonlineag",
+       1.5,
+       149,
+       -196
+      ]
+     ],
+     "justin herbert|passing_yards": [
+      [
+       "draftkings",
+       203.5,
+       -113,
+       -111
+      ],
+      [
+       "fanduel",
+       208.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       208.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       207.5,
+       -121,
+       -120
+      ],
+      [
+       "betmgm",
+       203.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       203.5,
+       -115,
+       -115
+      ]
+     ],
+     "justin herbert|rushing_yards": [
+      [
+       "draftkings",
+       22.5,
+       -111,
+       -113
+      ],
+      [
+       "fanduel",
+       22.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       22.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       18.5,
+       -118,
+       -122
+      ],
+      [
+       "betmgm",
+       23.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       22.5,
+       -115,
+       -115
+      ]
+     ],
+     "kayshon boutte|receiving_yards": [
+      [
+       "draftkings",
+       17.5,
+       -111,
+       -113
+      ],
+      [
+       "fanduel",
+       16.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       16.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       14.5,
+       -177,
+       120
+      ]
+     ],
+     "kayshon boutte|receptions": [
+      [
+       "draftkings",
+       1.5,
+       -102,
+       -124
+      ],
+      [
+       "fanduel",
+       1.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       1.5,
+       -103,
+       -125
+      ]
+     ],
+     "keaton mitchell|rushing_yards": [
+      [
+       "fanduel",
+       13.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       12.5,
+       -108,
+       -120
+      ],
+      [
+       "betmgm",
+       12.5,
+       -110,
+       -120
+      ]
+     ],
+     "kimani vidal|receiving_yards": [
+      [
+       "draftkings",
+       7.5,
+       -117,
+       -108
+      ],
+      [
+       "fanduel",
+       7.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       7.5,
+       -127,
+       -114
+      ],
+      [
+       "betmgm",
+       8.5,
+       -110,
+       -120
+      ]
+     ],
+     "kimani vidal|receptions": [
+      [
+       "draftkings",
+       1.5,
+       108,
+       -138
+      ],
+      [
+       "fanduel",
+       1.5,
+       -108,
+       -122
+      ],
+      [
+       "betmgm",
+       1.5,
+       -110,
+       -120
+      ]
+     ],
+     "kimani vidal|rushing_yards": [
+      [
+       "draftkings",
+       19.5,
+       -106,
+       -118
+      ],
+      [
+       "fanduel",
+       18.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       20.5,
+       -122,
+       -118
+      ],
+      [
+       "betmgm",
+       18.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       19.5,
+       -110,
+       -120
+      ]
+     ],
+     "ladd mcconkey|receiving_yards": [
+      [
+       "draftkings",
+       48.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       51.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       48.5,
+       -116,
+       -111
+      ],
+      [
+       "betrivers",
+       47.5,
+       -121,
+       -120
+      ],
+      [
+       "betmgm",
+       49.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       48.5,
+       -115,
+       -115
+      ]
+     ],
+     "ladd mcconkey|receptions": [
+      [
+       "draftkings",
+       3.5,
+       -124,
+       -103
+      ],
+      [
+       "fanduel",
+       3.5,
+       -130,
+       -102
+      ],
+      [
+       "betonlineag",
+       3.5,
+       -125,
+       -103
+      ],
+      [
+       "betmgm",
+       4.5,
+       160,
+       -220
+      ],
+      [
+       "bovada",
+       3.5,
+       -125,
+       -105
+      ]
+     ],
+     "marvin harrison|receiving_yards": [
+      [
+       "draftkings",
+       27.5,
+       -110,
+       -114
+      ],
+      [
+       "fanduel",
+       26.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       27.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       25.5,
+       -122,
+       -118
+      ],
+      [
+       "betmgm",
+       28.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       27.5,
+       -115,
+       -115
+      ]
+     ],
+     "marvin harrison|receptions": [
+      [
+       "draftkings",
+       2.5,
+       -113,
+       -112
+      ],
+      [
+       "fanduel",
+       2.5,
+       -112,
+       -118
+      ],
+      [
+       "betonlineag",
+       2.5,
+       -109,
+       -119
+      ],
+      [
+       "betmgm",
+       2.5,
+       -105,
+       -125
+      ],
+      [
+       "bovada",
+       2.5,
+       -115,
+       -115
+      ]
+     ],
+     "nico collins|receiving_yards": [
+      [
+       "draftkings",
+       67.5,
+       -113,
+       -111
+      ],
+      [
+       "fanduel",
+       68.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       68.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       67.5,
+       -125,
+       -115
+      ],
+      [
+       "betmgm",
+       66.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       67.5,
+       -115,
+       -115
+      ]
+     ],
+     "nico collins|receptions": [
+      [
+       "draftkings",
+       5.5,
+       114,
+       -145
+      ],
+      [
+       "fanduel",
+       5.5,
+       120,
+       -160
+      ],
+      [
+       "betonlineag",
+       5.5,
+       118,
+       -154
+      ],
+      [
+       "betmgm",
+       5.5,
+       120,
+       -160
+      ],
+      [
+       "bovada",
+       5.5,
+       115,
+       -150
+      ]
+     ],
+     "omarion hampton|receiving_yards": [
+      [
+       "draftkings",
+       6.5,
+       -119,
+       -105
+      ],
+      [
+       "fanduel",
+       6.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       6.5,
+       -129,
+       -113
+      ],
+      [
+       "betmgm",
+       6.5,
+       -115,
+       -115
+      ]
+     ],
+     "omarion hampton|receptions": [
+      [
+       "draftkings",
+       1.5,
+       122,
+       -156
+      ],
+      [
+       "fanduel",
+       1.5,
+       102,
+       -136
+      ],
+      [
+       "betmgm",
+       1.5,
+       120,
+       -160
+      ]
+     ],
+     "omarion hampton|rushing_yards": [
+      [
+       "draftkings",
+       35.5,
+       -116,
+       -109
+      ],
+      [
+       "fanduel",
+       37.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       34.5,
+       -122,
+       -118
+      ],
+      [
+       "betmgm",
+       35.5,
+       -125,
+       -105
+      ],
+      [
+       "bovada",
+       35.5,
+       -120,
+       -110
+      ]
+     ],
+     "quentin johnston|receiving_yards": [
+      [
+       "draftkings",
+       31.5,
+       -113,
+       -111
+      ],
+      [
+       "fanduel",
+       31.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       31.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       30.5,
+       -124,
+       -118
+      ],
+      [
+       "betmgm",
+       30.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       31.5,
+       -115,
+       -115
+      ]
+     ],
+     "quentin johnston|receptions": [
+      [
+       "draftkings",
+       2.5,
+       -109,
+       -117
+      ],
+      [
+       "fanduel",
+       2.5,
+       102,
+       -136
+      ],
+      [
+       "betonlineag",
+       2.5,
+       -108,
+       -120
+      ],
+      [
+       "betmgm",
+       2.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       2.5,
+       -110,
+       -120
+      ]
+     ],
+     "tank dell|receiving_yards": [
+      [
+       "draftkings",
+       15.5,
+       -108,
+       -117
+      ],
+      [
+       "fanduel",
+       15.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       15.5,
+       -111,
+       -116
+      ],
+      [
+       "betrivers",
+       13.5,
+       -125,
+       -117
+      ]
+     ],
+     "tank dell|receptions": [
+      [
+       "draftkings",
+       1.5,
+       122,
+       -156
+      ],
+      [
+       "fanduel",
+       1.5,
+       116,
+       -154
+      ],
+      [
+       "betonlineag",
+       1.5,
+       115,
+       -149
+      ]
+     ],
+     "tre harris|receiving_yards": [
+      [
+       "draftkings",
+       31.5,
+       -114,
+       -110
+      ],
+      [
+       "fanduel",
+       31.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       31.5,
+       -116,
+       -111
+      ],
+      [
+       "betrivers",
+       30.5,
+       -122,
+       -118
+      ]
+     ],
+     "tre harris|receptions": [
+      [
+       "draftkings",
+       2.5,
+       -111,
+       -115
+      ],
+      [
+       "fanduel",
+       2.5,
+       -128,
+       -104
+      ],
+      [
+       "betonlineag",
+       2.5,
+       -114,
+       -114
+      ]
+     ],
+     "woody marks|receiving_yards": [
+      [
+       "draftkings",
+       14.5,
+       -110,
+       -115
+      ],
+      [
+       "fanduel",
+       13.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       13.5,
+       -115,
+       -112
+      ],
+      [
+       "betrivers",
+       14.5,
+       -115,
+       -125
+      ],
+      [
+       "betmgm",
+       13.5,
+       -120,
+       -110
+      ],
+      [
+       "bovada",
+       14.5,
+       -110,
+       -120
+      ]
+     ],
+     "woody marks|receptions": [
+      [
+       "draftkings",
+       2.5,
+       120,
+       -153
+      ],
+      [
+       "fanduel",
+       2.5,
+       120,
+       -160
+      ],
+      [
+       "betonlineag",
+       2.5,
+       125,
+       -164
+      ],
+      [
+       "betmgm",
+       2.5,
+       120,
+       -160
+      ],
+      [
+       "bovada",
+       2.5,
+       135,
+       -180
+      ]
+     ],
+     "woody marks|rushing_yards": [
+      [
+       "draftkings",
+       61.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       60.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       60.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       59.5,
+       -121,
+       -120
+      ],
+      [
+       "betmgm",
+       62.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       61.5,
+       -115,
+       -115
+      ]
+     ],
+     "xavier hutchinson|receiving_yards": [
+      [
+       "draftkings",
+       19.5,
+       -110,
+       -114
+      ],
+      [
+       "fanduel",
+       19.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       19.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       18.5,
+       -159,
+       110
+      ]
+     ],
+     "xavier hutchinson|receptions": [
+      [
+       "draftkings",
+       1.5,
+       -192,
+       149
+      ],
+      [
+       "fanduel",
+       2.5,
+       168,
+       -230
+      ],
+      [
+       "betonlineag",
+       2.5,
+       152,
+       -200
+      ]
+     ]
+    }
+   }
+  },
   "2026_09_JAX_BAL": {
    "event_id": "c75744790b7acf6260c78ba5e739c0e5",
    "kickoff": "2026-11-05T20:15:00-05:00",
@@ -31870,6 +37319,4197 @@
        4.5,
        -105,
        -125
+      ]
+     ]
+    }
+   }
+  },
+  "2026_09_LA_WAS": {
+   "alternate": {
+    "fetched": {
+     "receiving_yards": "2026-11-05T21:05+00:00",
+     "receptions": "2026-11-05T21:05+00:00"
+    },
+    "lines": {
+     "antonio williams|receiving_yards": {
+      "103.5": {
+       "betonlineag": 1150
+      },
+      "109.5": {
+       "draftkings": 1500,
+       "fanduel": 1260
+      },
+      "113.5": {
+       "betonlineag": 1900
+      },
+      "119.5": {
+       "draftkings": 2200
+      },
+      "123.5": {
+       "betonlineag": 3300
+      },
+      "124.5": {
+       "betmgm": 1400
+      },
+      "129.5": {
+       "draftkings": 3100
+      },
+      "14.5": {
+       "draftkings": -950,
+       "fanduel": -1000
+      },
+      "19.5": {
+       "betrivers": -625,
+       "draftkings": -562,
+       "fanduel": -550
+      },
+      "24.5": {
+       "betmgm": -450,
+       "draftkings": -370,
+       "fanduel": -350
+      },
+      "29.5": {
+       "betrivers": -265,
+       "draftkings": -257,
+       "fanduel": -245
+      },
+      "33.5": {
+       "betonlineag": -233
+      },
+      "39.5": {
+       "betrivers": -137,
+       "draftkings": -143,
+       "fanduel": -130
+      },
+      "43.5": {
+       "betonlineag": -114,
+       "draftkings": -114
+      },
+      "49.5": {
+       "betmgm": 105,
+       "betrivers": 123,
+       "draftkings": 118,
+       "fanduel": 136
+      },
+      "53.5": {
+       "betonlineag": 132
+      },
+      "59.5": {
+       "betrivers": 195,
+       "draftkings": 188,
+       "fanduel": 210
+      },
+      "63.5": {
+       "betonlineag": 199
+      },
+      "69.5": {
+       "betrivers": 300,
+       "draftkings": 294,
+       "fanduel": 320
+      },
+      "73.5": {
+       "betonlineag": 300
+      },
+      "74.5": {
+       "betmgm": 310
+      },
+      "79.5": {
+       "draftkings": 455,
+       "fanduel": 490
+      },
+      "83.5": {
+       "betonlineag": 450
+      },
+      "89.5": {
+       "draftkings": 690,
+       "fanduel": 700
+      },
+      "9.5": {
+       "draftkings": -1720
+      },
+      "93.5": {
+       "betonlineag": 725
+      },
+      "99.5": {
+       "betmgm": 750,
+       "draftkings": 1020,
+       "fanduel": 920
+      }
+     },
+     "antonio williams|receptions": {
+      "1.5": {
+       "betrivers": -1667,
+       "draftkings": -1640,
+       "fanduel": -1450
+      },
+      "2.5": {
+       "betonlineag": -625,
+       "betrivers": -400,
+       "draftkings": -415,
+       "fanduel": -360
+      },
+      "3.5": {
+       "betonlineag": -156,
+       "betrivers": -152,
+       "draftkings": -167,
+       "fanduel": -148
+      },
+      "4.5": {
+       "betonlineag": 135,
+       "betrivers": 145,
+       "draftkings": 131,
+       "fanduel": 154
+      },
+      "5.5": {
+       "betonlineag": 260,
+       "betrivers": 285,
+       "draftkings": 260,
+       "fanduel": 300
+      },
+      "6.5": {
+       "betonlineag": 525,
+       "betrivers": 575,
+       "draftkings": 516,
+       "fanduel": 580
+      },
+      "7.5": {
+       "betonlineag": 1050,
+       "betrivers": 1100,
+       "draftkings": 960,
+       "fanduel": 920
+      },
+      "8.5": {
+       "betonlineag": 2200,
+       "draftkings": 1660,
+       "fanduel": 1500
+      },
+      "9.5": {
+       "draftkings": 2500
+      }
+     },
+     "chig okonkwo|receiving_yards": {
+      "100.5": {
+       "betonlineag": 1800
+      },
+      "109.5": {
+       "draftkings": 3000
+      },
+      "110.5": {
+       "betonlineag": 3000
+      },
+      "124.5": {
+       "betmgm": 1900
+      },
+      "14.5": {
+       "draftkings": -455,
+       "fanduel": -470
+      },
+      "19.5": {
+       "betrivers": -315,
+       "draftkings": -288,
+       "fanduel": -275
+      },
+      "20.5": {
+       "betonlineag": -238
+      },
+      "24.5": {
+       "betmgm": -200,
+       "draftkings": -195,
+       "fanduel": -182
+      },
+      "29.5": {
+       "betrivers": -134,
+       "draftkings": -139,
+       "fanduel": -122
+      },
+      "30.5": {
+       "betonlineag": -115
+      },
+      "32.5": {
+       "draftkings": -115
+      },
+      "39.5": {
+       "betrivers": 143,
+       "draftkings": 131,
+       "fanduel": 158
+      },
+      "40.5": {
+       "betonlineag": 130
+      },
+      "49.5": {
+       "betmgm": 210,
+       "betrivers": 250,
+       "draftkings": 224,
+       "fanduel": 270
+      },
+      "50.5": {
+       "betonlineag": 194
+      },
+      "59.5": {
+       "betrivers": 425,
+       "draftkings": 362,
+       "fanduel": 430
+      },
+      "60.5": {
+       "betonlineag": 290
+      },
+      "69.5": {
+       "draftkings": 579,
+       "fanduel": 700
+      },
+      "70.5": {
+       "betonlineag": 450
+      },
+      "74.5": {
+       "betmgm": 600
+      },
+      "79.5": {
+       "draftkings": 930,
+       "fanduel": 1100
+      },
+      "80.5": {
+       "betonlineag": 675
+      },
+      "89.5": {
+       "draftkings": 1440,
+       "fanduel": 1500
+      },
+      "9.5": {
+       "draftkings": -840,
+       "fanduel": -900
+      },
+      "90.5": {
+       "betonlineag": 1100
+      },
+      "99.5": {
+       "betmgm": 1250,
+       "draftkings": 2100
+      }
+     },
+     "chig okonkwo|receptions": {
+      "1.5": {
+       "betrivers": -835,
+       "draftkings": -840,
+       "fanduel": -850
+      },
+      "2.5": {
+       "betonlineag": -312,
+       "betrivers": -230,
+       "draftkings": -256,
+       "fanduel": -245
+      },
+      "3.5": {
+       "betonlineag": -101,
+       "betrivers": 117,
+       "draftkings": -107,
+       "fanduel": 102
+      },
+      "4.5": {
+       "betonlineag": 188,
+       "betrivers": 255,
+       "draftkings": 204,
+       "fanduel": 210
+      },
+      "5.5": {
+       "betonlineag": 360,
+       "betrivers": 575,
+       "draftkings": 422,
+       "fanduel": 400
+      },
+      "6.5": {
+       "betonlineag": 725,
+       "betrivers": 1300,
+       "draftkings": 860,
+       "fanduel": 750
+      },
+      "7.5": {
+       "betonlineag": 1500,
+       "draftkings": 1660,
+       "fanduel": 1260
+      },
+      "8.5": {
+       "betonlineag": 3100,
+       "draftkings": 2600
+      }
+     },
+     "kyren williams|receiving_yards": {
+      "14.5": {
+       "draftkings": -173,
+       "fanduel": -192
+      },
+      "19.5": {
+       "betonlineag": -115,
+       "betrivers": -114,
+       "draftkings": -112,
+       "fanduel": -114
+      },
+      "24.5": {
+       "draftkings": 131,
+       "fanduel": 132
+      },
+      "29.5": {
+       "betonlineag": 140,
+       "betrivers": 195,
+       "draftkings": 184,
+       "fanduel": 188
+      },
+      "39.5": {
+       "betonlineag": 220,
+       "betrivers": 410,
+       "draftkings": 340,
+       "fanduel": 360
+      },
+      "4.5": {
+       "fanduel": -900
+      },
+      "49.5": {
+       "betonlineag": 360,
+       "draftkings": 576,
+       "fanduel": 630
+      },
+      "59.5": {
+       "betonlineag": 600,
+       "draftkings": 930,
+       "fanduel": 920
+      },
+      "69.5": {
+       "betonlineag": 1000,
+       "draftkings": 1440,
+       "fanduel": 1280
+      },
+      "79.5": {
+       "betonlineag": 1800,
+       "draftkings": 2200
+      },
+      "89.5": {
+       "betonlineag": 3300,
+       "draftkings": 3200
+      },
+      "9.5": {
+       "betonlineag": -294,
+       "betrivers": -360,
+       "draftkings": -297,
+       "fanduel": -350
+      }
+     },
+     "kyren williams|receptions": {
+      "0.5": {
+       "betrivers": -3335
+      },
+      "1.5": {
+       "betonlineag": -417,
+       "betrivers": -360,
+       "draftkings": -354,
+       "fanduel": -400
+      },
+      "2.5": {
+       "betonlineag": -127,
+       "betrivers": -114,
+       "draftkings": -117,
+       "fanduel": -136
+      },
+      "3.5": {
+       "betonlineag": 142,
+       "betrivers": 210,
+       "draftkings": 213,
+       "fanduel": 172
+      },
+      "4.5": {
+       "betonlineag": 250,
+       "betrivers": 475,
+       "draftkings": 481,
+       "fanduel": 360
+      },
+      "5.5": {
+       "betonlineag": 425,
+       "betrivers": 1050,
+       "draftkings": 1040,
+       "fanduel": 640
+      },
+      "6.5": {
+       "betonlineag": 750,
+       "draftkings": 2100,
+       "fanduel": 1200
+      },
+      "7.5": {
+       "betonlineag": 1400
+      }
+     },
+     "puka nacua|receiving_yards": {
+      "103.5": {
+       "betonlineag": 111
+      },
+      "109.5": {
+       "betrivers": 143,
+       "draftkings": 150,
+       "fanduel": 162
+      },
+      "113.5": {
+       "betonlineag": 140
+      },
+      "119.5": {
+       "betrivers": 200,
+       "draftkings": 201
+      },
+      "123.5": {
+       "betonlineag": 178
+      },
+      "124.5": {
+       "betmgm": 210,
+       "fanduel": 265
+      },
+      "129.5": {
+       "betrivers": 280,
+       "draftkings": 273
+      },
+      "133.5": {
+       "betonlineag": 230
+      },
+      "139.5": {
+       "betrivers": 390,
+       "draftkings": 363
+      },
+      "143.5": {
+       "betonlineag": 290
+      },
+      "149.5": {
+       "betmgm": 425,
+       "draftkings": 486,
+       "fanduel": 580
+      },
+      "153.5": {
+       "betonlineag": 370
+      },
+      "159.5": {
+       "draftkings": 640
+      },
+      "163.5": {
+       "betonlineag": 475
+      },
+      "169.5": {
+       "draftkings": 880
+      },
+      "173.5": {
+       "betonlineag": 600
+      },
+      "174.5": {
+       "fanduel": 1100
+      },
+      "179.5": {
+       "draftkings": 1140
+      },
+      "189.5": {
+       "draftkings": 1520
+      },
+      "199.5": {
+       "draftkings": 1980
+      },
+      "29.5": {
+       "draftkings": -2400
+      },
+      "39.5": {
+       "draftkings": -1160
+      },
+      "49.5": {
+       "betmgm": -1600,
+       "draftkings": -650,
+       "fanduel": -1000
+      },
+      "59.5": {
+       "betrivers": -625,
+       "draftkings": -408,
+       "fanduel": -500
+      },
+      "69.5": {
+       "betrivers": -360,
+       "draftkings": -270,
+       "fanduel": -310
+      },
+      "74.5": {
+       "betmgm": -325
+      },
+      "79.5": {
+       "betrivers": -225,
+       "draftkings": -182,
+       "fanduel": -200
+      },
+      "83.5": {
+       "betonlineag": -172
+      },
+      "89.5": {
+       "betrivers": -143,
+       "draftkings": -127,
+       "fanduel": -130
+      },
+      "93.5": {
+       "betonlineag": -115,
+       "draftkings": -110
+      },
+      "99.5": {
+       "betmgm": -111,
+       "betrivers": 102,
+       "draftkings": 111,
+       "fanduel": 114
+      }
+     },
+     "puka nacua|receptions": {
+      "10.5": {
+       "betonlineag": 250,
+       "betrivers": 340,
+       "draftkings": 288,
+       "fanduel": 280
+      },
+      "11.5": {
+       "betonlineag": 380,
+       "betrivers": 575,
+       "draftkings": 475,
+       "fanduel": 430
+      },
+      "12.5": {
+       "betonlineag": 600,
+       "betrivers": 950,
+       "draftkings": 750,
+       "fanduel": 680
+      },
+      "13.5": {
+       "betonlineag": 950,
+       "draftkings": 1200,
+       "fanduel": 1000
+      },
+      "14.5": {
+       "draftkings": 1760,
+       "fanduel": 1400
+      },
+      "15.5": {
+       "draftkings": 2500
+      },
+      "4.5": {
+       "betrivers": -1667,
+       "draftkings": -1580,
+       "fanduel": -1600
+      },
+      "5.5": {
+       "betrivers": -590,
+       "draftkings": -630,
+       "fanduel": -600
+      },
+      "6.5": {
+       "betrivers": -278,
+       "draftkings": -305,
+       "fanduel": -300
+      },
+      "7.5": {
+       "betonlineag": -182,
+       "betrivers": -148,
+       "draftkings": -170,
+       "fanduel": -166
+      },
+      "8.5": {
+       "betonlineag": 107,
+       "betrivers": 123,
+       "draftkings": 102,
+       "fanduel": 104
+      },
+      "9.5": {
+       "betonlineag": 159,
+       "betrivers": 205,
+       "draftkings": 173,
+       "fanduel": 178
+      }
+     },
+     "rachaad white|receiving_yards": {
+      "124.5": {
+       "betmgm": 2000
+      },
+      "14.5": {
+       "draftkings": -118,
+       "fanduel": -140
+      },
+      "16.5": {
+       "betonlineag": -118
+      },
+      "19.5": {
+       "betrivers": 116,
+       "draftkings": 139,
+       "fanduel": 116
+      },
+      "24.5": {
+       "betmgm": 160,
+       "draftkings": 216,
+       "fanduel": 182
+      },
+      "26.5": {
+       "betonlineag": 134
+      },
+      "29.5": {
+       "betrivers": 280,
+       "draftkings": 319,
+       "fanduel": 260
+      },
+      "36.5": {
+       "betonlineag": 210
+      },
+      "39.5": {
+       "draftkings": 630,
+       "fanduel": 470
+      },
+      "4.5": {
+       "fanduel": -580
+      },
+      "46.5": {
+       "betonlineag": 330
+      },
+      "49.5": {
+       "betmgm": 775,
+       "draftkings": 1100,
+       "fanduel": 800
+      },
+      "56.5": {
+       "betonlineag": 525
+      },
+      "59.5": {
+       "draftkings": 1760,
+       "fanduel": 1200
+      },
+      "66.5": {
+       "betonlineag": 875
+      },
+      "69.5": {
+       "draftkings": 2600,
+       "fanduel": 1700
+      },
+      "74.5": {
+       "betmgm": 1700
+      },
+      "76.5": {
+       "betonlineag": 1450
+      },
+      "79.5": {
+       "draftkings": 3900
+      },
+      "86.5": {
+       "betonlineag": 2600
+      },
+      "9.5": {
+       "betrivers": -278,
+       "draftkings": -215,
+       "fanduel": -250
+      },
+      "96.5": {
+       "betonlineag": 4800
+      },
+      "99.5": {
+       "betmgm": 2000
+      }
+     },
+     "rachaad white|receptions": {
+      "0.5": {
+       "betrivers": -5000
+      },
+      "1.5": {
+       "betonlineag": -588,
+       "betrivers": -400,
+       "draftkings": -399,
+       "fanduel": -420
+      },
+      "2.5": {
+       "betonlineag": -130,
+       "betrivers": -129,
+       "draftkings": -134,
+       "fanduel": -140
+      },
+      "3.5": {
+       "betonlineag": 148,
+       "betrivers": 185,
+       "draftkings": 180,
+       "fanduel": 174
+      },
+      "4.5": {
+       "betonlineag": 270,
+       "betrivers": 410,
+       "draftkings": 401,
+       "fanduel": 350
+      },
+      "5.5": {
+       "betonlineag": 500,
+       "betrivers": 900,
+       "draftkings": 850,
+       "fanduel": 680
+      },
+      "6.5": {
+       "betonlineag": 950,
+       "draftkings": 1660,
+       "fanduel": 1200
+      },
+      "7.5": {
+       "betonlineag": 1850,
+       "draftkings": 2700
+      }
+     },
+     "stefon diggs|receiving_yards": {
+      "104.5": {
+       "betonlineag": 775
+      },
+      "109.5": {
+       "draftkings": 1460,
+       "fanduel": 1280
+      },
+      "114.5": {
+       "betonlineag": 1150
+      },
+      "119.5": {
+       "draftkings": 2000
+      },
+      "124.5": {
+       "betmgm": 1400,
+       "betonlineag": 1750
+      },
+      "129.5": {
+       "draftkings": 3000
+      },
+      "14.5": {
+       "draftkings": -940,
+       "fanduel": -1100
+      },
+      "19.5": {
+       "draftkings": -576,
+       "fanduel": -580
+      },
+      "24.5": {
+       "betmgm": -550,
+       "draftkings": -389,
+       "fanduel": -360
+      },
+      "29.5": {
+       "betrivers": -335,
+       "draftkings": -273,
+       "fanduel": -250
+      },
+      "34.5": {
+       "betonlineag": -208
+      },
+      "39.5": {
+       "betrivers": -165,
+       "draftkings": -145,
+       "fanduel": -130
+      },
+      "44.5": {
+       "betonlineag": -114,
+       "draftkings": -111
+      },
+      "49.5": {
+       "betmgm": -105,
+       "betrivers": 108,
+       "draftkings": 116,
+       "fanduel": 134
+      },
+      "54.5": {
+       "betonlineag": 125
+      },
+      "59.5": {
+       "betrivers": 175,
+       "draftkings": 185,
+       "fanduel": 220
+      },
+      "64.5": {
+       "betonlineag": 176
+      },
+      "69.5": {
+       "betrivers": 270,
+       "draftkings": 286,
+       "fanduel": 320
+      },
+      "74.5": {
+       "betmgm": 290,
+       "betonlineag": 250
+      },
+      "79.5": {
+       "betrivers": 410,
+       "draftkings": 447,
+       "fanduel": 520
+      },
+      "84.5": {
+       "betonlineag": 360
+      },
+      "89.5": {
+       "draftkings": 670,
+       "fanduel": 750
+      },
+      "9.5": {
+       "draftkings": -1860
+      },
+      "94.5": {
+       "betonlineag": 525
+      },
+      "99.5": {
+       "betmgm": 700,
+       "draftkings": 1000,
+       "fanduel": 1000
+      }
+     },
+     "stefon diggs|receptions": {
+      "1.5": {
+       "betrivers": -3335,
+       "draftkings": -1980
+      },
+      "2.5": {
+       "betrivers": -560,
+       "draftkings": -513,
+       "fanduel": -500
+      },
+      "3.5": {
+       "betonlineag": -250,
+       "betrivers": -205,
+       "draftkings": -196,
+       "fanduel": -210
+      },
+      "4.5": {
+       "betonlineag": 104,
+       "betrivers": 112,
+       "draftkings": 108,
+       "fanduel": 104
+      },
+      "5.5": {
+       "betonlineag": 181,
+       "betrivers": 225,
+       "draftkings": 211,
+       "fanduel": 210
+      },
+      "6.5": {
+       "betonlineag": 320,
+       "betrivers": 450,
+       "draftkings": 403,
+       "fanduel": 390
+      },
+      "7.5": {
+       "betonlineag": 600,
+       "betrivers": 900,
+       "draftkings": 740,
+       "fanduel": 640
+      },
+      "8.5": {
+       "betonlineag": 1100,
+       "draftkings": 1280,
+       "fanduel": 1000
+      },
+      "9.5": {
+       "betonlineag": 2200,
+       "draftkings": 2100,
+       "fanduel": 1700
+      }
+     },
+     "treylon burks|receiving_yards": {
+      "109.5": {
+       "betonlineag": 2800,
+       "draftkings": 3300,
+       "fanduel": 1500
+      },
+      "124.5": {
+       "betmgm": 1850
+      },
+      "14.5": {
+       "draftkings": -317,
+       "fanduel": -350
+      },
+      "19.5": {
+       "betonlineag": -244,
+       "betrivers": -265,
+       "draftkings": -204,
+       "fanduel": -240
+      },
+      "24.5": {
+       "betmgm": -175,
+       "draftkings": -144,
+       "fanduel": -166
+      },
+      "29.5": {
+       "betonlineag": -114,
+       "betrivers": -137,
+       "draftkings": -109,
+       "fanduel": -122
+      },
+      "39.5": {
+       "betonlineag": 131,
+       "betrivers": 120,
+       "draftkings": 159,
+       "fanduel": 140
+      },
+      "4.5": {
+       "fanduel": -1200
+      },
+      "49.5": {
+       "betmgm": 210,
+       "betonlineag": 193,
+       "betrivers": 190,
+       "draftkings": 265,
+       "fanduel": 220
+      },
+      "59.5": {
+       "betonlineag": 290,
+       "betrivers": 290,
+       "draftkings": 434,
+       "fanduel": 320
+      },
+      "69.5": {
+       "betonlineag": 425,
+       "betrivers": 430,
+       "draftkings": 690,
+       "fanduel": 490
+      },
+      "74.5": {
+       "betmgm": 600
+      },
+      "79.5": {
+       "betonlineag": 675,
+       "draftkings": 1040,
+       "fanduel": 680
+      },
+      "89.5": {
+       "betonlineag": 1050,
+       "draftkings": 1620,
+       "fanduel": 920
+      },
+      "9.5": {
+       "betrivers": -670,
+       "draftkings": -499,
+       "fanduel": -580
+      },
+      "99.5": {
+       "betmgm": 1250,
+       "betonlineag": 1700,
+       "draftkings": 2400,
+       "fanduel": 1200
+      }
+     },
+     "treylon burks|receptions": {
+      "0.5": {
+       "betrivers": -2000
+      },
+      "1.5": {
+       "betonlineag": -294,
+       "betrivers": -278,
+       "draftkings": -265,
+       "fanduel": -270
+      },
+      "2.5": {
+       "betonlineag": 120,
+       "betrivers": 120,
+       "draftkings": 111,
+       "fanduel": 116
+      },
+      "3.5": {
+       "betonlineag": 220,
+       "betrivers": 300,
+       "draftkings": 277,
+       "fanduel": 280
+      },
+      "4.5": {
+       "betonlineag": 450,
+       "betrivers": 750,
+       "draftkings": 680,
+       "fanduel": 640
+      },
+      "5.5": {
+       "betonlineag": 900,
+       "draftkings": 1480,
+       "fanduel": 1200
+      },
+      "6.5": {
+       "betonlineag": 1900
+      },
+      "7.5": {
+       "betonlineag": 4100
+      }
+     }
+    }
+   },
+   "event_id": "89de07377e0aa8ffaa2ae6a7dc0855cc",
+   "kickoff": "2026-11-08T13:00:00-05:00",
+   "standard": {
+    "fetched": "2026-11-05T16:05-05:00",
+    "lines": {
+     "antonio williams|receiving_yards": [
+      [
+       "draftkings",
+       43.5,
+       -114,
+       -110
+      ],
+      [
+       "fanduel",
+       41.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       43.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       42.5,
+       -118,
+       -113
+      ],
+      [
+       "betmgm",
+       43.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       43.5,
+       -115,
+       -115
+      ]
+     ],
+     "antonio williams|receptions": [
+      [
+       "draftkings",
+       3.5,
+       -165,
+       129
+      ],
+      [
+       "fanduel",
+       3.5,
+       -146,
+       110
+      ],
+      [
+       "betonlineag",
+       3.5,
+       -156,
+       120
+      ],
+      [
+       "betmgm",
+       3.5,
+       -150,
+       110
+      ],
+      [
+       "bovada",
+       3.5,
+       -170,
+       130
+      ]
+     ],
+     "blake corum|rushing_yards": [
+      [
+       "draftkings",
+       50.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       48.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       50.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       49.5,
+       -117,
+       -113
+      ],
+      [
+       "betmgm",
+       51.5,
+       -111,
+       -118
+      ],
+      [
+       "bovada",
+       50.5,
+       -115,
+       -115
+      ]
+     ],
+     "chig okonkwo|receiving_yards": [
+      [
+       "draftkings",
+       32.5,
+       -115,
+       -109
+      ],
+      [
+       "fanduel",
+       30.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       30.5,
+       -115,
+       -112
+      ],
+      [
+       "betrivers",
+       31.5,
+       -118,
+       -113
+      ],
+      [
+       "betmgm",
+       30.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       32.5,
+       -120,
+       -110
+      ]
+     ],
+     "chig okonkwo|receptions": [
+      [
+       "draftkings",
+       3.5,
+       -106,
+       -120
+      ],
+      [
+       "fanduel",
+       3.5,
+       102,
+       -136
+      ],
+      [
+       "betonlineag",
+       3.5,
+       -101,
+       -128
+      ],
+      [
+       "betmgm",
+       3.5,
+       105,
+       -140
+      ],
+      [
+       "bovada",
+       3.5,
+       -110,
+       -120
+      ]
+     ],
+     "jayden daniels|passing_yards": [
+      [
+       "draftkings",
+       217.5,
+       -112,
+       -111
+      ],
+      [
+       "fanduel",
+       211.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       211.5,
+       -115,
+       -112
+      ],
+      [
+       "betrivers",
+       217.5,
+       -117,
+       -114
+      ],
+      [
+       "betmgm",
+       213.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       217.5,
+       -115,
+       -115
+      ]
+     ],
+     "jayden daniels|rushing_yards": [
+      [
+       "draftkings",
+       38.5,
+       -109,
+       -115
+      ],
+      [
+       "fanduel",
+       37.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       37.5,
+       -118,
+       -110
+      ],
+      [
+       "betrivers",
+       39.5,
+       -115,
+       -115
+      ],
+      [
+       "betmgm",
+       37.5,
+       -120,
+       -111
+      ],
+      [
+       "bovada",
+       38.5,
+       -110,
+       -120
+      ]
+     ],
+     "kyren williams|receiving_yards": [
+      [
+       "draftkings",
+       19.5,
+       -111,
+       -113
+      ],
+      [
+       "fanduel",
+       19.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       19.5,
+       -115,
+       -112
+      ],
+      [
+       "betrivers",
+       19.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       19.5,
+       -115,
+       -115
+      ]
+     ],
+     "kyren williams|receptions": [
+      [
+       "draftkings",
+       2.5,
+       -114,
+       -112
+      ],
+      [
+       "fanduel",
+       2.5,
+       -136,
+       102
+      ],
+      [
+       "betonlineag",
+       2.5,
+       -127,
+       -102
+      ],
+      [
+       "bovada",
+       2.5,
+       -115,
+       -115
+      ]
+     ],
+     "kyren williams|rushing_yards": [
+      [
+       "draftkings",
+       57.5,
+       -109,
+       -115
+      ],
+      [
+       "fanduel",
+       60.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       60.5,
+       -110,
+       -118
+      ],
+      [
+       "betrivers",
+       58.5,
+       -114,
+       -117
+      ],
+      [
+       "betmgm",
+       61.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       57.5,
+       -110,
+       -120
+      ]
+     ],
+     "matthew stafford|passing_yards": [
+      [
+       "draftkings",
+       256.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       251.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       256.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       253.5,
+       -115,
+       -115
+      ],
+      [
+       "betmgm",
+       258.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       256.5,
+       -115,
+       -115
+      ]
+     ],
+     "puka nacua|receiving_yards": [
+      [
+       "draftkings",
+       93.5,
+       -110,
+       -114
+      ],
+      [
+       "fanduel",
+       92.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       93.5,
+       -115,
+       -112
+      ],
+      [
+       "betrivers",
+       95.5,
+       -117,
+       -114
+      ],
+      [
+       "betmgm",
+       95.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       93.5,
+       -115,
+       -115
+      ]
+     ],
+     "puka nacua|receptions": [
+      [
+       "draftkings",
+       8.5,
+       103,
+       -131
+      ],
+      [
+       "fanduel",
+       8.5,
+       106,
+       -140
+      ],
+      [
+       "betonlineag",
+       8.5,
+       107,
+       -139
+      ],
+      [
+       "betmgm",
+       7.5,
+       -160,
+       120
+      ],
+      [
+       "bovada",
+       8.5,
+       105,
+       -135
+      ]
+     ],
+     "rachaad white|receiving_yards": [
+      [
+       "draftkings",
+       14.5,
+       -118,
+       -107
+      ],
+      [
+       "fanduel",
+       16.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       16.5,
+       -118,
+       -110
+      ],
+      [
+       "betrivers",
+       16.5,
+       -118,
+       -113
+      ],
+      [
+       "betmgm",
+       16.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       14.5,
+       -120,
+       -110
+      ]
+     ],
+     "rachaad white|receptions": [
+      [
+       "draftkings",
+       2.5,
+       -135,
+       106
+      ],
+      [
+       "fanduel",
+       2.5,
+       -140,
+       106
+      ],
+      [
+       "betonlineag",
+       2.5,
+       -130,
+       100
+      ],
+      [
+       "bovada",
+       2.5,
+       -135,
+       105
+      ]
+     ],
+     "rachaad white|rushing_yards": [
+      [
+       "draftkings",
+       39.5,
+       -115,
+       -109
+      ],
+      [
+       "fanduel",
+       40.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       39.5,
+       -120,
+       -108
+      ],
+      [
+       "betrivers",
+       41.5,
+       -112,
+       -120
+      ],
+      [
+       "betmgm",
+       40.5,
+       -120,
+       -111
+      ],
+      [
+       "bovada",
+       39.5,
+       -120,
+       -110
+      ]
+     ],
+     "stefon diggs|receiving_yards": [
+      [
+       "draftkings",
+       44.5,
+       -110,
+       -114
+      ],
+      [
+       "fanduel",
+       41.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       44.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       45.5,
+       -117,
+       -114
+      ],
+      [
+       "betmgm",
+       45.5,
+       -105,
+       -125
+      ],
+      [
+       "bovada",
+       44.5,
+       -115,
+       -115
+      ]
+     ],
+     "stefon diggs|receptions": [
+      [
+       "draftkings",
+       4.5,
+       109,
+       -139
+      ],
+      [
+       "fanduel",
+       4.5,
+       106,
+       -140
+      ],
+      [
+       "betonlineag",
+       4.5,
+       104,
+       -135
+      ],
+      [
+       "betmgm",
+       4.5,
+       105,
+       -140
+      ],
+      [
+       "bovada",
+       4.5,
+       110,
+       -145
+      ]
+     ],
+     "treylon burks|receiving_yards": [
+      [
+       "draftkings",
+       29.5,
+       -109,
+       -115
+      ],
+      [
+       "fanduel",
+       30.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       29.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       32.5,
+       -118,
+       -113
+      ],
+      [
+       "bovada",
+       29.5,
+       -115,
+       -115
+      ]
+     ],
+     "treylon burks|receptions": [
+      [
+       "draftkings",
+       2.5,
+       112,
+       -143
+      ],
+      [
+       "fanduel",
+       2.5,
+       116,
+       -154
+      ],
+      [
+       "betonlineag",
+       2.5,
+       120,
+       -156
+      ],
+      [
+       "bovada",
+       2.5,
+       110,
+       -145
+      ]
+     ]
+    }
+   }
+  },
+  "2026_09_LV_SF": {
+   "alternate": {
+    "fetched": {
+     "passing_yards": "2026-11-05T21:05+00:00"
+    },
+    "lines": {
+     "brock purdy|passing_yards": {
+      "149.5": {
+       "fanduel": -1450
+      },
+      "169.5": {
+       "draftkings": -1440
+      },
+      "174.5": {
+       "fanduel": -600
+      },
+      "179.5": {
+       "draftkings": -920
+      },
+      "189.5": {
+       "draftkings": -630
+      },
+      "199.5": {
+       "betmgm": -625,
+       "betrivers": -435,
+       "draftkings": -441,
+       "fanduel": -320
+      },
+      "209.5": {
+       "draftkings": -324
+      },
+      "219.5": {
+       "draftkings": -243
+      },
+      "224.5": {
+       "betrivers": -186,
+       "fanduel": -178
+      },
+      "226.5": {
+       "betonlineag": -204
+      },
+      "229.5": {
+       "draftkings": -184
+      },
+      "236.5": {
+       "betonlineag": -152
+      },
+      "239.5": {
+       "draftkings": -139
+      },
+      "246.5": {
+       "betonlineag": -115
+      },
+      "247.5": {
+       "draftkings": -113
+      },
+      "249.5": {
+       "betmgm": -130,
+       "betrivers": 110,
+       "draftkings": -107,
+       "fanduel": 106
+      },
+      "256.5": {
+       "betonlineag": 107
+      },
+      "259.5": {
+       "draftkings": 122
+      },
+      "266.5": {
+       "betonlineag": 132
+      },
+      "269.5": {
+       "draftkings": 158
+      },
+      "274.5": {
+       "betrivers": 210,
+       "fanduel": 188
+      },
+      "276.5": {
+       "betonlineag": 162
+      },
+      "279.5": {
+       "draftkings": 205
+      },
+      "286.5": {
+       "betonlineag": 199
+      },
+      "289.5": {
+       "draftkings": 261
+      },
+      "296.5": {
+       "betonlineag": 250
+      },
+      "299.5": {
+       "betmgm": 275,
+       "betrivers": 400,
+       "draftkings": 339,
+       "fanduel": 320
+      },
+      "306.5": {
+       "betonlineag": 300
+      },
+      "309.5": {
+       "draftkings": 432
+      },
+      "316.5": {
+       "betonlineag": 370
+      },
+      "319.5": {
+       "draftkings": 555
+      },
+      "324.5": {
+       "fanduel": 550
+      },
+      "326.5": {
+       "betonlineag": 475
+      },
+      "329.5": {
+       "draftkings": 710
+      },
+      "336.5": {
+       "betonlineag": 575
+      },
+      "339.5": {
+       "draftkings": 900
+      },
+      "346.5": {
+       "betonlineag": 725
+      },
+      "349.5": {
+       "betmgm": 825,
+       "draftkings": 1160,
+       "fanduel": 880
+      },
+      "356.5": {
+       "betonlineag": 950
+      },
+      "359.5": {
+       "draftkings": 1420
+      },
+      "366.5": {
+       "betonlineag": 1200
+      },
+      "369.5": {
+       "draftkings": 1780
+      },
+      "374.5": {
+       "fanduel": 1400
+      },
+      "376.5": {
+       "betonlineag": 1550
+      },
+      "379.5": {
+       "draftkings": 2100
+      },
+      "386.5": {
+       "betonlineag": 2000
+      },
+      "389.5": {
+       "draftkings": 2600
+      }
+     },
+     "kirk cousins|passing_yards": {
+      "149.5": {
+       "betmgm": -10000
+      },
+      "159.5": {
+       "draftkings": -1600
+      },
+      "169.5": {
+       "draftkings": -1040
+      },
+      "174.5": {
+       "fanduel": -900
+      },
+      "179.5": {
+       "draftkings": -740
+      },
+      "189.5": {
+       "draftkings": -540
+      },
+      "199.5": {
+       "betmgm": -500,
+       "betrivers": -420,
+       "draftkings": -396,
+       "fanduel": -450
+      },
+      "209.5": {
+       "draftkings": -299
+      },
+      "219.5": {
+       "draftkings": -227
+      },
+      "224.5": {
+       "betrivers": -195,
+       "fanduel": -235
+      },
+      "229.5": {
+       "draftkings": -180
+      },
+      "230.5": {
+       "betonlineag": -185
+      },
+      "239.5": {
+       "draftkings": -139
+      },
+      "240.5": {
+       "betonlineag": -145
+      },
+      "248.5": {
+       "draftkings": -113
+      },
+      "249.5": {
+       "betmgm": -120,
+       "betrivers": 102,
+       "draftkings": -110,
+       "fanduel": -125
+      },
+      "250.5": {
+       "betonlineag": -114
+      },
+      "259.5": {
+       "draftkings": 114
+      },
+      "260.5": {
+       "betonlineag": 106
+      },
+      "269.5": {
+       "draftkings": 143
+      },
+      "270.5": {
+       "betonlineag": 126
+      },
+      "274.5": {
+       "betrivers": 185,
+       "fanduel": 142
+      },
+      "279.5": {
+       "draftkings": 179
+      },
+      "280.5": {
+       "betonlineag": 151
+      },
+      "289.5": {
+       "draftkings": 225
+      },
+      "290.5": {
+       "betonlineag": 181
+      },
+      "299.5": {
+       "betmgm": 260,
+       "betrivers": 330,
+       "draftkings": 282,
+       "fanduel": 240
+      },
+      "300.5": {
+       "betonlineag": 220
+      },
+      "309.5": {
+       "draftkings": 350
+      },
+      "310.5": {
+       "betonlineag": 260
+      },
+      "319.5": {
+       "draftkings": 437
+      },
+      "320.5": {
+       "betonlineag": 310
+      },
+      "324.5": {
+       "fanduel": 410
+      },
+      "329.5": {
+       "draftkings": 542
+      },
+      "330.5": {
+       "betonlineag": 380
+      },
+      "339.5": {
+       "draftkings": 670
+      },
+      "340.5": {
+       "betonlineag": 450
+      },
+      "349.5": {
+       "betmgm": 700,
+       "draftkings": 830,
+       "fanduel": 700
+      },
+      "350.5": {
+       "betonlineag": 550
+      },
+      "359.5": {
+       "draftkings": 1020
+      },
+      "360.5": {
+       "betonlineag": 675
+      },
+      "369.5": {
+       "draftkings": 1280
+      },
+      "370.5": {
+       "betonlineag": 850
+      },
+      "374.5": {
+       "fanduel": 1200
+      },
+      "379.5": {
+       "draftkings": 1540
+      },
+      "380.5": {
+       "betonlineag": 1050
+      },
+      "389.5": {
+       "draftkings": 1840
+      },
+      "390.5": {
+       "betonlineag": 1300
+      },
+      "399.5": {
+       "draftkings": 2200
+      },
+      "409.5": {
+       "draftkings": 2500
+      },
+      "419.5": {
+       "draftkings": 2800
+      }
+     }
+    }
+   },
+   "event_id": "ac9d38a18d5c92814233a31aa9a48d78",
+   "kickoff": "2026-11-08T16:05:00-05:00",
+   "standard": {
+    "fetched": "2026-11-05T16:05-05:00",
+    "lines": {
+     "ashton jeanty|receiving_yards": [
+      [
+       "draftkings",
+       35.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       35.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       35.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       32.5,
+       -118,
+       -113
+      ],
+      [
+       "betmgm",
+       34.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       34.5,
+       -120,
+       -110
+      ]
+     ],
+     "ashton jeanty|receptions": [
+      [
+       "draftkings",
+       4.5,
+       101,
+       -129
+      ],
+      [
+       "fanduel",
+       4.5,
+       102,
+       -136
+      ],
+      [
+       "betonlineag",
+       4.5,
+       104,
+       -135
+      ],
+      [
+       "betmgm",
+       4.5,
+       100,
+       -135
+      ],
+      [
+       "bovada",
+       4.5,
+       105,
+       -135
+      ]
+     ],
+     "ashton jeanty|rushing_yards": [
+      [
+       "draftkings",
+       30.5,
+       -109,
+       -115
+      ],
+      [
+       "fanduel",
+       27.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       28.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       30.5,
+       -114,
+       -115
+      ],
+      [
+       "betmgm",
+       28.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       29.5,
+       -120,
+       -110
+      ]
+     ],
+     "brandin cooks|receiving_yards": [
+      [
+       "fanduel",
+       12.5,
+       -114,
+       -114
+      ]
+     ],
+     "brandin cooks|receptions": [
+      [
+       "fanduel",
+       1.5,
+       124,
+       -166
+      ]
+     ],
+     "brock bowers|receiving_yards": [
+      [
+       "draftkings",
+       75.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       76.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       76.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       75.5,
+       -117,
+       -114
+      ],
+      [
+       "betmgm",
+       74.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       75.5,
+       -115,
+       -115
+      ]
+     ],
+     "brock bowers|receptions": [
+      [
+       "draftkings",
+       6.5,
+       -118,
+       -108
+      ],
+      [
+       "fanduel",
+       6.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       6.5,
+       -116,
+       -111
+      ],
+      [
+       "betmgm",
+       6.5,
+       -120,
+       -110
+      ],
+      [
+       "bovada",
+       6.5,
+       -120,
+       -110
+      ]
+     ],
+     "brock purdy|passing_yards": [
+      [
+       "draftkings",
+       247.5,
+       -111,
+       -113
+      ],
+      [
+       "fanduel",
+       241.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       246.5,
+       -115,
+       -112
+      ],
+      [
+       "betrivers",
+       240.5,
+       -117,
+       -114
+      ],
+      [
+       "betmgm",
+       249.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       246.5,
+       -115,
+       -115
+      ]
+     ],
+     "brock purdy|rushing_yards": [
+      [
+       "draftkings",
+       15.5,
+       -114,
+       -110
+      ],
+      [
+       "fanduel",
+       14.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       15.5,
+       -115,
+       -112
+      ],
+      [
+       "betrivers",
+       15.5,
+       -114,
+       -117
+      ],
+      [
+       "bovada",
+       15.5,
+       -115,
+       -115
+      ]
+     ],
+     "christian kirk|receiving_yards": [
+      [
+       "fanduel",
+       16.5,
+       -114,
+       -114
+      ]
+     ],
+     "christian kirk|receptions": [
+      [
+       "fanduel",
+       1.5,
+       -130,
+       -102
+      ]
+     ],
+     "christian mccaffrey|receiving_yards": [
+      [
+       "fanduel",
+       38.5,
+       -114,
+       -114
+      ]
+     ],
+     "christian mccaffrey|receptions": [
+      [
+       "fanduel",
+       5.5,
+       116,
+       -154
+      ]
+     ],
+     "christian mccaffrey|rushing_yards": [
+      [
+       "draftkings",
+       61.5,
+       -115,
+       -109
+      ],
+      [
+       "fanduel",
+       62.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       61.5,
+       -115,
+       -112
+      ],
+      [
+       "betrivers",
+       60.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       61.5,
+       -115,
+       -115
+      ]
+     ],
+     "demarcus robinson|receiving_yards": [
+      [
+       "fanduel",
+       30.5,
+       -114,
+       -114
+      ]
+     ],
+     "demarcus robinson|receptions": [
+      [
+       "fanduel",
+       2.5,
+       -112,
+       -118
+      ]
+     ],
+     "george kittle|receiving_yards": [
+      [
+       "fanduel",
+       67.5,
+       -114,
+       -114
+      ]
+     ],
+     "george kittle|receptions": [
+      [
+       "fanduel",
+       5.5,
+       -136,
+       102
+      ]
+     ],
+     "jordan watkins|receiving_yards": [
+      [
+       "fanduel",
+       18.5,
+       -114,
+       -114
+      ]
+     ],
+     "jordan watkins|receptions": [
+      [
+       "fanduel",
+       1.5,
+       116,
+       -154
+      ]
+     ],
+     "kirk cousins|passing_yards": [
+      [
+       "draftkings",
+       248.5,
+       -113,
+       -111
+      ],
+      [
+       "fanduel",
+       250.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       250.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       243.5,
+       -117,
+       -114
+      ],
+      [
+       "betmgm",
+       247.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       248.5,
+       -115,
+       -115
+      ]
+     ],
+     "kirk cousins|rushing_yards": [
+      [
+       "draftkings",
+       0.5,
+       -120,
+       -104
+      ],
+      [
+       "fanduel",
+       1.5,
+       -108,
+       -120
+      ],
+      [
+       "bovada",
+       0.5,
+       -125,
+       -105
+      ]
+     ],
+     "kyle juszczyk|receiving_yards": [
+      [
+       "fanduel",
+       9.5,
+       -114,
+       -114
+      ]
+     ],
+     "kyle juszczyk|receptions": [
+      [
+       "fanduel",
+       1.5,
+       124,
+       -166
+      ]
+     ],
+     "mike washington|rushing_yards": [
+      [
+       "draftkings",
+       33.5,
+       -115,
+       -109
+      ],
+      [
+       "fanduel",
+       32.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       32.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       35.5,
+       -115,
+       -115
+      ],
+      [
+       "betmgm",
+       34.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       34.5,
+       -115,
+       -115
+      ]
+     ],
+     "tre tucker|receiving_yards": [
+      [
+       "draftkings",
+       41.5,
+       -114,
+       -110
+      ],
+      [
+       "fanduel",
+       41.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       41.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       40.5,
+       -118,
+       -113
+      ],
+      [
+       "betmgm",
+       40.5,
+       -125,
+       -105
+      ],
+      [
+       "bovada",
+       41.5,
+       -115,
+       -115
+      ]
+     ],
+     "tre tucker|receptions": [
+      [
+       "draftkings",
+       3.5,
+       -102,
+       -125
+      ],
+      [
+       "fanduel",
+       3.5,
+       124,
+       -166
+      ],
+      [
+       "betonlineag",
+       3.5,
+       110,
+       -143
+      ],
+      [
+       "betmgm",
+       3.5,
+       100,
+       -135
+      ],
+      [
+       "bovada",
+       3.5,
+       -105,
+       -125
+      ]
+     ]
+    }
+   }
+  },
+  "2026_09_NYG_PHI": {
+   "event_id": "fe93e6ab1e553c0169936a0a983c324f",
+   "kickoff": "2026-11-08T13:00:00-05:00",
+   "standard": {
+    "fetched": "2026-11-05T16:05-05:00",
+    "lines": {
+     "darnell mooney|receiving_yards": [
+      [
+       "draftkings",
+       12.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       12.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       12.5,
+       -112,
+       -115
+      ],
+      [
+       "betrivers",
+       13.5,
+       -114,
+       -117
+      ],
+      [
+       "betmgm",
+       12.5,
+       -111,
+       -120
+      ],
+      [
+       "bovada",
+       12.5,
+       -115,
+       -115
+      ]
+     ],
+     "darnell mooney|receptions": [
+      [
+       "draftkings",
+       1.5,
+       139,
+       -178
+      ],
+      [
+       "fanduel",
+       1.5,
+       154,
+       -210
+      ],
+      [
+       "betonlineag",
+       1.5,
+       135,
+       -175
+      ],
+      [
+       "betmgm",
+       1.5,
+       135,
+       -185
+      ],
+      [
+       "bovada",
+       1.5,
+       135,
+       -180
+      ]
+     ],
+     "isaiah likely|receiving_yards": [
+      [
+       "draftkings",
+       44.5,
+       -111,
+       -113
+      ],
+      [
+       "fanduel",
+       45.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       45.5,
+       -115,
+       -112
+      ],
+      [
+       "betrivers",
+       44.5,
+       -118,
+       -113
+      ],
+      [
+       "betmgm",
+       45.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       44.5,
+       -115,
+       -115
+      ]
+     ],
+     "isaiah likely|receptions": [
+      [
+       "draftkings",
+       4.5,
+       -108,
+       -117
+      ],
+      [
+       "fanduel",
+       4.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       4.5,
+       -108,
+       -120
+      ],
+      [
+       "betmgm",
+       4.5,
+       -111,
+       -120
+      ],
+      [
+       "bovada",
+       4.5,
+       -110,
+       -120
+      ]
+     ],
+     "jj mccarthy|passing_yards": [
+      [
+       "draftkings",
+       208.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       214.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       214.5,
+       -111,
+       -116
+      ],
+      [
+       "betrivers",
+       207.5,
+       -115,
+       -115
+      ],
+      [
+       "betmgm",
+       206.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       208.5,
+       -115,
+       -115
+      ]
+     ],
+     "joe milton|passing_yards": [
+      [
+       "draftkings",
+       189.5,
+       -111,
+       -113
+      ],
+      [
+       "fanduel",
+       188.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       188.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       185.5,
+       -115,
+       -114
+      ],
+      [
+       "betmgm",
+       188.5,
+       -115,
+       -115
+      ]
+     ],
+     "joe milton|rushing_yards": [
+      [
+       "draftkings",
+       22.5,
+       -111,
+       -113
+      ],
+      [
+       "fanduel",
+       22.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       22.5,
+       -112,
+       -115
+      ],
+      [
+       "betrivers",
+       22.5,
+       -115,
+       -115
+      ]
+     ],
+     "malachi fields|receiving_yards": [
+      [
+       "draftkings",
+       28.5,
+       -114,
+       -110
+      ],
+      [
+       "fanduel",
+       28.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       27.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       26.5,
+       -115,
+       -115
+      ],
+      [
+       "betmgm",
+       26.5,
+       -120,
+       -111
+      ],
+      [
+       "bovada",
+       28.5,
+       -115,
+       -115
+      ]
+     ],
+     "malachi fields|receptions": [
+      [
+       "draftkings",
+       2.5,
+       110,
+       -140
+      ],
+      [
+       "fanduel",
+       2.5,
+       116,
+       -154
+      ],
+      [
+       "betonlineag",
+       2.5,
+       128,
+       -167
+      ],
+      [
+       "betmgm",
+       2.5,
+       105,
+       -145
+      ],
+      [
+       "bovada",
+       2.5,
+       110,
+       -145
+      ]
+     ],
+     "malik nabers|receiving_yards": [
+      [
+       "draftkings",
+       72.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       72.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       72.5,
+       -116,
+       -111
+      ],
+      [
+       "betrivers",
+       72.5,
+       -117,
+       -114
+      ],
+      [
+       "betmgm",
+       72.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       72.5,
+       -115,
+       -115
+      ]
+     ],
+     "malik nabers|receptions": [
+      [
+       "draftkings",
+       5.5,
+       -122,
+       -104
+      ],
+      [
+       "fanduel",
+       5.5,
+       -102,
+       -130
+      ],
+      [
+       "betonlineag",
+       5.5,
+       -120,
+       -108
+      ],
+      [
+       "betmgm",
+       5.5,
+       -125,
+       -105
+      ],
+      [
+       "bovada",
+       5.5,
+       -125,
+       -105
+      ]
+     ],
+     "saquon barkley|rushing_yards": [
+      [
+       "draftkings",
+       57.5,
+       -114,
+       -110
+      ],
+      [
+       "fanduel",
+       60.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       60.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       58.5,
+       -114,
+       -117
+      ],
+      [
+       "betmgm",
+       59.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       57.5,
+       -115,
+       -115
+      ]
+     ]
+    }
+   }
+  },
+  "2026_09_NYJ_KC": {
+   "alternate": {
+    "fetched": {
+     "rushing_yards": "2026-11-05T21:05+00:00"
+    },
+    "lines": {
+     "braelon allen|rushing_yards": {
+      "109.5": {
+       "draftkings": 3400
+      },
+      "14.5": {
+       "draftkings": -800,
+       "fanduel": -580
+      },
+      "19.5": {
+       "betrivers": -385,
+       "draftkings": -414,
+       "fanduel": -320
+      },
+      "24.5": {
+       "draftkings": -242,
+       "fanduel": -210
+      },
+      "29.5": {
+       "betrivers": -143,
+       "draftkings": -155,
+       "fanduel": -144
+      },
+      "33.5": {
+       "draftkings": -112
+      },
+      "39.5": {
+       "betrivers": 148,
+       "draftkings": 134,
+       "fanduel": 142
+      },
+      "49.5": {
+       "betrivers": 275,
+       "draftkings": 251,
+       "fanduel": 240
+      },
+      "59.5": {
+       "draftkings": 427,
+       "fanduel": 390
+      },
+      "69.5": {
+       "draftkings": 690,
+       "fanduel": 580
+      },
+      "79.5": {
+       "draftkings": 1060,
+       "fanduel": 880
+      },
+      "89.5": {
+       "draftkings": 1640,
+       "fanduel": 1200
+      },
+      "9.5": {
+       "draftkings": -2000,
+       "fanduel": -1400
+      },
+      "99.5": {
+       "draftkings": 2300,
+       "fanduel": 1500
+      }
+     },
+     "breece hall|rushing_yards": {
+      "109.5": {
+       "draftkings": 1840,
+       "fanduel": 1400
+      },
+      "119.5": {
+       "draftkings": 2500
+      },
+      "129.5": {
+       "draftkings": 3400
+      },
+      "14.5": {
+       "draftkings": -1660,
+       "fanduel": -1400
+      },
+      "19.5": {
+       "draftkings": -800,
+       "fanduel": -650
+      },
+      "24.5": {
+       "draftkings": -442,
+       "fanduel": -380
+      },
+      "29.5": {
+       "betrivers": -335,
+       "draftkings": -275,
+       "fanduel": -250
+      },
+      "39.5": {
+       "betrivers": -143,
+       "draftkings": -128,
+       "fanduel": -122
+      },
+      "41.5": {
+       "draftkings": -112
+      },
+      "49.5": {
+       "betrivers": 130,
+       "draftkings": 143,
+       "fanduel": 146
+      },
+      "59.5": {
+       "betrivers": 225,
+       "draftkings": 238,
+       "fanduel": 230
+      },
+      "69.5": {
+       "betrivers": 380,
+       "draftkings": 376,
+       "fanduel": 370
+      },
+      "79.5": {
+       "draftkings": 576,
+       "fanduel": 550
+      },
+      "89.5": {
+       "draftkings": 840,
+       "fanduel": 800
+      },
+      "99.5": {
+       "draftkings": 1220,
+       "fanduel": 1100
+      }
+     },
+     "emmett johnson|rushing_yards": {
+      "11.5": {
+       "betonlineag": -114,
+       "draftkings": -112
+      },
+      "124.5": {
+       "betmgm": 2000
+      },
+      "14.5": {
+       "draftkings": 128,
+       "fanduel": 126
+      },
+      "19.5": {
+       "betrivers": 185,
+       "draftkings": 214,
+       "fanduel": 210
+      },
+      "21.5": {
+       "betonlineag": 186
+      },
+      "24.5": {
+       "betmgm": 290,
+       "draftkings": 332,
+       "fanduel": 320
+      },
+      "29.5": {
+       "draftkings": 485,
+       "fanduel": 490
+      },
+      "31.5": {
+       "betonlineag": 400
+      },
+      "39.5": {
+       "draftkings": 850,
+       "fanduel": 880
+      },
+      "4.5": {
+       "fanduel": -390
+      },
+      "41.5": {
+       "betonlineag": 900
+      },
+      "49.5": {
+       "betmgm": 1050,
+       "draftkings": 1320
+      },
+      "51.5": {
+       "betonlineag": 2300
+      },
+      "59.5": {
+       "draftkings": 2000
+      },
+      "69.5": {
+       "draftkings": 2800
+      },
+      "74.5": {
+       "betmgm": 1750
+      },
+      "79.5": {
+       "draftkings": 3800
+      },
+      "9.5": {
+       "betrivers": -195,
+       "draftkings": -146,
+       "fanduel": -154
+      },
+      "99.5": {
+       "betmgm": 2000
+      }
+     },
+     "geno smith|rushing_yards": {
+      "124.5": {
+       "betmgm": 2000
+      },
+      "14.5": {
+       "draftkings": 209,
+       "fanduel": 300
+      },
+      "16.5": {
+       "betonlineag": 280
+      },
+      "19.5": {
+       "betrivers": 340,
+       "draftkings": 335,
+       "fanduel": 550
+      },
+      "24.5": {
+       "betmgm": 425,
+       "draftkings": 529,
+       "fanduel": 850
+      },
+      "26.5": {
+       "betonlineag": 950
+      },
+      "29.5": {
+       "draftkings": 810
+      },
+      "36.5": {
+       "betonlineag": 4000
+      },
+      "39.5": {
+       "draftkings": 1900
+      },
+      "4.5": {
+       "fanduel": -152
+      },
+      "49.5": {
+       "betmgm": 1500,
+       "draftkings": 3500
+      },
+      "6.5": {
+       "draftkings": -116
+      },
+      "74.5": {
+       "betmgm": 2000
+      },
+      "9.5": {
+       "betrivers": 128,
+       "draftkings": 126,
+       "fanduel": 158
+      },
+      "99.5": {
+       "betmgm": 2000
+      }
+     },
+     "kenneth walker|rushing_yards": {
+      "100.5": {
+       "betonlineag": 117
+      },
+      "109.5": {
+       "betrivers": 195,
+       "draftkings": 185,
+       "fanduel": 182
+      },
+      "110.5": {
+       "betonlineag": 154
+      },
+      "119.5": {
+       "betrivers": 295,
+       "draftkings": 265
+      },
+      "120.5": {
+       "betonlineag": 210
+      },
+      "124.5": {
+       "betmgm": 260,
+       "fanduel": 310
+      },
+      "129.5": {
+       "betrivers": 440,
+       "draftkings": 380
+      },
+      "130.5": {
+       "betonlineag": 270
+      },
+      "139.5": {
+       "draftkings": 533
+      },
+      "140.5": {
+       "betonlineag": 360
+      },
+      "149.5": {
+       "betmgm": 550,
+       "draftkings": 760,
+       "fanduel": 680
+      },
+      "150.5": {
+       "betonlineag": 500
+      },
+      "159.5": {
+       "draftkings": 1060
+      },
+      "160.5": {
+       "betonlineag": 675
+      },
+      "169.5": {
+       "draftkings": 1480
+      },
+      "170.5": {
+       "betonlineag": 950
+      },
+      "174.5": {
+       "fanduel": 1280
+      },
+      "179.5": {
+       "draftkings": 1960
+      },
+      "189.5": {
+       "draftkings": 2500
+      },
+      "199.5": {
+       "draftkings": 3400
+      },
+      "39.5": {
+       "draftkings": -2200
+      },
+      "49.5": {
+       "betmgm": -2500,
+       "draftkings": -930,
+       "fanduel": -1200
+      },
+      "59.5": {
+       "betrivers": -670,
+       "draftkings": -495,
+       "fanduel": -550
+      },
+      "69.5": {
+       "betrivers": -345,
+       "draftkings": -283,
+       "fanduel": -310
+      },
+      "70.5": {
+       "betonlineag": -278
+      },
+      "74.5": {
+       "betmgm": -295
+      },
+      "79.5": {
+       "betrivers": -195,
+       "draftkings": -178,
+       "fanduel": -192
+      },
+      "80.5": {
+       "betonlineag": -175
+      },
+      "89.5": {
+       "betrivers": -120,
+       "draftkings": -118,
+       "fanduel": -120
+      },
+      "90.5": {
+       "betonlineag": -114,
+       "draftkings": -114
+      },
+      "99.5": {
+       "betmgm": 105,
+       "betrivers": 130,
+       "draftkings": 126,
+       "fanduel": 126
+      }
+     },
+     "patrick mahomes|rushing_yards": {
+      "11.5": {
+       "betonlineag": -111,
+       "draftkings": -111
+      },
+      "124.5": {
+       "betmgm": 2000
+      },
+      "14.5": {
+       "draftkings": 118,
+       "fanduel": 126
+      },
+      "19.5": {
+       "betrivers": 220,
+       "draftkings": 177,
+       "fanduel": 220
+      },
+      "21.5": {
+       "betonlineag": 182
+      },
+      "24.5": {
+       "betmgm": 260,
+       "draftkings": 263,
+       "fanduel": 360
+      },
+      "29.5": {
+       "draftkings": 377,
+       "fanduel": 550
+      },
+      "31.5": {
+       "betonlineag": 370
+      },
+      "39.5": {
+       "draftkings": 750
+      },
+      "4.5": {
+       "fanduel": -350
+      },
+      "41.5": {
+       "betonlineag": 825
+      },
+      "49.5": {
+       "betmgm": 1100,
+       "draftkings": 1360
+      },
+      "51.5": {
+       "betonlineag": 1900
+      },
+      "59.5": {
+       "draftkings": 2300
+      },
+      "69.5": {
+       "draftkings": 3700
+      },
+      "74.5": {
+       "betmgm": 1850
+      },
+      "9.5": {
+       "betrivers": -121,
+       "draftkings": -138,
+       "fanduel": -154
+      },
+      "99.5": {
+       "betmgm": 2000
+      }
+     }
+    }
+   },
+   "event_id": "e354e6a04b1cb9c96e549b863debb92e",
+   "kickoff": "2026-11-08T13:00:00-05:00",
+   "standard": {
+    "fetched": "2026-11-05T16:05-05:00",
+    "lines": {
+     "braelon allen|rushing_yards": [
+      [
+       "draftkings",
+       33.5,
+       -110,
+       -114
+      ],
+      [
+       "fanduel",
+       32.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       32.5,
+       -113,
+       -118
+      ]
+     ],
+     "breece hall|rushing_yards": [
+      [
+       "draftkings",
+       41.5,
+       -111,
+       -113
+      ],
+      [
+       "fanduel",
+       40.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       43.5,
+       -112,
+       -120
+      ]
+     ],
+     "cyrus allen|receiving_yards": [
+      [
+       "draftkings",
+       15.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       14.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       13.5,
+       -116,
+       -111
+      ],
+      [
+       "betrivers",
+       15.5,
+       -114,
+       -117
+      ],
+      [
+       "betmgm",
+       13.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       15.5,
+       -115,
+       -115
+      ]
+     ],
+     "cyrus allen|receptions": [
+      [
+       "draftkings",
+       1.5,
+       114,
+       -146
+      ],
+      [
+       "fanduel",
+       1.5,
+       116,
+       -154
+      ],
+      [
+       "betonlineag",
+       1.5,
+       118,
+       -154
+      ],
+      [
+       "betmgm",
+       1.5,
+       125,
+       -165
+      ],
+      [
+       "bovada",
+       1.5,
+       115,
+       -150
+      ]
+     ],
+     "emmett johnson|receiving_yards": [
+      [
+       "draftkings",
+       14.5,
+       -112,
+       -112
+      ],
+      [
+       "fanduel",
+       15.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       14.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       14.5,
+       -117,
+       -113
+      ],
+      [
+       "betmgm",
+       13.5,
+       -120,
+       -110
+      ],
+      [
+       "bovada",
+       14.5,
+       -115,
+       -115
+      ]
+     ],
+     "emmett johnson|receptions": [
+      [
+       "draftkings",
+       1.5,
+       -164,
+       129
+      ],
+      [
+       "fanduel",
+       2.5,
+       144,
+       -194
+      ],
+      [
+       "betonlineag",
+       1.5,
+       -179,
+       137
+      ],
+      [
+       "betmgm",
+       1.5,
+       -190,
+       140
+      ],
+      [
+       "bovada",
+       1.5,
+       -170,
+       130
+      ]
+     ],
+     "emmett johnson|rushing_yards": [
+      [
+       "draftkings",
+       11.5,
+       -110,
+       -114
+      ],
+      [
+       "fanduel",
+       11.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       11.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       13.5,
+       -110,
+       -121
+      ],
+      [
+       "betmgm",
+       11.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       11.5,
+       -115,
+       -115
+      ]
+     ],
+     "geno smith|passing_yards": [
+      [
+       "draftkings",
+       213.5,
+       -113,
+       -111
+      ],
+      [
+       "fanduel",
+       211.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       213.5,
+       -115,
+       -112
+      ],
+      [
+       "betrivers",
+       212.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       213.5,
+       -115,
+       -115
+      ]
+     ],
+     "geno smith|rushing_yards": [
+      [
+       "draftkings",
+       6.5,
+       -116,
+       -108
+      ],
+      [
+       "fanduel",
+       6.5,
+       -102,
+       -128
+      ],
+      [
+       "betonlineag",
+       6.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       6.5,
+       -118,
+       -113
+      ],
+      [
+       "bovada",
+       6.5,
+       -120,
+       -110
+      ]
+     ],
+     "kenneth walker|receiving_yards": [
+      [
+       "draftkings",
+       16.5,
+       -116,
+       -108
+      ],
+      [
+       "fanduel",
+       17.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       17.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       18.5,
+       -121,
+       -110
+      ],
+      [
+       "betmgm",
+       17.5,
+       -120,
+       -110
+      ],
+      [
+       "bovada",
+       16.5,
+       -120,
+       -110
+      ]
+     ],
+     "kenneth walker|receptions": [
+      [
+       "draftkings",
+       2.5,
+       -122,
+       -104
+      ],
+      [
+       "fanduel",
+       2.5,
+       -122,
+       -108
+      ],
+      [
+       "betonlineag",
+       2.5,
+       -125,
+       -103
+      ],
+      [
+       "betmgm",
+       2.5,
+       -125,
+       -105
+      ],
+      [
+       "bovada",
+       2.5,
+       -125,
+       -105
+      ]
+     ],
+     "kenneth walker|rushing_yards": [
+      [
+       "draftkings",
+       90.5,
+       -113,
+       -111
+      ],
+      [
+       "fanduel",
+       90.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       90.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       90.5,
+       -115,
+       -115
+      ],
+      [
+       "betmgm",
+       92.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       90.5,
+       -115,
+       -115
+      ]
+     ],
+     "noah gray|receiving_yards": [
+      [
+       "draftkings",
+       12.5,
+       -113,
+       -111
+      ],
+      [
+       "fanduel",
+       11.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       12.5,
+       -111,
+       -116
+      ],
+      [
+       "betrivers",
+       11.5,
+       -110,
+       -121
+      ],
+      [
+       "betmgm",
+       12.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       12.5,
+       -115,
+       -115
+      ]
+     ],
+     "noah gray|receptions": [
+      [
+       "draftkings",
+       1.5,
+       110,
+       -141
+      ],
+      [
+       "fanduel",
+       1.5,
+       118,
+       -158
+      ],
+      [
+       "betonlineag",
+       1.5,
+       118,
+       -154
+      ],
+      [
+       "betmgm",
+       1.5,
+       110,
+       -150
+      ],
+      [
+       "bovada",
+       1.5,
+       110,
+       -145
+      ]
+     ],
+     "patrick mahomes|passing_yards": [
+      [
+       "draftkings",
+       246.5,
+       -111,
+       -113
+      ],
+      [
+       "fanduel",
+       245.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       245.5,
+       -115,
+       -112
+      ],
+      [
+       "betrivers",
+       247.5,
+       -115,
+       -115
+      ],
+      [
+       "betmgm",
+       247.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       246.5,
+       -115,
+       -115
+      ]
+     ],
+     "patrick mahomes|rushing_yards": [
+      [
+       "draftkings",
+       11.5,
+       -108,
+       -116
+      ],
+      [
+       "fanduel",
+       11.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       11.5,
+       -111,
+       -116
+      ],
+      [
+       "betrivers",
+       10.5,
+       -109,
+       -122
+      ],
+      [
+       "bovada",
+       11.5,
+       -110,
+       -120
+      ]
+     ],
+     "rashee rice|receiving_yards": [
+      [
+       "draftkings",
+       58.5,
+       -113,
+       -111
+      ],
+      [
+       "fanduel",
+       59.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       59.5,
+       -114,
+       -114
+      ],
+      [
+       "betrivers",
+       62.5,
+       -115,
+       -114
+      ],
+      [
+       "betmgm",
+       59.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       58.5,
+       -115,
+       -115
+      ]
+     ],
+     "rashee rice|receptions": [
+      [
+       "draftkings",
+       5.5,
+       108,
+       -138
+      ],
+      [
+       "fanduel",
+       5.5,
+       116,
+       -154
+      ],
+      [
+       "betonlineag",
+       5.5,
+       115,
+       -149
+      ],
+      [
+       "betmgm",
+       5.5,
+       105,
+       -140
+      ],
+      [
+       "bovada",
+       5.5,
+       110,
+       -145
+      ]
+     ],
+     "travis kelce|receiving_yards": [
+      [
+       "draftkings",
+       46.5,
+       -109,
+       -115
+      ],
+      [
+       "fanduel",
+       45.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       46.5,
+       -110,
+       -118
+      ],
+      [
+       "betrivers",
+       48.5,
+       -114,
+       -117
+      ],
+      [
+       "betmgm",
+       48.5,
+       -111,
+       -118
+      ],
+      [
+       "bovada",
+       46.5,
+       -110,
+       -120
+      ]
+     ],
+     "travis kelce|receptions": [
+      [
+       "draftkings",
+       4.5,
+       104,
+       -132
+      ],
+      [
+       "fanduel",
+       4.5,
+       116,
+       -154
+      ],
+      [
+       "betonlineag",
+       4.5,
+       109,
+       -141
+      ],
+      [
+       "betmgm",
+       4.5,
+       110,
+       -150
+      ],
+      [
+       "bovada",
+       4.5,
+       105,
+       -135
+      ]
+     ],
+     "xavier worthy|receiving_yards": [
+      [
+       "draftkings",
+       34.5,
+       -110,
+       -114
+      ],
+      [
+       "fanduel",
+       33.5,
+       -114,
+       -114
+      ],
+      [
+       "betonlineag",
+       32.5,
+       -108,
+       -120
+      ],
+      [
+       "betrivers",
+       35.5,
+       -115,
+       -115
+      ],
+      [
+       "bovada",
+       34.5,
+       -115,
+       -115
+      ]
+     ],
+     "xavier worthy|receptions": [
+      [
+       "draftkings",
+       3.5,
+       116,
+       -148
+      ],
+      [
+       "fanduel",
+       3.5,
+       116,
+       -154
+      ],
+      [
+       "betonlineag",
+       3.5,
+       117,
+       -152
+      ],
+      [
+       "bovada",
+       3.5,
+       115,
+       -150
       ]
      ]
     }
