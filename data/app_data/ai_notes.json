@@ -2,112 +2,22 @@
  "kind": "ai_notes",
  "leagues": {
   "NFL": {
-   "checked": "2026-11-04T14:01-05:00",
+   "checked": "2026-11-05T10:28-05:00",
    "season": 2026,
    "week": 9,
    "news": [
     {
-     "game_id": "2026_09_ARI_SEA",
+     "game_id": "2026_09_JAX_BAL",
      "items": [
-      "NFL|likely|2026_09_ARI_SEA|winner|home|||",
-      "NFL|value|2026_09_ARI_SEA|spread|away|||12.5",
-      "NFL|props_likely|2026_09_ARI_SEA|prop|at least|00-0038543|receiving_yards|60.0"
+      "NFL|likely|2026_09_JAX_BAL|winner|away|||"
      ],
-     "headline": "Seahawks rule out Sam Darnold; Drew Lock to start vs. Arizona",
-     "detail": "Seattle coach Mike Macdonald said on Nov 4 that Darnold is out with a quad injury. Lock, who hurt his throwing elbow in practice a couple of weeks ago, is expected to start. The brief says Lock is already the listed QB.",
+     "headline": "Fagnano off injury report, set to start for Ravens vs. Jaguars",
+     "detail": "Rookie Joe Fagnano (ankle) came off the Ravens' injury report on Nov 4 and starts in place of the injured Lamar Jackson and Tyler Huntley. Kicker Tyler Loop is on IR. Jaguars DE Travon Walker (ribs) was limited Tuesday.",
      "impact": "worth watching",
      "sources": [
-      "https://thebiglead.com/sam-darnold-injury-update-seahawks-confirms-out-week-9",
-      "https://sports.yahoo.com/nfl/breaking-news/article/seahawks-rule-out-sam-darnold-with-quad-injury-for-week-9-divisional-matchup-vs-cardinals-185454524.html"
-     ]
-    },
-    {
-     "game_id": "2026_09_ARI_SEA",
-     "items": [
-      "NFL|value|2026_09_ARI_SEA|spread|away|||12.5",
-      "NFL|props_likely|2026_09_ARI_SEA|prop|at least|00-0037744|receptions|4.0"
-     ],
-     "headline": "Cardinals: Jeremiyah Love hurt again, Minshew starts at QB",
-     "detail": "Reports on Nov 3-4 say Love has a new right ankle injury and is headed to IR, so Tyler Allgeier leads the backfield. Gardner Minshew starts after throwing for 188 yards and 3 TDs in relief last week. Michael Wilson has broken ribs.",
-     "impact": "worth watching",
-     "sources": [
-      "https://heavy.com/sports/nfl/seattle-seahawks/jeremiyah-love-injury-cardinals/",
-      "https://www.footballnationusa.com/post/cardinals-at-seahawks-week-9-preview-2026",
-      "https://www.essentiallysports.com/nfl-news-nfl-week-nine-injury-report-jeremiyah-love-out-for-several-weeks-jackson-to-undergo-surgery-and-more/"
-     ]
-    },
-    {
-     "game_id": "2026_09_DET_MIA",
-     "items": [
-      "NFL|likely|2026_09_DET_MIA|winner|away|||",
-      "NFL|props_likely|2026_09_DET_MIA|prop|at least|00-0033106|passing_yards|225.0",
-      "NFL|props_likely|2026_09_DET_MIA|prop|at least|00-0039139|rushing_yards|60.0"
-     ],
-     "headline": "Lions defense thin: Kerby Joseph out, Jack Campbell doubtful",
-     "detail": "Per a Nov 4 preview, Safety Kerby Joseph won't play and LB Jack Campbell is doubtful after a neck injury. Jahmyr Gibbs ran for 153 yards last week, while Jared Goff threw for just 176.",
-     "impact": "worth watching",
-     "sources": [
-      "https://www.predictem.com/nfl/lions-vs-dolphins-nfl-picks-week-9-spread-breakdown/",
-      "https://news.sportsinteraction.com/nfl/story/lions-vs-dolphins-odds-prediction-110826-216039"
-     ]
-    },
-    {
-     "game_id": "2026_09_CIN_ATL",
-     "items": [
-      "NFL|value|2026_09_CIN_ATL|total|under|||52.5",
-      "NFL|props_likely|2026_09_CIN_ATL|prop|at least|00-0036442|passing_yards|250.0",
-      "NFL|props_risky|2026_09_CIN_ATL|prop|at least|00-0036410|receiving_yards|100.0"
-     ],
-     "headline": "Burrow on a hot streak; no status issue so far for Madrid game",
-     "detail": "Burrow threw for 462 yards and 5 TDs last week, and Cincinnati's Wednesday report shows no quarterback concern. Atlanta's Zachariah Branch (hamstring) did not practice. The game is at the Bernab\u00e9u in Madrid with Atlanta as the nominal home team.",
-     "impact": "helps the pick",
-     "sources": [
-      "https://www.squawka.com/us/nfl/nfl-news/bengals-vs-falcons-prediction-picks-odds-week-9/",
-      "https://bvmsports.com/2026/11/04/bengals-falcons-week-9-injury-report-wednesday-updates/",
-      "https://www.sharpfootballanalysis.com/fantasy/bengals-falcons-week-9-fantasy-football-preview-nfl-worksheet-rich-hribar-2026/"
-     ]
-    },
-    {
-     "game_id": "2026_09_NYJ_KC",
-     "items": [
-      "NFL|props_likely|2026_09_NYJ_KC|prop|at least|00-0038134|rushing_yards|60.0",
-      "NFL|props_risky|2026_09_NYJ_KC|prop|at least|00-0038134|rushing_yards|100.0"
-     ],
-     "headline": "Kenneth Walker III has slowed since Week 6",
-     "detail": "A Nov 3-4 report says Walker, the league's top back early, has just 105 rushing yards on 35 carries since Week 6 and hasn't scored since then. Mahomes and Kelce played last week without designations.",
-     "impact": "hurts the pick",
-     "sources": [
-      "https://sports.yahoo.com/articles/patrick-mahomes-healthy-return-could-172702317.html",
-      "https://dknetwork.draftkings.com/2026/11/03/nfl-injury-report-week-9/"
-     ]
-    },
-    {
-     "game_id": "2026_09_TB_CHI",
-     "items": [
-      "NFL|likely|2026_09_TB_CHI|winner|home|||",
-      "NFL|value|2026_09_TB_CHI|total|under|||47.5"
-     ],
-     "headline": "Bucs ran 56 times last week; Bears RB Monangai doubtful, Egbuka unclear",
-     "detail": "Tampa Bay ran 56 times for 324 yards in its shutout of Atlanta with no pass completions. Egbuka (foot) is still TBD and LB Yaya Diaby is out. Bears RB Kyle Monangai is in doubt and Chicago is on a short week after Monday night.",
-     "impact": "worth watching",
-     "sources": [
-      "https://sports.yahoo.com/fantasy/article/nfl-injury-report-week-9-latest-news-updates-on-breece-hall-jeremiyah-love-more-players-for-fantasy-football-190336726.html",
-      "https://dknetwork.draftkings.com/2026/11/03/nfl-injury-report-week-9/",
-      "https://heavy.com/sports/nfl/chicago-bears/kyle-monangai-doubt-injury-status-news-bucs/"
-     ]
-    },
-    {
-     "game_id": "2026_09_DAL_IND",
-     "items": [
-      "NFL|value|2026_09_DAL_IND|total|under|||51.5",
-      "NFL|risky|2026_09_DAL_IND|winner|home|||"
-     ],
-     "headline": "Colts traded two starters; Cowboys have several players questionable",
-     "detail": "Indianapolis, now on a four-game losing streak, traded Quenton Nelson to Seattle and DeForest Buckner to San Francisco last week, and WR Alec Pierce is on IR. Dallas has TE Jake Ferguson, S Caleb Downs and WR KaVontae Turpin listed as questionable.",
-     "impact": "hurts the pick",
-     "sources": [
-      "https://dknetwork.draftkings.com/2026/11/03/nfl-injury-report-week-9/",
-      "https://www.si.com/betting/cowboys-vs-colts-prediction-odds-spread-injuries-trends-for-nfl-week-9-2026"
+      "https://www.fantasypros.com/nfl/news/617821/joe-fagnano-ankle-off-injury-report-thursday.php",
+      "https://sports.yahoo.com/articles/jaguars-ravens-team-thursday-night-130000239.html",
+      "https://athlonsports.com/nfl/jacksonville-jaguars/jaguars-ravens-thursday-night-joe-fagnano"
      ]
     },
     {
@@ -116,73 +26,133 @@
       "NFL|likely|2026_09_LV_SF|winner|home|||",
       "NFL|props_risky|2026_09_LV_SF|prop|at least|00-0037834|passing_yards|300.0"
      ],
-     "headline": "49ers: McCaffrey, Evans and Samuel dealing with injuries",
-     "detail": "An early-week preview lists Christian McCaffrey (hamstring) as questionable, with Mike Evans (Achilles) and Deebo Samuel (hamstring) also noted. No final designations yet. Purdy has no listed injury.",
+     "headline": "49ers missing McCaffrey, Evans and Samuel at Wednesday practice",
+     "detail": "On Nov 4 the 49ers had Christian McCaffrey (hamstring), Mike Evans and Deebo Samuel sidelined. Nick Bosa returned to practice. Brock Purdy is healthy. Early-week listings can change by Friday.",
      "impact": "worth watching",
      "sources": [
+      "https://www.49erswebzone.com/articles/204780-raiders-injury-players-wednesdays-practice/",
       "https://clutchpoints.com/betting/raiders-vs-49ers-prediction-odds-pick-for-nfl-week-9"
+     ]
+    },
+    {
+     "game_id": "2026_09_NYJ_KC",
+     "items": [
+      "NFL|likely|2026_09_NYJ_KC|winner|home|||"
+     ],
+     "headline": "Mahomes full at practice; Jets WR Garrett Wilson sat out Wednesday",
+     "detail": "Patrick Mahomes (knee) was a full participant Nov 4. The Jets were without Garrett Wilson in practice. Travis Kelce and Rashee Rice were limited.",
+     "impact": "helps the pick",
+     "sources": [
+      "https://atozsports.com/nfl/kansas-city-chiefs-news/chiefs-first-injury-report-week-9-jets/",
+      "https://bvmsports.com/2026/11/04/week-9-injury-report-jets-vs-chiefs/"
+     ]
+    },
+    {
+     "game_id": "2026_09_ARI_SEA",
+     "items": [
+      "NFL|likely|2026_09_ARI_SEA|winner|home|||",
+      "NFL|value|2026_09_ARI_SEA|total|over|||39.5",
+      "NFL|props_likely|2026_09_ARI_SEA|prop|at least|00-0038543|receiving_yards|50.0"
+     ],
+     "headline": "Seahawks: Darnold out, Lock is the QB; Smith-Njigba listed as rest day",
+     "detail": "Mike Macdonald said Sam Darnold won't play Sunday (quad, ribs). Drew Lock is on the report with a right elbow issue. Jaxon Smith-Njigba's Wednesday listing was a rest day, not an injury. Charles Cross, Leonard Williams and Rashid Shaheed did not practice.",
+     "impact": "worth watching",
+     "sources": [
+      "https://www.seahawks.com/news/week-9-injury-report-cardinals-at-seahawks"
+     ]
+    },
+    {
+     "game_id": "2026_09_CIN_ATL",
+     "items": [
+      "NFL|value|2026_09_CIN_ATL|total|under|||52.5",
+      "NFL|props_likely|2026_09_CIN_ATL|prop|at least|00-0036442|passing_yards|250.0"
+     ],
+     "headline": "Burrow healthy after 462-yard game; Falcons lose Branch and Ebukam for Madrid",
+     "detail": "Joe Burrow went 33 of 48 for 462 yards last week and is healthy. Falcons WR Zachariah Branch and DE Samson Ebukam are out (hamstrings). Bengals defenders DJ Turner, Cedric Johnson and Kyle Dugger missed Wednesday's estimated practice.",
+     "impact": "helps the pick",
+     "sources": [
+      "https://sports.yahoo.com/articles/falcons-face-tough-test-madrid-180805171.html",
+      "https://sports.yahoo.com/articles/bengals-defensive-injury-concerns-madrid-183713534.html",
+      "https://athlonsports.com/nfl/cincinnati-bengals/joe-burrow-falcons-jeff-ulbrich-bengals-madrid"
+     ]
+    },
+    {
+     "game_id": "2026_09_NYG_PHI",
+     "items": [
+      "NFL|risky|2026_09_NYG_PHI|winner|home|||"
+     ],
+     "headline": "Eagles start Joe Milton; Barkley, Smith and Wicks missed Wednesday practice",
+     "detail": "Philadelphia is on a six-game losing streak and Jalen Hurts is out for the season. Joe Milton makes his first NFL start over Tanner McKee. Saquon Barkley, DeVonta Smith and Dontayvion Wicks did not practice Nov 4. Giants RB Cam Skattebo and edge Abdul Carter also sat out.",
+     "impact": "hurts the pick",
+     "sources": [
+      "https://northeasttimes.com/2026/11/05/eagles-injury-report-barkley-smith-wicks-joe-milton-qb-giants-week-9-2026/",
+      "https://www.cbssports.com/nfl/news/nfl-week-9-injury-report-micah-parsons-jaylen-watson-rams/",
+      "https://www.phillyvoice.com/eagles-giants-week-9-injury-report-analysis-2026-jaxson-dart-brian-burns-saquon-barkley-devonta-smith/"
      ]
     },
     {
      "game_id": "2026_09_LA_WAS",
      "items": [
-      "NFL|risky|2026_09_LA_WAS|winner|home|||",
-      "NFL|props_likely|2026_09_LA_WAS|prop|at least|00-0039075|receiving_yards|60.0",
+      "NFL|props_likely|2026_09_LA_WAS|prop|at least|00-0039075|receiving_yards|50.0",
       "NFL|props_likely|2026_09_LA_WAS|prop|at least|00-0039075|receptions|6.0",
-      "NFL|props_risky|2026_09_LA_WAS|prop|at least|00-0039075|receiving_yards|125.0",
+      "NFL|props_risky|2026_09_LA_WAS|prop|at least|00-0039075|receiving_yards|100.0",
       "NFL|props_risky|2026_09_LA_WAS|prop|at least|00-0039075|receptions|10.0"
      ],
-     "headline": "Stafford (arm) on Week 9 injury list; Nacua status not confirmed",
-     "detail": "A Nov 4 injury roundup lists Rams QB Matthew Stafford with an arm issue, and Washington lost WR Terry McLaurin for the season. I found no confirmed Week 9 status for Puka Nacua.",
+     "headline": "Rams QB Stafford questionable with arm soreness; Adams on IR",
+     "detail": "Matthew Stafford was listed questionable early in the week with right arm soreness. Davante Adams is on IR, which could raise Puka Nacua's target share. CB Jaylen Watson is out for the season. Jayden Daniels was a full participant for Washington.",
      "impact": "worth watching",
      "sources": [
-      "https://uk.sports.yahoo.com/news/nfl-injury-report-week-9-latest-news-updates-on-bhayshul-tuten-breece-hall-more-players-for-fantasy-football-154258103.html"
+      "https://sports.yahoo.com/articles/rams-vs-commanders-prediction-odds-175935021.html",
+      "https://news.sportsinteraction.com/nfl/story/rams-vs-commanders-odds-prediction-110826-216042",
+      "https://www.commanders.com/news/commanders-vs-rams-week-9-injury-report"
      ]
     },
     {
-     "game_id": "2026_09_BUF_MIN",
+     "game_id": "2026_09_DET_MIA",
      "items": [
-      "NFL|risky|2026_09_BUF_MIN|winner|home|||"
+      "NFL|props_risky|2026_09_DET_MIA|prop|at least|00-0036963|receptions|8.0",
+      "NFL|props_likely|2026_09_DET_MIA|prop|at least|00-0033106|passing_yards|225.0"
      ],
-     "headline": "Kyler Murray (hamstring) appears on Week 9 injury list",
-     "detail": "A Nov 4 roundup lists Minnesota QB Kyler Murray with a hamstring issue. No status or detail was given, so check later reports.",
+     "headline": "Lions' St. Brown limited with rib injury; center Mays unlikely to play",
+     "detail": "Amon-Ra St. Brown (rib) was limited Wednesday in an estimated walkthrough report. Jahmyr Gibbs is off the injury report. Center Cade Mays hurt his ankle and Dan Campbell doesn't expect him to play. LB Jack Campbell is out after a neck injury.",
      "impact": "worth watching",
      "sources": [
-      "https://uk.sports.yahoo.com/news/nfl-injury-report-week-9-latest-news-updates-on-bhayshul-tuten-breece-hall-more-players-for-fantasy-football-154258103.html"
+      "https://www.prideofdetroit.com/detroit-lions-injuries/179516/lions-dolphins-week-9-injury-report",
+      "https://sports.yahoo.com/articles/lions-crowded-injury-report-includes-231743641.html"
      ]
     }
    ],
    "item_notes": {
-    "NFL|likely|2026_09_ARI_SEA|winner|home|||": "The model is at 74% against Vegas's 85%, and Seattle's QB is Drew Lock, who recently hurt his throwing elbow.",
-    "NFL|value|2026_09_ARI_SEA|spread|away|||12.5": "Arizona is without Jeremiyah Love, but Seattle is on its backup QB; the model has the Seahawks by 8.5 against the line of 12.5.",
-    "NFL|props_likely|2026_09_ARI_SEA|prop|at least|00-0038543|receiving_yards|60.0": "One preview says Smith-Njigba is Seattle's only reliable offensive weapon, and he should be a main target for Lock.",
-    "NFL|props_likely|2026_09_DET_MIA|prop|at least|00-0033106|passing_yards|225.0": "Goff threw for only 176 yards last week, and Miami ranks last in expected points allowed per dropback, per one preview.",
-    "NFL|props_likely|2026_09_CIN_ATL|prop|at least|00-0036442|passing_yards|250.0": "Burrow has thrown for 462 yards last week and completed 70% or better in five straight games, with no injury listed so far.",
-    "NFL|value|2026_09_CIN_ATL|total|under|||52.5": "The Under is up against a Bengals passing offense that just put up 462 yards, and the model's total is 47.6 against Vegas's 52.5.",
-    "NFL|props_likely|2026_09_NYJ_KC|prop|at least|00-0038134|rushing_yards|60.0": "Walker has 105 yards on 35 carries since Week 6, well below a 60-yard pace.",
-    "NFL|value|2026_09_TB_CHI|total|under|||47.5": "Tampa Bay's run-heavy plan could shorten the game, but Chicago has scored 30-plus in every game Caleb Williams finished; the total gap is 5.0 points.",
-    "NFL|risky|2026_09_DAL_IND|winner|home|||": "The Colts have lost four straight (including 42-7) and traded two starters, so the model's 46% sits well above Vegas's 32%.",
-    "NFL|props_risky|2026_09_LV_SF|prop|at least|00-0037834|passing_yards|300.0": "Purdy threw for 288 yards in his last game and the Raiders have allowed 30 or more in five straight, but McCaffrey is listed as questionable."
+    "NFL|likely|2026_09_LV_SF|winner|home|||": "The 49ers had McCaffrey, Evans and Samuel out of Wednesday practice, so the model's view of the offense may be rosier than the lineup.",
+    "NFL|likely|2026_09_NYJ_KC|winner|home|||": "Mahomes practiced fully Wednesday and Jets WR Garrett Wilson did not.",
+    "NFL|likely|2026_09_JAX_BAL|winner|away|||": "Fagnano is starting and the line is already at Jaguars -10; the model is 5 points under Vegas on Jacksonville's win chance.",
+    "NFL|likely|2026_09_ARI_SEA|winner|home|||": "Seattle starts Drew Lock because Darnold is out, and Lock has an elbow issue on the report.",
+    "NFL|value|2026_09_CIN_ATL|total|under|||52.5": "Burrow just threw for 462 yards in a 43-36 game, and Atlanta is missing two players, which cuts against the Under.",
+    "NFL|risky|2026_09_NYG_PHI|winner|home|||": "The model has PHI at 51% against Vegas's 40%, but Milton is making his first start and Barkley, Smith and Wicks sat out Wednesday.",
+    "NFL|props_likely|2026_09_CIN_ATL|prop|at least|00-0036442|passing_yards|250.0": "Burrow is healthy and coming off 462 yards, but this is a neutral-site game in Madrid.",
+    "NFL|props_likely|2026_09_ARI_SEA|prop|at least|00-0038543|receiving_yards|50.0": "Smith-Njigba's Wednesday absence was a rest day, not an injury, but Lock is now throwing to him.",
+    "NFL|props_likely|2026_09_LA_WAS|prop|at least|00-0039075|receptions|6.0": "Stafford's arm soreness is the thing to watch, though Adams being on IR points to a bigger role for Nacua.",
+    "NFL|props_risky|2026_09_DET_MIA|prop|at least|00-0036963|receptions|8.0": "St. Brown is limited with a rib injury and Detroit's center Mays is unlikely to play."
    },
-   "recap": "Week 8 went well on the numbers: the model picked 11 of 13 winners and went 9-5 against the spread, but it went 6-7 on over/unders. The big misses were CHI 34-17 over SEA (efficiency, about 19 points) and TB 16-0 over ATL (efficiency and four Atlanta turnovers). Week 7 was rougher, with wrong winners in DAL-PHI, TB-CAR, SF-ATL and NYG-HOU. The season stands at 25 of 40 winners, 18-22-1 against the spread, and an average miss of 10.1 points against Vegas's 9.3.",
+   "recap": "Week 8 went well against the spread (9-5) and the winner picks were 11 of 13 with a pick, but totals were 6-7. The big misses were efficiency or finishing-drive swings: JAX 42, IND 7 (24 points off), CHI 34, SEA 17 (20 off), and PIT over CLE (16 off). Close games were within a touchdown, as in NE-MIA, KC-DEN and GB-CAR. Season winners are 25 of 40 and spread is 18-22-1. Top-pick lists are under their expected hits on winners, value picks and underdogs.",
    "lessons": [
     {
      "lesson": "When the model picks a different winner than the Vegas favorite, it has mostly lost so far.",
-     "evidence": "2 of 7 graded games where the model's side was not the Vegas favorite won (CIN over BAL and DEN over KC won; PHI over DAL, NYG over NO, ATL over CHI, PHI over CAR, NE over CHI lost). Week 8 added no new cases. LV-NYJ had the model even, so it isn't counted.",
+     "evidence": "2 of 7 graded games where the model's side was not the Vegas favorite won (CIN over BAL and DEN over KC won; PHI over DAL, NYG over NO, ATL over CHI, PHI over CAR, NE over CHI lost). Week 8 added no new cases. This week PHI over NYG (model 51%, Vegas 40%) would be a new case.",
      "status": "watching",
      "test": "On past seasons, take every game where the model's pick differs from the moneyline favorite. Compare its win rate and spread record with Vegas. Wait for 20+ games.",
      "first_noted": "2026-10-19"
     },
     {
      "lesson": "Large gaps between the model's total and Vegas's total have not paid off.",
-     "evidence": "0 of 5 graded games with a gap of 4.9 or more won the over/under pick. Smaller gaps are mixed: ARI-DAL at 4.2 lost, BUF-BAL at 3.9 won, CHI-SEA at 3.2 lost, TEN-CIN at 2.5 lost. Overall the over/under is 20-20. Two Under picks this week (TB-CHI at 5.0, CIN-ATL at 4.9) will add to the large-gap sample.",
+     "evidence": "0 of 5 graded games with a gap of 4.9 or more won the over/under pick. Smaller gaps are mixed: ARI-DAL at 4.2 lost, BUF-BAL at 3.9 won, CHI-SEA at 3.2 lost, TEN-CIN at 2.5 lost. Overall the over/under is 20-20 (week 8 was 6-7). Two Under picks this week (TB-CHI at 5.0, CIN-ATL at 4.9) will add to the large-gap sample. News for CIN-ATL (Burrow healthy after 462 yards) is not favorable to the Under.",
      "status": "watching",
      "test": "On past seasons, group games by size of the total gap (under 2, 2-4, over 4). Check hit rate per group. Needs 20+ games in the large-gap group.",
      "first_noted": "2026-10-19"
     },
     {
      "lesson": "Many big misses come from efficiency swings, which the model can't see before kickoff.",
-     "evidence": "In 9 of the 15 games where the winner was wrong, the review names efficiency as the main reason (DAL-PHI, TB-CAR, NYG-HOU, ARI-LA, CHI-ATL, CAR-PHI, BAL-CLE, ARI-DAL, CHI-SEA). Turnovers led in NO-NYG and SF-ATL. MIA-NYJ and NE-CHI were close. HOU-JAX had no clear reason.",
+     "evidence": "In 9 of the 15 games where the winner was wrong, the review names efficiency as the main reason (DAL-PHI, TB-CAR, NYG-HOU, ARI-LA, CHI-ATL, CAR-PHI, BAL-CLE, ARI-DAL, CHI-SEA). Turnovers led in NO-NYG and SF-ATL. MIA-NYJ and NE-CHI were close. HOU-JAX had no clear reason. Week 8 blowouts (JAX-IND, PIT-CLE) were driven by finishing drives.",
      "status": "watching",
      "test": "On past seasons, measure how often big spread misses (over 8 points) are driven by efficiency versus turnovers. Check whether the model's misses are larger than Vegas's overall.",
      "first_noted": "2026-10-19"
@@ -210,15 +180,15 @@
     },
     {
      "lesson": "Big gaps between the model and Vegas may come from lineup changes the model hasn't picked up.",
-     "evidence": "DAL at PHI listed Hurts, who was on IR, and DAL won 38-21 against the model's PHI by 3.9. PHI at WAS listed him again, and WAS won 27-10 against the model's WAS by 3.3 (Vegas -6). This week the brief's QBs for SEA (Lock) and ARI (Minshew) match the news, so no mismatch found there. Possible case: TB-CAR. Far under 20 games.",
+     "evidence": "DAL at PHI listed Hurts, who was on IR, and DAL won 38-21 against the model's PHI by 3.9. PHI at WAS listed him again, and WAS won 27-10 against the model's WAS by 3.3 (Vegas -6). This week the brief's QBs match the news for BAL (Fagnano), SEA (Lock), PHI (Milton) and ARI (Minshew). The model is still 1.4 points on DAL at IND against Vegas -5.5, but I found no news on that game. Far under 20 game\u2026",
      "status": "watching",
      "test": "On past seasons, flag games where a starting QB differed from the one in the model's inputs. Compare the model's margin error in those games with all others. Needs 20+ such games.",
      "first_noted": "2026-10-25"
     },
     {
      "lesson": "Most-likely-winner picks have fallen short of the model's own chances.",
-     "evidence": "9 of 17 most-likely-winner picks hit this season, against 12.4 expected, at -5.51 units. Overall winners are 25 of 40 (63%).",
-     "status": "worth testing",
+     "evidence": "9 of 17 most-likely-winner picks hit this season, against 12.4 expected, at -5.51 units. Overall winners are 25 of 40 (63%). The sample is under 20 picks, so it moves back to watching.",
+     "status": "watching",
      "test": "On past seasons, bucket the model's top win chances (70-79%, 80%+) and compare hit rate with the moneyline-implied chance. Needs 20+ picks per bucket.",
      "first_noted": "2026-11-01"
     }
@@ -383,6 +353,6 @@
    ]
   }
  },
- "updated": "2026-11-04T14:01-05:00",
+ "updated": "2026-11-05T10:28-05:00",
  "model": "claude-sonnet-5-5"
 }

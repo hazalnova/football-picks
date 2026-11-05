@@ -1,6 +1,6 @@
 {
  "league": "College",
- "updated": "2026-11-04T14:00-05:00",
+ "updated": "2026-11-05T10:27-05:00",
  "season": 2022,
  "week": 15,
  "week_label": "Week 15",
@@ -21,10 +21,10 @@
    "neutral": true,
    "fbs_vs_fbs": true,
    "model": {
-    "home_margin": -1.0,
-    "home_win": 0.476,
-    "total": 46.5,
-    "over": 0.485,
+    "home_margin": -0.9,
+    "home_win": 0.478,
+    "total": 46.6,
+    "over": 0.488,
     "home_cover": 0.489
    },
    "vegas": {
@@ -76,7 +76,7 @@
   "benchmark": {
    "seasons": "2020\u20132025",
    "games": 1391,
-   "winners": 0.736,
+   "winners": 0.738,
    "brier": 0.176,
    "margin_miss": 13.4,
    "total_miss": 13.6,
@@ -85,33 +85,33 @@
    "calibration": [
     {
      "label": "50\u201360%",
-     "games": 327,
-     "predicted": 0.55,
-     "actual": 0.563
+     "games": 343,
+     "predicted": 0.551,
+     "actual": 0.571
     },
     {
      "label": "60\u201370%",
-     "games": 318,
+     "games": 314,
      "predicted": 0.649,
-     "actual": 0.657
+     "actual": 0.669
     },
     {
      "label": "70\u201380%",
      "games": 311,
-     "predicted": 0.749,
-     "actual": 0.794
+     "predicted": 0.747,
+     "actual": 0.791
     },
     {
      "label": "80\u201390%",
-     "games": 224,
-     "predicted": 0.851,
-     "actual": 0.804
+     "games": 223,
+     "predicted": 0.849,
+     "actual": 0.807
     },
     {
      "label": "90%+",
-     "games": 211,
-     "predicted": 0.951,
-     "actual": 0.967
+     "games": 200,
+     "predicted": 0.949,
+     "actual": 0.975
     }
    ]
   },
