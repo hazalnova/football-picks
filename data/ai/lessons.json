@@ -61,7 +61,7 @@
   "College": [
    {
     "lesson": "The 'model total 3+ above Vegas means the over hits' pattern does not hold up; the over hit less often than not.",
-    "evidence": "Weeks 8-9: over hit in 11 of 29 such games. Week 10 so far: 2 of 4 (Ball State and Buffalo went over; Toledo and Ohio did not). Combined 13 of 33 (39%).",
+    "evidence": "Weeks 8-9: over hit in 11 of 29 such games. Week 10 so far: 3 of 6 (James Madison, Ball State and Buffalo went over; New Mexico, Toledo and Ohio did not). Combined 14 of 35 (40%).",
     "status": "worth testing",
     "test": "On past seasons, group games by model total minus Vegas total (0-3, 3-6, 6+) and check how often the over hits in each group. Need 20+ games per group.",
     "first_noted": "2026-10-17"
@@ -75,21 +75,21 @@
    },
    {
     "lesson": "When the model picks a different winner than Vegas, results are mixed to poor.",
-    "evidence": "About 4 of 11 right overall. The one new case this week was Ball State (model) vs Massachusetts (Vegas); Massachusetts won 31-30. Kansas State (model) vs Oklahoma State is the clearest disagreement this week, and Ole Miss is a toss-up against Vegas's Georgia. Sample is small.",
+    "evidence": "About 4 of 11 right overall. No new disagreements among the 12 Week 10 results; the model and Vegas picked the same side in each. Ole Miss (model 50%, Vegas picks Georgia) is the open case this week. Sample is small.",
     "status": "watching",
     "test": "On past seasons, list games where the model and Vegas disagree on the winner, then compare the model's win rate with Vegas's. Need 20+ games.",
     "first_noted": "2026-10-17"
    },
    {
     "lesson": "The 'Best value against the sportsbook' list has been weak.",
-    "evidence": "Season: 8 of 22 hit against 11.2 expected, at -6.73 units. The edges are thin (about 51% against 52.4% needed), so the model's own chance is below break-even on all five Week 10 picks. Two of the five (BYU +4.5 and Oklahoma State -6) point opposite to the model's own margin.",
+    "evidence": "Season: 8 of 22 hit against 11.2 expected, at -6.73 units. The edges are thin (about 51% against 52.4% needed), so the model's own chance is below break-even on all five Week 10 picks. Charlotte +8.5 points against the model's own UAB by 17.8.",
     "status": "worth testing",
     "test": "On past seasons, bucket the model's spread and total picks by edge size and compare hit rates with the 52.4% break-even. Check that each pick's cover chance matches the model's own margin. Need 20+ games per bucket.",
     "first_noted": "2026-10-24"
    },
    {
-    "lesson": "Underdog picks have run a bit behind what the model expected.",
-    "evidence": "Season: 6 of 21 hit against 7.9 expected, at -1.16 units. No change since last run, when the early edge was already gone.",
+    "lesson": "Underdog picks have hit a bit less often than the model expected, but long prices have kept units positive.",
+    "evidence": "Season: 7 of 22 hit against 8.3 expected, at +0.48 units (was 6 of 21, 7.9 expected, -1.16 units last run). One more hit swung the units a lot, which shows how much luck is in this list.",
     "status": "worth testing",
     "test": "On past seasons, compare predicted chance with actual win rate for the model's underdog picks, in buckets of model chance (under 35%, 35-45%, 45%+). Need 20+ picks per bucket.",
     "first_noted": "2026-10-24"
@@ -103,19 +103,19 @@
    },
    {
     "lesson": "The model's spread misses are slightly larger than Vegas's over the season.",
-    "evidence": "Season (177 games): average spread miss 12.1 points for the model against 11.5 for Vegas, a 0.6 gap unchanged from last run. Winners right in 118 of 177 (67%), spread record 86-85-4. Week 10 so far: 2 of 5 winners but 4-1 against the spread.",
+    "evidence": "Season (184 games): average spread miss 12.3 points for the model against 11.7 for Vegas, a 0.6 gap unchanged. Winners right in 122 of 184 (66%), spread record 88-89-4. Week 10 so far: 6 of 12 winners and 6-5-1 against the spread.",
     "status": "worth testing",
     "test": "On past seasons, compare the model's and Vegas's average spread error. Then test whether averaging the model's margin and Vegas's margin beats either alone, and whether the gap changes by week of season.",
     "first_noted": "2026-10-27"
    },
    {
     "lesson": "The model does not see starting-quarterback injuries; when a QB is out, its margin runs well above Vegas's.",
-    "evidence": "Week 9: Kansas State (starter and backup hurt) was model +9.1 vs Vegas +2.5 and lost 27-24 at Colorado. This week Kansas State is again the model's pick with Barnett, its fourth starter in four games. Boise State's Maddux Madsen (questionable) and Florida's QB switch are open cases. One graded game so far.",
+    "evidence": "Week 9: Kansas State (starter and backup hurt) was model +9.1 vs Vegas +2.5 and lost 27-24 at Colorado. This week Boise State's Madsen is out (model Boise State by 24.5 vs Vegas 16.5), Florida switches QBs, and Air Force's QB is questionable. One graded game so far; the Boise State result will be the second.",
     "status": "watching",
     "test": "On past seasons, flag games where a team's starting QB was out and compare the model's margin error and the Vegas error in those games with all other games. Need 20+ such games.",
     "first_noted": "2026-11-03"
    }
   ]
  },
- "updated": "2026-11-05T10:35-05:00"
+ "updated": "2026-11-07T13:04-05:00"
 }
