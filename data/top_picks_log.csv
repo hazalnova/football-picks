@@ -165,56 +165,69 @@ logged_at_et,league,list,season,week,game_id,kickoff,matchup,kind,pick,side,team
 2026-11-02 17:49,NFL,props_risky,2026,8,2026_08_CHI_SEA,2026-11-02T20:15:00-05:00,CHI at SEA,prop,Jaxon Smith-Njigba 125+ receiving yards,at least,SEA,CHI,00-0038543,Jaxon Smith-Njigba,receiving_yards,125.0,0.309,,184,2,-0.043,miss,118.0
 2026-11-02 17:49,NFL,props_risky,2026,8,2026_08_CHI_SEA,2026-11-02T20:15:00-05:00,CHI at SEA,prop,Jaxon Smith-Njigba 9+ receptions,at least,SEA,CHI,00-0038543,Jaxon Smith-Njigba,receptions,9.0,0.269,,179,4,-0.089,miss,6.0
 2026-11-03 15:31,College,likely,2026,10,401866457,2026-11-04T19:00:00-05:00,Toledo at Sacramento State,winner,Toledo to win,away,Toledo,Sacramento State,,,,,0.912,0.931,-2800,,-0.054,hit,3.0
-2026-11-05 16:05,NFL,likely,2026,9,2026_09_JAX_BAL,2026-11-05T20:15:00-05:00,JAX at BAL,winner,JAX to win,away,JAX,BAL,,,,,0.757,0.8,-500,,-0.076,,
+2026-11-05 16:05,NFL,likely,2026,9,2026_09_JAX_BAL,2026-11-05T20:15:00-05:00,JAX at BAL,winner,JAX to win,away,JAX,BAL,,,,,0.757,0.8,-500,,-0.076,hit,23.0
 2026-11-05 16:05,College,risky,2026,10,401858510,2026-11-06T20:00:00-05:00,Nebraska at Illinois,winner,Illinois to win,home,Illinois,Nebraska,,,,,0.409,0.363,164,,0.03,hit,11.0
-2026-11-05 16:05,College,value,2026,10,401856849,2026-11-07T12:00:00-05:00,BYU at Utah,spread,BYU +4.5,away,BYU,Utah,,,,4.5,0.51,,-110,,-0.014,,
-2026-11-05 16:05,College,risky,2026,10,401858286,2026-11-07T12:30:00-05:00,Duke at NC State,winner,NC State to win,home,NC State,Duke,,,,,0.465,0.369,160,,0.08,,
-2026-11-05 16:05,College,value,2026,10,401856738,2026-11-07T12:45:00-05:00,Arkansas at Auburn,total,Under 53.5,under,,,,,,53.5,0.51,,-110,,-0.014,,
-2026-11-05 16:05,College,value,2026,10,401856854,2026-11-07T13:00:00-05:00,Oklahoma State at Kansas State,spread,Oklahoma State −6,away,Oklahoma State,Kansas State,,,,-6.0,0.51,,-110,,-0.014,,
-2026-11-05 16:05,College,risky,2026,10,401856854,2026-11-07T13:00:00-05:00,Oklahoma State at Kansas State,winner,Kansas State to win,home,Kansas State,Oklahoma State,,,,,0.579,0.336,185,,0.228,,
-2026-11-07 13:04,College,risky,2026,10,401869927,2026-11-07T14:30:00-05:00,Georgia State at App State,winner,Georgia State to win,away,Georgia State,App State,,,,,0.406,0.331,190,,0.061,,
-2026-11-07 13:04,College,value,2026,10,401856851,2026-11-07T15:30:00-05:00,Cincinnati at Houston,total,Under 61.5,under,,,,,,61.5,0.51,,-110,,-0.014,,
-2026-11-07 13:04,College,value,2026,10,401862819,2026-11-07T15:30:00-05:00,Charlotte at UAB,spread,Charlotte +8.5,away,Charlotte,UAB,,,,8.5,0.51,,-110,,-0.014,,
-2026-11-07 13:04,College,value,2026,10,401869951,2026-11-07T15:30:00-05:00,Marshall at Georgia Southern,total,Under 54.5,under,,,,,,54.5,0.511,,-110,,-0.013,,
-2026-11-07 13:04,College,likely,2026,10,401862821,2026-11-07T16:00:00-05:00,Rice at North Texas,winner,North Texas to win,home,North Texas,Rice,,,,,0.921,0.852,-800,,0.032,,
-2026-11-07 13:04,College,likely,2026,10,401860911,2026-11-07T18:00:00-05:00,Boise State at Colorado State,winner,Boise State to win,away,Boise State,Colorado State,,,,,0.936,0.868,-950,,0.031,,
-2026-11-07 13:04,College,likely,2026,10,401871075,2026-11-07T19:00:00-05:00,Sam Houston at Jacksonville State,winner,Jacksonville State to win,home,Jacksonville State,Sam Houston,,,,,0.91,0.852,-800,,0.021,,
-2026-11-07 13:04,College,risky,2026,10,401856741,2026-11-07T19:30:00-05:00,Georgia at Ole Miss,winner,Ole Miss to win,home,Ole Miss,Georgia,,,,,0.499,0.391,145,,0.091,,
-2026-11-07 13:04,College,risky,2026,10,401858291,2026-11-07T19:30:00-05:00,Miami at Notre Dame,winner,Miami to win,away,Miami,Notre Dame,,,,,0.399,0.295,225,,0.091,,
-2026-11-07 13:04,College,risky,2026,10,401862823,2026-11-07T19:30:00-05:00,Air Force at Army,winner,Air Force to win,away,Air Force,Army,,,,,0.401,0.378,154,,0.007,,
-2026-11-07 13:04,College,risky,2026,10,401856739,2026-11-07T19:45:00-05:00,Oklahoma at Florida,winner,Oklahoma to win,away,Oklahoma,Florida,,,,,0.443,0.363,164,,0.064,,
-2026-11-07 13:04,College,likely,2026,10,401870795,2026-11-07T20:00:00-05:00,Liberty at New Mexico State,winner,Liberty to win,away,Liberty,New Mexico State,,,,,0.884,0.847,-750,,0.002,,
-2026-11-07 13:04,College,likely,2026,10,401856856,2026-11-07T21:30:00-05:00,West Virginia at Texas Tech,winner,Texas Tech to win,home,Texas Tech,West Virginia,,,,,0.875,0.847,-750,,-0.007,,
-2026-11-07 13:04,College,value,2026,10,401860912,2026-11-07T22:30:00-05:00,Texas State at Oregon State,total,Under 71.5,under,,,,,,71.5,0.51,,-110,,-0.014,,
-2026-11-07 13:04,College,value,2026,10,401864535,2026-11-07T22:30:00-05:00,Wyoming at UNLV,total,Under 49.5,under,,,,,,49.5,0.51,,-110,,-0.014,,
-2026-11-07 13:04,NFL,value,2026,9,2026_09_CIN_ATL,2026-11-08T09:30:00-05:00,CIN at ATL,total,Under 52.5,under,,,,,,52.5,0.543,,-110,,0.019,,
-2026-11-07 13:04,NFL,props_likely,2026,9,2026_09_CIN_ATL,2026-11-08T09:30:00-05:00,CIN at ATL,prop,Joe Burrow 250+ passing yards,at least,CIN,ATL,00-0036442,Joe Burrow,passing_yards,250.0,0.7,,-247,4,-0.012,,
-2026-11-07 13:04,NFL,likely,2026,9,2026_09_CLE_NO,2026-11-08T13:00:00-05:00,CLE at NO,winner,NO to win,home,NO,CLE,,,,,0.682,0.593,-162,,0.064,,
-2026-11-07 13:04,NFL,likely,2026,9,2026_09_NYJ_KC,2026-11-08T13:00:00-05:00,NYJ at KC,winner,KC to win,home,KC,NYJ,,,,,0.79,0.817,-575,,-0.062,,
-2026-11-07 13:04,NFL,value,2026,9,2026_09_DAL_IND,2026-11-08T13:00:00-05:00,DAL at IND,total,Under 51.5,under,,,,,,51.5,0.525,,-110,,0.001,,
-2026-11-07 13:04,NFL,value,2026,9,2026_09_DEN_CAR,2026-11-08T13:00:00-05:00,DEN at CAR,spread,DEN −2.5,away,DEN,CAR,,,,-2.5,0.526,,-110,,0.002,,
-2026-11-07 13:04,NFL,risky,2026,9,2026_09_DAL_IND,2026-11-08T13:00:00-05:00,DAL at IND,winner,IND to win,home,IND,DAL,,,,,0.459,0.331,190,,0.114,,
-2026-11-07 13:04,NFL,risky,2026,9,2026_09_LA_WAS,2026-11-08T13:00:00-05:00,LA at WAS,winner,WAS to win,home,WAS,LA,,,,,0.429,0.336,185,,0.078,,
-2026-11-07 13:04,NFL,risky,2026,9,2026_09_NYG_PHI,2026-11-08T13:00:00-05:00,NYG at PHI,winner,PHI to win,home,PHI,NYG,,,,,0.51,0.4,140,,0.093,,
-2026-11-07 13:04,NFL,props_likely,2026,9,2026_09_DET_MIA,2026-11-08T13:00:00-05:00,DET at MIA,prop,Jahmyr Gibbs 60+ rushing yards,at least,DET,MIA,00-0039139,Jahmyr Gibbs,rushing_yards,60.0,0.764,,-618,2,-0.097,,
-2026-11-07 13:04,NFL,props_likely,2026,9,2026_09_DET_MIA,2026-11-08T13:00:00-05:00,DET at MIA,prop,Jared Goff 225+ passing yards,at least,DET,MIA,00-0033106,Jared Goff,passing_yards,225.0,0.765,,-279,2,0.029,,
-2026-11-07 13:04,NFL,props_likely,2026,9,2026_09_LA_WAS,2026-11-08T13:00:00-05:00,LA at WAS,prop,Puka Nacua 50+ receiving yards,at least,LA,WAS,00-0039075,Puka Nacua,receiving_yards,50.0,0.774,,-1000,3,-0.135,,
-2026-11-07 13:04,NFL,props_likely,2026,9,2026_09_LA_WAS,2026-11-08T13:00:00-05:00,LA at WAS,prop,Puka Nacua 6+ receptions,at least,LA,WAS,00-0039075,Puka Nacua,receptions,6.0,0.702,,-590,3,-0.153,,
-2026-11-07 13:04,NFL,props_likely,2026,9,2026_09_NYJ_KC,2026-11-08T13:00:00-05:00,NYJ at KC,prop,Kenneth Walker III 60+ rushing yards,at least,KC,NYJ,00-0038134,Kenneth Walker III,rushing_yards,60.0,0.751,,-550,3,-0.095,,
-2026-11-07 13:04,NFL,props_risky,2026,9,2026_09_DET_MIA,2026-11-08T13:00:00-05:00,DET at MIA,prop,Amon-Ra St. Brown 8+ receptions,at least,DET,MIA,00-0036963,Amon-Ra St. Brown,receptions,8.0,0.279,,174,4,-0.086,,
-2026-11-07 13:04,NFL,props_risky,2026,9,2026_09_DET_MIA,2026-11-08T13:00:00-05:00,DET at MIA,prop,Jared Goff 300+ passing yards,at least,DET,MIA,00-0033106,Jared Goff,passing_yards,300.0,0.36,,222,4,0.049,,
-2026-11-07 13:04,NFL,props_risky,2026,9,2026_09_LA_WAS,2026-11-08T13:00:00-05:00,LA at WAS,prop,Puka Nacua 10+ receptions,at least,LA,WAS,00-0039075,Puka Nacua,receptions,10.0,0.291,,186,4,-0.059,,
-2026-11-07 13:04,NFL,props_risky,2026,9,2026_09_LA_WAS,2026-11-08T13:00:00-05:00,LA at WAS,prop,Puka Nacua 100+ receiving yards,at least,LA,WAS,00-0039075,Puka Nacua,receiving_yards,100.0,0.38,,111,4,-0.094,,
-2026-11-07 13:04,NFL,props_risky,2026,9,2026_09_NYJ_KC,2026-11-08T13:00:00-05:00,NYJ at KC,prop,Kenneth Walker III 100+ rushing yards,at least,KC,NYJ,00-0038134,Kenneth Walker III,rushing_yards,100.0,0.406,,122,4,-0.044,,
-2026-11-07 13:04,NFL,likely,2026,9,2026_09_LV_SF,2026-11-08T16:05:00-05:00,LV at SF,winner,SF to win,home,SF,LV,,,,,0.809,0.804,-520,,-0.03,,
-2026-11-07 13:04,NFL,props_risky,2026,9,2026_09_LV_SF,2026-11-08T16:05:00-05:00,LV at SF,prop,Brock Purdy 300+ passing yards,at least,SF,LV,00-0037834,Brock Purdy,passing_yards,300.0,0.321,,327,4,0.087,,
-2026-11-07 13:04,NFL,likely,2026,9,2026_09_ARI_SEA,2026-11-08T16:25:00-05:00,ARI at SEA,winner,SEA to win,home,SEA,ARI,,,,,0.738,0.787,-455,,-0.082,,
-2026-11-07 13:04,NFL,value,2026,9,2026_09_ARI_SEA,2026-11-08T16:25:00-05:00,ARI at SEA,total,Over 39.5,over,,,,,,39.5,0.529,,-110,,0.005,,
-2026-11-07 13:04,NFL,risky,2026,9,2026_09_GB_NE,2026-11-08T16:25:00-05:00,GB at NE,winner,GB to win,away,GB,NE,,,,,0.399,0.4,140,,-0.018,,
-2026-11-07 13:04,NFL,props_likely,2026,9,2026_09_ARI_SEA,2026-11-08T16:25:00-05:00,ARI at SEA,prop,Jaxon Smith-Njigba 50+ receiving yards,at least,SEA,ARI,00-0038543,Jaxon Smith-Njigba,receiving_yards,50.0,0.76,,-800,3,-0.129,,
-2026-11-07 13:04,NFL,props_likely,2026,9,2026_09_ARI_SEA,2026-11-08T16:25:00-05:00,ARI at SEA,prop,Trey McBride 5+ receptions,at least,ARI,SEA,00-0037744,Trey McBride,receptions,5.0,0.739,,-650,3,-0.128,,
-2026-11-07 13:04,NFL,props_risky,2026,9,2026_09_ARI_SEA,2026-11-08T16:25:00-05:00,ARI at SEA,prop,Jaxon Smith-Njigba 100+ receiving yards,at least,SEA,ARI,00-0038543,Jaxon Smith-Njigba,receiving_yards,100.0,0.358,,112,4,-0.114,,
-2026-11-07 13:04,NFL,likely,2026,9,2026_09_TB_CHI,2026-11-08T20:20:00-05:00,TB at CHI,winner,CHI to win,home,CHI,TB,,,,,0.68,0.718,-298,,-0.069,,
-2026-11-07 13:04,NFL,value,2026,9,2026_09_TB_CHI,2026-11-08T20:20:00-05:00,TB at CHI,total,Under 47.5,under,,,,,,47.5,0.544,,-110,,0.02,,
-2026-11-07 13:04,NFL,risky,2026,9,2026_09_BUF_MIN,2026-11-09T20:15:00-05:00,BUF at MIN,winner,MIN to win,home,MIN,BUF,,,,,0.461,0.396,142,,0.048,,
-2026-11-07 13:04,NFL,props_risky,2026,9,2026_09_BUF_MIN,2026-11-09T20:15:00-05:00,BUF at MIN,prop,James Cook 100+ rushing yards,at least,BUF,MIN,00-0037248,James Cook,rushing_yards,100.0,0.286,,174,4,-0.079,,
+2026-11-05 16:05,College,value,2026,10,401856849,2026-11-07T12:00:00-05:00,BYU at Utah,spread,BYU +4.5,away,BYU,Utah,,,,4.5,0.51,,-110,,-0.014,miss,8.0
+2026-11-05 16:05,College,risky,2026,10,401858286,2026-11-07T12:30:00-05:00,Duke at NC State,winner,NC State to win,home,NC State,Duke,,,,,0.465,0.369,160,,0.08,miss,-38.0
+2026-11-05 16:05,College,value,2026,10,401856738,2026-11-07T12:45:00-05:00,Arkansas at Auburn,total,Under 53.5,under,,,,,,53.5,0.51,,-110,,-0.014,hit,49.0
+2026-11-05 16:05,College,value,2026,10,401856854,2026-11-07T13:00:00-05:00,Oklahoma State at Kansas State,spread,Oklahoma State −6,away,Oklahoma State,Kansas State,,,,-6.0,0.51,,-110,,-0.014,hit,-38.0
+2026-11-05 16:05,College,risky,2026,10,401856854,2026-11-07T13:00:00-05:00,Oklahoma State at Kansas State,winner,Kansas State to win,home,Kansas State,Oklahoma State,,,,,0.579,0.336,185,,0.228,miss,-38.0
+2026-11-07 13:04,College,risky,2026,10,401869927,2026-11-07T14:30:00-05:00,Georgia State at App State,winner,Georgia State to win,away,Georgia State,App State,,,,,0.406,0.331,190,,0.061,hit,16.0
+2026-11-07 13:04,College,value,2026,10,401856851,2026-11-07T15:30:00-05:00,Cincinnati at Houston,total,Under 61.5,under,,,,,,61.5,0.51,,-110,,-0.014,hit,55.0
+2026-11-07 13:04,College,value,2026,10,401862819,2026-11-07T15:30:00-05:00,Charlotte at UAB,spread,Charlotte +8.5,away,Charlotte,UAB,,,,8.5,0.51,,-110,,-0.014,miss,11.0
+2026-11-07 13:04,College,value,2026,10,401869951,2026-11-07T15:30:00-05:00,Marshall at Georgia Southern,total,Under 54.5,under,,,,,,54.5,0.511,,-110,,-0.013,miss,62.0
+2026-11-07 13:04,College,likely,2026,10,401862821,2026-11-07T16:00:00-05:00,Rice at North Texas,winner,North Texas to win,home,North Texas,Rice,,,,,0.921,0.852,-800,,0.032,hit,29.0
+2026-11-07 13:04,College,likely,2026,10,401860911,2026-11-07T18:00:00-05:00,Boise State at Colorado State,winner,Boise State to win,away,Boise State,Colorado State,,,,,0.936,0.868,-950,,0.031,hit,26.0
+2026-11-07 13:04,College,likely,2026,10,401871075,2026-11-07T19:00:00-05:00,Sam Houston at Jacksonville State,winner,Jacksonville State to win,home,Jacksonville State,Sam Houston,,,,,0.91,0.852,-800,,0.021,hit,33.0
+2026-11-07 13:04,College,risky,2026,10,401856741,2026-11-07T19:30:00-05:00,Georgia at Ole Miss,winner,Ole Miss to win,home,Ole Miss,Georgia,,,,,0.499,0.391,145,,0.091,miss,-35.0
+2026-11-07 13:04,College,risky,2026,10,401858291,2026-11-07T19:30:00-05:00,Miami at Notre Dame,winner,Miami to win,away,Miami,Notre Dame,,,,,0.399,0.295,225,,0.091,miss,-7.0
+2026-11-07 13:04,College,risky,2026,10,401862823,2026-11-07T19:30:00-05:00,Air Force at Army,winner,Air Force to win,away,Air Force,Army,,,,,0.401,0.378,154,,0.007,hit,3.0
+2026-11-07 13:04,College,risky,2026,10,401856739,2026-11-07T19:45:00-05:00,Oklahoma at Florida,winner,Oklahoma to win,away,Oklahoma,Florida,,,,,0.443,0.363,164,,0.064,hit,16.0
+2026-11-07 13:04,College,likely,2026,10,401870795,2026-11-07T20:00:00-05:00,Liberty at New Mexico State,winner,Liberty to win,away,Liberty,New Mexico State,,,,,0.884,0.847,-750,,0.002,hit,16.0
+2026-11-07 13:04,College,likely,2026,10,401856856,2026-11-07T21:30:00-05:00,West Virginia at Texas Tech,winner,Texas Tech to win,home,Texas Tech,West Virginia,,,,,0.875,0.847,-750,,-0.007,hit,5.0
+2026-11-07 13:04,College,value,2026,10,401860912,2026-11-07T22:30:00-05:00,Texas State at Oregon State,total,Under 71.5,under,,,,,,71.5,0.51,,-110,,-0.014,hit,63.0
+2026-11-07 13:04,College,value,2026,10,401864535,2026-11-07T22:30:00-05:00,Wyoming at UNLV,total,Under 49.5,under,,,,,,49.5,0.51,,-110,,-0.014,miss,76.0
+2026-11-08 08:32,NFL,value,2026,9,2026_09_CIN_ATL,2026-11-08T09:30:00-05:00,CIN at ATL,total,Under 52.5,under,,,,,,52.5,0.543,,-110,,0.019,,
+2026-11-08 08:32,NFL,props_likely,2026,9,2026_09_CIN_ATL,2026-11-08T09:30:00-05:00,CIN at ATL,prop,Bijan Robinson 60+ rushing yards,at least,ATL,CIN,00-0038542,Bijan Robinson,rushing_yards,60.0,0.768,,-605,2,-0.09,,
+2026-11-08 08:32,NFL,props_likely,2026,9,2026_09_CIN_ATL,2026-11-08T09:30:00-05:00,CIN at ATL,prop,Joe Burrow 250+ passing yards,at least,CIN,ATL,00-0036442,Joe Burrow,passing_yards,250.0,0.7,,-230,4,0.003,,
+2026-11-08 08:32,NFL,props_risky,2026,9,2026_09_CIN_ATL,2026-11-08T09:30:00-05:00,CIN at ATL,prop,Tee Higgins 100+ receiving yards,at least,CIN,ATL,00-0036410,Tee Higgins,receiving_yards,100.0,0.288,,189,4,-0.058,,
+2026-11-08 08:32,NFL,likely,2026,9,2026_09_CLE_NO,2026-11-08T13:00:00-05:00,CLE at NO,winner,NO to win,home,NO,CLE,,,,,0.682,0.604,-170,,0.052,,
+2026-11-08 08:32,NFL,likely,2026,9,2026_09_NYJ_KC,2026-11-08T13:00:00-05:00,NYJ at KC,winner,KC to win,home,KC,NYJ,,,,,0.79,0.808,-535,,-0.053,,
+2026-11-08 08:32,NFL,value,2026,9,2026_09_DEN_CAR,2026-11-08T13:00:00-05:00,DEN at CAR,spread,DEN −2.5,away,DEN,CAR,,,,-2.5,0.526,,-110,,0.002,,
+2026-11-08 08:32,NFL,value,2026,9,2026_09_NYJ_KC,2026-11-08T13:00:00-05:00,NYJ at KC,total,Under 48.5,under,,,,,,48.5,0.531,,-110,,0.007,,
+2026-11-08 08:32,NFL,risky,2026,9,2026_09_DAL_IND,2026-11-08T13:00:00-05:00,DAL at IND,winner,IND to win,home,IND,DAL,,,,,0.459,0.331,190,,0.114,,
+2026-11-08 08:32,NFL,risky,2026,9,2026_09_LA_WAS,2026-11-08T13:00:00-05:00,LA at WAS,winner,WAS to win,home,WAS,LA,,,,,0.429,0.325,195,,0.09,,
+2026-11-08 08:32,NFL,props_likely,2026,9,2026_09_DET_MIA,2026-11-08T13:00:00-05:00,DET at MIA,prop,Jahmyr Gibbs 60+ rushing yards,at least,DET,MIA,00-0039139,Jahmyr Gibbs,rushing_yards,60.0,0.764,,-615,2,-0.096,,
+2026-11-08 08:32,NFL,props_likely,2026,9,2026_09_DET_MIA,2026-11-08T13:00:00-05:00,DET at MIA,prop,Jared Goff 225+ passing yards,at least,DET,MIA,00-0033106,Jared Goff,passing_yards,225.0,0.739,,-279,2,0.003,,
+2026-11-08 08:32,NFL,props_likely,2026,9,2026_09_LA_WAS,2026-11-08T13:00:00-05:00,LA at WAS,prop,Puka Nacua 50+ receiving yards,at least,LA,WAS,00-0039075,Puka Nacua,receiving_yards,50.0,0.771,,-1000,3,-0.138,,
+2026-11-08 08:32,NFL,props_likely,2026,9,2026_09_LA_WAS,2026-11-08T13:00:00-05:00,LA at WAS,prop,Puka Nacua 6+ receptions,at least,LA,WAS,00-0039075,Puka Nacua,receptions,6.0,0.701,,-610,3,-0.158,,
+2026-11-08 08:32,NFL,props_risky,2026,9,2026_09_DET_MIA,2026-11-08T13:00:00-05:00,DET at MIA,prop,Jared Goff 300+ passing yards,at least,DET,MIA,00-0033106,Jared Goff,passing_yards,300.0,0.369,,207,4,0.043,,
+2026-11-08 08:32,NFL,props_risky,2026,9,2026_09_LA_WAS,2026-11-08T13:00:00-05:00,LA at WAS,prop,Puka Nacua 10+ receptions,at least,LA,WAS,00-0039075,Puka Nacua,receptions,10.0,0.289,,172,4,-0.079,,
+2026-11-08 08:32,NFL,props_risky,2026,9,2026_09_LA_WAS,2026-11-08T13:00:00-05:00,LA at WAS,prop,Puka Nacua 100+ receiving yards,at least,LA,WAS,00-0039075,Puka Nacua,receiving_yards,100.0,0.376,,109,4,-0.102,,
+2026-11-08 08:32,NFL,props_risky,2026,9,2026_09_NYJ_KC,2026-11-08T13:00:00-05:00,NYJ at KC,prop,Kenneth Walker III 100+ rushing yards,at least,KC,NYJ,00-0038134,Kenneth Walker III,rushing_yards,100.0,0.404,,116,4,-0.059,,
+2026-11-08 08:32,NFL,likely,2026,9,2026_09_LV_SF,2026-11-08T16:05:00-05:00,LV at SF,winner,SF to win,home,SF,LV,,,,,0.809,0.791,-470,,-0.016,,
+2026-11-08 08:32,NFL,risky,2026,9,2026_09_HOU_LAC,2026-11-08T16:05:00-05:00,HOU at LAC,winner,LAC to win,home,LAC,HOU,,,,,0.385,0.325,195,,0.046,,
+2026-11-08 08:32,NFL,props_risky,2026,9,2026_09_LV_SF,2026-11-08T16:05:00-05:00,LV at SF,prop,Brock Purdy 300+ passing yards,at least,SF,LV,00-0037834,Brock Purdy,passing_yards,300.0,0.315,,303,4,0.067,,
+2026-11-08 08:32,NFL,likely,2026,9,2026_09_ARI_SEA,2026-11-08T16:25:00-05:00,ARI at SEA,winner,SEA to win,home,SEA,ARI,,,,,0.738,0.782,-440,,-0.077,,
+2026-11-08 08:32,NFL,value,2026,9,2026_09_ARI_SEA,2026-11-08T16:25:00-05:00,ARI at SEA,total,Over 39.5,over,,,,,,39.5,0.529,,-110,,0.005,,
+2026-11-08 08:32,NFL,risky,2026,9,2026_09_GB_NE,2026-11-08T16:25:00-05:00,GB at NE,winner,GB to win,away,GB,NE,,,,,0.399,0.396,142,,-0.014,,
+2026-11-08 08:32,NFL,props_likely,2026,9,2026_09_ARI_SEA,2026-11-08T16:25:00-05:00,ARI at SEA,prop,Jaxon Smith-Njigba 60+ receiving yards,at least,SEA,ARI,00-0038543,Jaxon Smith-Njigba,receiving_yards,60.0,0.717,,-500,3,-0.116,,
+2026-11-08 08:32,NFL,props_likely,2026,9,2026_09_ARI_SEA,2026-11-08T16:25:00-05:00,ARI at SEA,prop,Trey McBride 5+ receptions,at least,ARI,SEA,00-0037744,Trey McBride,receptions,5.0,0.753,,-650,3,-0.114,,
+2026-11-08 08:32,NFL,props_risky,2026,9,2026_09_ARI_SEA,2026-11-08T16:25:00-05:00,ARI at SEA,prop,Trey McBride 9+ receptions,at least,ARI,SEA,00-0037744,Trey McBride,receptions,9.0,0.297,,199,4,-0.037,,
+2026-11-08 08:32,NFL,likely,2026,9,2026_09_TB_CHI,2026-11-08T20:20:00-05:00,TB at CHI,winner,CHI to win,home,CHI,TB,,,,,0.68,0.696,-265,,-0.046,,
+2026-11-08 08:32,NFL,value,2026,9,2026_09_TB_CHI,2026-11-08T20:20:00-05:00,TB at CHI,total,Under 47.5,under,,,,,,47.5,0.544,,-110,,0.02,,
+2026-11-08 08:32,NFL,risky,2026,9,2026_09_BUF_MIN,2026-11-09T20:15:00-05:00,BUF at MIN,winner,MIN to win,home,MIN,BUF,,,,,0.461,0.396,142,,0.048,,
+2026-11-08 08:32,NFL,props_risky,2026,9,2026_09_BUF_MIN,2026-11-09T20:15:00-05:00,BUF at MIN,prop,James Cook 100+ rushing yards,at least,BUF,MIN,00-0037248,James Cook,rushing_yards,100.0,0.29,,175,4,-0.074,,
+2026-11-08 08:32,College,likely,2026,11,401866463,2026-11-11T00:00:00-05:00,Massachusetts at Toledo,winner,Toledo to win,home,Toledo,Massachusetts,,,,,0.911,0.817,-575,,0.059,,
+2026-11-08 08:32,College,value,2026,11,401866463,2026-11-11T00:00:00-05:00,Massachusetts at Toledo,spread,Massachusetts +14,away,Massachusetts,Toledo,,,,14.0,0.509,,-110,,-0.015,,
+2026-11-08 08:32,College,risky,2026,11,401862824,2026-11-12T20:00:00-05:00,Memphis at South Florida,winner,South Florida to win,home,South Florida,Memphis,,,,,0.362,0.315,205,,0.034,,
+2026-11-08 08:32,College,likely,2026,11,401856883,2026-11-14T00:00:00-05:00,Missouri at Georgia,winner,Georgia to win,home,Georgia,Missouri,,,,,0.935,0.832,-650,,0.068,,
+2026-11-08 08:32,College,value,2026,11,401856883,2026-11-14T00:00:00-05:00,Missouri at Georgia,spread,Missouri +13.5,away,Missouri,Georgia,,,,13.5,0.511,,-110,,-0.013,,
+2026-11-08 08:32,College,value,2026,11,401858298,2026-11-14T00:00:00-05:00,Louisville at North Carolina,total,Under 59.5,under,,,,,,59.5,0.509,,-110,,-0.015,,
+2026-11-08 08:32,College,risky,2026,11,401856858,2026-11-14T00:00:00-05:00,Baylor at BYU,winner,Baylor to win,away,Baylor,BYU,,,,,0.328,0.343,180,,-0.029,,
+2026-11-08 08:32,College,risky,2026,11,401856885,2026-11-14T00:00:00-05:00,Texas at LSU,winner,Texas to win,away,Texas,LSU,,,,,0.466,0.391,145,,0.058,,
+2026-11-08 08:32,College,likely,2026,11,401858522,2026-11-14T12:00:00-05:00,Northwestern at Ohio State,winner,Ohio State to win,home,Ohio State,Northwestern,,,,,0.817,0.772,-410,,0.013,,
+2026-11-08 08:32,College,likely,2026,11,401856889,2026-11-14T12:45:00-05:00,Alabama at Vanderbilt,winner,Alabama to win,away,Alabama,Vanderbilt,,,,,0.915,0.893,-1350,,-0.016,,
+2026-11-08 08:32,College,value,2026,11,401856889,2026-11-14T12:45:00-05:00,Alabama at Vanderbilt,total,Under 54.5,under,,,,,,54.5,0.508,,-110,,-0.016,,
+2026-11-08 08:32,College,likely,2026,11,401858294,2026-11-14T15:30:00-05:00,Boston College at Notre Dame,winner,Notre Dame to win,home,Notre Dame,Boston College,,,,,0.971,0.968,-10000,,-0.019,,
+2026-11-08 08:32,College,value,2026,11,401858523,2026-11-14T15:30:00-05:00,Michigan at Oregon,spread,Michigan +9.5,away,Michigan,Oregon,,,,9.5,0.508,,-110,,-0.016,,
