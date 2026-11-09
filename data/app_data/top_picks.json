@@ -1,6 +1,6 @@
 {
  "kind": "top_picks",
- "updated": "2026-11-09T09:53-05:00",
+ "updated": "2026-11-09T18:28-05:00",
  "settings": {
   "list_size": 5,
   "props_per_stat": 2,
@@ -179,10 +179,10 @@
       "stat": null,
       "line": null,
       "chance": 0.539,
-      "vegas_chance": 0.622,
-      "price": -185,
+      "vegas_chance": 0.637,
+      "price": -198,
       "books": null,
-      "edge": -0.11,
+      "edge": -0.125,
       "result": null,
       "actual": null,
       "key": "NFL|likely|2026_09_BUF_MIN|winner|away|||"
@@ -324,7 +324,7 @@
      {
       "list": "value",
       "kind": "total",
-      "pick": "Under 44.5",
+      "pick": "Under 45.5",
       "matchup": "BUF at MIN",
       "kickoff": "2026-11-09T20:15:00-05:00",
       "game_id": "2026_09_BUF_MIN",
@@ -333,15 +333,15 @@
       "opp": null,
       "player": null,
       "stat": null,
-      "line": 44.5,
-      "chance": 0.513,
+      "line": 45.5,
+      "chance": 0.52,
       "vegas_chance": null,
       "price": -110,
       "books": null,
-      "edge": -0.011,
+      "edge": -0.004,
       "result": null,
       "actual": null,
-      "key": "NFL|value|2026_09_BUF_MIN|total|under|||44.5"
+      "key": "NFL|value|2026_09_BUF_MIN|total|under|||45.5"
      }
     ],
     "risky": [
@@ -447,10 +447,10 @@
       "stat": null,
       "line": null,
       "chance": 0.461,
-      "vegas_chance": 0.378,
-      "price": 154,
+      "vegas_chance": 0.363,
+      "price": 164,
       "books": null,
-      "edge": 0.067,
+      "edge": 0.082,
       "result": null,
       "actual": null,
       "key": "NFL|risky|2026_09_BUF_MIN|winner|home|||"
@@ -690,11 +690,11 @@
       "player": "James Cook",
       "stat": "rushing_yards",
       "line": 50.0,
-      "chance": 0.761,
+      "chance": 0.762,
       "vegas_chance": null,
       "price": -830,
       "books": 4,
-      "edge": -0.131,
+      "edge": -0.13,
       "result": null,
       "actual": null,
       "key": "NFL|props_likely|2026_09_BUF_MIN|prop|at least|00-0037248|rushing_yards|50.0"
@@ -890,11 +890,11 @@
       "player": "James Cook",
       "stat": "rushing_yards",
       "line": 100.0,
-      "chance": 0.288,
+      "chance": 0.289,
       "vegas_chance": null,
       "price": 150,
       "books": 5,
-      "edge": -0.112,
+      "edge": -0.111,
       "result": null,
       "actual": null,
       "key": "NFL|props_risky|2026_09_BUF_MIN|prop|at least|00-0037248|rushing_yards|100.0"
