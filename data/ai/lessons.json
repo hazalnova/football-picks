@@ -60,62 +60,62 @@
   ],
   "College": [
    {
-    "lesson": "The 'model total 3+ above Vegas means the over hits' pattern does not hold up; the over hit less often than not.",
-    "evidence": "Weeks 8-9: over hit in 11 of 29 such games. Week 10 so far: 3 of 6 (James Madison, Ball State and Buffalo went over; New Mexico, Toledo and Ohio did not). Combined 14 of 35 (40%).",
+    "lesson": "The 'model total 3+ above Vegas means the over hits' pattern does not hold up, and the model's totals picks overall have lost more than they won.",
+    "evidence": "Weeks 8-9: over hit in 11 of 29 such games. Week 10 (40 results shown): 5 of 10 (UCF-Kansas, Oregon-Ohio State, Delaware-Kennesaw State, Tulsa-Tulane, North Carolina-UConn went over; Arizona State-Colorado, Air Force-Army, Notre Dame-Miami, Vanderbilt-Mississippi State, Duke-NC State did not). Combined 16 of 39 (41%). Season totals picks are 105-125 (46%); 14-25 in the Week 10 results shown.",
     "status": "worth testing",
-    "test": "On past seasons, group games by model total minus Vegas total (0-3, 3-6, 6+) and check how often the over hits in each group. Need 20+ games per group.",
+    "test": "On past seasons, group games by model total minus Vegas total (0-3, 3-6, 6+) and check how often the over hits in each group. Also compare the model's and Vegas's average total error. Need 20+ games per group.",
     "first_noted": "2026-10-17"
    },
    {
-    "lesson": "Big misses are spread across several causes; efficiency leads less clearly than before.",
-    "evidence": "Week 9 reviews, 26 games missed by 8+ points: efficiency first in 7, defensive/return touchdowns 6, turnovers 5, finishing drives 5, nothing stood out 3. Week 8 had efficiency first in 15 of 25. No new reviews this run. Efficiency is measured after the game, so it partly restates the miss.",
+    "lesson": "Big misses are spread across several causes, but efficiency still leads.",
+    "evidence": "Week 10, 26 of the 40 results shown missed by 8+ points: efficiency first in 14, finishing drives 5, turnovers 4, nothing stood out 2, defensive/return touchdowns 1. Week 9 had efficiency first in 7 of 26; Week 8 in 15 of 25. Efficiency is measured after the game, so it partly restates the miss.",
     "status": "worth testing",
     "test": "On past seasons, check whether a team's success rate in prior games predicts the model's error next game. Also compare turnover margin, defensive/return touchdowns and points per trip inside the 40 with long-run averages, to see if misses lean one way or are random.",
     "first_noted": "2026-10-17"
    },
    {
     "lesson": "When the model picks a different winner than Vegas, results are mixed to poor.",
-    "evidence": "About 4 of 11 right overall. No new disagreements among the 12 Week 10 results; the model and Vegas picked the same side in each. Ole Miss (model 50%, Vegas picks Georgia) is the open case this week. Sample is small.",
+    "evidence": "About 4 of 12 right overall. The only disagreement in the Week 10 results shown was Tulane (model by 3.0, Vegas Tulsa -3); Tulsa won 60-10. Arizona State at UCF (model Arizona State by 0.5, Vegas UCF -3.5) is the open case this week. Sample is small.",
     "status": "watching",
     "test": "On past seasons, list games where the model and Vegas disagree on the winner, then compare the model's win rate with Vegas's. Need 20+ games.",
     "first_noted": "2026-10-17"
    },
    {
     "lesson": "The 'Best value against the sportsbook' list has been weak.",
-    "evidence": "Season: 8 of 22 hit against 11.2 expected, at -6.73 units. The edges are thin (about 51% against 52.4% needed), so the model's own chance is below break-even on all five Week 10 picks. Charlotte +8.5 points against the model's own UAB by 17.8.",
+    "evidence": "Season: 12 of 30 hit against 15.3 expected, at -7.09 units (was 8 of 22 last run, so 4 of 8 this week). The edges are thin (about 51% against 52.4% needed), so the model's own chance is below break-even on all five picks this week.",
     "status": "worth testing",
     "test": "On past seasons, bucket the model's spread and total picks by edge size and compare hit rates with the 52.4% break-even. Check that each pick's cover chance matches the model's own margin. Need 20+ games per bucket.",
     "first_noted": "2026-10-24"
    },
    {
     "lesson": "Underdog picks have hit a bit less often than the model expected, but long prices have kept units positive.",
-    "evidence": "Season: 7 of 22 hit against 8.3 expected, at +0.48 units (was 6 of 21, 7.9 expected, -1.16 units last run). One more hit swung the units a lot, which shows how much luck is in this list.",
+    "evidence": "Season: 10 of 29 hit against 11.5 expected, at +1.56 units (was 7 of 22, 8.3 expected, +0.48 units; 3 of 7 hit this week). A few hits swing the units a lot, which shows how much luck is in this list.",
     "status": "worth testing",
     "test": "On past seasons, compare predicted chance with actual win rate for the model's underdog picks, in buckets of model chance (under 35%, 35-45%, 45%+). Need 20+ picks per bucket.",
     "first_noted": "2026-10-24"
    },
    {
     "lesson": "The 'Most likely winners' list has landed close to the model's own chances.",
-    "evidence": "Season: 17 of 19 hit against 17.0 expected, at -0.30 units. Prices are very short, so one miss costs a lot. Only 19 picks.",
-    "status": "watching",
+    "evidence": "Season: 22 of 24 hit against 21.5 expected, at +0.32 units (was 17 of 19; 5 of 5 this week). Prices are very short, so one miss costs a lot.",
+    "status": "worth testing",
     "test": "On past seasons, bucket the model's top win chances (90%+, 85-90%) and compare with actual win rate and with Vegas's no-vig chance. Need 20+ games per bucket.",
     "first_noted": "2026-10-27"
    },
    {
     "lesson": "The model's spread misses are slightly larger than Vegas's over the season.",
-    "evidence": "Season (184 games): average spread miss 12.3 points for the model against 11.7 for Vegas, a 0.6 gap unchanged. Winners right in 122 of 184 (66%), spread record 88-89-4. Week 10 so far: 6 of 12 winners and 6-5-1 against the spread.",
+    "evidence": "Season (234 games): average spread miss 12.5 points for the model against 11.9 for Vegas, still a 0.6 gap. Winners right in 154 of 234 (66%), spread record 111-117-4. In the 40 Week 10 results shown: 24 of 39 winners and 17-23 against the spread.",
     "status": "worth testing",
     "test": "On past seasons, compare the model's and Vegas's average spread error. Then test whether averaging the model's margin and Vegas's margin beats either alone, and whether the gap changes by week of season.",
     "first_noted": "2026-10-27"
    },
    {
-    "lesson": "The model does not see starting-quarterback injuries; when a QB is out, its margin runs well above Vegas's.",
-    "evidence": "Week 9: Kansas State (starter and backup hurt) was model +9.1 vs Vegas +2.5 and lost 27-24 at Colorado. This week Boise State's Madsen is out (model Boise State by 24.5 vs Vegas 16.5), Florida switches QBs, and Air Force's QB is questionable. One graded game so far; the Boise State result will be the second.",
-    "status": "watching",
+    "lesson": "The idea that the model's margin runs well above Vegas's when a starting QB is out was not supported by this week's results.",
+    "evidence": "Kansas State (Week 9) fit the idea: model +9.1 vs Vegas +2.5, lost. But in three flagged Week 10 games the model was closer than Vegas each time: Boise State 64-38 (model by 24.5, Vegas 19.5, actual 26), Oklahoma 23-7 over Florida (model Florida by 2.3, Vegas 5.5, 18.3 vs 21.5 off) and Air Force 24-21 over Army (7.0 vs 8.5 off). 1 of 4 supports it.",
+    "status": "retired",
     "test": "On past seasons, flag games where a team's starting QB was out and compare the model's margin error and the Vegas error in those games with all other games. Need 20+ such games.",
     "first_noted": "2026-11-03"
    }
   ]
  },
- "updated": "2026-11-09T18:28-05:00"
+ "updated": "2026-11-10T15:50-05:00"
 }

@@ -148,171 +148,162 @@
    ]
   },
   "College": {
-   "checked": "2026-11-07T13:04-05:00",
+   "checked": "2026-11-10T15:50-05:00",
    "season": 2026,
-   "week": 10,
+   "week": 11,
    "news": [
     {
-     "game_id": "401860911",
+     "game_id": "401858294",
      "items": [
-      "College|likely|401860911|winner|away|||"
+      "College|likely|401858294|winner|home|||"
      ],
-     "headline": "Boise State QB Madsen out at Colorado State; Cutforth to start",
-     "detail": "ESPN reported Nov 6 that Maddux Madsen (knee) will miss the game, with Max Cutforth making his fourth career start. Madsen is expected back next week against Oregon State.",
-     "impact": "hurts the pick",
-     "sources": [
-      "https://www.espn.com/college-football/story/_/id/50401030/sources-boise-state-qb-maddux-madsen-vs-colorado-state",
-      "https://www.rotowire.com/cfootball/headlines/maddux-madsen-injury-ruled-out-for-saturday-238588"
-     ]
-    },
-    {
-     "game_id": "401856741",
-     "items": [
-      "College|risky|401856741|winner|home|||"
-     ],
-     "headline": "Ole Miss RB Lacy out, nine Rebels ruled out vs Georgia",
-     "detail": "Reports from Nov 5-7 say Ole Miss has nine players out, including running back Kewan Lacy (shoulder). Georgia's running back Chauncey Bowens is probable.",
-     "impact": "hurts the pick",
-     "sources": [
-      "https://www.dawgnation.com/football/georgia-football-injury-report-heading-into-ole-miss-game/IET2IIM2TBCQHN2BIBLWAGKEDY/",
-      "https://dawnofthedawg.com/ole-miss-injury-report-continues-to-favor-georgia-hours-before-kickoff"
-     ]
-    },
-    {
-     "game_id": "401856739",
-     "items": [
-      "College|risky|401856739|winner|away|||"
-     ],
-     "headline": "Florida turns to Tramell Jones Jr.; Oklahoma fires its OC",
-     "detail": "Florida is expected to start Jones over Aaron Philo (benched after two interceptions vs Georgia), per ESPN on Nov 5. Oklahoma fired offensive coordinator Ben Arbuckle this week, and John Mateer is expected to start under interim OC Jason Witten (On3, Nov 6).",
+     "headline": "Notre Dame may be missing five defensive starters again vs. Boston College",
+     "detail": "Per reports on Nov. 9-10, linebacker Drayk Bowen, safety Brauntae Johnson and cornerback DJ McKinney are out. Linemen Francis Brewu and Jason Onye are questionable. All five missed the win over Miami. The line is already Notre Dame -29.5.",
      "impact": "worth watching",
      "sources": [
-      "https://www.espn.com/college-football/story/_/id/50388555/source-florida-start-qb-tramell-jones-jr-oklahoma",
-      "https://www.on3.com/news/oklahoma-expected-to-start-qb-john-mateer-at-florida/"
+      "https://www.archynewsy.com/notre-dame-likely-without-5-defensive-starters-vs-boston-college/",
+      "https://www.on3.com/teams/notre-dame-fighting-irish/news/notre-dame-fighting-irish-football-injury-report-boston-college/"
      ]
     },
     {
-     "game_id": "401858291",
+     "game_id": "401856883",
      "items": [
-      "College|risky|401858291|winner|away|||"
+      "College|likely|401856883|winner|home|||"
      ],
-     "headline": "Miami star WR Toney out vs Notre Dame after ankle surgery",
-     "detail": "Malachi Toney (73 catches, 13 TDs) had tightrope ankle surgery on Nov 5 and is expected to miss the rest of the regular season. Notre Dame is also missing linebacker Drayk Bowen and cornerback DJ McKinney, but cornerback Leonard Moore is expected back.",
-     "impact": "hurts the pick",
-     "sources": [
-      "https://www.si.com/fannation/college/cfb-hq/news/college-football-injury-report-latest-updates-malachi-toney-kewan-lacy-whit-weeks",
-      "https://sports.yahoo.com/articles/no-11-notre-dame-remains-110042552.html"
-     ]
-    },
-    {
-     "game_id": "401856851",
-     "items": [
-      "College|value|401856851|total|under|||61.5"
-     ],
-     "headline": "Houston QB Weigman is a full go vs Cincinnati",
-     "detail": "Conner Weigman (ankle/foot) has practiced fully and tight end Patrick Overmyer is also back, per reports from Nov 5-7. Cincinnati expects nose tackle Josh Hough and center Taran Tyo back, though Tyo's clearance was described as unresolved.",
+     "headline": "Georgia has a thin receiver room and a cornerback in doubt before Missouri",
+     "detail": "On Nov. 9 Kirby Smart said Georgia is dinged up at wideout. Cornerback Ellis Robinson (thigh/hip) is a work in progress and wide receiver Craig Dandridge has a hamstring issue. Running back Chauncey Bowens is not at 100%. Quarterback Gunner Stockton is not listed on the latest report.",
      "impact": "worth watching",
      "sources": [
-      "https://sports.yahoo.com/articles/college-football-injury-report-latest-135049042.html",
-      "https://dknetwork.draftkings.com/2026/11/07/the-saturday-script-college-football-best-bets-picks-predictions-for-11-07-26/"
+      "https://www.dawgnation.com/football/kirby-smart-updates-georgia-football-injury-situation-heading-into-missouri-game/7UF5VM6XLVG77FY7BRQWREG2R4/",
+      "https://sports.yahoo.com/articles/kirby-smart-georgia-cb-ellis-175002127.html"
      ]
     },
     {
-     "game_id": "401862823",
+     "game_id": "401858519",
      "items": [
-      "College|risky|401862823|winner|away|||"
+      "College|likely|401858519|winner|home|||",
+      "College|value|401858519|spread|away|||16.5"
      ],
-     "headline": "Air Force QB Evan Medders listed questionable at Army",
-     "detail": "An unofficial injury tracker updated Saturday morning (Nov 7) lists Medders as questionable. This comes from an unofficial source, so treat it with care.",
-     "impact": "hurts the pick",
+     "headline": "Iowa's depth chart still lists two quarterbacks at the top",
+     "detail": "The Week 11 depth chart (Nov. 9) shows Hank Brown and Jeremy Hecklinski as an either/or at quarterback. Iowa also lists LJ Phillips and Xavier Williams as an either/or at running back, and Williams pulled up limping against Northwestern. Brown played in the 24-10 win at Northwestern, so he looks available.",
+     "impact": "worth watching",
      "sources": [
-      "https://kickoffstatus.com/"
+      "https://sports.yahoo.com/articles/hawkeyes-football-depth-chart-week-190230732.html",
+      "https://espn.com/college-football/story/_/id/50402628/2026-college-football-power-rankings-top-25-week-10"
      ]
     },
     {
-     "game_id": "401870795",
+     "game_id": "401856857",
      "items": [
-      "College|likely|401870795|winner|away|||"
+      "College|risky|401856857|winner|away|||"
      ],
-     "headline": "New Mexico State short on receivers, no settled QB vs Liberty",
-     "detail": "A New Mexico State fan-site preview from Nov 7 says the Aggies lost receiver T.K. King and tight end Josiah Thomas for the season and have no clear starting quarterback. It also expects a very cold night game.",
-     "impact": "helps the pick",
+     "headline": "UCF lost two running backs at Kansas; Arizona State starts a freshman QB",
+     "detail": "Duke Watson left in a boot with a foot injury and Landen Chambers has an undisclosed injury, per Nov. 10 reports. UCF needs one more win for bowl eligibility. Arizona State's Week 10 report had freshman Jake Fette as the starting quarterback, with Mikey Keene probable as backup.",
+     "impact": "worth watching",
      "sources": [
-      "https://goaggies.substack.com/p/nm-state-vs-liberty-final-preview"
+      "https://sports.yahoo.com/articles/ucf-scott-frost-shares-updates-163007783.html",
+      "https://sports.yahoo.com/articles/arizona-state-football-week-10-185445529.html"
+     ]
+    },
+    {
+     "game_id": "401858521",
+     "items": [
+      "College|risky|401858521|winner|home|||"
+     ],
+     "headline": "Washington's Demond Williams is set to start at Michigan State",
+     "detail": "A Nov. 10 report says Williams gets the start after reclaiming the job from Elijah Brown. Michigan State's Alessio Milivojevic returned from injury for a 15-6 win at Michigan last Saturday.",
+     "impact": "worth watching",
+     "sources": [
+      "https://www.rotowire.com/cfootball/headlines/demond-williams-news-will-remain-starter-in-week-11-239147",
+      "https://sports.yahoo.com/articles/spectacular-michigan-state-qb-returns-130051563.html"
+     ]
+    },
+    {
+     "game_id": "401864538",
+     "items": [
+      "College|value|401864538|spread|away|||12.5"
+     ],
+     "headline": "Air Force used two quarterbacks in the win over Army",
+     "detail": "Evan Medders returned from a turf toe injury and shared snaps with Kemper Hodges in the 24-21 win on Nov. 7. San Jos\u00e9 State is 5-5 and led by senior Luke Weaver.",
+     "impact": "worth watching",
+     "sources": [
+      "https://sports.yahoo.com/articles/air-force-captures-commander-chief-145804674.html"
      ]
     }
    ],
    "item_notes": {
-    "College|likely|401860911|winner|away|||": "The model's 94% likely does not account for Madsen being out; Vegas had Boise State at -16.5 and the model at 24.5.",
-    "College|likely|401870795|winner|away|||": "New Mexico State is thin at QB and receiver, which fits the model's lean toward Liberty.",
-    "College|value|401856851|total|under|||61.5": "The under rests on a 51.0% edge, and Houston QB Weigman returning healthy could push scoring up.",
-    "College|value|401862819|spread|away|||8.5": "The model has UAB by 17.8, which points against Charlotte +8.5, so this pick leans on its total, not its margin.",
-    "College|risky|401856741|winner|home|||": "The model had this game even, but Ole Miss is missing running back Kewan Lacy and eight other players.",
-    "College|risky|401856739|winner|away|||": "Florida's QB change and Oklahoma's new offensive coordinator make this game harder than usual for the model to read.",
-    "College|risky|401862823|winner|away|||": "The model's total is 11.8 points above Vegas's 43.5, the biggest gap on this list, and Air Force's QB is listed questionable.",
-    "College|risky|401858291|winner|away|||": "Miami loses star receiver Malachi Toney, which the model likely did not see; Notre Dame also has defensive absences."
+    "College|likely|401858294|winner|home|||": "Notre Dame's defense is thin again, but the line already prices a 29-point win and the model agrees within a point.",
+    "College|likely|401871061|winner|home|||": "The model has Liberty by 27.3 against Vegas at 20.5, and Middle Tennessee scored 51 at Western Kentucky last week.",
+    "College|likely|401858519|winner|home|||": "The model has Iowa by 26.6 against Vegas at 16.5, a 10-point gap, and Iowa's quarterback spot is still an either/or on the depth chart.",
+    "College|likely|401856883|winner|home|||": "Georgia won 42-7 at Ole Miss last week, but its receivers and a cornerback are banged up.",
+    "College|value|401862826|total|under|||74.5": "Tulsa scored 60 against Tulane last week, so this total is hard to read.",
+    "College|value|401858519|spread|away|||16.5": "The model's edge on Purdue +16.5 is only 51.1%, below the 52.4% needed, and Purdue's own model margin is Iowa by 26.6.",
+    "College|value|401864538|spread|away|||12.5": "The model has Air Force by 21.1 against Vegas at 12.5, and Air Force's quarterback situation was unsettled until last week.",
+    "College|risky|401856857|winner|away|||": "The model picks Arizona State while Vegas picks UCF; Arizona State won 20-10 over Colorado and UCF won 33-32 at Kansas, both with some injuries.",
+    "College|risky|401858521|winner|home|||": "Michigan State just won 15-6 at Michigan, but Washington's quarterback is healthy and the model still has Washington by 3.5.",
+    "College|risky|401864537|winner|home|||": "Hawai'i only beat UTEP 17-14 as a 10.5-point favorite, so the model's 40% chance at +200 rests on thin recent form."
    },
-   "recap": "Week 10 has been a coin flip so far: the model picked 6 of 12 winners and went 6-5-1 against the spread. Totals went 5 of 12. Three upsets (Buffalo, Illinois over Nebraska, Florida Atlantic over UTSA) came in games the model had close or leaned the other way. Several games were close or low scoring against the line, like Toledo's 20-17 win over Sacramento State, which beat the spread but not the total.",
+   "recap": "Week 10 went about as the model expected on winners, but it was weaker against the line. Of the 40 results shown, the model had 24 of 39 winners right, went 17-23 against the spread, and its totals picks went 14-25. Misses were big: Tulsa beat Tulane 60-10 (53 points off), Duke beat NC State 41-3 and Georgia won 42-7 at Ole Miss. Efficiency was the main reason in 14 of 26 misses of 8+ points. On the Top picks, Most likely winners are 22 of 24, Best value 12 of 30 and underdogs 10 of 29.",
    "lessons": [
     {
-     "lesson": "The 'model total 3+ above Vegas means the over hits' pattern does not hold up; the over hit less often than not.",
-     "evidence": "Weeks 8-9: over hit in 11 of 29 such games. Week 10 so far: 3 of 6 (James Madison, Ball State and Buffalo went over; New Mexico, Toledo and Ohio did not). Combined 14 of 35 (40%).",
+     "lesson": "The 'model total 3+ above Vegas means the over hits' pattern does not hold up, and the model's totals picks overall have lost more than they won.",
+     "evidence": "Weeks 8-9: over hit in 11 of 29 such games. Week 10 (40 results shown): 5 of 10 (UCF-Kansas, Oregon-Ohio State, Delaware-Kennesaw State, Tulsa-Tulane, North Carolina-UConn went over; Arizona State-Colorado, Air Force-Army, Notre Dame-Miami, Vanderbilt-Mississippi State, Duke-NC State did not). Combined 16 of 39 (41%). Season totals picks are 105-125 (46%); 14-25 in the Week 10 results shown.",
      "status": "worth testing",
-     "test": "On past seasons, group games by model total minus Vegas total (0-3, 3-6, 6+) and check how often the over hits in each group. Need 20+ games per group.",
+     "test": "On past seasons, group games by model total minus Vegas total (0-3, 3-6, 6+) and check how often the over hits in each group. Also compare the model's and Vegas's average total error. Need 20+ games per group.",
      "first_noted": "2026-10-17"
     },
     {
-     "lesson": "Big misses are spread across several causes; efficiency leads less clearly than before.",
-     "evidence": "Week 9 reviews, 26 games missed by 8+ points: efficiency first in 7, defensive/return touchdowns 6, turnovers 5, finishing drives 5, nothing stood out 3. Week 8 had efficiency first in 15 of 25. No new reviews this run. Efficiency is measured after the game, so it partly restates the miss.",
+     "lesson": "Big misses are spread across several causes, but efficiency still leads.",
+     "evidence": "Week 10, 26 of the 40 results shown missed by 8+ points: efficiency first in 14, finishing drives 5, turnovers 4, nothing stood out 2, defensive/return touchdowns 1. Week 9 had efficiency first in 7 of 26; Week 8 in 15 of 25. Efficiency is measured after the game, so it partly restates the miss.",
      "status": "worth testing",
      "test": "On past seasons, check whether a team's success rate in prior games predicts the model's error next game. Also compare turnover margin, defensive/return touchdowns and points per trip inside the 40 with long-run averages, to see if misses lean one way or are random.",
      "first_noted": "2026-10-17"
     },
     {
      "lesson": "When the model picks a different winner than Vegas, results are mixed to poor.",
-     "evidence": "About 4 of 11 right overall. No new disagreements among the 12 Week 10 results; the model and Vegas picked the same side in each. Ole Miss (model 50%, Vegas picks Georgia) is the open case this week. Sample is small.",
+     "evidence": "About 4 of 12 right overall. The only disagreement in the Week 10 results shown was Tulane (model by 3.0, Vegas Tulsa -3); Tulsa won 60-10. Arizona State at UCF (model Arizona State by 0.5, Vegas UCF -3.5) is the open case this week. Sample is small.",
      "status": "watching",
      "test": "On past seasons, list games where the model and Vegas disagree on the winner, then compare the model's win rate with Vegas's. Need 20+ games.",
      "first_noted": "2026-10-17"
     },
     {
      "lesson": "The 'Best value against the sportsbook' list has been weak.",
-     "evidence": "Season: 8 of 22 hit against 11.2 expected, at -6.73 units. The edges are thin (about 51% against 52.4% needed), so the model's own chance is below break-even on all five Week 10 picks. Charlotte +8.5 points against the model's own UAB by 17.8.",
+     "evidence": "Season: 12 of 30 hit against 15.3 expected, at -7.09 units (was 8 of 22 last run, so 4 of 8 this week). The edges are thin (about 51% against 52.4% needed), so the model's own chance is below break-even on all five picks this week.",
      "status": "worth testing",
      "test": "On past seasons, bucket the model's spread and total picks by edge size and compare hit rates with the 52.4% break-even. Check that each pick's cover chance matches the model's own margin. Need 20+ games per bucket.",
      "first_noted": "2026-10-24"
     },
     {
      "lesson": "Underdog picks have hit a bit less often than the model expected, but long prices have kept units positive.",
-     "evidence": "Season: 7 of 22 hit against 8.3 expected, at +0.48 units (was 6 of 21, 7.9 expected, -1.16 units last run). One more hit swung the units a lot, which shows how much luck is in this list.",
+     "evidence": "Season: 10 of 29 hit against 11.5 expected, at +1.56 units (was 7 of 22, 8.3 expected, +0.48 units; 3 of 7 hit this week). A few hits swing the units a lot, which shows how much luck is in this list.",
      "status": "worth testing",
      "test": "On past seasons, compare predicted chance with actual win rate for the model's underdog picks, in buckets of model chance (under 35%, 35-45%, 45%+). Need 20+ picks per bucket.",
      "first_noted": "2026-10-24"
     },
     {
      "lesson": "The 'Most likely winners' list has landed close to the model's own chances.",
-     "evidence": "Season: 17 of 19 hit against 17.0 expected, at -0.30 units. Prices are very short, so one miss costs a lot. Only 19 picks.",
-     "status": "watching",
+     "evidence": "Season: 22 of 24 hit against 21.5 expected, at +0.32 units (was 17 of 19; 5 of 5 this week). Prices are very short, so one miss costs a lot.",
+     "status": "worth testing",
      "test": "On past seasons, bucket the model's top win chances (90%+, 85-90%) and compare with actual win rate and with Vegas's no-vig chance. Need 20+ games per bucket.",
      "first_noted": "2026-10-27"
     },
     {
      "lesson": "The model's spread misses are slightly larger than Vegas's over the season.",
-     "evidence": "Season (184 games): average spread miss 12.3 points for the model against 11.7 for Vegas, a 0.6 gap unchanged. Winners right in 122 of 184 (66%), spread record 88-89-4. Week 10 so far: 6 of 12 winners and 6-5-1 against the spread.",
+     "evidence": "Season (234 games): average spread miss 12.5 points for the model against 11.9 for Vegas, still a 0.6 gap. Winners right in 154 of 234 (66%), spread record 111-117-4. In the 40 Week 10 results shown: 24 of 39 winners and 17-23 against the spread.",
      "status": "worth testing",
      "test": "On past seasons, compare the model's and Vegas's average spread error. Then test whether averaging the model's margin and Vegas's margin beats either alone, and whether the gap changes by week of season.",
      "first_noted": "2026-10-27"
     },
     {
-     "lesson": "The model does not see starting-quarterback injuries; when a QB is out, its margin runs well above Vegas's.",
-     "evidence": "Week 9: Kansas State (starter and backup hurt) was model +9.1 vs Vegas +2.5 and lost 27-24 at Colorado. This week Boise State's Madsen is out (model Boise State by 24.5 vs Vegas 16.5), Florida switches QBs, and Air Force's QB is questionable. One graded game so far; the Boise State result will be the second.",
-     "status": "watching",
+     "lesson": "The idea that the model's margin runs well above Vegas's when a starting QB is out was not supported by this week's results.",
+     "evidence": "Kansas State (Week 9) fit the idea: model +9.1 vs Vegas +2.5, lost. But in three flagged Week 10 games the model was closer than Vegas each time: Boise State 64-38 (model by 24.5, Vegas 19.5, actual 26), Oklahoma 23-7 over Florida (model Florida by 2.3, Vegas 5.5, 18.3 vs 21.5 off) and Air Force 24-21 over Army (7.0 vs 8.5 off). 1 of 4 supports it.",
+     "status": "retired",
      "test": "On past seasons, flag games where a team's starting QB was out and compare the model's margin error and the Vegas error in those games with all other games. Need 20+ such games.",
      "first_noted": "2026-11-03"
     }
    ]
   }
  },
- "updated": "2026-11-09T18:28-05:00",
+ "updated": "2026-11-10T15:50-05:00",
  "model": "claude-sonnet-5-5"
 }
