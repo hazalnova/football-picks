@@ -1,0 +1,12 @@
+{
+ "variant": "long_memory",
+ "since": "2026-11-13",
+ "changes": [
+  {
+   "date": "2026-11-13",
+   "from": "props_v1",
+   "to": "long_memory",
+   "why": "right 55.3% of the time vs 53.2% on 1145 props with sportsbook lines"
+  }
+ ]
+}

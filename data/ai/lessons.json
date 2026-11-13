@@ -2,10 +2,10 @@
  "leagues": {
   "NFL": [
    {
-    "lesson": "When the model picks a different winner than the Vegas favorite, it has mostly lost so far.",
-    "evidence": "2 of 7 graded games where the model's side was not the Vegas favorite won. No Week 9 or WAS-NYG game disagreed with Vegas, so no new cases. HOU at CLE is this week's case (model CLE, Vegas HOU -4.5). The built-in past-season test says this does not hold up: the model's side won 43% in 2020-2025, about what Vegas's chances said.",
+    "lesson": "When the model picks a different winner than the Vegas favorite, its side wins about as often as Vegas's chances say, which is less than half the time.",
+    "evidence": "2 of 7 graded games this season where the model's side was not the Vegas favorite won. Past-season test: the model's side won 47.4% in 2010-2019 (Vegas 42.9%) and 42.9% in 2020-2025 (Vegas 43.3%), so no edge over Vegas's own chances. HOU at CLE is this week's case.",
     "status": "watching",
-    "test": "Run the attached check on 2010-2019 and 2020-2025: model's side to win when it differs from the Vegas favorite. Compare to Vegas's own chances. Wait for 20+ games this season.",
+    "test": "Check results of the attached check on 2010-2019 and 2020-2025 against Vegas's chances; add up this season's cases until there are 20+.",
     "first_noted": "2026-10-19",
     "check": {
      "when": [
@@ -38,14 +38,14 @@
        "vegas": 0.433
       }
      ],
-     "tested": "2026-11-13T14:16-05:00"
+     "tested": "2026-11-13T17:42-05:00"
     }
    },
    {
     "lesson": "Large gaps between the model's total and Vegas's total have not paid off.",
-    "evidence": "Before Week 9, 0 of 5 graded games with a gap of 4.9+ won the over/under pick; Week 9 split 1-1 (TB-CHI lost, CIN-ATL won). WAS-NYG (gap 2.7) won, JAX-BAL (4.2) won. Over/under is 30-24 overall. Built-in past-season test: model's side with a 4+ point gap won 48.3% in 2020-2025, which does not beat break-even. This week's L9 (Over 39.5, gap 5.3) fits this group.",
+    "evidence": "Past-season test says the model's side with a 4+ point gap won 48.3% in 2020-2025 (174 games, 4 pushes), below break-even; no 2010-2019 data. This season, the over/under is 30-24 overall and went 10-4 in the last two weeks, so the small sample does not show the same weakness. L9 (gap 5.3) fits this group.",
     "status": "watching",
-    "test": "Run the check on 2010-2019 and 2020-2025: model's side of the total when the gap is 4+ points. Also compare groups under 2, 2-4 and over 4. Needs 20+ games this season.",
+    "test": "Compare gap groups under 2, 2-4 and 4+ on past seasons; keep tracking this season's 4+ gap games until 20+.",
     "first_noted": "2026-10-19",
     "check": {
      "when": [
@@ -76,35 +76,35 @@
        "rate": 0.483
       }
      ],
-     "tested": "2026-11-13T14:16-05:00"
+     "tested": "2026-11-13T17:42-05:00"
     }
    },
    {
     "lesson": "Many big misses come from efficiency swings, which the model can't see before kickoff.",
-    "evidence": "In 9 of the 16 games where the winner was wrong through Week 9, the review names efficiency as the main reason. The new miss, WAS-NYG, was close (5.1 points) with no named driver. BUF-MIN was off by 15.7, with efficiency worth about 10 points. Winners are now 39 of 56.",
+    "evidence": "9 of the 16 games where the winner was wrong through Week 9 named efficiency as the main reason (not updated for the WAS-NYG miss, which had no named driver). Newest misses: JAX-BAL off by 17.5 and HOU-LAC by 18.1, with no stat explaining most of it.",
     "status": "watching",
     "test": "On past seasons, measure how often big spread misses (over 8 points) are driven by efficiency versus turnovers. Check whether the model's misses are larger than Vegas's overall.",
     "first_noted": "2026-10-19"
    },
    {
     "lesson": "Long-shot picks (underdog winners and big-game props) hit a bit below the model's chances and lose units.",
-    "evidence": "Underdog picks are 5 of 19 against 7.7 expected (-6.54 units). Big-game picks are 12 of 36 against 11.8 expected (-8.99 units). Big games hit right on expectation, so their loss is mostly from prices. The underdog gap is about 2.7 hits. Milestone picks are 31 of 40 against 29.9 expected (-3.29 units).",
+    "evidence": "Underdog picks are 5 of 19 against 7.7 expected (-6.54 units). Big-game picks are 12 of 36 against 11.8 expected (-8.99 units), so the loss is mostly from prices. Milestone picks are 31 of 40 against 29.9 expected (-3.29 units).",
     "status": "worth testing",
     "test": "On past seasons, compare predicted chance with actual hit rate for underdog winners and long-shot props in buckets of model chance. Also check whether prices paid are shorter than fair odds. Needs 20+ picks per bucket.",
     "first_noted": "2026-10-19"
    },
    {
     "lesson": "Best-value picks against the sportsbook are running a little below the model's chances.",
-    "evidence": "12 of 24 best-value picks hit this season, against 12.7 expected, at -1.09 units. The gap to expectation is under 1 hit now. This week's five value picks all sit only 0.4 to 1.0 points over break-even.",
+    "evidence": "12 of 24 best-value picks hit this season, against 12.7 expected, at -1.09 units. The gap is under 1 hit. This week's five value picks sit only 0.4 to 1.0 points over break-even.",
     "status": "watching",
     "test": "On past seasons, check hit rate of the model's top value picks by size of edge. Needs 20+ picks per edge group.",
     "first_noted": "2026-10-19"
    },
    {
     "lesson": "The model's margin errors are larger than Vegas's, and it is below .500 against the spread.",
-    "evidence": "Average spread miss is 9.7 for the model against 9.0 for Vegas over 56 graded games. The model is 25-31-1 against the spread. Winners are 39 of 56 (70%). Week 9 went 6-9 against the spread; WAS-NYG won.",
+    "evidence": "Average spread miss is 9.7 for the model vs 9.0 for Vegas over 56 graded games; the model is 25-31-1 against the spread (7-9 in the last two weeks). Past-season test of the model's spread side: 51.9% in 2010-2019 and 48.9% in 2020-2025 across 1,660 games. That is below the 52.4% break-even, so no edge.",
     "status": "worth testing",
-    "test": "Run the check on 2010-2019 and 2020-2025: the model's spread side across all games. Also compare average absolute margin error with Vegas's, by week and season, before changing anything.",
+    "test": "Compare average absolute margin error with Vegas's, by week and season, before changing anything.",
     "first_noted": "2026-10-24",
     "check": {
      "when": [
@@ -135,14 +135,14 @@
        "rate": 0.489
       }
      ],
-     "tested": "2026-11-13T14:16-05:00"
+     "tested": "2026-11-13T17:42-05:00"
     }
    },
    {
-    "lesson": "Big gaps between the model and Vegas may come from lineup changes the model hasn't picked up.",
-    "evidence": "3 earlier cases: DAL at PHI and PHI at WAS (Hurts on IR) and MIN (Murray out, Wentz in). This week several games have new starters (BAL Brissett, ARI Beck, MIA McCord, SEA Lock, LV Mendoza, CLE Watson back). The brief lists them, so the model may already use them. BAL is the model's biggest edge, 8.3 vs Vegas 4.5. Still under 20 cases.",
+    "lesson": "Big gaps between the model and Vegas on games with a QB change are not clearly misses by the model.",
+    "evidence": "Earlier cases: DAL at PHI, PHI at WAS (Hurts on IR) and MIN (Murray out, Wentz in). Past-season test of the model's spread side with a QB change and a 3+ point gap: 54.2% in 2010-2019 (203 games) and 54.4% in 2020-2025 (160 games). That is above break-even but short of the 54.5% needed to count as an edge. This week BAL, ARI, MIA, SEA, LV and CLE have QB changes.",
     "status": "watching",
-    "test": "Run the check on 2010-2019 and 2020-2025: model's spread side when a team starts a different QB than last game and the spread gap is 3+ points. Compare model margin error in those games with all others. Needs 20+ such games.",
+    "test": "Track this season's cases until 20+; compare the model's margin error in QB-change games with all others.",
     "first_noted": "2026-10-25",
     "check": {
      "when": [
@@ -178,14 +178,14 @@
        "rate": 0.544
       }
      ],
-     "tested": "2026-11-13T14:16-05:00"
+     "tested": "2026-11-13T17:42-05:00"
     }
    },
    {
-    "lesson": "Most-likely-winner picks have fallen short of the model's own chances.",
-    "evidence": "16 of 24 most-likely-winner picks hit this season, against 17.4 expected, at -3.27 units. The shortfall is about 1.4 hits, down from about 2. Overall winners are 39 of 56 (70%).",
-    "status": "worth testing",
-    "test": "Run the check on 2010-2019 and 2020-2025: the model's side to win when its chance is 70%+ and it agrees with Vegas. Bucket by 70-79% and 80%+ and compare with the moneyline-implied chance. Needs 20+ picks per bucket.",
+    "lesson": "Most-likely-winner picks have fallen a little short of the model's chances, but this looks like luck.",
+    "evidence": "16 of 24 hit this season vs 17.4 expected (-3.27 units). Past-season test: the model's side at 70%+ when it agrees with Vegas won 80.4% in 2010-2019 (Vegas 77.1%) and 77.8% in 2020-2025 (Vegas 77.1%), so about what Vegas's chances said. The 1.4-hit shortfall is within normal swings, so this lesson is retired.",
+    "status": "retired",
+    "test": "No further test needed unless the shortfall grows past 20+ picks per bucket.",
     "first_noted": "2026-11-01",
     "check": {
      "when": [
@@ -223,7 +223,7 @@
        "vegas": 0.771
       }
      ],
-     "tested": "2026-11-13T14:16-05:00"
+     "tested": "2026-11-13T17:42-05:00"
     }
    }
   ],
@@ -245,25 +245,10 @@
      "bet": "model_side_total"
     },
     "test_result": {
-     "verdict": "doesn't hold up",
-     "note": "Won 51.4% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
-     "periods": [
-      {
-       "label": "2010\u20132019",
-       "games": 0,
-       "wins": 0,
-       "pushes": 0,
-       "rate": null
-      },
-      {
-       "label": "2020\u20132025",
-       "games": 2361,
-       "wins": 1213,
-       "pushes": 27,
-       "rate": 0.514
-      }
-     ],
-     "tested": "2026-11-13T14:16-05:00"
+     "verdict": "couldn't test",
+     "note": "No game history from this run.",
+     "periods": null,
+     "tested": "2026-11-13T17:42-05:00"
     }
    },
    {
@@ -290,27 +275,10 @@
      "bet": "model_side_winner"
     },
     "test_result": {
-     "verdict": "holds up",
-     "note": "Won 47% in 2020\u20132025 when Vegas's chances said 41%. Those chances have the bookmaker's cut removed; a real bet pays it, which eats a couple of points of that edge.",
-     "periods": [
-      {
-       "label": "2010\u20132019",
-       "games": 410,
-       "wins": 189,
-       "pushes": 0,
-       "rate": 0.461,
-       "vegas": 0.423
-      },
-      {
-       "label": "2020\u20132025",
-       "games": 379,
-       "wins": 178,
-       "pushes": 0,
-       "rate": 0.47,
-       "vegas": 0.413
-      }
-     ],
-     "tested": "2026-11-13T14:16-05:00"
+     "verdict": "couldn't test",
+     "note": "No game history from this run.",
+     "periods": null,
+     "tested": "2026-11-13T17:42-05:00"
     }
    },
    {
@@ -351,25 +319,10 @@
      "bet": "favorite_spread"
     },
     "test_result": {
-     "verdict": "doesn't hold up",
-     "note": "Won 50.4% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
-     "periods": [
-      {
-       "label": "2010\u20132019",
-       "games": 2389,
-       "wins": 1217,
-       "pushes": 42,
-       "rate": 0.509
-      },
-      {
-       "label": "2020\u20132025",
-       "games": 1964,
-       "wins": 990,
-       "pushes": 29,
-       "rate": 0.504
-      }
-     ],
-     "tested": "2026-11-13T14:16-05:00"
+     "verdict": "couldn't test",
+     "note": "No game history from this run.",
+     "periods": null,
+     "tested": "2026-11-13T17:42-05:00"
     }
    },
    {
@@ -394,28 +347,13 @@
      "bet": "model_side_spread"
     },
     "test_result": {
-     "verdict": "doesn't hold up",
-     "note": "Won 48.5% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
-     "periods": [
-      {
-       "label": "2010\u20132019",
-       "games": 1673,
-       "wins": 820,
-       "pushes": 25,
-       "rate": 0.49
-      },
-      {
-       "label": "2020\u20132025",
-       "games": 1349,
-       "wins": 654,
-       "pushes": 24,
-       "rate": 0.485
-      }
-     ],
-     "tested": "2026-11-13T14:16-05:00"
+     "verdict": "couldn't test",
+     "note": "No game history from this run.",
+     "periods": null,
+     "tested": "2026-11-13T17:42-05:00"
     }
    }
   ]
  },
- "updated": "2026-11-13T14:13-05:00"
+ "updated": "2026-11-13T17:40-05:00"
 }
