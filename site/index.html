@@ -900,7 +900,7 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
         <p>${esc(x.lesson)}</p>
         <p class="ev">Evidence: ${esc(x.evidence)}</p>
         ${x.test ? `<p class="ev">How to test it: ${esc(x.test)}</p>` : ""}
-        ${x.test_result ? `<p class="ev"><span class="tag ${x.test_result.verdict === "holds up" ? "good" : ""}">Tested: ${esc(x.test_result.verdict)}</span> ${esc(x.test_result.note || "")} ${esc(periodsText(x.test_result.periods))}</p>` : ""}
+        ${x.test_result ? `<p class="ev"><span class="tag ${x.test_result.verdict === "holds up" ? "good" : ""}">Tested: betting it ${esc(x.test_result.verdict === "holds up" ? "held up" : x.test_result.verdict === "doesn't hold up" ? "didn't hold up" : x.test_result.verdict)}</span> ${esc(x.test_result.note || "")} ${esc(periodsText(x.test_result.periods))}</p>` : ""}
       </div>`;
     return `<h2>What the AI is watching</h2>
       <p class="note">After each run, the AI looks at what the models got right and wrong and keeps a short list of patterns.
