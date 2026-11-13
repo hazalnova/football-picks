@@ -18,11 +18,12 @@ The **Update picks** workflow (in the **Actions** tab) runs on this schedule. Ti
 
 From Nov 1 to mid-March, when Central time falls back an hour, each run starts an hour earlier. GitHub sometimes starts scheduled runs late, occasionally by a few hours, so for a game that's about to start, run it yourself.
 
-Every run saves the updated logs to the `data` folder and republishes the website. The first logged pick for each game still counts, the same as in Colab, so a later run never changes a logged pick.
+Every run saves the updated logs to the `data` folder and republishes the website. For college games, the first logged pick counts, so a later run never changes it. For NFL games, each run replaces the pick until kickoff, so the pick that counts is the last one before kickoff, made with the final injury reports and starting quarterbacks; the first pick's numbers are kept alongside it in the log. Nothing changes after kickoff.
 
 After the notebooks, every run also does two more things:
 1. **Top picks lists** (`scripts/top_picks.py`). Builds the lists on the website's **Top picks** tab from the models' own chances: the most likely winners, the best value against the sportsbook, risky underdogs, and, for the NFL, the most likely and the risky player milestones. With the `ODDS_API_KEY` secret, the milestones get the sportsbooks' prices too. Each game's entries lock at kickoff and are graded after the game in `data/top_picks_log.csv`, so the site can show whether "likely" really meant likely.
-2. **AI news check** (`scripts/ai_notes.py`). Claude reads the lists, the latest results and the post-game reviews, searches the web for news the models can't see, like injuries and quarterback changes, and writes short notes with links. It also keeps a list of patterns it notices in `data/ai/lessons.json` and reads it again next run. That file is its memory. The AI only adds notes: it never changes a pick, a list or a model. Its lessons are ideas to test on past seasons first. This step needs the `ANTHROPIC_API_KEY` secret (see **Secrets**), and without it, it's skipped.
+2. **AI news check** (`scripts/ai_notes.py`). Claude reads the lists, the latest results and the post-game reviews, searches the web for news the models can't see, like injuries and quarterback changes, and writes short notes with links. It also keeps a list of patterns it notices in `data/ai/lessons.json` and reads it again next run. That file is its memory. The AI only adds notes: it never changes a pick, a list or a model. Its lessons are ideas to test on past seasons first. It checks games where the model and Vegas favor different teams first, since that's usually where the model is missing news. This step needs the `ANTHROPIC_API_KEY` secret (see **Secrets**), and without it, it's skipped.
+3. **Situation tester** (`scripts/situations.py`). Checks patterns on past seasons before anyone trusts them: 2010–2019, and 2020–2025, which the model never trained on. It runs a few built-in situations, like "the model and Vegas favor different teams," plus every AI lesson the AI could write as a test. Results show under **Top picks → Tested situations** and next to each lesson, and the AI reads them on its next run. Spreads and totals need about 54.5% in 2020–2025 to count as holding up; a winner pick has to beat Vegas's own chances by 3 points. The notebooks write the game history it uses to `data/history/`, which isn't saved to the repository.
 
 **To run it now:** open **Actions → Update picks → Run workflow** (bookmark https://github.com/hazalnova/football-picks/actions/workflows/update.yml to jump straight there), choose what to run, and click the green button. On your phone, the GitHub app does the same thing: open the repository, then **Actions → Workflows → Update picks → Run workflow**. A run takes about 10–15 minutes. The choices:
 
@@ -33,7 +34,7 @@ After the notebooks, every run also does two more things:
 | **college** | Review, college picks, Top picks, AI news | Before weekday college games (Tuesday to Friday) or Saturday |
 | **review only** | The post-game review and the Top picks grading, no new picks | Rarely needed: the other choices do this too |
 
-Every choice also republishes the website. A pick that's already logged never changes, so running extra times is safe; the only cost is a little of the AI and odds budgets.
+Every choice also republishes the website. Running extra times is safe: nothing changes after kickoff, and an extra NFL run before kickoff just updates the pick with the latest news. The only cost is a little of the AI and odds budgets.
 
 **To see what a run did:** open the run in the **Actions** tab. The summary page shows what each notebook printed: this week's game cards, the scorecard and what was saved. The full notebooks, tables included, are under **Artifacts → notebooks-with-output**.
 
@@ -46,7 +47,7 @@ If a run fails, GitHub emails you. The picks keep running even if the post-game 
 | `notebooks/` | The three notebooks the workflow runs: `game_review`, `ncaa_game_model` and `nfl_game_model` |
 | `data/` | The pick logs, props log, Top picks log, review files, saved preseason and efficiency data, `odds/` with the saved sportsbook prop odds, `ai/lessons.json` with the AI's lessons, and `app_data/` with the website's data |
 | `site/` | The website, `index.html`. It reads `nfl.json`, `cfb.json`, `top_picks.json` and `ai_notes.json` from `data/app_data/` when the workflow publishes it |
-| `scripts/` | `run_notebook.py`, which runs a notebook from top to bottom the way Colab's **Run all** does; `top_picks.py`, which builds and grades the Top picks lists; and `odds_api.py`, which gets sportsbook prop prices for the lists; and `ai_notes.py`, the AI news check |
+| `scripts/` | `run_notebook.py`, which runs a notebook from top to bottom the way Colab's **Run all** does; `top_picks.py`, which builds and grades the Top picks lists; `odds_api.py`, which gets sportsbook prop prices for the lists; `ai_notes.py`, the AI news check; and `situations.py`, the situation tester |
 | `.github/workflows/` | `update.yml`, the schedule and steps |
 
 ## Changing things
@@ -55,6 +56,8 @@ If a run fails, GitHub emails you. The picks keep running even if the post-game 
 - **The website:** edit `site/index.html`. Saving a change to it republishes the site within a couple of minutes, without running the models.
 - **The schedule:** edit the `cron` lines at the top of `.github/workflows/update.yml`.
 - **The Top picks lists:** the thresholds, like the 70% for "most likely" milestones, are in `SETTINGS` at the top of `scripts/top_picks.py`. The website's descriptions follow them.
+- **Starting quarterbacks:** the NFL notebook picks each team's starter for the coming week from the latest depth chart and injury news (Step 3), and lists every team where that differs from nflverse's projection. For news later than the last run, name the starter in `QB_OVERRIDES` in Step 3; it wins over everything else.
+- **A situation to test:** add it to `BUILT_IN` in `scripts/situations.py`, using the fields and bets listed there.
 - **The AI:** the instructions it follows are `SYSTEM` near the top of `scripts/ai_notes.py`. To use a different Claude model or allow more searches per run, add a repository variable under **Settings → Secrets and variables → Actions → Variables**: `AI_MODEL` (for example `claude-haiku-5-5`, which costs much less) or `AI_MAX_SEARCHES`, the most web searches per league in a run (8 unless set).
 
 The copies of the notebooks in Google Drive are now just for trying things out. If you run them in Colab, they write to the old logs in Drive, not to this repository.

@@ -22,6 +22,8 @@ from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 from zoneinfo import ZoneInfo
 
+import situations                    # the situation tester: its fields and bets are what a lesson's check can use
+
 DATA = Path(__file__).resolve().parent.parent / "data"
 APP = DATA / "app_data"
 TOP_PICKS = APP / "top_picks.json"
@@ -48,10 +50,11 @@ STATUSES = ["watching", "worth testing", "retired"]
 SYSTEM = """You are the analyst for Line Check, a fan website that shows football models' predictions next to the sportsbooks' lines. Each run you get the website's Top picks lists, the games on them, recent results with post-game reviews, the records so far, and the lessons you kept from earlier runs.
 
 Your jobs:
-1. News check. For games that haven't kicked off, search the web for news the models can't see: injuries and game status, a change at starting quarterback, suspensions, a coaching change, or severe weather for an outdoor game. Focus on the teams and players on the lists; for a player milestone, check that player's status. You have up to {max_searches} searches, so plan them: one search per team or game usually covers several items. When you have more than one league, give each league about the same number of searches. Report only news you found in this run's search results, and only if it's recent and could matter for a pick. Give the links you found it at. If nothing matters for an item, say nothing about it.
+1. News check. For games that haven't kicked off, search the web for news the models can't see: injuries and game status, a change at starting quarterback, suspensions, a coaching change, or severe weather for an outdoor game. Check games marked DIFFERS FROM VEGAS first: when the model and the sportsbooks favor different teams, the sportsbooks' side has won most of the time in past seasons, often because of news the model missed, so say what the news shows for each of them. Then focus on the teams and players on the lists; for a player milestone, check that player's status. You have up to {max_searches} searches, so plan them: one search per team or game usually covers several items. When you have more than one league, give each league about the same number of searches. Report only news you found in this run's search results, and only if it's recent and could matter for a pick. Give the links you found it at. If nothing matters for an item, say nothing about it.
 2. Item notes. For list items where you have something real to add, from the news or from the numbers you were given, write one plain sentence. Skip the rest. At most 10 per league.
 3. Recap. Two to four sentences per league on how the recent results went and why, from the results and reviews you were given. Don't search for this.
 4. Lessons. You keep up to {max_lessons} lessons per league: patterns in what the models get right and wrong. Keep, revise, add or retire them. Every lesson needs evidence: counts from the data you were given, like "4 of the 5 graded games where...". Small samples are mostly luck, so a lesson stays "watching" until it rests on 20 or more games; then it can be "worth testing", with a concrete test the owner could run on past seasons before changing anything. Retire a lesson when newer results contradict it. Never say a model was changed or should be changed without that test.
+5. Checks. Give a lesson a "check" whenever it can be written with the tester's fields, so it gets tested on 2010–2019 and 2020–2025 automatically after this run. Fields: {fields}. Bets: {bets}. A lesson's earlier result shows up as test_result. If it says "doesn't hold up", retire the lesson (say so in its evidence) or change the situation; if it says "holds up", you may mention it in item notes for games that fit it.
 
 Rules:
 - You only add notes. Don't change, re-rank or remove picks.
@@ -109,6 +112,20 @@ SAVE_TOOL = {
                                     "status": {"type": "string", "enum": STATUSES},
                                     "test": {"type": "string", "description": "How to test it on past seasons"},
                                     "first_noted": {"type": "string", "description": "YYYY-MM-DD"},
+                                    "check": {
+                                        "type": "object",
+                                        "description": "The lesson as a situation the tester can run on past seasons. Include it whenever the fields allow.",
+                                        "properties": {
+                                            "when": {"type": "array", "items": {
+                                                "type": "object",
+                                                "properties": {"field": {"type": "string", "enum": list(situations.FIELDS)},
+                                                               "op": {"type": "string", "enum": list(situations.OPS)},
+                                                               "value": {"type": ["number", "boolean"]}},
+                                                "required": ["field", "op", "value"]}},
+                                            "bet": {"type": "string", "enum": list(situations.BETS)},
+                                        },
+                                        "required": ["when", "bet"],
+                                    },
                                 },
                                 "required": ["lesson", "evidence", "status", "test", "first_noted"],
                             },
@@ -173,6 +190,12 @@ def trim(text, n):
 
 
 # ---------- the brief ----------
+def differs_from_vegas(g):
+    """True when the model and the sportsbooks favor different teams (college games against lower divisions aside)."""
+    p, vp = (g.get("model") or {}).get("home_win"), (g.get("vegas") or {}).get("home_win")
+    return p is not None and vp is not None and g.get("fbs_vs_fbs", True) and (p >= 0.5) != (vp >= 0.5)
+
+
 def brief_for(league, app, top, lessons, ids):
     """Everything Claude needs for one league, as plain text. `ids` collects the short ids used in it."""
     L = top["leagues"].get(league)
@@ -180,9 +203,10 @@ def brief_for(league, app, top, lessons, ids):
         return None
     now = datetime.now(timezone.utc)
     open_items = [e for k in LIST_NAMES for e in L["lists"].get(k, []) if datetime.fromisoformat(e["kickoff"]) > now]
-    if not open_items:
-        return None
     games = {str(g["id"]): g for g in app["games"]}
+    differs = [str(g["id"]) for g in app["games"] if differs_from_vegas(g) and datetime.fromisoformat(g["kickoff"]) > now]
+    if not open_items and not differs:
+        return None
     lines = [f"LEAGUE: {league}, {L['season']} {L['week_label']}"]
 
     lines.append("\nTOP PICKS for games that haven't kicked off. Chances are the model's; Vegas chances come from the moneylines with the bookmaker's cut removed.")
@@ -204,8 +228,8 @@ def brief_for(league, app, top, lessons, ids):
             lines.append(f"  [{iid}] {e['pick']} ({e['matchup']}, {et(e['kickoff'])}): model {pct(e['chance'], 1 if k == 'value' else 0)}"
                          + (", " + ", ".join(extra) if extra else ""))
 
-    lines.append("\nGAMES ON THE LISTS:")
-    for gid in dict.fromkeys(e["game_id"] for e in open_items):
+    lines.append("\nGAMES ON THE LISTS, plus every game where the model and Vegas favor different teams (marked DIFFERS FROM VEGAS, listed first):")
+    for gid in dict.fromkeys(differs + [e["game_id"] for e in open_items]):
         g = games.get(gid)
         if not g:
             continue
@@ -214,7 +238,7 @@ def brief_for(league, app, top, lessons, ids):
         m, v = g["model"], g["vegas"]
         qbs = g.get("quarterbacks") or {}
         total = f"total {m['total']:.1f} (Vegas {v['total']:g})" if m.get("total") is not None and v.get("total") is not None else ""
-        lines.append(f"  [{sid}] {g['away']} at {g['home']}, {et(g['kickoff'])}{', neutral site' if g.get('neutral') else ''}. "
+        lines.append(f"  [{sid}] {'DIFFERS FROM VEGAS: ' if gid in differs else ''}{g['away']} at {g['home']}, {et(g['kickoff'])}{', neutral site' if g.get('neutral') else ''}. "
                      f"Model {model_line(g, m.get('home_margin'))}, Vegas {book_line(g, v.get('home_margin'))}, {total}"
                      + (f". QBs: {qbs.get('away')} ({g['away']}) vs. {qbs.get('home')} ({g['home']})" if qbs else ""))
 
@@ -241,6 +265,11 @@ def brief_for(league, app, top, lessons, ids):
             f"{LIST_NAMES[k]} {r['hits']} of {r['graded']}, {r['expected']} expected"
             + (f", {r['units']:+.2f} units" if r["units"] is not None else "") for k, r in graded.items()))
 
+    tested = [c for c in read_json(APP / "situations.json", {}).get("checks", []) if c.get("league") == league and c.get("source") == "built in"]
+    if tested:
+        lines.append("\nSITUATIONS ALREADY TESTED ON PAST SEASONS (built in):")
+        for c in tested:
+            lines.append(f"  {c['title']}: {c['verdict']}. {c.get('note', '')}")
     lines.append("\nYOUR LESSONS SO FAR:\n" + (json.dumps(lessons, indent=1) if lessons else "None yet."))
     return "\n".join(lines)
 
@@ -262,7 +291,9 @@ def ask_claude(client, brief, max_searches):
     """Run the conversation until Claude calls save_notes. Returns its notes, the URLs its searches found, and the usage."""
     tools = [{"type": "web_search_20250305", "name": "web_search", "max_uses": max_searches,
               "user_location": {"type": "approximate", "country": "US", "timezone": "America/New_York"}}, SAVE_TOOL]
-    system = SYSTEM.format(max_searches=max_searches, max_lessons=MAX_LESSONS)
+    system = SYSTEM.format(max_searches=max_searches, max_lessons=MAX_LESSONS,
+                           fields="; ".join(f"{k} ({v[0]})" for k, v in situations.FIELDS.items()),
+                           bets="; ".join(f"{k} ({v})" for k, v in situations.BETS.items()))
     messages = [{"role": "user", "content": brief}]
     usage = {"input_tokens": 0, "output_tokens": 0, "searches": 0, "requests": 0}
     urls, choice = {}, {"type": "auto"}
@@ -316,9 +347,13 @@ def checked(notes, ids, urls, leagues):
         lessons = []
         for x in (L.get("lessons") or [])[:MAX_LESSONS]:
             if x.get("lesson"):
-                lessons.append({"lesson": trim(x["lesson"], 300), "evidence": trim(x.get("evidence"), 400),
-                                "status": x.get("status") if x.get("status") in STATUSES else "watching",
-                                "test": trim(x.get("test"), 400), "first_noted": trim(x.get("first_noted"), 10)})
+                lesson = {"lesson": trim(x["lesson"], 300), "evidence": trim(x.get("evidence"), 400),
+                          "status": x.get("status") if x.get("status") in STATUSES else "watching",
+                          "test": trim(x.get("test"), 400), "first_noted": trim(x.get("first_noted"), 10)}
+                check = x.get("check")
+                if isinstance(check, dict) and not situations.check_spec(dict(check, league=league)):
+                    lesson["check"] = {"when": check.get("when") or [], "bet": check["bet"]}
+                lessons.append(lesson)
         out[league] = {"news": news, "item_notes": item_notes, "recap": trim(L.get("recap"), 900), "lessons": lessons}
     return out
 

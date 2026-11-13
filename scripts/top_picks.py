@@ -120,7 +120,9 @@ def game_lists(league, d, now):
         for side, team, opp, p, pv, price in team_sides(g):
             winner = dict(kind="winner", side=side, team=team, opp=opp, pick=f"{team} to win", chance=round(p, 3),
                           vegas_chance=None if pv is None else round(pv, 3), price=price)
-            if p >= 0.5:
+            if p >= 0.5 and (pv is None or pv >= 0.5):
+                # A team the sportsbooks expect to lose isn't "most likely", whatever the model says: when the two
+                # disagree, the sportsbooks' side has won most of the time (2020-2025 tests). Those games go to risky.
                 likely.append(entry(league, "likely", d, g, **winner))
             if price is not None and pv is not None and pv <= s["underdog_vegas_max"] and p >= s["underdog_model_min"]:
                 risky.append(entry(league, "risky", d, g, **winner))

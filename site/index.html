@@ -219,6 +219,8 @@ table.data.fit td:first-child { white-space: normal; }
 .past summary { cursor: pointer; color: var(--model); font-weight: 600; }
 .card .news-line { color: var(--ink); font-size: .84rem; display: flex; gap: 6px; align-items: baseline; }
 .card .news-line a { color: var(--model); }
+.card .differs { display: flex; gap: 8px; align-items: baseline; font-size: .84rem; margin-top: 8px; background: var(--sunken); border-radius: 6px; padding: 6px 8px; }
+.card .differs .tag { flex: none; }
 
 /* Empty and load states */
 .empty { background: var(--surface); border: 1px dashed var(--line); border-radius: var(--radius); padding: 22px; color: var(--muted); max-width: 70ch; }
@@ -289,7 +291,7 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
 (() => {
   const STAT_NAMES = { passing_yards: "Passing yards", rushing_yards: "Rushing yards", receiving_yards: "Receiving yards", receptions: "Receptions" };
   const BIG_GAP = 3;          // points between model and Vegas that earn a flag
-  const state = { data: {}, top: null, ai: null, league: "NFL", tab: "week", search: "", conference: "", linedOnly: true, propStat: "passing_yards", propSearch: "" };
+  const state = { data: {}, top: null, ai: null, situations: null, league: "NFL", tab: "week", search: "", conference: "", linedOnly: true, propStat: "passing_yards", propSearch: "" };
   const VIEWS = ["week", "top", "record", "props"];
 
   const store = {
@@ -344,7 +346,7 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
 
   // ---------- data loading ----------
   async function loadDefault() {
-    const files = ["nfl.json", "cfb.json", "top_picks.json", "ai_notes.json"];    // in the same folder as this page
+    const files = ["nfl.json", "cfb.json", "top_picks.json", "ai_notes.json", "situations.json"];    // in the same folder as this page
     await Promise.all(files.map(async (path) => {
       try {
         const r = await fetch(path, { cache: "no-store" });
@@ -355,6 +357,7 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
   function accept(d) {
     if (d && d.kind === "top_picks" && d.leagues) { state.top = d; return true; }
     if (d && d.kind === "ai_notes" && d.leagues) { state.ai = d; return true; }
+    if (d && d.kind === "situations" && d.checks) { state.situations = d; return true; }
     if (!d || !Array.isArray(d.games)) return false;
     const league = d.league === "College" ? "College" : "NFL";
     d.games.forEach((g) => (g.league = league));
@@ -518,6 +521,10 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
     const gradedHtml = r ? `<div class="graded">${resultChips(r)}</div>` : "";
     const qbs = g.quarterbacks && (g.quarterbacks.away || g.quarterbacks.home)
       ? `<div class="extra">QBs: ${esc(g.quarterbacks.away || "?")} (${esc(g.away)}) vs. ${esc(g.quarterbacks.home || "?")} (${esc(g.home)})</div>` : "";
+    const notes = g.qb_notes ? [g.qb_notes.away, g.qb_notes.home].filter(Boolean) : [];
+    const qbNotes = notes.length ? `<div class="extra">${esc(notes.join(" · "))}</div>` : "";
+    const differs = g.status !== "final" && p != null && pv != null && (p >= 0.5) !== (pv >= 0.5) && g.fbs_vs_fbs !== false;
+    const differsHtml = differs ? `<div class="differs"><span class="tag news">Differs from Vegas</span><span>The model favors ${esc(p >= 0.5 ? g.home : g.away)}, Vegas ${esc(pv >= 0.5 ? g.home : g.away)}. Check the news: when they disagree, Vegas's side has won more often.</span></div>` : "";
     const noLine = v.home_margin == null && v.total == null;
     const ai = g.status !== "final" ? aiFor(g.league) : null;
     const news = ai ? ai.news.filter((n) => String(n.game_id) === String(g.id)) : [];
@@ -535,9 +542,11 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
         </tbody>
       </table>
       ${bar}
+      ${differsHtml}
       ${leans.length ? `<div class="leans">${leans.map((l) => `<span class="lean ${l.big ? "big" : ""}">Leans ${l.t}</span>`).join("")}</div>` : ""}
       ${gradedHtml}
       ${qbs}
+      ${qbNotes}
       ${newsHtml}
     </article>`;
   }
@@ -590,11 +599,23 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
       <p class="note">How accurate the picks have been on the model's own terms, next to the same numbers from its ${esc(b.seasons)} test seasons, which it never trained on.
         <b>Margin miss</b> is how far the predicted margin was from the real one. The <b>win-chance score</b> grades the win percentages: 0 is perfect and 0.250 is a coin flip. ${esc(vegas)}</p>
       ${tiles}
+      ${differsBlock(R.differs, b.seasons)}
       ${missChart(R.weeks || [], b.margin_miss, b.seasons, view)}
       <h2>Do the chances come true?</h2>
       <p class="note">Games grouped by how sure the model was of its pick. If the chances are honest, "actually won" lands close to "model said". A handful of games per row is mostly luck.</p>
       <div class="scroll"><table class="data fit"><thead><tr><th>Model's chance</th><th class="num">Games</th><th class="num">Model said</th><th class="num">Actually won</th><th class="num">${esc(b.seasons)} tests</th></tr></thead>
         <tbody>${cal}</tbody></table></div>`;
+  }
+
+  // When the model and Vegas favored different teams: this season's record next to the test seasons'
+  function differsBlock(D, seasons) {
+    if (!D || !D.benchmark || !D.benchmark.games) return "";
+    const s = D.season || {}, b = D.benchmark;
+    const now = s.games ? `This season the model's side won <b>${s.model_won} of ${s.games}</b> (${pct(s.rate)}).` : "No such games graded this season yet.";
+    return `<div class="callout" style="margin-top:12px"><b>When the model and Vegas favor different teams.</b> ${now}
+      In the ${esc(seasons)} tests it won ${pct(b.rate)} of ${b.games} games: the model gave its side ${pct(b.model_said)} on average and Vegas gave it ${pct(b.vegas_said)}, ${
+        b.rate < b.vegas_said + 0.015 ? "so Vegas's number was the better guide." : "so the truth landed in between: the model's side did better than Vegas said, but nowhere near as well as the model said."}
+      That's why these games are tagged "Differs from Vegas" instead of shown as picks.</div>`;
   }
 
   // Average margin miss by week: one bar per week, with the test seasons' average as a reference line
@@ -879,6 +900,7 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
         <p>${esc(x.lesson)}</p>
         <p class="ev">Evidence: ${esc(x.evidence)}</p>
         ${x.test ? `<p class="ev">How to test it: ${esc(x.test)}</p>` : ""}
+        ${x.test_result ? `<p class="ev"><span class="tag ${x.test_result.verdict === "holds up" ? "good" : ""}">Tested: ${esc(x.test_result.verdict)}</span> ${esc(x.test_result.note || "")} ${esc(periodsText(x.test_result.periods))}</p>` : ""}
       </div>`;
     return `<h2>What the AI is watching</h2>
       <p class="note">After each run, the AI looks at what the models got right and wrong and keeps a short list of patterns.
@@ -888,6 +910,28 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
         ${lessons.map(one).join("") || `<p class="note" style="margin:0">No patterns worth noting yet.</p>`}
         ${retired.length ? `<details class="past"><summary>Retired lessons</summary>${retired.map(one).join("")}</details>` : ""}
       </div>`;
+  }
+
+  // "2010–2019: 47% of 361 · 2020–2025: 43% of 217 (Vegas said 43%)"
+  function periodsText(periods) {
+    return (periods || []).filter((p) => p.games).map((p) => `${p.label}: ${pct(p.rate)} of ${p.games}${p.vegas != null ? ` (Vegas said ${pct(p.vegas)})` : ""}`).join(" · ");
+  }
+
+  function situationsBlock(league) {
+    const S = state.situations;
+    const checks = S ? S.checks.filter((c) => c.league === league) : [];
+    if (!checks.length) return "";
+    const rows = checks.map((c) => `<div class="lesson">
+        <div><span class="tag ${c.verdict === "holds up" ? "good" : ""}">${esc(c.verdict)}</span> <small class="ev">${esc(c.source)}</small></div>
+        <p><b>${esc(c.title)}</b></p>
+        ${c.conditions ? `<p class="ev">Games: ${esc(c.conditions)}. Bet: ${esc(c.bet)}.</p>` : ""}
+        <p class="ev">${esc(periodsText(c.periods))}${c.periods ? " · " : ""}${esc(c.note || "")}</p>
+      </div>`).join("");
+    return `<h2>Tested situations</h2>
+      <p class="note">Patterns checked on past seasons before anyone trusts them: 2010–2019, and 2020–2025, which the model never trained on and is the real test.
+        Spreads and totals need about 54.5% in 2020–2025 to count as holding up (52.4% is break-even); a winner pick has to beat Vegas's own chances by 3 points.
+        Most ideas don't hold up, and that's useful to know.</p>
+      <div class="ai-block">${rows}</div>`;
   }
 
   function renderTop(L) {
@@ -914,7 +958,8 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
       <div class="lists">${listCards(L.lists, s, ai, keys, false)}</div>
       ${recordTable(L)}
       ${past ? `<details class="past"><summary>Week ${esc(L.last_week.week)} lists, graded</summary><div class="lists" style="margin-top:10px">${listCards(L.last_week.lists, s, null, keys, true)}</div></details>` : ""}
-      ${lessonsBlock(league)}`;
+      ${lessonsBlock(league)}
+      ${situationsBlock(league)}`;
   }
 
   // ---------- events ----------
