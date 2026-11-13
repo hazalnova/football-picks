@@ -45,7 +45,7 @@ If a run fails, GitHub emails you. The picks keep running even if the post-game 
 | Folder | What's in it |
 |---|---|
 | `notebooks/` | The three notebooks the workflow runs: `game_review`, `ncaa_game_model` and `nfl_game_model` |
-| `data/` | The pick logs, props log, Top picks log, review files, saved preseason and efficiency data, `odds/` with the saved sportsbook prop odds, `ai/lessons.json` with the AI's lessons, and `app_data/` with the website's data |
+| `data/` | The pick logs, props log, Top picks log, review files, `props_champion.json` with the live props version, saved preseason and efficiency data, `odds/` with the saved sportsbook prop odds, `ai/lessons.json` with the AI's lessons, and `app_data/` with the website's data |
 | `site/` | The website, `index.html`. It reads `nfl.json`, `cfb.json`, `top_picks.json` and `ai_notes.json` from `data/app_data/` when the workflow publishes it |
 | `scripts/` | `run_notebook.py`, which runs a notebook from top to bottom the way Colab's **Run all** does; `top_picks.py`, which builds and grades the Top picks lists; `odds_api.py`, which gets sportsbook prop prices for the lists; `ai_notes.py`, the AI news check; and `situations.py`, the situation tester |
 | `.github/workflows/` | `update.yml`, the schedule and steps |
@@ -57,6 +57,7 @@ If a run fails, GitHub emails you. The picks keep running even if the post-game 
 - **The schedule:** edit the `cron` lines at the top of `.github/workflows/update.yml`.
 - **The Top picks lists:** the thresholds, like the 70% for "most likely" milestones, are in `SETTINGS` at the top of `scripts/top_picks.py`. The website's descriptions follow them.
 - **Starting quarterbacks:** the NFL notebook picks each team's starter for the coming week from the latest depth chart and injury news (Step 3), and lists every team where that differs from nflverse's projection. For news later than the last run, name the starter in `QB_OVERRIDES` in Step 3; it wins over everything else.
+- **The props challengers:** the NFL notebook grades a few versions of the props model every run (Step 9, `PROP_VARIANTS`) on this season's sportsbook lines, re-scored with only what was known before each game. One takes over the live props only when it's right at least 2 points more often than the live version over 400+ props with lines, and isn't worse on 2020–2025. The choice is saved in `data/props_champion.json`, and the website's **Player props** tab shows the table. To try another version, add it to `PROP_VARIANTS`. To keep the current version no matter what, set `PROMOTE_MIN` to a huge number, like `10**9`.
 - **A situation to test:** add it to `BUILT_IN` in `scripts/situations.py`, using the fields and bets listed there.
 - **The AI:** the instructions it follows are `SYSTEM` near the top of `scripts/ai_notes.py`. To use a different Claude model or allow more searches per run, add a repository variable under **Settings → Secrets and variables → Actions → Variables**: `AI_MODEL` (for example `claude-haiku-5-5`, which costs much less) or `AI_MAX_SEARCHES`, the most web searches per league in a run (8 unless set).
 

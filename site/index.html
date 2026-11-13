@@ -198,6 +198,10 @@ table.data tr:last-child td { border-bottom: 0; }
 .pick .ai-note { grid-column: 1 / -1; font-size: .84rem; background: var(--sunken); border-radius: 6px; padding: 5px 8px; }
 .tag { font-size: .72rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; border-radius: 999px; padding: 1px 8px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; line-height: 1.5; }
 table.data.fit { min-width: 0; }
+h3.sub { font-family: var(--font-display); font-weight: 700; font-size: 1.1rem; letter-spacing: .05em; text-transform: uppercase; margin: 24px 0 6px; }
+table.challengers td small { color: var(--muted); }
+table.challengers td:first-child { min-width: 190px; }
+table.challengers tr.live-row td { background: var(--model-soft); }
 table.data.fit td:first-child { white-space: normal; }
 @media (max-width: 480px) { table.data.fit th, table.data.fit td { padding: 8px 8px; } table.data.fit th { white-space: normal; } }
 .tag.good { color: var(--win); border-color: currentColor; }
@@ -744,17 +748,48 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
         <b>Likely range</b> is the middle half of his outcomes. The bar shows the range, with the 50/50 line marked.</p>
       ${anyPrices ? `<p class="note"><b>Line</b> is the line most sportsbooks offer, from The Odds API, and <b>Over price</b> is the middle of their prices for the over.
         <b>Books' over</b> is the chance those prices imply, with the bookmaker's cut removed. <b>Model over</b> is the model's chance of going over the same line.
-        The props model hasn't been tested against sportsbook lines yet, so treat gaps between the two as something to watch, not a bet.</p>` : ""}
+        ${propsVerdict(d.props_challengers)}</p>` : ""}
       <div class="filters">
         <select id="prop-stat" aria-label="Prop">${Object.entries(STAT_NAMES).map(([k, n]) => `<option value="${k}" ${k === state.propStat ? "selected" : ""}>${n}</option>`).join("")}</select>
         <input type="search" id="prop-search" placeholder="Find a player or team" aria-label="Find a player or team" value="${esc(state.propSearch)}">
         <span class="count">${rows.length} players</span>
       </div>
       <div class="scroll"><table class="data"><thead><tr><th>Player</th><th>Team</th><th>Opp</th><th class="num">Projection</th><th class="num">50/50 line</th><th class="num">Likely range</th><th></th>
-        ${anyLines ? `<th class="num">Line</th>` : ""}${anyPrices ? `<th class="num">Over price</th><th class="num">Books' over</th>` : ""}${anyLines ? `<th class="num">Model over</th>` : ""}</tr></thead><tbody>${body}</tbody></table></div>`;
+        ${anyLines ? `<th class="num">Line</th>` : ""}${anyPrices ? `<th class="num">Over price</th><th class="num">Books' over</th>` : ""}${anyLines ? `<th class="num">Model over</th>` : ""}</tr></thead><tbody>${body}</tbody></table></div>
+      ${challengersBlock(d.props_challengers)}`;
     document.getElementById("prop-stat").addEventListener("change", (e) => { state.propStat = e.target.value; renderProps(d); });
     const s = document.getElementById("prop-search");
     s.addEventListener("input", () => { state.propSearch = s.value; const pos = s.selectionStart; renderProps(d); const n = document.getElementById("prop-search"); n.focus(); n.setSelectionRange(pos, pos); });
+  }
+
+  // How the live props model has done against this season's sportsbook lines, in one sentence
+  function propsVerdict(C) {
+    const live = C && (C.variants || []).find((v) => v.live);
+    if (!live || !live.props) return "The props model hasn't been graded against sportsbook lines yet, so treat gaps between the two as something to watch, not a bet.";
+    const beats = live.rate >= 0.524;
+    return `Re-scored on this season's sportsbook lines, the live props model has been on the right side ${pct(live.rate)} of the time (${live.wins} of ${live.props})${
+      C.always_under ? `; always taking the under went ${pct(C.always_under.rate)}` : ""}. ${beats
+      ? "That's above the 52.4% needed to break even at -110, but a few hundred props is a small sample, so treat it as something to watch."
+      : "That's below the 52.4% needed to break even at -110, so treat gaps between the two as something to watch, not a bet."}`;
+  }
+
+  // The props challengers: versions of the props model graded side by side on this season's sportsbook lines
+  function challengersBlock(C) {
+    if (!C || !(C.variants || []).length) return "";
+    const NAMES = { props_v1: "Original", this_season: "This season only", fast_fade: "Recent games count more", long_memory: "Older games count more" };
+    const rows = C.variants.map((v) => `<tr${v.live ? ' class="live-row"' : ""}>
+        <td><b>${esc(NAMES[v.variant] || v.variant)}</b>${v.live ? ' <span class="tag">Live</span>' : ""}<br><small>${esc(v.about)}</small></td>
+        <td class="num">${v.props ? `${v.wins} of ${v.props}` : "–"}</td><td class="num">${v.rate == null ? "–" : pct1(v.rate)}</td>
+        <td class="num">${v.miss ?? "–"}</td><td class="num">${v.test_miss}</td></tr>`).join("");
+    const U = C.always_under;
+    const change = (C.changes || []).slice(-1)[0];
+    return `<h3 class="sub">Props challengers</h3>
+      <p class="note">Every run grades a few versions of the props model side by side on this season's sportsbook lines, each re-scored with only what was known before the game.
+        A challenger takes over only when it's right at least ${Math.round(C.promote_margin * 100)} points more often than the live version over ${C.promote_min}+ props, and isn't worse on 2020–2025.
+        ${change ? `On ${esc(new Date(change.date + "T12:00").toLocaleDateString("en-US", { month: "short", day: "numeric" }))}, “${esc(NAMES[change.to] || change.to)}” took over from “${esc(NAMES[change.from] || change.from)}”: ${esc(change.why)}.` : "The original is still live."}</p>
+      <div class="scroll"><table class="data fit challengers"><thead><tr><th>Version</th><th class="num">Right side</th><th class="num">Rate</th><th class="num">Avg miss</th><th class="num">2020–25 miss</th></tr></thead>
+        <tbody>${rows}${U ? `<tr><td><b>Always take the under</b><br><small>For comparison: no model at all.</small></td><td class="num">${U.wins} of ${U.props}</td><td class="num">${pct1(U.rate)}</td><td class="num">–</td><td class="num">–</td></tr>` : ""}</tbody></table></div>
+      <p class="note"><b>Avg miss</b> is how far the projection was from the result this season, in yards or catches; <b>2020–25 miss</b> is the same on the seasons the models never trained on. Lower is better for both. Break-even at -110 is 52.4%.</p>`;
   }
 
   // ---------- top picks and AI notes ----------
