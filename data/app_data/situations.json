@@ -1,6 +1,6 @@
 {
  "kind": "situations",
- "updated": "2026-11-13T14:11-05:00",
+ "updated": "2026-11-13T14:16-05:00",
  "break_even": 0.524,
  "checks": [
   {
@@ -160,6 +160,246 @@
      "wins": 878,
      "pushes": 20,
      "rate": 0.507
+    }
+   ]
+  },
+  {
+   "id": "041b18d941",
+   "league": "NFL",
+   "title": "When the model picks a different winner than the Vegas favorite, it has mostly lost so far.",
+   "source": "AI lesson",
+   "conditions": "The model and Vegas favor different teams",
+   "bet": "The team the model favors, to win",
+   "verdict": "doesn't hold up",
+   "note": "Won 43% in 2020\u20132025 when Vegas's chances said 43%, about what Vegas's own chances said, so there's no edge.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 361,
+     "wins": 171,
+     "pushes": 0,
+     "rate": 0.474,
+     "vegas": 0.429
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 217,
+     "wins": 93,
+     "pushes": 0,
+     "rate": 0.429,
+     "vegas": 0.433
+    }
+   ]
+  },
+  {
+   "id": "43acfa8559",
+   "league": "NFL",
+   "title": "Large gaps between the model's total and Vegas's total have not paid off.",
+   "source": "AI lesson",
+   "conditions": "Points between the model's total and Vegas's >= 4",
+   "bet": "The model's side of the total",
+   "verdict": "doesn't hold up",
+   "note": "Won 48.3% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 0,
+     "wins": 0,
+     "pushes": 0,
+     "rate": null
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 174,
+     "wins": 84,
+     "pushes": 4,
+     "rate": 0.483
+    }
+   ]
+  },
+  {
+   "id": "957d171db0",
+   "league": "NFL",
+   "title": "The model's margin errors are larger than Vegas's, and it is below .500 against the spread.",
+   "source": "AI lesson",
+   "conditions": "Points between the model's spread and Vegas's >= 0",
+   "bet": "The model's side against the spread",
+   "verdict": "doesn't hold up",
+   "note": "Won 48.9% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 2594,
+     "wins": 1346,
+     "pushes": 76,
+     "rate": 0.519
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 1660,
+     "wins": 812,
+     "pushes": 33,
+     "rate": 0.489
+    }
+   ]
+  },
+  {
+   "id": "d83a0b5c15",
+   "league": "NFL",
+   "title": "Big gaps between the model and Vegas may come from lineup changes the model hasn't picked up.",
+   "source": "AI lesson",
+   "conditions": "A team starts a different QB than last game (NFL); Points between the model's spread and Vegas's >= 3",
+   "bet": "The model's side against the spread",
+   "verdict": "doesn't hold up",
+   "note": "Won 54.4% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 203,
+     "wins": 110,
+     "pushes": 6,
+     "rate": 0.542
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 160,
+     "wins": 87,
+     "pushes": 3,
+     "rate": 0.544
+    }
+   ]
+  },
+  {
+   "id": "2031b3c433",
+   "league": "NFL",
+   "title": "Most-likely-winner picks have fallen short of the model's own chances.",
+   "source": "AI lesson",
+   "conditions": "The model's chance for the team it favors >= 0.7; not: the model and vegas favor different teams",
+   "bet": "The team the model favors, to win",
+   "verdict": "doesn't hold up",
+   "note": "Won 78% in 2020\u20132025 when Vegas's chances said 77%, about what Vegas's own chances said, so there's no edge.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 689,
+     "wins": 554,
+     "pushes": 0,
+     "rate": 0.804,
+     "vegas": 0.771
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 463,
+     "wins": 360,
+     "pushes": 0,
+     "rate": 0.778,
+     "vegas": 0.771
+    }
+   ]
+  },
+  {
+   "id": "b699823efb",
+   "league": "College",
+   "title": "The 'model total 3+ above Vegas means the over hits' pattern does not hold up, and the model's totals picks overall have lost more than they won.",
+   "source": "AI lesson",
+   "conditions": "Points between the model's total and Vegas's >= 3",
+   "bet": "The model's side of the total",
+   "verdict": "doesn't hold up",
+   "note": "Won 51.4% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 0,
+     "wins": 0,
+     "pushes": 0,
+     "rate": null
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 2361,
+     "wins": 1213,
+     "pushes": 27,
+     "rate": 0.514
+    }
+   ]
+  },
+  {
+   "id": "30956be94f",
+   "league": "College",
+   "title": "When the model picks a different winner than Vegas, this season has gone badly, but past seasons say the model's side holds up.",
+   "source": "AI lesson",
+   "conditions": "The model and Vegas favor different teams",
+   "bet": "The team the model favors, to win",
+   "verdict": "holds up",
+   "note": "Won 47% in 2020\u20132025 when Vegas's chances said 41%. Those chances have the bookmaker's cut removed; a real bet pays it, which eats a couple of points of that edge.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 410,
+     "wins": 189,
+     "pushes": 0,
+     "rate": 0.461,
+     "vegas": 0.423
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 379,
+     "wins": 178,
+     "pushes": 0,
+     "rate": 0.47,
+     "vegas": 0.413
+    }
+   ]
+  },
+  {
+   "id": "aeb056b81f",
+   "league": "College",
+   "title": "The model's spread misses are slightly larger than Vegas's over the season, and favorites have covered a lot lately.",
+   "source": "AI lesson",
+   "conditions": "Week of the season >= 9",
+   "bet": "The favorite against the spread",
+   "verdict": "doesn't hold up",
+   "note": "Won 50.4% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 2389,
+     "wins": 1217,
+     "pushes": 42,
+     "rate": 0.509
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 1964,
+     "wins": 990,
+     "pushes": 29,
+     "rate": 0.504
+    }
+   ]
+  },
+  {
+   "id": "532c038d0a",
+   "league": "College",
+   "title": "When the model's margin for a favorite is 3+ points bigger than Vegas's, it has covered more often than not in the recent results, which clashes with the built-in test.",
+   "source": "AI lesson",
+   "conditions": "Points between the model's spread and Vegas's >= 3; Size of Vegas's spread, in points >= 10",
+   "bet": "The model's side against the spread",
+   "verdict": "doesn't hold up",
+   "note": "Won 48.5% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 1673,
+     "wins": 820,
+     "pushes": 25,
+     "rate": 0.49
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 1349,
+     "wins": 654,
+     "pushes": 24,
+     "rate": 0.485
     }
    ]
   }
