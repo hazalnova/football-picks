@@ -1,0 +1,167 @@
+{
+ "kind": "situations",
+ "updated": "2026-11-13T14:11-05:00",
+ "break_even": 0.524,
+ "checks": [
+  {
+   "id": "041b18d941",
+   "league": "NFL",
+   "title": "The model and Vegas favor different teams: the model's side to win",
+   "source": "built in",
+   "conditions": "The model and Vegas favor different teams",
+   "bet": "The team the model favors, to win",
+   "verdict": "doesn't hold up",
+   "note": "Won 43% in 2020\u20132025 when Vegas's chances said 43%, about what Vegas's own chances said, so there's no edge.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 361,
+     "wins": 171,
+     "pushes": 0,
+     "rate": 0.474,
+     "vegas": 0.429
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 217,
+     "wins": 93,
+     "pushes": 0,
+     "rate": 0.429,
+     "vegas": 0.433
+    }
+   ]
+  },
+  {
+   "id": "30956be94f",
+   "league": "College",
+   "title": "The model and Vegas favor different teams: the model's side to win",
+   "source": "built in",
+   "conditions": "The model and Vegas favor different teams",
+   "bet": "The team the model favors, to win",
+   "verdict": "holds up",
+   "note": "Won 47% in 2020\u20132025 when Vegas's chances said 41%. Those chances have the bookmaker's cut removed; a real bet pays it, which eats a couple of points of that edge.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 410,
+     "wins": 189,
+     "pushes": 0,
+     "rate": 0.461,
+     "vegas": 0.423
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 379,
+     "wins": 178,
+     "pushes": 0,
+     "rate": 0.47,
+     "vegas": 0.413
+    }
+   ]
+  },
+  {
+   "id": "269d8fc83b",
+   "league": "NFL",
+   "title": "The model's spread is 3+ points from Vegas's: the model's side",
+   "source": "built in",
+   "conditions": "Points between the model's spread and Vegas's >= 3",
+   "bet": "The model's side against the spread",
+   "verdict": "doesn't hold up",
+   "note": "Won 51.5% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 687,
+     "wins": 383,
+     "pushes": 18,
+     "rate": 0.557
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 458,
+     "wins": 236,
+     "pushes": 7,
+     "rate": 0.515
+    }
+   ]
+  },
+  {
+   "id": "1f3289e173",
+   "league": "College",
+   "title": "The model's spread is 3+ points from Vegas's: the model's side",
+   "source": "built in",
+   "conditions": "Points between the model's spread and Vegas's >= 3",
+   "bet": "The model's side against the spread",
+   "verdict": "doesn't hold up",
+   "note": "Won 49.0% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 2810,
+     "wins": 1392,
+     "pushes": 47,
+     "rate": 0.495
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 2412,
+     "wins": 1182,
+     "pushes": 53,
+     "rate": 0.49
+    }
+   ]
+  },
+  {
+   "id": "43acfa8559",
+   "league": "NFL",
+   "title": "The model's total is 4+ points from Vegas's: the model's side",
+   "source": "built in",
+   "conditions": "Points between the model's total and Vegas's >= 4",
+   "bet": "The model's side of the total",
+   "verdict": "doesn't hold up",
+   "note": "Won 48.3% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 0,
+     "wins": 0,
+     "pushes": 0,
+     "rate": null
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 174,
+     "wins": 84,
+     "pushes": 4,
+     "rate": 0.483
+    }
+   ]
+  },
+  {
+   "id": "6cff728756",
+   "league": "College",
+   "title": "The model's total is 4+ points from Vegas's: the model's side",
+   "source": "built in",
+   "conditions": "Points between the model's total and Vegas's >= 4",
+   "bet": "The model's side of the total",
+   "verdict": "doesn't hold up",
+   "note": "Won 50.7% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 0,
+     "wins": 0,
+     "pushes": 0,
+     "rate": null
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 1732,
+     "wins": 878,
+     "pushes": 20,
+     "rate": 0.507
+    }
+   ]
+  }
+ ]
+}

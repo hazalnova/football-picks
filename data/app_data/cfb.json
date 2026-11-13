@@ -1,6 +1,6 @@
 {
  "league": "College",
- "updated": "2026-11-12T16:28-05:00",
+ "updated": "2026-11-13T14:08-05:00",
  "season": 2026,
  "week": 11,
  "week_label": "Week 11",
@@ -193,7 +193,7 @@
   {
    "id": 401862824,
    "kickoff": "2026-11-12T20:00:00-05:00",
-   "status": "upcoming",
+   "status": "final",
    "away": "Memphis",
    "home": "South Florida",
    "away_conference": "American Athletic",
@@ -204,23 +204,26 @@
     "home_margin": -5.7,
     "home_win": 0.362,
     "total": 54.4,
-    "over": 0.496,
-    "home_cover": 0.496
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
-    "home_margin": -4.0,
-    "home_win": 0.378,
-    "total": 49.5,
-    "over": 0.5,
-    "home_moneyline": 154.0,
-    "away_moneyline": -185.0
+    "home_margin": null,
+    "home_win": null,
+    "total": null,
+    "over": null,
+    "home_moneyline": null,
+    "away_moneyline": null
    },
-   "final": null
+   "final": {
+    "away": 52,
+    "home": 41
+   }
   },
   {
    "id": 401869969,
    "kickoff": "2026-11-12T21:00:00-05:00",
-   "status": "upcoming",
+   "status": "final",
    "away": "Louisiana",
    "home": "UL Monroe",
    "away_conference": "Sun Belt",
@@ -231,18 +234,21 @@
     "home_margin": -11.3,
     "home_win": 0.241,
     "total": 48.5,
-    "over": 0.494,
-    "home_cover": 0.496
+    "over": null,
+    "home_cover": null
    },
    "vegas": {
-    "home_margin": -10.5,
-    "home_win": 0.234,
-    "total": 47.5,
-    "over": 0.511,
-    "home_moneyline": 310.0,
-    "away_moneyline": -395.0
+    "home_margin": null,
+    "home_win": null,
+    "total": null,
+    "over": null,
+    "home_moneyline": null,
+    "away_moneyline": null
    },
-   "final": null
+   "final": {
+    "away": 42,
+    "home": 21
+   }
   },
   {
    "id": 401858293,
@@ -257,7 +263,7 @@
    "model": {
     "home_margin": 5.8,
     "home_win": 0.641,
-    "total": 57.2,
+    "total": 57.3,
     "over": 0.496,
     "home_cover": 0.494
    },
@@ -265,7 +271,7 @@
     "home_margin": 3.5,
     "home_win": 0.604,
     "total": 52.5,
-    "over": 0.504,
+    "over": 0.489,
     "home_moneyline": -170.0,
     "away_moneyline": 142.0
    },
@@ -284,15 +290,15 @@
    "model": {
     "home_margin": 13.7,
     "home_win": 0.802,
-    "total": 47.3,
+    "total": 47.4,
     "over": 0.493,
     "home_cover": 0.493
    },
    "vegas": {
-    "home_margin": 10.0,
+    "home_margin": 10.5,
     "home_win": 0.766,
     "total": 47.5,
-    "over": 0.511,
+    "over": 0.517,
     "home_moneyline": -395.0,
     "away_moneyline": 310.0
    },
@@ -313,15 +319,15 @@
     "home_win": 0.22,
     "total": 51.0,
     "over": 0.492,
-    "home_cover": 0.497
+    "home_cover": 0.498
    },
    "vegas": {
-    "home_margin": -9.5,
-    "home_win": 0.249,
+    "home_margin": -7.5,
+    "home_win": 0.266,
     "total": 51.5,
-    "over": 0.483,
-    "home_moneyline": 285.0,
-    "away_moneyline": -360.0
+    "over": 0.504,
+    "home_moneyline": 260.0,
+    "away_moneyline": -325.0
    },
    "final": null
   },
@@ -338,15 +344,15 @@
    "model": {
     "home_margin": 0.1,
     "home_win": 0.504,
-    "total": 61.1,
-    "over": 0.494,
+    "total": 61.2,
+    "over": 0.495,
     "home_cover": 0.497
    },
    "vegas": {
     "home_margin": 3.0,
     "home_win": 0.572,
-    "total": 59.5,
-    "over": 0.489,
+    "total": 58.5,
+    "over": 0.504,
     "home_moneyline": -148.0,
     "away_moneyline": 124.0
    },
@@ -365,7 +371,7 @@
    "model": {
     "home_margin": 0.1,
     "home_win": 0.503,
-    "total": 52.1,
+    "total": 52.2,
     "over": 0.494,
     "home_cover": 0.494
    },
@@ -373,7 +379,7 @@
     "home_margin": -2.5,
     "home_win": 0.437,
     "total": 50.5,
-    "over": 0.511,
+    "over": 0.5,
     "home_moneyline": 120.0,
     "away_moneyline": -142.0
    },
@@ -398,11 +404,11 @@
    },
    "vegas": {
     "home_margin": 13.5,
-    "home_win": 0.817,
+    "home_win": 0.812,
     "total": 54.5,
     "over": 0.504,
-    "home_moneyline": -575.0,
-    "away_moneyline": 425.0
+    "home_moneyline": -550.0,
+    "away_moneyline": 410.0
    },
    "final": null
   },
@@ -419,7 +425,7 @@
    "model": {
     "home_margin": 1.8,
     "home_win": 0.545,
-    "total": 54.3,
+    "total": 54.4,
     "over": 0.493,
     "home_cover": 0.492
    },
@@ -427,7 +433,7 @@
     "home_margin": -3.0,
     "home_win": 0.428,
     "total": 53.5,
-    "over": 0.496,
+    "over": 0.504,
     "home_moneyline": 124.0,
     "away_moneyline": -148.0
    },
@@ -446,15 +452,15 @@
    "model": {
     "home_margin": -5.2,
     "home_win": 0.374,
-    "total": 61.4,
-    "over": 0.493,
+    "total": 61.5,
+    "over": 0.494,
     "home_cover": 0.499
    },
    "vegas": {
     "home_margin": 1.5,
     "home_win": 0.511,
     "total": 60.5,
-    "over": 0.511,
+    "over": 0.5,
     "home_moneyline": -115.0,
     "away_moneyline": -105.0
    },
@@ -478,7 +484,7 @@
     "home_cover": 0.494
    },
    "vegas": {
-    "home_margin": -8.5,
+    "home_margin": -9.5,
     "home_win": 0.256,
     "total": 42.5,
     "over": 0.496,
@@ -500,7 +506,7 @@
    "model": {
     "home_margin": 15.0,
     "home_win": 0.825,
-    "total": 51.3,
+    "total": 51.4,
     "over": 0.498,
     "home_cover": 0.495
    },
@@ -508,7 +514,7 @@
     "home_margin": 14.0,
     "home_win": 0.812,
     "total": 44.5,
-    "over": 0.483,
+    "over": 0.496,
     "home_moneyline": -550.0,
     "away_moneyline": 410.0
    },
@@ -527,17 +533,17 @@
    "model": {
     "home_margin": -9.2,
     "home_win": 0.284,
-    "total": 63.0,
+    "total": 63.1,
     "over": 0.497,
     "home_cover": 0.498
    },
    "vegas": {
-    "home_margin": -4.0,
-    "home_win": 0.369,
+    "home_margin": -4.5,
+    "home_win": 0.355,
     "total": 57.5,
     "over": 0.496,
-    "home_moneyline": 160.0,
-    "away_moneyline": -192.0
+    "home_moneyline": 170.0,
+    "away_moneyline": -205.0
    },
    "final": null
   },
@@ -554,17 +560,17 @@
    "model": {
     "home_margin": 15.8,
     "home_win": 0.836,
-    "total": 49.0,
-    "over": 0.494,
-    "home_cover": 0.494
+    "total": 49.1,
+    "over": 0.492,
+    "home_cover": 0.495
    },
    "vegas": {
-    "home_margin": 13.5,
-    "home_win": 0.817,
-    "total": 47.5,
-    "over": 0.511,
-    "home_moneyline": -575.0,
-    "away_moneyline": 425.0
+    "home_margin": 15.5,
+    "home_win": 0.827,
+    "total": 49.5,
+    "over": 0.489,
+    "home_moneyline": -625.0,
+    "away_moneyline": 455.0
    },
    "final": null
   },
@@ -581,7 +587,7 @@
    "model": {
     "home_margin": -14.1,
     "home_win": 0.19,
-    "total": 53.7,
+    "total": 53.8,
     "over": 0.494,
     "home_cover": 0.495
    },
@@ -608,17 +614,17 @@
    "model": {
     "home_margin": -19.8,
     "home_win": 0.11,
-    "total": 53.6,
+    "total": 53.7,
     "over": 0.495,
     "home_cover": 0.496
    },
    "vegas": {
     "home_margin": -17.5,
-    "home_win": 0.132,
+    "home_win": 0.137,
     "total": 50.5,
     "over": 0.496,
-    "home_moneyline": 625.0,
-    "away_moneyline": -950.0
+    "home_moneyline": 600.0,
+    "away_moneyline": -900.0
    },
    "final": null
   },
@@ -635,7 +641,7 @@
    "model": {
     "home_margin": -19.0,
     "home_win": 0.119,
-    "total": 51.0,
+    "total": 51.1,
     "over": 0.497,
     "home_cover": 0.499
    },
@@ -663,14 +669,14 @@
     "home_margin": -4.5,
     "home_win": 0.389,
     "total": 51.2,
-    "over": 0.495,
+    "over": 0.496,
     "home_cover": 0.499
    },
    "vegas": {
     "home_margin": 2.5,
     "home_win": 0.551,
-    "total": 48.5,
-    "over": 0.489,
+    "total": 47.5,
+    "over": 0.5,
     "home_moneyline": -135.0,
     "away_moneyline": 114.0
    },
@@ -697,7 +703,7 @@
     "home_margin": 1.5,
     "home_win": 0.517,
     "total": 51.5,
-    "over": 0.496,
+    "over": 0.504,
     "home_moneyline": -118.0,
     "away_moneyline": -102.0
    },
@@ -718,15 +724,15 @@
     "home_win": 0.742,
     "total": 49.1,
     "over": 0.496,
-    "home_cover": 0.495
+    "home_cover": 0.496
    },
    "vegas": {
-    "home_margin": 10.5,
-    "home_win": 0.766,
+    "home_margin": 11.5,
+    "home_win": 0.796,
     "total": 44.5,
-    "over": 0.511,
-    "home_moneyline": -395.0,
-    "away_moneyline": 310.0
+    "over": 0.504,
+    "home_moneyline": -485.0,
+    "away_moneyline": 370.0
    },
    "final": null
   },
@@ -743,17 +749,17 @@
    "model": {
     "home_margin": 1.7,
     "home_win": 0.541,
-    "total": 52.6,
+    "total": 52.7,
     "over": 0.496,
     "home_cover": 0.496
    },
    "vegas": {
     "home_margin": 2.5,
-    "home_win": 0.551,
+    "home_win": 0.563,
     "total": 48.5,
-    "over": 0.489,
-    "home_moneyline": -135.0,
-    "away_moneyline": 114.0
+    "over": 0.496,
+    "home_moneyline": -142.0,
+    "away_moneyline": 120.0
    },
    "final": null
   },
@@ -776,11 +782,11 @@
    },
    "vegas": {
     "home_margin": -7.0,
-    "home_win": 0.286,
+    "home_win": 0.295,
     "total": 46.5,
     "over": 0.5,
-    "home_moneyline": 235.0,
-    "away_moneyline": -290.0
+    "home_moneyline": 225.0,
+    "away_moneyline": -278.0
    },
    "final": null
   },
@@ -805,7 +811,7 @@
     "home_margin": -2.5,
     "home_win": 0.449,
     "total": 43.5,
-    "over": 0.504,
+    "over": null,
     "home_moneyline": 114.0,
     "away_moneyline": -135.0
    },
@@ -824,7 +830,7 @@
    "model": {
     "home_margin": 2.7,
     "home_win": 0.566,
-    "total": 51.7,
+    "total": 51.8,
     "over": 0.494,
     "home_cover": 0.494
    },
@@ -851,17 +857,17 @@
    "model": {
     "home_margin": 7.3,
     "home_win": 0.674,
-    "total": 56.0,
-    "over": 0.495,
-    "home_cover": 0.494
+    "total": 56.1,
+    "over": 0.494,
+    "home_cover": 0.493
    },
    "vegas": {
-    "home_margin": 4.5,
-    "home_win": 0.645,
-    "total": 53.5,
-    "over": 0.511,
-    "home_moneyline": -205.0,
-    "away_moneyline": 170.0
+    "home_margin": 4.0,
+    "home_win": 0.637,
+    "total": 54.5,
+    "over": 0.489,
+    "home_moneyline": -198.0,
+    "away_moneyline": 164.0
    },
    "final": null
   },
@@ -884,11 +890,11 @@
    },
    "vegas": {
     "home_margin": 3.0,
-    "home_win": 0.593,
+    "home_win": 0.583,
     "total": 48.5,
-    "over": 0.504,
-    "home_moneyline": -162.0,
-    "away_moneyline": 136.0
+    "over": 0.496,
+    "home_moneyline": -155.0,
+    "away_moneyline": 130.0
    },
    "final": null
   },
@@ -913,7 +919,7 @@
     "home_margin": 7.5,
     "home_win": 0.71,
     "total": 49.5,
-    "over": 0.489,
+    "over": 0.5,
     "home_moneyline": -285.0,
     "away_moneyline": 230.0
    },
@@ -932,15 +938,15 @@
    "model": {
     "home_margin": 22.7,
     "home_win": 0.92,
-    "total": 46.9,
+    "total": 47.0,
     "over": 0.492,
-    "home_cover": 0.491
+    "home_cover": 0.492
    },
    "vegas": {
-    "home_margin": 15.5,
+    "home_margin": 16.5,
     "home_win": 0.847,
     "total": 47.5,
-    "over": 0.496,
+    "over": 0.511,
     "home_moneyline": -750.0,
     "away_moneyline": 525.0
    },
@@ -967,7 +973,7 @@
     "home_margin": 29.5,
     "home_win": 0.949,
     "total": 52.5,
-    "over": 0.496,
+    "over": 0.489,
     "home_moneyline": -5000.0,
     "away_moneyline": 1800.0
    },
@@ -986,12 +992,12 @@
    "model": {
     "home_margin": 11.4,
     "home_win": 0.76,
-    "total": 49.4,
+    "total": 49.5,
     "over": 0.495,
-    "home_cover": 0.494
+    "home_cover": 0.495
    },
    "vegas": {
-    "home_margin": 10.0,
+    "home_margin": 10.5,
     "home_win": 0.772,
     "total": 46.5,
     "over": 0.504,
@@ -1021,7 +1027,7 @@
     "home_margin": 8.5,
     "home_win": 0.741,
     "total": 50.5,
-    "over": 0.496,
+    "over": 0.5,
     "home_moneyline": -340.0,
     "away_moneyline": 270.0
    },
@@ -1067,15 +1073,15 @@
    "model": {
     "home_margin": 5.5,
     "home_win": 0.634,
-    "total": 69.9,
-    "over": 0.49,
+    "total": 70.0,
+    "over": 0.489,
     "home_cover": 0.495
    },
    "vegas": {
     "home_margin": 5.5,
     "home_win": 0.657,
-    "total": 73.5,
-    "over": 0.504,
+    "total": 74.5,
+    "over": 0.496,
     "home_moneyline": -218.0,
     "away_moneyline": 180.0
    },
@@ -1094,17 +1100,17 @@
    "model": {
     "home_margin": -7.4,
     "home_win": 0.322,
-    "total": 51.4,
+    "total": 51.5,
     "over": 0.496,
-    "home_cover": 0.495
+    "home_cover": 0.496
    },
    "vegas": {
-    "home_margin": -7.0,
-    "home_win": 0.3,
+    "home_margin": -6.0,
+    "home_win": 0.325,
     "total": 47.5,
     "over": 0.496,
-    "home_moneyline": 220.0,
-    "away_moneyline": -270.0
+    "home_moneyline": 195.0,
+    "away_moneyline": -238.0
    },
    "final": null
   },
@@ -1121,7 +1127,7 @@
    "model": {
     "home_margin": -4.8,
     "home_win": 0.383,
-    "total": 55.6,
+    "total": 55.7,
     "over": 0.492,
     "home_cover": 0.494
    },
@@ -1148,7 +1154,7 @@
    "model": {
     "home_margin": -8.5,
     "home_win": 0.299,
-    "total": 53.5,
+    "total": 53.6,
     "over": 0.492,
     "home_cover": 0.496
    },
@@ -1156,7 +1162,7 @@
     "home_margin": -7.5,
     "home_win": 0.282,
     "total": 54.5,
-    "over": 0.511,
+    "over": 0.496,
     "home_moneyline": 240.0,
     "away_moneyline": -298.0
    },
@@ -1175,7 +1181,7 @@
    "model": {
     "home_margin": 27.3,
     "home_win": 0.955,
-    "total": 59.7,
+    "total": 59.8,
     "over": 0.497,
     "home_cover": 0.492
    },
@@ -1202,7 +1208,7 @@
    "model": {
     "home_margin": 12.5,
     "home_win": 0.781,
-    "total": 57.1,
+    "total": 57.2,
     "over": 0.491,
     "home_cover": 0.493
    },
@@ -1229,7 +1235,7 @@
    "model": {
     "home_margin": -2.8,
     "home_win": 0.431,
-    "total": 51.0,
+    "total": 51.1,
     "over": 0.494,
     "home_cover": 0.497
    },
@@ -1256,15 +1262,15 @@
    "model": {
     "home_margin": -3.5,
     "home_win": 0.415,
-    "total": 48.1,
-    "over": 0.497,
+    "total": 48.2,
+    "over": 0.496,
     "home_cover": 0.495
    },
    "vegas": {
     "home_margin": -3.5,
     "home_win": 0.396,
-    "total": 42.5,
-    "over": 0.511,
+    "total": 44.5,
+    "over": 0.483,
     "home_moneyline": 142.0,
     "away_moneyline": -170.0
    },
@@ -1289,11 +1295,11 @@
    },
    "vegas": {
     "home_margin": 17.5,
-    "home_win": 0.863,
+    "home_win": 0.868,
     "total": 56.5,
     "over": 0.5,
-    "home_moneyline": -900.0,
-    "away_moneyline": 600.0
+    "home_moneyline": -950.0,
+    "away_moneyline": 625.0
    },
    "final": null
   },
@@ -1315,7 +1321,7 @@
     "home_cover": 0.496
    },
    "vegas": {
-    "home_margin": 3.0,
+    "home_margin": 2.5,
     "home_win": 0.563,
     "total": 67.5,
     "over": 0.504,
@@ -1345,7 +1351,7 @@
     "home_margin": 14.5,
     "home_win": 0.832,
     "total": 63.5,
-    "over": 0.489,
+    "over": 0.496,
     "home_moneyline": -650.0,
     "away_moneyline": 470.0
    },
@@ -1364,7 +1370,7 @@
    "model": {
     "home_margin": 3.7,
     "home_win": 0.59,
-    "total": 52.5,
+    "total": 52.6,
     "over": 0.491,
     "home_cover": 0.492
    },
@@ -1391,17 +1397,17 @@
    "model": {
     "home_margin": 8.3,
     "home_win": 0.696,
-    "total": 53.5,
+    "total": 53.6,
     "over": 0.494,
     "home_cover": 0.492
    },
    "vegas": {
-    "home_margin": 3.5,
-    "home_win": 0.6,
+    "home_margin": 3.0,
+    "home_win": 0.572,
     "total": 52.5,
-    "over": 0.5,
-    "home_moneyline": -166.0,
-    "away_moneyline": 140.0
+    "over": 0.504,
+    "home_moneyline": -148.0,
+    "away_moneyline": 124.0
    },
    "final": null
   },
@@ -1418,15 +1424,15 @@
    "model": {
     "home_margin": -5.6,
     "home_win": 0.365,
-    "total": 56.4,
-    "over": 0.49,
+    "total": 56.5,
+    "over": 0.491,
     "home_cover": 0.496
    },
    "vegas": {
     "home_margin": -3.5,
     "home_win": 0.384,
-    "total": 59.5,
-    "over": 0.5,
+    "total": 58.5,
+    "over": 0.504,
     "home_moneyline": 150.0,
     "away_moneyline": -180.0
    },
@@ -1445,15 +1451,15 @@
    "model": {
     "home_margin": 9.0,
     "home_win": 0.711,
-    "total": 49.0,
+    "total": 49.1,
     "over": 0.498,
     "home_cover": 0.495
    },
    "vegas": {
     "home_margin": 9.5,
     "home_win": 0.748,
-    "total": 41.5,
-    "over": 0.504,
+    "total": 42.5,
+    "over": 0.489,
     "home_moneyline": -355.0,
     "away_moneyline": 280.0
    },
@@ -1472,7 +1478,7 @@
    "model": {
     "home_margin": 21.1,
     "home_win": 0.905,
-    "total": 48.8,
+    "total": 48.9,
     "over": 0.494,
     "home_cover": 0.49
    },
@@ -1480,7 +1486,7 @@
     "home_margin": 12.5,
     "home_win": 0.791,
     "total": 47.5,
-    "over": 0.496,
+    "over": 0.517,
     "home_moneyline": -470.0,
     "away_moneyline": 360.0
    },
@@ -1526,7 +1532,7 @@
    "model": {
     "home_margin": -6.2,
     "home_win": 0.35,
-    "total": 57.0,
+    "total": 57.1,
     "over": 0.495,
     "home_cover": 0.497
    },
@@ -1534,7 +1540,7 @@
     "home_margin": -2.5,
     "home_win": 0.449,
     "total": 54.5,
-    "over": 0.511,
+    "over": 0.5,
     "home_moneyline": 114.0,
     "away_moneyline": -135.0
    },
@@ -1553,7 +1559,7 @@
    "model": {
     "home_margin": 3.6,
     "home_win": 0.589,
-    "total": 49.7,
+    "total": 49.8,
     "over": 0.495,
     "home_cover": 0.495
    },
@@ -1561,7 +1567,7 @@
     "home_margin": 4.0,
     "home_win": 0.622,
     "total": 46.5,
-    "over": 0.489,
+    "over": 0.496,
     "home_moneyline": -185.0,
     "away_moneyline": 154.0
    },
@@ -1580,17 +1586,17 @@
    "model": {
     "home_margin": 17.7,
     "home_win": 0.863,
-    "total": 57.5,
-    "over": 0.492,
+    "total": 57.6,
+    "over": 0.493,
     "home_cover": 0.494
    },
    "vegas": {
     "home_margin": 15.5,
-    "home_win": 0.84,
-    "total": 58.5,
-    "over": 0.483,
-    "home_moneyline": -700.0,
-    "away_moneyline": 500.0
+    "home_win": 0.847,
+    "total": 57.5,
+    "over": 0.489,
+    "home_moneyline": -750.0,
+    "away_moneyline": 525.0
    },
    "final": null
   },
@@ -1613,11 +1619,11 @@
    },
    "vegas": {
     "home_margin": 17.5,
-    "home_win": 0.863,
+    "home_win": 0.868,
     "total": 47.5,
     "over": 0.504,
-    "home_moneyline": -900.0,
-    "away_moneyline": 600.0
+    "home_moneyline": -950.0,
+    "away_moneyline": 625.0
    },
    "final": null
   },
@@ -1663,15 +1669,15 @@
     "home_win": 0.276,
     "total": 53.5,
     "over": 0.494,
-    "home_cover": 0.497
+    "home_cover": 0.496
    },
    "vegas": {
-    "home_margin": -7.0,
-    "home_win": 0.286,
+    "home_margin": -7.5,
+    "home_win": 0.266,
     "total": 51.5,
-    "over": 0.489,
-    "home_moneyline": 235.0,
-    "away_moneyline": -290.0
+    "over": 0.504,
+    "home_moneyline": 260.0,
+    "away_moneyline": -325.0
    },
    "final": null
   },
@@ -1688,17 +1694,17 @@
    "model": {
     "home_margin": -1.3,
     "home_win": 0.467,
-    "total": 73.2,
-    "over": 0.49,
+    "total": 73.3,
+    "over": 0.491,
     "home_cover": 0.494
    },
    "vegas": {
     "home_margin": -2.5,
-    "home_win": 0.468,
-    "total": 76.5,
-    "over": 0.489,
-    "home_moneyline": 105.0,
-    "away_moneyline": -125.0
+    "home_win": 0.457,
+    "total": 75.5,
+    "over": 0.511,
+    "home_moneyline": 110.0,
+    "away_moneyline": -130.0
    },
    "final": null
   },
@@ -1715,15 +1721,15 @@
    "model": {
     "home_margin": 3.0,
     "home_win": 0.573,
-    "total": 68.4,
-    "over": 0.49,
+    "total": 68.5,
+    "over": 0.489,
     "home_cover": 0.495
    },
    "vegas": {
     "home_margin": 3.5,
     "home_win": 0.604,
-    "total": 72.5,
-    "over": 0.511,
+    "total": 73.5,
+    "over": 0.489,
     "home_moneyline": -170.0,
     "away_moneyline": 142.0
    },
@@ -1742,17 +1748,17 @@
    "model": {
     "home_margin": -7.5,
     "home_win": 0.32,
-    "total": 47.5,
-    "over": 0.496,
+    "total": 47.6,
+    "over": 0.497,
     "home_cover": 0.498
    },
    "vegas": {
     "home_margin": -2.5,
-    "home_win": 0.437,
+    "home_win": 0.428,
     "total": 42.5,
-    "over": 0.496,
-    "home_moneyline": 120.0,
-    "away_moneyline": -142.0
+    "over": 0.511,
+    "home_moneyline": 124.0,
+    "away_moneyline": -148.0
    },
    "final": null
   },
@@ -1769,17 +1775,17 @@
    "model": {
     "home_margin": -15.7,
     "home_win": 0.165,
-    "total": 48.7,
-    "over": 0.5,
-    "home_cover": 0.499
+    "total": 48.8,
+    "over": 0.499,
+    "home_cover": 0.5
    },
    "vegas": {
-    "home_margin": -8.5,
-    "home_win": 0.266,
-    "total": 39.5,
+    "home_margin": -7.5,
+    "home_win": 0.274,
+    "total": 40.5,
     "over": 0.5,
-    "home_moneyline": 260.0,
-    "away_moneyline": -325.0
+    "home_moneyline": 250.0,
+    "away_moneyline": -310.0
    },
    "final": null
   },
@@ -1796,17 +1802,17 @@
    "model": {
     "home_margin": 13.4,
     "home_win": 0.797,
-    "total": 63.2,
+    "total": 63.3,
     "over": 0.49,
-    "home_cover": 0.493
+    "home_cover": 0.492
    },
    "vegas": {
-    "home_margin": 9.5,
-    "home_win": 0.751,
+    "home_margin": 8.5,
+    "home_win": 0.741,
     "total": 66.5,
     "over": 0.504,
-    "home_moneyline": -360.0,
-    "away_moneyline": 285.0
+    "home_moneyline": -340.0,
+    "away_moneyline": 270.0
    },
    "final": null
   },
@@ -1824,75 +1830,75 @@
     "home_margin": -4.2,
     "home_win": 0.398,
     "total": 43.5,
-    "over": 0.496,
+    "over": 0.497,
     "home_cover": 0.494
    },
    "vegas": {
     "home_margin": -6.5,
-    "home_win": 0.319,
+    "home_win": 0.309,
     "total": 38.5,
-    "over": 0.489,
-    "home_moneyline": 200.0,
-    "away_moneyline": -245.0
+    "over": 0.5,
+    "home_moneyline": 210.0,
+    "away_moneyline": -258.0
    },
    "final": null
   }
  ],
  "record": {
   "season": {
-   "games": 241,
+   "games": 243,
    "winners": {
-    "right": 159,
-    "picked": 240
+    "right": 161,
+    "picked": 242
    },
    "ats": {
     "win": 112,
-    "loss": 122,
+    "loss": 124,
     "push": 4
    },
    "over_under": {
-    "win": 108,
+    "win": 109,
     "loss": 128,
     "push": 0
    },
    "spread_miss": {
-    "model": 12.5,
-    "vegas": 11.9,
-    "games": 241
+    "model": 12.4,
+    "vegas": 11.8,
+    "games": 243
    },
    "total_miss": {
-    "model": 13.9,
-    "vegas": 13.2,
-    "games": 241
+    "model": 14.0,
+    "vegas": 13.4,
+    "games": 243
    }
   },
   "weeks": [
    {
     "week": 11,
-    "games": 6,
+    "games": 8,
     "winners": {
-     "right": 5,
-     "picked": 6
+     "right": 7,
+     "picked": 8
     },
     "ats": {
      "win": 1,
-     "loss": 5,
+     "loss": 7,
      "push": 0
     },
     "over_under": {
-     "win": 3,
+     "win": 4,
      "loss": 3,
      "push": 0
     },
     "spread_miss": {
-     "model": 12.0,
-     "vegas": 10.7,
-     "games": 6
+     "model": 11.0,
+     "vegas": 9.8,
+     "games": 8
     },
     "total_miss": {
-     "model": 13.9,
-     "vegas": 14.0,
-     "games": 6
+     "model": 17.1,
+     "vegas": 17.8,
+     "games": 8
     }
    },
    {
@@ -2011,6 +2017,58 @@
  },
  "results": [
   {
+   "id": 401869969,
+   "week": 11,
+   "kickoff": "2026-11-12T21:00:00-05:00",
+   "away": "Louisiana",
+   "home": "UL Monroe",
+   "final": {
+    "away": 42,
+    "home": 21
+   },
+   "model": {
+    "home_margin": -10.4,
+    "home_win": 0.258,
+    "total": 48.5
+   },
+   "vegas": {
+    "home_margin": -11.5,
+    "home_win": 0.213,
+    "total": 48.5
+   },
+   "winner": true,
+   "ats": "loss",
+   "over_under": "no pick",
+   "review": null,
+   "total_review": null
+  },
+  {
+   "id": 401862824,
+   "week": 11,
+   "kickoff": "2026-11-12T20:00:00-05:00",
+   "away": "Memphis",
+   "home": "South Florida",
+   "final": {
+    "away": 52,
+    "home": 41
+   },
+   "model": {
+    "home_margin": -5.7,
+    "home_win": 0.362,
+    "total": 54.4
+   },
+   "vegas": {
+    "home_margin": -6.5,
+    "home_win": 0.315,
+    "total": 49.5
+   },
+   "winner": true,
+   "ats": "loss",
+   "over_under": "win",
+   "review": null,
+   "total_review": null
+  },
+  {
    "id": 401866462,
    "week": 11,
    "kickoff": "2026-11-11T19:30:00-05:00",
@@ -2027,6 +2085,7 @@
    },
    "vegas": {
     "home_margin": 15.5,
+    "home_win": 0.847,
     "total": 44.5
    },
    "winner": true,
@@ -2052,6 +2111,7 @@
    },
    "vegas": {
     "home_margin": -3.0,
+    "home_win": 0.437,
     "total": 51.5
    },
    "winner": true,
@@ -2077,6 +2137,7 @@
    },
    "vegas": {
     "home_margin": 14.0,
+    "home_win": 0.817,
     "total": 53.5
    },
    "winner": true,
@@ -2102,6 +2163,7 @@
    },
    "vegas": {
     "home_margin": 1.5,
+    "home_win": 0.517,
     "total": 47.5
    },
    "winner": false,
@@ -2127,6 +2189,7 @@
    },
    "vegas": {
     "home_margin": 5.5,
+    "home_win": 0.645,
     "total": 44.5
    },
    "winner": true,
@@ -2152,6 +2215,7 @@
    },
    "vegas": {
     "home_margin": -13.5,
+    "home_win": 0.178,
     "total": 47.5
    },
    "winner": true,
@@ -2177,6 +2241,7 @@
    },
    "vegas": {
     "home_margin": 6.0,
+    "home_win": 0.664,
     "total": 48.5
    },
    "winner": false,
@@ -2202,6 +2267,7 @@
    },
    "vegas": {
     "home_margin": 6.5,
+    "home_win": 0.685,
     "total": 71.5
    },
    "winner": false,
@@ -2227,6 +2293,7 @@
    },
    "vegas": {
     "home_margin": -10.5,
+    "home_win": 0.234,
     "total": 49.5
    },
    "winner": true,
@@ -2252,6 +2319,7 @@
    },
    "vegas": {
     "home_margin": -2.5,
+    "home_win": 0.468,
     "total": 41.5
    },
    "winner": false,
@@ -2277,6 +2345,7 @@
    },
    "vegas": {
     "home_margin": 17.5,
+    "home_win": 0.84,
     "total": 63.5
    },
    "winner": true,
@@ -2302,6 +2371,7 @@
    },
    "vegas": {
     "home_margin": -12.5,
+    "home_win": 0.204,
     "total": 47.5
    },
    "winner": true,
@@ -2327,6 +2397,7 @@
    },
    "vegas": {
     "home_margin": 5.5,
+    "home_win": 0.637,
     "total": 47.5
    },
    "winner": false,
@@ -2352,6 +2423,7 @@
    },
    "vegas": {
     "home_margin": 5.5,
+    "home_win": 0.622,
     "total": 51.5
    },
    "winner": false,
@@ -2377,6 +2449,7 @@
    },
    "vegas": {
     "home_margin": 4.5,
+    "home_win": 0.616,
     "total": 57.5
    },
    "winner": true,
@@ -2402,6 +2475,7 @@
    },
    "vegas": {
     "home_margin": -13.5,
+    "home_win": 0.178,
     "total": 59.5
    },
    "winner": true,
@@ -2427,6 +2501,7 @@
    },
    "vegas": {
     "home_margin": 4.0,
+    "home_win": 0.604,
     "total": 49.5
    },
    "winner": true,
@@ -2452,6 +2527,7 @@
    },
    "vegas": {
     "home_margin": -3.0,
+    "home_win": 0.437,
     "total": 56.5
    },
    "winner": true,
@@ -2477,6 +2553,7 @@
    },
    "vegas": {
     "home_margin": 14.0,
+    "home_win": 0.812,
     "total": 47.5
    },
    "winner": true,
@@ -2502,6 +2579,7 @@
    },
    "vegas": {
     "home_margin": 6.0,
+    "home_win": 0.637,
     "total": 50.5
    },
    "winner": true,
@@ -2527,6 +2605,7 @@
    },
    "vegas": {
     "home_margin": -19.5,
+    "home_win": 0.113,
     "total": 68.5
    },
    "winner": true,
@@ -2552,6 +2631,7 @@
    },
    "vegas": {
     "home_margin": 5.5,
+    "home_win": 0.609,
     "total": 57.5
    },
    "winner": true,
@@ -2577,6 +2657,7 @@
    },
    "vegas": {
     "home_margin": 3.0,
+    "home_win": 0.551,
     "total": 48.5
    },
    "winner": false,
@@ -2602,6 +2683,7 @@
    },
    "vegas": {
     "home_margin": -6.5,
+    "home_win": 0.343,
     "total": 45.5
    },
    "winner": true,
@@ -2627,6 +2709,7 @@
    },
    "vegas": {
     "home_margin": 5.5,
+    "home_win": 0.637,
     "total": 49.5
    },
    "winner": true,
@@ -2652,6 +2735,7 @@
    },
    "vegas": {
     "home_margin": 10.0,
+    "home_win": 0.766,
     "total": 51.5
    },
    "winner": true,
@@ -2677,6 +2761,7 @@
    },
    "vegas": {
     "home_margin": 16.5,
+    "home_win": 0.868,
     "total": 64.5
    },
    "winner": true,
@@ -2702,6 +2787,7 @@
    },
    "vegas": {
     "home_margin": 3.0,
+    "home_win": 0.551,
     "total": 48.5
    },
    "winner": false,
@@ -2727,6 +2813,7 @@
    },
    "vegas": {
     "home_margin": 1.5,
+    "home_win": 0.517,
     "total": 52.5
    },
    "winner": false,
@@ -2752,6 +2839,7 @@
    },
    "vegas": {
     "home_margin": 8.5,
+    "home_win": 0.726,
     "total": 53.5
    },
    "winner": true,
@@ -2777,6 +2865,7 @@
    },
    "vegas": {
     "home_margin": 7.5,
+    "home_win": 0.726,
     "total": 52.5
    },
    "winner": true,
@@ -2802,6 +2891,7 @@
    },
    "vegas": {
     "home_margin": 10.5,
+    "home_win": 0.772,
     "total": 51.5
    },
    "winner": true,
@@ -2827,6 +2917,7 @@
    },
    "vegas": {
     "home_margin": 9.5,
+    "home_win": 0.718,
     "total": 46.5
    },
    "winner": false,
@@ -2852,6 +2943,7 @@
    },
    "vegas": {
     "home_margin": 47.5,
+    "home_win": null,
     "total": 59.5
    },
    "winner": true,
@@ -2877,6 +2969,7 @@
    },
    "vegas": {
     "home_margin": 4.5,
+    "home_win": 0.609,
     "total": 52.5
    },
    "winner": false,
@@ -2902,6 +2995,7 @@
    },
    "vegas": {
     "home_margin": -3.0,
+    "home_win": 0.428,
     "total": 51.5
    },
    "winner": null,
@@ -2927,6 +3021,7 @@
    },
    "vegas": {
     "home_margin": 14.5,
+    "home_win": 0.837,
     "total": 51.5
    },
    "winner": false,
@@ -2952,6 +3047,7 @@
    },
    "vegas": {
     "home_margin": 7.0,
+    "home_win": 0.691,
     "total": 51.5
    },
    "winner": true,
@@ -2977,6 +3073,7 @@
    },
    "vegas": {
     "home_margin": 3.5,
+    "home_win": 0.593,
     "total": 57.5
    },
    "winner": false,
@@ -3002,6 +3099,7 @@
    },
    "vegas": {
     "home_margin": 6.5,
+    "home_win": 0.657,
     "total": 45.5
    },
    "winner": false,
@@ -3027,6 +3125,7 @@
    },
    "vegas": {
     "home_margin": 10.5,
+    "home_win": 0.76,
     "total": 50.5
    },
    "winner": true,
@@ -3052,6 +3151,7 @@
    },
    "vegas": {
     "home_margin": 16.5,
+    "home_win": 0.847,
     "total": 46.5
    },
    "winner": true,
@@ -3077,6 +3177,7 @@
    },
    "vegas": {
     "home_margin": 7.0,
+    "home_win": 0.681,
     "total": 57.5
    },
    "winner": false,
@@ -3102,6 +3203,7 @@
    },
    "vegas": {
     "home_margin": -6.5,
+    "home_win": 0.325,
     "total": 49.5
    },
    "winner": true,
@@ -3127,6 +3229,7 @@
    },
    "vegas": {
     "home_margin": -3.0,
+    "home_win": 0.437,
     "total": 48.5
    },
    "winner": false,
@@ -3152,6 +3255,7 @@
    },
    "vegas": {
     "home_margin": -8.5,
+    "home_win": 0.266,
     "total": 51.5
    },
    "winner": true,
@@ -3177,6 +3281,7 @@
    },
    "vegas": {
     "home_margin": -6.5,
+    "home_win": 0.325,
     "total": 51.5
    },
    "winner": true,
@@ -3202,6 +3307,7 @@
    },
    "vegas": {
     "home_margin": -1.5,
+    "home_win": 0.489,
     "total": 49.5
    },
    "winner": true,
@@ -3227,6 +3333,7 @@
    },
    "vegas": {
     "home_margin": -6.5,
+    "home_win": 0.369,
     "total": 60.5
    },
    "winner": false,
@@ -3252,6 +3359,7 @@
    },
    "vegas": {
     "home_margin": 5.5,
+    "home_win": 0.604,
     "total": 46.5
    },
    "winner": true,
@@ -3277,6 +3385,7 @@
    },
    "vegas": {
     "home_margin": -3.0,
+    "home_win": 0.417,
     "total": 46.5
    },
    "winner": true,
@@ -3302,6 +3411,7 @@
    },
    "vegas": {
     "home_margin": 2.5,
+    "home_win": 0.526,
     "total": 44.5
    },
    "winner": false,
@@ -3327,6 +3437,7 @@
    },
    "vegas": {
     "home_margin": 1.5,
+    "home_win": 0.532,
     "total": 42.5
    },
    "winner": true,
@@ -3352,6 +3463,7 @@
    },
    "vegas": {
     "home_margin": -6.5,
+    "home_win": 0.331,
     "total": 40.5
    },
    "winner": true,
@@ -3377,6 +3489,7 @@
    },
    "vegas": {
     "home_margin": 13.5,
+    "home_win": 0.837,
     "total": 40.5
    },
    "winner": false,
@@ -3402,6 +3515,7 @@
    },
    "vegas": {
     "home_margin": 9.5,
+    "home_win": 0.741,
     "total": 51.5
    },
    "winner": true,
@@ -3427,6 +3541,7 @@
    },
    "vegas": {
     "home_margin": 10.5,
+    "home_win": 0.772,
     "total": 61.5
    },
    "winner": true,
@@ -3452,6 +3567,7 @@
    },
    "vegas": {
     "home_margin": 8.5,
+    "home_win": 0.734,
     "total": 44.5
    },
    "winner": true,
@@ -3477,6 +3593,7 @@
    },
    "vegas": {
     "home_margin": -12.5,
+    "home_win": 0.213,
     "total": 43.5
    },
    "winner": true,
@@ -3502,6 +3619,7 @@
    },
    "vegas": {
     "home_margin": -5.5,
+    "home_win": 0.363,
     "total": 48.5
    },
    "winner": false,
@@ -3527,6 +3645,7 @@
    },
    "vegas": {
     "home_margin": -1.5,
+    "home_win": 0.496,
     "total": 45.5
    },
    "winner": false,
@@ -3552,6 +3671,7 @@
    },
    "vegas": {
     "home_margin": 6.5,
+    "home_win": 0.645,
     "total": 56.5
    },
    "winner": true,
@@ -3577,6 +3697,7 @@
    },
    "vegas": {
     "home_margin": -14.5,
+    "home_win": 0.178,
     "total": 55.5
    },
    "winner": true,
@@ -3602,6 +3723,7 @@
    },
    "vegas": {
     "home_margin": -6.5,
+    "home_win": 0.319,
     "total": 71.5
    },
    "winner": false,
@@ -3627,6 +3749,7 @@
    },
    "vegas": {
     "home_margin": 1.5,
+    "home_win": 0.517,
     "total": 46.5
    },
    "winner": false,
@@ -3652,6 +3775,7 @@
    },
    "vegas": {
     "home_margin": -27.5,
+    "home_win": 0.054,
     "total": 51.5
    },
    "winner": true,
@@ -3677,6 +3801,7 @@
    },
    "vegas": {
     "home_margin": 4.5,
+    "home_win": 0.616,
     "total": 48.5
    },
    "winner": false,
@@ -3702,6 +3827,7 @@
    },
    "vegas": {
     "home_margin": 6.5,
+    "home_win": 0.669,
     "total": 45.5
    },
    "winner": false,
@@ -3727,6 +3853,7 @@
    },
    "vegas": {
     "home_margin": -12.5,
+    "home_win": 0.209,
     "total": 49.5
    },
    "winner": true,
@@ -3752,6 +3879,7 @@
    },
    "vegas": {
     "home_margin": -5.5,
+    "home_win": 0.336,
     "total": 57.5
    },
    "winner": false,
@@ -3777,6 +3905,7 @@
    },
    "vegas": {
     "home_margin": 23.5,
+    "home_win": 0.926,
     "total": 53.5
    },
    "winner": true,
@@ -3802,6 +3931,7 @@
    },
    "vegas": {
     "home_margin": 11.5,
+    "home_win": 0.782,
     "total": 64.5
    },
    "winner": true,
@@ -3827,6 +3957,7 @@
    },
    "vegas": {
     "home_margin": 6.0,
+    "home_win": 0.669,
     "total": 59.5
    },
    "winner": true,
@@ -3852,6 +3983,7 @@
    },
    "vegas": {
     "home_margin": 7.5,
+    "home_win": 0.726,
     "total": 49.5
    },
    "winner": false,
@@ -3877,6 +4009,7 @@
    },
    "vegas": {
     "home_margin": -10.0,
+    "home_win": 0.24,
     "total": 49.5
    },
    "winner": true,
@@ -3902,6 +4035,7 @@
    },
    "vegas": {
     "home_margin": -6.5,
+    "home_win": 0.319,
     "total": 51.5
    },
    "winner": false,
@@ -3927,6 +4061,7 @@
    },
    "vegas": {
     "home_margin": -14.5,
+    "home_win": 0.163,
     "total": 52.5
    },
    "winner": true,
@@ -3952,6 +4087,7 @@
    },
    "vegas": {
     "home_margin": 7.5,
+    "home_win": 0.722,
     "total": 54.5
    },
    "winner": true,
@@ -3977,6 +4113,7 @@
    },
    "vegas": {
     "home_margin": 20.5,
+    "home_win": 0.899,
     "total": 50.5
    },
    "winner": true,
@@ -4002,6 +4139,7 @@
    },
    "vegas": {
     "home_margin": 2.5,
+    "home_win": 0.551,
     "total": 48.5
    },
    "winner": false,
@@ -4027,6 +4165,7 @@
    },
    "vegas": {
     "home_margin": 6.0,
+    "home_win": 0.657,
     "total": 49.5
    },
    "winner": false,
@@ -4052,6 +4191,7 @@
    },
    "vegas": {
     "home_margin": -8.5,
+    "home_win": 0.259,
     "total": 57.5
    },
    "winner": false,
@@ -4077,6 +4217,7 @@
    },
    "vegas": {
     "home_margin": 5.5,
+    "home_win": 0.645,
     "total": 56.5
    },
    "winner": true,
@@ -4102,6 +4243,7 @@
    },
    "vegas": {
     "home_margin": 22.5,
+    "home_win": 0.912,
     "total": 44.5
    },
    "winner": true,
@@ -4127,6 +4269,7 @@
    },
    "vegas": {
     "home_margin": 7.5,
+    "home_win": 0.714,
     "total": 54.5
    },
    "winner": true,
@@ -4152,6 +4295,7 @@
    },
    "vegas": {
     "home_margin": 5.5,
+    "home_win": 0.637,
     "total": 44.5
    },
    "winner": false,
@@ -4177,6 +4321,7 @@
    },
    "vegas": {
     "home_margin": -14.5,
+    "home_win": 0.163,
     "total": 42.5
    },
    "winner": true,
@@ -4202,6 +4347,7 @@
    },
    "vegas": {
     "home_margin": 12.5,
+    "home_win": 0.804,
     "total": 49.5
    },
    "winner": true,
@@ -4227,6 +4373,7 @@
    },
    "vegas": {
     "home_margin": -6.5,
+    "home_win": 0.309,
     "total": 56.5
    },
    "winner": true,
@@ -4252,6 +4399,7 @@
    },
    "vegas": {
     "home_margin": -3.5,
+    "home_win": 0.396,
     "total": 55.5
    },
    "winner": true,
@@ -4277,6 +4425,7 @@
    },
    "vegas": {
     "home_margin": 14.0,
+    "home_win": 0.822,
     "total": 44.5
    },
    "winner": true,
@@ -4302,6 +4451,7 @@
    },
    "vegas": {
     "home_margin": 24.5,
+    "home_win": 0.926,
     "total": 42.5
    },
    "winner": true,
@@ -4327,6 +4477,7 @@
    },
    "vegas": {
     "home_margin": 6.5,
+    "home_win": 0.681,
     "total": 63.5
    },
    "winner": true,
@@ -4352,6 +4503,7 @@
    },
    "vegas": {
     "home_margin": 3.5,
+    "home_win": 0.609,
     "total": 47.5
    },
    "winner": true,
@@ -4377,6 +4529,7 @@
    },
    "vegas": {
     "home_margin": 20.5,
+    "home_win": 0.899,
     "total": 41.5
    },
    "winner": true,
@@ -4402,6 +4555,7 @@
    },
    "vegas": {
     "home_margin": 6.0,
+    "home_win": 0.669,
     "total": 46.5
    },
    "winner": true,
@@ -4427,6 +4581,7 @@
    },
    "vegas": {
     "home_margin": 16.5,
+    "home_win": 0.847,
     "total": 48.5
    },
    "winner": true,
@@ -4452,6 +4607,7 @@
    },
    "vegas": {
     "home_margin": 11.5,
+    "home_win": 0.782,
     "total": 55.5
    },
    "winner": true,
@@ -4477,6 +4633,7 @@
    },
    "vegas": {
     "home_margin": 22.5,
+    "home_win": 0.92,
     "total": 60.5
    },
    "winner": true,
@@ -4502,6 +4659,7 @@
    },
    "vegas": {
     "home_margin": -5.5,
+    "home_win": 0.343,
     "total": 57.5
    },
    "winner": true,
@@ -4527,6 +4685,7 @@
    },
    "vegas": {
     "home_margin": 6.0,
+    "home_win": 0.669,
     "total": 49.5
    },
    "winner": true,
@@ -4552,6 +4711,7 @@
    },
    "vegas": {
     "home_margin": 2.5,
+    "home_win": 0.572,
     "total": 53.5
    },
    "winner": true,
@@ -4577,6 +4737,7 @@
    },
    "vegas": {
     "home_margin": 6.5,
+    "home_win": 0.681,
     "total": 58.5
    },
    "winner": false,
@@ -4602,6 +4763,7 @@
    },
    "vegas": {
     "home_margin": -2.5,
+    "home_win": 0.449,
     "total": 47.5
    },
    "winner": false,
@@ -4627,6 +4789,7 @@
    },
    "vegas": {
     "home_margin": -2.5,
+    "home_win": 0.437,
     "total": 45.5
    },
    "winner": true,
@@ -4652,6 +4815,7 @@
    },
    "vegas": {
     "home_margin": 13.5,
+    "home_win": 0.808,
     "total": 57.5
    },
    "winner": true,
@@ -4677,6 +4841,7 @@
    },
    "vegas": {
     "home_margin": -14.0,
+    "home_win": 0.178,
     "total": 46.5
    },
    "winner": true,
@@ -4702,6 +4867,7 @@
    },
    "vegas": {
     "home_margin": 13.5,
+    "home_win": 0.812,
     "total": 44.5
    },
    "winner": true,
@@ -4727,6 +4893,7 @@
    },
    "vegas": {
     "home_margin": 8.5,
+    "home_win": 0.722,
     "total": 42.5
    },
    "winner": true,
@@ -4752,6 +4919,7 @@
    },
    "vegas": {
     "home_margin": -30.5,
+    "home_win": 0.046,
     "total": 56.5
    },
    "winner": true,
@@ -4777,6 +4945,7 @@
    },
    "vegas": {
     "home_margin": -2.5,
+    "home_win": 0.449,
     "total": 54.5
    },
    "winner": true,
@@ -4802,6 +4971,7 @@
    },
    "vegas": {
     "home_margin": 3.5,
+    "home_win": 0.604,
     "total": 36.5
    },
    "winner": true,
@@ -4827,6 +4997,7 @@
    },
    "vegas": {
     "home_margin": 7.0,
+    "home_win": 0.705,
     "total": 47.5
    },
    "winner": true,
@@ -4852,6 +5023,7 @@
    },
    "vegas": {
     "home_margin": -10.0,
+    "home_win": 0.249,
     "total": 58.5
    },
    "winner": false,
@@ -4877,6 +5049,7 @@
    },
    "vegas": {
     "home_margin": 7.0,
+    "home_win": 0.705,
     "total": 56.5
    },
    "winner": true,
@@ -4902,6 +5075,7 @@
    },
    "vegas": {
     "home_margin": 3.5,
+    "home_win": 0.6,
     "total": 54.5
    },
    "winner": false,
@@ -4927,6 +5101,7 @@
    },
    "vegas": {
     "home_margin": -10.0,
+    "home_win": 0.234,
     "total": 46.5
    },
    "winner": false,
@@ -4952,6 +5127,7 @@
    },
    "vegas": {
     "home_margin": 1.5,
+    "home_win": 0.517,
     "total": 47.5
    },
    "winner": false,
@@ -4977,6 +5153,7 @@
    },
    "vegas": {
     "home_margin": -10.0,
+    "home_win": 0.234,
     "total": 46.5
    },
    "winner": true,
@@ -5002,6 +5179,7 @@
    },
    "vegas": {
     "home_margin": 21.0,
+    "home_win": 0.904,
     "total": 49.5
    },
    "winner": false,
@@ -5027,6 +5205,7 @@
    },
    "vegas": {
     "home_margin": 13.5,
+    "home_win": 0.804,
     "total": 77.5
    },
    "winner": true,
@@ -5052,6 +5231,7 @@
    },
    "vegas": {
     "home_margin": -3.0,
+    "home_win": 0.407,
     "total": 49.5
    },
    "winner": true,
@@ -5077,6 +5257,7 @@
    },
    "vegas": {
     "home_margin": 2.5,
+    "home_win": 0.563,
     "total": 50.5
    },
    "winner": false,
@@ -5102,6 +5283,7 @@
    },
    "vegas": {
     "home_margin": 6.0,
+    "home_win": 0.664,
     "total": 52.5
    },
    "winner": true,
@@ -5127,6 +5309,7 @@
    },
    "vegas": {
     "home_margin": 1.5,
+    "home_win": 0.526,
     "total": 56.5
    },
    "winner": false,
@@ -5152,6 +5335,7 @@
    },
    "vegas": {
     "home_margin": 6.5,
+    "home_win": 0.675,
     "total": 56.5
    },
    "winner": true,
@@ -5177,6 +5361,7 @@
    },
    "vegas": {
     "home_margin": 4.5,
+    "home_win": 0.645,
     "total": 41.5
    },
    "winner": true,
@@ -5202,6 +5387,7 @@
    },
    "vegas": {
     "home_margin": -2.5,
+    "home_win": 0.437,
     "total": 51.5
    },
    "winner": true,
@@ -5227,6 +5413,7 @@
    },
    "vegas": {
     "home_margin": 13.5,
+    "home_win": 0.804,
     "total": 60.5
    },
    "winner": true,
@@ -5252,6 +5439,7 @@
    },
    "vegas": {
     "home_margin": -3.0,
+    "home_win": 0.417,
     "total": 49.5
    },
    "winner": false,
@@ -5277,6 +5465,7 @@
    },
    "vegas": {
     "home_margin": 7.5,
+    "home_win": 0.744,
     "total": 46.5
    },
    "winner": false,
@@ -5302,6 +5491,7 @@
    },
    "vegas": {
     "home_margin": 10.0,
+    "home_win": 0.734,
     "total": 50.5
    },
    "winner": true,
@@ -5327,6 +5517,7 @@
    },
    "vegas": {
     "home_margin": 3.0,
+    "home_win": 0.593,
     "total": 53.5
    },
    "winner": true,
@@ -5352,6 +5543,7 @@
    },
    "vegas": {
     "home_margin": 10.5,
+    "home_win": 0.782,
     "total": 51.5
    },
    "winner": true,
@@ -5377,6 +5569,7 @@
    },
    "vegas": {
     "home_margin": -2.5,
+    "home_win": 0.457,
     "total": 58.5
    },
    "winner": false,
@@ -5402,6 +5595,7 @@
    },
    "vegas": {
     "home_margin": 2.5,
+    "home_win": 0.572,
     "total": 49.5
    },
    "winner": false,
@@ -5427,6 +5621,7 @@
    },
    "vegas": {
     "home_margin": 12.5,
+    "home_win": 0.812,
     "total": 55.5
    },
    "winner": true,
@@ -5452,6 +5647,7 @@
    },
    "vegas": {
     "home_margin": -1.5,
+    "home_win": 0.489,
     "total": 63.5
    },
    "winner": false,
@@ -5477,6 +5673,7 @@
    },
    "vegas": {
     "home_margin": -13.5,
+    "home_win": 0.196,
     "total": 51.5
    },
    "winner": true,
@@ -5502,6 +5699,7 @@
    },
    "vegas": {
     "home_margin": 12.5,
+    "home_win": 0.791,
     "total": 46.5
    },
    "winner": true,
@@ -5527,6 +5725,7 @@
    },
    "vegas": {
     "home_margin": -10.0,
+    "home_win": 0.24,
     "total": 52.5
    },
    "winner": false,
@@ -5552,6 +5751,7 @@
    },
    "vegas": {
     "home_margin": 5.5,
+    "home_win": 0.645,
     "total": 46.5
    },
    "winner": true,
@@ -5577,6 +5777,7 @@
    },
    "vegas": {
     "home_margin": 14.5,
+    "home_win": 0.84,
     "total": 51.5
    },
    "winner": false,
@@ -5602,6 +5803,7 @@
    },
    "vegas": {
     "home_margin": 12.5,
+    "home_win": 0.791,
     "total": 48.5
    },
    "winner": true,
@@ -5627,6 +5829,7 @@
    },
    "vegas": {
     "home_margin": -3.5,
+    "home_win": 0.4,
     "total": 56.5
    },
    "winner": false,
@@ -5652,6 +5855,7 @@
    },
    "vegas": {
     "home_margin": 3.5,
+    "home_win": 0.622,
     "total": 44.5
    },
    "winner": true,
@@ -5677,6 +5881,7 @@
    },
    "vegas": {
     "home_margin": 14.5,
+    "home_win": 0.822,
     "total": 51.5
    },
    "winner": true,
@@ -5702,6 +5907,7 @@
    },
    "vegas": {
     "home_margin": -4.5,
+    "home_win": 0.363,
     "total": 47.5
    },
    "winner": true,
@@ -5727,6 +5933,7 @@
    },
    "vegas": {
     "home_margin": -2.5,
+    "home_win": 0.457,
     "total": 61.5
    },
    "winner": true,
@@ -5752,6 +5959,7 @@
    },
    "vegas": {
     "home_margin": 14.0,
+    "home_win": 0.827,
     "total": 44.5
    },
    "winner": true,
@@ -5777,6 +5985,7 @@
    },
    "vegas": {
     "home_margin": -7.0,
+    "home_win": 0.295,
     "total": 40.5
    },
    "winner": false,
@@ -5802,6 +6011,7 @@
    },
    "vegas": {
     "home_margin": 4.0,
+    "home_win": 0.622,
     "total": 49.5
    },
    "winner": false,
@@ -5827,6 +6037,7 @@
    },
    "vegas": {
     "home_margin": -6.5,
+    "home_win": 0.309,
     "total": 43.5
    },
    "winner": false,
@@ -5852,6 +6063,7 @@
    },
    "vegas": {
     "home_margin": 2.5,
+    "home_win": 0.551,
     "total": 50.5
    },
    "winner": false,
@@ -5877,6 +6089,7 @@
    },
    "vegas": {
     "home_margin": -4.5,
+    "home_win": 0.369,
     "total": 44.5
    },
    "winner": true,
@@ -5902,6 +6115,7 @@
    },
    "vegas": {
     "home_margin": 14.0,
+    "home_win": 0.832,
     "total": 50.5
    },
    "winner": true,
@@ -5927,6 +6141,7 @@
    },
    "vegas": {
     "home_margin": -9.5,
+    "home_win": 0.249,
     "total": 50.5
    },
    "winner": false,
@@ -5952,6 +6167,7 @@
    },
    "vegas": {
     "home_margin": -2.5,
+    "home_win": 0.449,
     "total": 40.5
    },
    "winner": false,
@@ -5977,6 +6193,7 @@
    },
    "vegas": {
     "home_margin": 3.0,
+    "home_win": 0.572,
     "total": 46.5
    },
    "winner": true,
@@ -6002,6 +6219,7 @@
    },
    "vegas": {
     "home_margin": -3.0,
+    "home_win": 0.437,
     "total": 53.5
    },
    "winner": true,
@@ -6027,6 +6245,7 @@
    },
    "vegas": {
     "home_margin": 3.0,
+    "home_win": 0.583,
     "total": 45.5
    },
    "winner": true,
@@ -6052,6 +6271,7 @@
    },
    "vegas": {
     "home_margin": 7.5,
+    "home_win": 0.734,
     "total": 53.5
    },
    "winner": true,
@@ -6077,6 +6297,7 @@
    },
    "vegas": {
     "home_margin": 16.5,
+    "home_win": 0.852,
     "total": 57.5
    },
    "winner": true,
@@ -6102,6 +6323,7 @@
    },
    "vegas": {
     "home_margin": -7.0,
+    "home_win": 0.295,
     "total": 41.5
    },
    "winner": true,
@@ -6127,6 +6349,7 @@
    },
    "vegas": {
     "home_margin": 20.5,
+    "home_win": 0.908,
     "total": 50.5
    },
    "winner": true,
@@ -6152,6 +6375,7 @@
    },
    "vegas": {
     "home_margin": 19.5,
+    "home_win": 0.887,
     "total": 54.5
    },
    "winner": true,
@@ -6177,6 +6401,7 @@
    },
    "vegas": {
     "home_margin": 9.5,
+    "home_win": 0.741,
     "total": 56.5
    },
    "winner": false,
@@ -6202,6 +6427,7 @@
    },
    "vegas": {
     "home_margin": -10.5,
+    "home_win": 0.218,
     "total": 56.5
    },
    "winner": false,
@@ -6227,6 +6453,7 @@
    },
    "vegas": {
     "home_margin": -7.5,
+    "home_win": 0.282,
     "total": 51.5
    },
    "winner": true,
@@ -6252,6 +6479,7 @@
    },
    "vegas": {
     "home_margin": -6.5,
+    "home_win": 0.304,
     "total": 55.5
    },
    "winner": false,
@@ -6277,6 +6505,7 @@
    },
    "vegas": {
     "home_margin": -4.5,
+    "home_win": 0.355,
     "total": 45.5
    },
    "winner": false,
@@ -6302,6 +6531,7 @@
    },
    "vegas": {
     "home_margin": 1.5,
+    "home_win": 0.522,
     "total": 54.5
    },
    "winner": true,
@@ -6327,6 +6557,7 @@
    },
    "vegas": {
     "home_margin": 14.5,
+    "home_win": 0.84,
     "total": 49.5
    },
    "winner": true,
@@ -6352,6 +6583,7 @@
    },
    "vegas": {
     "home_margin": 1.5,
+    "home_win": 0.526,
     "total": 47.5
    },
    "winner": false,
@@ -6377,6 +6609,7 @@
    },
    "vegas": {
     "home_margin": 10.0,
+    "home_win": 0.772,
     "total": 54.5
    },
    "winner": true,
@@ -6402,6 +6635,7 @@
    },
    "vegas": {
     "home_margin": -10.0,
+    "home_win": 0.234,
     "total": 50.5
    },
    "winner": true,
@@ -6427,6 +6661,7 @@
    },
    "vegas": {
     "home_margin": -10.5,
+    "home_win": 0.223,
     "total": 56.5
    },
    "winner": false,
@@ -6452,6 +6687,7 @@
    },
    "vegas": {
     "home_margin": -3.0,
+    "home_win": 0.428,
     "total": 44.5
    },
    "winner": true,
@@ -6477,6 +6713,7 @@
    },
    "vegas": {
     "home_margin": -2.5,
+    "home_win": 0.437,
     "total": 66.5
    },
    "winner": true,
@@ -6502,6 +6739,7 @@
    },
    "vegas": {
     "home_margin": 3.0,
+    "home_win": 0.563,
     "total": 53.5
    },
    "winner": true,
@@ -6527,6 +6765,7 @@
    },
    "vegas": {
     "home_margin": 10.0,
+    "home_win": 0.772,
     "total": 46.5
    },
    "winner": false,
@@ -6552,6 +6791,7 @@
    },
    "vegas": {
     "home_margin": 7.0,
+    "home_win": 0.7,
     "total": 52.5
    },
    "winner": true,
@@ -6577,6 +6817,7 @@
    },
    "vegas": {
     "home_margin": -14.5,
+    "home_win": 0.163,
     "total": 44.5
    },
    "winner": true,
@@ -6602,6 +6843,7 @@
    },
    "vegas": {
     "home_margin": -7.5,
+    "home_win": 0.278,
     "total": 46.5
    },
    "winner": false,
@@ -6627,6 +6869,7 @@
    },
    "vegas": {
     "home_margin": -10.0,
+    "home_win": 0.243,
     "total": 53.5
    },
    "winner": true,
@@ -6652,6 +6895,7 @@
    },
    "vegas": {
     "home_margin": -14.5,
+    "home_win": 0.153,
     "total": 49.5
    },
    "winner": true,
@@ -6677,6 +6921,7 @@
    },
    "vegas": {
     "home_margin": -15.5,
+    "home_win": 0.163,
     "total": 48.5
    },
    "winner": true,
@@ -6702,6 +6947,7 @@
    },
    "vegas": {
     "home_margin": -7.0,
+    "home_win": 0.3,
     "total": 46.5
    },
    "winner": true,
@@ -6727,6 +6973,7 @@
    },
    "vegas": {
     "home_margin": -15.5,
+    "home_win": 0.163,
     "total": 57.5
    },
    "winner": true,
@@ -6752,6 +6999,7 @@
    },
    "vegas": {
     "home_margin": 6.5,
+    "home_win": 0.691,
     "total": 55.5
    },
    "winner": true,
@@ -6777,6 +7025,7 @@
    },
    "vegas": {
     "home_margin": 2.5,
+    "home_win": 0.563,
     "total": 43.5
    },
    "winner": true,
@@ -6802,6 +7051,7 @@
    },
    "vegas": {
     "home_margin": -14.5,
+    "home_win": 0.168,
     "total": 55.5
    },
    "winner": true,
@@ -6827,6 +7077,7 @@
    },
    "vegas": {
     "home_margin": 35.5,
+    "home_win": null,
     "total": 56.5
    },
    "winner": true,
@@ -6852,6 +7103,7 @@
    },
    "vegas": {
     "home_margin": 4.5,
+    "home_win": 0.631,
     "total": 62.5
    },
    "winner": true,
@@ -6877,6 +7129,7 @@
    },
    "vegas": {
     "home_margin": -10.5,
+    "home_win": 0.234,
     "total": 46.5
    },
    "winner": false,
@@ -6902,6 +7155,7 @@
    },
    "vegas": {
     "home_margin": 6.5,
+    "home_win": 0.675,
     "total": 43.5
    },
    "winner": false,
@@ -6927,6 +7181,7 @@
    },
    "vegas": {
     "home_margin": -6.5,
+    "home_win": 0.319,
     "total": 62.5
    },
    "winner": true,
@@ -6952,6 +7207,7 @@
    },
    "vegas": {
     "home_margin": 14.5,
+    "home_win": 0.84,
     "total": 42.5
    },
    "winner": true,
@@ -6977,6 +7233,7 @@
    },
    "vegas": {
     "home_margin": 20.5,
+    "home_win": 0.899,
     "total": 45.5
    },
    "winner": true,
@@ -7002,6 +7259,7 @@
    },
    "vegas": {
     "home_margin": 21.0,
+    "home_win": 0.912,
     "total": 56.5
    },
    "winner": true,
@@ -7027,6 +7285,7 @@
    },
    "vegas": {
     "home_margin": 5.5,
+    "home_win": 0.657,
     "total": 48.5
    },
    "winner": false,
@@ -7052,6 +7311,7 @@
    },
    "vegas": {
     "home_margin": 6.0,
+    "home_win": 0.675,
     "total": 50.5
    },
    "winner": false,
@@ -7077,6 +7337,7 @@
    },
    "vegas": {
     "home_margin": 18.5,
+    "home_win": 0.876,
     "total": 52.5
    },
    "winner": true,
@@ -7102,6 +7363,7 @@
    },
    "vegas": {
     "home_margin": 3.0,
+    "home_win": 0.583,
     "total": 49.5
    },
    "winner": true,
@@ -7127,6 +7389,7 @@
    },
    "vegas": {
     "home_margin": -4.5,
+    "home_win": 0.369,
     "total": 46.5
    },
    "winner": false,
@@ -7152,6 +7415,7 @@
    },
    "vegas": {
     "home_margin": 10.0,
+    "home_win": 0.751,
     "total": 46.5
    },
    "winner": true,
@@ -7177,6 +7441,7 @@
    },
    "vegas": {
     "home_margin": -6.5,
+    "home_win": 0.319,
     "total": 53.5
    },
    "winner": true,
@@ -7202,6 +7467,7 @@
    },
    "vegas": {
     "home_margin": 1.5,
+    "home_win": 0.511,
     "total": 48.5
    },
    "winner": true,
@@ -7227,6 +7493,7 @@
    },
    "vegas": {
     "home_margin": 8.5,
+    "home_win": 0.722,
     "total": 40.5
    },
    "winner": true,
@@ -7252,6 +7519,7 @@
    },
    "vegas": {
     "home_margin": 6.5,
+    "home_win": 0.669,
     "total": 42.5
    },
    "winner": true,
@@ -7277,6 +7545,7 @@
    },
    "vegas": {
     "home_margin": 3.0,
+    "home_win": 0.583,
     "total": 47.5
    },
    "winner": false,
@@ -7302,6 +7571,7 @@
    },
    "vegas": {
     "home_margin": 9.5,
+    "home_win": 0.751,
     "total": 57.5
    },
    "winner": true,
@@ -7327,6 +7597,7 @@
    },
    "vegas": {
     "home_margin": 15.5,
+    "home_win": 0.84,
     "total": 48.5
    },
    "winner": true,
@@ -7352,6 +7623,7 @@
    },
    "vegas": {
     "home_margin": -7.5,
+    "home_win": 0.259,
     "total": 51.5
    },
    "winner": false,
@@ -7377,6 +7649,7 @@
    },
    "vegas": {
     "home_margin": 5.5,
+    "home_win": 0.664,
     "total": 58.5
    },
    "winner": true,
@@ -7402,6 +7675,7 @@
    },
    "vegas": {
     "home_margin": 19.5,
+    "home_win": 0.893,
     "total": 49.5
    },
    "winner": false,
@@ -7427,6 +7701,7 @@
    },
    "vegas": {
     "home_margin": -7.0,
+    "home_win": 0.309,
     "total": 43.5
    },
    "winner": true,
@@ -7452,6 +7727,7 @@
    },
    "vegas": {
     "home_margin": 7.0,
+    "home_win": 0.7,
     "total": 41.5
    },
    "winner": true,
@@ -7477,6 +7753,7 @@
    },
    "vegas": {
     "home_margin": 21.0,
+    "home_win": 0.912,
     "total": 46.5
    },
    "winner": false,
@@ -7502,6 +7779,7 @@
    },
    "vegas": {
     "home_margin": 45.5,
+    "home_win": null,
     "total": 55.5
    },
    "winner": true,
@@ -7527,6 +7805,7 @@
    },
    "vegas": {
     "home_margin": 5.5,
+    "home_win": 0.645,
     "total": 57.5
    },
    "winner": false,
@@ -7552,6 +7831,7 @@
    },
    "vegas": {
     "home_margin": 10.5,
+    "home_win": 0.772,
     "total": 58.5
    },
    "winner": true,
@@ -7577,6 +7857,7 @@
    },
    "vegas": {
     "home_margin": 6.5,
+    "home_win": 0.691,
     "total": 47.5
    },
    "winner": false,
@@ -7602,6 +7883,7 @@
    },
    "vegas": {
     "home_margin": 2.5,
+    "home_win": 0.543,
     "total": 54.5
    },
    "winner": true,
@@ -7627,6 +7909,7 @@
    },
    "vegas": {
     "home_margin": -7.0,
+    "home_win": 0.282,
     "total": 48.5
    },
    "winner": true,
@@ -7652,6 +7935,7 @@
    },
    "vegas": {
     "home_margin": -3.0,
+    "home_win": 0.407,
     "total": 51.5
    },
    "winner": true,
@@ -7677,6 +7961,7 @@
    },
    "vegas": {
     "home_margin": 9.5,
+    "home_win": 0.741,
     "total": 51.5
    },
    "winner": true,
@@ -7702,6 +7987,7 @@
    },
    "vegas": {
     "home_margin": -6.5,
+    "home_win": 0.325,
     "total": 42.5
    },
    "winner": false,
@@ -7727,6 +8013,7 @@
    },
    "vegas": {
     "home_margin": 43.5,
+    "home_win": null,
     "total": 58.5
    },
    "winner": true,
@@ -7752,6 +8039,7 @@
    },
    "vegas": {
     "home_margin": 4.5,
+    "home_win": 0.637,
     "total": 55.5
    },
    "winner": true,
@@ -7777,6 +8065,7 @@
    },
    "vegas": {
     "home_margin": 1.5,
+    "home_win": 0.526,
     "total": 63.5
    },
    "winner": false,
@@ -7802,6 +8091,7 @@
    },
    "vegas": {
     "home_margin": 11.5,
+    "home_win": 0.782,
     "total": 51.5
    },
    "winner": false,
@@ -7827,6 +8117,7 @@
    },
    "vegas": {
     "home_margin": 15.5,
+    "home_win": 0.84,
     "total": 57.5
    },
    "winner": true,
@@ -7852,6 +8143,7 @@
    },
    "vegas": {
     "home_margin": -1.5,
+    "home_win": 0.483,
     "total": 49.5
    },
    "winner": true,
@@ -7877,6 +8169,7 @@
    },
    "vegas": {
     "home_margin": 3.0,
+    "home_win": 0.593,
     "total": 51.5
    },
    "winner": false,
@@ -7902,6 +8195,7 @@
    },
    "vegas": {
     "home_margin": -7.0,
+    "home_win": 0.3,
     "total": 55.5
    },
    "winner": false,
@@ -7927,6 +8221,7 @@
    },
    "vegas": {
     "home_margin": 14.5,
+    "home_win": 0.822,
     "total": 69.5
    },
    "winner": true,
@@ -7952,6 +8247,7 @@
    },
    "vegas": {
     "home_margin": -3.5,
+    "home_win": 0.384,
     "total": 47.5
    },
    "winner": false,
@@ -7977,6 +8273,7 @@
    },
    "vegas": {
     "home_margin": -4.5,
+    "home_win": 0.369,
     "total": 47.5
    },
    "winner": false,
@@ -8002,6 +8299,7 @@
    },
    "vegas": {
     "home_margin": -1.5,
+    "home_win": 0.483,
     "total": 53.5
    },
    "winner": true,
@@ -8027,6 +8325,7 @@
    },
    "vegas": {
     "home_margin": -2.5,
+    "home_win": 0.449,
     "total": 52.5
    },
    "winner": true,
@@ -8037,6 +8336,22 @@
   }
  ],
  "report": {
+  "differs": {
+   "season": {
+    "games": 18,
+    "model_won": 6,
+    "rate": 0.333,
+    "model_said": 0.565,
+    "vegas_said": 0.435
+   },
+   "benchmark": {
+    "games": 379,
+    "model_won": 178,
+    "rate": 0.47,
+    "model_said": 0.565,
+    "vegas_said": 0.413
+   }
+  },
   "benchmark": {
    "seasons": "2020\u20132025",
    "games": 4985,
@@ -8080,13 +8395,13 @@
    ]
   },
   "season": {
-   "games": 241,
-   "winners": 0.664,
-   "brier": 0.21,
-   "margin_miss": 12.5,
-   "total_miss": 13.9,
-   "vegas_margin_miss": 11.9,
-   "vegas_total_miss": 13.2,
+   "games": 243,
+   "winners": 0.667,
+   "brier": 0.209,
+   "margin_miss": 12.4,
+   "total_miss": 14.0,
+   "vegas_margin_miss": 11.8,
+   "vegas_total_miss": 13.4,
    "calibration": [
     {
      "label": "50\u201360%",
@@ -8096,15 +8411,15 @@
     },
     {
      "label": "60\u201370%",
-     "games": 61,
+     "games": 62,
      "predicted": 0.657,
-     "actual": 0.574
+     "actual": 0.581
     },
     {
      "label": "70\u201380%",
-     "games": 60,
-     "predicted": 0.747,
-     "actual": 0.717
+     "games": 61,
+     "predicted": 0.746,
+     "actual": 0.721
     },
     {
      "label": "80\u201390%",
@@ -8163,13 +8478,13 @@
    },
    {
     "week": 11,
-    "games": 6,
-    "winners": 0.833,
-    "brier": 0.124,
-    "margin_miss": 12.0,
-    "total_miss": 13.9,
-    "vegas_margin_miss": 10.7,
-    "vegas_total_miss": 14.0
+    "games": 8,
+    "winners": 0.875,
+    "brier": 0.118,
+    "margin_miss": 11.0,
+    "total_miss": 17.1,
+    "vegas_margin_miss": 9.8,
+    "vegas_total_miss": 17.8
    }
   ]
  }
