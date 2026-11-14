@@ -160,27 +160,10 @@
       "bet": "model_side_winner"
      },
      "test_result": {
-      "verdict": "doesn't hold up",
-      "note": "Won 43% in 2020\u20132025 when Vegas's chances said 43%, about what Vegas's own chances said, so there's no edge.",
-      "periods": [
-       {
-        "label": "2010\u20132019",
-        "games": 361,
-        "wins": 171,
-        "pushes": 0,
-        "rate": 0.474,
-        "vegas": 0.429
-       },
-       {
-        "label": "2020\u20132025",
-        "games": 217,
-        "wins": 93,
-        "pushes": 0,
-        "rate": 0.429,
-        "vegas": 0.433
-       }
-      ],
-      "tested": "2026-11-13T17:42-05:00"
+      "verdict": "couldn't test",
+      "note": "No game history from this run.",
+      "periods": null,
+      "tested": "2026-11-14T13:46-05:00"
      }
     },
     {
@@ -200,25 +183,10 @@
       "bet": "model_side_total"
      },
      "test_result": {
-      "verdict": "doesn't hold up",
-      "note": "Won 48.3% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
-      "periods": [
-       {
-        "label": "2010\u20132019",
-        "games": 0,
-        "wins": 0,
-        "pushes": 0,
-        "rate": null
-       },
-       {
-        "label": "2020\u20132025",
-        "games": 174,
-        "wins": 84,
-        "pushes": 4,
-        "rate": 0.483
-       }
-      ],
-      "tested": "2026-11-13T17:42-05:00"
+      "verdict": "couldn't test",
+      "note": "No game history from this run.",
+      "periods": null,
+      "tested": "2026-11-14T13:46-05:00"
      }
     },
     {
@@ -259,25 +227,10 @@
       "bet": "model_side_spread"
      },
      "test_result": {
-      "verdict": "doesn't hold up",
-      "note": "Won 48.9% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
-      "periods": [
-       {
-        "label": "2010\u20132019",
-        "games": 2594,
-        "wins": 1346,
-        "pushes": 76,
-        "rate": 0.519
-       },
-       {
-        "label": "2020\u20132025",
-        "games": 1660,
-        "wins": 812,
-        "pushes": 33,
-        "rate": 0.489
-       }
-      ],
-      "tested": "2026-11-13T17:42-05:00"
+      "verdict": "couldn't test",
+      "note": "No game history from this run.",
+      "periods": null,
+      "tested": "2026-11-14T13:46-05:00"
      }
     },
     {
@@ -302,25 +255,10 @@
       "bet": "model_side_spread"
      },
      "test_result": {
-      "verdict": "doesn't hold up",
-      "note": "Won 54.4% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
-      "periods": [
-       {
-        "label": "2010\u20132019",
-        "games": 203,
-        "wins": 110,
-        "pushes": 6,
-        "rate": 0.542
-       },
-       {
-        "label": "2020\u20132025",
-        "games": 160,
-        "wins": 87,
-        "pushes": 3,
-        "rate": 0.544
-       }
-      ],
-      "tested": "2026-11-13T17:42-05:00"
+      "verdict": "couldn't test",
+      "note": "No game history from this run.",
+      "periods": null,
+      "tested": "2026-11-14T13:46-05:00"
      }
     },
     {
@@ -345,109 +283,60 @@
       "bet": "model_side_winner"
      },
      "test_result": {
-      "verdict": "doesn't hold up",
-      "note": "Won 78% in 2020\u20132025 when Vegas's chances said 77%, about what Vegas's own chances said, so there's no edge.",
-      "periods": [
-       {
-        "label": "2010\u20132019",
-        "games": 689,
-        "wins": 554,
-        "pushes": 0,
-        "rate": 0.804,
-        "vegas": 0.771
-       },
-       {
-        "label": "2020\u20132025",
-        "games": 463,
-        "wins": 360,
-        "pushes": 0,
-        "rate": 0.778,
-        "vegas": 0.771
-       }
-      ],
-      "tested": "2026-11-13T17:42-05:00"
+      "verdict": "couldn't test",
+      "note": "No game history from this run.",
+      "periods": null,
+      "tested": "2026-11-14T13:46-05:00"
      }
     }
    ]
   },
   "College": {
-   "checked": "2026-11-13T14:13-05:00",
+   "checked": "2026-11-14T13:45-05:00",
    "season": 2026,
    "week": 11,
    "news": [
     {
-     "game_id": "401856886",
-     "items": [],
-     "headline": "Mississippi State still without QB Kamario Taylor against Auburn",
-     "detail": "Taylor, out for the season with a toe injury, is one of six Bulldogs ruled out (Nov 12 report). Auburn has only one player out and is nearly healthy. This favors Vegas's side (Auburn) over the model's Mississippi State by 0.1.",
-     "impact": "hurts the pick",
-     "sources": [
-      "https://sports.yahoo.com/articles/auburn-tigers-injury-report-key-203100840.html",
-      "https://sports.yahoo.com/articles/mississippi-state-vs-auburn-injury-013227228.html"
-     ]
-    },
-    {
-     "game_id": "401858300",
-     "items": [],
-     "headline": "NC State badly banged up and under an interim coach vs Syracuse",
-     "detail": "NC State has about seven former starters out, including LB Popo Aguirre, and is coming off a 41-3 loss to Duke under interim coach Todd Goebbel after Dave Doeren was fired (Nov 12-13). Syracuse also has OL injuries. This leans toward Vegas's side (Syracuse) over the model's NC State.",
-     "impact": "hurts the pick",
-     "sources": [
-      "https://packinsider.com/2026/11/12/nc-state-syracuse-football-injury-report-depth-chart-november-2026/",
-      "https://www.nationalfootballpost.com/2026/11/13/time-running-out-for-syracuse-nc-state-to-qualify-for-bowl-season",
-      "https://sports.yahoo.com/articles/syracuse-vs-nc-state-injury-122100912.html"
-     ]
-    },
-    {
-     "game_id": "401858301",
-     "items": [],
-     "headline": "Wake Forest QB Gio Lopez expected back at SMU",
-     "detail": "Lopez missed the Merrimack game with a lower-body injury but is listed as probable and expected to start (Nov 10-12). That removes the main worry for the model's side (Wake Forest). One preview lists the moneyline near even, so Vegas sees this as close.",
+     "game_id": "401856857",
+     "items": [
+      "College|risky|401856857|winner|away|||"
+     ],
+     "headline": "ASU-UCF kickoff moved to 5:30 PM after travel delay; UCF thin",
+     "detail": "Arizona State's charter was held up by a national ground stoppage, so the game was pushed back (Nov 14). UCF is also without RB Duke Watson and three defensive backs, and QB Keyone Jenkins is questionable, though Alonza Barnett III is back as starter.",
      "impact": "helps the pick",
      "sources": [
-      "https://dallasnews.com/sports/smu-mustangs/article/smu-rhett-lashlee-wake-forest-revenge-acc-football-22522206.php",
-      "https://www.thebiglead.com/week-11-college-football-best-bets-wake-forest-alabama-ucla-houston-tennessee-lsu/"
-     ]
-    },
-    {
-     "game_id": "401862829",
-     "items": [],
-     "headline": "Temple QB Ajani Sheppard expected back vs UAB",
-     "detail": "Coach K.C. Keeler thinks Sheppard (foot) will play after he sat out the Navy game (Nov 9). His dual-threat running is a plus for Temple, which Vegas favors by 2.5. The model has UAB by 4.5, so the QB return leans toward Vegas's side.",
-     "impact": "hurts the pick",
-     "sources": [
-      "https://www.inquirer.com/college-sports/temple/kc-keeler-bowl-eligibility-uab-american-conference-20261109.html",
-      "https://phlsportsnow.com/temple-football-preview-dragons-defense-a-top-20-unit/"
+      "https://sports.yahoo.com/ncaaf/teams/arizona-state/",
+      "https://www.si.com/college/ucf/football/ucf-knights-running-back-duke-watson-ruled-out-for-arizona-state-sun-devils-injury-report-breakdown-waden-charles-demari-henderson-rodney-bimage-01m7713ek5f3"
      ]
     },
     {
      "game_id": "401856857",
-     "items": [],
-     "headline": "UCF missing RB Duke Watson and three DBs against Arizona State",
-     "detail": "Watson (foot) is out, as are DBs DJ Bell, Demari Henderson and Kahmel Johnson, and UCF has about 15 players on its report against 6 for Arizona State (Nov 11-13). QB Alonza Barnett only just returned from a six-game absence. This helps the model's side (Arizona State) against Vegas's UCF -3.",
-     "impact": "helps the pick",
+     "items": [
+      "College|risky|401856857|winner|away|||"
+     ],
+     "headline": "ASU starts a true freshman QB, Jake Fette, on the road",
+     "detail": "Fette has started Arizona State's last two games after Mikey Keene hurt his knee. Keene is available as a backup. A late flight and a young QB are things the model can't see.",
+     "impact": "worth watching",
      "sources": [
-      "https://www.si.com/college/arizonastate/football/central-florida-loses-top-running-back-what-does-this-mean-for-arizona-state-01m78cbqr3bp",
-      "https://on3.com/sites/asu-devils/news/ucf-preview"
+      "https://www.si.com/college/ucf/football/how-to-watch-ucf-knights-vs-arizona-state-sun-devils-tv-channel-kickoff-time-everything-you-need-to-know-scott-frost-lewis-carter-mikey-keene-faa-ground-stop-01m7bsyw2hs1"
      ]
     },
     {
      "game_id": "401856887",
      "items": [],
-     "headline": "Ole Miss QB Chambliss cleared, but 11 Rebels out including RB Kewan Lacy",
-     "detail": "Chambliss was probable Wednesday and came off the SEC report Thursday, so he should start (Nov 12). RB Kewan Lacy, OL Patrick Kutas and LB Keaton Thomas are out, and RB Makhi Frazier is questionable. Oklahoma has five out. Mixed for the model's Ole Miss side.",
+     "headline": "Ole Miss QB Chambliss cleared, but Rebels are banged up",
+     "detail": "Trinidad Chambliss was dropped from the SEC report after a Wednesday 'probable' tag, so he is expected to start (Nov 12-13). RB Kewan Lacy, OL Patrick Kutas and LB Keaton Thomas are out, and RB Makhi Frazier is questionable. Oklahoma has five players out. This is a model-vs-Vegas disagreement: the model has Ole Miss, Vegas has Oklahoma.",
      "impact": "worth watching",
      "sources": [
-      "https://therebelwalk.com/2026/11/thursday-ole-miss-vs-oklahoma-injury-report/",
-      "https://www.hottytoddy.com/2026/11/13/ole-miss-oklahoma-makhi-frazier-injury-update/",
-      "https://si.com/college/oklahoma/football/oklahoma-running-back-remains-questionable-for-ole-miss-game-01m7971s8q50"
+      "https://athlonsports.com/college-football/trinidad-chambliss-ole-miss-injury-report-oklahoma-pete-golding",
+      "https://www.hottytoddy.com/2026/11/13/ole-miss-oklahoma-makhi-frazier-injury-update/"
      ]
     },
     {
      "game_id": "401869928",
      "items": [],
-     "headline": "Both App State and Marshall short on the offensive line",
-     "detail": "Marshall LT Tariq Montgomery is out and DE Braydin Ward is questionable. App State has three starting linemen hurt and has lost two straight (Nov 11-12). Nothing clearly favors either side of this model-vs-Vegas split.",
+     "headline": "App State-Marshall: no QB news; both lines hurt",
+     "detail": "Marshall is without left tackle Tariq Montgomery and App State has lost three starting linemen, per Nov 12 previews. The home team has won the last six meetings. No sign of a QB change on either side. This is a model-vs-Vegas disagreement: the model has Marshall, Vegas has App State.",
      "impact": "worth watching",
      "sources": [
       "https://bvmsports.com/2026/11/12/app-state-vs-marshall-bowl-eligibility-on-the-line-saturday/",
@@ -455,36 +344,90 @@
      ]
     },
     {
+     "game_id": "401856883",
+     "items": [
+      "College|likely|401856883|winner|home|||"
+     ],
+     "headline": "Georgia center Drew Bobo questionable vs. Missouri",
+     "detail": "Bobo, who has started every game at center, was added to the SEC report as questionable on Thursday (Nov 12-13). DT Joshua Horton is also questionable and OLB Amaris Williams is out. Otherwise Georgia is healthy.",
+     "impact": "worth watching",
+     "sources": [
+      "https://www.dawgnation.com/football/drew-bobo-added-injury-report-status-question-georgia-missouri-game/MIUWC45L6ZFTLKWJD55IJF3V74/",
+      "https://athlonsports.com/college-football/drew-bobo-georgia-injury-status-gunner-stockton-missouri"
+     ]
+    },
+    {
+     "game_id": "401856863",
+     "items": [
+      "College|value|401856863|total|under|||73.5",
+      "College|risky|401856863|winner|away|||"
+     ],
+     "headline": "Texas Tech short at receiver and RB for Oklahoma State",
+     "detail": "Texas Tech WR Coy Eakin (broken hand) and RB Quinten Joyner are out; RB Cam Dickey is probable on an ankle. Oklahoma State is missing LB Tate Romney and several depth players (Nov 13-14).",
+     "impact": "worth watching",
+     "sources": [
+      "https://sports.yahoo.com/articles/texas-tech-injury-rb-cam-180035951.html",
+      "https://www.si.com/college/oklahomastate/football/tate-romney-out-oklahoma-state-cowboys-showdown-texas-tech-red-raiders"
+     ]
+    },
+    {
      "game_id": "401856885",
      "items": [
       "College|risky|401856885|winner|away|||"
      ],
-     "headline": "Texas without LT Trevor Goosby (season) and has line and WR concerns at LSU",
-     "detail": "Goosby was ruled out for the season after the Oct 24 Ole Miss win, and WR Cam Coleman has left two games early. Arch Manning was sacked six times against Mississippi State last week. A Texas Longhorns On SI headline on Nov 13 says several starters came off the first injury report, but I couldn't see details.",
+     "headline": "Texas WR Cam Coleman back at LSU, but not at full strength",
+     "detail": "Coleman is off the injury report after missing the Missouri game, but a report says he aggravated a shoulder injury and practiced in a non-contact jersey (Nov 13). LSU lists LB Whit Weeks as questionable. Arch Manning has been sacked 27 times this season.",
      "impact": "worth watching",
      "sources": [
-      "https://sports.yahoo.com/articles/arch-manning-texas-more-bad-044619445.html",
-      "https://www.si.com/college/texas"
+      "https://athlonsports.com/college-football/cam-coleman-texas-injury-update-arch-manning-lsu-anwar-richardson",
+      "https://sports.yahoo.com/articles/no-21-lsu-vs-no-150004426.html"
+     ]
+    },
+    {
+     "game_id": "401858519",
+     "items": [
+      "College|likely|401858519|winner|home|||",
+      "College|value|401858519|spread|away|||17.5"
+     ],
+     "headline": "Iowa without OL Cael Winter; Purdue fired its defensive coordinator",
+     "detail": "Iowa's Cael Winter is not expected to play and RB Kamari Moulton is out for the season (Nov 11-13). Purdue fired defensive coordinator Kevin Kane earlier this week. QB Hank Brown is listed as Iowa's starter.",
+     "impact": "worth watching",
+     "sources": [
+      "https://www.on3.com/teams/iowa-hawkeyes/news/kirk-ferentz-talks-boilermakers-updates-injuries/",
+      "https://www.therx.com/college-football/purdue-iowa-prediction-november-14-2026/55321/"
+     ]
+    },
+    {
+     "game_id": "401862828",
+     "items": [
+      "College|risky|401862828|winner|away|||"
+     ],
+     "headline": "Tulane's QB situation unsettled at Rice",
+     "detail": "A Tulane preview (Nov 14) says Trace Johnson or Dagan Bruno will play QB, and that Zeon Chriss-Gremillion may not play again. Rice, 1-8, is favored only for the second time this year and has Gael Ochoa at QB.",
+     "impact": "worth watching",
+     "sources": [
+      "https://www.si.com/college/tulane/news/3-keys-to-victory-tulane-vs-rice-01m7anna5c6a",
+      "https://attheroost.com/2026/11/12/rice-football-2026-tulane-practice/"
      ]
     }
    ],
    "item_notes": {
-    "College|value|401862826|total|under|||74.5": "The model's total is 4.5 below Vegas's; past seasons show the model's side on totals this far off has not beaten Vegas (50.7% in 2020-2025).",
-    "College|value|401856863|total|under|||73.5": "The model's total is 5 points below Vegas's; past seasons show the model's side on totals 4+ points off has not beaten Vegas (50.7% in 2020-2025).",
-    "College|value|401864538|spread|away|||12.5": "The model has Air Force by 21.1, so its own margin points the other way from this +12.5 pick; check how the cover chance is built.",
-    "College|value|401858519|spread|away|||17.5": "The model has Iowa by 26.6 against a 17.5 line, so its own margin points the other way from this Purdue +17.5 pick; check how the cover chance is built.",
-    "College|value|401860917|total|under|||66.5": "The model's total is 3.2 below Vegas's; the pick's edge is thin (51.0% against 52.4% needed).",
-    "College|risky|401856885|winner|away|||": "Texas has lost left tackle Trevor Goosby for the season and Manning was sacked six times last week, facing an LSU team the model has by 3.6.",
-    "College|risky|401864537|winner|home|||": "Hawai'i beat UTEP only 17-14 last week as a 13.5-point model favorite, so the model's 40% on this underdog comes from a team that just underperformed it.",
-    "College|likely|401864538|winner|home|||": "Air Force beat Army 24-21 last week as a model underdog; the model's 21.1 margin here is 8.6 points above Vegas's 12.5.",
-    "College|likely|401858519|winner|home|||": "The model has Iowa by 26.6 against Vegas's 17.5, the biggest margin gap among the top winners; the picks rest on the model being right about a huge favorite.",
-    "College|likely|401871061|winner|home|||": "The model has Liberty by 27.3 against Vegas's 21, and its total is 6.3 above Vegas's; Liberty won last week's meeting with New Mexico State 30-14."
+    "College|risky|401856857|winner|away|||": "The model and Vegas split on this game, and the news leans toward Arizona State: UCF is missing its top RB and three DBs, though a freshman QB and a late flight cut the other way.",
+    "College|likely|401856883|winner|home|||": "Georgia's starting center Drew Bobo is questionable, a small flag on a 16.5-point favorite that also faces a strong Missouri run defense.",
+    "College|risky|401856863|winner|away|||": "Texas Tech is down WR Coy Eakin and RB Quinten Joyner, which is a risk for an underdog pick.",
+    "College|value|401856863|total|under|||73.5": "Both teams have skill-position or depth injuries, which fits an under, but the model's edge is only about 51% against 52.4% needed.",
+    "College|value|401858519|spread|away|||17.5": "The model has Iowa by 26.6 against a 17.5 line, so this Purdue pick runs against the model's own margin; Purdue also just fired its defensive coordinator.",
+    "College|likely|401858519|winner|home|||": "Iowa is missing OL Cael Winter and RB Kamari Moulton, but nothing suggests a QB change.",
+    "College|risky|401862828|winner|away|||": "Tulane's QB is unclear, and Rice has lost 8 of 9, so this underdog pick carries real uncertainty.",
+    "College|risky|401856885|winner|away|||": "WR Cam Coleman is back for Texas but likely limited by a shoulder issue, and LSU's pass rush faces a QB sacked 27 times.",
+    "College|likely|401864538|winner|home|||": "Model 90% against Vegas 82% is an 8-point gap on a 14-point spread; I found no news to explain it.",
+    "College|likely|401871061|winner|home|||": "The model's 27.3-point margin is well above Vegas's 21; no news found either way."
    },
-   "recap": "Week 11 results shown (8 games) went well on winners and badly against the spread. The model picked 7 of 8 winners (only Ohio at Miami (OH) missed, where it also disagreed with Vegas), but it was 1-7 against the spread and 4-3 on totals. The favorite covered in 7 of 8, and the model was usually on the smaller-margin side (Louisiana, Memphis, Central Michigan, Western Michigan, Buffalo). Season record is 161 of 242 on winners, 112-124-4 against the spread, and 109-128 on totals.",
+   "recap": "Week 11 results so far went well on winners and badly against the spread. The model picked 8 of 11 winners right, but was 1-10 against the spread. Houston, UCLA, Pittsburgh and Bowling Green were favored by the model by more than Vegas, and all four failed to cover. Over/under was 6-4 with one no pick. Week 10 reviews again put efficiency first in most big misses (Wyoming, Texas State, Utah State, Oklahoma).",
    "lessons": [
     {
      "lesson": "The 'model total 3+ above Vegas means the over hits' pattern does not hold up, and the model's totals picks overall have lost more than they won.",
-     "evidence": "Weeks 8-10: over hit in about 16 of 39 such games (41%). Season totals picks are now 109-128 (46%); the Week 11 results shown went 4-3 (Memphis, Ohio, Bowling Green, Western Michigan overs hit; Central Michigan, Buffalo, Toledo missed). Louisiana had no pick.",
+     "evidence": "Weeks 8-10: over hit in about 16 of 39 such games (41%). Season totals picks are 111-129 (46%). The 11 Week 11 results shown went 6-4 on totals picks (Louisiana had no pick), a better week but a small sample.",
      "status": "worth testing",
      "test": "On past seasons, group games by model total minus Vegas total (0-3, 3-6, 6+) and check how often the over hits in each group. Also compare the model's and Vegas's average total error. Need 20+ games per group.",
      "first_noted": "2026-10-17",
@@ -499,22 +442,37 @@
       "bet": "model_side_total"
      },
      "test_result": {
-      "verdict": "couldn't test",
-      "note": "No game history from this run.",
-      "periods": null,
-      "tested": "2026-11-13T17:42-05:00"
+      "verdict": "doesn't hold up",
+      "note": "Won 51.4% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
+      "periods": [
+       {
+        "label": "2010\u20132019",
+        "games": 0,
+        "wins": 0,
+        "pushes": 0,
+        "rate": null
+       },
+       {
+        "label": "2020\u20132025",
+        "games": 2361,
+        "wins": 1213,
+        "pushes": 27,
+        "rate": 0.514
+       }
+      ],
+      "tested": "2026-11-14T13:46-05:00"
      }
     },
     {
      "lesson": "Big misses are spread across several causes, but efficiency still leads.",
-     "evidence": "Week 10, 26 of the 40 results shown missed by 8+ points: efficiency first in 14, finishing drives 5, turnovers 4, nothing stood out 2, defensive/return touchdowns 1. Week 9 had efficiency first in 7 of 26; Week 8 in 15 of 25. Week 11 results had no reviews yet. Efficiency is measured after the game, so it partly restates the miss.",
+     "evidence": "Week 10, 26 of the 40 results shown missed by 8+ points: efficiency first in 14, finishing drives 5, turnovers 4, nothing stood out 2, defensive/return touchdowns 1. Week 9 had efficiency first in 7 of 26; Week 8 in 15 of 25. Week 11 results still had no reviews. Efficiency is measured after the game, so it partly restates the miss.",
      "status": "worth testing",
      "test": "On past seasons, check whether a team's success rate in prior games predicts the model's error next game. Also compare turnover margin, defensive/return touchdowns and points per trip inside the 40 with long-run averages, to see if misses lean one way or are random.",
      "first_noted": "2026-10-17"
     },
     {
      "lesson": "When the model picks a different winner than Vegas, this season has gone badly, but past seasons say the model's side holds up.",
-     "evidence": "This season about 4 of 14 right (earlier 4 of 12; Week 11 added Ohio-Miami (OH), Miami (OH) won 34-17, and Week 10 had Western Kentucky-Middle Tennessee, Middle Tennessee won 51-42; both went to Vegas). Built-in test: the model's side won 47% in 2020-2025 against Vegas's 41%. Eight such games this week (Auburn, Syracuse, Wake Forest, UAB, Arkansas State, Arizona State, Ole Miss, App State), so mo\u2026",
+     "evidence": "This season about 4 of 14 right, with no new graded games since last run (Ohio-Miami (OH) and Western Kentucky-Middle Tennessee both went to Vegas). Three such games this week (Arizona State at UCF, Ole Miss at Oklahoma, App State at Marshall). Built-in test: the model's side won 47% in 2020-2025 against Vegas's 41%, but that test could not run this time.",
      "status": "watching",
      "test": "On past seasons, list games where the model and Vegas disagree on the winner, then compare the model's win rate with Vegas's. Need 20+ games.",
      "first_noted": "2026-10-17",
@@ -529,36 +487,53 @@
       "bet": "model_side_winner"
      },
      "test_result": {
-      "verdict": "couldn't test",
-      "note": "No game history from this run.",
-      "periods": null,
-      "tested": "2026-11-13T17:42-05:00"
+      "verdict": "holds up",
+      "note": "Won 47% in 2020\u20132025 when Vegas's chances said 41%. Those chances have the bookmaker's cut removed; a real bet pays it, which eats a couple of points of that edge.",
+      "periods": [
+       {
+        "label": "2010\u20132019",
+        "games": 410,
+        "wins": 189,
+        "pushes": 0,
+        "rate": 0.461,
+        "vegas": 0.423
+       },
+       {
+        "label": "2020\u20132025",
+        "games": 379,
+        "wins": 178,
+        "pushes": 0,
+        "rate": 0.47,
+        "vegas": 0.413
+       }
+      ],
+      "tested": "2026-11-14T13:46-05:00"
      }
     },
     {
      "lesson": "The 'Best value against the sportsbook' list has been weak.",
-     "evidence": "Season: 12 of 30 hit against 15.3 expected, at -7.09 units. The edges are thin (about 51% against 52.4% needed), so the model's own chance is below break-even on all five picks this week. Two of this week's spread picks (San Jos\u00e9 State +12.5, Purdue +17.5) sit against the model's own margin (Air Force by 21.1, Iowa by 26.6), so the cover chances need checking.",
+     "evidence": "Season: 12 of 30 hit against 15.3 expected, at -7.09 units. No new results since last run. Edges are thin (about 51% against 52.4% needed), so the model's own chance is below break-even on all five picks this week. Purdue +17.5 sits against the model's own Iowa by 26.6.",
      "status": "worth testing",
      "test": "On past seasons, bucket the model's spread and total picks by edge size and compare hit rates with the 52.4% break-even. Check that each pick's cover chance matches the model's own margin. Need 20+ games per bucket.",
      "first_noted": "2026-10-24"
     },
     {
      "lesson": "Underdog picks have hit a bit less often than the model expected, but long prices have kept units positive.",
-     "evidence": "Season: 10 of 29 hit against 11.5 expected, at +1.56 units. No new underdog results since last run. A few hits swing the units a lot, which shows how much luck is in this list.",
+     "evidence": "Season: 10 of 29 hit against 11.5 expected, at +1.56 units. No new underdog results since last run. A few hits swing the units a lot, so there is much luck in this list.",
      "status": "worth testing",
      "test": "On past seasons, compare predicted chance with actual win rate for the model's underdog picks, in buckets of model chance (under 35%, 35-45%, 45%+). Need 20+ picks per bucket.",
      "first_noted": "2026-10-24"
     },
     {
      "lesson": "The 'Most likely winners' list has landed close to the model's own chances.",
-     "evidence": "Season: 23 of 25 hit against 22.4 expected, at +0.49 units (was 22 of 24; 1 of 1 new). Prices are very short, so one miss costs a lot.",
+     "evidence": "Season: 23 of 25 hit against 22.4 expected, at +0.49 units. No new results since last run. Prices are very short, so one miss costs a lot.",
      "status": "worth testing",
      "test": "On past seasons, bucket the model's top win chances (90%+, 85-90%) and compare with actual win rate and with Vegas's no-vig chance. Need 20+ games per bucket.",
      "first_noted": "2026-10-27"
     },
     {
      "lesson": "The model's spread misses are slightly larger than Vegas's over the season, and favorites have covered a lot lately.",
-     "evidence": "Season (about 242 games): average spread miss 12.4 for the model against 11.8 for Vegas, a 0.6 gap. Winners right in 161 of 242 (66.5%), spread record 112-124-4. In the 8 Week 11 results shown the model was 1-7 against the spread and the Vegas favorite covered in 7 of 8.",
+     "evidence": "Season (245 games): average spread miss 12.4 for the model against 11.8 for Vegas. Winners right 162 of 245 (66.1%), spread record 112-127-4. In the 11 Week 11 results shown the model was 1-10 against the spread and the Vegas favorite covered in 7 of 11 (Houston, UCLA, Pittsburgh and Bowling Green favorites did not).",
      "status": "worth testing",
      "test": "On past seasons, compare the model's and Vegas's average spread error. Then test whether averaging the model's margin and Vegas's margin beats either alone, whether the gap changes by week of season, and whether favorites cover more often in November.",
      "first_noted": "2026-10-27",
@@ -573,15 +548,30 @@
       "bet": "favorite_spread"
      },
      "test_result": {
-      "verdict": "couldn't test",
-      "note": "No game history from this run.",
-      "periods": null,
-      "tested": "2026-11-13T17:42-05:00"
+      "verdict": "doesn't hold up",
+      "note": "Won 50.4% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
+      "periods": [
+       {
+        "label": "2010\u20132019",
+        "games": 2389,
+        "wins": 1217,
+        "pushes": 42,
+        "rate": 0.509
+       },
+       {
+        "label": "2020\u20132025",
+        "games": 1964,
+        "wins": 990,
+        "pushes": 29,
+        "rate": 0.504
+       }
+      ],
+      "tested": "2026-11-14T13:46-05:00"
      }
     },
     {
-     "lesson": "When the model's margin for a favorite is 3+ points bigger than Vegas's, it has covered more often than not in the recent results, which clashes with the built-in test.",
-     "evidence": "By my count in the Week 10-11 results shown, about 9 of 14 such games covered (Toledo, Liberty, Louisville, Jacksonville State, Boise State, North Texas, UAB, Wake Forest, Arizona State; Navy, Ohio State, Kansas, Mississippi State, Hawai'i did not). Under 20 games, and the built-in 2020-2025 test says the model's side on 3+ point gaps won only 49.0%. Seven games this week fit (Iowa, Liberty, Air\u2026",
+     "lesson": "When the model's margin for a favorite is 3+ points bigger than Vegas's, the recent record is mixed, and the newest games went against it.",
+     "evidence": "By my count, about 9 of 14 such games covered in Weeks 10-11 earlier (Toledo, Liberty, Louisville, Jacksonville State, Boise State, North Texas, UAB, Wake Forest, Arizona State). The rest of Week 11 adds Houston, UCLA and Bowling Green as misses and Toledo as a hit, so roughly 10 of 18 overall. Under 20 games. Several games this week fit (Iowa, Liberty, Air Force, Georgia).",
      "status": "watching",
      "test": "On past seasons, take games where the model's margin for the favorite exceeds Vegas's by 3+ and check how often the favorite covers, split by size of spread and by week. Need 20+ games per group.",
      "first_noted": "2026-11-13",
@@ -601,15 +591,30 @@
       "bet": "model_side_spread"
      },
      "test_result": {
-      "verdict": "couldn't test",
-      "note": "No game history from this run.",
-      "periods": null,
-      "tested": "2026-11-13T17:42-05:00"
+      "verdict": "doesn't hold up",
+      "note": "Won 48.5% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
+      "periods": [
+       {
+        "label": "2010\u20132019",
+        "games": 1673,
+        "wins": 820,
+        "pushes": 25,
+        "rate": 0.49
+       },
+       {
+        "label": "2020\u20132025",
+        "games": 1349,
+        "wins": 654,
+        "pushes": 24,
+        "rate": 0.485
+       }
+      ],
+      "tested": "2026-11-14T13:46-05:00"
      }
     }
    ]
   }
  },
- "updated": "2026-11-13T17:40-05:00",
+ "updated": "2026-11-14T13:45-05:00",
  "model": "claude-sonnet-5-5"
 }
