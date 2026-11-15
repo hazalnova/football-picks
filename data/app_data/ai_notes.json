@@ -2,68 +2,132 @@
  "kind": "ai_notes",
  "leagues": {
   "NFL": {
-   "checked": "2026-11-15T12:42-05:00",
+   "checked": "2026-11-15T12:45-05:00",
    "season": 2026,
    "week": 10,
    "news": [
+    {
+     "game_id": "2026_10_HOU_CLE",
+     "items": [
+      "NFL|value|2026_10_HOU_CLE|total|over|||40.5",
+      "NFL|risky|2026_10_HOU_CLE|winner|home|||"
+     ],
+     "headline": "Texans thin on defense and at WR; Watson back for Browns",
+     "detail": "Nov 15: Danielle Hunter and Azeez Al-Shaair are out for Houston, and Will Anderson Jr. was a concern. CBS lists WR Marvin Harrison Jr. out. Watson cleared concussion protocol, and Denzel Boston was expected to play. Most expert picks still lean Houston, so this is no clear help for the model's CLE side.",
+     "impact": "worth watching",
+     "sources": [
+      "https://sports.yahoo.com/articles/concerning-emerges-texans-ahead-week-125719640.html",
+      "https://www.cbssports.com/nfl/news/nfl-week-10-inactives-injury-tracker-latest-news-updates/live/",
+      "https://clutchpoints.com/nfl/cleveland-browns/browns-news-deshaun-watson-love-final-denzel-boston-week-10-injury-update-texans"
+     ]
+    },
     {
      "game_id": "2026_10_KC_ATL",
      "items": [
       "NFL|props_likely|2026_10_KC_ATL|prop|at least|00-0038134|rushing_yards|60.0",
       "NFL|props_risky|2026_10_KC_ATL|prop|at least|00-0038134|rushing_yards|100.0"
      ],
-     "headline": "Chiefs RB Kenneth Walker III ruled out vs. Falcons",
-     "detail": "Walker tweaked his groin and missed Friday's practice. CBS Sports and NBC Sports report the Chiefs ruled him out on Saturday (Nov. 14). Rookie Emmett Johnson is next in line, with Jaydn Ott questionable. Both Walker rushing picks (60+ and 100+ yards) look dead.",
+     "headline": "Kenneth Walker III is out for Chiefs at Falcons",
+     "detail": "Nov 15: The Chiefs made Walker (groin) inactive and he misses his first game of the season. Rookie Emmett Johnson steps in as the lead back. Both Walker milestone picks cannot hit.",
      "impact": "hurts the pick",
      "sources": [
-      "https://www.cbssports.com/nfl/news/nfl-week-10-injury-report-chiefs-kenneth-walker-aj-brown/",
-      "https://nbcsports.com/fantasy/football/news/nfl-week-10-injury-report-pats-backfield-in-flux-plus-gardner-minshew-michael-wilson-puka-nacua-injuries"
+      "https://www.nbcsports.com/fantasy/football/player-news/2026-11-15/kenneth-walker-headlines-chiefs-week-10-inactives",
+      "https://sports.yahoo.com/articles/falcons-vs-chiefs-live-updates-150043510.html",
+      "https://www.cbssports.com/nfl/news/nfl-week-10-inactives-injury-tracker-latest-news-updates/live/"
      ]
     },
     {
      "game_id": "2026_10_KC_ATL",
      "items": [
-      "NFL|value|2026_10_KC_ATL|total|under|||47.5",
-      "NFL|risky|2026_10_KC_ATL|winner|home|||"
+      "NFL|risky|2026_10_KC_ATL|winner|home|||",
+      "NFL|value|2026_10_KC_ATL|total|under|||47.5"
      ],
-     "headline": "Mahomes practiced fully; Kelce and Rice also on track",
-     "detail": "Mahomes (knee/elbow) was a full participant all week, per Nov. 14 reports. NBC Sports says pain management could cut his throwing volume. Losing Walker may make Kansas City pass more.",
-     "impact": "worth watching",
+     "headline": "Chiefs lose their top rusher, which helps Atlanta's side",
+     "detail": "Nov 15: With Walker out, Kansas City's backfield depth behind Emmett Johnson is thin, per local coverage. That may slow the Chiefs' ground game. The model's numbers did not account for it.",
+     "impact": "helps the pick",
      "sources": [
-      "https://sports.yahoo.com/articles/chiefs-reveal-final-injury-report-210557195.html",
-      "https://nbcsports.com/fantasy/football/news/nfl-week-10-injury-report-pats-backfield-in-flux-plus-gardner-minshew-michael-wilson-puka-nacua-injuries"
+      "https://atozsports.com/nfl/kansas-city-chiefs-news/chiefs-inactive-players-week-10-falcons/"
      ]
     },
     {
-     "game_id": "2026_10_HOU_CLE",
+     "game_id": "2026_10_BUF_NYJ",
      "items": [
-      "NFL|risky|2026_10_HOU_CLE|winner|home|||",
-      "NFL|value|2026_10_HOU_CLE|total|over|||40.5"
+      "NFL|props_likely|2026_10_BUF_NYJ|prop|at least|00-0037248|rushing_yards|60.0",
+      "NFL|props_risky|2026_10_BUF_NYJ|prop|at least|00-0037248|rushing_yards|100.0",
+      "NFL|likely|2026_10_BUF_NYJ|winner|away|||",
+      "NFL|value|2026_10_BUF_NYJ|spread|away|||-8.5"
      ],
-     "headline": "Watson cleared and starting for CLE; HOU defense thin",
-     "detail": "Deshaun Watson cleared concussion protocol and starts for Cleveland. He is the NFL's most-sacked QB (33), facing a Houston defense that leads the league in sacks. Rookie WR Denzel Boston (toe) was expected to play. Houston has Danielle Hunter and Azeez Al-Shaair out, and Will Anderson Jr. is a concern. Vegas favors HOU by 4.5 and the model favors CLE, so this is a model-vs-Vegas split with no new\u2026",
-     "impact": "hurts the pick",
+     "headline": "Josh Allen is fine; Cook on a seven-game 75+ yard run",
+     "detail": "Nov 15: Buffalo elevated QB Shane Buechele, but Josh Allen is not hurt and is set to start. Spencer Brown, listed doubtful, was reported active. Cook has rushed for 75+ yards in seven straight games. A Jets-side preview still expects Buffalo to win a close shootout.",
+     "impact": "helps the pick",
      "sources": [
-      "https://clutchpoints.com/nfl/cleveland-browns/browns-news-deshaun-watson-love-final-denzel-boston-week-10-injury-update-texans",
-      "https://sports.yahoo.com/articles/concerning-emerges-texans-ahead-week-125719640.html",
-      "https://sports.yahoo.com/articles/texans-vs-browns-week-10-203718230.html"
+      "https://www.si.com/nfl/bills/onsi/transactions-week-10-why-did-bills-elevate-qb-shane-buechele-is-josh-allen-okay-to-face-jets",
+      "https://heavy.com/sports/nfl/buffalo-bills/qb-decision-surprise-move-jets/",
+      "https://sports.yahoo.com/articles/jets-vs-bills-preview-prediction-120000545.html"
+     ]
+    },
+    {
+     "game_id": "2026_10_LAC_BAL",
+     "items": [
+      "NFL|likely|2026_10_LAC_BAL|winner|home|||"
+     ],
+     "headline": "Brissett makes first Ravens start on four days of practice",
+     "detail": "Nov 13-14: Jacoby Brissett starts Monday after the Ravens lost Lamar Jackson and Tyler Huntley to long-term injuries. The Ravens have not topped 13 points in four straight games. Justin Herbert is expected to play despite a finger injury. The Chargers are 0-8.",
+     "impact": "worth watching",
+     "sources": [
+      "https://www.espn.com/nfl/story/_/id/50464938/ravens-qb-brissett-immersed-crash-course-chargers",
+      "https://russellstreetreport.com/2026/11/13/street-talk/ravens-vs-chargers-2026/",
+      "https://yournews.com/2026/11/14/7267477/ravens-seek-fast-start-from-jacoby-brissett-vs-winless-chargers/"
      ]
     },
     {
      "game_id": "2026_10_LA_ARI",
      "items": [
       "NFL|likely|2026_10_LA_ARI|winner|away|||",
-      "NFL|value|2026_10_LA_ARI|total|over|||38.5",
+      "NFL|value|2026_10_LA_ARI|total|over|||38.5"
+     ],
+     "headline": "Rams without Nacua and Adams; Cardinals start rookie Beck",
+     "detail": "Nov 13-15: Puka Nacua is on IR and Davante Adams is on IR. Steve Avila is out, while Matthew Stafford practiced fully. Arizona starts rookie Carson Beck in his first start and has lost several receivers. Both offenses are short on weapons, which sits oddly with the model's 44.8 total against Vegas's 38.5.",
+     "impact": "hurts the pick",
+     "sources": [
+      "https://sports.yahoo.com/articles/rams-week-10-injury-report-225727210.html",
+      "https://www.prizepicks.com/playbook-article/nfl-injury-report-week-10-whos-in-whos-out-2026",
+      "https://www.therams.com/news/rams-injury-report-week-10-2026-at-cardinals-trent-mcduffie-steve-avila"
+     ]
+    },
+    {
+     "game_id": "2026_10_LA_ARI",
+     "items": [
       "NFL|props_likely|2026_10_LA_ARI|prop|at least|00-0037744|receptions|5.0"
      ],
-     "headline": "Cardinals start rookie Beck with a thin line and WR group; Rams lose Nacua",
-     "detail": "Carson Beck makes his first start with center Hjalte Froholdt in concussion protocol, guards hurt and several receivers on IR. Rams WR Puka Nacua is on IR and OL Steve Avila is out. Matthew Stafford is healthy. Trey McBride is the clear focal point for Beck. The Rams are missing Nacua, which could cap the scoring.",
+     "headline": "McBride is Arizona's clear focal point with WRs out",
+     "detail": "Nov 13: McBride has no injury designation. With several Cardinals receivers on IR, he is the main target for Beck. He caught 7 passes for 54 yards in Week 9.",
+     "impact": "helps the pick",
+     "sources": [
+      "https://www.prizepicks.com/playbook-article/nfl-injury-report-week-10-whos-in-whos-out-2026",
+      "https://www.enforcethesport.com/blog/nfl-week-10-2026-rams-vs-cardinals-prediction-key-matchups-and-injury-updates"
+     ]
+    },
+    {
+     "game_id": "2026_10_SF_DAL",
+     "items": [
+      "NFL|props_likely|2026_10_SF_DAL|prop|at least|00-0036358|receiving_yards|50.0",
+      "NFL|props_likely|2026_10_SF_DAL|prop|at least|00-0036358|receptions|5.0",
+      "NFL|props_risky|2026_10_SF_DAL|prop|at least|00-0036358|receiving_yards|100.0",
+      "NFL|props_risky|2026_10_SF_DAL|prop|at least|00-0036358|receptions|8.0",
+      "NFL|props_likely|2026_10_SF_DAL|prop|at least|00-0033077|passing_yards|225.0",
+      "NFL|props_risky|2026_10_SF_DAL|prop|at least|00-0033077|passing_yards|300.0",
+      "NFL|props_risky|2026_10_SF_DAL|prop|at least|00-0037834|passing_yards|300.0",
+      "NFL|value|2026_10_SF_DAL|total|under|||55.5"
+     ],
+     "headline": "Cowboys get Pickens back; Trent Williams questionable for 49ers",
+     "detail": "Nov 13-14: George Pickens was reported back for Dallas. TE Jake Ferguson is out. Lamb had 10 catches for 195 yards last week without Pickens, so his targets could be shared. For SF, Mike Evans is out and Deebo Samuel returns. Trent Williams and four CBs are questionable.",
      "impact": "worth watching",
      "sources": [
-      "https://www.azcardinals.com/news/injury-report-week-10-vs-rams",
+      "https://insidethestar.com/week-10-injury-report-cowboys-injuries-continue-to-pile-up-on-defense",
       "https://www.prizepicks.com/playbook-article/nfl-injury-report-week-10-whos-in-whos-out-2026",
-      "https://clutchpoints.com/nfl/los-angeles-rams/rams-week-10-injury-report-vs-cardinals-puka-nacua-is-on-ir-so-who-will-step-up-for-la",
-      "https://www.therams.com/news/rams-injury-report-week-10-2026-at-cardinals-trent-mcduffie-steve-avila"
+      "https://www.49erswebzone.com/articles/205119-cowboys-injury-report-williams-questionable/",
+      "https://sports.yahoo.com/articles/49ers-list-7-players-questionable-230102427.html"
      ]
     },
     {
@@ -73,99 +137,51 @@
       "NFL|props_likely|2026_10_SEA_LV|prop|at least|00-0038543|receiving_yards|50.0",
       "NFL|props_risky|2026_10_SEA_LV|prop|at least|00-0038543|receiving_yards|100.0"
      ],
-     "headline": "Seahawks' Lock starts hurt; Smith-Njigba is fully cleared",
-     "detail": "Drew Lock was limited all week with elbow and oblique injuries but has no game designation and starts for Sam Darnold. Jaxon Smith-Njigba returned to full practice and is off the report. Leonard Williams is out. Las Vegas starts rookie Fernando Mendoza and its defense has allowed 30+ points six straight games.",
+     "headline": "Drew Lock cleared to start for Seattle; JSN a full participant",
+     "detail": "Nov 13-14: Lock (elbow, oblique) has no injury designation and starts for Darnold. Jaxon Smith-Njigba's Wednesday absence was a rest day and he practiced fully. With Lock last week he had 7 catches for 51 yards, a season low.",
      "impact": "worth watching",
      "sources": [
+      "https://nfl.com/news/drew-lock-no-injury-designation-seahawks-raiders",
       "https://www.seahawks.com/news/week-10-injury-report-seahawks-at-raiders",
-      "https://sports.yahoo.com/articles/jaxon-smith-njigba-set-play-224224428.html",
-      "https://clutchpoints.com/nfl/las-vegas-raiders/seahawks-week-10-injury-report-vs-raiders-leonard-williams-injury-is-good-news-for-fernando-mendoza",
-      "https://sports.yahoo.com/articles/seahawks-vs-raiders-prediction-pick-144504885.html"
-     ]
-    },
-    {
-     "game_id": "2026_10_BUF_NYJ",
-     "items": [
-      "NFL|likely|2026_10_BUF_NYJ|winner|away|||",
-      "NFL|value|2026_10_BUF_NYJ|spread|away|||-8.5",
-      "NFL|props_likely|2026_10_BUF_NYJ|prop|at least|00-0037248|rushing_yards|60.0",
-      "NFL|props_risky|2026_10_BUF_NYJ|prop|at least|00-0037248|rushing_yards|100.0"
-     ],
-     "headline": "Bills RT Spencer Brown doubtful; Cook faces weak Jets run D",
-     "detail": "Spencer Brown (ankle) is doubtful and Josh Allen was sacked four times last week. Jets rookie David Bailey has 7.5 sacks. James Cook ran 31 times for 107 yards last week against a Jets run defense ranked 26th, which helps his rushing picks. Garrett Wilson is expected back for the Jets.",
-     "impact": "worth watching",
-     "sources": [
-      "https://www.si.com/nfl/bills/onsi/injury-report-week-10-bills-final-spencer-brown-doubtful-dalton-kincaid-cleared-vs-jets",
-      "https://sports.yahoo.com/articles/3-keys-bills-win-jets-161305915.html",
-      "https://athlonsports.com/nfl/new-york-jets-appear-locked-and-loaded-for-buffalo-bills"
-     ]
-    },
-    {
-     "game_id": "2026_10_SF_DAL",
-     "items": [
-      "NFL|props_likely|2026_10_SF_DAL|prop|at least|00-0033077|passing_yards|225.0",
-      "NFL|props_likely|2026_10_SF_DAL|prop|at least|00-0036358|receiving_yards|50.0",
-      "NFL|props_likely|2026_10_SF_DAL|prop|at least|00-0036358|receptions|5.0",
-      "NFL|value|2026_10_SF_DAL|total|under|||55.5"
-     ],
-     "headline": "49ers: Trent Williams and four CBs questionable; Evans out",
-     "detail": "Trent Williams (shoulder) and CBs Renardo Green, Nate Hobbs, Deommodore Lenoir and Upton Stout are questionable. Mike Evans is out and Deebo Samuel is back. Dallas lists TE Jake Ferguson as questionable. Prescott and Purdy are not on the injury report. Weak San Francisco corners would help Lamb and Prescott's passing picks, and a missing Williams would hurt Purdy.",
-     "impact": "worth watching",
-     "sources": [
-      "https://www.49erswebzone.com/articles/205119-cowboys-injury-report-williams-questionable/",
-      "https://sports.yahoo.com/articles/49ers-list-7-players-questionable-230102427.html"
-     ]
-    },
-    {
-     "game_id": "2026_10_LAC_BAL",
-     "items": [
-      "NFL|likely|2026_10_LAC_BAL|winner|home|||"
-     ],
-     "headline": "Brissett makes first Ravens start; Herbert expected to play",
-     "detail": "Jacoby Brissett was traded to Baltimore last week and starts after four days of practice, with Lamar Jackson and Tyler Huntley out. The Ravens haven't topped 13 points in four straight games. Justin Herbert's finger X-rays were negative and Jim Harbaugh said he will play. The Chargers are 0-8 and the Ravens are 4-5. The model likes Baltimore more than Vegas does (BAL -4.5).",
-     "impact": "worth watching",
-     "sources": [
-      "https://www.nationalfootballpost.com/2026/11/13/ravens-seek-fast-start-from-jacoby-brissett-vs-winless-chargers",
-      "https://russellstreetreport.com/2026/11/13/street-talk/ravens-vs-chargers-2026/",
-      "https://baltimorechronicle.com/sport/ravens-vs-chargers-monday-night-football-time-channel/"
+      "https://www.espn.com/nfl/player/_/id/4430878/jaxon-smith-njigba"
      ]
     },
     {
      "game_id": "2026_10_PIT_CIN",
      "items": [
-      "NFL|risky|2026_10_PIT_CIN|winner|away|||",
       "NFL|props_likely|2026_10_PIT_CIN|prop|at least|00-0036442|passing_yards|225.0",
-      "NFL|props_risky|2026_10_PIT_CIN|prop|at least|00-0036900|receptions|8.0"
+      "NFL|props_risky|2026_10_PIT_CIN|prop|at least|00-0036900|receptions|8.0",
+      "NFL|risky|2026_10_PIT_CIN|winner|away|||"
      ],
-     "headline": "Bengals missing a few depth players; Burrow and Chase not listed",
-     "detail": "Cincinnati ruled out S Kyle Dugger, CB Jalen Davis, WR Andrei Iosivas and G Brian Parker II. Burrow and Chase carry no designation. For Pittsburgh, DT Derrick Harmon (foot) is questionable and TE Pat Freiermuth was added with an illness. Burrow has 2,386 yards and 23 TDs this season.",
-     "impact": "worth watching",
+     "headline": "Burrow healthy and leading NFL in passing; Risner on injury report",
+     "detail": "Nov 14-15: Burrow averages 298.3 passing yards per game with no injury flag. Bengals lineman Risner is on the injury report. Pittsburgh's pass rush with T.J. Watt is the main threat. Steelers lack receivers, with Pittman and Roman Wilson on IR.",
+     "impact": "helps the pick",
      "sources": [
-      "https://www.bengals.com/news/bengals-steelers-week-10-2026-injury-report",
-      "https://www.steelers.com/news/week-10-injury-report-bengals-x6285",
-      "https://www.si.com/nfl/bengals/onsi/bengals-place-key-starter-on-injury-report-ahead-of-sunday-night-game-vs-steelers"
+      "https://sports.yahoo.com/articles/watch-bengals-steelers-164516092.html",
+      "https://www.si.com/nfl/bengals/onsi/bengals-place-key-starter-on-injury-report-ahead-of-sunday-night-game-vs-steelers",
+      "https://heavy.com/sports/nfl/pittsburgh-steelers/steelers-without-key-offensive-player-bengals/"
      ]
     }
    ],
    "item_notes": {
-    "NFL|props_likely|2026_10_KC_ATL|prop|at least|00-0038134|rushing_yards|60.0": "Kenneth Walker III was ruled out Saturday with a groin injury, so this pick can't hit unless he plays.",
-    "NFL|props_risky|2026_10_KC_ATL|prop|at least|00-0038134|rushing_yards|100.0": "Kenneth Walker III was ruled out Saturday with a groin injury, so this big-game pick can't hit unless he plays.",
-    "NFL|risky|2026_10_HOU_CLE|winner|home|||": "The model's pick is against Vegas, and Watson (most-sacked QB in the NFL) faces Houston's sack-heavy defense, so no news backs CLE.",
-    "NFL|likely|2026_10_LA_ARI|winner|away|||": "The model gives the Rams a smaller edge than Vegas does, even with rookie Carson Beck starting behind a banged-up Cardinals line.",
-    "NFL|value|2026_10_LA_ARI|total|over|||38.5": "Both offenses are short-handed (Nacua out for LA, rookie QB and thin WRs for ARI), which is a risk for the over.",
-    "NFL|props_likely|2026_10_LA_ARI|prop|at least|00-0037744|receptions|5.0": "With the Cardinals' other receivers on IR, Trey McBride should be Carson Beck's main target.",
-    "NFL|likely|2026_10_SEA_LV|winner|away|||": "Drew Lock is playing through elbow and oblique injuries, which is the main risk to Seattle.",
-    "NFL|props_likely|2026_10_SEA_LV|prop|at least|00-0038543|receiving_yards|50.0": "Jaxon Smith-Njigba practiced fully and is off the report, and the Raiders' defense has allowed 30+ six straight times.",
-    "NFL|props_likely|2026_10_BUF_NYJ|prop|at least|00-0037248|rushing_yards|60.0": "Cook ran 31 times last week and the Jets rank 26th against the run, but Buffalo may rest him if it gets far ahead.",
-    "NFL|likely|2026_10_LAC_BAL|winner|home|||": "The model is more confident in Baltimore than Vegas is, though Brissett is making his first start for the team after four days of practice."
+    "NFL|props_likely|2026_10_KC_ATL|prop|at least|00-0038134|rushing_yards|60.0": "Kenneth Walker III was made inactive, so this pick cannot hit.",
+    "NFL|props_risky|2026_10_KC_ATL|prop|at least|00-0038134|rushing_yards|100.0": "Kenneth Walker III was made inactive, so this pick cannot hit.",
+    "NFL|risky|2026_10_HOU_CLE|winner|home|||": "The model has CLE by 0.7 while Vegas has HOU by 4.5. Houston is missing Hunter, Al-Shaair and Harrison Jr., but Watson has been sacked a league-high 33 times against Houston's strong pass rush.",
+    "NFL|likely|2026_10_LAC_BAL|winner|home|||": "The model is 3.8 points more bullish on BAL than Vegas, but Brissett has only four days with the offense and Baltimore has scored 13 or fewer in four straight games.",
+    "NFL|likely|2026_10_LA_ARI|winner|away|||": "The model has LA by 7.3 and Vegas by 9.5. In Week 9 the favorite beat the model's smaller margin in most similar games, and the Rams are short on receivers.",
+    "NFL|value|2026_10_LA_ARI|total|over|||38.5": "The model total is 6.3 above Vegas's, but the Rams lost Nacua and Adams and Arizona starts a rookie QB; big total gaps have not paid off in past seasons.",
+    "NFL|props_likely|2026_10_LA_ARI|prop|at least|00-0037744|receptions|5.0": "With Arizona's receivers on IR, McBride is the clear target for rookie Carson Beck, and he caught 7 passes last week.",
+    "NFL|props_likely|2026_10_BUF_NYJ|prop|at least|00-0037248|rushing_yards|60.0": "Cook has 75+ rushing yards in seven straight games, and the Jets allow about 128 rushing yards per game.",
+    "NFL|props_likely|2026_10_SF_DAL|prop|at least|00-0036358|receiving_yards|50.0": "Lamb had 195 yards last week without Pickens; Pickens being back could split targets, though Lamb has a heavy volume role.",
+    "NFL|props_likely|2026_10_SEA_LV|prop|at least|00-0038543|receiving_yards|50.0": "Smith-Njigba had a season-low 51 yards with Drew Lock last week, and Lock starts again; he practiced fully this week."
    },
-   "recap": "Weeks 9 and 10 went well on winners: 14 of 16 graded games picked the right winner (misses were GB over NE and WAS over NYG). Against the spread it was 7-9, because the model kept being off in blowouts like JAX over BAL, HOU over LAC and BUF over MIN, where turnovers and efficiency swung the games. Totals went 10-4, with the over/under right in most games.",
+   "recap": "Results were mixed. The model picked the right winner in 15 of the 17 graded games from Weeks 9 and 10, but it was 7-10 against the spread. The misses were mostly favorites winning by more than the model expected: JAX over BAL by 23, HOU over LAC by 22, BUF over MIN by 17, and SEA over ARI by 14. Turnovers drove several big misses, such as GB-NE, while the HOU-LAC and CIN-ATL misses had no clear stat reason. Overs and unders went about 11-4 in the same stretch.",
    "lessons": [
     {
      "lesson": "When the model picks a different winner than the Vegas favorite, its side wins about as often as Vegas's chances say, which is less than half the time.",
-     "evidence": "2 of 7 graded games this season where the model's side was not the Vegas favorite won. Past-season test: the model's side won 47.4% in 2010-2019 (Vegas 42.9%) and 42.9% in 2020-2025 (Vegas 43.3%), so no edge over Vegas's own chances. HOU at CLE is this week's case, and news (Watson back, Houston's strong pass rush) does not favor the model's side.",
+     "evidence": "2 of 7 graded games this season where the model's side was not the Vegas favorite won. Past-season test: the model's side won 47.4% in 2010-2019 over 361 games (Vegas 42.9%) and 42.9% in 2020-2025 over 217 games (Vegas 43.3%). That means no edge over Vegas's chances, which matches this lesson. HOU at CLE is this week's case: the Texans' defense is hurt, but Watson faces a strong pass rush, so the\u2026",
      "status": "watching",
-     "test": "Check results of the attached check on 2010-2019 and 2020-2025 against Vegas's chances; add up this season's cases until there are 20+.",
+     "test": "Re-run the attached check each season; keep adding this season's cases until 20+ and compare with Vegas's chances.",
      "first_noted": "2026-10-19",
      "check": {
       "when": [
@@ -198,12 +214,12 @@
         "vegas": 0.433
        }
       ],
-      "tested": "2026-11-15T12:43-05:00"
+      "tested": "2026-11-15T12:46-05:00"
      }
     },
     {
      "lesson": "Large gaps between the model's total and Vegas's total have not paid off.",
-     "evidence": "Past-season test says the model's side with a 4+ point gap won 48.3% in 2020-2025 (174 games, 4 pushes), below break-even; no 2010-2019 data. This season, the over/under is 30-24 overall and went 10-4 in the last two weeks, so the small sample does not show the same weakness. This week's LA at ARI (gap 6.3) and KC at ATL (gap 3.6) are big-gap or near-big-gap games.",
+     "evidence": "Past-season test: the model's side with a 4+ point gap won 48.3% in 2020-2025 (174 games, 4 pushes), below break-even; no 2010-2019 data. This season the over/under is 31-24, about 11-4 over the last two weeks, so the small sample does not show the same weakness. LA at ARI (gap 6.3) and SF at DAL (gap 3.7) are this week's big-gap cases, and the Rams' and Cardinals' injuries raise doubts about the\u2026",
      "status": "watching",
      "test": "Compare gap groups under 2, 2-4 and 4+ on past seasons; keep tracking this season's 4+ gap games until 20+.",
      "first_noted": "2026-10-19",
@@ -236,19 +252,19 @@
         "rate": 0.483
        }
       ],
-      "tested": "2026-11-15T12:43-05:00"
+      "tested": "2026-11-15T12:46-05:00"
      }
     },
     {
-     "lesson": "Many big misses come from efficiency swings, which the model can't see before kickoff.",
-     "evidence": "9 of the 16 games where the winner was wrong through Week 9 named efficiency as the main reason (the WAS-NYG miss had no named driver). Newest misses: JAX-BAL off by 17.5 and HOU-LAC by 18.1, with no stat explaining most of it; BUF-MIN was off 15.7 mostly on efficiency and turnovers.",
+     "lesson": "Big misses come from several sources the model can't see before kickoff: efficiency, turnovers and finishing drives.",
+     "evidence": "Through Week 9, 9 of the 16 games with a wrong winner named efficiency as the main reason. In Week 9, 6 of 15 games missed by over 10 points: BUF-MIN (efficiency and turnovers), GB-NE (turnovers), KC-NYJ (finishing drives), JAX-BAL (turnovers plus 12 unexplained points), and HOU-LAC and CIN-ATL (no stat stood out). Efficiency was the main driver in only one of those six, so turnovers and unexplai\u2026",
      "status": "watching",
-     "test": "On past seasons, measure how often big spread misses (over 8 points) are driven by efficiency versus turnovers. Check whether the model's misses are larger than Vegas's overall.",
+     "test": "On past seasons, measure how often big spread misses (over 8 points) are driven by efficiency, turnovers or finishing drives. Check whether the model's misses are larger than Vegas's overall.",
      "first_noted": "2026-10-19"
     },
     {
      "lesson": "Long-shot picks (underdog winners and big-game props) hit a bit below the model's chances and lose units.",
-     "evidence": "Underdog picks are 5 of 19 against 7.7 expected (-6.54 units). Big-game picks are 12 of 36 against 11.8 expected (-8.99 units), so the loss is mostly from prices. Milestone picks are 31 of 40 against 29.9 expected (-3.29 units).",
+     "evidence": "Underdog picks are 5 of 19 against 7.7 expected (-6.54 units). Big-game picks are 12 of 36 against 11.8 expected (-8.99 units), so that loss is mostly from prices. Milestone picks are 31 of 40 against 29.9 expected (-3.29 units).",
      "status": "worth testing",
      "test": "On past seasons, compare predicted chance with actual hit rate for underdog winners and long-shot props in buckets of model chance. Also check whether prices paid are shorter than fair odds. Needs 20+ picks per bucket.",
      "first_noted": "2026-10-19"
@@ -262,7 +278,7 @@
     },
     {
      "lesson": "The model's margin errors are larger than Vegas's, and it is below .500 against the spread.",
-     "evidence": "Average spread miss is 9.7 for the model vs 9.0 for Vegas over 56 graded games; the model is 25-31-1 against the spread (7-9 in the last two weeks). Past-season test of the model's spread side: 51.9% in 2010-2019 and 48.9% in 2020-2025 across 1,660 games. That is below the 52.4% break-even, so no edge.",
+     "evidence": "Average spread miss is 9.9 for the model vs 9.2 for Vegas over 57 graded games; the model is 25-32-1 against the spread (7-10 over Weeks 9 and 10). Past-season test of the model's spread side: 51.9% in 2010-2019 and 48.9% in 2020-2025 across 1,660 games in the later period, below the 52.4% break-even, so no edge.",
      "status": "worth testing",
      "test": "Compare average absolute margin error with Vegas's, by week and season, before changing anything.",
      "first_noted": "2026-10-24",
@@ -295,12 +311,12 @@
         "rate": 0.489
        }
       ],
-      "tested": "2026-11-15T12:43-05:00"
+      "tested": "2026-11-15T12:46-05:00"
      }
     },
     {
-     "lesson": "Big gaps between the model and Vegas on games with a QB change are not clearly misses by the model.",
-     "evidence": "Earlier cases: DAL at PHI, PHI at WAS (Hurts on IR) and MIN (Murray out, Wentz in). Past-season test of the model's spread side with a QB change and a 3+ point gap: 54.2% in 2010-2019 (203 games) and 54.4% in 2020-2025 (160 games). That is above break-even but short of the 54.5% needed to count as an edge. This week BAL (Brissett), ARI (Beck), MIA (McCord), SEA (Lock), LV (Mendoza) and CLE (Watso\u2026",
+     "lesson": "Big gaps between the model and Vegas on games with a QB change are not clearly misses by the model, but they are not an edge either.",
+     "evidence": "Past-season test of the model's spread side with a QB change and a 3+ point gap: 54.2% in 2010-2019 (203 games) and 54.4% in 2020-2025 (160 games). That is above the 52.4% break-even but just short of the 54.5% needed to count as an edge. This week's QB changes include BAL (Brissett, first start), ARI (Beck), MIA (McCord), SEA (Lock), LV (Mendoza) and CLE (Watson).",
      "status": "watching",
      "test": "Track this season's cases until 20+; compare the model's margin error in QB-change games with all others.",
      "first_noted": "2026-10-25",
@@ -338,12 +354,12 @@
         "rate": 0.544
        }
       ],
-      "tested": "2026-11-15T12:43-05:00"
+      "tested": "2026-11-15T12:46-05:00"
      }
     },
     {
      "lesson": "Player-prop picks can be spoiled by late inactives that the model does not see.",
-     "evidence": "1 case this week: Kenneth Walker III (L19, L27) was ruled out Saturday after the lists were made. Milestone picks are otherwise 31 of 40 against 29.9 expected, so the effect is small so far.",
+     "evidence": "1 case: Kenneth Walker III (L19, L27) was ruled out before kickoff on Nov 15, so two list items cannot hit. Milestone picks are otherwise 31 of 40 against 29.9 expected, so the effect is small so far.",
      "status": "watching",
      "test": "Track how many graded milestone picks lose because the player did not play, until 20+ cases; compare with the hit rate of picks where the player played.",
      "first_noted": "2026-11-15"
@@ -406,25 +422,10 @@
       "bet": "model_side_total"
      },
      "test_result": {
-      "verdict": "doesn't hold up",
-      "note": "Won 51.4% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
-      "periods": [
-       {
-        "label": "2010\u20132019",
-        "games": 0,
-        "wins": 0,
-        "pushes": 0,
-        "rate": null
-       },
-       {
-        "label": "2020\u20132025",
-        "games": 2361,
-        "wins": 1213,
-        "pushes": 27,
-        "rate": 0.514
-       }
-      ],
-      "tested": "2026-11-15T12:43-05:00"
+      "verdict": "couldn't test",
+      "note": "No game history from this run.",
+      "periods": null,
+      "tested": "2026-11-15T12:46-05:00"
      }
     },
     {
@@ -444,25 +445,10 @@
       "bet": "under"
      },
      "test_result": {
-      "verdict": "doesn't hold up",
-      "note": "Won 49.6% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
-      "periods": [
-       {
-        "label": "2010\u20132019",
-        "games": 2490,
-        "wins": 1274,
-        "pushes": 29,
-        "rate": 0.512
-       },
-       {
-        "label": "2020\u20132025",
-        "games": 1672,
-        "wins": 830,
-        "pushes": 17,
-        "rate": 0.496
-       }
-      ],
-      "tested": "2026-11-15T12:43-05:00"
+      "verdict": "couldn't test",
+      "note": "No game history from this run.",
+      "periods": null,
+      "tested": "2026-11-15T12:46-05:00"
      }
     },
     {
@@ -489,27 +475,10 @@
       "bet": "model_side_winner"
      },
      "test_result": {
-      "verdict": "holds up",
-      "note": "Won 47% in 2020\u20132025 when Vegas's chances said 41%. Those chances have the bookmaker's cut removed; a real bet pays it, which eats a couple of points of that edge.",
-      "periods": [
-       {
-        "label": "2010\u20132019",
-        "games": 410,
-        "wins": 189,
-        "pushes": 0,
-        "rate": 0.461,
-        "vegas": 0.423
-       },
-       {
-        "label": "2020\u20132025",
-        "games": 379,
-        "wins": 178,
-        "pushes": 0,
-        "rate": 0.47,
-        "vegas": 0.413
-       }
-      ],
-      "tested": "2026-11-15T12:43-05:00"
+      "verdict": "couldn't test",
+      "note": "No game history from this run.",
+      "periods": null,
+      "tested": "2026-11-15T12:46-05:00"
      }
     },
     {
@@ -550,30 +519,15 @@
       "bet": "favorite_spread"
      },
      "test_result": {
-      "verdict": "doesn't hold up",
-      "note": "Won 50.4% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
-      "periods": [
-       {
-        "label": "2010\u20132019",
-        "games": 2389,
-        "wins": 1217,
-        "pushes": 42,
-        "rate": 0.509
-       },
-       {
-        "label": "2020\u20132025",
-        "games": 1964,
-        "wins": 990,
-        "pushes": 29,
-        "rate": 0.504
-       }
-      ],
-      "tested": "2026-11-15T12:43-05:00"
+      "verdict": "couldn't test",
+      "note": "No game history from this run.",
+      "periods": null,
+      "tested": "2026-11-15T12:46-05:00"
      }
     }
    ]
   }
  },
- "updated": "2026-11-15T12:42-05:00",
+ "updated": "2026-11-15T12:45-05:00",
  "model": "claude-sonnet-5-5"
 }

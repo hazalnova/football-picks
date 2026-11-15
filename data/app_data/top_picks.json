@@ -1,6 +1,6 @@
 {
  "kind": "top_picks",
- "updated": "2026-11-15T12:42-05:00",
+ "updated": "2026-11-15T12:45-05:00",
  "settings": {
   "list_size": 5,
   "props_per_stat": 2,
@@ -113,10 +113,10 @@
       "stat": null,
       "line": null,
       "chance": 0.706,
-      "vegas_chance": 0.796,
-      "price": -485,
+      "vegas_chance": 0.8,
+      "price": -500,
       "books": null,
-      "edge": -0.123,
+      "edge": -0.127,
       "result": null,
       "actual": null,
       "key": "NFL|likely|2026_10_LA_ARI|winner|away|||"
@@ -337,10 +337,10 @@
       "stat": null,
       "line": null,
       "chance": 0.384,
-      "vegas_chance": 0.343,
-      "price": 180,
+      "vegas_chance": 0.336,
+      "price": 185,
       "books": null,
-      "edge": 0.027,
+      "edge": 0.033,
       "result": null,
       "actual": null,
       "key": "NFL|risky|2026_10_MIA_IND|winner|away|||"

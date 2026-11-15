@@ -1,6 +1,6 @@
 {
  "league": "NFL",
- "updated": "2026-11-15T12:42-05:00",
+ "updated": "2026-11-15T12:45-05:00",
  "season": 2026,
  "week": 10,
  "week_label": "Week 10",
@@ -48,18 +48,18 @@
   {
    "id": "2026_10_NE_DET",
    "kickoff": "2026-11-15T09:30:00-05:00",
-   "status": "in_progress",
+   "status": "final",
    "away": "NE",
    "home": "DET",
    "away_name": "New England Patriots",
    "home_name": "Detroit Lions",
    "neutral": true,
    "model": {
-    "home_margin": 7.3,
-    "home_win": 0.706,
-    "total": 46.3,
-    "over": 0.462,
-    "home_cover": 0.516
+    "home_margin": 1.2,
+    "home_win": 0.535,
+    "total": 49.4,
+    "over": 0.485,
+    "home_cover": 0.481
    },
    "vegas": {
     "home_margin": 2.5,
@@ -70,14 +70,14 @@
     "away_moneyline": 124
    },
    "quarterbacks": {
-    "away": "Tommy DeVito",
+    "away": "Drake Maye",
     "home": "Jared Goff"
    },
-   "qb_notes": {
-    "away": "Tommy DeVito starts (Maye out)",
-    "home": null
-   },
-   "final": null
+   "qb_notes": null,
+   "final": {
+    "away": 10,
+    "home": 35
+   }
   },
   {
    "id": "2026_10_BUF_NYJ",
@@ -267,11 +267,11 @@
    },
    "vegas": {
     "home_margin": 4.5,
-    "home_win": 0.657,
+    "home_win": 0.664,
     "total": 37.5,
     "over": 0.5,
-    "home_moneyline": -218,
-    "away_moneyline": 180
+    "home_moneyline": -225,
+    "away_moneyline": 185
    },
    "quarterbacks": {
     "away": "Kyle McCord",
@@ -335,11 +335,11 @@
    },
    "vegas": {
     "home_margin": -9.5,
-    "home_win": 0.204,
+    "home_win": 0.2,
     "total": 38.5,
     "over": 0.496,
-    "home_moneyline": 370,
-    "away_moneyline": -485
+    "home_moneyline": 380,
+    "away_moneyline": -500
    },
    "quarterbacks": {
     "away": "Matthew Stafford",
@@ -432,7 +432,7 @@
     "home_margin": 2.7,
     "home_win": 0.58,
     "total": 47.7,
-    "over": 0.48,
+    "over": 0.479,
     "home_cover": 0.484
    },
    "vegas": {
@@ -9134,59 +9134,59 @@
  },
  "record": {
   "season": {
-   "games": 57,
+   "games": 58,
    "winners": {
-    "right": 39,
-    "picked": 56
+    "right": 40,
+    "picked": 57
    },
    "ats": {
     "win": 25,
-    "loss": 31,
+    "loss": 32,
     "push": 1
    },
    "over_under": {
-    "win": 30,
+    "win": 31,
     "loss": 24,
     "push": 0
    },
    "spread_miss": {
-    "model": 9.7,
-    "vegas": 9.0,
-    "games": 57
+    "model": 9.9,
+    "vegas": 9.2,
+    "games": 58
    },
    "total_miss": {
-    "model": 10.9,
-    "vegas": 10.4,
-    "games": 57
+    "model": 10.8,
+    "vegas": 10.3,
+    "games": 58
    }
   },
   "weeks": [
    {
     "week": 10,
-    "games": 1,
+    "games": 2,
     "winners": {
-     "right": 0,
-     "picked": 1
+     "right": 1,
+     "picked": 2
     },
     "ats": {
      "win": 1,
-     "loss": 0,
+     "loss": 1,
      "push": 0
     },
     "over_under": {
-     "win": 1,
+     "win": 2,
      "loss": 0,
      "push": 0
     },
     "spread_miss": {
-     "model": 5.1,
-     "vegas": 5.5,
-     "games": 1
+     "model": 14.4,
+     "vegas": 13.8,
+     "games": 2
     },
     "total_miss": {
-     "model": 0.8,
-     "vegas": 3.5,
-     "games": 1
+     "model": 2.6,
+     "vegas": 4.0,
+     "games": 2
     }
    },
    {
@@ -9304,6 +9304,32 @@
   ]
  },
  "results": [
+  {
+   "id": "2026_10_NE_DET",
+   "week": 10,
+   "kickoff": "2026-11-15T09:30:00-05:00",
+   "away": "NE",
+   "home": "DET",
+   "final": {
+    "away": 10,
+    "home": 35
+   },
+   "model": {
+    "home_margin": 1.2,
+    "home_win": 0.535,
+    "total": 49.4
+   },
+   "vegas": {
+    "home_margin": 3.0,
+    "home_win": 0.583,
+    "total": 49.5
+   },
+   "winner": true,
+   "ats": "loss",
+   "over_under": "win",
+   "review": null,
+   "total_review": null
+  },
   {
    "id": "2026_10_WAS_NYG",
    "week": 10,
@@ -10847,19 +10873,19 @@
    ]
   },
   "season": {
-   "games": 57,
-   "winners": 0.684,
+   "games": 58,
+   "winners": 0.69,
    "brier": 0.216,
-   "margin_miss": 9.7,
-   "total_miss": 10.9,
-   "vegas_margin_miss": 9.0,
-   "vegas_total_miss": 10.4,
+   "margin_miss": 9.9,
+   "total_miss": 10.8,
+   "vegas_margin_miss": 9.2,
+   "vegas_total_miss": 10.3,
    "calibration": [
     {
      "label": "50\u201360%",
-     "games": 20,
-     "predicted": 0.55,
-     "actual": 0.65
+     "games": 21,
+     "predicted": 0.549,
+     "actual": 0.667
     },
     {
      "label": "60\u201370%",
@@ -10930,13 +10956,13 @@
    },
    {
     "week": 10,
-    "games": 1,
-    "winners": 0.0,
-    "brier": 0.317,
-    "margin_miss": 5.1,
-    "total_miss": 0.8,
-    "vegas_margin_miss": 5.5,
-    "vegas_total_miss": 3.5
+    "games": 2,
+    "winners": 0.5,
+    "brier": 0.267,
+    "margin_miss": 14.4,
+    "total_miss": 2.6,
+    "vegas_margin_miss": 13.8,
+    "vegas_total_miss": 4.0
    }
   ]
  }
