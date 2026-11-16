@@ -1,6 +1,6 @@
 {
  "league": "NFL",
- "updated": "2026-11-16T12:23-05:00",
+ "updated": "2026-11-16T18:26-05:00",
  "season": 2026,
  "week": 10,
  "week_label": "Week 10",
@@ -473,7 +473,7 @@
     "home_margin": 4.5,
     "home_win": 0.664,
     "total": 39.5,
-    "over": 0.489,
+    "over": 0.496,
     "home_moneyline": -225,
     "away_moneyline": 185
    },
@@ -1268,9 +1268,9 @@
    }
   ],
   "always_under": {
-   "props": 1145,
-   "wins": 607,
-   "rate": 0.53
+   "props": 1385,
+   "wins": 746,
+   "rate": 0.539
   },
   "promote_min": 400,
   "promote_margin": 0.02,
@@ -1278,10 +1278,10 @@
    {
     "variant": "props_v1",
     "about": "Older games fade 15% a game, and last season counts for 60% at the start of this one.",
-    "props": 1145,
-    "wins": 609,
-    "rate": 0.532,
-    "miss": 18.2,
+    "props": 1385,
+    "wins": 733,
+    "rate": 0.529,
+    "miss": 18.7,
     "test_miss": 18.08,
     "test_log_loss": 0.6642,
     "live": false
@@ -1289,10 +1289,10 @@
    {
     "variant": "this_season",
     "about": "Each player starts the season from his position's average, not last season.",
-    "props": 1145,
-    "wins": 591,
+    "props": 1385,
+    "wins": 715,
     "rate": 0.516,
-    "miss": 18.4,
+    "miss": 18.8,
     "test_miss": 18.68,
     "test_log_loss": 0.6527,
     "live": false
@@ -1300,10 +1300,10 @@
    {
     "variant": "fast_fade",
     "about": "Older games fade 30% a game, and last season counts for 30%.",
-    "props": 1145,
-    "wins": 590,
-    "rate": 0.515,
-    "miss": 18.3,
+    "props": 1385,
+    "wins": 717,
+    "rate": 0.518,
+    "miss": 18.8,
     "test_miss": 18.41,
     "test_log_loss": 0.654,
     "live": false
@@ -1311,10 +1311,10 @@
    {
     "variant": "long_memory",
     "about": "Older games fade 8% a game, and last season counts for 70%.",
-    "props": 1145,
-    "wins": 633,
-    "rate": 0.553,
-    "miss": 18.2,
+    "props": 1385,
+    "wins": 759,
+    "rate": 0.548,
+    "miss": 18.7,
     "test_miss": 17.91,
     "test_log_loss": 0.666,
     "live": true
