@@ -1,6 +1,6 @@
 {
  "kind": "situations",
- "updated": "2026-11-15T12:46-05:00",
+ "updated": "2026-11-16T12:25-05:00",
  "break_even": 0.524,
  "checks": [
   {
@@ -38,8 +38,26 @@
    "source": "built in",
    "conditions": "The model and Vegas favor different teams",
    "bet": "The team the model favors, to win",
-   "verdict": "couldn't test",
-   "note": "No game history from this run."
+   "verdict": "holds up",
+   "note": "Won 47% in 2020\u20132025 when Vegas's chances said 41%. Those chances have the bookmaker's cut removed; a real bet pays it, which eats a couple of points of that edge.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 410,
+     "wins": 189,
+     "pushes": 0,
+     "rate": 0.461,
+     "vegas": 0.423
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 379,
+     "wins": 178,
+     "pushes": 0,
+     "rate": 0.47,
+     "vegas": 0.413
+    }
+   ]
   },
   {
    "id": "269d8fc83b",
@@ -74,8 +92,24 @@
    "source": "built in",
    "conditions": "Points between the model's spread and Vegas's >= 3",
    "bet": "The model's side against the spread",
-   "verdict": "couldn't test",
-   "note": "No game history from this run."
+   "verdict": "doesn't hold up",
+   "note": "Won 49.0% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 2810,
+     "wins": 1392,
+     "pushes": 47,
+     "rate": 0.495
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 2412,
+     "wins": 1182,
+     "pushes": 53,
+     "rate": 0.49
+    }
+   ]
   },
   {
    "id": "43acfa8559",
@@ -110,8 +144,24 @@
    "source": "built in",
    "conditions": "Points between the model's total and Vegas's >= 4",
    "bet": "The model's side of the total",
-   "verdict": "couldn't test",
-   "note": "No game history from this run."
+   "verdict": "doesn't hold up",
+   "note": "Won 50.7% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 0,
+     "wins": 0,
+     "pushes": 0,
+     "rate": null
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 1732,
+     "wins": 878,
+     "pushes": 20,
+     "rate": 0.507
+    }
+   ]
   },
   {
    "id": "041b18d941",
@@ -226,8 +276,24 @@
    "source": "AI lesson",
    "conditions": "Points between the model's total and Vegas's >= 3",
    "bet": "The model's side of the total",
-   "verdict": "couldn't test",
-   "note": "No game history from this run."
+   "verdict": "doesn't hold up",
+   "note": "Won 51.4% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 0,
+     "wins": 0,
+     "pushes": 0,
+     "rate": null
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 2361,
+     "wins": 1213,
+     "pushes": 27,
+     "rate": 0.514
+    }
+   ]
   },
   {
    "id": "334b068a66",
@@ -236,18 +302,52 @@
    "source": "AI lesson",
    "conditions": "Week of the season >= 10",
    "bet": "The under",
-   "verdict": "couldn't test",
-   "note": "No game history from this run."
+   "verdict": "doesn't hold up",
+   "note": "Won 49.6% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 2490,
+     "wins": 1274,
+     "pushes": 29,
+     "rate": 0.512
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 1672,
+     "wins": 830,
+     "pushes": 17,
+     "rate": 0.496
+    }
+   ]
   },
   {
    "id": "30956be94f",
    "league": "College",
-   "title": "When the model picks a different winner than Vegas, this season has gone badly, but past seasons say the model's side holds up.",
+   "title": "When the model picks a different winner than Vegas, this season has gone badly, but past seasons say the model's side holds up. This week's news points to Vegas's side in three of five.",
    "source": "AI lesson",
    "conditions": "The model and Vegas favor different teams",
    "bet": "The team the model favors, to win",
-   "verdict": "couldn't test",
-   "note": "No game history from this run."
+   "verdict": "holds up",
+   "note": "Won 47% in 2020\u20132025 when Vegas's chances said 41%. Those chances have the bookmaker's cut removed; a real bet pays it, which eats a couple of points of that edge.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 410,
+     "wins": 189,
+     "pushes": 0,
+     "rate": 0.461,
+     "vegas": 0.423
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 379,
+     "wins": 178,
+     "pushes": 0,
+     "rate": 0.47,
+     "vegas": 0.413
+    }
+   ]
   },
   {
    "id": "aeb056b81f",
@@ -256,8 +356,50 @@
    "source": "AI lesson",
    "conditions": "Week of the season >= 9",
    "bet": "The favorite against the spread",
-   "verdict": "couldn't test",
-   "note": "No game history from this run."
+   "verdict": "doesn't hold up",
+   "note": "Won 50.4% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 2389,
+     "wins": 1217,
+     "pushes": 42,
+     "rate": 0.509
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 1964,
+     "wins": 990,
+     "pushes": 29,
+     "rate": 0.504
+    }
+   ]
+  },
+  {
+   "id": "945960d02b",
+   "league": "College",
+   "title": "The model often makes big favorites bigger than Vegas does (this week 6+ points on four of five heavy favorites). Whether that edge pays off is unknown.",
+   "source": "AI lesson",
+   "conditions": "Points between the model's spread and Vegas's >= 5; Size of Vegas's spread, in points >= 14",
+   "bet": "The model's side against the spread",
+   "verdict": "doesn't hold up",
+   "note": "Won 47.0% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
+   "periods": [
+    {
+     "label": "2010\u20132019",
+     "games": 731,
+     "wins": 365,
+     "pushes": 10,
+     "rate": 0.499
+    },
+    {
+     "label": "2020\u20132025",
+     "games": 687,
+     "wins": 323,
+     "pushes": 8,
+     "rate": 0.47
+    }
+   ]
   }
  ]
 }
