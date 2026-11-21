@@ -1,6 +1,6 @@
 {
  "league": "NFL",
- "updated": "2026-11-21T16:49-05:00",
+ "updated": "2026-11-21T16:52-05:00",
  "season": 2026,
  "week": 11,
  "week_label": "Week 11",
@@ -9692,9 +9692,9 @@
    }
   ],
   "always_under": {
-   "props": 1404,
-   "wins": 754,
-   "rate": 0.537
+   "props": 1421,
+   "wins": 768,
+   "rate": 0.54
   },
   "promote_min": 400,
   "promote_margin": 0.02,
@@ -9702,9 +9702,9 @@
    {
     "variant": "props_v1",
     "about": "Older games fade 15% a game, and last season counts for 60% at the start of this one.",
-    "props": 1404,
-    "wins": 740,
-    "rate": 0.527,
+    "props": 1421,
+    "wins": 748,
+    "rate": 0.526,
     "miss": 18.8,
     "test_miss": 18.08,
     "test_log_loss": 0.6642,
@@ -9713,9 +9713,9 @@
    {
     "variant": "this_season",
     "about": "Each player starts the season from his position's average, not last season.",
-    "props": 1404,
-    "wins": 723,
-    "rate": 0.515,
+    "props": 1421,
+    "wins": 729,
+    "rate": 0.513,
     "miss": 18.9,
     "test_miss": 18.68,
     "test_log_loss": 0.6527,
@@ -9724,10 +9724,10 @@
    {
     "variant": "fast_fade",
     "about": "Older games fade 30% a game, and last season counts for 30%.",
-    "props": 1404,
-    "wins": 724,
+    "props": 1421,
+    "wins": 733,
     "rate": 0.516,
-    "miss": 18.8,
+    "miss": 18.9,
     "test_miss": 18.41,
     "test_log_loss": 0.654,
     "live": false
@@ -9735,9 +9735,9 @@
    {
     "variant": "long_memory",
     "about": "Older games fade 8% a game, and last season counts for 70%.",
-    "props": 1404,
-    "wins": 767,
-    "rate": 0.546,
+    "props": 1421,
+    "wins": 774,
+    "rate": 0.545,
     "miss": 18.8,
     "test_miss": 17.91,
     "test_log_loss": 0.666,

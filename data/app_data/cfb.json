@@ -1,6 +1,6 @@
 {
  "league": "College",
- "updated": "2026-11-21T16:49-05:00",
+ "updated": "2026-11-21T16:52-05:00",
  "season": 2026,
  "week": 12,
  "week_label": "Week 12",
@@ -853,7 +853,7 @@
   {
    "id": 401856746,
    "kickoff": "2026-11-21T14:00:00-05:00",
-   "status": "in_progress",
+   "status": "final",
    "away": "Chattanooga",
    "home": "Alabama",
    "away_conference": "Southern",
@@ -875,7 +875,10 @@
     "home_moneyline": null,
     "away_moneyline": null
    },
-   "final": null
+   "final": {
+    "away": 0,
+    "home": 47
+   }
   },
   {
    "id": 401862832,
@@ -1754,7 +1757,7 @@
    "model": {
     "home_margin": 20.3,
     "home_win": 0.896,
-    "total": 57.4,
+    "total": 57.3,
     "over": 0.494,
     "home_cover": 0.495
    },
@@ -1987,59 +1990,59 @@
  ],
  "record": {
   "season": {
-   "games": 330,
+   "games": 331,
    "winners": {
-    "right": 216,
-    "picked": 329
+    "right": 217,
+    "picked": 330
    },
    "ats": {
     "win": 152,
-    "loss": 167,
+    "loss": 168,
     "push": 6
    },
    "over_under": {
-    "win": 143,
+    "win": 144,
     "loss": 179,
     "push": 0
    },
    "spread_miss": {
     "model": 12.6,
-    "vegas": 12.1,
-    "games": 330
+    "vegas": 12.0,
+    "games": 331
    },
    "total_miss": {
     "model": 13.8,
     "vegas": 13.1,
-    "games": 330
+    "games": 331
    }
   },
   "weeks": [
    {
     "week": 12,
-    "games": 28,
+    "games": 29,
     "winners": {
-     "right": 17,
-     "picked": 28
+     "right": 18,
+     "picked": 29
     },
     "ats": {
      "win": 13,
-     "loss": 14,
+     "loss": 15,
      "push": 1
     },
     "over_under": {
-     "win": 16,
+     "win": 17,
      "loss": 12,
      "push": 0
     },
     "spread_miss": {
-     "model": 11.6,
-     "vegas": 10.9,
-     "games": 28
+     "model": 11.3,
+     "vegas": 10.6,
+     "games": 29
     },
     "total_miss": {
-     "model": 12.7,
-     "vegas": 12.9,
-     "games": 28
+     "model": 12.4,
+     "vegas": 12.8,
+     "games": 29
     }
    },
    {
@@ -2185,6 +2188,32 @@
   ]
  },
  "results": [
+  {
+   "id": 401856746,
+   "week": 12,
+   "kickoff": "2026-11-21T14:00:00-05:00",
+   "away": "Chattanooga",
+   "home": "Alabama",
+   "final": {
+    "away": 0,
+    "home": 47
+   },
+   "model": {
+    "home_margin": 49.7,
+    "home_win": 0.999,
+    "total": 50.7
+   },
+   "vegas": {
+    "home_margin": 49.5,
+    "home_win": null,
+    "total": 58.5
+   },
+   "winner": true,
+   "ats": "loss",
+   "over_under": "win",
+   "review": null,
+   "total_review": null
+  },
   {
    "id": 401871080,
    "week": 12,
@@ -10826,12 +10855,12 @@
    ]
   },
   "season": {
-   "games": 330,
-   "winners": 0.658,
-   "brier": 0.208,
+   "games": 331,
+   "winners": 0.659,
+   "brier": 0.207,
    "margin_miss": 12.6,
    "total_miss": 13.8,
-   "vegas_margin_miss": 12.1,
+   "vegas_margin_miss": 12.0,
    "vegas_total_miss": 13.1,
    "calibration": [
     {
@@ -10860,9 +10889,9 @@
     },
     {
      "label": "90%+",
-     "games": 29,
-     "predicted": 0.942,
-     "actual": 0.897
+     "games": 30,
+     "predicted": 0.944,
+     "actual": 0.9
     }
    ]
   },
@@ -10919,13 +10948,13 @@
    },
    {
     "week": 12,
-    "games": 28,
-    "winners": 0.607,
-    "brier": 0.2,
-    "margin_miss": 11.6,
-    "total_miss": 12.7,
-    "vegas_margin_miss": 10.9,
-    "vegas_total_miss": 12.9
+    "games": 29,
+    "winners": 0.621,
+    "brier": 0.193,
+    "margin_miss": 11.3,
+    "total_miss": 12.4,
+    "vegas_margin_miss": 10.6,
+    "vegas_total_miss": 12.8
    }
   ]
  }

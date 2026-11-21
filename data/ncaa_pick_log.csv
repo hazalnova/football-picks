@@ -1096,15 +1096,15 @@ logged_at_et,model,season,week,season_type,game_id,kickoff_et,away_team,home_tea
 2026-11-19 17:09,cfb_totals_v1,2026,12,regular,401856750,2026-11-21 13:00,Tennessee Tech,Mississippi State,,,,35.5,55.9,59.5,0.49,,,16,34,18,50
 2026-11-16 12:23,cfb_totals_v1,2026,12,regular,401856868,2026-11-21 13:00,Houston,West Virginia,,0.274,,-8.5,65.6,70.5,0.489,250,-310,34,31,-3,65
 2026-11-16 12:23,cfb_totals_v1,2026,12,regular,401871080,2026-11-21 13:00,Western Kentucky,Liberty,,0.858,,16.5,52.4,52.5,0.493,-850,575,14,45,31,59
-2026-11-19 17:09,"cfb_elo_v1 (k=40, home_field=60, regress=0.5)",2026,12,regular,401856746,2026-11-21 14:00,Chattanooga,Alabama,0.996,,52.2,49.5,,58.5,,,,,,,
+2026-11-19 17:09,"cfb_elo_v1 (k=40, home_field=60, regress=0.5)",2026,12,regular,401856746,2026-11-21 14:00,Chattanooga,Alabama,0.996,,52.2,49.5,,58.5,,,,0,47,47,47
 2026-11-16 12:23,"cfb_elo_v1 (k=40, home_field=60, regress=0.5)",2026,12,regular,401862832,2026-11-21 14:00,Charlotte,Tulsa,0.934,0.92,25.6,22.5,,52.5,,-2100,1100,,,,
 2026-11-16 12:23,"cfb_elo_v1 (k=40, home_field=60, regress=0.5)",2026,12,regular,401871079,2026-11-21 14:00,Missouri State,Jacksonville State,0.796,0.772,13.1,10.5,,52.5,,-410,320,,,,
 2026-11-16 12:23,"cfb_elo_v1 (k=40, home_field=60, regress=0.5)",2026,12,regular,401871081,2026-11-21 14:00,Middle Tennessee,Sam Houston,0.271,0.343,-9.6,-5.5,,48.5,,180,-218,,,,
-2026-11-19 17:09,cfb_margin_v3,2026,12,regular,401856746,2026-11-21 14:00,Chattanooga,Alabama,0.999,,49.7,49.5,,58.5,,,,,,,
+2026-11-19 17:09,cfb_margin_v3,2026,12,regular,401856746,2026-11-21 14:00,Chattanooga,Alabama,0.999,,49.7,49.5,,58.5,,,,0,47,47,47
 2026-11-16 12:23,cfb_margin_v3,2026,12,regular,401862832,2026-11-21 14:00,Charlotte,Tulsa,0.966,0.92,29.3,22.5,,52.5,,-2100,1100,,,,
 2026-11-16 12:23,cfb_margin_v3,2026,12,regular,401871079,2026-11-21 14:00,Missouri State,Jacksonville State,0.811,0.772,14.2,10.5,,52.5,,-410,320,,,,
 2026-11-16 12:23,cfb_margin_v3,2026,12,regular,401871081,2026-11-21 14:00,Middle Tennessee,Sam Houston,0.351,0.343,-6.2,-5.5,,48.5,,180,-218,,,,
-2026-11-19 17:09,cfb_totals_v1,2026,12,regular,401856746,2026-11-21 14:00,Chattanooga,Alabama,,,,49.5,50.7,58.5,0.487,,,,,,
+2026-11-19 17:09,cfb_totals_v1,2026,12,regular,401856746,2026-11-21 14:00,Chattanooga,Alabama,,,,49.5,50.7,58.5,0.487,,,0,47,47,47
 2026-11-16 12:23,cfb_totals_v1,2026,12,regular,401862832,2026-11-21 14:00,Charlotte,Tulsa,,0.92,,22.5,55.1,52.5,0.495,-2100,1100,,,,
 2026-11-16 12:23,cfb_totals_v1,2026,12,regular,401871079,2026-11-21 14:00,Missouri State,Jacksonville State,,0.772,,10.5,54.8,52.5,0.494,-410,320,,,,
 2026-11-16 12:23,cfb_totals_v1,2026,12,regular,401871081,2026-11-21 14:00,Middle Tennessee,Sam Houston,,0.343,,-5.5,54.5,48.5,0.497,180,-218,,,,
