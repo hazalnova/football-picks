@@ -38,7 +38,7 @@
        "vegas": 0.433
       }
      ],
-     "tested": "2026-11-21T16:52-05:00"
+     "tested": "2026-11-22T13:31-05:00"
     }
    },
    {
@@ -76,7 +76,7 @@
        "rate": 0.483
       }
      ],
-     "tested": "2026-11-21T16:52-05:00"
+     "tested": "2026-11-22T13:31-05:00"
     }
    },
    {
@@ -135,7 +135,7 @@
        "rate": 0.489
       }
      ],
-     "tested": "2026-11-21T16:52-05:00"
+     "tested": "2026-11-22T13:31-05:00"
     }
    },
    {
@@ -178,7 +178,7 @@
        "rate": 0.544
       }
      ],
-     "tested": "2026-11-21T16:52-05:00"
+     "tested": "2026-11-22T13:31-05:00"
     }
    },
    {
@@ -207,25 +207,10 @@
      "bet": "model_side_total"
     },
     "test_result": {
-     "verdict": "doesn't hold up",
-     "note": "Won 51.4% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
-     "periods": [
-      {
-       "label": "2010\u20132019",
-       "games": 0,
-       "wins": 0,
-       "pushes": 0,
-       "rate": null
-      },
-      {
-       "label": "2020\u20132025",
-       "games": 2361,
-       "wins": 1213,
-       "pushes": 27,
-       "rate": 0.514
-      }
-     ],
-     "tested": "2026-11-21T16:52-05:00"
+     "verdict": "couldn't test",
+     "note": "No game history from this run.",
+     "periods": null,
+     "tested": "2026-11-22T13:31-05:00"
     }
    },
    {
@@ -245,25 +230,10 @@
      "bet": "under"
     },
     "test_result": {
-     "verdict": "doesn't hold up",
-     "note": "Won 49.6% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
-     "periods": [
-      {
-       "label": "2010\u20132019",
-       "games": 2490,
-       "wins": 1274,
-       "pushes": 29,
-       "rate": 0.512
-      },
-      {
-       "label": "2020\u20132025",
-       "games": 1672,
-       "wins": 830,
-       "pushes": 17,
-       "rate": 0.496
-      }
-     ],
-     "tested": "2026-11-21T16:52-05:00"
+     "verdict": "couldn't test",
+     "note": "No game history from this run.",
+     "periods": null,
+     "tested": "2026-11-22T13:31-05:00"
     }
    },
    {
@@ -290,27 +260,10 @@
      "bet": "model_side_winner"
     },
     "test_result": {
-     "verdict": "holds up",
-     "note": "Won 47% in 2020\u20132025 when Vegas's chances said 41%. Those chances have the bookmaker's cut removed; a real bet pays it, which eats a couple of points of that edge.",
-     "periods": [
-      {
-       "label": "2010\u20132019",
-       "games": 410,
-       "wins": 189,
-       "pushes": 0,
-       "rate": 0.461,
-       "vegas": 0.423
-      },
-      {
-       "label": "2020\u20132025",
-       "games": 379,
-       "wins": 178,
-       "pushes": 0,
-       "rate": 0.47,
-       "vegas": 0.413
-      }
-     ],
-     "tested": "2026-11-21T16:52-05:00"
+     "verdict": "couldn't test",
+     "note": "No game history from this run.",
+     "periods": null,
+     "tested": "2026-11-22T13:31-05:00"
     }
    },
    {
@@ -344,25 +297,10 @@
      "bet": "favorite_spread"
     },
     "test_result": {
-     "verdict": "doesn't hold up",
-     "note": "Won 50.4% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
-     "periods": [
-      {
-       "label": "2010\u20132019",
-       "games": 2389,
-       "wins": 1217,
-       "pushes": 42,
-       "rate": 0.509
-      },
-      {
-       "label": "2020\u20132025",
-       "games": 1964,
-       "wins": 990,
-       "pushes": 29,
-       "rate": 0.504
-      }
-     ],
-     "tested": "2026-11-21T16:52-05:00"
+     "verdict": "couldn't test",
+     "note": "No game history from this run.",
+     "periods": null,
+     "tested": "2026-11-22T13:31-05:00"
     }
    },
    {
@@ -387,28 +325,13 @@
      "bet": "model_side_spread"
     },
     "test_result": {
-     "verdict": "doesn't hold up",
-     "note": "Won 47.0% in 2020\u20132025; it needs about 54.5% to beat the 52.4% break-even with room to spare.",
-     "periods": [
-      {
-       "label": "2010\u20132019",
-       "games": 731,
-       "wins": 365,
-       "pushes": 10,
-       "rate": 0.499
-      },
-      {
-       "label": "2020\u20132025",
-       "games": 687,
-       "wins": 323,
-       "pushes": 8,
-       "rate": 0.47
-      }
-     ],
-     "tested": "2026-11-21T16:52-05:00"
+     "verdict": "couldn't test",
+     "note": "No game history from this run.",
+     "periods": null,
+     "tested": "2026-11-22T13:31-05:00"
     }
    }
   ]
  },
- "updated": "2026-11-21T16:52-05:00"
+ "updated": "2026-11-22T13:31-05:00"
 }
