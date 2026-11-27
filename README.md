@@ -6,17 +6,17 @@ NFL and college football predictions: winners, spreads, totals and NFL player pr
 
 ## What runs when
 
-The **Update picks** workflow (in the **Actions** tab) runs on this schedule. Times are Central and can start a few minutes late.
+The **Update picks** workflow (in the **Actions** tab) runs on this schedule. Lately GitHub has been starting scheduled runs 4 to 11 hours late, so each one is set well before it's needed, and even 11 hours late it finishes before the games it's for. Times are Central:
 
-| When | What runs |
+| Set for | What runs |
 |---|---|
-| Tuesday, about 9:15 AM | Post-game review, then this week's college picks |
-| Thursday, about 9:15 AM | Review, NFL picks before Thursday night, and fresh college lines |
-| Saturday, about 8:15 AM | Fresh college lines before the Saturday games |
-| Sunday, about 6:15 AM | NFL props with the final injury reports |
-| Monday, about 9:15 AM | Grades Sunday's NFL games and refreshes Monday night's game |
+| Tuesday, about 2:15 AM | Post-game review, then this week's college picks |
+| Thursday, about 2:15 AM | Review, NFL picks before Thursday night, and fresh college lines |
+| Friday, about 9:15 PM | Fresh college lines before the Saturday games |
+| Saturday, about 10:15 PM | NFL props with the final injury reports, before Sunday's games |
+| Monday, about 4:15 AM | Grades Sunday's NFL games and refreshes Monday night's game |
 
-From Nov 1 to mid-March, when Central time falls back an hour, each run starts an hour earlier. GitHub sometimes starts scheduled runs late, occasionally by a few hours, so for a game that's about to start, run it yourself.
+These are standard-time hours (Nov to mid-March); during daylight time each is an hour later. For a game that's about to start, or for news that broke after the last run, run it yourself.
 
 Every run saves the updated logs to the `data` folder and republishes the website. For college games, the first logged pick counts, so a later run never changes it. For NFL games, each run replaces the pick until kickoff, so the pick that counts is the last one before kickoff, made with the final injury reports and starting quarterbacks; the first pick's numbers are kept alongside it in the log. Nothing changes after kickoff.
 

@@ -2,13 +2,14 @@ name: Update picks
 
 on:
   schedule:
-    # GitHub schedules use UTC. Central time is UTC-5 until Nov 1 and UTC-6 after, so in winter these run an hour earlier.
-    # GitHub can start scheduled runs a few minutes late.
-    - cron: "17 14 * * 2"   # Tuesday 9:17 AM CDT: post-game review, then this week's college picks
-    - cron: "17 14 * * 4"   # Thursday 9:17 AM CDT: review, NFL picks before Thursday night, fresh college lines
-    - cron: "17 13 * * 6"   # Saturday 8:17 AM CDT: fresh college lines before the Saturday games
-    - cron: "17 11 * * 0"   # Sunday 6:17 AM CDT: NFL props with the final injury reports
-    - cron: "17 14 * * 1"   # Monday 9:17 AM CDT: grade Sunday's NFL games, refresh Monday night's game
+    # GitHub schedules use UTC, and lately GitHub has started scheduled runs 4 to 11 hours late. So each one is set
+    # well before it's needed: even 11 hours late, it still finishes before the games it's for. Times below are CST
+    # (Nov to mid-March); during daylight time they're an hour later.
+    - cron: "17 8 * * 2"    # Tuesday 2:17 AM: post-game review, then this week's college picks
+    - cron: "17 8 * * 4"    # Thursday 2:17 AM: review, NFL picks before Thursday night, fresh college lines
+    - cron: "17 3 * * 6"    # Friday 9:17 PM: fresh college lines before the Saturday games
+    - cron: "17 4 * * 0"    # Saturday 10:17 PM: NFL props with the final injury reports, before Sunday's games
+    - cron: "17 10 * * 1"   # Monday 4:17 AM: grade Sunday's NFL games, refresh Monday night's game
   workflow_dispatch:
     inputs:
       league:
@@ -53,11 +54,11 @@ jobs:
             push) league="website only" ;;
             *)
               case "$SCHEDULE" in
-                "17 14 * * 2") league="college" ;;
-                "17 14 * * 4") league="both" ;;
-                "17 13 * * 6") league="college" ;;
-                "17 11 * * 0") league="nfl" ;;
-                "17 14 * * 1") league="nfl" ;;
+                "17 8 * * 2")  league="college" ;;
+                "17 8 * * 4")  league="both" ;;
+                "17 3 * * 6")  league="college" ;;
+                "17 4 * * 0")  league="nfl" ;;
+                "17 10 * * 1") league="nfl" ;;
                 *) league="both" ;;
               esac ;;
           esac
@@ -181,7 +182,7 @@ jobs:
           PY
           ls -l _site
 
-      - uses: actions/upload-pages-artifact@v4
+      - uses: actions/upload-pages-artifact@v5
         if: ${{ !cancelled() }}
         with:
           path: _site
@@ -189,4 +190,4 @@ jobs:
       - name: Publish the website
         id: deploy
         if: ${{ !cancelled() }}
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
